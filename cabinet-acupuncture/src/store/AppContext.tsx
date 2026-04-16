@@ -273,9 +273,14 @@ export function AppProvider({ children, initialData, cryptoKey, onLock }: AppPro
 
       const anamnese = anamneseParts.join('\n\n')
 
-      const pathologies: string[] = []
-      if (json.motif_consultation) pathologies.push(json.motif_consultation)
-      if (json.symptome?.manifestation) pathologies.push(json.symptome.manifestation)
+      // Préfère les motifs normalisés extraits par l'IA, sinon fallback sur le texte brut
+      const pathologies: string[] =
+        (json as any).motifs_normalises?.length
+          ? (json as any).motifs_normalises
+          : [
+              json.motif_consultation,
+              json.symptome?.manifestation,
+            ].filter(Boolean) as string[]
 
       // Cherche un patient existant avec ce nom (insensible à la casse, ignore le suffixe _N)
       const existing = data.patients.find((p) => {

@@ -25,41 +25,46 @@ export default function PatientFilePage() {
 
   const patient = data.patients.find((p) => p.id === id)
 
-  // Récupère le code pipeline : d'abord depuis le dossier, sinon par recherche par nom
+  // Pré-charge le code pipeline en arrière-plan (pour accélérer le premier clic)
   useEffect(() => {
-    if (!patient) return
-    if (patient.pipelineCode) {
-      setPipelineCode(patient.pipelineCode)
-      return
-    }
+    if (!patient || patient.pipelineCode) return
     const dashboardName = `${patient.prenom} ${patient.nom}`.toLowerCase()
     pipelineClient.listPatients().then((list) => {
       const match = list.find(
         (p) => p.prenom_nom.replace(/_\d+$/, '').toLowerCase() === dashboardName,
       )
-      if (match) {
-        setPipelineCode(match.code)
-        // Mémorise le code dans le dossier pour les prochaines fois
-        updatePatient(patient.id, { pipelineCode: match.code })
-      }
+      if (match) setPipelineCode(match.code)
     }).catch(() => {})
-  }, [patient?.id, patient?.pipelineCode]) // eslint-disable-line react-hooks/exhaustive-deps
-
-  const effectiveCode = patient?.pipelineCode ?? pipelineCode
+  }, [patient?.id]) // eslint-disable-line react-hooks/exhaustive-deps
 
   async function handleOpenOdt() {
-    if (!effectiveCode || !patient) return
+    if (!patient) return
     setOdtStatus('loading')
     setOdtError('')
     try {
-      // Régénère d'abord pour s'assurer que l'ODT est à jour
-      await pipelineClient.regenerateFromDashboard(effectiveCode, patient)
-      await pipelineClient.openOdt(effectiveCode)
+      // Récupère le code pipeline (stocké, pré-chargé, ou recherche à la volée)
+      let code = patient.pipelineCode ?? pipelineCode
+      if (!code) {
+        const dashboardName = `${patient.prenom} ${patient.nom}`.toLowerCase()
+        const list = await pipelineClient.listPatients()
+        const match = list.find(
+          (p) => p.prenom_nom.replace(/_\d+$/, '').toLowerCase() === dashboardName,
+        )
+        if (!match) throw new Error(
+          'Fiche introuvable dans le pipeline. Importez ce patient depuis la page Numérisation.',
+        )
+        code = match.code
+        setPipelineCode(code)
+        updatePatient(patient.id, { pipelineCode: code })
+      }
+      // Régénère pour avoir un fichier à jour, puis ouvre dans LibreOffice
+      await pipelineClient.regenerateFromDashboard(code, patient)
+      await pipelineClient.openOdt(code)
       setOdtStatus(null)
     } catch (e) {
       setOdtStatus('error')
       setOdtError((e as Error).message)
-      setTimeout(() => { setOdtStatus(null); setOdtError('') }, 6000)
+      setTimeout(() => { setOdtStatus(null); setOdtError('') }, 8000)
     }
   }
 
@@ -176,7 +181,7 @@ export default function PatientFilePage() {
             >
               Modifier
             </Link>
-            {effectiveCode && (
+            {true && (
               <button
                 onClick={handleOpenOdt}
                 disabled={odtStatus === 'loading'}

@@ -30,6 +30,7 @@ _SCHEMA: dict = {
         "canal_communication": None,
     },
     "motif_consultation": None,
+    "motifs_normalises": [],   # liste normalisée des problèmes principaux
     "symptome": {
         "manifestation": None,
         "depuis": None,
@@ -72,6 +73,27 @@ Règles générales :
 - Champ absent ou illisible → null.
 - Transcris exactement ce qui est écrit, sans corriger ni interpréter.
 
+Motifs normalisés (motifs_normalises) :
+À partir du motif de consultation et des symptômes décrits, extrais la liste des \
+problèmes de santé principaux sous forme courte et normalisée.
+Ne garde que les problèmes cliniques réels — pas les contextes de vie ni les détails.
+Exemples :
+  "Douleurs articulaires, poignet gauche, sensible au climat. Oeil: orgelet. + hanche."
+    → ["Douleurs articulaires", "Orgelet", "Douleur de hanche"]
+  "Fatigue chronique depuis 2 ans, insomnies, beaucoup d'anxiété professionnelle"
+    → ["Fatigue chronique", "Insomnie", "Anxiété"]
+  "Cervicalgies avec irradiations vers l'épaule droite"
+    → ["Cervicalgie", "Douleur épaule"]
+
+Pouls et langue — règles d'écriture :
+- Ne JAMAIS abréger les qualificatifs. Écrire le mot en entier.
+  ✓ "vide"  ✗ "V"     ✓ "plein"  ✗ "P"    ✓ "tendu"  ✗ "T"
+  ✓ "superficiel"  ✗ "sup."   ✓ "profond"  ✗ "prof."
+  ✓ "rapide"  ✗ "r"    ✓ "lent"  ✗ "l"
+- Le nom du méridien peut rester abrégé (FI = Foie, R = Rein, etc.)
+  mais la qualité du pouls s'écrit en toutes lettres.
+  Exemples corrects : "FI vide", "R plein", "VB tendu superficiel"
+
 Notation des points d'acupuncture :
 Les points sont notés sous la forme : NUMERO MERIDIEN [TECHNIQUE]
   Méridiens : E=Estomac, RP=Rate-Pancréas, F=Foie, VB=Vésicule Biliaire,
@@ -90,7 +112,7 @@ Les points sont notés sous la forme : NUMERO MERIDIEN [TECHNIQUE]
 Pour chaque séance, extrais :
 - date : date de la séance
 - remarques : observations cliniques, ce que dit le patient, évolution
-- pouls_langue : description du pouls et/ou de la langue
+- pouls_langue : description du pouls et/ou de la langue (qualificatifs en toutes lettres)
 - strategie : stratégie thérapeutique notée par le praticien
 - points_utilises : liste d'objets {"code": "...", "technique": "t"|"d"|"t ch"|null}
 - amelioration : score 0-10 si mentionné explicitement (ex "amélioration 7/10" → 7), sinon null
