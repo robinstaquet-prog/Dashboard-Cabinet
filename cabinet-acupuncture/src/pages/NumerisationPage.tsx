@@ -54,7 +54,7 @@ function Spinner() {
 // ── Page principale ────────────────────────────────────────────────────────
 
 export default function NumerisationPage() {
-  const { data, importPipelinePatient } = useAppStore()
+  const { data, importPipelinePatient, deduplicatePatients } = useAppStore()
   const navigate = useNavigate()
 
   const [health, setHealth] = useState<HealthResponse | null>(null)
@@ -181,6 +181,8 @@ export default function NumerisationPage() {
           // import silencieux
         }
       }
+      // Fusionne les doublons créés par les envois multiples du même patient
+      await deduplicatePatients()
       loadPipelinePatients()
     } catch (e) {
       setRunError((e as Error).message)

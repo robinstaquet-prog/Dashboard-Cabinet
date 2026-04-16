@@ -229,11 +229,17 @@ def save_normal(
     password: str,
 ) -> Path:
     """
-    Génère le .docx complet, le chiffre (AES-256) et l'écrit dans out_dir.
-    Génère aussi le .odt chiffré si LibreOffice est disponible.
+    Génère le .docx + .odt complets, les chiffre (AES-256) et les écrit dans out_dir.
+    Remplace toute version précédente pour ce patient (1 fichier par patient).
     Nom fichier : <Prenom_Nom>_<code>.docx / .odt
     Retourne le chemin du .docx créé.
     """
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Supprime les anciennes versions de ce patient (nom peut avoir changé)
+    for old in list(out_dir.glob(f"*_{code}.docx")) + list(out_dir.glob(f"*_{code}.odt")):
+        old.unlink(missing_ok=True)
+
     identite = patient.get("identite") or {}
     raw_name = identite.get("prenom_nom") or "Patient"
     safe = _safe_name(raw_name)
@@ -242,7 +248,6 @@ def save_normal(
     path = out_dir / f"{safe}_{code}.docx"
     path.write_bytes(encrypt_bytes(docx_bytes, password))
 
-    # ODT chiffré (en parallèle du DOCX)
     odt_bytes = _docx_to_odt_bytes(docx_bytes)
     if odt_bytes:
         odt_path = out_dir / f"{safe}_{code}.odt"
@@ -257,17 +262,22 @@ def save_anonymized(
     out_dir: Path,
 ) -> Path:
     """
-    Génère le .docx pseudonymisé et l'écrit en clair dans out_dir.
-    Génère aussi le .odt en clair si LibreOffice est disponible.
+    Génère le .docx + .odt pseudonymisés et les écrit en clair dans out_dir.
+    Remplace toute version précédente pour ce patient.
     Nom fichier : <code>.docx / .odt
     Retourne le chemin du .docx créé.
     """
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Supprime les anciennes versions
+    for old in [out_dir / f"{code}.docx", out_dir / f"{code}.odt"]:
+        old.unlink(missing_ok=True)
+
     docx_bytes = build_docx(patient_anon)
 
     path = out_dir / f"{code}.docx"
     path.write_bytes(docx_bytes)
 
-    # ODT en clair (pseudonymisé)
     odt_bytes = _docx_to_odt_bytes(docx_bytes)
     if odt_bytes:
         odt_path = out_dir / f"{code}.odt"

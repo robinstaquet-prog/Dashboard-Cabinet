@@ -10,6 +10,7 @@ Aucune donnée identifiante n'est écrite en clair sur disque.
 from __future__ import annotations
 
 import copy
+import re
 from pathlib import Path
 
 from .crypto import decrypt_json_from_file, encrypt_json_to_file
@@ -28,6 +29,19 @@ IDENTITY_KEYS = [
 
 CODE_PREFIX = "P"
 CODE_WIDTH = 4  # P0001 … P9999
+
+
+# ---------------------------------------------------------------------------
+# Normalisation du nom (artefacts Tailscale)
+# ---------------------------------------------------------------------------
+
+def normalize_name(prenom_nom: str) -> str:
+    """
+    Retire le suffixe numérique Tailscale d'un nom de patient.
+    Ex : "Bernard Hofmann_10" → "Bernard Hofmann"
+         "Nicole Chalet_2"   → "Nicole Chalet"
+    """
+    return re.sub(r"_\d+$", "", prenom_nom.strip()).strip()
 
 
 # ---------------------------------------------------------------------------
@@ -73,9 +87,14 @@ def next_code(mapping: dict) -> str:
 
 
 def find_code(prenom_nom: str, mapping: dict) -> str | None:
-    """Recherche un code par prenom_nom exact. Retourne None si introuvable."""
+    """
+    Recherche un code par prenom_nom, insensible à la casse et au suffixe _N.
+    Ex : "Bernard Hofmann_10" trouve "Bernard Hofmann".
+    """
+    needle = normalize_name(prenom_nom).lower()
     for code, identity in mapping.items():
-        if identity.get("prenom_nom") == prenom_nom:
+        stored = normalize_name(identity.get("prenom_nom", "")).lower()
+        if stored == needle:
             return code
     return None
 
@@ -88,15 +107,16 @@ def get_or_create_code(
     """
     Retourne (code, created).
 
-    - Si prenom_nom existe dans mapping → (code_existant, False).
-    - Sinon crée une nouvelle entrée dans mapping → (nouveau_code, True).
+    - Si prenom_nom existe dans mapping (après normalisation) → (code_existant, False).
+    - Sinon crée une nouvelle entrée avec le nom propre (sans suffixe _N).
     - mapping est muté en place ; appeler save_mapping() ensuite.
     """
     existing = find_code(prenom_nom, mapping)
     if existing:
         return existing, False
     code = next_code(mapping)
-    mapping[code] = {**identity_data, "prenom_nom": prenom_nom}
+    clean = normalize_name(prenom_nom)
+    mapping[code] = {**identity_data, "prenom_nom": clean}
     return code, True
 
 

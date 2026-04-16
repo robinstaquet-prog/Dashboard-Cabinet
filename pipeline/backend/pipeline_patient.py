@@ -38,7 +38,7 @@ from .compressor import compress_many
 from .crypto import encrypt_json_to_file
 from .docx_generator import save_anonymized, save_normal
 from .photo_watcher import PhotoBatch, ScanResult, scan
-from .pseudonymizer import anonymize, get_or_create_code, load_mapping, save_mapping
+from .pseudonymizer import anonymize, get_or_create_code, load_mapping, normalize_name, save_mapping
 from .vision_extractor import extract
 
 log = logging.getLogger(__name__)
@@ -173,7 +173,9 @@ def _process_batch(
     json_dir: Path,
 ) -> BatchResult:
     """Traite toutes les photos d'un patient et produit les deux docx."""
-    log.info("Traitement : %s (%d photo(s))", batch.prenom_nom, len(batch.files))
+    # Nom propre : retire le suffixe Tailscale (_10, _2…) — même patient, envois multiples
+    clean_name = normalize_name(batch.prenom_nom)
+    log.info("Traitement : %s → %s (%d photo(s))", batch.prenom_nom, clean_name, len(batch.files))
 
     # 1. Compression (redimensionne ≤ 1280×960, JPEG 80)
     compressed = compress_many(batch.files)
@@ -181,14 +183,14 @@ def _process_batch(
     # 2. Extraction vision via Claude
     patient_data = extract(compressed, api_key=config.api_key)
 
-    # Le nom du fichier fait foi : on écrase ce que l'OCR a pu lire
+    # Le nom normalisé fait foi (pas l'OCR ni le suffixe Tailscale)
     if patient_data.get("identite") is None:
         patient_data["identite"] = {}
-    patient_data["identite"]["prenom_nom"] = batch.prenom_nom
+    patient_data["identite"]["prenom_nom"] = clean_name
 
-    # 3. Code patient (crée si inconnu du mapping)
+    # 3. Code patient — recherche par nom normalisé (crée uniquement si vraiment nouveau)
     code, created = get_or_create_code(
-        prenom_nom=batch.prenom_nom,
+        prenom_nom=clean_name,
         identity_data=patient_data.get("identite", {}),
         mapping=mapping,
     )
