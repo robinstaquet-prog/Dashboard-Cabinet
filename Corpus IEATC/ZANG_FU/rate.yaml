@@ -1,0 +1,544 @@
+# RATE-PANCREAS — PHYSIOLOGIE INDIVIDUELLE
+# Source : PVI Physiologie tome 2, pp. 29-37
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: rate.yaml
+  source: PVI_Physio_t2_p29_37
+  statut: complet
+  liens:
+    - ZANG_FU/role_general_tsang.yaml
+    - THEORIE/hierarchie_sang_energie.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_saisons.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+    - THEORIE/tsang_fou_physiologie_t1.yaml
+
+identite:
+  titre: Ministre_de_l_agriculture_Maitresse_du_Yin
+  polarite: neutre_Yin_extreme_So_Ouen_ch5
+  element: Terre
+  foyer: FM
+  axe: partie_amont_du_Tae_Yin
+  couple_Yang: Estomac
+  composition: rate_gauche_plus_pancreas_droite_indissociables
+  centre_action: 13F_point_Maitre_energie_5_tsang
+  role_So_Ouen_ch6: >
+    Rate est neutre mais responsable de la distribution
+    et des transformations du sang et des énergies tsing
+    spécifiquement entre les 5 tsang.
+
+fonctions_energetiques:
+  maitresse_du_Yin:
+    principe: >
+      Toute la fabrication et la gestion du Yin général
+      dépendent de la rate : énergie Yin, sang, lymphe,
+      liquides organiques (ching et ié), toutes les humeurs.
+    lait: transformation_du_sang_rouge_en_sang_blanc
+    besoin_de_Yang: >
+      Très Yin, a particulièrement besoin de Yang pour fonctionner.
+      Yang fourni par l'estomac et le Rein Yang (R+).
+      Sans Yang → congestion rapide avec gonflement (stagnation sang).
+    R_plus_fondamental: >
+      R+ fournit son Yang à la rate et à l'estomac.
+      Yang du R+ dynamise tout le FI dont la fonction est
+      de drainer le FM. Sans R+ → FM saturé d'eau = marécage.
+      Glaires au FM → excès humidité et froid → glaires envahissent vessie.
+      Glaires = humidité + froid (le froid épaissit).
+
+  ROLE_FONDAMENTAL_TRI_TSING:
+    ALERTE: CONFIRME_PAR_PRATICIEN_C004_RESOLU
+    principe: >
+      La Rate est l'étiqueteur des Tsing dans l'Iong.
+      Elle reçoit les souffles énergétiques, les dirige et les répartit.
+      Elle codifie selon leur élément d'appartenance les stimuli
+      captés par les organes des sens et les intègre dans les liquides
+      correspondants (stimuli Bois dans un liquide Bois).
+      Elle les distribue ensuite à chaque tsang correspondant.
+      Il existe 5 liquides purs, un pour chaque tsang.
+    source: PVI-t2-p34_35_et_confirmation_praticien
+
+  nutrition:
+    principe: >
+      Gestion de TOUTE l'alimentation et nutrition par iong.
+      Commande toutes les distributions des liquides,
+      énergies et sang nutritionnels.
+    gouverne:
+      - travail_estomac_fragmentation_separation
+      - sucs_gastriques_sont_liquide_de_la_rate
+      - commande_estomac_pour_monter_ku_tchi_au_FS
+      - distribution_energies_issues_des_tris
+      - nutrition_de_tous_les_tissus
+    repartition: >
+      oé dépend du poumon, le sang du foie et du coeur,
+      l'énergie ancestrale des reins et du Tchrong Mo.
+
+  la_forme:
+    principe: >
+      La Terre possède le pouvoir de cristalliser les énergies
+      en matières minérales. Leur donne leur structure moléculaire
+      et leur forme cristalline.
+    uterus: >
+      Le Centre = l'utérus. La muqueuse utérine agit sur l'embryon
+      comme la Terre sur les minéraux. La Femme est Terre,
+      l'Homme est Ciel (pouvoir fertilisant).
+    instinct_maternel: depend_de_la_rate
+
+  volume_du_corps:
+    principe: >
+      Volume des chairs et du corps est fonction de son activité
+      nutritionnelle, de transformation et de distribution.
+    amaigrissement: pathologie_rate_defaut_nutrition
+    obesite:
+      Metal_seul: exces_engrangement_alimentation_normale
+      Terre_seule: suralimentation
+    cellulite:
+      cause: >
+        Froid attaque méridiens en bas du corps chez la femme
+        (Chao Yang plus faible au profit du Tsiue Yin).
+        Culotte de cheval = VB + E (-V). Là où cellulite = manque Yang et froid.
+      association: constipation_chronique_VB_bile_peristaltisme
+
+  liquides:
+    principe: >
+      Dirige TOUS les liquides du corps : volume, quantité,
+      distribution aux tissus, hydratation/humidification.
+    5_liquides_purs:
+      rein: urine_et_serosité_parotidienne
+      rate: salive
+      foie: larmes
+      coeur: sueur
+      poumon: mucus_bronchique
+    volume_sanguin: commande_par_quantite_eau_et_gestion_GR
+    anemie_hypotension_menopause: affaiblissement_de_la_rate
+    muqueuses_et_vieillissement: >
+      Vers la cinquantaine, Yin s'affaiblit, énergie Rate décline.
+      Chairs se relâchent et se dessèchent. Yang Ming touché
+      (sécheresse visage → rides). Muqueuses artères/veines
+      s'affaiblissent → ulcère variqueux, phlébite, artérite.
+    Kao_et_Roang: deja_expliques_fonctions_imbibition_et_enveloppe
+
+  defense_interne:
+    principe: >
+      Maîtresse de la défense interne contre les Xié (fong internes).
+      Produit la lymphe et dirige le système lymphatique.
+      Lutte contre les intoxications internes.
+
+  sang_memoire:
+    principe: >
+      Le sang porte la mémoire de la famille (mémoire = rate dans 5E).
+      Groupes sanguins, rhésus, spécificité familiale des tissus.
+    citation_Steiner: "Le sang véhicule l'âme spirituelle."
+    lien_rein: >
+      GR produits par moelles (dépendent du rein et énergie ancestrale).
+      Mémoire associée aux GR liée au passé inconscient enfoui
+      dans le squelette.
+
+  source: PVI-t2-p29_37
+
+physiologie_occidentale:
+  rate_organe: tombeau_des_globules_rouges_glande_endocrine
+  pancreas: glande_exocrine_secretion_insuline_glycemie
+  foie_en_amont: glycogenese_digestive_detruit_sucre_exces
+  diabete_et_cholesterol: dereglement_systeme_Terre
+  sucs_gastriques:
+    decouverte: >
+      Dès la mastication, les aliments libèrent des particules
+      liées à leur goût. La muqueuse de l'estomac sécrète
+      immédiatement un suc gastrique SPÉCIFIQUE de cet aliment
+      avant même que la 1ère bouchée n'y parvienne.
+    absorption_perlinguale: >
+      Ramification profonde du méridien de la rate se termine
+      sous la langue. Phénomène perlingual = homéopathie
+      et oligothérapie.
+  source: PVI-t2-p33_34
+
+physiologie_dans_foyer:
+  muqueuse_estomac: tissu_de_la_rate_pas_de_l_estomac
+  sucs_gastriques: >
+    Liquides appartenant à la rate (sécrétés par muqueuse).
+    L'estomac les transforme en très acides (Bois/VB).
+    L'estomac = poche musculaire contenant la muqueuse de la rate.
+  humidit_et_glaires: >
+    Mauvaise transformation → accumulation humidité.
+    Humidité + froid = glaires.
+  source: PVI-t2-p34_35
+
+periodes_activite:
+  quadrant: Centre_FM
+  cycle_iong: 9h_a_11h
+  lune: chaque_milieu_de_quartier_4_fois
+  saison: 5eme_saison_30_derniers_jours_ete_juillet
+  inter_saison: 4_fois_18_jours
+  planete: Saturne_quand_avance
+  etoiles: Tae_Yin_au_Ciel
+  source: PVI-t2-p36
+
+physiologie_5_elements:
+  centre_digestif: FM_barriere
+  centre_etre: zone_nombril_cordon_ombilical_lien_mere_heredite
+  transition_saisonniere:
+    principe: >
+      Reçoit l'énergie des tsang à la fin de leur saison.
+      La transforme et la transmet au tsang Fils.
+      Possède l'intelligence de la distribution et la mémoire
+      de la future saison.
+    propre_periode: 30_derniers_jours_ete_s_occupe_d_elle_meme
+  mouvement_Terre: >
+    La Terre donne naissance, porte et fait croître tous les êtres.
+    Aucune saison ne modifie leur activité (permanente).
+    Pouls constant en amplitude et souplesse.
+  tissu: chairs_muscles_bouche_langue_levres
+  liquide_pur: salive
+  sens: gout_global_et_tact
+  source: PVI-t2-p36_37
+
+enrichissement_5_elements:
+  element: Terre
+  nature_fonctionnelle: recevoir_semences_produire_recoltes
+  Tou_vs_Ti: >
+    La Terre nourricière (Tou) vs la Terre matière (Ti).
+    Capital pour stérilités : muqueuse utérine doit être
+    Tou (accueillante), pas Ti (inerte).
+  centre_referentiel: >
+    Centre parmi les 4 organes. Neutre, externe au cycle.
+    Stabilité, fiabilité, sincérité.
+  organe_fondamental: >
+    2ème organe fondamental dans les séquences de la vie.
+    Représente l'énergie acquise, le Ciel postérieur.
+  deplacement_50km: >
+    Tout déplacement > 50 km perturbe le centre.
+    5 jours pour retrouver l'équilibre.
+    Changement fuseau = Rate + Rein.
+    Changement hémisphère = tout l'organisme.
+  double_activite_5E: >
+    1) Activité propre : 30 jours fin d'été (juillet),
+    régénération indépendante.
+    2) Activité transmission : 4 × 18 jours d'intersaison,
+    transformer l'énergie entre deux saisons.
+    Seule la Terre peut neutraliser et transformer
+    les qualités d'une saison pour préparer la suivante.
+  Rate_constante: >
+    Intensité énergétique ne varie pas notablement
+    selon les saisons qui passent.
+  couleur: jaune_recoltes_loss_fleuve_jaune_Empereur
+  pathologie_5E: >
+    Surcharges graisseuses et cellulitiques.
+    ATTENTION : obésité = Métal (pas Terre).
+    Boulimie = IG (pas Terre).
+  source: PVII-t1-p42_44_49_54
+
+enrichissement_5E_t2:
+  cour_imperiale:
+    5eme_saison: Empereur_le_plus_puissant
+    automne: Mere_faible
+    hiver: Conseiller_energique
+    printemps: Ennemi_vaincu_soumis
+    ete: Fils_vigoureux
+  role_dans_cycle_Tcheng: >
+    La Rate transforme l'énergie de chaque saison
+    AVANT de la transmettre à l'élément fils.
+    Rôle fondamental de neutralisation et mutation.
+    Iong = énergie active modulée par la Rate.
+  correspondances_completes:
+    therapeutique: dietetique
+    psychisme: I_Yi
+    vertu: fidelite
+    relation: maitre_serviteur
+    expression: chant
+    voix: chantant
+    position: assis
+    ministere: grenier_public
+    cereale: millet
+    viande: boeuf
+    son: Kong
+    odeur: parfume_sucre
+    saveur: doux
+    sens: tact
+    liquide: salive_epaisse
+    organe_des_sens: bouche_levres
+    expansion: levres
+    tissu: chair_muscle
+  resume_activites_PVII_t2: >
+    Grenier de l'organisme, toutes les mutations du sang
+    et de l'énergie, gère liquides organiques, maintient
+    les formes (chair, muscles, membres, organes en place).
+  source: PVII-t2-p18_25
+
+enrichissement_5E_t3:
+  so_ouen_chap5_Terre: >
+    Centre → humidité → sol → doux → Rate → chair → Poumon.
+    La Rate gouverne la bouche. CHEUN associé = I/Yi (idée, intentionnalité).
+    Les idées calmes empêchent la dispersion de la sagesse.
+    Sentiment : méditation/pensée. Ko : colère (Foie) domine la pensée.
+    Blessure externe : humidité blesse la chair. Ko : vent domine humidité.
+  points_su_Rate:
+    Ting_Bois: 1Rte
+    Iong_Feu: 2Rte
+    Iu_Terre: 3Rte
+    King_Metal: 5Rte
+    Ro_Eau: 9Rte
+  axes_5E_t3:
+    groupe_meridiens: Terre_centre_Foyer_moyen
+    fonction_groupe: articuler_tous_les_mouvements_haut_bas
+    element_mouvement: Terre
+    fou_maitre: Estomac
+    note: >
+      La Rate = pivot de tous les groupes de méridiens.
+      Reçoit, transforme et distribue les mélanges énergies
+      Ciel + énergies Terre avant de les envoyer aux Tsang.
+  ko_emotionnel_clinique: colere_Foie_domine_meditation_Rate
+  liens_nouveaux:
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+    - THEORIE/cinq_elements_mouvements_5E.yaml
+    - THEORIE/cinq_elements_points_su.yaml
+  source: PVII-t3-p15_44
+
+enrichissement_5E_t4:
+  pathologie_5E:
+    Terre_essentielle: >
+      Estomac = maître tout le Yang (36E).
+      Rate = maître tout le Yin (3Rte).
+    interrogatoire_vide_plenitude:
+      plenitude: deteste_sucre_soucieux_anxieux_idees_fixes_passeiste_chair_contracturee
+      vide: recherche_sucre_insouciant_tete_vide_dyslexie_temporelle_chair_flasque
+    point_penn: 3Rte_iu_Terre
+    palpation_abdominale:
+      Terre_centre: nombril_deblocage_5Rte_d
+      Terre_digestive: sus_ombilicale_deblocage_6Rte_d
+    schema_classique: >
+      Terre vide/bloquée = schéma le plus fréquent.
+      Rein+Rate vides = épuisement énergie ancestrale.
+    souplesse_pouls: >
+      La souplesse (Terre) doit être présente toute
+      l'année en trame de fond de tous les pouls.
+  liens_nouveaux:
+    - THEORIE/cinq_elements_pathologies_cycles.yaml
+    - THEORIE/cinq_elements_pathologies_bilan.yaml
+  source: PVII-t4-p55_91
+
+# --- ENRICHISSEMENT SÉMINAIRE PVI t3 (EEA Tsang/Fou tome 3) ---
+enrichissement_seminaire_t3:
+  tronc_granges_greniers:
+    principe: >
+      La Rate, liée à E/IG/GI/V/TR, fait le tronc d'enracinement des granges et
+      greniers (Su Wen chap. 9). "Granges et greniers" = mouvement d'apporter du grain
+      et venir en chercher quand on en a besoin. La Rate est le tronc d'enracinement
+      du Ciel Postérieur dans le corps de l'Homme.
+    cinq_fu_associes: >
+      Les 5 Fu de transport et transformation (E, IG, GI, V, TR) sont sous son
+      rattachement au chapitre 9 du Su Wen. Le tronc du CP = E/Rte,
+      le tronc du CA = R.
+  plaque_tournante:
+    principe: >
+      A partir de la plaque tournante au centre de l'individu (élément Terre,
+      Réchauffeur Moyen) se fait un premier et essentiel dispatching des énergies
+      tirées de l'alimentation. Le Jing Wei (subtilité essentielle) de E passe
+      vers la Rte et est à l'origine des liquides interstitiels, des sucs qui
+      donnent le sang et de tout ce qui va alimenter le corps.
+  elaboration_liquides:
+    Jin_Ye: >
+      Les Jin Yé sont élaborés à partir des Jing Wei dans le champ de la Rte.
+      Elle les envoie dans tout le corps pour irriguer et nourrir. Une partie
+      est vaporisée et s'élève au P. Le P exerce sa fonction de QING SU
+      (éclaircir, refroidir, condenser, faire descendre).
+    formation_sang: >
+      A partir des Jin Yé, il y a élaboration de sucs extrêmement condensés et
+      riches. Ces sucs s'élèvent de la Rte au Mo du P. Au champ d'oxygénation
+      du P, une série de changements se fait et alors on peut parler de sang.
+      Le sang est présenté au C qui l'envoie dans tout le corps.
+  relation_F_Rte:
+    principe: >
+      Le sang du F apporte son aide à la Rte et les transports/transformations
+      de la Rte aident le F à faire circuler et s'écouler les énergies.
+      Si transports de la Rte faibles : insuffisance du sang du F, manque
+      d'appétit, ventre gonflé, gros besoin semi-liquide. Si Souffles du F
+      obstrués : ballonnements, nausées, vomissements, diarrhées (cycle de mépris).
+  liens_nouveaux:
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    - CLINIQUE/pathologies_diarrhees.yaml
+  source: PVI-t3-p26_29
+
+# ─── Enrichissement EEA t1 (séminaire CLM déc. 1981) ──────
+
+enrichissement_EEA_t1:
+  yi_et_rate: >
+    Le YI est lié à la Rate. C'est l'assemblage de l'ensemble
+    spirituel (Hun + Po) en une proposition, un discours intérieur
+    articulé, une forme mentale. Conscience qui entretient tout
+    ce que nous faisons. Idéogramme : bouche pour parler + radical
+    du Cœur = musique du Cœur. Excès de Yi = régurgitation mentale,
+    obsession, retour vers le passé.
+  rate_tronc_CP: >
+    Ming Men est le C.A., la Rate est le C.P. = deux grandes
+    sources de l'être. La Rate est le « tronc du Ciel Postérieur ».
+    Les naissances-transformations (SHENG HUA) de la Rate-Terre
+    s'appuient sur la chaleur nourricière du Feu de Ming Men.
+    Mais inversement, le Yang authentique du C.A. a besoin de
+    la contribution continuelle du C.P. (Rate). Interdépendance.
+  jing_wei_et_rate: >
+    Jing Weï (essence subtile des aliments) sort de l'Estomac
+    pour aller vers la Rate où d'autres transformations produisent
+    les liquides interstitiels (Jing Yé). Le Jing = aspect clair
+    (fluide, rapide), le Yé = aspect opaque (épais, profond).
+    Formés depuis le Réchauffeur Moyen.
+  source: PVI-EEA-t1-p54_67
+
+# ─── Enrichissement EEA t2 (séminaires CLM mai 1982 + juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_sixieme_charge: >
+    Rte/E en 6ème-7ème position (Su Wen ch.8). Charnière entre
+    les charges nobles (C, P, F, VB, Tan Zhong) et les charges
+    de transit (GI, IG). Charge des « granges et greniers » =
+    double mouvement : engranger ET venir chercher ce qui a été
+    engrangé pour nourrir le peuple. Ce qui en résulte : les 5
+    saveurs.
+  cinq_saveurs: >
+    Les aliments reçus ne sont pas « moi » mais contiennent de
+    quoi être « moi ». L'opération d'assimilation se traduit par
+    les 5 saveurs = 5 façons de thésauriser la vie par les 5 Zang.
+    La Rate redistribue dans l'organisme ce qui restructure chaque
+    fonction. L'acide va au Foie, l'amer au Cœur, etc.
+  yun_hua: >
+    YUN HUA = transporter et transformer. Fonction spécifique
+    de E/Rte. Transporter dans toutes les parties du corps
+    et assurer les transformations sur le bol alimentaire.
+    C'est la fonction de la Rte, PAS celle des Fu du tube digestif.
+  rate_et_liquides: >
+    Su Wen ch.21 : les liquides entrent à l'E, Rte extrait le
+    Jing sous forme liquidienne. Rte a un rôle essentiel dans
+    la formation de tous les liquides interstitiels du corps et
+    leur distribution. Sucs liquidiens formés à partir de la Rte
+    = base de la formation du sang. Rte diffuse vers F et P.
+  constipation_et_rate: >
+    Quand Rte/E perdent leur capacité de digérer et broyer,
+    les Souffles des Fu ne communiquent plus. Dans la constipation
+    par plénitude alimentaire, c'est la fonction d'élévation
+    qui est en panne = trouble de l'abaissement du RM.
+  source: PVI-EEA-t2-p11_13_45
+
+enrichissement_YY_t2:
+  acquis_et_rate: >
+    L'Estomac (commandé par la Rate) = réceptacle des énergies
+    nourricières = l'ACQUIS. Par opposition au Rein = l'INNÉ.
+    Le couple Rein/Rate-Estomac incarne le passage du Ciel antérieur
+    au Ciel postérieur. La création de l'Homme correspond au Rein
+    (énergie originelle) ET à l'Estomac (énergies nourricières).
+  centre_de_homme: >
+    La partie Homme dans la sectorisation humaine correspond au
+    foyer moyen (sphère digestive = Rate/Estomac). Ce centre est
+    bipolaire à égalité : Yin = Yang. C'est le lieu d'échange,
+    l'espace où les énergies Ciel et Terre mutent et se transforment.
+    C'est aussi le 3ème facteur entre Yin et Yang — la Terre entre
+    les 5 Éléments.
+  adaptation_et_rate: >
+    Le pouvoir d'adaptation de l'organisme repose sur la vitalité
+    de certains organes, dont la Rate est fondamentale. L'alimentation
+    absorbée (gérée par Rate/Estomac) est un des 3 piliers de la
+    faculté d'adaptation. La fragilité provient d'une insuffisance
+    de l'énergie des 3 mécanismes d'équilibration.
+  source: PIV-YY-t2-p20_30
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  organe_le_plus_yin: >
+    La Rate est l'organe le PLUS YIN du corps. Elle assume
+    sa fonction grâce au Yang venant de l'Estomac. Si E faible
+    → Yang utilisé vient directement des Reins (énergie ancestrale),
+    ce qui les épuise. La Rte ne vient pas apporter son humidité
+    à E → sécheresse du visage (Rate = Taé Yin = humidité).
+  meridien_soucis: >
+    Le méridien de Rate est le méridien des SOUCIS et de
+    l'ANXIÉTÉ. 5Rte d = grand point des soucis. 3Rte d =
+    apaise la tendance aux soucis (cas Jean-Charles goutte).
+  cede_difficilement: >
+    La Rate cède DIFFICILEMENT au traitement. Il faut y
+    revenir souvent. On sollicite la Rate toute la journée
+    pour faire des choix (comme les Reins pour la décision).
+  zones_blocage:
+    1_cheville: "5Rte — grand point anxiété/soucis"
+    2_genou: "9Rte — grand point antispasmodique organes creux"
+    3_bassin: "13Rte — grand point fong (infections) abdominaux"
+    4_ceinture: "15Rte — fonctionnement GI, constipation, colite"
+    5_emotionnel: "21Rte — grand point capillaires superficiels, ouvre passage Rate→Cœur (circuit Iong)"
+    technique: >
+      Commencer par le bas si lieu du blocage inconnu.
+      Disperser 5Rte, si ça se débloque OK, sinon remonter
+      zone par zone. Si émotionnel → 21Rte directement.
+  6rte_alerte: >
+    6Rte (Sann Yin Tsiao) = Yin physique, croisement 3 Yin MI.
+    Action majeure sur R, Rte, F. Gère Yin jusqu'au nombril.
+    Grand point varices. MAIS: NE JAMAIS DISPERSER chez
+    une femme à règles trop abondantes ou hémorragies.
+  langue_et_rate: >
+    Traces de dents sur les bords de la langue = Rate.
+    Le volume de la langue est lié à la Rate. Si traces →
+    langue trop volumineuse = excès du Yin organique.
+    Fissure longue sur la langue = atteinte de Rate.
+  hemorrhagie:
+    sang_present: "9P d — l'énergie du sang vient du P"
+    vide_de_sang: "1Rte t + moxas — pas d'aiguille car vide"
+  source: PIV_YY_tomes4-5_CP_I
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  propulsion_ku_tchi: >
+    La Rate fait monter au thorax Ku Tchi (énergie nutritionnelle pure
+    extraite de l'alimentation par l'Estomac). Elle dirige le volume
+    sanguin, les liquides du corps et son humidification. Elle reçoit
+    des Reins les liquides purs et les transmet au Poumon.
+  eau_terre_fondamentales: >
+    Dans la morula embryonnaire, la survie des cellules ne dépend que de
+    2 énergies : Eau (énergie ancestrale, reproduction) et Terre
+    (entretien de la vie). Rein et Rate sont et resteront toute la vie
+    les 2 organes FONDAMENTAUX de la vie conforme à l'Ordre.
+  chaleur_humidite: >
+    L'apparition de la vie nécessite 2 facteurs : la chaleur (Rein) et
+    l'humidité (Rate). Nos cellules ont besoin de ces 2 qualités
+    fournies par ces 2 organes fondamentaux.
+  yin_extreme_confirme: >
+    La Rate est le "Yin extrême" (élément Terre). L'Estomac est le
+    Maître du Yang. Le foyer moyen est Yin = Yang (équilibré).
+  13F_point_Mo: >
+    13F = Maître du Yin du foyer moyen, Mo de la Rate, Maître de
+    l'énergie des 5 Tsang. Un des 3 points de commande du FM avec
+    12JM (Yang du FM) et 6MC (Yin digestif et psychique).
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  identification_aliments: >
+    L'identification des aliments se fait dès la bouche par la Rate
+    via l'absorption perlinguale de la muqueuse et la salive. Cette
+    reconnaissance conduit à la sécrétion immédiate d'un suc gastrique
+    spécifique. La Rate COMMANDE la fonction de l'Estomac. Tous les
+    sucs gastriques sont des liquides de la Rate émis par la muqueuse
+    stomacale.
+  autorite_defense_interne: >
+    Toute la fonction de défense interne (sang blanc = lymphe) est
+    sous l'autorité de la Rate. Les canaux lymphatiques conduisent
+    perversités, germes et cellules anormales aux ganglions. Les
+    amygdales et l'appendice sont des barrières sous son contrôle.
+  mutation_cinq_elements: >
+    La Rate effectue la mutation de l'énergie des liquides et solides
+    selon les 5 éléments à chaque pause respiratoire (apnée). Elle
+    occupe la place médiane dans le cycle respiratoire.
+  saveur_et_tsing: >
+    Les caractéristiques physiques de l'aliment sont le tsing de
+    l'aliment. La Rate les mute en souffle approprié à l'un des 5
+    Éléments → tsing propre de l'un des 5 organes. La saveur (arôme)
+    est extraite par mastication + salive (Rate), perçue dans l'arrière-
+    nez, distincte du goût.
+  selles_fines_rate: >
+    Les selles fines sont une pathologie de la rate. La diarrhée
+    chronique et ancienne est un signe d'angoisse liée à une
+    pathologie de la rate.
+  source: PV-3F-t2

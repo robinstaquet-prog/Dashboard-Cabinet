@@ -1,0 +1,157 @@
+# THERMORÉGULATION — SANG ET ÉNERGIE
+# Source : PVI Physiologie tome 1, pp. 32-40
+# Auteur : Thierry Bollet
+
+meta:
+  fichier: thermoregulation.yaml
+  source: PVI_Physio_t1_p32_40
+  statut: complet
+  liens:
+    - THEORIE/tsang_fou_physiologie_t1.yaml
+    - ZANG_FU/role_general_tsang.yaml
+
+sang_et_energie_nature:
+  yang_moins_manifeste: energies_iong_et_oe
+  yin_plus_manifeste: sang_et_liquides_organiques
+  loi_fondamentale: >
+    Sang et énergie ont HORREUR du froid et adorent la chaleur.
+    Lorsqu'il fait froid, ils refluent tous deux en profondeur
+    se réfugier dans les organes.
+    Seule subsiste en surface un peu d'énergie oé.
+  relation_iong_sang: >
+    L'énergie Iong circule avec le sang. Elle l'anime,
+    lui donne sa mobilité et lui apporte la chaleur.
+    Le sang artériel et l'énergie circulent ENSEMBLE dans les méridiens.
+  source: PVI-t1-p32_33
+
+meridien_definition_IEATC:
+  ALERTE: >
+    Les méridiens NE SONT PAS les lignes sur les planches d'acupuncture.
+    Ces lignes ne réunissent que les points qui agissent sur les méridiens.
+  definition_reelle: >
+    Territoire anatomique LARGE ET PROFOND contenant toutes les structures :
+    os, articulations, muscles, nerfs, artères, veines, canaux lymphatiques.
+  source: PVI-t1-p32
+
+proportions_sang_energie_par_axe:
+  Yang_Ming:
+    sang: plus_plus
+    energie: plus_plus
+  Tae_Yin:
+    sang: moins_plus
+    energie: moins_plus
+  Chao_Yang:
+    sang: moins_plus
+    energie: plus_moins
+  Tsiue_Yin:
+    sang: plus_moins
+    energie: moins_plus
+  Tae_Yang:
+    sang: plus_moins
+    energie: moins_plus
+  Chao_Yin:
+    sang: moins_plus
+    energie: plus_moins
+  source_So_Ouen_ch17:
+    Tae_Yang: traite_le_sang_pas_l_energie
+    Chao_Yang: traite_l_energie_pas_le_sang
+    Yang_Ming: traite_le_sang_ET_l_energie
+    Tae_Yin: traite_l_energie_pas_le_sang
+    Chao_Yin: traite_l_energie_pas_le_sang
+    Tsiue_Yin: traite_le_sang_pas_l_energie
+  source: PVI-t1-p32_33
+
+constance_milieu_interne:
+  principe: L_activite_correcte_depend_de_constance_thermique
+  mecanisme_chaleur: >
+    Accroissement du rafraîchissement = rôle du TAÉ YANG
+    (Vessie principalement = sueur / urine).
+    Taé Yang agit comme un radiateur de voiture.
+    ATTENTION : Taé Yang n'est PAS le froid mais le rafraîchissement.
+  mecanisme_froid: >
+    Préservation de la chaleur.
+    Chaleur compensatrice apportée par IG (Taé Yang) en 1er
+    puis Chao Yang (couche immédiatement au-dessous).
+  loi_de_base:
+    chaleur_externe: sang_circule_plus_en_surface_vasodilatation
+    froid_externe: sang_se_retire_en_profondeur_vasoconstriction
+  rapport_yang_yin: >
+    La vie nécessite 2/3 Yang pour 1/3 Yin.
+    Paroi artérielle + énergie du sang = Yang.
+    Sang = Yin.
+  source: PVI-t1-p33_35
+
+reactions_thermiques_progression:
+  ordre_superficiel_vers_profond:
+    1: Tae_Yang_Yang_du_Yang
+    2: Chao_Yang_Yin_du_Yang
+    3: Tae_Yin_Yang_du_Yin
+    4: Yin_du_Yin_et_suivants
+    note: 3_Yang_puis_3_Yin
+  zones_profondes: >
+    Les tsang/fou (3F) aident les zones superficielles à
+    maintenir leur réaction quand les couches externes s'épuisent.
+  chaleur: tsang_augmentent_activite_pour_rafraichir_fou_diminuent
+  froid: fou_augmentent_activite_pour_chauffer_tsang_diminuent
+  source: PVI-t1-p34
+
+effets_chaleur:
+  moderee:
+    1: sang_accroit_circulation_superficielle_vasodilatation
+    2: ouverture_pores_transpiration
+  forte: >
+    Fou diminuent leur activité (perte d'appétit).
+    Tsang augmentent pour rafraîchir.
+    Rein filtre davantage pour générer sueur.
+  persistante_tsang_epuises: >
+    Chaleur pénètre en profondeur → fièvre élevée, soif intense,
+    délire, coma, feu au cœur (tachycardie), chaleur au foie
+    (migraine, vertige, délire), dessèchement des liquides,
+    épuisement Yin des reins (blocage).
+  source: PVI-t1-p37_39
+
+effets_froid:
+  modere: sang_se_retire_en_profondeur_pores_fermes
+  fort: individu_cherche_mouvement_mange_plus_Yang
+  persistant_energies_bloquees: >
+    Pâleur, température baisse, fou épuisés → arrêt digestion,
+    perte de conscience, extrémités glacées, pouls faible.
+  source: PVI-t1-p37_40
+
+mouvements_saisonniers:
+  chaleur_ete: sang_predominant_en_surface
+  froid_hiver: energie_predominante_en_profondeur
+  equinoxe_printemps: energie_domine_encore
+  equinoxe_automne: sang_preponderant
+  loi_pratique:
+    ete: ne_pas_affaiblir_le_sang_en_dispersant_ni_en_saignant
+    hiver: ne_pas_affaiblir_l_energie_en_dispersant
+  source: PVI-t1-p38
+
+thermoregulation_3_systemes:
+  1_Tchrong_Mo:
+    role: controle_temperature_INTERNE
+    principe: quand_sang_et_energie_equilibres_dans_Tchrong_Mo_temperature_normale
+  2_Chao_Yang:
+    role: responsable_temperature_SUPERFICIELLE
+    principe: fournit_chaleur_au_Tae_Yang_comme_feu_sous_casserole
+  3_Pouls:
+    role: apprecie_variations_sang_et_energie
+    lieu: principalement_pouls_radial
+  source: PVI-t1-p40
+
+section_arterielle_ternaire:
+  contenant: paroi_arterielle_elastique_Yang
+  contenu: sang_Yin
+  energie_du_sang: Yang_fourni_par_poumon_point_9P
+  loi_2_3_Yang: paroi_et_energie_du_sang_Yang_sang_Yin
+  sphincters:
+    froid_contractes: diminution_calibre_sang_ralenti
+    chaleur_relaches: augmentation_diametre_sang_accelere
+    moteur_contraction: energie_Yang
+  source: PVI-t1-p35_36
+
+formes_pouls:
+  yin: [vide, faible, mou, petit_fin, profond, relache, lent, ralenti, dicrote]
+  yang: [plein, fort, dur, large_ample, superficiel, tendu, rapide, accelere, glissant]
+  source: PVI-t1-p36

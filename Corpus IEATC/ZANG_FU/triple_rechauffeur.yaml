@@ -1,0 +1,314 @@
+# TRIPLE RÉCHAUFFEUR — FOU DU FEU MINISTRE
+# Reconstitué à partir des données dispersées dans le corpus
+# Sources multiples : PVI t1, PVI t3, PVI EEA t1/t2, PVII t3, PIV YY CP I
+
+meta:
+  fichier: triple_rechauffeur.yaml
+  element: Feu_Ministre
+  couplage_tsang: Maitre_du_Coeur
+  relation: Biao_Li
+  statut: reconstitue_a_completer
+  note: >
+    Aucun polycopié traité ne dédie une section individuelle complète
+    au Triple Réchauffeur. Cette fiche est reconstruite à partir de
+    toutes les données dispersées. À enrichir massivement avec les
+    3 Foyers (t1+t2) qui lui sont entièrement dédiés.
+  liens:
+    - ZANG_FU/maitre_du_coeur.yaml
+    - ZANG_FU/role_general_fou.yaml
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    - THEORIE/jin_ye_liquides_seminaire.yaml
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+
+# =============================================================================
+# IDENTITÉ
+# =============================================================================
+
+identite:
+  nature: viscere_creux_Fu_SANS_FORME
+  element: Feu_Ministre
+  polarite: Yang_du_Feu_Ministre
+  axe: Chao_Yang_avec_VB
+  couple_Yin: Maitre_du_Coeur
+  rang_hierarchique: >
+    11ème position Su Wen ch.8. Charge d'ouvrir les passages,
+    irriguer, Shao Yang. Un des derniers cités = fonction
+    d'infrastructure, pas de commandement.
+  particularite: >
+    Le TR n'a PAS de forme anatomique propre. C'est une fonction,
+    pas un organe. A un nom mais pas de forme. Les voies Lo du TR
+    et du MC sont décrites de manière floue encore aujourd'hui.
+    Ajout tardif au système des 12 méridiens : le MC a été ajouté
+    pour coupler le TR.
+  grand_meridien: Chao_Yang
+  source: [PVI-EEA-t2, PVI-t1, PVI-t3]
+
+# =============================================================================
+# EMBRYOLOGIE
+# =============================================================================
+
+embryologie:
+  rechauffeur_initial:
+    principe: >
+      Au début, on ne devrait pas présenter 3 Réchauffeurs mais un
+      Réchauffeur Initial, Réchauffeur du Ciel Antérieur. Ce Réchauffeur
+      se dispatche ensuite en trois formations avec le développement
+      de l'embryon.
+    petit_coeur: >
+      Dans le magma du réchauffeur initial se différencie le Petit Cœur
+      (Xiao Xin), matrice du Maître du Cœur. Pendant que le réchauffeur
+      initial éclate en 3 Réchauffeurs, le Petit Cœur s'étend, enrobe
+      le Cœur anatomique et forme sa barrière protectrice = le MC.
+    source: [PVI-t3-p65, PVI-EEA-t1-p67_68]
+
+# =============================================================================
+# LES 3 RÉCHAUFFEURS
+# =============================================================================
+
+trois_rechauffeurs:
+  principe: >
+    Le TR est l'ensemble des 3 Réchauffeurs qui structurent
+    verticalement le tronc et assurent la circulation des liquides
+    et des énergies entre les étages du corps.
+
+  rechauffeur_superieur:
+    localisation: au_dessus_du_diaphragme_D1_a_D7
+    organes: [coeur, poumon]
+    image: brouillard
+    fonction: >
+      Amène les énergies vers le P comme un brouillard.
+      Formation de Zong Qi (énergie ancestrale fonctionnelle)
+      au niveau de Tan Zhong (17JM). Distribution des Souffles
+      dans tout le corps.
+    energie_produite: Zong_Qi
+    source: [PVI-t3, jin_ye_liquides_seminaire.yaml]
+
+  rechauffeur_moyen:
+    localisation: entre_diaphragme_et_nombril_D8_a_D12
+    organes: [estomac, rate, foie]
+    image: maceration
+    fonction: >
+      Amène les énergies comme une macération. Lieu de la
+      digestion et transformation des aliments. Production
+      de Jing Qi et Iong (nutrition, sang).
+    energie_produite: Jing_Qi_et_Iong
+    source: [PVI-t3, jin_ye_liquides_seminaire.yaml]
+
+  rechauffeur_inferieur:
+    localisation: sous_le_nombril_D10_a_L5
+    organes: [rein, vessie, intestins, genital]
+    image: canal
+    fonction: >
+      Fait évacuer les énergies vers le bas comme un canal.
+      Tri final des liquides (Qi Hua R/V), élimination des
+      déchets. Production d'énergie Oé (défense).
+    energie_produite: Oe
+    source: [PVI-t3, jin_ye_liquides_seminaire.yaml]
+
+# =============================================================================
+# FONCTIONS
+# =============================================================================
+
+fonctions:
+  charge_SW8: >
+    Le Triple Réchauffeur a la charge d'ouvrir les passages.
+    Irrigation de tout le territoire. Shao Yang.
+
+  rigole_des_eaux: >
+    Le TR est la rigole des eaux, les liquides interstitiels.
+    Il commande le Foyer Inférieur et assure le drainage des
+    liquides à travers tous les espaces du corps.
+
+  chao_yang_fonction: >
+    Le Chao Yang (TR+VB) est le répartiteur du Yang du Ciel.
+    Plus énergétique que sanguin. Responsable de la température
+    SUPERFICIELLE. Fournit la chaleur au Tae Yang comme un
+    feu sous la casserole. Bouclier protecteur de surface.
+
+  prevention_cancer: >
+    Le Chao Yang (TR+VB) joue un rôle énergétique essentiel
+    dans la prévention du cancer en « socialisant » les organes.
+    Les cellules cancéreuses = individualisme absolu. Le Chao Yang
+    maintient la solidarité et la communication inter-organes.
+    source: PVI-t1
+
+  thermoregulation: >
+    Le Chao Yang est responsable de la température superficielle.
+    Il fournit la chaleur au Tae Yang (comme un feu sous la
+    casserole). Proportion sang/énergie : plus d'énergie que
+    de sang.
+    source: THEORIE/thermoregulation.yaml
+
+# =============================================================================
+# POINTS PRINCIPAUX
+# =============================================================================
+
+points_principaux:
+  5TR:
+    nom_chinois: Oae_Koann
+    traduction: Barriere_externe
+    nature: Yang_Chao_Yang_haut_du_corps
+    indications:
+      - point Yang du Chao Yang pour le haut du corps
+      - commande le Yang Weï Mo (grand vaisseau Yang de la défense externe)
+      - action sur toute la surface du corps partie supérieure
+      - >
+        Troubles du Yang du MS, douleurs épaule-bras de nature Yang,
+        migraines par excès de Chao Yang.
+      - associé au 41VB pour traiter le Tae Mo
+    source: PIV-YY-t5
+
+  23TR:
+    indications:
+      - grand point des migraines
+      - utilisé en dispersion dans les protocoles migraines VB
+    source: PIV-YY-t5
+
+  points_su:
+    Ting_Metal: 1TR
+    Iong_Eau: 2TR
+    Iu_Bois: 3TR
+    King_Feu: 6TR
+    Ro_Terre: 10TR
+    source: PVII-t3
+
+  point_commande_MV:
+    Yang_Oe_Mo: 5TR
+    source: PVII-t3
+
+# =============================================================================
+# RELATION AVEC LE MAÎTRE DU CŒUR
+# =============================================================================
+
+relation_maitre_coeur:
+  axe: Chao_Yang_Tsiue_Yin
+  principe: >
+    Le TR (Chao Yang) et le MC (Tsiué Yin) forment un axe
+    complémentaire. Le Chao Yang est plus énergétique, le Tsiué Yin
+    est plus sanguin. Interdépendants pour leurs mouvements.
+    Si Chao Yang stagne en haut → migraines, vertiges.
+    Si Tsiué Yin stagne en bas → varices, congestion utérine.
+  double_helice: >
+    Chao Yang (gauche→droite) + Tsiué Yin (droite→gauche) forment
+    une double hélice analogue à l'ADN. Perturbation = scolioses.
+  source: [PVII-t3, THEORIE/cinq_elements_axes_energetiques.yaml]
+
+# =============================================================================
+# RELATION AVEC LA VB (CHAO YANG)
+# =============================================================================
+
+relation_vesicule_biliaire:
+  grand_meridien: Chao_Yang
+  energie: feu
+  principe: >
+    TR = psychisme/mental, outil de l'Esprit (1er Ministre d'un pays).
+    VB = chef de la police, outil d'application.
+    Ensemble, ils constituent le bouclier protecteur Chao Yang.
+  migraines: >
+    Les migraines VB mobilisent souvent des points TR (23TR d)
+    car le Chao Yang est un axe unique TR+VB.
+  source: [PVI-t1, PIV-YY-t5]
+
+# =============================================================================
+# DIAGNOSTIC
+# =============================================================================
+
+diagnostic:
+  pouls:
+    position: >
+      Le Chao Yang se perçoit dans le système des 6 énergies
+      du pouls chinois (4ème principe).
+  liquides: >
+    Tout trouble de circulation des liquides entre les 3 étages
+    du corps doit faire évoquer le TR. Les 3 Réchauffeurs sont
+    comme un canal, un guide pour l'élimination des eaux.
+  source: [PIV-YY-t4, PVI-t3]
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  ideogramme: >
+    San = trois. Tsiao = roussir, hâler, flamber, roussi, soucis,
+    tristesse. Le sens général est celui de la combustion. Il s'agit
+    de foyers comme l'âtre d'une cheminée. Dans un foyer il y a du
+    feu et de la chaleur.
+  roang: >
+    Les 3 foyers sont formés par l'enveloppe des organes, c'est-à-dire
+    par l'ensemble des membranes et du tissu conjonctif qui les
+    entourent. Ces enveloppes sont nommées "ROANG".
+  usine_energetique: >
+    Les 3 foyers fonctionnent comme une usine énergétique destinée à
+    fabriquer de l'énergie et à épurer l'organisme. Ils fabriquent
+    l'énergie carburante (iong) et les Tsang/Fou fournissent l'énergie
+    dont les foyers ont besoin pour leur travail.
+  fonctions_generales: >
+    Recevoir, Transformer, Transporter, Assimiler, Rejeter.
+    Ces fonctions sont les mêmes pour chacun des Fou dans leur travail
+    sur l'énergie iong par rapport à leur Tsang couplé.
+  role_interface: >
+    Le TR agit comme un régulateur par une fonction d'interface entre
+    les variations du monde extérieur (froid, chaleur, humidité) et
+    les activités organiques nécessaires pour s'y équilibrer. Les 5 sens
+    et la peau sont son outil privilégié. Le climat intérieur doit
+    rester constant malgré les variations extérieures.
+  relation_VB_chef_orchestre: >
+    L'harmonie du fonctionnement des 3 foyers vient de la VB = "chef
+    d'orchestre". Les 11 organes (6 Tsang avec MC + 5 Fou avec TR) lui
+    obéissent comme les musiciens. L'équilibre du fonctionnement vient
+    du TR = régulateur.
+  combustion_trois_facteurs: >
+    La combustion s'opère dans le FM grâce au tchi et à l'oxygène du
+    FS, les déchets trop denses éliminés par le FI. Les 3 foyers se
+    comportent comme une usine à partir de 3 facteurs (combustible
+    alimentaire + air/oxygène + déchets éliminés) et d'un catalyseur
+    (Yuan Tchi = chaleur de base).
+  catalyseur_yuan_tchi: >
+    L'énergie ancestrale entretient la chaleur de base dans chaque
+    cellule. La température vitale produite par Yuan Tchi est toujours
+    physiologique et ne peut JAMAIS dépasser la norme vitale. Les
+    inflammations (chaleur > norme) viennent du travail de la VB,
+    PAS de Yuan Tchi. Avant de se mettre en activité, chaque foyer
+    doit être chaud grâce à Yuan Tchi.
+  thermoregulation_detail: >
+    La thermorégulation implique : 1) fonction des 3 foyers via les Fou
+    producteurs de chaleur (Yang) et de rafraîchissement (Vessie = Tae
+    Yang = froid), 2) fonction respiratoire du P (peau, pores, oé de
+    surface), 3) activité du Tchrong Mo pour la régulation profonde
+    sang/énergie et froid/chaleur.
+  triple_fonction_feu: >
+    Citation Laville Méry : "Le feu purificateur des 3 foyers a une
+    triple fonction : régénération, transformation, évacuation. Ces
+    fonctions ne sont possibles que par la combustion interne de
+    l'énergie ancestrale dans le FI."
+  citation_SW: >
+    "Les douze méridiens reçoivent leur énergie des trois foyers."
+  analogie_pouls: >
+    Li Tche Tcheng compare les 3 sections de l'artère radiale aux
+    3 foyers : pouce (I) = FS, barrière (II) = FM, pied (III) = FI.
+    Gauche = Yang du foyer (énergétique), droite = Yin (sanguin).
+    Pression médiane. Technique japonaise des flancs pour les organes.
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  huit_regles_therapeutiques: >
+    So Ouen ch.62 — 8 règles thérapeutiques des pathologies des 3
+    foyers : sudorification, vomification, purgation, harmonisation,
+    calorification, réfrigération, assèchement, humidification.
+    S'appliquent selon chaleur/froid × interne/externe.
+  mensurateur_pouls: >
+    So Ouen ch.21 : "Le TR répartit le Tchi pour qu'il donne la juste
+    mesure (mensurateur) au pouls radial afin de faire des pronostics."
+    Le TR est donc le lien direct entre l'état des 3 foyers et ce
+    qui se manifeste au pouls.
+  tchrong_mo_relation: >
+    Le Tchrong Mo est le vaisseau interne principal des connexions
+    entre les foyers. Les énergies des 3 foyers s'y mêlent pour
+    produire Tcheung Tchi. Le TR régule la distribution externe
+    tandis que le Tchrong Mo assure la distribution interne.
+  source: PV-3F-t2

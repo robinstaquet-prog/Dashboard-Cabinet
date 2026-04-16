@@ -1,0 +1,477 @@
+# POUMON — PHYSIOLOGIE INDIVIDUELLE
+# Source : PVI Physiologie tome 2, pp. 23-28
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: poumon.yaml
+  source: PVI_Physio_t2_p23_28
+  statut: complet
+  liens:
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/role_general_tsang.yaml
+    - THEORIE/hierarchie_sang_energie.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+
+identite:
+  titre: 1er_Ministre_du_coeur
+  polarite: Yin_dans_le_Yang
+  element: Metal
+  foyer: FS_occupe_essentiel_de_l_espace
+  lateralite: double_gauche_et_droite
+  axe: partie_avale_du_Tae_Yin
+  couple_Yang: GI
+  rang_hierarchique: 1er_Ministre_dirige_energie_et_distribution
+  action_motrice: passive_pas_un_muscle_plevre_ventouse
+  respiration: 24480_fois_par_jour_8935200_par_an
+  poumon_gauche: 2_lobes_coeur_occupe_espace_du_3eme
+  poumon_droit: 3_lobes
+
+fonctions_energetiques:
+  1er_Ministre:
+    principe: >
+      Développe l'énergie qui se mêle au sang artériel
+      pour donner chaleur, fluidité et mouvement dans les artères.
+      Assiste le coeur par la respiration.
+    rythme: >
+      C'est le RYTHME PULMONAIRE qui induit celui du coeur.
+      Le coeur donne le volume et l'intensité du sang.
+      Le poumon donne le rythme au sang par son énergie.
+    point_cle: >
+      9P = Maître des artères et de leur énergie, Maître
+      de l'énergie du sang. C'est par ce point que P est
+      le 1er Ministre du C.
+    9P_clinique:
+      hypertension: disperser_9P
+      hemorragies: disperser_9P_car_energie_pousse_sang_trop_fort
+      hemorragies_genitales_par_vide_Yang: >
+        ATTENTION : hémorragie par insuffisance de Yang =
+        écoulement long abondant durant des heures.
+        Hémorragie par excès Yang (9P en excès) =
+        évacuations explosives mais courtes.
+        Tae Mo retient le Yin comme une ceinture.
+  maitre_toutes_energies:
+    principe: >
+      Le poumon reçoit toutes les énergies en audience à 3h du matin
+      (iong, oé, le sang). L'énergie en avance est mise en attente.
+    point_cle: 17JM_Tran_Tchong
+    consequence: >
+      Maître de la vitalité du corps. Toutes les dépressions
+      physiques ou psychiques sont dues à son insuffisance.
+      Par extension : instinct de survie. État suicidaire réel =
+      épuisement du poumon.
+  oé_distribution: >
+    Dirige la distribution de oé dans le Tae Yang (surface).
+    Qualité de l'air respiré = facteur prépondérant.
+    Maître de la peau (émanation de son énergie).
+    Point king des Yin = élément Métal = mobilise oé.
+  fabrication_energies:
+    Yeung_tchi: energie_de_l_air
+    Ku_tchi: energie_nutritionnelle_depuis_FM
+    Yuan_tchi: energie_ancestrale
+    processus: >
+      Yeung tchi + Ku tchi + Yuan tchi = TSONG TCHI
+      Tsong tchi + Yuan tchi = TCHEUNG TCHI (énergie totale)
+      Tcheung tchi → iong + oé
+    regle: >
+      Toujours la même énergie mais prend des noms différents
+      car change de fonction à chaque niveau.
+    rythme_meridiens: >
+      L'énergie avance de 3 distances (tsoun/tsroun)
+      à chaque phase respiratoire : 3 à l'inspire, 3 à l'expire.
+  liquides: >
+    Reçoit les liquides purs de la rate, les transmet au coeur
+    où ils forment le sang avec les solides purs.
+  abaissement_liquides:
+    position_IEATC: >
+      Cette fonction concerne SURTOUT les liquides de la tête
+      et du MS (au-dessus des clavicules et FM).
+      Pas les liquides abdominaux qui coulent par pesanteur.
+    insuffisance_poumon: >
+      Liquides en excès à la face : gonflements, congestions
+      du nez (oedème cornets), yeux (larmoiements),
+      poches sous yeux, visage bouffi.
+      Mauvais drainage lymphatique cou, thyroïde, ganglions.
+    diaphragme: >
+      L'activité du diaphragme provient de l'énergie de la VB
+      et non du poumon selon IEATC.
+      VB et MC ont une action immédiate sur le diaphragme.
+  etat_remplissage: >
+    S'observe aux creux sus et sous claviculaires et
+    espaces intercostaux. Très creusés = poumon vide.
+    En cas de doute : faire inspirer rapidement et fort.
+  source: PVI-t2-p23_28
+
+physiologie_occidentale:
+  epuration: recoit_sang_veineux_du_VD_oxydation_dechets
+  enrichissement: oxygenation_1atome_O2_par_1Fe_par_1GR
+  renvoie: sang_enrichi_a_OG_par_4_veines_pulmonaires
+  source: PVI-t2-p25
+
+periodes_activite:
+  quadrant: superieur_droit_tronc_et_MS_droit
+  cycle_iong: 3h_a_5h
+  lune: 3eme_periode
+  saison: automne
+  planete: Venus_quand_avance
+  etoiles: Yang_Ming_au_Ciel
+  source: PVI-t2-p27
+
+physiologie_5_elements:
+  mouvement: ramassage_recolte_engrangement_mise_en_reserve
+  analogie: paysans_automne_engrangent_recoltes
+  organisme:
+    quotidien: soir_15h_a_21h_periode_Metal
+    annuel: automne_5_aout_au_5_novembre
+    action: >
+      Récolte dans les tsang tous leurs surplus non utilisés
+      d'énergie tsing pour les transmettre aux reins.
+  Metal_ne_produit_rien: >
+    CAPITAL : le Métal ne produit rien et ne trie rien.
+    Il récolte mais n'a pas élaboré les produits de la récolte.
+    Indispensable pour comprendre les aspects psychiques
+    de l'inconscient.
+  So_Ouen_ch67: >
+    "Le Bois et le Métal sont le commencement et la fin,
+    afin que le Yin succède au Yang et le Yang succède au Yin."
+  tissu: peau_et_poils
+  liquide_pur: mucus_bronchique
+  source: PVI-t2-p28
+
+enrichissement_5_elements:
+  element: Metal
+  nature_fonctionnelle: se_modifier_et_etre_malleable
+  orient: Ouest_coucher_soleil_declin
+  symbolisme: >
+    Dureté, rigueur, sécheresse. L'automne = rigueur
+    cosmique, jugement, bilan de l'année.
+    Yin et Yang se séparent, tristesse envahit les êtres.
+  poumon_et_metal: >
+    Rôle complémentaire de la Rate : engranger par la
+    respiration. Air et Métal = ions métalliques/métalloïdiques.
+  couleur: blanc_or_blanc_metal_en_fusion_deuil
+  pathologie_5E: >
+    Rigidité (du caractère ou des tissus), tout devient
+    cassant. La souplesse du Métal (peau) se transforme
+    en raideur en pathologie.
+  source: PVII-t1-p44_45
+
+enrichissement_5E_t2:
+  cour_imperiale:
+    automne: Empereur_le_plus_puissant
+    hiver: Mere_faible
+    printemps: Conseiller_energique
+    ete: Ennemi_vaincu_soumis
+    5eme_saison: Fils_vigoureux
+  collecte_annuelle: >
+    En fin d'année (fin d'automne), le Métal collecte
+    TOUS les surplus non utilisés des tsing des 5 organes.
+    Engramme ces énergies en réserve puis les conduit
+    aux Reins pour conservation durant l'hiver.
+    "Le Yang se cache dans le Yin."
+  correspondances_completes:
+    therapeutique: moxibustion
+    psychisme: Pro_Po
+    vertu: justice
+    relation: ami
+    expression: pleurs
+    voix: larmoyant
+    position: couche_sur_ventre
+    ministere: 1er_Ministre
+    cereale: riz
+    viande: cheval
+    son: Chang
+    odeur: chair_crue
+    saveur: piquant
+    sens: odorat
+    liquide: mucus_nasal
+    organe_des_sens: nez
+    expansion: pilosite
+    tissu: peau_poils
+  resume_activites_PVII_t2: >
+    Énergie de l'air, maître de la peau et des poils,
+    rythme cardiaque via l'énergie, nez et odorat,
+    énergie physique de l'organisme.
+  source: PVII-t2-p18_40
+
+enrichissement_5E_t3:
+  so_ouen_chap5_Metal: >
+    Ouest → sécheresse → Métal → piquant → Poumon → peau/poils → Rein.
+    Le Poumon gouverne le nez. CHEUN associé = PO (subconscient).
+    Le PO calme amène conduite vertueuse et longévité.
+    Sentiment : anxiété. Ko : joie (Feu/Cœur) domine l'anxiété.
+    Blessure externe : chaleur blesse peau et poils. Ko : froid domine chaleur.
+  points_su_Poumon:
+    Ting_Bois: 11P
+    Iong_Feu: 10P
+    Iu_Terre: 9P
+    King_Metal: 8P
+    Ro_Eau: 5P
+  axes_5E_t3:
+    groupe_meridiens: 3_Yang_du_bas_Yin_du_Yang
+    fonction_groupe: conduire_energies_externes_vers_le_bas_Yin
+    element_mouvement: Metal
+    fou_maitre: Gros_Intestin
+    Yang_Ming_specifique: >
+      Axe horizontal fin. Mouvement Yang→Yin (Feu→Eau). Descend.
+      Équilibré entre sang et énergie. Le plus régulier des axes.
+  ko_emotionnel_clinique: joie_Coeur_domine_anxiete_Poumon
+  liens_nouveaux:
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+    - THEORIE/cinq_elements_mouvements_5E.yaml
+    - THEORIE/cinq_elements_points_su.yaml
+  source: PVII-t3-p15_44
+
+enrichissement_5E_t4:
+  pathologie_5E:
+    interrogatoire_vide_plenitude:
+      plenitude: deteste_piquant_tres_triste_crache_trop_energie_aggrave_automne
+      vide: adore_piquant_peu_triste_pas_assez_energie_ameliore_automne_veut_rester_couche
+    point_penn: 8P_king_Metal
+    Yin_Yang_et_penn: >
+      Poumon = Yin du Yang. 8P agit sur le Yin du
+      foyer supérieur (Ciel) de l'individu.
+    palpation_abdominale:
+      zone: flanc_droit_entre_25E_et_15Rte
+      deblocage: 5P_et_ou_5P_prime_d
+    gravite_vitale: >
+      Tsang à fonction vitale immédiate (avec coeur
+      et rein). Éléments Feu, Métal, Eau = les plus graves.
+    spirale_descendante: >
+      Métal conduit le Feu-Yang au Yin. Descend et
+      densifie. Si Yang bloqué en haut → activer Métal.
+    Hong_Kong: >
+      Zone sous-claviculaire (1P). Peau sèche/blanche/molle
+      = P vides. Muscles durs/tendus = P pleins.
+  liens_nouveaux:
+    - THEORIE/cinq_elements_pathologies_cycles.yaml
+    - THEORIE/cinq_elements_pathologies_bilan.yaml
+  source: PVII-t4-p55_91
+
+# --- ENRICHISSEMENT SÉMINAIRE PVI t3 (EEA Tsang/Fou tome 3) ---
+enrichissement_seminaire_t3:
+  gouverner_souffles:
+    principe: >
+      "Le Poumon gouverne les Souffles" — Gouverner c'est être le Maître (ZHU),
+      comme quelqu'un qui est chez lui et exerce la maîtrise de son domaine.
+      Le C est le Maître de l'individu et le P le Maître des Souffles du corps :
+      même idéogramme ZHU. Le C commande les Xué Mo (animation directionnelle du sang)
+      et P les Souffles.
+    couple_C_P: >
+      Au-dessus du diaphragme, seuls deux organes. Le C Empereur et le P Ministre.
+      Couple sang/Souffles qui restitue l'animation générale de l'être humain.
+  distribution_energie:
+    circuit_Su_Wen_21: >
+      Souffles des aliments → E → diffusion au F → imprégnation aux muscles →
+      retour au C → imprégnation Jing aux Mo → propagation aux méridiens → retour au P
+      (3h du matin, audience matinale) → relance dans le solénoïde des 12 méridiens.
+    formation_Zong_Qi: >
+      Au niveau du P se présentent les mécanismes capables de maintenir et réactiver la vie.
+      Le Jing de l'air inspiré se réunit avec le Jing des aliments au niveau de
+      Tan Zhong (17RM), mer des Souffles. Formation de Zong Qi, énergie ancestrale.
+  fonction_ministerielle:
+    titre: transmission_ministerielle
+    relation_C: >
+      Le P est l'assistant du C, se tourne vers l'envoi à l'extérieur des ordres
+      partant de la volonté du Souverain. Quand cette fonction ministérielle est
+      bien remplie : bonne direction de la rythmique vitale du corps.
+    JIE_articulation: >
+      JIE = nœud d'articulation rythmique. Idéogramme du bambou — nœud entre chaque
+      segment, lieu de condensation de la vitalité. Le P responsable que toutes les
+      fonctions de l'individu suivent le bon rythme. 24 JIE dans l'année, 365 nœuds
+      d'articulation dans le corps (proche des points).
+  source_des_liquides:
+    principe: >
+      "Le Poumon est la source des liquides." Comme le toit de tout le tronc, le P
+      exerce une pression pour que les liquides s'abaissent régulièrement. Il maintient
+      le bon équilibre des liquides et contrôle le degré de pureté ou de chaleur.
+      QING SU : éclaircir, refroidir, condenser et faire descendre.
+    pathologie: >
+      Si l'abaissement des Souffles du P perd sa normalité : contre-courant,
+      essoufflement, dyspnée, toux, arrêt des humeurs, petit besoin bloqué,
+      enflures des eaux. Le fonctionnement du petit besoin est en rapport avec
+      la fonction d'abaissement des Souffles du P.
+  peau_et_poils:
+    principe: >
+      Le P gouverne les Souffles et commande la respiration. Les pores de la peau
+      sont appelés "portes des Souffles" dans certains chapitres du Su Wen.
+      La peau et les poils s'appuient sur le réchauffement produit sous le
+      gouvernement du P. Si Souffles du P affaiblis : dépérissement et dessèchement.
+  liens_nouveaux:
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    - ZANG_FU/gros_intestin.yaml
+    - CLINIQUE/pathologies_oreille.yaml
+  source: PVI-t3-p18_22
+
+# ─── Enrichissement EEA t1 (séminaire CLM déc. 1981) ──────
+
+enrichissement_EEA_t1:
+  po_et_poumon: >
+    Les PO sont liés au Poumon, aux Souffles, à l'énergétique
+    fondamentale, à l'animation. Conduites instinctuelles.
+    « Mémoire du futur » (Laville-Méry) = la puissance de l'énergie.
+    Quand le Poumon est puissant, l'énergie est puissante et
+    on a plus d'allant pour vivre. Les Po apportent l'énergie
+    aux schèmes que les Hun fournissent.
+  po_embryologie: >
+    « Les Souffles essentiels de la mère forment les Po »
+    (Zong, 10è siècle). Au 8ème mois : « les Po voyagent et çà
+    peut bouger la main gauche ». Animation motrice liée au Métal.
+  po_ideogramme: >
+    Partie droite = Gui (Esprit terrestre). Partie gauche = blanc
+    (ossements). Les Po retournent à la Terre après la mort où
+    ils se dissolvent normalement.
+  poumon_audience_et_liquides: >
+    Circuit Su Wen chap. 21 détaillé : « Le Poumon reçoit en
+    audience matinale les 100 Mo, il y a transport du Jing aux
+    poils et à la peau. » Pour les liquides : Estomac/Rate →
+    Poumon (abaissement) → Vessie. Le Poumon a autorité sur
+    tout le secteur hydrique et les mécanismes interstitiels.
+  pouls_et_poumon: >
+    Au niveau du pouls (P), on détecte la situation du système
+    des méridiens principaux. C'est le méridien vers lequel va
+    « en audience tous les matins » toute l'énergie vectorisée.
+    Les MV et tendino-musculaires ne sont PAS visibles au pouls.
+  source: PVI-EEA-t1-p45_55
+
+# ─── Enrichissement EEA t2 (séminaires CLM mai 1982 + juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_deuxieme_charge: >
+    Le Poumon est en 2ème position (Su Wen ch.8). Charge de
+    « Ministre, Chancelier » (XIANG) = celui à côté du supérieur
+    pour l'aider et le soutenir. Même idéogramme xiang que le
+    Feu Ministre (XIANG HUO). Le P est le plus proche du Cœur :
+    cela a forcément une signification. Couple Souffle/Sang =
+    couple P/C. Le P = Maître des Souffles, le C = Maître du Sang.
+  tie_noeuds_bambou: >
+    Ce qui résulte de la charge du P : la régulation des relais
+    d'animation (TIE). TIE = nœuds du bambou. Image du rythme
+    inhérent à tout mouvement : alternance creux/plein, temps
+    forts et resserrements. Désigne aussi les 24 périodes climatiques,
+    nœuds des Souffles répartis sur l'année. Sens de régulation,
+    modération, tempérance.
+  po_et_rythme: >
+    Le P a la charge des âmes PO (puissance instinctive) et la
+    charge de régulation par l'audience matinale de tous les MAI.
+    En Chine, le rythme de la vie est sous l'obédience du P (pas
+    du C comme en Occident). Le Cœur ne doit jamais négliger son
+    association intime avec le P qui, dans les profondeurs de la
+    vie instinctive, va à son rythme régulier — sous peine de se
+    laisser emporter par ses sentiments.
+  poumon_toit_liquides: >
+    Le P est le toit des Zang et des Fu. Par l'effet de la
+    respiration, il imprime une pression rythmique qui assure la
+    progression des liquides vers les lieux d'utilisation et
+    d'élimination. Par son effet d'abaissement (couvercle de
+    marmite espagnole), il régule les espaces mésenchymateux.
+    Le P, Rte et TR vont jusqu'à la peau = lieu où l'on travaille
+    en acupuncture, lieu de rencontre des énergies intérieures
+    et extérieures.
+  yong_et_poumon: >
+    L'énergie Yong suit le circuit des 12 méridiens en commençant
+    par le P (qui commence au Réchauffeur Moyen). Le P relance
+    la grande circulation énergétique dans le cycle horaire
+    des grands méridiens (100 Mo), à l'aube = audience matinale.
+    Le P commandant la peau et les poils, il véhicule le Jing
+    jusqu'aux extrémités du corps, vers la périphérie.
+  source: PVI-EEA-t2-p40_44
+
+enrichissement_YY_t2:
+  energie_celeste_poumon: >
+    L'Homme respire l'énergie céleste par le haut du corps (Poumon).
+    Les énergies Yang du Ciel descendent, celles de la Terre montent.
+    Leur combinaison donne naissance à une énergie propre à l'espèce.
+    Le Poumon, avec l'Estomac, est un des deux réceptacles fondamentaux
+    de l'énergie du Ciel Postérieur (respiration + alimentation).
+  trois_couples_et_poumon: >
+    Le couple humidité/sécheresse passe par le Poumon : la respiration
+    évacue de grandes quantités de vapeur d'eau (fonction d'assèchement).
+    Une insuffisance d'assèchement par le Poumon peut engendrer des
+    rhumatismes déclenchés à l'humidité. Le Poumon participe aux
+    3 constantes du milieu intérieur (thermique, hydrique, fong-feu).
+  immunologie_et_poumon: >
+    L'immunologie au sens chinois dépasse les globules blancs — elle
+    comprend TOUS les mécanismes de lutte contre tous les phénomènes
+    (humidité, sécheresse, froid, chaleur, feu, vent). Le Poumon,
+    par son rôle dans la Weï Qi et la peau, est en première ligne
+    de cette défense élargie. Yong et Weï (liées à respiration et
+    alimentation) sont fondamentales au dynamisme immunitaire.
+  source: PIV-YY-t2-p21_31
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  7P_lie_tsiue: >
+    7P (Lié Tsiué) = point clé du Jen Mo = Maître du Yin
+    de tout le haut du corps. Commande le Jen Mo (réserve Yin/sang).
+    Très grande importance clinique: tonifié, il renforce
+    tout le Yin du MS, de la tête et du FS. Utilisé dans
+    les protocoles Yin/Yang quand le Yin du haut est insuffisant.
+  poumon_et_depression: >
+    Confirmation CP I: toutes les dépressions physiques ou
+    psychiques ont un rapport avec l'insuffisance du Poumon.
+    Le P est le maître de la vitalité. État suicidaire réel
+    = épuisement du P (déjà dans physio t2, confirmé en clinique).
+  yang_ming_et_poumon: >
+    Le Yang Ming (GI+E) assure la descente dans le corps.
+    Le GI est le Fu couplé du P. Quand le Yang Ming est
+    contrarié par le Chao Yang → la descente ne se fait pas.
+    Conséquence sur le P: liquides stagnent en haut.
+  source: PIV_YY_tomes4-5_CP_I
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  epuration: >
+    Par la respiration et cette énergie, les P effectuent une
+    épuration : brûlent les résidus/déchets du sang non filtrés par
+    le Foie + purification finale de Ku Tchi.
+  reception_transmission: >
+    Les P reçoivent les liquides purs de la Rate → les transmettent
+    au Cœur (formation du sang). Ils reçoivent les énergies impures
+    filtrées par le Foie → les évacuent par la respiration et les
+    mucosités.
+  propulsion_sang: >
+    L'énergie du Poumon entretient le mouvement du sang artériel
+    jusqu'aux extrémités car le Cœur seul n'aurait pas assez de
+    puissance. Le Poumon alimente les méridiens en énergie et procure
+    la chaleur et la tonicité à la peau.
+  polarite_FS: >
+    Le Poumon est le Yin dans le Yang (= Yin/Yang, élément Métal).
+    Le Cœur est le Yang dans le Yang (= Yang/Yang, Feu). Ce foyer
+    absorbe l'énergie du Ciel par les Poumons et le sang y est
+    constitué.
+  catecholamines_naissance: >
+    Les catécholamines (anti-stress, venant des Reins) sécrétées à la
+    naissance sont indispensables à la vie future des Poumons. Une
+    insuffisance = source de fragilité pulmonaire/respiratoire les
+    premiers mois, stress et manque de confiance en soi.
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  epuration_energies_impures: >
+    Le Poumon reçoit les énergies impures filtrées par le Foie et les
+    évacue par la respiration et les narines. Les éternuements et le
+    mucus bronchique au réveil matinal = cette évacuation. Crises
+    matinales répétées = ce mécanisme d'épuration.
+  mouvement_respiration: >
+    Expiration (Yang) → énergie monte aux Poumons (Yin du FS, -/+)
+    puis au Cœur. Inspiration (Yin) → énergie descend au Foie puis
+    aux Reins. La respiration dirige le mouvement dans le Tchrong Mo.
+  importance_exercices: >
+    L'amplitude et le rythme respiratoires influencent : qualité de
+    la combustion des déchets, épuration des énergies viciées,
+    puissance de Tsong Tchi, propulsion de l'énergie et du sang.
+    Le Tai Chi Chuan et les Chi Kong renforcent ces fonctions.
+  ne_pas_fumer_apres_repas: >
+    Il est important de ne pas fumer après les repas pour permettre
+    aux Poumons de purifier correctement Ku Tchi afin de produire
+    une bonne énergie Tsong.
+  source: PV-3F-t2

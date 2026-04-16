@@ -1,0 +1,615 @@
+# SYNTHESE DES 6 ENERGIES ET 5 MOUVEMENTS — PATHOLOGIES
+# Source : PVII 5 Éléments tome 4, pp. 8-22 + pp. 55-62
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_pathologies_synthese.yaml
+  source: PVII_5E_t4_p8_22_55_62
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_fondements.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_points_su.yaml
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+
+# =======================================================
+# SCHEMA 1 — TAE I, CIEL, HOMME, TERRE
+# =======================================================
+schema_1_Tae_I_Ciel_Homme_Terre:
+  titre: Imbrication des 5 mouvements de la Terre et des 6 énergies célestes
+  explication: >
+    Le schéma montre la hiérarchie descendante depuis Taé I
+    (Un Suprême, source de toute chose) jusqu'à la Terre,
+    en passant par le Tao, le Tchi, les 6 énergies célestes,
+    l'Homme et les 5 éléments terrestres.
+  Tae_I:
+    definition: >
+      Origine de tout. Son domaine est le Chiuan, le Mystère
+      céleste et universel. Il est le Un Suprême, source de
+      toute chose et ordonnateur universel par le Tao.
+    distinction: >
+      Taé I et Tao sont souvent, à tort, confondus dans la
+      même idée conceptuelle.
+  Ciel:
+    role: >
+      Par l'activité du Tao, le Ciel se manifeste selon
+      6 qualités Yin/Yang qui se répartissent différemment
+      dans tous les espaces. Sur Terre et dans l'Homme,
+      c'est la manifestation de la Vie en mouvement.
+    six_energies:
+      - Tae_Yin
+      - Tae_Yang
+      - Chao_Yin
+      - Yang_Ming
+      - Tsiue_Yin
+      - Chao_Yang
+  Terre:
+    role: >
+      À partir des 5 substances matérielles (les 5 éléments),
+      la Terre engendre les corps physiques et leur donne
+      leur structure. Par ses 5 saisons, elle génère son
+      énergie propre car elle est une planète vivante.
+    energies_saisons: >
+      Les énergies des saisons coordonnent les combinaisons
+      des 5 substances corporelles et leur donnent un
+      mouvement propre. Ces 5 mouvements dynamisent
+      les activités de l'Homme.
+  Homme:
+    definition: >
+      L'Homme est, par excellence, la manifestation parfaite
+      des énergies conjuguées du Ciel et de la Terre.
+    constitution: >
+      Constitué des 5 substances corporelles dont les
+      combinaisons physiques sont coordonnées par les
+      5 mouvements. Il reçoit les 6 énergies du Ciel qui
+      les dynamisent en les stimulant.
+    trois_vies:
+      organique: mutations qui permettent la vie organique
+      sentimentale: >
+        Relation des vies organique et intellectuelle
+        confrontées au milieu ambiant de vie
+      intellectuelle: >
+        Peut s'élever vers une conscience universelle
+        par son Chen individuel
+    restitution: >
+      Il reçoit et restitue à son environnement le produit
+      de ses activités organiques, sentimentales,
+      intellectuelles et spirituelles.
+  principe_integration: >
+    Pour que les 6 énergies du Ciel et les 5 mouvements
+    puissent se manifester, il faut une structure vivante
+    pour les intégrer. Sans vie, pas d'intégration.
+  metaphore_lumiere: >
+    Comme la lumière solaire qui n'est visible que dans
+    l'atmosphère. La matière ne peut intégrer la lumière
+    que si elle a atteint un certain niveau de fluidité.
+    Plus elle est dense, moins elle intègre de lumière.
+    La densité est indissociable de l'opacité.
+    D'où la recherche des Sages pour atteindre "la légèreté".
+  source: PVII-t4-p8_9
+
+# =======================================================
+# SCHEMA 2 — ENERGIES EXTERNES ET INTERNES
+# =======================================================
+schema_2_energies_externes_internes:
+  titre: L'Homme entre Ciel et Terre — énergies externes et internes
+  explication: >
+    L'Homme absorbe l'énergie du Ciel (nombre 6 — peau,
+    respiration) et la matière de la Terre (nombre 5 —
+    nourriture) qu'il adapte par les Trois Foyers.
+  energies_externes:
+    absorption: >
+      Le corps est une intégration des énergies externes
+      et une cristallisation des productions de la Terre.
+      Les organes sont issus de la même énergie qui procède
+      des climats et des saisons.
+    exemple: >
+      Une énergie Bois va produire le printemps mais aussi
+      le foie, les yeux, les larmes, les tendons, les muscles.
+  energies_internes:
+    trois_foyers: >
+      Développent des activités qui produisent sang + énergie.
+      Ces activités sont Yang ou Yin selon tsang/fou et selon
+      la nature énergétique ou sanguine de leur fonction.
+    thesaurisation: >
+      L'énergie externe pure est thésaurisée dans les tsang
+      (énergie tsing propre). La matière (sang + substances
+      nutritives) circule dans tout le corps.
+    nutrition_defense:
+      iong: énergie nourricière dans les méridiens
+      oe: énergie défensive dans les méridiens
+      sang_Yin: éléments nutritifs et globules blancs par vaisseaux sanguins/lymphatiques
+      energie_Yang: iong et oé circulent par les méridiens
+  source: PVII-t4-p10_11
+
+# =======================================================
+# SCHEMA 3 — DEUX FEUX, AXE VERTICAL
+# =======================================================
+schema_3_deux_feux:
+  titre: Les deux Feux — Feu créateur et Feu purificateur
+  explication: >
+    Sous l'impulsion de Taé I, Ciel et Terre combinent
+    leurs énergies. Le Yang descend, le Yin monte.
+    Le Ciel apporte un Feu créateur, la Terre un Feu
+    purificateur (parfois destructeur).
+  Feu_createur:
+    origine: Ciel_anterieur
+    nature: >
+      Puissant, inattaquable. La mort ne peut le détruire,
+      elle le restitue au Chen universel. Dans l'Homme,
+      il correspond à l'activité et au dynamisme du Chen
+      individuel.
+    manifestation: avant_le_Feu_purificateur
+    lien: Chen_activite_dynamisme
+  Feu_purificateur:
+    siege: Trois_Foyers_VB_bile_or_liquide
+    condition: >
+      Ne peut se produire que grâce à l'activité de l'énergie
+      héréditaire Yuan Tchi, qui est le Feu originel de
+      l'Homme lié à l'origine de l'Humanité et au Chen
+      universel.
+    localisation: Ming_Men_sous_garde_des_reins
+    reproduction: >
+      C'est pour cela que la reproduction est aux reins
+      et non parce que la sexualité est "vile".
+  equilibre: >
+    L'équilibre de la vie est l'union harmonieuse et
+    équilibrée de ces deux Feux. L'Homme est partagé
+    entre les pulsions inférieures (risque destructeur)
+    et la Raison supérieure (l'Esprit, Chen = coeur).
+  source: PVII-t4-p11
+
+# =======================================================
+# SCHEMA 4 — 6 DISQUES, CORRESPONDANCES COMPLETES
+# =======================================================
+schema_4_six_disques:
+  titre: Répartition de l'organisme selon les 5 mouvements — 6 niveaux
+  explication: >
+    Six disques concentriques montrent la progression
+    du plus manifesté (Terre) au moins manifesté (Ciel),
+    chaque disque étant un palier de la manifestation.
+  disques:
+    1_orients: >
+      Caractéristique de la Terre orientée selon est, ouest,
+      nord, sud et centre. "Le centre du monde est partout,
+      il est le centre de chaque être vivant."
+    2_elements: >
+      Attribution de la nature des éléments selon les
+      orients : est=Bois, sud=Feu, centre=Terre,
+      ouest=Métal, nord=Eau.
+    3_saisons: >
+      Analogie avec les saisons : est=printemps, sud=été,
+      centre=5ème saison+intersaisons, ouest=automne,
+      nord=hiver.
+    4_organes: >
+      Cristallisation dans l'Homme de chaque énergie
+      saisonnière : l'organe est comme un gaz (énergie)
+      qui s'est cristallisé. Gaz=Yang=énergie céleste,
+      eau=intermédiaire, glace=Yin=corps solide.
+    5_climats: >
+      Circulation des énergies climatiques autour de
+      l'Homme : nord=froid, sud=chaleur, etc.
+    6_energies_celestes: >
+      Origine céleste : fong=Tsiué Yin, sec=Yang Ming, etc.
+      Les points Su (ting, iong, iu, king, ro) permettent
+      les régulations des cycles tcheng et ko.
+  metaphore_maison: >
+    Le même chemin mène de la cave au grenier.
+    La cave est la Terre, le grenier le Ciel,
+    chaque palier un niveau de la manifestation.
+    L'Homme : cave=activités organiques,
+    grenier=intelligence, l'ensemble baigné
+    par son climat intérieur.
+  source: PVII-t4-p12_14
+
+# =======================================================
+# SCHEMA 5 — TROIS NIVEAUX DE L'HOMME
+# =======================================================
+schema_5_trois_niveaux:
+  titre: Les 3 niveaux fonctionnels de l'Homme
+  explication: >
+    Chaque élément possède trois niveaux d'activité
+    correspondant à la trilogie Ciel-Homme-Terre.
+    Les points Su agissent simultanément sur les trois
+    niveaux lorsqu'on les traite.
+  trilogie_dans_homme:
+    Ciel: tete_et_membres_superieurs
+    Homme: tronc
+    Terre: membres_inferieurs
+  trilogie_foyers:
+    Ciel: foyer_superieur
+    Homme: foyer_moyen
+    Terre: foyer_inferieur
+  trilogie_fonctionnelle:
+    Ciel: intelligence_psychique
+    Homme: sentimentalite_affectif
+    Terre: activite_organique
+  trois_etages:
+    organique:
+      contenu: tsang_fou_ministere_emanation_organe_des_sens_tissu
+      exemple_Metal: poumon
+    affectif:
+      contenu: emotion_ou_sentiment
+      exemple_Metal: tristesse
+    psychique:
+      contenu: activite_mentale_ou_intellectuelle
+      exemple_Metal: Pro
+  regles_fondamentales:
+    points_su_simultanes: >
+      Les points Su agissent, lorsqu'on les traite,
+      simultanément sur les trois étages (organique,
+      affectif et psychique) de l'individu.
+    desequilibre_partiel: >
+      Un élément peut être déséquilibré à un, deux ou
+      trois des étages. Un étage peut être déséquilibré
+      sans que les autres ne le soient.
+    origine_organique: >
+      L'origine de toutes les pathologies de tout étage
+      provient toujours, en premier, d'un dérèglement
+      organique lequel retentit sur les autres.
+    energie_tsing: >
+      Les étages affectif et psychique tirent leur énergie
+      de la vitalité et de la quantité d'énergie pure (tsing)
+      que l'organe conserve en réserve.
+    traitement_exclusif_5E: >
+      Les fonctions psychiques et sentimentales ne peuvent
+      se traiter que par les 5 éléments, leurs lois des cycles
+      tcheng et ko et leurs points spécifiques (points Su).
+  source: PVII-t4-p15_17
+
+# =======================================================
+# SCHEMA 6 — CHAQUE ELEMENT = 3 NIVEAUX DANS 5E
+# =======================================================
+schema_6_element_dans_5E:
+  titre: Chaque élément contient les 5 éléments à ses 3 niveaux
+  explication: >
+    Simplifié du schéma 5 : pour chaque élément,
+    les 3 niveaux (organe, sentiment, psychisme)
+    fonctionnent chacun selon les lois des 5 éléments.
+    Un élément est à la fois une identité (personnalité
+    indépendante) et une entité (globalité suffisante
+    à elle-même).
+  psychisme_et_sentiments:
+    cinq_personnalites: >
+      Notre personnalité est la somme/moyenne des 5
+      "personnalités" indépendantes (psychiques et
+      sentimentales) des 5 éléments. Celles-ci s'entendent
+      plus ou moins bien selon leur mémoire propre acquise
+      par l'hérédité ou l'expérience.
+    conflit_interne: >
+      Il peut y avoir "conflit de personnalité" entre les
+      éléments au sein de nous-même.
+    autorite_Chen: >
+      Le Chen est le Feu Roi, l'Empereur, le Souverain
+      qui dirige tout. Tout le psychisme doit être sous
+      l'autorité bienveillante mais ferme du Chen.
+      Si le Chen est puissant, l'esprit est en paix.
+    lien_sentiments: >
+      Lorsque l'esprit est puissant, la conscience est
+      normale, les sentiments sont dominés (= contrôlés
+      pour être ni en carence ni en état obsessionnel).
+  morphotype:
+    definition: >
+      Tous les individus sont un morphotype caractérisé
+      par une prédominance d'un des 5 éléments dans
+      ses activités physiologiques (organiques +
+      sentimentales + psychiques).
+    regle_capitale: >
+      Il est capital, avant tout traitement, de déterminer
+      quel est son élément dominant et s'il est atteint
+      d'un dérèglement énergétique par excès ou
+      insuffisance.
+    trois_types_dominants:
+      organique: physique_sportif
+      emotif: affectif_artiste
+      psychique: intellectuel_professeur
+    note: >
+      Le niveau dominant n'exclut pas une manifestation
+      forte des autres. La pathologie serait un étouffement
+      des autres niveaux par l'un des trois.
+  rapport_au_monde:
+    trois_types: [situation_espace, evenement, personnages]
+    exemple_Bois_en_plenitude: >
+      Colère + planification outrancière (Roun = le "plan").
+      Ce même personnage sera un excellent employé
+      dans une fonction d'organisation.
+  source: PVII-t4-p17_19
+
+# =======================================================
+# SCHEMA 7 — AXES ENERGETIQUES ET CRISTALLISATION
+# =======================================================
+schema_7_axes_et_cristallisation:
+  titre: Correspondance axes énergétiques, méridiens et organes avec énergies externes
+  explication: >
+    Du Ciel (6 qualités Yin/Yang) vers la Terre (5 éléments),
+    en passant par les 6 couches énergétiques, les 6 axes,
+    les 12 méridiens et les organes. Tout est une même chose
+    à des niveaux de manifestation différents.
+  niveaux_descendant:
+    1_Ciel: 6_qualites_Yin_Yang
+    2_energies_celestes: 6_energies_conditionnantes
+    3_couches: 6_couches_energetiques_dans_Homme
+    4_grands_meridiens: 6_grands_meridiens
+    5_meridiens: 12_meridiens_tsou_tcheou
+    6_organes: 5_tsang_6_fou
+    7_regulation: cycles_tcheng_et_ko
+    8_entretien: trois_foyers_sang_energie
+  source: PVII-t4-p20
+
+# =======================================================
+# SCHEMA 8 — INTERCONNEXION CIEL-HOMME-TERRE
+# =======================================================
+schema_8_interconnexion:
+  titre: Interconnexion complète Ciel-Homme-Terre
+  explication: >
+    Le Ciel engendre par Yin/Yang et ses 6 subdivisions.
+    La Terre se manifeste par 5 substances, 5 climats,
+    5 saisons. L'aboutissement est la résonance de ces
+    énergies sur le corps de l'Homme, générant les 12
+    méridiens, les points Su spécifiques, puis leur
+    cristallisation sous forme d'organes.
+  points_cle:
+    points_su: points_Penn_plus_antiques
+    regulation: interne_par_5_elements
+    entretien: trois_foyers_sang_energie
+    chaque_element: un_element_et_son_oppose
+  source: PVII-t4-p21_22
+
+# =======================================================
+# YIN/YANG ET PENN DES 5 ELEMENTS
+# =======================================================
+yin_yang_et_penn:
+  titre: Traitement du Yin/Yang général par les points Penn
+  explication: >
+    Le So Ouenn (chap. 5) indique qu'on peut traiter les
+    4 divisions du Yin/Yang par les points Penn des organes
+    correspondants. Ceci offre un accès direct au Yin/Yang
+    général via les 5 éléments.
+  quatre_divisions:
+    Yang_du_Yang:
+      foyer: superieur
+      organe: Coeur
+      point_penn: 8C
+    Yin_du_Yang:
+      foyer: superieur
+      organe: Poumon
+      point_penn: 8P
+    Yang_du_Yin:
+      foyer: inferieur
+      organe: Foie
+      point_penn: 1F
+    Yin_du_Yin:
+      foyer: inferieur
+      organe: Rein
+      point_penn: 10R
+  foyer_moyen:
+    Estomac: maitre_de_tout_le_Yang_36E
+    Rate: maitre_de_tout_le_Yin_3Rte
+  note: >
+    Le foyer moyen est réservé à sa partie propre (Homme)
+    et ne joue pas directement sur les quatre termes.
+  source: PVII-t4-p55
+
+# =======================================================
+# PATHOLOGIE SENTIMENTALE
+# =======================================================
+pathologie_sentimentale:
+  titre: Pathologie psychique et sentimentale
+  physiologie:
+    nature: >
+      Les sentiments sont avant tout de l'énergie qui
+      s'exprime par des émotions. Décrits au nombre de 5,
+      il y en a 2 complémentaires pathologiques.
+    complementaires:
+      souci: evolue_en_anxiete
+      tristesse: evolue_en_chagrin
+    energie_source: >
+      L'énergie qui produit les sentiments est l'énergie
+      spécifique du tsang (énergie tsing thésaurisée).
+    stockage: >
+      Émis par les organes et stockés en réserve dans
+      la poitrine (17JM Trann Tchong) sous la gestion
+      du Maître du Coeur.
+    role_MC: >
+      Le coeur se nourrit des sentiments et le MC filtre
+      avant de transmettre au coeur afin qu'un état
+      passionnel ne vienne l'envahir.
+    coeur_fort: >
+      Un coeur fort procure la sérénité = équilibre des
+      sentiments car le MC est bien dirigé.
+  pathologies:
+    exces: >
+      Manifestation violente, temporaire ou permanente,
+      ou manifestation permanente même atténuée.
+    carence: >
+      Absence de manifestation du sentiment dans la
+      situation le justifiant. L'absence est tout aussi
+      pathologique que l'excès.
+    paradoxe_pratique:
+      exces_peut_venir_du_vide: >
+        Un vide peut produire un excès d'expression :
+        l'organe fabrique lui-même son énergie en carence
+        par l'intermédiaire de l'expression du sentiment.
+      carence_peut_venir_du_plein: >
+        Un élément bloqué (cycle ko) ne peut exprimer
+        son énergie et le sentiment n'est plus exprimé,
+        même si l'élément est en excès.
+  traitements:
+    exces:
+      regle_So_Ouen: >
+        Ne jamais attaquer (disperser) un sentiment en excès.
+        Utiliser la loi du cycle ko de tempérance : renforcer
+        par son point penn l'élément dominateur de l'élément
+        dont le sentiment est excessif.
+    carence:
+      methode: >
+        Renforcer la mère de l'élément carentiel par son
+        point penn + tonifier le point penn de l'élément
+        lui-même.
+    point_penn_triple_action: >
+      Parmi les 5 points Su, seul le point penn agit sur
+      les trois plans (organique, sentimental, psychique)
+      dans le même sens. Rétablit l'équilibre et l'harmonie
+      de la répartition de l'énergie de l'élément.
+    equilibre_quotidien: >
+      So Ouen indique qu'un sujet équilibré doit avoir
+      vécu chaque jour chacun des 5 sentiments.
+  source: PVII-t4-p56_58
+
+# =======================================================
+# PATHOLOGIE PSYCHIQUE
+# =======================================================
+pathologie_psychique:
+  titre: Le psychisme selon le Ling Tchrou chapitre 8
+  huit_activites:
+    Chen:
+      element: Feu
+      definition: >
+        La réunion des deux essences (tsing) donne
+        naissance à l'activité de la vie = Chen.
+    Roun:
+      element: Bois
+      definition: >
+        Ce qui accompagne en allant et revenant le Chen
+        et représente l'esprit et la conscience = l'âme Roun.
+    Pro:
+      element: Metal
+      definition: >
+        Ce qui ravitaille, en s'appuyant sur l'entrée/sortie
+        de l'énergie tsing, l'activité fonctionnelle des
+        organes = le Pro.
+      complementaire: >
+        Lü = la méditation profonde.
+    I:
+      element: Terre
+      definition: >
+        Ce qui se charge de développer l'action active
+        de la vie = la pensée I.
+      complementaire: >
+        Si = l'analyse et la logique. Quand on pense au
+        fond du coeur quelque chose et qu'on a l'intention
+        de la réaliser.
+    Tche:
+      element: Eau
+      definition: >
+        Dès qu'on a pris une décision, on voudra l'exécuter
+        fermement = la volonté Tche.
+      complementaire: >
+        Zhi = le passage à l'acte. Par la méditation,
+        on envisage l'avenir (souci Lü) et on choisit
+        parmi les voies un procédé convenable = Zhi.
+  structure:
+    base: 5_activites_communes_a_tous
+    complementaires: 3_acquises_par_experience_et_evolution
+    nombre_8: >
+      Notre psychisme est la somme de 5+3=8 activités
+      mentales conjuguées. Le nombre 8 est celui de la
+      Sagesse, de la Connaissance.
+    nombre_9: >
+      So Ouenn occulte le 9 (=5+4) car il sous-entend
+      l'existence du "Petit Chen" (Feu) et tait celle
+      du "Grand Chen". Petit Chen = pensée/activité
+      psychique globale. Grand Chen = signe de la
+      Sainteté, vie spirituelle.
+  traitement:
+    principe: >
+      Rééquilibration des 5 éléments car les 5 entités
+      viscérales sont du ressort exclusif de ce niveau.
+      Harmoniser les 5 éléments revient à réorganiser
+      l'équilibre mental, sans modifier le caractère
+      individuel.
+    renvoi: module_post_graduates_entites_viscerales
+  source: PVII-t4-p58_59
+
+# =======================================================
+# NUTRITION ET PHYTOTHERAPIE
+# =======================================================
+nutrition_et_phytotherapie:
+  titre: Nutrition, alimentation et phytothérapie selon les 5 éléments
+  physiologie:
+    classification: >
+      Chaque élément a une viande, un légume, une saveur
+      et une odeur (tableau général des tchi des éléments).
+    phytotherapie_3_criteres: [drainante, rafraichissante, rechauffante]
+    cour_imperiale_plantes: >
+      Utilisation traditionnelle avec une plante empereur,
+      conseiller, ennemi, etc.
+  pathologies:
+    besoin: signe_de_vide_recherche_regeneration
+    degout: signe_de_plenitude
+    paradoxe_pratique:
+      besoin_dans_plenitude: >
+        Un blocage empêche l'organe de synthétiser, il reste
+        en carence malgré sa plénitude et recherche l'aliment.
+      degout_dans_vide: >
+        Un élément trop faible ne peut plus recevoir la saveur
+        qui lui est devenue toxique.
+  traitements:
+    exces:
+      regle: >
+        Utiliser la loi du cycle ko de tempérance.
+        Renforcer par sa saveur l'élément dominateur
+        de l'élément en excès. Supprimer la saveur
+        de l'élément en excès.
+    carence:
+      methode: >
+        Renforcer l'élément lui-même et sa mère par les
+        aliments (viande et légume) et par la saveur
+        de l'élément qui a la plus grande importance.
+  principe_terroir: >
+    "L'on ne doit consommer que ce qui provient du terroir
+    où l'on vit." Ceci élimine l'utilisation des plantes
+    provenant d'un autre lieu éloigné.
+  critique_pharmacopee: >
+    Le principe essentiel de cette médecine est que
+    chaque cas est particulier et individuel.
+    Il est impossible de prescrire une préparation
+    pour tout le monde car il existe autant de formes
+    énergétiques qu'il y a de sujets.
+  source: PVII-t4-p60_61
+
+# =======================================================
+# COMPLEMENTS — SPIRALES ET AXES DE MUTATION
+# =======================================================
+complements_spirales:
+  titre: Compléments au polycopié V tome 2 — perspectives thérapeutiques
+  yin_yang_general:
+    insuffisance_exces: >
+      Travailler en tonifiant/dispersant l'Eau ou le Feu,
+      axe des états du Yin et du Yang de la Terre.
+      Points penn : 10R (Yin), 8C/8MC (Yang).
+      Ajouter le point correspondant sur le fou couplé.
+    Yin_en_stagnation: >
+      Si beaucoup de Yin non mis en mouvement,
+      faire circuler par le Bois (fils de l'Eau).
+      L'Eau transmet au Bois qui conduit au Feu.
+    Yang_en_exces_en_haut: >
+      Si le Feu/Yang reste trop fort en haut du corps (tête) :
+      débloquer le Feu ou activer le Métal.
+      Le Métal conduit le Feu-Yang au Yin.
+  spirale_ascendante:
+    matiere: Eau_Bois_Feu
+    nature: purification_et_allegement_de_matiere
+  spirale_descendante:
+    esprit: Feu_Metal_Eau
+    nature: incarnation_du_Chen_Esprit
+    note: >
+      C'est l'espace vide entre les spires de la spirale
+      ascendante. Pour travailler sur l'esprit (dépressions
+      Yang) : considérer Feu vers Eau = Taé Yang (IG-V).
+  axe_mutations: mutation_de_energie_et_esprit
+  axe_transformations: mutation_de_matiere_et_reproduction
+  chao_yang_role: >
+    VB filtre au niveau de l'estomac ce qui doit gagner
+    le corps. Elle analyse la teneur du sang en éléments
+    constitutifs. Le Chao Yang est le répartiteur du
+    Yang du Ciel.
+  passe_present_futur:
+    methode_Honma: >
+      Méthode du grand Maître japonais HONMA rapportée
+      par le Dr Duron : traiter en une séance le passé
+      (origine tcheng/ko/raé), le présent (moment de la
+      séance), le futur (anticipation des récidives).
+    note: méthode complexe réservée aux praticiens expérimentés
+  source: PVII-t4-p62_63

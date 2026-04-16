@@ -1,0 +1,250 @@
+# CINQ ÉLÉMENTS — LES POINTS ANTIQUES (SU DES MÉRIDIENS)
+# Source : PVII Les 5 Éléments — Physiologie tome 3, pp. 37-45
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_points_su.yaml
+  source: PVII_5Elem_t3_p37_45
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_correspondances.yaml
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/maitre_du_coeur.yaml
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/poumon.yaml
+    - ZANG_FU/rein.yaml
+
+# ─────────────────────────────────────────────────
+# DÉFINITION ET ORIGINE
+# ─────────────────────────────────────────────────
+
+definition:
+  Su_signification: >
+    Souvent traduit par « antique », Su signifie en réalité
+    « points de l'origine, du commencement de l'énergie dans
+    les membres / méridiens ». Ce sont les points fondateurs
+    de la régulation énergétique.
+
+  Ling_Tchrou_chap1: >
+    « Les 5 Trésors (tsang) ont chacun 5 points Su : TING, IONG,
+    IU, KING, RO. Les 6 Ateliers (Fou) ont en plus un point IUANN
+    (Source), soit 25 points Yin et 36 Yang. L'Humain possède
+    12 méridiens principaux et 15 secondaires (Lo), soit 27 énergies
+    différentes passant en circuit régulier dans ces points. »
+
+  metaphore_eau: >
+    Ting = puits (source d'où l'eau sourd).
+    Iong = ru (l'eau s'écoule par déclivité).
+    Iu = rivière (l'eau peut transporter).
+    King = fleuve (courant rapide et large).
+    Ro = mer (les cours d'eau se rassemblent).
+    Cette identification eau = énergie est fondamentale en IEATC.
+
+  localisation: >
+    Tous situés entre l'extrémité des doigts (point Ting) et
+    les « 4 barrières » = coudes et genoux (point Ro).
+    Ting est toujours à l'ongle. Ro est toujours au coude ou genou.
+    La succession Ting → Iong → Iu → King → Ro est IMMUABLE.
+  source: PVII_t3_p38_39
+
+# ─────────────────────────────────────────────────
+# TABLEAUX DES POINTS SU
+# ─────────────────────────────────────────────────
+
+tableaux_points_su:
+  note: >
+    MÉRIDIENS YIN : ordre Bois→Feu→Terre→Métal→Eau (Ting→Iong→Iu→King→Ro)
+    MÉRIDIENS YANG : ordre inversé Métal→Eau→Bois→Feu→Terre
+    Car « Bois et Métal = commencement et fin ».
+
+  schemas_expliques:
+    tableau5_meridiens_Yin: >
+      Grille 6 lignes × 5 colonnes. Colonnes titrées TING/IONG/IU/KING/RO,
+      chacune portant l'élément (Bois/Feu/Terre/Métal/Eau) et la saison
+      (Printemps/Été/5ème saison/Automne/Hiver). Lignes = les 6 Tsang.
+      Chaque case = numéro et lettre du point (ex. 1F = premier point
+      du méridien du Foie). Le décalage Yin commence au Bois.
+    tableau6_meridiens_Yang: >
+      Même structure mais en 6 colonnes (ajout colonne IUANN entre IU et
+      KING). L'ordre des éléments est INVERSÉ : commence au Métal
+      pour le TING Yang. Raison : Métal = fin pour les Yin = commencement
+      pour les Yang (l'énergie descend là où elle a commencé à monter).
+    figure8_schema_meridien: >
+      Schéma d'un système méridien complet en coupe : à gauche « EXTERNE »
+      (peau, Tching Kann), au milieu le méridien principal Tching Tcheng
+      avec ses branches (Tching Pié), puis la branche profonde reliant
+      le Tsang en bas (INTERNE) et le Fou. Les points Su sont aux
+      extrémités (Ting) et aux articulations (Ro = porte interne/externe).
+      Un point au milieu marque l'émergence/pénétration entre externe et
+      méridien. Flèches montrent le sens centripète des énergies externes.
+
+  meridiens_Yin:
+    Foie:    {Ting_Bois: 1F,   Iong_Feu: 2F,   Iu_Terre: 3F,   King_Metal: 4F,   Ro_Eau: 8F}
+    Coeur:   {Ting_Bois: 9C,   Iong_Feu: 8C,   Iu_Terre: 7C,   King_Metal: 4C,   Ro_Eau: 3C}
+    MC:      {Ting_Bois: 9MC,  Iong_Feu: 8MC,  Iu_Terre: 7MC,  King_Metal: 5MC,  Ro_Eau: 3MC}
+    Rate:    {Ting_Bois: 1Rte, Iong_Feu: 2Rte, Iu_Terre: 3Rte, King_Metal: 5Rte, Ro_Eau: 9Rte}
+    Poumon:  {Ting_Bois: 11P,  Iong_Feu: 10P,  Iu_Terre: 9P,   King_Metal: 8P,   Ro_Eau: 5P}
+    Rein:    {Ting_Bois: 1R,   Iong_Feu: 2R,   Iu_Terre: 3R,   King_Metal: 7R,   Ro_Eau: 10R}
+
+  meridiens_Yang:
+    VB:  {Iu_Bois: 41VB, King_Feu: 38VB, Ro_Terre: 34VB, Iuann: _,    Ting_Metal: 44VB, Iong_Eau: 43VB}
+    IG:  {Iu_Bois: 3IG,  King_Feu: 5IG,  Ro_Terre: 8IG,  Iuann: _,    Ting_Metal: 1IG,  Iong_Eau: 2IG}
+    TR:  {Iu_Bois: 3TR,  King_Feu: 6TR,  Ro_Terre: 10TR, Iuann: _,    Ting_Metal: 1TR,  Iong_Eau: 2TR}
+    Est: {Iu_Bois: 43E,  King_Feu: 41E,  Ro_Terre: 36E,  Iuann: _,    Ting_Metal: 45E,  Iong_Eau: 44E}
+    GI:  {Iu_Bois: 3GI,  King_Feu: 5GI,  Ro_Terre: 11GI, Iuann: _,    Ting_Metal: 1GI,  Iong_Eau: 2GI}
+    V:   {Iu_Bois: 65V,  King_Feu: 60V,  Ro_Terre: 40V,  Iuann: 54V,  Ting_Metal: 67V,  Iong_Eau: 66V}
+  source: PVII_t3_tableaux5_6_p37
+
+# ─────────────────────────────────────────────────
+# PROPRIÉTÉS SPÉCIFIQUES DES POINTS SU
+# ─────────────────────────────────────────────────
+
+proprietes_points_su:
+
+  Ting:
+    ideogramme: puits_eau_presente_sans_mouvement
+    localisation: extremite_des_ongles_sauf_1R_voute_plantaire
+    element_Yin: Bois_vent
+    element_Yang: Metal_secheresse
+    action_Yin: mise_en_mouvement_du_sang
+    role_clinique: >
+      Premier ou dernier point du méridien. Amorce la circulation
+      centripète des énergies externes. Dans l'énergie iong, attire
+      cette énergie à l'extrémité du méridien. Point de jonction
+      du Tching Kann avec le méridien principal.
+      Le Ting du Foie (1F) est le principal point de mise en mouvement
+      car Foie = Bois = printemps = mise en mouvement par excellence.
+    schemas_expliques:
+      figure_ting: >
+        Le point Ting est représenté à l'extrémité des membres, au niveau
+        de l'ongle (dernier ou premier point selon le sens de circulation).
+        Pour les Yin, symbolise l'émergence de l'énergie depuis le plus
+        petit conduit (puits). Pour les Yang, représente l'entrée du circuit
+        (passage du Tching Kann au méridien principal).
+
+  Iong:
+    ideogramme: deux_feux_sur_eau_ou_bois
+    localisation: second_ou_avant_dernier_point
+    element_Yin: Feu_chaleur
+    element_Yang: Eau_froid
+    action_Yin: rechauffe_et_agit_sur_energies_psychiques_sentimentales
+    action_Yang: rafraichit
+    role_clinique: >
+      L'énergie commence à s'écouler par déclivité sans force propre.
+      Accélère la circulation dans le méridien et augmente le potentiel
+      (correspond à l'énergie iong nutritionnelle).
+      Yin : Feu - chaleur. Yang : Eau - froid.
+
+  Iu:
+    ideogramme: riviere_qui_peut_transporter
+    localisation: confondu_avec_Iuann_pour_Yin_dissocié_pour_Yang
+    element_Yin: Terre_humidite
+    element_Yang: Bois_vent
+    action_Yin: agit_sur_production_energie_iong
+    role_clinique: >
+      Quantité d'énergie permettant un vrai mouvement.
+      PORTE DE PÉNÉTRATION DE LA PERVERSITÉ EXTERNE :
+      La perversité externe envahit d'abord le Tching Kann, remonte
+      jusqu'au Ting, pénètre dans le méridien, remonte jusqu'au Iu.
+      Si le potentiel du Iu est trop faible, la perversité pénètre plus
+      profond jusqu'au Ro puis atteint le Tsang/Fou sans obstacle.
+      → Puncturer ce point AVANT pénétration dans les « tranchées
+      intermusculaires » des grands muscles.
+      Pour les Yin, Iu = Iuann = point iu-iuann (fusionnés).
+
+  Iuann:
+    nom: Source
+    note: Surnuméraire pour les Yang, extrapole le point Feu-King
+    localisation: dissocié_du_Iu_pour_les_seuls_Yang
+    action: >
+      Augmente puissamment la quantité d'énergie iong du méridien
+      (quantité, chaleur, vitesse). Rôle d'adaptation des énergies
+      externes « selon le goût des organes » = appose un « code barre »
+      aux énergies externes = laissez-passer permettant à l'organe de
+      reconnaître et accepter cette énergie spécifique.
+      Dans l'énergie iong, l'énergie venant par la voie Lo du méridien
+      couplé arrive sur ce point ou sur le Lo.
+
+  King:
+    ideogramme: fleuve_Homme_au_travail_tranchee_profondeur
+    localisation: entre_Iu_et_Ro
+    element_Yin: Metal_automne
+    element_Yang: Feu_chaleur
+    action_Yin: dynamisme_et_fabrication_energie_oe_defensive
+    role_clinique: >
+      Point spécifique de l'énergie défensive (Oé).
+      Appelle Oé dans la lutte contre les énergies perverses sur/dans
+      le méridien. Traite les affections profondes : os, articulations,
+      muscles du méridien. Grands points de réparation, cicatrisation,
+      consolidation de fractures — toutes lésions du corps (Métal =
+      concentration).
+
+  Ro:
+    ideogramme: union_confluent_rassemblement
+    localisation: 4_barrieres_coudes_et_genoux_TOUJOURS
+    element_Yin: Eau_hiver
+    element_Yang: 5eme_saison_Terre
+    action_Yin: agit_sur_energie_de_reproduction
+    role_clinique: >
+      Puissance de l'énergie, solidité, mouvement et souplesse.
+      PORTE DE COMMUNICATION INTERNE/EXTERNE :
+      Point de départ de la branche profonde — véritable porte entre
+      l'interne et l'externe. Par cette voie : Tsang et Fou agissent
+      directement sur leur méridien (distribuent énergie si besoin).
+      En sens inverse : voie directe de pénétration des énergies
+      externes « codifiées » par Iuann vers leur organe correspondant.
+  source: PVII_t3_p39_41
+
+# ─────────────────────────────────────────────────
+# PHYSIOLOGIE DES POINTS SU
+# ─────────────────────────────────────────────────
+
+physiologie_points_su:
+  deux_fonctions_essentielles:
+    1: equilibre_Yin_Yang_interne
+    2: synchronisme_des_energies_avec_saisons_et_climats
+
+  su_commandent_5_mouvements:
+    nombre: 5_pour_Tsang_6_pour_Fou
+    principe: >
+      Chaque point Su est associé électivement à son énergie
+      correspondante. Les points de même élément (ex. iu Rate +
+      ro Estomac = Terre) ont la même action respectivement sur
+      la fonction Yin (iu) et Yang (ro).
+    codification: >
+      Chaque Su est « codifié » — son action ne peut s'étendre à un
+      autre système. Iong du Cœur agit sur Feu/Cœur uniquement,
+      n'a AUCUNE action sur les autres éléments/organes.
+
+  synthese_energies_externes:
+    penetre_par: peau_meridiens_Tching_Kann_ET_respiration
+    sens: centripete_extremite_membres_vers_centre_corps
+    code_barre: >
+      Le point Su reçoit les énergies/informations externes, les adapte
+      à notre organisme en apposant un « code barre » spécifique.
+      L'organe reconnaît alors uniquement ce qui lui appartient.
+      Résultat : l'énergie iong transporte mélangées toutes les énergies
+      codifiées ; chaque organe extrait la sienne.
+      30 énergies différentes pour les Yin + 36 pour les Yang = 66 qualités
+      d'énergie circulant mélangées dans l'énergie iong.
+
+  equilibrage_externe_interne:
+    principe: >
+      Les Su agissent comme capteurs reconnaissant les énergies externes
+      et leurs variations → informent l'organisme → Tsang/Fou réagissent
+      pour compenser. Exemple : il fait trop chaud → point Feu du méridien
+      déclenche réaction du point Eau → augmentation de la circulation
+      sanguine → vasodilatation → sudation rafraîchissante.
+    niveaux_reaction:
+      energetique: modifier_rapport_sang_energie
+      fonctionnel: activer_ou_freiner_activites_organiques
+      comportemental: conduire_sujet_vers_compensation
+
+  REGLE_CAPITALE: >
+    Les points Su n'agissent que sur les QUALITÉS d'énergie.
+    Les autres points des méridiens agissent sur les QUANTITÉS.
+    Cette distinction est fondamentale pour comprendre quand et
+    comment utiliser les points Su en thérapie.
+  source: PVII_t3_p42_45

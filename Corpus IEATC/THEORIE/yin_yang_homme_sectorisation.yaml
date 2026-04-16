@@ -1,0 +1,457 @@
+# YIN / YANG — L'HOMME, SECTORISATION ET PHYSIOLOGIE
+# Source : Polycopié IV — YIN/YANG tome 2, pp. 17-32
+# Auteur : Thierry Bollet — IEATC (compilation 03/07/2015)
+
+meta:
+  fichier: yin_yang_homme_sectorisation.yaml
+  source: PIV_YY_t2_p17_32
+  statut: complet
+  liens:
+    - THEORIE/yin_yang_fondements.yaml
+    - THEORIE/energies_hereditaires_seminaire.yaml
+    - THEORIE/embryologie_constitution.yaml
+    - ZANG_FU/rein.yaml
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/rate.yaml
+    - _SYSTEME/00_philosophie_clinique.yaml
+
+# ═══════════════════════════════════════════════════════════════
+# I. L'HOMME — FILS DU CIEL ET DE LA TERRE
+# ═══════════════════════════════════════════════════════════════
+
+homme_ciel_terre:
+  principe: >
+    « Entre les Cieux et la Terre, il n'y a que la Loi et l'Énergie. »
+    L'Homme est un produit de l'interaction des énergies du Ciel
+    et de la Terre. Pieds carrés sur Terre (le carré = mesure
+    de la Terre), tête ronde dans le Ciel (le cercle = mesure
+    du Ciel). Position verticale = médiateur, comme l'arbre.
+  trois_hereditaires:
+    parentale: >
+      Ovule + spermatozoïde = hérédité parentale (tsing).
+      Le patrimoine génétique occidental n'est qu'une partie
+      de ce que l'être reçoit à la conception.
+    celeste: >
+      Hérédité céleste (tsing) conférée par le Ciel Yang.
+      Qualités de caractère, vitalité psychique, morphologie,
+      sentimentalité — bien au-delà du génome.
+    terrestre: >
+      Hérédité terrestre (tsing) conférée par la Terre Yin.
+      Vitalité physique, endurance, critères physiques.
+
+# ═══════════════════════════════════════════════════════════════
+# II. LE MANDAT CÉLESTE — MING
+# ═══════════════════════════════════════════════════════════════
+
+ming:
+  definition: >
+    MING = Mandat Céleste. Le Ciel confère à chaque être
+    un Ming à la conception. La philosophie chinoise considère
+    la conception comme fruit de la volonté du Tao AVANT
+    d'être celle des parents.
+  chen_cosmique: >
+    À l'instant où le spermatozoïde pénètre l'ovule, il est
+    accompagné par le Chen cosmique (ou c'est le Chen cosmique
+    qui induit la pénétration). La vie est « viable » pour
+    cette raison. La cicatrice de pénétration reste inscrite
+    toute la vie — c'est le point MING MENN.
+  libre_arbitre: >
+    Le Mandat céleste implique une destinée, une mission
+    terrestre à accomplir. Mais le libre arbitre n'est
+    pas remis en question : si prédestination il y a,
+    les MOYENS d'accomplir restent aléatoires. L'être
+    humain peut réussir ou rater son chemin de vie.
+  lumiere: >
+    Le Ming est peut-être davantage la Lumière, le Chen
+    individuel qui éclaire en permanence l'être humain
+    sur son chemin. Conforme à la pensée confucianiste
+    de la Lumière intérieure (« La Grande Règle »,
+    « L'Invariable Milieu »).
+
+# ═══════════════════════════════════════════════════════════════
+# III. MING MENN — PORTE DE LA LUMIÈRE
+# ═══════════════════════════════════════════════════════════════
+
+ming_menn:
+  localisation: >
+    Entre les apophyses épineuses de L2/L3 (2ème et 3ème
+    vertèbres lombaires). Un des plus grands points
+    d'acupuncture.
+  noms: >
+    MING MENN = Porte du Mandat Céleste, Porte du Destin,
+    Porte de la Lumière (nom antique).
+  alerte_peridurale: >
+    ATTENTION : toutes les ponctions lombaires et injections
+    péridurales sont faites exactement à ce point.
+    Information capitale pour les sages-femmes.
+  region_ming_menn: >
+    La RÉGION Ming Menn = l'espace entre les deux reins
+    ou le rein gauche lui-même (Yang).
+    Contient l'énergie ancestrale et le tsing.
+    Source de la vie organique.
+    Nourrit le Chen quand elle rejoint le Cœur.
+    = vitalité, force, endurance, conviction, certitudes.
+
+# ═══════════════════════════════════════════════════════════════
+# IV. GROSSESSE ET NOMBRES
+# ═══════════════════════════════════════════════════════════════
+
+grossesse:
+  chen_cosmique_present: >
+    Le Taoïsme enseigne que la grossesse se déroule sous
+    la présidence du Chen cosmique, présent tout le temps
+    dans le ventre de la mère.
+  neuf_mois_neuf_cases: >
+    Ce n'est pas un hasard si le Ming Tang contient 9 cases
+    et la grossesse dure 9 mois lunaires.
+    9 = 3 × 3. Trois = nombre de la Vie en mouvement.
+    3 répliqué par lui-même = 9 = image de la perfection,
+    expression de Taé I.
+  trois_periodes: >
+    La grossesse se déroule en 3 périodes de 3 mois chacune.
+    Chaque trimestre a une qualité énergétique spécifique.
+  embryologie: >
+    La cicatrice de pénétration du spermatozoïde dans l'ovule
+    reste inscrite toute la vie. Le développement embryonnaire
+    à partir des trois feuillets primitifs se fait par rapport
+    à ce point. Le Dr Schatz a publié d'importants travaux
+    à cet égard.
+
+# ═══════════════════════════════════════════════════════════════
+# V. CENTRE, MICROCOSME ET ENVIRONNEMENT
+# ═══════════════════════════════════════════════════════════════
+
+centre:
+  ciel_anterieur_posterieur: >
+    La conception s'effectue en un temps infime et procède
+    de la transition du Ciel antérieur (monde des concepts)
+    au Ciel postérieur (concepts ayant pris forme).
+    Éternel → Fini. Informulé → Déterminé.
+    Préexistant → Forme sensible. Inné → Acquis.
+  inne_acquis: >
+    Inné = le Rein (détenteur de l'Énergie Originelle et créatrice).
+    Acquis = l'Estomac (réceptacle des énergies nourricières,
+    commandé par la Rate — toujours rate/pancréas indissociables).
+  so_ouen: >
+    « Le Yang transforme le Souffle Tchi, le Yin achève la forme. »
+
+microcosme:
+  principe: >
+    L'Homme est un microcosme dans le macrocosme.
+    Il porte en lui TOUT et TOUTES les qualités de l'Univers.
+    Il possède les Souffles Primordiaux.
+    Il peut atteindre la connaissance de l'Univers par
+    sa connaissance intérieure.
+  souffles_un: >
+    Ces Souffles sont UN puisqu'issus du même Principe,
+    même s'ils se manifestent sous des apparences diverses
+    selon le temps, la nature et le lieu de leur manifestation.
+  vie_mort: >
+    La Vie est l'union des Souffles Yang et Yin.
+    Leur séparation est la mort.
+    On « sort dans la vie » et on « rentre dans la mort ».
+
+environnement:
+  chaine_evolution: >
+    L'Homme est l'aboutissement de la chaîne issue des
+    règnes minéral → végétal → animal. Minéraux = Yin,
+    animaux = Yang.
+  indissociable_nature: >
+    L'Homme vit dans la nature, par la nature, et POUR la nature.
+    Il en subit les influences autant qu'il l'influence.
+    Il est en résonance de chaque modification de celle-ci
+    et doit s'y adapter en permanence.
+  meridiens: >
+    Les Souffles du Ciel descendent, ceux de la Terre montent.
+    Cette combinaison produit sur le corps le système des
+    méridiens — voies de liaison entre l'externe et l'interne.
+  respiration_alimentation: >
+    L'Homme respire l'énergie céleste (Yang/Poumons).
+    Il se nourrit de l'énergie de la Terre (Yin/Estomac).
+    Ensemble = Énergie Essentielle du Corps, énergie vitale.
+  adaptation: >
+    Un organisme sain suit TOUTES les variations de climat
+    pour s'adapter. Un déséquilibre de son énergie ne lui
+    permet pas de s'harmoniser → la maladie apparaît.
+    C'est l'adaptation constante de l'Homme à son environnement.
+  analogie_arbre: >
+    L'énergie circule en l'Homme comme elle circule dans l'arbre.
+    Sève brute (montante/Yin) = sang veineux.
+    Sève élaborée (descendante/Yang) = sang artériel.
+
+# ═══════════════════════════════════════════════════════════════
+# VI. SECTORISATION DU CORPS HUMAIN
+# ═══════════════════════════════════════════════════════════════
+
+sectorisation:
+  principe: >
+    Le corps humain est subdivisé en secteurs correspondant
+    chacun à une polarisation Yin/Yang. Plusieurs systèmes
+    ont coexisté au fil des millénaires, chacun donnant une
+    application différente dans la prise des pouls.
+
+  quatre_niveaux:
+    universaliste:
+      description: >
+        Correspondance taoïste de perspective initiatique.
+        État de Sainteté (So Ouen ch.66) : ouverture des
+        9 orifices du corps, communication avec l'Universel.
+      separation: clavicules
+      orifices: 9
+
+    celeste:
+      description: >
+        Correspondance taoïste de perspective humaniste.
+        État de Sagesse : ouverture des 7 orifices du Cœur,
+        transformation des 7 sentiments en 7 Vertus.
+      separation: plexus_solaire_angle_de_Charpie_niveau_Coeur
+      orifices: 7
+
+    terrestre:
+      description: >
+        Correspondance Ciel/Terre au plan naturellement humain,
+        la plus ancienne. L'Homme domine ses instincts et
+        s'élève au rang d'intégrer le Ciel en lui.
+      separation: nombril
+
+    humaine:
+      description: >
+        Correspondance humaine la plus classique.
+        Utilisée en permanence par TOUS les acupuncteurs.
+        L'Homme est constitué de 3 étages (combinaison
+        des schémas céleste et terrestre).
+        Il intègre son espace personnel entre Ciel et Terre
+        mais reste lié aux contingences de la vie terrestre.
+      separations: combinaison_plexus_et_nombril
+      note: >
+        L'homme rustre n'a que 2 étages : homme en haut,
+        Terre en bas. L'homme évolué en a 3 car il « connaît » le Ciel.
+
+# ═══════════════════════════════════════════════════════════════
+# VII. QUATRE CADRANS ET POLARITÉS
+# ═══════════════════════════════════════════════════════════════
+
+quatre_cadrans:
+  reference: schéma_4_sectorisation_humaine
+  principe: >
+    L'Homme est sectorisé en 4 cadrans par une croix
+    (séparation horizontale Ciel/Terre + verticale gauche/droite).
+    Les bras appartiennent TOUJOURS au Ciel.
+
+  polarites_generales:
+    - haut_Yang_bas_Yin
+    - gauche_Yang_droite_Yin
+    - arriere_Yang_avant_Yin
+    - externe_Yang_interne_Yin
+
+  cadran_superieur_gauche:
+    contenu: hemipoitrine_gauche_bras_gauche_hemicrane_gauche
+    polarite: Yang_du_Yang
+    raison: Ciel_Yang_plus_gauche_Yang
+
+  cadran_superieur_droit:
+    contenu: hemipoitrine_droite_bras_droit_hemicrane_droit
+    polarite: Yin_du_Yang
+    raison: Ciel_Yang_plus_droite_Yin
+
+  cadran_inferieur_droit:
+    contenu: fosse_iliaque_droite_membre_inferieur_droit
+    polarite: Yin_du_Yin
+    raison: Terre_Yin_plus_droite_Yin
+
+  cadran_inferieur_gauche:
+    contenu: fosse_iliaque_gauche_membre_inferieur_gauche
+    polarite: Yang_du_Yin
+    raison: Terre_Yin_plus_gauche_Yang
+
+  centre_homme:
+    localisation: sphere_digestive_foyer_moyen
+    polarite: Yin_egal_Yang_bipolaire_equilibre
+    fonction: >
+      Lieu d'échange, espace où les énergies respectives
+      mutent et se transforment. Comprend à la fois
+      le Ciel Yang et la Terre Yin.
+
+# ═══════════════════════════════════════════════════════════════
+# VIII. AXE FORT ET AXE FAIBLE
+# ═══════════════════════════════════════════════════════════════
+
+axes:
+  source: So_Ouen
+  axe_fort:
+    definition: >
+      Relie les deux cadrans de même polarité maximale :
+      Yang/Yang (haut-gauche) → Yin/Yin (bas-droite).
+    direction: haut_gauche_vers_bas_droite
+    signification: >
+      L'énergie est la plus puissante sur cet axe.
+      Le Yang est fort en haut à gauche (2× Yang).
+      Le Yin est fort en bas à droite (2× Yin).
+
+  axe_faible:
+    definition: >
+      Relie les deux cadrans de polarité mixte :
+      Yin/Yang (haut-droite) → Yang/Yin (bas-gauche).
+    direction: haut_droite_vers_bas_gauche
+    signification: >
+      L'énergie est plus faible sur cet axe.
+      Le Yang est faible en haut à droite (Yang + Yin).
+      Le Yin est faible en bas à gauche (Yin + Yang).
+
+  application_clinique: >
+    Les pathologies liées à cette méthode sont dans le
+    polycopié « Cours pratique 1 – 2ème partie » du Yin/Yang
+    (= CP I, qui correspond au Yin Yang t1 de la collection).
+
+# ═══════════════════════════════════════════════════════════════
+# IX. ACTIVITÉS PHYSIOLOGIQUES — 3 COUPLES ET FOURCHETTE
+# ═══════════════════════════════════════════════════════════════
+
+activites_physiologiques:
+  principe: >
+    Tous les processus d'activités physiologiques ET
+    pathologiques peuvent être qualifiés en Yin ou Yang.
+    L'organisme doit maintenir un équilibre dans une
+    fourchette de limites tolérables. Au-delà = déséquilibre.
+
+  trois_couples:
+    couple_1_thermique:
+      yin: froid
+      yang: chaleur
+      fonction: refroidissement_et_rechauffement
+      constante: constante_thermique_37C
+      danger: au_dela_41_en_deca_34
+
+    couple_2_hydrique:
+      yin: humidite
+      yang: secheresse
+      fonction: humidification_et_assechement
+      constante: constante_hydrique
+
+    couple_3_dynamique:
+      yin: fong_vent
+      yang: feu
+      fonction: mouvement_et_fievre
+      constante: constante_fong_feu_non_definissable_en_termes_occidentaux
+
+  principe_double_cause: >
+    UN MÊME SYMPTÔME peut avoir DEUX causes opposées :
+    1) Excès du facteur Yang (ex: trop de chaleur)
+    2) Insuffisance du facteur Yin (ex: pas assez de refroidissement)
+    → Même résultante, DEUX traitements différents.
+    Seul le POULS indique la nature du déséquilibre.
+    C'est le fondement du diagnostic différentiel en MTC.
+
+  exemples_double_cause:
+    fievre:
+      cause_1: exces_chaleur_Yang_en_exces
+      cause_2: insuffisance_refroidissement_Yin_insuffisant
+    frilosite:
+      cause_1: exces_froid_Yin_en_exces
+      cause_2: insuffisance_rechauffement_Yang_insuffisant
+    rhumatismes_humidite:
+      cause_1: exces_humidite_dans_le_corps
+      cause_2: insuffisance_assechement_sudation_respiration
+
+  trois_constantes: >
+    Le milieu intérieur bio-physiologique est conditionné
+    à la norme précise des 3 paramètres acceptant de TRÈS
+    FAIBLES fluctuations. Chaque constante a ses propres
+    normes en relation avec les autres.
+    Le corps est en bonne santé quand ces 3 constantes sont
+    conformes ET dans l'union harmonique de leur ensemble.
+
+fourchette_du_tolerable:
+  principe: >
+    Les normes de l'acceptable ne sont pas chiffrées en MTC.
+    Elles dépendent de CHAQUE organisme. C'est l'antithèse
+    de la norme unique occidentale.
+  exemple_tension: >
+    Un individu à 15/8 toute sa vie peut être parfaitement
+    sain. Le ramener à 13/8 le fatigue artificiellement.
+    Une femme à 11/8 peut aussi être en équilibre.
+    « Tant qu'un organisme s'ADAPTE, quels que soient les
+    chiffres, il n'y a PAS de pathologie. »
+  adaptation: >
+    Le pouvoir d'adaptation est conditionné par la vitalité,
+    la qualité de l'air respiré, de la nourriture absorbée,
+    et l'intensité positive du psychisme.
+    La fragilité provient d'une insuffisance de l'énergie
+    des 3 mécanismes d'équilibration.
+  desadaptation: >
+    Au-delà des normes maximales supportables, l'organisme
+    est en état de désadaptation → dépense plus d'énergie
+    pour s'équilibrer → souffrance → maladie → stade morbide
+    et lésionnel si l'écart persiste.
+
+# ═══════════════════════════════════════════════════════════════
+# X. IMMUNOLOGIE EN CADRE YIN/YANG
+# ═══════════════════════════════════════════════════════════════
+
+immunologie:
+  definition_elargie: >
+    L'immunologie ne se réduit PAS aux globules blancs
+    contre les germes. Elle comprend TOUS les mécanismes
+    de lutte contre tous les phénomènes : humidité, sécheresse,
+    froid, chaleur, feu, vent.
+  principe_fondamental: >
+    Tout ce qui nuit à la vitalité de l'immunologie nuit
+    à la faculté d'adaptation = faculté de résistance
+    aux éléments extérieurs ET aux maladies intérieures.
+  seuil_de_sensibilite: >
+    Ce qui n'était pas agressant pour l'organisme sain
+    peut le devenir quand la vitalité diminue. Le seuil
+    de sensibilité baisse → fragilité croissante →
+    envahissement par l'agent agresseur.
+  progression_maladie: >
+    « La maladie progresse TOUJOURS sur un vide de
+    l'énergie correcte du corps. »
+    Le froid pénètre profondément, l'inflammation se
+    généralise, le cancer prolifère... toujours sur un
+    vide préexistant.
+  lien_3_foyers: >
+    Les énergies nutritionnelle (Yong) et de défense (Weï),
+    liées à la respiration et l'alimentation, seront étudiées
+    avec les 3 foyers. Elles sont fondamentales à ce dynamisme
+    immunitaire.
+
+# ═══════════════════════════════════════════════════════════════
+# XI. GLOSSAIRE PHILOSOPHIQUE (pp. 36-42)
+# ═══════════════════════════════════════════════════════════════
+
+glossaire:
+  principe: >
+    Le Principe contient toutes les possibilités de vie ;
+    non extériorisé, contenu dans l'énergie ancestrale
+    de Ming Menn. Immuable, omniprésent, indéfini, éternel.
+    Source de toute chose, présent en tout car tout procède de lui.
+  chaos: >
+    Le Chaos, issu du Principe, est la source de la première
+    organisation perceptible. Loin de supposer le désordre,
+    il contient déjà tous les potentiels — comme le spermatozoïde
+    et l'ovule en présence mais pas encore unis.
+    Les Souffles inorganisés contiennent TOUTES les possibilités
+    de la création en devenir.
+  oeuf: >
+    Sous l'impulsion du Tao, les Souffles Primordiaux
+    s'organisent en Œuf — représentation même de la Vie,
+    animé des mouvements primaires d'inspire et d'expire.
+  premiere_trilogie: >
+    L'Innommable (CHEN = Esprit Universel, Esprit Créateur) +
+    Taé I + Tao = 1ère trilogie sensible. Comme l'étincelle
+    permettant la fécondation. Toute manifestation nécessite
+    3 facteurs. Taé I doit être binaire (duité Yin/Yang)
+    pour se manifester.
+  confucius: >
+    Kong Fou Tse (Confucius) né au 5ème s. av. J.C.
+    Enseignements connus vers le 2ème s. av. J.C. via
+    son petit-fils Meng Tse (Mencius).
+    Le confucianisme ne devient doctrine d'état qu'au 11ème s.
+    ap. J.C. Deux périodes : taoïste (pré-confucéenne)
+    puis confucéenne.
+  hygiène_de_vie:
+    nutrition: manger_quand_il_faut_qualite_saisons_conscience
+    respiration: tabac_pollution_exercices
+    elimination: eviter_surmenages_fatigue_sexualite_sommeil
+    emotions: maitriser_les_exces_emotionnels
+    spirituel: meditation_perceptions_sensorielles

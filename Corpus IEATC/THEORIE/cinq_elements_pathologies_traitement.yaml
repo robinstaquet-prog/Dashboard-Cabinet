@@ -1,0 +1,436 @@
+# PRINCIPES THERAPEUTIQUES DES 5 ELEMENTS — PATHOLOGIES
+# Source : PVII 5 Éléments tome 4, pp. 23-36 + pp. 80-81
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_pathologies_traitement.yaml
+  source: PVII_5E_t4_p23_36_80_81
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_pathologies_synthese.yaml
+    - THEORIE/cinq_elements_pathologies_cycles.yaml
+    - THEORIE/cinq_elements_points_su.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+
+# =======================================================
+# ABORD DES PATHOLOGIES
+# =======================================================
+abord_pathologies:
+  titre: Comment aborder les pathologies des 5 éléments
+  caracterisation:
+    intensite: [exces_ou_plenitude, insuffisance_ou_vide]
+    origine: [externe, interne]
+    nature: qualites_climatiques_ou_saisonnieres
+    localisation:
+      externe: dans_le_Yang_les_meridiens
+      interne: dans_le_Yin_les_organes
+      tissus: fonctions_mouvements_ou_elements_touches
+  source: PVII-t4-p23
+
+# =======================================================
+# PRINCIPES THERAPEUTIQUES
+# =======================================================
+principes_therapeutiques:
+  titre: Principes thérapeutiques généraux
+  determination:
+    niveau_atteinte:
+      A_surface_ou_profondeur:
+        surface: meridiens
+        profondeur: organes
+      B_tissu_fonction:
+        tissu: peau_muscles_sang_squelette
+        fonction_3_plans: [physique_organique, affectif, psychique]
+        mouvement: mise_en_route_nutrition_obesite_demineralisation
+        element: tableau_comportemental_tchi
+      C_correspondance_elements:
+        identifier: elements_touches_par_tableau_general_tchi
+        determiner: vide_ou_plenitude
+        connaitre: qualite_en_exces_ou_vide
+        rechercher: pathologie_tcheng_ko_ou_rae
+    nature_atteinte:
+      cinq_qualites: [fong_vent, chaleur_feu, humidite, secheresse, froid]
+  traiter:
+    trois_abords: [le_meridien, organe_et_tissus, element]
+    utilisation_points_antiques:
+      par_mouvement: ting_naissance_iong_expansion
+      par_nature: froid_chaud_humide
+      par_quantite: mere_tonifie_fils_disperse
+      par_cycle_ko: temperance_dynamisation_attaque
+      par_fonction: mise_en_mouvement_circulation_alimentation
+    deux_actions:
+      sur_perversite: element_representant_la_perversite
+      sur_touches: elements_touches
+  source: PVII-t4-p23_25
+
+# =======================================================
+# TRAITER LE NIVEAU DE L'ATTEINTE
+# =======================================================
+traiter_niveau:
+  surface:
+    actions:
+      - Yang_general_si_atteinte_etendue
+      - Tae_Yang_gere_toute_surface
+      - Chao_Yang_bouclier_protecteur
+      - meridien_concerne_si_localise
+      - tissu_concerne_par_correspondance_element
+    note: >
+      Les points de traitement sont pris sur le méridien
+      correspondant à l'élément, même si ce méridien
+      n'est pas touché.
+  profondeur:
+    actions:
+      - Yin_general_si_atteinte_etendue
+      - foyer_touche_si_envahi
+      - tsang_ou_fou_si_localise
+  exemple:
+    cas: crise_rhumatismes_humidite
+    traitement:
+      - dispersion_point_iu_Rate_ou_Estomac_pour_humidite
+      - dispersion_point_iu_Rein_pour_os_articulations
+      - dispersion_point_iu_Foie_pour_muscles_tendons
+      - tonification_point_penn_Foie_Bois_domine_Terre
+  source: PVII-t4-p25_26
+
+# =======================================================
+# TRAITER LA NATURE DE L'ATTEINTE
+# =======================================================
+traiter_nature:
+  principe: >
+    Le point dispersé doit correspondre à l'agent agresseur.
+    Pour améliorer : tonifier le point qui combat celui-ci.
+  en_general: sur_element_representant_agent
+  localement: sur_elements_touches
+  systemes_compensation:
+    Feu: oppose_a_Bois
+    Feu: oppose_a_Eau
+    Terre: oppose_a_Metal
+  source: PVII-t4-p26_27
+
+# =======================================================
+# CAUSES EXTERNES — SAISONS ET CLIMATS
+# =======================================================
+causes_externes:
+  titre: Causes externes des maladies
+  dereglement_intensite: [trop_forte, trop_faible]
+  desynchronisation:
+    - trop_tot_par_rapport_date_normale
+    - trop_tard_par_rapport_date_normale
+    - n_importe_quand_sans_rapport_saison
+  facteur_aggravant: >
+    Peut venir aggraver un sujet déjà sensibilisé même si
+    l'énergie est d'amplitude et de temps normaux.
+  source: PVII-t4-p27
+
+# =======================================================
+# CAUSES INTERNES — ETAT ENERGETIQUE
+# =======================================================
+causes_internes:
+  titre: Causes internes des maladies
+  origines_possibles:
+    - perversite_externe_non_traitee_installee
+    - mauvaise_alimentation_ponctuelle_ou_permanente
+    - perturbation_sentimentale_ou_psychique
+    - medicaments_heredite_vaccins_accidents
+  symptomes:
+    permanents: ou_occasionnels_lors_affaiblissement
+    crises: >
+      Lors de la présence de l'énergie externe saisonnière
+      même si elle n'agresse pas directement. L'énergie
+      est un facteur aggravant et non causal.
+  principes_therapeutiques: >
+    Points Su s'attaquent aux mêmes effets, que les causes
+    soient externes ou internes.
+  pathologies_externes: >
+    Fluctuantes, appelées à disparaître avec la disparition
+    de l'énergie en excès. Mais réapparaissent régulièrement,
+    voire une 2ème fois dans l'année.
+  pathologies_internes: >
+    Plus anciennes et incrustées. Plus longues et difficiles
+    à traiter car le comportement inadapté peut se
+    représenter n'importe quand.
+  source: PVII-t4-p28
+
+# =======================================================
+# POINTS PENN
+# =======================================================
+points_penn:
+  titre: Les points Penn — synthétisation de l'énergie saisonnière
+  definition: >
+    Points qui règlent la synthétisation de l'énergie
+    saisonnière pour leur organe. Chaque tsang a son
+    point penn. Il synthétise la "quintessence de l'énergie
+    de la saison".
+  regle: >
+    Seuls comptent ceux des tsang. Le Yin seul peut
+    synthétiser les énergies externes.
+  qualite_complete: >
+    Le point penn représente, à lui seul, dans le méridien,
+    pour l'organe et ses tissus, pour l'élément et le
+    mouvement, toutes les qualités de la saison.
+  exemple_1F: >
+    1F (point Bois du foie) = seul point pour tout l'organisme
+    à pouvoir déclencher la synthétisation de l'énergie
+    du Bois (fong) et à régénérer directement tous les
+    muscles striés, tendons et ligaments.
+  tableaux_penn:
+    Yin:
+      colonnes: [Ting_Bois, Iong_Feu, Iu_Terre, King_Metal, Ro_Eau]
+      Foie: [1F, 2F, 3F, 4F, 8F]
+      Coeur: [9C, 8C, 7C, 4C, 3C]
+      Maitre_Coeur: [9MC, 8MC, 7MC, 5MC, 3MC]
+      Rate: [1Rte, 2Rte, 3Rte, 5Rte, 9Rte]
+      Poumon: [11P, 10P, 9P, 8P, 5P]
+      Rein: [1R, 2R, 3R, 7R, 10R]
+    Yang:
+      colonnes: [Iu_Bois, King_Feu, Ro_Terre, Ting_Metal, Iong_Eau]
+      Vesicule_Biliaire: [41VB, 38VB, 34VB, 44VB, 43VB]
+      Intestin_Grele: [3IG, 5IG, 8IG, 1IG, 2IG]
+      Triple_Rechauffeur: [3TR, 6TR, 10TR, 1TR, 2TR]
+      Estomac: [43E, 41E, 36E, 45E, 44E]
+      Gros_Intestin: [3GI, 5GI, 11GI, 1GI, 2GI]
+      Vessie: [65V, 60V, "40V(54V)", 67V, 66V]
+  penn_et_saison:
+    absorption: >
+      Le point penn absorbe l'énergie saisonnière, l'adapte
+      et la transmet à son organe via l'énergie iong.
+    activite_max: au_moment_de_la_saison
+    condition: >
+      La fonction penn est active uniquement lors de la
+      saison correspondante et lorsque le climat est
+      conforme à celle-ci.
+    exemple: >
+      La chaleur nourrit le Feu grâce aux points iong
+      des Yin (8C et 8MC) en été. En dehors de l'été,
+      la chaleur ne peut nourrir le Feu.
+  utilisation_therapeutique:
+    vide:
+      traitement: tonifier_point_penn
+      effet: >
+        Stimule la fonction du point penn qui agit sur
+        l'organe pour synthétiser l'énergie de la saison.
+    exces:
+      traitement: disperser_point_penn
+      effet: >
+        Diminue ou ralentit la fonction de synthétisation.
+    diagnostic_differentiel: >
+      Exclure vide par insuffisance de la mère et excès
+      par excès du fils. Le penn seul ne s'applique qu'aux
+      cas de "maladie vraie".
+  source: PVII-t4-p29_31
+
+# =======================================================
+# POINTS MERES — LOI DE TONIFICATION
+# =======================================================
+points_meres:
+  titre: Les points Mères — tonification par le cycle Tcheng
+  definition: >
+    Le rang du point penn de la mère d'un élément est
+    son point mère = point de tonification.
+  exemple_Terre: >
+    Mère de la Terre = Feu, penn du Feu = iong.
+    Le point mère de la Terre = iong de la Rate = 2Rte.
+    C'est son point de tonification.
+  premiere_loi:
+    enonce: >
+      À une saison donnée, l'élément mère de l'empereur
+      est son élément de tonification. Tous les points mères
+      sont, dans chaque élément, tonifiants.
+    action: >
+      Quelle que soit l'action menée sur eux (tonification,
+      dispersion, massage), ils tonifieront toujours à cette
+      saison l'organe ou l'élément auquel ils appartiennent.
+  tonifier_en_saison:
+    empereur: >
+      Tonifier la mère par son point penn + point mère
+      dans l'empereur + point penn de l'empereur.
+    autre_element: >
+      Tonifier sa propre mère par point mère de la saison,
+      son propre point mère, son propre point penn.
+    exemple_automne: >
+      Empereur=Métal, mère=Terre, point mère=iu.
+      Tonifier empereur : iu Rate + iu Poumon + king(penn) Poumon.
+      Tonifier autre : sa mère par son iu + son propre iu + son penn.
+    attention: s_assurer_que_points_choisis_pas_dispersants
+  source: PVII-t4-p31_33
+
+# =======================================================
+# POINTS FILS — LOI DE DISPERSION
+# =======================================================
+points_fils:
+  titre: Les points Fils — dispersion par le cycle Tcheng
+  definition: >
+    Le rang du point penn du fils d'un élément est
+    son point fils = point de dispersion.
+  exemple_Eau: >
+    Fils de l'Eau = Bois, penn du Bois = ting.
+    Le point fils de l'Eau = ting du Rein = 1R.
+    C'est son point de dispersion.
+  deuxieme_loi:
+    enonce: >
+      À une saison donnée, l'élément fils de l'empereur
+      est son élément de dispersion. Tous les points fils
+      sont, dans chaque élément, dispersants.
+    action: >
+      Quelle que soit l'action menée sur eux, ils disperseront
+      à cette saison l'organe ou l'élément.
+  disperser_en_saison:
+    empereur: >
+      Disperser le fils par son point penn + point fils
+      dans l'empereur + point penn de l'empereur.
+    autre_element: >
+      Disperser son propre fils par point fils de la saison,
+      son propre point fils, son propre point penn.
+    exemple_ete: >
+      Empereur=Feu, fils=Terre, point fils=iu.
+      Disperser empereur : iu Rate + iu Coeur/MC + penn Coeur/MC.
+    attention: s_assurer_que_points_choisis_pas_tonifiants
+  source: PVII-t4-p33_34
+
+# =======================================================
+# POINTS ACTIFS, NEUTRES, HORAIRE
+# =======================================================
+points_actifs_et_neutres:
+  titre: Points actifs et neutres dans la saison
+  trois_points_actifs:
+    penn: synthétisation_energie_saisonniere
+    mere: toujours_tonifiant
+    fils: toujours_dispersant
+  deux_points_neutres:
+    definition: >
+      Ni synthétisation, ni dispersion, ni tonification.
+      Le thérapeute peut agir comme il le veut.
+    exemple_5eme_saison: >
+      Empereur=Terre, mère=Feu, fils=Métal.
+      Actifs : iu(empereur), iong(mère), king(fils).
+      Neutres : ting(Bois), ro(Eau).
+  point_horaire:
+    principe: >
+      Même principe mais appliqué à la marée énergétique
+      de l'organe (2h d'activation chacun).
+    ideal: >
+      Tonifier un organe vide en faisant son point penn
+      pendant sa saison à l'heure de sa marée.
+    reserve_IEATC: >
+      Grandes réserves car ancienne erreur de traduction.
+      La chrono-acupuncture fut un échec. Le passage
+      de l'énergie iong dans un système ne dure que
+      2 minutes 30, 50 fois par jour. C'est la position
+      du soleil dans le Ciel qui détermine l'activation.
+  source: PVII-t4-p34_36
+
+# =======================================================
+# LOIS GENERALES DES POINTS SU
+# =======================================================
+lois_generales:
+  titre: Lois générales des points Su et des traitements
+  variabilite_saisonniere: >
+    Les points Su ont une activité tonifiante, dispersante
+    ou neutre selon les saisons. Le même point dispersant
+    à une saison devient penn à la suivante puis tonifiant.
+  loi_mere_fils:
+    enonce: >
+      À une saison donnée : tous les points mère sont
+      tonifiants, tous les points fils sont dispersants.
+    application: >
+      Pour tonifier un élément vide : tonifier sa mère
+      ou son point mère.
+      Pour disperser un élément plein : disperser son fils
+      ou son point fils.
+    nom: la_loi_mere_fils
+  source: PVII-t4-p36
+
+# =======================================================
+# UTILISATION THERAPEUTIQUE DES SU
+# =======================================================
+utilisation_su:
+  titre: Utilisation thérapeutique des points Su
+  tonifier_su: >
+    Revient à enclencher sa "mise en route", sa fonction,
+    comme s'il n'était pas précédemment au travail.
+    Conduit le sujet à rechercher et synthétiser davantage
+    de critères correspondants (alimentation, comportements).
+  disperser_su: >
+    Consiste à le "mettre en sommeil" comme s'il était
+    trop actif, provoquant une saturation. Dispersé,
+    il diminue sa fonction.
+  exemple_iong_Yin:
+    tonification: >
+      Stimule le point comme le ferait la chaleur,
+      mettant en activité une réaction de compensation
+      qui lutte contre la perversité (interne ou externe).
+    dispersion: >
+      Produit une diffusion/élimination de la chaleur
+      et diminution de sa production par l'organisme.
+  source: PVII-t4-p26_27
+
+# =======================================================
+# RESUME DES 10 PRINCIPES DE TRAITEMENT
+# =======================================================
+dix_principes:
+  titre: Résumé de tous les traitements
+  1er:
+    enonce: disperser_attaquant_dans_attaque
+    detail: >
+      Énergie perverse dans un élément → disperser le point
+      Su qui correspond à cette énergie sur le tsang attaqué.
+  2eme:
+    enonce: meme_regle_pour_exces_interne_ou_externe
+    detail: >
+      Si par excès, affection lors de la présence d'une énergie
+      sur un élément → disperser le point correspondant.
+    exemples:
+      - diarrhees_froides_point_eau_GI_ou_P_en_d
+      - rhumatismes_humidite_point_Terre_foie_en_d
+      - ulcere_estomac_point_feu_E_ou_Rte_en_d
+      - chaleur_tete_ete_point_feu_coeur_en_d
+  3eme:
+    enonce: insuffisances_tonifier_point_contraire
+    detail: >
+      Même principe mais en tonifiant le point contraire.
+    exemples:
+      - glace_profonde_hiver_point_feu_Rte_ou_R_en_t
+      - secheresse_peau_point_Terre_P_en_t
+  4eme:
+    enonce: combiner_dispersion_et_tonification
+    detail: >
+      Disperser le point de la perversité + tonifier le
+      point opposé sur le même méridien.
+    exemple: diarrhees_froides_eau_GI_d_plus_chaleur_GI_t
+  5eme:
+    enonce: insuffisance_saisonniere_tonifier_penn
+    detail: >
+      L'organe correspondant à la saison est en faiblesse
+      → tonifier son point penn.
+  6eme:
+    enonce: exces_habituel_disperser_penn_entree_saison
+    detail: >
+      Si un organe est habituellement en excès, l'énergie
+      de sa saison va l'aggraver → disperser son point penn
+      à l'entrée de la saison.
+  7eme:
+    enonce: forcer_passage_tcheng_mere_fils
+    detail: >
+      Si le passage mère→fils ne se fait pas (mère correcte) :
+      disperser dans la mère le penn du fils,
+      tonifier dans le fils le penn de la mère.
+  8eme:
+    enonce: vide_par_mere_vide_tonifier_mere
+    detail: >
+      Si un élément est en vide parce que sa mère est
+      elle-même en vide → tonifier la mère par son penn.
+  9eme:
+    enonce: plenitude_par_fils_plein_disperser_fils
+    detail: >
+      Si un élément est en plénitude parce que son fils
+      régurgite → disperser le fils par son penn et/ou
+      son propre point fils.
+  10eme:
+    enonce: reequilibration_axes_et_systemes_energetiques
+    detail: >
+      Concerne la rééquilibration des axes et systèmes
+      énergétiques dont le déséquilibre concerne leurs
+      qualités (voir chapitre Kan et Che).
+  note: >
+    Les traitements des 5 maladies de MMM sont contenus
+    dans ces principes.
+  source: PVII-t4-p80_81

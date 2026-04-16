@@ -1,0 +1,300 @@
+# LES SHEN — CINQ ESPRITS — SÉMINAIRE CLM DÉCEMBRE 1981
+# Source : EEA 1er.pdf (PVI EEA t1), Dr Schatz + E. Rochas de la Vallée
+# Intégré : 2026-04-06
+
+# ─────────────────────────────────────────────────
+# NATURE GÉNÉRALE DES SHEN
+# ─────────────────────────────────────────────────
+
+nature_generale:
+  definition: >
+    Les Shen sont les plus subtiles déterminations de l'être dans
+    le déroulement de toutes ses facultés. Ce sont les dispositions
+    psychiques tellement subtiles qu'elles sont le primum movens de
+    toutes les orientations d'une vie — pas seulement psychisme pur
+    mais code de la vie, idée directrice présente dès la conception.
+  non_dualite: >
+    « Les Shen sont aussi matériels que le corps est spirituel »
+    (Schatz). La dichotomie corps/esprit N'EXISTE PAS en Pensée
+    Chinoise. Les Shen sont à tous les niveaux de l'être, des
+    particules les plus infimes aux dispositions les plus élevées.
+  miniaturisation: >
+    Plus un mécanisme est miniaturisé, plus il est efficace. Une
+    cellule dans son infiniment petit est infiniment plus puissante
+    que l'organisme déployé. Les Shen, miniaturisés, ont une puissance
+    infinie — ils ensemencent tout l'être, font l'être.
+  indestructibilite: >
+    Les Shen sont indestructibles. Ils peuvent disparaître (d'un
+    ensemble), mais pas être détruits. Quand ils disparaissent
+    d'une personne = mort. Quand une partie disparaît = folie/insanité,
+    différente selon laquelle est absente (Hun, Po...).
+  Shen_partout: >
+    Présents non seulement dans l'individu mais dans tout ce qui
+    compose un individu. Lient tout ce qui est du domaine du Cœur
+    (sang, régulation, vie) à l'esprit et au système nerveux.
+  citation_Ling_Shu_8: >
+    « Deux Jing s'entrelacent l'un l'autre... voilà ce qu'on
+    appelle Shen. » — C'est l'individuation au niveau le plus
+    subtil et le plus initial, presque la première cellule.
+
+# ─────────────────────────────────────────────────
+# HIÉRARCHIE DES CINQ SHEN
+# ─────────────────────────────────────────────────
+
+hierarchie:
+  structure: >
+    Les 5 Shen se divisent en deux groupes avec une hiérarchie
+    d'apparition et de noblesse :
+    - Groupe 1 (Esprits supérieurs) : Shen, Hun, Po
+    - Groupe 2 (Esprits inférieurs) : Yi, Zhi
+    Shen est le plus archaïque, Hun et Po viennent après,
+    Yi et Zhi enfin. (Source : Leung Kok Yuen, André Faubert)
+  groupe_superieur:
+    note: >
+      Shen, Hun, Po font partie du vocabulaire général de la Chine
+      traditionnelle. Ils désignent l'aspect le plus subtil, le plus
+      céleste dans l'Homme. Leurs idéogrammes portent le radical
+      des Esprits (célestes ou terrestres).
+  groupe_inferieur:
+    note: >
+      Yi et Zhi font partie du vocabulaire plus spécifiquement
+      médical. Leurs idéogrammes portent le radical du Cœur.
+      Ils ne survivent pas à l'individu physique. Ils complètent
+      le tableau des 5 éléments dans un deuxième temps d'élaboration.
+  couple_celeste_terrestre:
+    Shen_celeste: >
+      « Esprits du Ciel » (célestes), véritablement rattachés
+      au Ciel par leur nature.
+    Gui_terrestre: >
+      « Esprits de la Terre » (terrestres), contrepartie de Shen.
+      Gui = partie droite des idéogrammes Hun et Po. Gui est la
+      manifestation terrestre des Esprits. Traduit souvent par
+      « démons » mais ce ne sont que les Esprits tels qu'ils
+      se manifestent sur terre.
+
+# ─────────────────────────────────────────────────
+# LES CINQ SHEN INDIVIDUELS
+# ─────────────────────────────────────────────────
+
+shen_du_coeur:
+  nom: Shen — Esprits (sens restreint, lié au Cœur)
+  organe: Coeur
+  element: Feu
+  ideogramme: >
+    Partie gauche : tablette avec offrandes qui s'élèvent.
+    Partie droite : deux mains avec écharpe dont on saisit
+    à peine les mouvements (danse, subtilité insaisissable).
+  nature: >
+    Intelligence du Cœur (métaphore Schatz). Principe d'individuation
+    qui fait qu'un être concret se forme et qui commande l'organisation,
+    la concertation, la coordination de l'être. C'est ce qui est
+    de l'ordre de la réalité du Dao à l'échelle de l'individu.
+  logis: >
+    Le Cœur est le logis des Shen. Le méridien du Cœur monte au
+    cerveau pour montrer que ce sont des notions concrètes et
+    pratiques, pas seulement universelles.
+  quand_absent: >
+    Plus de Shen = éclatement, folie, il n'y a plus de principe
+    d'organisation. C'est la perte totale de la coordination de l'être.
+  role_generique: >
+    Shen est aussi le nom GÉNÉRIQUE pour toutes les « âmes
+    végétatives ». Il est l'élément qui les résume tous, le plus
+    élevé. Tous les sentiments ont « cœur » comme radical dans
+    leur idéogramme.
+
+hun:
+  nom: Hun — Âmes supérieures / Esprits célestes incarnés
+  organe: Foie
+  element: Bois
+  ideogramme: >
+    Partie droite = Gui (Esprit terrestre). Partie gauche = nuages
+    (sens céleste). Hun = côté Ciel/Yang de l'incarnation terrestre.
+  nature: >
+    Lot d'images fondamentales, au sens de schèmes, archétypes,
+    mécanismes, codes, avec lesquels l'individu se développe.
+    Ce sont des préfigurations d'actes qu'il va accomplir.
+    Imagination, mouvement de l'avant, instances intellectuelles,
+    formations d'images, rêves, imaginaire originel.
+  apport_parental: >
+    « Les Souffles essentiels du père forment les Hun »
+    (compilateur Zong, 10è siècle). Les Hun suivent le plus
+    près le mouvement des Shen.
+  embryologie: >
+    Au 7ème mois, « ses Hun voyagent et çà peut bouger la main
+    droite ». Apparition d'un mouvement volontaire lié au Bois.
+  apres_la_mort: >
+    Les Hun montent au Ciel où ils redeviennent des Shen, des
+    mannes, des Esprits des Ancêtres.
+  exces: >
+    Projection excessive, on démarre trop vite, on va trop loin,
+    on est tourné vers l'avoir. Au niveau du Foie : colère, raptus,
+    montée des énergies.
+  lien_existant: >
+    Correspond au HOUN du corpus (CHEUN des 5 organes).
+    Ici enrichi par l'étymologie et la hiérarchie complète.
+
+po:
+  nom: Po — Âmes inférieures / Esprits terrestres incarnés
+  organe: Poumon
+  element: Metal
+  ideogramme: >
+    Partie droite = Gui (Esprit terrestre). Partie gauche = blanc
+    (ossements débarrassés de la chair). Po = côté Terre/Yin.
+  nature: >
+    Conduites instinctuelles, énergétique fondamentale, animation.
+    « Mémoire du futur » (Laville-Méry) — la puissance de l'énergie.
+    Quand le Poumon est puissant, on a plus d'allant pour vivre.
+    Les Po apportent l'énergie aux schèmes que les Hun fournissent.
+  apport_parental: >
+    « Les Souffles essentiels de la mère forment les Po »
+    (compilateur Zong, 10è siècle).
+  embryologie: >
+    Au 8ème mois, « les Po voyagent et çà peut bouger la main
+    gauche ». Apparition de l'animation motrice liée au Métal.
+  apres_la_mort: >
+    Les Po retournent à la Terre où ils se dissolvent normalement.
+    Parfois deviennent des fantômes (contes populaires).
+  lien_existant: >
+    Correspond au PO du corpus (CHEUN des 5 organes).
+
+yi:
+  nom: Yi — Propos / Discours intérieur
+  organe: Rate
+  element: Terre
+  ideogramme: >
+    Radical du Cœur (pas des Esprits). La bouche pour parler,
+    la musique du Cœur. Discours articulé, forme mentale.
+  nature: >
+    L'assemblage de l'ensemble spirituel (Hun + Po) en une
+    proposition, un discours intérieur articulé. C'est la
+    conscience qui entretient tout ce que nous faisons grâce
+    aux mécanismes dont nous disposons.
+  exces: >
+    Régurgitation mentale, obsession, retour vers le passé.
+  lien_existant: >
+    Correspond au Yi/I du corpus (CHEUN des 5 organes).
+
+zhi:
+  nom: Zhi — Volonté / Vouloir-vivre
+  organe: Rein
+  element: Eau
+  ideogramme: >
+    Radical du Cœur + mouvement d'aller vers. Le cœur qui s'axe,
+    s'oriente, va vers quelque chose. Maintenir une proposition
+    pour une réalisation.
+  nature: >
+    L'effectuation pratique, le vouloir-vivre. Direction de vie
+    acceptée et tenue. Très proche du « vouloir-vivre ».
+    Base du développement de la vie psychique, mentale,
+    sentimentale et intellectuelle.
+  lien_CA: >
+    Lié à l'Eau authentique du C.A., au Zhi. Dans certains
+    traitements, c'est sur la volonté qu'on s'appuie pour
+    formuler le jugement diagnostic.
+  lien_existant: >
+    Correspond au Tchi/Zhi du corpus (CHEUN des 5 organes).
+
+# ─────────────────────────────────────────────────
+# EMBRYOLOGIE DES SHEN
+# ─────────────────────────────────────────────────
+
+embryologie_shen:
+  texte_compilateur_Zong_10e_siecle:
+    principe: >
+      « Les Souffles essentiels du Ciel/Terre transforment
+      les 10 000 êtres. Les Souffles essentiels du père
+      forment les Hun, les Souffles essentiels de la mère
+      forment les Po. »
+    mois_par_mois:
+      mois_1: boisson fermentée
+      mois_2: fruit comme une prune
+      mois_3: forme et apparence
+      mois_4: différenciation masculin/féminin
+      mois_5: muscles et os
+      mois_6: cheveux
+      mois_7: Hun voyagent — bouge la main droite
+      mois_8: Po voyagent — bouge la main gauche
+      mois_9: trois tours du corps
+      mois_10: plénitude MAN suffisante — naissance
+  texte_Huai_Nan_Zi_2e_av_JC:
+    mois_1: pâte
+    mois_2: pelote
+    mois_3: foetus
+    mois_4: chairs
+    mois_5: muscles
+    mois_6: os
+    mois_7: Homme formé
+    mois_8: mouvements
+    mois_9: trépigne
+    mois_10: voit le jour
+  texte_autre_auteur:
+    jour_9: Yin et Yang grands et fermes
+    jour_41: début du foetus
+    mois_9: Shen diffusés + Souffles en plénitude = foetus achevé
+
+# ─────────────────────────────────────────────────
+# RELATIONS INTER-SHEN ET 5 ÉLÉMENTS
+# ─────────────────────────────────────────────────
+
+relations:
+  rapports_5E: >
+    Les 5 Shen jouent en même temps, dans des rapports codifiés
+    par les 5 éléments : rapports d'engendrement (Tcheng) et
+    rapports d'équilibration mutuelle (Ko), dans l'Unité de la
+    conduite de l'être.
+  perspectives_variables: >
+    Selon la perspective prise, un Shen peut être prévalent :
+    - Printemps/origine → Hun (Bois) fondamental
+    - Feu/Shen → le plus élevé, souverain
+    - Centre/Yi → pivot conscient
+    - Energétique/Po → puissance d'animation
+    - Volonté/Zhi → Eau authentique, diagnostic C.A.
+  implications_cliniques:
+    maladie: >
+      « Pourquoi est-on malade ? Parce que dans le fond de nous-mêmes,
+      il y a eu une déviation du Shen primitif de notre existence —
+      soit de forces pulsées en nous, soit par l'interaction de forces
+      extérieures. » (Schatz)
+    guerison: >
+      « La guérison, c'est retrouver sa route par soi-même, le
+      thérapeute étant comme n'existant pas, l'acte thérapeutique
+      très subtil, touchant à travers un acte a minima. Tous les
+      grands techniciens n'emploient que 2 ou 3 aiguilles. » (Schatz)
+    diagnostic: >
+      « Empathie pour connaître l'autre, sympathie pour corriger
+      ses déficiences. Le diagnostic céleste retrouve l'Unité de
+      tous les symptômes pour le traitement le plus efficace. »
+
+# ─────────────────────────────────────────────────
+# XING / TI / SHEN — TROIS ANGLES DU CORPS
+# ─────────────────────────────────────────────────
+
+trois_corps:
+  note: >
+    La Pensée Chinoise ne définit pas « le corps » comme concept
+    global mais fait éclater la notion en plusieurs angles.
+    La division corps/esprit n'est absolument pas nette.
+  xing:
+    nom: Xing — La forme
+    definition: >
+      Ce qui se présente aux sens. L'apparence qui est tributaire
+      des lignes de force intérieures. « Apparence trompeuse » n'est
+      PAS une notion chinoise — les symptômes sont vrais et révèlent
+      le mal, comme les reliefs révèlent les forces telluriques.
+    citation_SW4: >
+      « Le Xing, c'est le tronc où s'enracine le corps (Shen). »
+  ti:
+    nom: Ti — La structure
+    definition: >
+      Couches successives de formation. Structure corporelle.
+      Même relation que les Rites pour la société : la structure
+      profonde qui met tout à sa bonne place hiérarchique.
+    lien: Os = structure = rites
+  shen_corps:
+    nom: Shen — La personne
+    definition: >
+      Coordination de l'ensemble des éléments formant corps et
+      esprit dans tout le champ des activités. Etymologiquement :
+      femme enceinte, embryon dans le ventre = l'essentiel caché.
+      Aussi : coque du navire, tronc d'arbre, torse = partie
+      essentielle à partir de laquelle tout se développe.

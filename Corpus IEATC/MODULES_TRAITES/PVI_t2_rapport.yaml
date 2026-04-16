@@ -1,0 +1,108 @@
+# RAPPORT D'INTÉGRATION — PVI PHYSIOLOGIE TOME 2
+# Date : 2026-04-05
+
+meta:
+  polycopie: T2 Physio.pdf
+  titre: Polycopié VI — Série Physiologie tome 2
+  sous_titre: Les Tsang / Fou — Physiologie — Les Tsang
+  auteur: Thierry_Bollet
+  date_document: 04/07/2015
+  pages: 52
+  module: VI_Physiologie_tome_2
+  niveau: fondateur
+  prerequis: PVI_t1_deja_integre
+
+fichiers_crees:
+  - chemin: ZANG_FU/coeur.yaml
+    contenu: physiologie individuelle du Coeur (pp.12-18)
+  - chemin: ZANG_FU/maitre_du_coeur.yaml
+    contenu: physiologie individuelle du MC (pp.19-22)
+  - chemin: ZANG_FU/poumon.yaml
+    contenu: physiologie individuelle du Poumon (pp.23-28)
+  - chemin: ZANG_FU/rate.yaml
+    contenu: physiologie individuelle de la Rate-Pancréas (pp.29-37)
+  - chemin: ZANG_FU/foie.yaml
+    contenu: physiologie individuelle du Foie (pp.38-45)
+  - chemin: ZANG_FU/rein.yaml
+    contenu: physiologie individuelle du Rein (pp.46-52)
+  - chemin: THEORIE/hierarchie_sang_energie.yaml
+    contenu: hiérarchies pyramidale et sang/énergie, axes, 3 systèmes (pp.6-11)
+  - chemin: MODULES_TRAITES/PVI_t2_rapport.yaml
+    contenu: ce rapport
+  total: 8
+
+fichiers_mis_a_jour:
+  - chemin: _SYSTEME/00_conflits_en_attente.yaml
+    ajouts: C004_resolu_Q003_resolu_Q004_ajoutee
+    note: resolutions confirmees par praticien
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajouts: >
+      8 nouveaux termes (Ming, Tae I, Tsing propre, Yuan Tchi,
+      Tsong Tchi, Tran Tchong, Kan, Che) + enrichissement Iong
+    note: version 1.2
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajouts: zones_peripheriques_segments_corporels_classification_Yin_Yang
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajouts: regle_absolue_niveaux_traitement_arbre_7_tsang_fou_priorite
+  - chemin: THEORIE/tsang_fou_physiologie_t1.yaml
+    ajouts: mecanisme_C004_resolu_Tsing_dans_Iong
+  - chemin: ZANG_FU/role_general_tsang.yaml
+    ajouts: role_Rate_trieur_Tsing_et_provenance_confirmee
+  - chemin: ZANG_FU/role_general_fou.yaml
+    ajouts: precision_captation_Tsing_par_Fou
+
+concepts_fondateurs_integres:
+  - hierarchie_pyramidale_imperiale_des_tsang
+  - hierarchie_sang_energie_avec_4_tableaux
+  - couplages_tsang_fou_sang_energetique
+  - axes_energetiques_et_sang_energie
+  - structure_interne_externe_en_photocopie
+  - 3_systemes_energetiques_flux_haut_bas
+  - physiologie_individuelle_5_tsang_plus_MC
+  - distributions_centripetes_centrifuges_par_tsang
+  - periodes_activite_solaire_lunaire_planetaire
+  - physiologie_occidentale_par_organe
+  - physiologie_dans_foyer_par_organe
+  - physiologie_dans_5_elements_par_organe
+
+schemas_transcrits:
+  - tableau_1: hierarchie_sang_energie_tsang_fou
+  - tableau_2: couplages_sang_energie
+  - tableau_3: axes_energetiques_interne_externe
+  - tableau_4: energies_climatiques_par_axe
+  - figure_1: double_Feu_Empereur_au_dessus_Ministre
+  - schema_3_systemes: 6_axes_en_3_systemes
+  note: >
+    Tous les schémas ont été transcrits textuellement en YAML.
+    Le PDF contient aussi des schémas graphiques (flèches,
+    dispositions spatiales) qui ne peuvent être reproduits
+    exactement en texte mais dont le contenu informationnel
+    a été intégralement capturé.
+
+questions_soulevees:
+  - question_id: Q005
+    sujet: >
+      Le poumon EST le maître de l'abaissement des liquides
+      du HAUT du corps. Confirmé par praticien.
+    statut: RESOLU_2026-04-05
+    source: PVI-t2-p27
+
+  - question_id: Q006
+    sujet: >
+      Les lois Minuit-Midi et Époux-Épouse sont mentionnées
+      dans les distributions du Coeur mais renvoyées aux
+      polys des méridiens. Non encore intégrées au corpus.
+    statut: lacune_attendue_dans_modules_meridiens
+
+lacunes_critiques:
+  - Physiologie des FOU individuels non couverte (sera dans PVI t3+)
+  - Sentiments et psychisme par organe renvoyés à P VIII
+  - Lois Minuit-Midi et Époux-Épouse non encore documentées
+  - Entrailles curieuses non couvertes
+  - Kan et Che (énergies de l'année) mentionnés mais non détaillés
+
+dependances_modules_suivants:
+  priorite_1: PVI_t3_ou_suite_physiologie_Fou_individuels
+  priorite_2: PVIII_sentiments_psychisme_par_organe
+  priorite_3: PVII_5_elements_complets
+  priorite_4: CP_III_meridiens_lois_lo

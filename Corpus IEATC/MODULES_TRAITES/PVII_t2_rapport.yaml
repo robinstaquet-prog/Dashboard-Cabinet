@@ -1,0 +1,270 @@
+# RAPPORT D'INTÉGRATION — PVII 5 ÉLÉMENTS TOME 2
+# Date : 2026-04-05
+
+meta:
+  polycopie: 5_Elements_2.pdf
+  titre: Polycopié VII — Les 5 Éléments — Physiologie tome 2
+  sous_titre: Cycles, correspondances, lois de relations, énergie Terre/Ciel
+  auteur: Thierry_Bollet
+  date_document: 04/07/2015
+  pages: 61
+  module: VII_5_Elements_tome_2
+  niveau: fondateur
+  prerequis: PVII_t1_deja_integre
+
+fichiers_crees:
+  - chemin: THEORIE/cinq_elements_correspondances.yaml
+    contenu: >
+      5E et univers/planètes, couleurs symboliques (carré+triangle=7),
+      lune et calendriers (4 calendriers, 10 Kan, critique thèmes
+      énergétiques), tableau COMPLET des Tchi des 5 éléments
+      (30+ correspondances par élément), Ching/Ié liquides,
+      résumé activités organiques. (pp.7-22)
+  - chemin: THEORIE/cinq_elements_cycles.yaml
+    contenu: >
+      Cycle Tcheng détaillé (transmission Yin→Yin, PAS Fou→Fou,
+      rôle Rate transformation), distinction 3F vs 5E (journalier
+      vs saisonnier), bilan énergétique, cycle Ko détaillé
+      (CLM fléau/crosse, intelligence, Hong Fan), cycle Raé
+      (révolte, n'importe quand), activité simultanée Tcheng/Ko,
+      Cour Impériale (5 rôles, décalage saisonnier), loi unitaire
+      (climat+saison, point Penn détaillé, 4 états, questionnaire),
+      collecte annuelle Métal→Rein, importance capitale printemps,
+      lois binaire et ternaire (5 ternaires, 3 triangles),
+      globalité (loi So Ouen attaque toujours 2), quaternaire/
+      quinaire (4 principes, auto-régulation, oscillation, mère
+      faible), dominant/dominé (multi-hiérarchie), changement
+      de saison (transition trilogique). (pp.23-54)
+  - chemin: THEORIE/cinq_elements_energie_terre_ciel.yaml
+    contenu: >
+      Un élément 5 qualités (tout est dans le tout interne),
+      production énergétique saisonnière (retard/avance/mauvais
+      caractère), saisons vs climats (distinction fondamentale),
+      Yin/Yang de la Terre (5 matières, pensée analogique),
+      rapport Yin/Yang annuel (Kan/Che), nature et fonction
+      (Yin descend/monte, Yang monte/descend), clarté du Ciel
+      (impact psychisme/sentiments), énergie de la Terre
+      (Yin/Yang Terre et Ciel, échange pluie, impact Homme).
+      (pp.55-61)
+  - chemin: MODULES_TRAITES/PVII_t2_rapport.yaml
+    contenu: ce rapport
+  total: 4
+
+fichiers_mis_a_jour:
+  - chemin: ZANG_FU/foie.yaml
+    ajouts: >
+      enrichissement_5E_t2 : cour impériale (Empereur au printemps),
+      importance capitale printemps (starter), correspondances
+      complètes (30 items), résumé activités. Liens nouveaux fichiers.
+  - chemin: ZANG_FU/coeur.yaml
+    ajouts: >
+      enrichissement_5E_t2 : cour impériale (Empereur en été),
+      Chao Yin ne tue pas (chaleur bénéfique), correspondances
+      complètes. Liens nouveaux fichiers.
+  - chemin: ZANG_FU/rate.yaml
+    ajouts: >
+      enrichissement_5E_t2 : cour impériale (Empereur en 5ème saison),
+      rôle dans cycle Tcheng (transformation obligatoire),
+      correspondances complètes. Liens nouveaux fichiers.
+  - chemin: ZANG_FU/poumon.yaml
+    ajouts: >
+      enrichissement_5E_t2 : cour impériale (Empereur en automne),
+      collecte annuelle (surplus tsing → Rein), correspondances
+      complètes. Liens nouveaux fichiers.
+  - chemin: ZANG_FU/rein.yaml
+    ajouts: >
+      enrichissement_5E_t2 : cour impériale (Empereur en hiver),
+      réserve annuelle (stocke surplus Métal, compense urgences),
+      correspondances complètes. Liens nouveaux fichiers.
+  - chemin: ZANG_FU/maitre_du_coeur.yaml
+    ajouts: enrichissement_5E_t2 (double Feu dans cycle Tcheng, MC interface)
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajouts: >
+      6 nouveaux termes : Cycle_Rae, Cour_Imperiale, Ching, Ie,
+      Loi_unitaire, Loi_ternaire. 3 termes enrichis : Cycle_Tcheng,
+      Cycle_Ko, Point_Penn. Version 1.5.
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajouts: >
+      arbre_cinq_elements massivement enrichi : cycle Tcheng
+      (règles pathologiques, transmission Yin→Yin), cycle Ko
+      (relations, lois passive/active, règles pathologiques,
+      Raé, loi So Ouen attaque 2), cour impériale (5 rôles,
+      auto-régulation, surveillance 4x/an), lois relations
+      ternaires (3 triangles, pathologies), importance printemps,
+      bilan énergétique 5E. Statut → complet PVII t1+t2.
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajouts: >
+      Nouveaux signes : symptôme lié saison/climat, printemps
+      raté = année pathologique. Sections nature/fonction,
+      clarté du Ciel, distinction saison/climat.
+  - chemin: THEORIE/cinq_elements_fondements.yaml
+    ajouts: liens vers 3 nouveaux fichiers théoriques
+  - chemin: THEORIE/cinq_elements_par_element.yaml
+    ajouts: liens vers correspondances et cycles
+  - chemin: THEORIE/cinq_elements_saisons.yaml
+    ajouts: liens vers correspondances, cycles et énergie terre/ciel
+
+concepts_fondateurs_integres:
+  - transmission_Yin_a_Yin_Tsang_a_Tsang_PAS_Fou_a_Fou
+  - antinomie_5_Tsang_vs_6_Fou_dans_5E
+  - Rate_transforme_OBLIGATOIREMENT_avant_transmission
+  - energie_nourriciere_toujours_de_arriere_Mere
+  - Ko_intelligent_discernement_pas_destruction
+  - cycle_Rae_revolte_Ko_inverse_pathologique
+  - loi_So_Ouen_attaque_toujours_2_elements
+  - cour_imperiale_5_roles_hierarchie_saisonniere
+  - auto_regulation_Empereur_engendre_son_propre_controle
+  - oscillation_permanente_freination_equilibre
+  - mere_faible_TOUT_tient_a_ce_fait
+  - 4_elements_actifs_Mere_passive
+  - surveillance_4_fois_par_an_intersaisons
+  - printemps_starter_conditionne_annee_entiere
+  - collecte_annuelle_Metal_surplus_tsing_vers_Rein
+  - point_Penn_quintessence_saisonniere_1_des_5_Su
+  - 4_etats_normalite_exces_insuffisance_perversite
+  - lois_unitaire_binaire_ternaire_quaternaire_quinaire
+  - 3_triangles_rouge_bleu_vert_analyse_pathologique
+  - Chao_Yin_Feu_Roi_ne_peut_tuer_la_vie
+  - distinction_3F_journalier_vs_5E_saisonnier
+  - tableau_complet_30_correspondances_par_element
+  - couleurs_symboliques_carre_4_triangle_3_nombre_7
+  - Yin_Yang_Terre_5_matieres_pensee_analogique
+  - nature_etat_vs_fonction_mouvement
+  - clarte_Ciel_impact_psychisme_sentiments
+  - echange_Ciel_Terre_pluie_fecondation
+  - Kan_Che_critique_themes_energetiques_80_pourcent
+
+schemas_expliques:
+  note: >
+    Chaque schéma a été compris et expliqué textuellement
+    dans les fichiers YAML correspondants.
+  localisation_explications:
+    figures_9_cour_imperiale: THEORIE/cinq_elements_cycles.yaml → cour_imperiale
+    figures_10_binaires: THEORIE/cinq_elements_cycles.yaml → loi_binaire
+    figures_11_a_15_ternaires: THEORIE/cinq_elements_cycles.yaml → loi_ternaire.schemas_expliques
+    figure_16_globalite: >
+      Pentagone avec superposition des 3 triangles (rouge, bleu,
+      vert). Toutes les relations Tcheng et Ko simultanées entre
+      les 4 éléments actifs. La Mère reste passive. Synthèse
+      visuelle de l'ensemble du mécanisme des 5 éléments.
+    figure_17_quaternaire: >
+      Même pentagone simplifié avec les 4 éléments actifs et
+      toutes les flèches résumées : Tcheng (Empereur→Fils,
+      Ennemi→Conseiller) et Ko (Empereur→Ennemi, Fils→Conseiller,
+      Conseiller→Empereur). La Mère absente.
+    figures_18_19_changement_saison: THEORIE/cinq_elements_cycles.yaml → changement_de_saison.schemas_expliques
+    tableau_tchi: THEORIE/cinq_elements_correspondances.yaml → tableau_tchi_complet
+
+questions_soulevees:
+  # Aucune question nouvelle non couverte
+
+lacunes_critiques:
+  - Correspondances détaillées pathologiques (traitement) = modules suivants
+  - Palpation abdominale (bilan 5E) = polycopié suivant
+  - Observation visage et couleurs = P III
+  - Points Su antiques individuels = P IX Méridiens
+  - Kan et Che détaillés = P IV t3
+  - Sentiments et psychisme par organe = P VIII
+  - Physiologie Fou individuels = PVI t3
+  - Entrailles curieuses = non couvertes
+
+# ─────────────────────────────────────────────────
+# JAUGE D'EXPERTISE — NIVEAU DE L'ASSISTANT
+# ─────────────────────────────────────────────────
+
+jauge_expertise:
+  niveau_actuel: 23
+  echelle: 1_a_100
+  titre: "Etudiant 2ème année — Les cycles tournent"
+  progression: de_18_a_23_gain_5_points
+
+  graduation:
+    0_5: >
+      Profane curieux — sait que l'acupuncture existe,
+      confond méridiens et chakras.
+    5_10: >
+      Néophyte éclairé — connaît Yin/Yang et les 5 éléments
+      de nom, mais ne sait pas les relier.
+    10_15: >
+      Etudiant 1ère année — comprend Yin/Yang, les 3 foyers,
+      les Tsang/Fou en général, les Grands Méridiens,
+      sait qu'il y a des niveaux de traitement distincts.
+    15_25: >
+      ▶ Etudiant 2ème année — ON EST ICI (23/100) ◀
+      Connaît la physiologie individuelle des 6 Tsang,
+      la hiérarchie sang/énergie, les 3 systèmes, les
+      fondements ET les cycles complets des 5 éléments.
+      Comprend la Cour Impériale, les lois de relations
+      (unitaire/binaire/ternaire), l'auto-régulation,
+      les pathologies Ko/Raé, et les correspondances.
+      Peut expliquer POURQUOI et PAR QUEL MÉCANISME
+      un déséquilibre d'un élément affecte les autres,
+      mais manque encore la pratique clinique concrète.
+    25_40: >
+      Etudiant 3ème année — physiologie Fou individuels,
+      méridiens individuels, lois Lo, sentiments par organe,
+      palpation abdominale. Raisonnement clinique simple.
+    40_55: >
+      Praticien débutant — peut lire un cas, identifier
+      le niveau, choisir la bonne grille, proposer un
+      traitement cohérent. Connaît les pièges.
+    55_70: >
+      Praticien confirmé — maîtrise croisement des grilles,
+      nuances Tcheng/Ko en pathologie, MV, constitutionnel.
+      Sait quand NE PAS traiter.
+    70_85: >
+      Expert — raisonne comme Bollet dans ses commentaires.
+      Peut improviser face à un cas inédit en combinant
+      les principes. Comprend les subtilités doctrinales CLM.
+    85_95: >
+      Maître praticien — la pensée IEATC est devenue
+      une seconde nature. Le raisonnement est instantané,
+      la lecture du patient est globale et intuitive.
+    95_100: >
+      Grand Maître — niveau Bollet/CLM. Capable d'enseigner,
+      de résoudre les contradictions doctrinales, d'innover
+      dans le respect de la tradition. Le corpus entier
+      est intégré, digéré, et transcendé.
+
+  acquis_a_ce_stade:
+    - Yin/Yang complet (fondements, 3 Yin 3 Yang, applications)
+    - 3 Foyers et localisation
+    - Tsang/Fou généralités + physiologie individuelle 6 Tsang
+    - Hiérarchie pyramidale et sang/énergie
+    - 3 systèmes énergétiques
+    - Méridiens principaux (TT) + Grands Méridiens (TK) bases
+    - Merveilleux Vaisseaux bases
+    - Niveaux de traitement (règle absolue)
+    - 5 Éléments fondements (terminologie, séquences, spatio-temporel)
+    - 5 Éléments par élément (Bois, Feu, Terre, Métal, Eau)
+    - Intersaisons et activité saisonnière
+    - "--- NOUVEAU PVII t2 ---"
+    - Cycle Tcheng complet (transmission Yin→Yin, Rate transforme)
+    - Cycle Ko complet (tempérance, intelligence, Hong Fan)
+    - Cycle Raé (révolte, pathologique, n'importe quand)
+    - Cour Impériale et hiérarchie saisonnière complète
+    - Lois de relations (unitaire, binaire, ternaire, quaternaire, quinaire)
+    - Analyses triangles (rouge, bleu, vert) et pathologies
+    - Auto-régulation et oscillation permanente
+    - 4ème principe (mère faible = tout tient à ça)
+    - Correspondances complètes (tableau des Tchi, 30+ par élément)
+    - Point Penn détaillé (quintessence, 1 des 5 Su)
+    - Collecte annuelle Métal → réserve Rein
+    - Importance capitale du printemps (starter)
+    - Distinction 3F (journalier/Fou) vs 5E (saisonnier/Tsang)
+    - Bilan énergétique 5E (palpation, visage, langue, questionnaire)
+    - Couleurs symboliques (carré+triangle=7)
+    - Yin/Yang de la Terre, nature/fonction, clarté du Ciel
+    - Énergie Terre/Ciel, échange pluie, impact Homme
+
+  manque_pour_monter:
+    pour_30: physiologie_Fou_individuels_palpation_abdominale
+    pour_35: meridiens_individuels_sentiments_par_organe
+    pour_50: cas_cliniques_pouls_complets_strategies_traitement
+    pour_70: tout_le_programme_IEATC_integre_et_croise
+
+dependances_modules_suivants:
+  priorite_1: PVI_t3_physiologie_Fou_individuels
+  priorite_2: PVIII_sentiments_psychisme_par_organe
+  priorite_3: CP_III_meridiens_lois_lo
+  priorite_4: PIV_t3_Kan_Che_detailles

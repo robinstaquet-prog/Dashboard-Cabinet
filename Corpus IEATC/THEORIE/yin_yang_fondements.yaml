@@ -1,0 +1,186 @@
+# YIN / YANG — FONDEMENTS THÉORIQUES
+# Source : Polycopié IV — YIN/YANG tome 2, pp. 5-17
+# Auteur : Thierry Bollet — IEATC (compilation 03/07/2015)
+
+meta:
+  fichier: yin_yang_fondements.yaml
+  source: PIV_YY_t2_p5_17
+  statut: complet
+  liens:
+    - THEORIE/yin_yang_homme_sectorisation.yaml
+    - THEORIE/energies_hereditaires_seminaire.yaml
+    - THEORIE/regulateurs_vie.yaml
+    - _SYSTEME/00_philosophie_clinique.yaml
+
+# ═══════════════════════════════════════════════════════════════
+# I. LE TCHI — SOUFFLES ET ÉNERGIE
+# ═══════════════════════════════════════════════════════════════
+
+tchi:
+  ideogramme: >
+    TCHI = idéogramme représentant la vapeur qui soulève le couvercle
+    de la marmite. Image fondamentale : l'énergie qui se dégage de
+    la matière en transformation. La vapeur EST la manifestation
+    visible de l'invisible (l'énergie du feu sous la marmite).
+  principe: >
+    Le Tchi est l'énergie originelle. Yin est la matière, Yang est
+    l'énergie. Ils sont les deux expressions d'une même réalité.
+    La matière n'est que de l'énergie condensée ; l'énergie n'est
+    que de la matière subtilisée.
+  quatre_facteurs: >
+    Il existe un 4ème facteur au-delà du trio Yin/Yang/mutation :
+    le Principe (Tao). Source non-manifestée de toute chose.
+  esprits_vitaux: >
+    Les Esprits Vitaux sont l'expression la plus subtile du Tchi.
+    Ils animent la vie et la conscience. L'énergie innée en est
+    la réserve primordiale.
+
+# ═══════════════════════════════════════════════════════════════
+# II. SIMULTANÉITÉ — LE CONTRÔLE MUTUEL PERMANENT
+# ═══════════════════════════════════════════════════════════════
+
+simultaneite:
+  definition: >
+    Yin et Yang coexistent TOUJOURS simultanément. Ils sont
+    indissociables, comme l'endroit et l'envers d'une feuille.
+    Pas de Yin sans Yang, pas de Yang sans Yin.
+  controle_mutuel: >
+    La simultanéité implique un contrôle mutuel permanent.
+    Chacun contient, limite et nourrit l'autre. C'est un
+    équilibre dynamique, jamais statique.
+  forces: >
+    Force attractive (Yin) et force répulsive (Yang).
+    Force centripète (Yin) et force centrifuge (Yang).
+    La rotation naît de ces deux forces opposées et
+    complémentaires — jamais contraires au sens d'ennemis.
+  contraires_vs_opposes: >
+    DISTINCTION CAPITALE : « opposés » ne signifie pas « contraires ».
+    Yin et Yang sont opposés-complémentaires. Leur opposition est
+    constructive. Ils ne se combattent pas, ils se construisent
+    mutuellement. C'est la DUITÉ (≠ dualité).
+    Dualité = opposition destructive (bien/mal occidental).
+    Duité = opposition constructive (Yin/Yang chinois).
+
+# ═══════════════════════════════════════════════════════════════
+# III. ALTERNATIVITÉ — LE MOUVEMENT CYCLIQUE
+# ═══════════════════════════════════════════════════════════════
+
+alternativite:
+  definition: >
+    Si la simultanéité est l'aspect spatial (coexistence),
+    l'alternativité est l'aspect temporel (succession).
+    Tout phénomène passe alternativement par des phases
+    Yin et Yang.
+  cinq_groupes: >
+    De la naissance à la mort, la vie traverse 5 phases :
+    naissance → croissance → maturité → déclin → mort.
+    Chaque phase est elle-même subdivisée en Yin/Yang.
+  cercle_et_spirale: >
+    Le cycle Yin/Yang ne revient jamais exactement au même point.
+    Le cercle est une abstraction ; la réalité est une SPIRALE.
+    Chaque cycle apporte une transformation, une évolution.
+    Le retour apparent au point de départ est enrichi par
+    le parcours accompli.
+  point_de_bascule: >
+    La fin du Yin est le début du Yang ; la fin du Yang
+    est le début du Yin. Le point de bascule est le moment
+    de mutation maximale. C'est à ce point que l'énergie
+    est la plus vulnérable et la plus puissante à la fois.
+  naissance_du_Yang: >
+    Quand le Yin atteint son maximum (solstice d'hiver),
+    le Yang renaît nécessairement. C'est une loi universelle :
+    l'extrême d'une polarité engendre son contraire.
+
+# ═══════════════════════════════════════════════════════════════
+# IV. EXPRESSIONS DU YIN/YANG
+# ═══════════════════════════════════════════════════════════════
+
+expressions:
+  ciel_anterieur_posterieur:
+    CA: >
+      Ciel Antérieur = monde des concepts, du préexistant,
+      de l'informulé. Éternel, non-manifesté. C'est le monde
+      d'avant la conception — le potentiel pur.
+    CP: >
+      Ciel Postérieur = espace des concepts ayant pris forme.
+      Fini, déterminé, sensible. C'est le monde manifesté
+      dans lequel nous vivons après la conception.
+  referentiel:
+    six_directions: >
+      Tout phénomène se situe dans un espace défini par
+      6 directions formant une croix à 3 axes :
+      haut/bas, gauche/droite, avant/arrière.
+      L'observateur est toujours au centre de SA croix.
+    cycle_circadien: >
+      La course du Soleil définit le cycle circadien
+      et le référentiel temporel fondamental :
+      Est (naissance Yang) → Sud (plénitude Yang) →
+      Ouest (naissance Yin) → Nord (plénitude Yin).
+    astre_de_vie: >
+      Le Soleil est l'astre de la vie, énergie créatrice
+      par excellence. Son cycle quotidien et annuel est
+      le modèle de tous les cycles Yin/Yang.
+  troisieme_facteur: >
+    Entre Yin et Yang, il y a toujours un 3ème facteur :
+    l'espace de transformation, le lieu de la mutation.
+    C'est le centre, l'Homme entre Ciel et Terre,
+    la Terre entre les 5 Éléments.
+
+# ═══════════════════════════════════════════════════════════════
+# V. RAPPORT RELATIF DU YIN/YANG
+# ═══════════════════════════════════════════════════════════════
+
+rapport_relatif:
+  principe_fondamental: >
+    RIEN n'est absolument Yin ou Yang. Tout est relatif
+    à un référentiel donné. La polarité change :
+    1) En changeant l'ÉCHELLE de la référence.
+    2) En changeant le DOMAINE de la référence.
+  exemple_echelle: >
+    +5°C est Yin par rapport à +20°C, mais Yang par rapport
+    à -15°C. Même objet, deux polarités selon le référentiel.
+  exemple_domaine: >
+    Un homme est Yang par rapport à une femme. Mais ce même
+    homme, en tant que fils, est Yin par rapport à ses parents.
+    Changement de référentiel = changement de polarité.
+  yin_dans_yang: >
+    Il y a TOUJOURS du Yin dans le Yang et du Yang dans le Yin.
+    Chaque chose contient et possède les deux qualités
+    en même temps. Le Tao le représente par un petit cercle
+    blanc dans la portion noire et inversement.
+  application_clinique_os: >
+    Le squelette est ferme (Yang) mais contient du Yin
+    (souplesse de flexion) pour ne pas casser.
+    Fracture de fatigue = soit insuffisance de Yang (os mou,
+    enfants), soit insuffisance de Yin (déminéralisation,
+    os rigide — la rigidité casse, pas la fermeté).
+
+influence_mutuelle:
+  yin_porte_nourrit: >
+    Le Yin porte le Yang, le nourrit, lui donne sa base
+    matérielle et sa substance. Sans Yin, le Yang n'a
+    rien à animer.
+  yang_couvre_protege: >
+    Le Yang couvre le Yin, le protège, le met en mouvement,
+    le réchauffe. Sans Yang, le Yin stagne et se congèle.
+  constante_alternance: >
+    L'alternance est constante : quand l'un croît, l'autre
+    décroît, dans un mouvement perpétuel qui EST la vie.
+    L'arrêt de ce mouvement est la mort.
+
+yi_king:
+  nature: >
+    Yi King = Livre des Mutations / Changements / Divination.
+    Remonte à la nuit des temps, pilier de la civilisation chinoise.
+    Accompagne la vie quotidienne dans tous les domaines :
+    politique, sociologique, philosophique, scientifique.
+  structure: >
+    64 hexagrammes pour 60 fractions de cycle.
+    4 hexagrammes n'ont pas d'expression propre dans le monde
+    manifesté — ils doublent la valeur de 4 autres.
+    Ce sont les 4 hexagrammes d'équilibre parfait Yin/Yang
+    correspondant aux 2 solstices et 2 équinoxes.
+  cycle_60: >
+    Le cycle principal du Tchi en Chine est de 60 combinaisons.
+    60 heures, 60 jours, 60 ans, 60×60 ans — même principe.
+    Un hexagramme par fraction de temps dans le cycle.

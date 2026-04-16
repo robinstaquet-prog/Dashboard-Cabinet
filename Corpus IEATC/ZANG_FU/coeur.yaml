@@ -1,0 +1,523 @@
+# COEUR — PHYSIOLOGIE INDIVIDUELLE
+# Source : PVI Physiologie tome 2, pp. 12-18
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: coeur.yaml
+  source: PVI_Physio_t2_p12_18
+  statut: complet
+  liens:
+    - ZANG_FU/role_general_tsang.yaml
+    - ZANG_FU/maitre_du_coeur.yaml
+    - THEORIE/hierarchie_sang_energie.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+
+identite:
+  titre: Souverain_Empereur_Roi
+  polarite: Yang_dans_le_Yang
+  element: Feu_Empereur
+  foyer: FS
+  lateralite: gauche_Yang
+  axe: partie_avale_du_Chao_Yin
+  couple_Yang: IG
+  rang_hierarchique: 1er_empereur
+  role_So_Ouen_ch6: reequilibre_polarite_Yang_Yang_Feu_dans_le_corps
+
+fonctions_energetiques:
+  energie_la_plus_Yang: >
+    Son énergie est la plus Yang/énergétique de tous les tsang.
+    Seul tsang animé d'une action motrice Yang permanente (muscle).
+    93600 battements/jour, 34164000/an.
+  maitre_organisme: >
+    La quantité et le rythme d'alimentation sanguine des tsang
+    est déterminée par le coeur. Toutes les activités des tsang,
+    qualités, efficacité et résultats, en dépendent.
+  insuffisance_coeur:
+    consequences:
+      - faiblesse_pulsation
+      - hypotension_et_vide_iong
+      - tsang_moins_irrigues_et_refroidis
+  exces_coeur:
+    consequences:
+      - chaleur_interne_par_exces_fonctions_tsang
+      - hypertension_et_exces_iong
+  double_feu:
+    Feu_Empereur: C_IG
+    Feu_Ministre: TR_MC
+    reunion_dans_5E: confondus_en_un_seul
+    So_Ouen_ch67: >
+      "Il y a 6 pas, mais le Ciel n'a aucune influence sur
+      le Feu Roi, c'est pourquoi l'on n'en compte que 5."
+    implication_philosophique: >
+      L'Esprit supérieur (Chen) est individuel. Son évolution
+      spirituelle est le propre de l'Homme qui en décide seul.
+      Seul passage du So Ouen affirmant le libre arbitre.
+  source: PVI-t2-p12_13_18
+
+distributions_energetiques:
+  centripetes_recoit_de:
+    axes_energetiques: R_par_Chao_Yin
+    cinq_elements: F
+    cycle_iong: Rte
+    loi_minuit_midi: VB
+    loi_epoux_epouse: P
+  centrifuges_donne_a:
+    axes_energetiques: IG_vers_Tae_Yang
+    cinq_elements: MC_puis_Rte
+    cycle_iong: IG
+    loi_minuit_midi: VB
+    loi_epoux_epouse: P
+  source: PVI-t2-p13
+
+physiologie_occidentale:
+  coeur_double:
+    coeur_droit_Yin:
+      recoit: sang_veineux_du_foie
+      transmet: au_poumon_pour_epuration
+    coeur_gauche_Yang:
+      recoit: sang_enrichi_du_poumon
+      envoie: a_tout_organisme
+  oreillettes: passives_Yin_recoivent
+  ventricules: actifs_Yang_contractent
+  polarites_4_cavites:
+    oreillette_droite: Yin_Yin_Eau
+    ventricule_droit: Yang_de_Yin_Bois
+    oreillette_gauche: Yin_Yang_Metal
+    ventricule_gauche: Yang_Yang_Feu
+  source: PVI-t2-p13
+
+physiologie_dans_foyer:
+  formation_du_sang:
+    principe: >
+      Le sang se forme dans le coeur par l'union des
+      solides purs (du foie) et des liquides purs (rate via poumon).
+    identite_avec_ancestrale: >
+      Il y a identité entre cette description et celle
+      de l'énergie ancestrale.
+  coeur_poumon:
+    synchronicite_absolue: poumon_dirige_le_rythme_du_couple
+    sport: respiration_accelere_AVANT_rythme_cardiaque
+    encombrement_en_aval: retentit_vers_arriere_souvent_jusqu_au_plus_loin
+    vide_en_amont_foie: retentit_en_aval_jusqu_au_coeur
+  foie_coeur:
+    foie_congestionnee: >
+      FS, coeur et poumon en vide de Yin → pathologie
+      par plénitude d'énergie (chaleur) due au vide de Yin.
+    causes_frequentes: spasme_diaphragme_stress_hernie_hiatale
+  coeur_et_tsang:
+    principe: >
+      Toute pathologie du coeur se reporte sur ses sujets (tsang).
+      Inversement toute pathologie des tsang dérègle le coeur.
+    signes_dereglement:
+      pouls: affaibli
+      teint: assombri_ou_decolore
+      regard: terni
+  source: PVI-t2-p13_14_15
+
+orifice:
+  traditionnel: langue
+  precision_IEATC: >
+    L'association concerne la "Parole" au sens spirituel :
+    la teneur et l'élévation spirituelle des propos tenus.
+    Prophètes, Oracles, Chamans = ceux qui retransmettent
+    la Parole du Ciel. PAS l'association physique avec la Rate
+    (organe des sens).
+  eclat_regard: >
+    L'activité et l'intensité du Chen se voient à l'éclat de l'oeil.
+    Oeil terne = Chen lésé.
+  ATTENTION: blocage_parole_sous_emotion_est_du_ressort_du_MC
+  So_Ouen_variantes: certains_ch_disent_yeux_ou_oreilles_perspectives_alchimistes
+  examen_langue:
+    rouge_vif_pointe_FS: feu_consume_le_coeur
+    pale_blanche: vide_de_sang_et_du_coeur
+  source: PVI-t2-p16
+
+periodes_activite:
+  quadrant: superieur_gauche_tronc_et_bras_gauche
+  cycle_iong: 11h_a_13h
+  lune: 2eme_periode
+  saison: ete_saison_Terre
+  planete: Mars_quand_avance
+  etoiles: presence_Chao_Yin_au_Ciel
+  source: PVI-t2-p16_17
+
+physiologie_5_elements:
+  mouvement: expansion_developpement
+  application_3_plans:
+    physique: tissus_se_developpent
+    sentimental: sentiment_s_epanouit
+    psychique: idee_reflexion_se_developpe
+  intelligence: >
+    L'intelligence propre au Feu et au coeur/Chen est
+    le développement/épanouissement indissociable de
+    l'éveil à Chen et de la sensibilité.
+    Créativité spontanée (inspiration) ≠ imagination mentale.
+  art: >
+    Expression de la sensibilité à la beauté, au bien, au vrai.
+    Inspiré à l'Homme par le Chen cosmique qui communique
+    avec le Chen individuel.
+  source: PVI-t2-p17_18
+
+enrichissement_5_elements:
+  element: Feu
+  nature_fonctionnelle: bruler_et_monter
+  Feu_Empereur: le_Chen_l_Esprit
+  Tann_Tienn_superieur: >
+    Entre les deux yeux, 3ème oeil. Vision séparée D/G
+    réunifiée en vision verticale unique et synthétique.
+  qualite_Sud: esprit_de_rite_rituel_conformite
+  chaleur_benefique: >
+    Produit la chaleur qui fait naître et croître.
+    Le sang conduit le Chen à circuler dans l'Homme.
+  nombre_2: >
+    Séparation/division mais aussi réunion/mariage.
+    Division de la conscience qui observe mental et sentimentalité.
+  couleur: rouge_mariage_union_rivalite_effacee
+  pathologie_5E: >
+    Hypertensions dangereuses au cerveau (en haut du corps),
+    hémorragies nasales, cérébrales, oculaires, glaucomes.
+    Nature du Feu = brûler en montant.
+  source: PVII-t1-p39_41
+
+enrichissement_5E_t2:
+  cour_imperiale:
+    ete: Empereur_le_plus_puissant
+    5eme_saison: Mere_faible
+    automne: Conseiller_energique
+    hiver: Ennemi_vaincu_soumis
+    printemps: Fils_vigoureux
+  Chao_Yin_ne_tue_pas: >
+    De toutes les énergies saisonnières, seul le Chao Yin
+    (Feu Roi) ne peut PAS tuer la vie. Le Feu Roi est
+    la chaleur bénéfique qui fait naître et croître.
+    Lié au Chen cosmique et individuel et à l'énergie
+    de reproduction.
+  correspondances_completes:
+    therapeutique: pharmacopee
+    psychisme: Chen
+    vertu: rite
+    relation: frere_soeur
+    expression: parole
+    voix: rieur
+    position: couche
+    ministere: empereur
+    cereale: millet_glutineux
+    viande: mouton
+    son: Tche
+    odeur: brule
+    saveur: amer
+    sens: gout
+    liquide: sueur
+    organe_des_sens: langue
+    expansion: teint
+    tissu: vaisseaux
+    entraille_curieuse: vaisseaux_sanguins
+  resume_activites_PVII_t2: >
+    Propulse sang artériel, siège du Chen (conscience,
+    psychisme, mentalité), dirige la langue et la parole.
+    MC = sentiments et émotions → mots de la parole.
+  source: PVII-t2-p18_57
+
+enrichissement_5E_t3:
+  so_ouen_chap5_Feu: >
+    Sud → chaleur → Feu → amer → Cœur → sang → Rate.
+    Le Cœur gouverne la langue. CHEUN associé = CHEUN (conscient).
+    Si le CHEUN reste dans le Cœur, sang et énergie circulent normalement.
+    Sentiment : joie. Ko : peur (Eau/Rein) domine la joie.
+    Blessure externe : chaleur fatigue l'énergie. Ko : froid domine chaleur.
+  points_su_Coeur:
+    Ting_Bois: 9C
+    Iong_Feu: 8C
+    Iu_Terre: 7C
+    King_Metal: 4C
+    Ro_Eau: 3C
+  axes_5E_t3:
+    groupe_meridiens: 3_Yang_du_haut_Yang_du_Yang
+    fonction_groupe: capturer_les_energies_Yang_externes
+    element_mouvement: Feu
+    fou_maitre: Intestin_Grele
+    Chao_Yin_specifique: >
+      Axe vertical. Précurseur du Yin. Sexualité, élévation spirituelle.
+      Interdépendance Tsiué Yin ↔ Chao Yang pour leurs mouvements.
+  ko_emotionnel_clinique: peur_Rein_domine_joie_Coeur
+  liens_nouveaux:
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+    - THEORIE/cinq_elements_mouvements_5E.yaml
+    - THEORIE/cinq_elements_points_su.yaml
+  source: PVII-t3-p15_44
+
+enrichissement_5E_t4:
+  pathologie_5E:
+    Chen_autorite: >
+      Le Chen = Feu Roi, Empereur, Souverain. Si puissant,
+      l'esprit est en paix. Tout le psychisme (5 personnalités)
+      doit être sous son autorité.
+    interrogatoire_vide_plenitude:
+      plenitude: deteste_amer_excite_rit_trop_sue_hypertension_aggrave_ete
+      vide: recherche_amer_triste_renferme_hypotension_ameliore_ete_teint_pale
+    point_penn: 8C_iong_Feu
+    Yin_Yang_et_penn: >
+      Coeur = Yang du Yang. 8C agit sur le Yang du
+      foyer supérieur (Ciel) de l'individu.
+    palpation_abdominale:
+      zone: sous_sternum_14JM
+      deblocage: 7C_ou_7MC_d
+    gravite_vitale: >
+      Tsang vital. Vide du coeur en automne/hiver
+      peut devenir mortel l'été suivant.
+    pouls_Chu_Li: >
+      Sous sein gauche. Battements forts = Chen épuisé.
+      Douleur coup de poignard = spasme diaphragme → 6MC t.
+    traitement_So_Ouen:
+      plenitude: 7C_d_1R_d_5P_d
+      vide: 7C_d_1R_d_5P_d_plus_1F_t
+  liens_nouveaux:
+    - THEORIE/cinq_elements_pathologies_cycles.yaml
+    - THEORIE/cinq_elements_pathologies_bilan.yaml
+  source: PVII-t4-p17_91
+
+# --- ENRICHISSEMENT SÉMINAIRE PVI t3 (EEA Tsang/Fou tome 3) ---
+enrichissement_seminaire_t3:
+  terminologie_hierarchique:
+    DI: Empereur_titre_tres_eleve_depuis_221_av_JC
+    WANG: Roi_trait_union_Ciel_Terre_Hommes
+    JUN: Prince_Souverain_Suzerain_autorite_sur_territoire
+    XIANG: Ministre_assistant_du_Souverain
+    ZHU: Maitre_celui_qui_est_chez_lui_et_commande
+    ZAI: Gouverneur_Intendant
+    KE: Invite_celui_qui_nest_pas_chez_lui
+    note: >
+      Le terme "Feu Empereur" est une erreur de transcription, doit être remplacé
+      par "Feu Souverain" (JUN HUO). Distinction importante avec XIANG HUO (Feu Ministre).
+  souverain_maitre:
+    citation_SW8: >
+      Le Cœur c'est la charge du souverain et du maître, les SHEN MING en sortent.
+      Si le Maître fait briller, alors il fait descendre la Paix. Si le Maître ne
+      fait pas briller, les 12 charges sont menacées.
+    SHEN_MING: >
+      MING est formé du soleil et de la lune. Brillance par contraste. Si nous n'étions
+      que soleil nous brûlerions, si nous n'étions que la lune nous serions obscurs.
+      L'ensemble donne cette brillance. Le lieu de résidence des Jing Shen est le Cœur.
+    Jing_Shen: >
+      JING c'est la vie même, le substrat d'animation. SHEN : instances supérieures
+      qui rattachent au Ciel et individualisent. L'ensemble = les "esprits vitaux",
+      totalité au plus haut niveau de la vitalité et son entretien.
+  decentralisation:
+    principe: >
+      L'organisme obéit aux structures de décentralisation : tout est décentralisé
+      tout en restant attaché à la capitale. Le C et tous les Zang sont à la fois
+      centralisés et décentralisés, chacun participant à l'harmonie de l'ensemble.
+  Xue_Mo:
+    definition: >
+      XUE = sang, masse sanguine. MO = trajets d'énergie, mouvements qui animent.
+      C'est au visage que les changements de couleur sont le plus perceptibles.
+    diagnostic_visage:
+      souffles_C_insuffisants: visage_exsangue_blanc_sans_eclat
+      circulation_stagne: couleur_du_visage_tourne_au_violet
+      C_en_bonne_sante: couleur_rouge_brillante_grande_prosperite_Shen
+  relation_oeil:
+    citation_LS80: L_oeil_c_est_le_messager_du_Coeur
+    SHI: >
+      Le messager (SHI) porte un ordre et revient vers son maître. Le méridien
+      principal du C a une branche qui monte directement du C à l'œil. Par système
+      de l'œil, on entend l'œil interne et toute la liaison avec le cerveau.
+  relation_oreille:
+    citation: >
+      L'audition normale dépend nécessairement de la contribution totale des Souffles
+      et du sang. Si le Mo du C est menu et stagnant, cela fait des bourdonnements
+      d'oreille (Lin Shu chap. 4).
+  sueur_ye_du_C: >
+    Tout le sang est sous la dépendance du C. La sueur est le Yé du C car le C
+    est le maître des Xué Mo. Dialectique d'équilibre sueur/sang.
+  liens_nouveaux:
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    - ZANG_FU/intestin_grele.yaml
+    - CLINIQUE/pathologies_oreille.yaml
+  source: PVI-t3-p30_37
+
+# ─── Enrichissement EEA t1 (séminaire CLM déc. 1981) ──────
+
+enrichissement_EEA_t1:
+  shen_et_coeur: >
+    Le Cœur est le LOGIS des Shen. Les Shen sont le principe
+    d'individuation qui commande l'organisation, la concertation
+    et la coordination de l'être entier. Sans Shen = éclatement,
+    folie, perte de tout principe d'organisation. Le méridien
+    du Cœur monte au cerveau pour montrer cette liaison concrète.
+    « Intelligence du Cœur » = métaphore pour Shen (Schatz).
+  shen_ming: >
+    Quand le Cœur assure bien son rôle de maître, il en résulte
+    SHEN MING = claire distinction, discernement précis de la
+    réalité, non seulement par l'intellect mais par toute
+    l'intelligence de l'être. Le Cœur obtient l'aide de Ming Men
+    pour commander les Shen Ming et « faire la splendeur des
+    Jing Shen ». Ming Men est source du Feu Ministre.
+  radical_coeur: >
+    TOUS les sentiments ont « cœur » comme radical dans leur
+    idéogramme. Cela indique que la vie mentale, affective et
+    sentimentale est mise sous ce radical = registre supérieur
+    de subtilité, domaine de l'Empereur. Pas de rapport plus
+    particulièrement privilégié avec Yi ou Zhi — c'est le maître
+    de tous.
+  feu_maitre_et_ming_men: >
+    « Le Cœur fait le Feu Maître, le Yang authentique de Ming Men
+    c'est la source du Feu Ministre. Ce qui se ressemble s'assemble,
+    c'est pourquoi Ming Men est aussi appelé le Petit Cœur. »
+    Les Jing Mo du Cœur et du Rein s'enfilent mutuellement.
+  source: PVI-EEA-t1-p44_67
+
+# ─── Enrichissement EEA t2 (séminaires CLM mai 1982 + juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_premiere_charge: >
+    Le Cœur est en 1ère position des 12 charges (Su Wen ch.8).
+    Il a la double charge d'être le « Seigneur et le Maître »
+    (JUN ZHU). Seigneur = Suzerain de droit qui contient la vertu
+    d'être chef, à la tête du royaume. Maître (ZHU) = souveraineté,
+    celui qui commande. Ce double versant engendre le MC (XIN ZHU)
+    qui ne peut jamais être dissocié du Cœur.
+  shen_ming_approfondi: >
+    Quand le Cœur remplit sa charge, il en résulte SHEN MING =
+    resplendissement des Esprits. Les Shen gardés par le Cœur
+    et qui gardent le Cœur (action réciproque) commandent du Centre.
+    Tout dans la vie doit se faire selon les Shen. Un Homme qui ne
+    mène plus sa vie selon ses Esprits est déjà malade.
+    SHEN MING se perçoit à l'œil (« messager du cœur »), acuité
+    du regard, lumière qui transparaît. Toute la vertu d'un être
+    se manifeste au-delà de l'harmonie visible.
+  coeur_invisible: >
+    Père Larre : « Le plus invisible de tous les invisibles, c'est
+    tout de même le Cœur. » Quand l'essentiel marche, on n'entend
+    rien (Su Wen ch.7). Les gens ne savent pas qu'ils sont en bonne
+    santé. Le silencieux, l'inaudible, l'invisible = le Cœur.
+  radical_coeur_sentiments: >
+    De tout temps dans l'écriture chinoise, tous les sentiments
+    s'écrivent avec le radical du Cœur. Le rattachement de la vie
+    expérimentée au niveau du psychisme est fait grâce à cet endroit
+    où se produisent les sentiments. Le Cœur peut être considéré
+    comme une terre qui porte toute une floraison, une moisson.
+  couple_C_R: >
+    En prenant le 1 (Cœur) et le 10 (Rein), on sonde les deux
+    pôles de la vie. Le 10 reprend le 1 dans la perfection de
+    l'unité de 2ème ordre. Savoir-vivre du Cœur = savoir-vivre
+    du Souverain. Savoir-vivre des Reins = savoir-vivre de tout
+    le monde.
+  numerologie: >
+    Le Cœur = 1 = la voie. Premier dans la hiérarchie inexorable
+    de la numérologie. Aspect céleste de la vie donné dans le nom
+    Zang. Le Shen Ming est le premier et le dernier de l'énumération
+    cyclique (position 1 et fermoir avec la V en position 12).
+  circuit_su_wen_21_sang: >
+    Les Souffles troubles des aliments font retour au Cœur.
+    Le Cœur imbibe le Jing aux Mo (trajets d'énergie). À partir
+    du Cœur, le Jing diffuse dans tout le corps par les vaisseaux.
+    Le Cœur = maître des trajets d'énergie et du sang.
+    Couple C/P = Sang/Souffle.
+  source: PVI-EEA-t2-p38_49
+
+enrichissement_YY_t2:
+  chen_individuel_lumiere: >
+    Le Ming (Mandat Céleste) est peut-être davantage la Lumière,
+    le Chen individuel qui éclaire en permanence l'être humain
+    sur son chemin. Cette Lumière intérieure est conforme à la
+    pensée confucianiste (« La Grande Règle », « L'Invariable Milieu »).
+    L'énergie ancestrale de Ming Menn nourrit le Chen quand elle
+    rejoint le Cœur — d'où le couple C/R (1 et 10) comme les deux
+    pôles fondamentaux de la conscience incarnée.
+  chen_cosmique_et_coeur: >
+    Le Chen cosmique accompagne la conception et préside à la
+    grossesse. Le Chen individuel est l'expression de ce Chen
+    cosmique dans l'être incarné. La conscience individuelle (Chen)
+    régit tous les sentiments innés et acquis concrétisés par les
+    actes. Les sentiments sont élaborés par les 5 organes → d'où
+    l'obligation d'observer les lois naturelles et de réguler
+    toutes les fonctions physiologiques.
+  sept_orifices_coeur: >
+    Dans la sectorisation céleste (état de Sagesse), le Cœur
+    est le niveau de séparation Ciel/Terre (plexus solaire).
+    Les 7 orifices du Cœur s'ouvrent par la transformation
+    des 7 sentiments en 7 Vertus — perspective humaniste taoïste.
+  source: PIV-YY-t2-p17_24
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  transpiration_et_coeur: >
+    Transpiration abondante de la tête le jour = vide du Cœur.
+    Les gens qui transpirent beaucoup le jour, surtout de la
+    tête, se vident l'énergie du Cœur → le Feu Empereur peut
+    être vide. Si C vide → traiter par l'Eau (Rein).
+  7C_joie_de_vivre: >
+    7C t = point de la joie de vivre. Aide à surmonter les
+    difficultés. Utilisé pour traiter l'aspect psychique
+    dans les cas de troubles digestifs liés à l'émotionnel
+    (cas Marie-Paule).
+  chao_yin: >
+    Le Chao Yin (R+C) se perçoit au pouls droit profond.
+    Énergie céleste = chaleur. Le couple R-C est le plus
+    profond des 3 Yin (peau→os sur le pouls).
+  feu_empereur_vs_ministre: >
+    Le Feu Ministre (Chao Yang = TR+VB) peut être trop
+    important si le rafraîchissement (Tae Yang = V+IG) est
+    insuffisant. Si le Feu Empereur (C) est vide par
+    transpiration excessive → traiter par l'Eau (R).
+  source: PIV_YY_tomes4-5_CP_I
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  penetration_tsang: >
+    La puissance de l'onde sanguine permet au sang de pénétrer les
+    Tsang dont la densité (pleins) oppose une résistance. Un organe
+    congestionné → ne permet pas la pénétration → "s'asphyxie" →
+    accumule les toxines → sang stagne → chaleur s'élève. La cause
+    initiale est en général un froid.
+  rythme_organique: >
+    Le rythme du Cœur impose aux organes leur rythme fonctionnel
+    par l'irrigation sanguine. Accélération → chaleur organique,
+    ralentissement → froid organique.
+  eurythmie: >
+    Le Cœur donne le rythme au sang, le Poumon donne le rythme à
+    l'énergie. Rapport cardio-respiratoire : 5 pulsations cardiaques
+    pour 1 respiration.
+  souverain_confirme: >
+    Du Cœur, le "Souverain", dépendent directement la vie et la mort.
+    Sa fonction de Maître de l'Esprit et Résidence du Chen est située
+    au-dessus des clavicules. Le Cœur est le Yang dans le Yang
+    (= Yang/Yang, élément Feu).
+  sept_orifices: >
+    Le Cœur a 7 orifices pour 2 artères et 5 veines. Chacun correspond
+    à une vertu à acquérir par transformation d'un des 7 sentiments.
+    Quand une vertu est intégrée, l'orifice "s'ouvre". Les 7 orifices
+    ouverts = le cœur ouvert à l'universel = le Sage.
+  couleur_chen: >
+    L'énergie ancestrale, venant des Reins et dynamisée par une "juste
+    sexualité", est la "couleur du Chen", l'énergie de sa nourriture.
+    Sans énergie ancestrale dans le Cœur, pas de Chen.
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  gouverneur_sang: >
+    Le Cœur gouverne le sang en lui imprimant son rythme et son
+    amplitude pulsative initiale. Parmi les 4 organes qui gèrent
+    le sang (C, Rte, F, P), c'est le gouverneur suprême.
+  mouvement_respiration: >
+    À l'expiration (Yang, énergie monte), l'énergie passe aux
+    Poumons puis au Cœur successivement. Le Cœur est le Yang dans
+    le Yang du foyer supérieur (+/+), dernier maillon de l'expiration.
+  couleur_chen_tchrong_mo: >
+    Branche ésotérique du Tchrong Mo : utérus → cœur = "couleur du
+    Chen". Conditions : union corps/cœurs/esprits, calme des
+    sentiments, MC filtre protecteur. F + MC = Tsiué Yin.
+  troisieme_champ_cinabre: >
+    Le 3ème Champ de Cinabre (Paï Tan = Cinabre blanc) au 25TM
+    dépend du Chen et du Cœur. Élévation de soi vers les énergies
+    spirituelles. Chen individuel en relation avec Chen cosmique.
+  source: PV-3F-t2

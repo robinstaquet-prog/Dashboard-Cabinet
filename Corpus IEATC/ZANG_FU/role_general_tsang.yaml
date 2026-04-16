@@ -1,0 +1,107 @@
+# RÔLE GÉNÉRAL DES TSANG
+# Source : PVI Physiologie tome 1, pp. 49-51
+# Auteur : Thierry Bollet
+
+meta:
+  fichier: role_general_tsang.yaml
+  source: PVI_Physio_t1_p49_51
+  statut: complet
+  liens:
+    - ZANG_FU/role_general_fou.yaml
+    - THEORIE/tsang_fou_physiologie_t1.yaml
+
+definition:
+  traduction: le_Trésor_ou_celui_qui_thésaurise
+  nature: Yin_interne
+  physiologie_cle: >
+    "une fois pleins, les tsang se mettent au repos" — les tsang "recèlent".
+    A l'inverse des fou, INACTIFS quand pleins (cessent de demander au fou),
+    ACTIFS quand vides (commandent au fou de leur fournir de l'énergie).
+  source: PVI-t1-p49
+
+sens_centripete:
+  action: recoivent_et_stockent_tsing_propre
+  provenance: >
+    Tsing captée dans l'Iong par le Fou couplé.
+    L'Iong contient les Tsing de TOUS les Tsang.
+    La Rate étiquette chaque Tsing pour son destinataire.
+    Le Fou couplé capte la Tsing étiquetée et la transmet
+    au Tsang. (Confirmé praticien 2026-04-05, C004 résolu.)
+  analogie: conception_et_grossesse_Yin_qui_recoit_emmagasine_developpe
+  forme_developpee: tissu_associe_selon_5_elements
+
+  surplus_tsing:
+    moment_collecte: periode_Metal_tous_les_soirs_et_en_automne
+    destination: reins_qui_conservent_en_super_reserve
+    objectif: pourvoir_besoin_accru_en_cas_maladie_ou_accident
+    alerte_pratique: >
+      DANGEREUX de faire du sport et transpirer le soir ou en hiver :
+      cela provoque mouvement INVERSE d'extériorisation et "blesse l'énergie".
+      Métal = ramassage et enfouissement en profondeur.
+
+  tsing_et_sentiments: >
+    Tsing détermine la NATURE des sentiments (colère, joie, souci, etc.)
+    et de l'entité (Roun, Chen, Yi, etc.).
+    Iong en fait, par sa QUANTITÉ, l'INTENSITÉ.
+  source: PVI-t1-p50
+
+sens_centrifuge:
+  action: distribue_tsing_propre_apres_avoir_fait_le_plein
+  destinations:
+    1: tissus_associes_selon_5_elements_muscles_os_peau
+    2: sentiment_specifique
+    3: activite_psychique_entite_propre
+  analogie: pile_electrique_qui_stocke_avant_de_distribuer
+  energie_au_fou:
+    principe: >
+      Fournit à son fou couplé l'énergie de sa fonction.
+      Cette énergie lui est PROPRE — ne peut provenir que du tsang couplé.
+      Comme un "code-barre" permettant au fou de reconnaître dans Iong
+      ce qui appartient à son tsang.
+    implication: >
+      Le fou connaît son "identité" grâce au tsing que lui fournit son tsang.
+      Cette identité lui permet de reconnaître ce qui s'y rattache dans Iong.
+  source: PVI-t1-p50
+
+tsang_source_de_vie:
+  affirmation_Bollet: >
+    Les tsang, et leur énergie, sont la base même de toute la vie,
+    bien avant les activités nerveuses (cerveau, moelle épinière, nerfs).
+  citation_So_Ouen: >
+    "Les tsang se transmettent jalousement leur énergie
+    sans jamais la laisser s'écouler au-dehors."
+  synthese: >
+    Les tsang sont "le capital énergétique" de toutes les fonctions,
+    donc de la vie, mais aussi l'intelligence de celles-ci.
+    Liée fonctionnellement à Tsing.
+  source: PVI-t1-p42_51
+
+roles_sur_sang:
+  Foie: [filtre_entier, regule_globules_rouges_blancs_plaquettes]
+  Rein: [filtre_entier, regule_plasma_eau_sels_mineraux]
+  Rate:
+    sang: [recoit, controle_vie_globules_rouges_et_volume_plasma]
+    role_unique_tri_tsing: >
+      ROLE FONDAMENTAL CONFIRME (C004 résolu) :
+      La Rate est l'étiqueteur des Tsing dans l'Iong.
+      Elle détermine quelle Tsing est destinée à quel Tsang,
+      permettant aux Fou couplés de la capter correctement.
+      Sans Rate fonctionnelle → mauvais adressage des Tsing
+      → déficience globale de tous les Tsang.
+  Poumon: [epure, enrichit_tchi_et_oxygene]
+  Coeur: [pulse_dans_circuit_arteriel]
+  MC: [dirige_circulation]
+  source: PVI-t1-p49
+
+thermoregulation_du_tsang_par_le_fou:
+  principe: La_thermoregulation_du_tsang_DEPEND_du_fou_couplé
+  tsang_sanguin:
+    vulnerabilite: se_congestionne_facilement_au_froid
+    exemples: Foie_Rate_chargés_en_sang
+    reaction_fou: augmente_sa_fonction_pour_produire_chaleur
+  tsang_energetique:
+    exemples: coeur_rein_poumon_energie_l_emporte_sur_sang
+    note: >
+      Ces tsang, plus chauds, ont un fou couplé plus sanguin.
+      C'est l'énergie du tsang qui agit. Le fou sanguin rafraîchit.
+  source: PVI-t1-p49

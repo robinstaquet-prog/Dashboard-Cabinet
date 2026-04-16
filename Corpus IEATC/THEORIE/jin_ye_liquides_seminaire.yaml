@@ -1,0 +1,213 @@
+# JIN YÉ — LES LIQUIDES DU CORPS
+# Source : PVI EEA t2 — Séminaire CLM mai 1982
+# Dr Schatz, Elisabeth Rochas de la Vallée
+# Compilé par Thierry Bollet (2015)
+
+meta:
+  fichier: jin_ye_liquides_seminaire.yaml
+  source: PVI-EEA-t2-p14_20
+  statut: complet
+  liens:
+    - ZANG_FU/poumon.yaml
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/rein.yaml
+    - ZANG_FU/vessie.yaml
+    - ZANG_FU/gros_intestin.yaml
+    - ZANG_FU/intestin_grele.yaml
+    - THEORIE/energies_hereditaires_seminaire.yaml
+
+# ─── SU WEN CHAPITRE 21 — CIRCUIT DES LIQUIDES ────
+
+circuit_liquides_su_wen_21:
+  texte_classique: >
+    « Les liquides entrent à l'Estomac, il y a propagation
+    des Souffles essentiels, en haut ils sont véhiculés à la
+    Rate. Les Souffles de la Rate diffusent, ils montent faire
+    retour au Poumon. Le Poumon communique avec le
+    cheminement des eaux et les régularise. En bas, ils sont
+    véhiculés à la Vessie, les essences liquidiennes se
+    diffusent selon 4 directions et les méridiens des 5 ZANG
+    circulent. »
+  circuit:
+    1_entree: E_recoit_aliments_liquides
+    2_extraction: Rte_tire_Jing_sous_forme_liquidienne
+    3_elevation: Rte_diffuse_et_monte_au_P
+    4_abaissement: P_toit_des_zang_abaisse_les_liquides
+    5_filtrage: V_et_R_regulation_des_eaux_par_le_bas
+    6_redistribution: essences_liquidiennes_4_directions_5_zang
+  poumon_toit: >
+    Le P est le toit des organes. Il exerce une pression sur
+    tous les liquides, assure leur progression vers V et R.
+    Comme un couvercle de marmite espagnole, il permet la
+    régulation de tous les espaces mésenchymateux.
+  role_3_rechauffeurs: >
+    Le TR reprend la destination des Jin à partir de E/Rte :
+    - RS : amène les énergies vers le P comme un brouillard
+    - RM : amène les énergies comme une macération
+    - RI : fait évacuer les énergies vers le bas comme un canal
+    Les 3R = brouillard – macération – canal.
+
+# ─── JIN ET YÉ — DISTINCTION FONDAMENTALE ────
+
+jin_ye_distinction:
+  nature_commune: >
+    Jin et Yé sont de même sorte (Lin Shu ch.30) mais se
+    divisent en Yin et Yang. Ce ne sont pas des substances
+    mais des mécanismes de propagation.
+  jin:
+    nature: Yang_clair
+    mouvement: exterieur_et_bas
+    image: riviere_d_eau_vive_gue
+    idéogramme: >
+      Radical de l'eau + partie droite évoquant le pur, le
+      céleste. Sens premier : le gué d'une rivière — lien
+      entre différentes parties d'un territoire malgré
+      l'investissement liquidien.
+    fonction: >
+      Humidifient les chairs, plénifient les couches de la peau.
+      Circulent facilement comme l'eau dans les petites rigoles.
+      Destinés à être évacués dehors (urine, transpiration).
+    circuit: >
+      Suivent les Souffles défensifs (énergie Weï).
+      Inscrits dans le mécanisme des 3 Réchauffeurs.
+    organe_commandant: GI_commande_les_Jin
+    lin_shu_36: >
+      « Les 3 réchauffeurs font sortir les Souffles pour
+      réchauffer les épaisseurs des chairs, plénifier les
+      couches de la peau et c'est ceux-là les JIN. »
+  ye:
+    nature: Yin_trouble
+    mouvement: interieur_et_haut
+    image: marais_eau_qui_reste_sur_place
+    ideogramme: >
+      Radical de l'eau + partie droite = nuit, obscurité,
+      ce qui est caché en profondeur.
+    fonction: >
+      Imbibition permanente, stagnation bienfaisante.
+      Se propagent sans circuler (restent sur place).
+      Vont dans les profondeurs du corps.
+    circuit: >
+      Suivent les Souffles nourriciers (énergie Yong)
+      en longeant les méridiens principaux à l'interne.
+      Rôle vitalisant sur les méridiens principaux.
+    organe_commandant: IG_commande_les_Ye
+    ye_qui_montent: >
+      Catégorie spéciale de Yé qui montent par l'énergie
+      Yong vers le cerveau. Importance capitale des Yé :
+      même la vitalité énergétique fondamentale en dépend.
+    productions: >
+      Liquides céphalo-rachidiens, liquides synoviaux,
+      liquides de l'œil, larmes, crachats. Énumération
+      non exhaustive — ce sont des mécanismes, pas des
+      substances, dans l'intime du corps.
+    lin_shu_30: >
+      « Les os ont sous leur dépendance les mouvements
+      d'extension et de flexion ; il y a écoulement,
+      humidification, tonification et augmentation du
+      cerveau et de la moelle. Les couches de la peau sont
+      humectées et humidifiées et c'est ce qu'on appelle
+      les YÉ. »
+  ye_pas_sur_jin: >
+    On peut considérer que les Yé ont le pas sur les Jin
+    par l'importance de leurs fonctions (cerveau, moelles,
+    vitalisation des méridiens).
+  rapport_yin_yang: >
+    Jin = côté Yang, processus de propagation analogues
+    aux Souffles défensifs (Weï).
+    Yé = côté Yin, suivent les Souffles nourriciers (Yong).
+
+# ─── JIN YÉ DANS LE CONTEXTE GLOBAL ────
+
+jin_ye_contexte:
+  su_wen_62: >
+    « L'Homme se compose d'essences et de Souffles (Jing Qi),
+    de Jin et de Yé, des 4 membres et des 9 orifices, des
+    5 Zang et des 16 parties et des 365 nœuds de régulation
+    rythmique. »
+  lin_shu_32: >
+    « Je sais par Tradition que l'Homme se compose d'essences
+    et de Souffles (Jing Qi), de Jin et de Yé, de sang et de
+    Mo et que tout cela fait un Souffle qui est un. »
+  jing_partout: >
+    Jing n'est pas uniquement le Jing du CP (alimentaire
+    et respiratoire). Ces mécanismes existent à tous les
+    niveaux de l'existence — sensations, échanges internes.
+    On tire un Jing des odeurs, des sons, de la musique,
+    des conversations. Pas de barrière physique/psychique
+    en Chine.
+  exemple_marquis: >
+    Dans le Livre des Rites : un Marquis nourri de choses
+    raffinées (alimentation choisie, musique élaborée,
+    conversations de haute tenue) avait des essences si
+    fortes que ses esprits Po, restés en terre après sa mort,
+    avaient assez de vitalité rémanente pour se manifester.
+
+# ─── SOUFFLES ZHEN, ZHENG, XIÉ ────
+
+trois_categories_souffles:
+  texte_classique: >
+    Lin Shu ch.75 : « Il y a les Souffles authentiques
+    (Zhen Qi), les Souffles corrects (Zheng Qi) et les
+    Souffles pervers (Xié Qi). »
+  zhen_qi:
+    nom: Souffles_authentiques
+    definition: >
+      « Ce qu'on reçoit du Ciel avec les Souffles des
+      céréales ; ensemble ils donnent la puissance de la
+      plénitude au corps. »
+    nature: >
+      Résultat dans le corps de TOUTES les composantes
+      énergétiques, CA et CP, qui ont fait leur jonction
+      (HE) pour assurer la vitalité normale.
+    chong: >
+      Idéogramme CHONG = plénitude jamais utilisée dans
+      un sens pathologique. Quelqu'un bien élevé, bien
+      nourri, dans la puissance de son être.
+    sens: >
+      Authenticité = conforme à ses origines, bien en accord
+      avec soi-même et avec ce que je dois être d'après
+      ma nature profonde, la visée du Ciel en moi.
+    commentaire: >
+      « Ce que l'on reçoit du Ciel, ce sont les Souffles
+      essentiels du CA. Les Souffles des céréales, ce sont
+      les Souffles essentiels du CP. Ils se réunissent (HE)
+      et ensemble plénifient le corps. »
+  zheng_qi:
+    nom: Souffles_corrects
+    definition: >
+      « Les vents corrects, ils viennent d'un orient, ils ne
+      sont pas de la nature de la plénitude ni du vide. »
+    nature: >
+      Émanations de la nature. Vents normatifs, saisonniers.
+      Modulations qui donnent une forme saisonnière
+      particulière à l'énergie corporelle. Faibles, subtils.
+    etymologie: >
+      ZHENG = image du talon du pied = arrêt, bonne limite.
+      Régulier, correct, dans les bonnes limites.
+    rapport_zhen: >
+      Les Souffles corrects ne peuvent pas perturber
+      l'énergie authentique. Ils sont les Souffles du
+      printemps au printemps, de l'été en été, etc.
+      S'ils sont hors saison → perturbation.
+  xie_qi:
+    nom: Souffles_pervers
+    definition: >
+      Ce qui ne va pas droit, qui prend le mauvais chemin.
+      Aucune énergie n'est en soi correcte ou perverse —
+      elle est ou n'est pas au bon moment et bon endroit.
+    vents_brigands: >
+      « Les vents du vide, ce sont les vents brigands qui
+      viennent du vide et qui blessent les Souffles corrects.
+      Quand ils atteignent l'Homme, c'est en profondeur
+      et ils ne peuvent pas s'en aller d'eux-mêmes. »
+  he_et_hui:
+    he: >
+      HE = jonction, réunion. Deux choses font jonction
+      pour former un nouvel ensemble. Même idéogramme
+      que les points Ré (coude/genou). Les 6 jonctions
+      avec les Jing Bié, les 6 jonctions Ciel/Terre.
+    hui: >
+      HUI = rassemblement. Comme un congrès où tous
+      s'accordent pour remplir un rôle précis et spécifique.
+      Points de rassemblement.
+  source: PVI-EEA-t2-p20_22

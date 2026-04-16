@@ -1,0 +1,139 @@
+# PATHOLOGIES — L'HYPERTENSION
+# Source : Polycopié VI, Série EEA tome 3 — Séminaire 9 janvier 1983
+# Auteurs : Dr Schatz, Elisabeth Rochas de la Vallée
+# 2 tableaux cliniques avec causes, symptômes et traitements
+
+meta:
+  fichier: pathologies_hypertension.yaml
+  source: PVI_EEA_t3
+  auteurs: [Schatz, Rochas_de_la_Vallee]
+  statut: complet
+  liens:
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/vesicule_biliaire.yaml
+    - ZANG_FU/rein.yaml
+
+# =============================================================================
+# CAUSES EN MTC
+# =============================================================================
+
+causes_generales:
+  classification: >
+    En MTC on parle d'hypertension dans deux rubriques : vide de Yin avec
+    prospérité de Yang (tableau 1), et feu du phlegme avec vent et Yang (tableau 2).
+  mecanismes:
+    - Feu_du_F_monte_en_inflammation
+    - Yang_du_F_par_transformation_fait_du_feu
+    - Vents_du_F_bougent_a_l_interne
+    - Vents_du_vide_bougent_a_l_interne
+  symptomes_accompagnement:
+    - maux_de_tete
+    - tete_qui_tourne
+    - bourdonnements_oreille
+    - insomnies
+    - palpitations_cardiaques
+    - visage_rouge
+    - pouls_en_corde_arc
+  reference: Nei_Jing
+  citation_NJ: >
+    Tous les vents font qu'il y a agitation et que la vue se trouble et cela dépend du F.
+  source: PVI-t3-p61_62
+
+# =============================================================================
+# TABLEAU 1 — VIDE DE YIN, PROSPÉRITÉ DE YANG
+# =============================================================================
+
+tableau_1:
+  titre: Vide_de_Yin_prosperite_de_Yang
+  mecanisme: >
+    S'il y a soucis et détérioration du sang, désirs sexuels et atteinte du Jing,
+    c'est que l'Eau ne peut contenir le Bois, le sang ne peut pas nourrir le F.
+    Le Yin est vide et le Yang prospère — le vent du F monte en usurpateur.
+    Symptômes sous la dépendance du vide.
+  physiopathologie: >
+    L'hypertension est d'apparence Yang avec une cause qui est Yin. Faiblesse du R
+    signifie moins de liquides qui circulent dans l'organisme — déséquilibre,
+    vasoconstriction des vaisseaux qui donnera une hypertension.
+  symptomes:
+    - corps_amaigri
+    - Shen_malades
+    - maux_de_tete
+    - vue_trouble
+    - palpitations_C
+    - insomnies
+  traitement:
+    principe: tonifier_Yin_disperser_Yang_du_F
+    points:
+      - R3_tonifie: nourrir_Yin_des_R
+      - V23_tonifie: renforcer_R
+      - V15_tonifie: soutenir_C
+      - F2_disperse: disperser_Yang_du_F
+      - F3_disperse: disperser_Yang_du_F
+  source: PVI-t3-p61_63
+
+# =============================================================================
+# TABLEAU 2 — FEU DU PHLEGME, VENT ET YANG
+# =============================================================================
+
+tableau_2:
+  titre: Feu_du_phlegme_vent_et_Yang
+  mecanisme: >
+    L'individu aime bien manger, gras et sucré — il accumule humidité et fait du phlegme
+    par fermentation. Ou bien il mange âcre, piquant, il a de violentes colères qui
+    mettent en branle le feu du F. Le feu monte en puissance et se transforme en vent.
+    Cela entretient encore le trouble du phlegme — symptômes du plein.
+  physiopathologie: >
+    Au niveau de la Rte et de l'absorption. La Terre sous la dépendance de l'humidité —
+    quand on mange gras, cela favorise les sécrétions et la congestion pulmonaire.
+    Le F faible = moins de sang donc plus d'énergie, investissement vers le haut (Feu).
+    Le P, chargé d'abaisser les Jin Yé, voit sa fonction compromise — appauvrissement
+    en Jin Yé et transformation en phlegme.
+  traitement:
+    principe: disperser_phlegme_feu_F_VB
+    points:
+      - E40_dispersion: point_fondamental_traitement_phlegme
+      - VC12_dispersion: action_Rechauffeur_Moyen
+      - F2_dispersion: disperser_Feu_du_F
+      - V18_dispersion: Iu_du_F
+      - MC7_dispersion: agir_sur_feu_region_cardiaque
+  source: PVI-t3-p62_63
+
+# =============================================================================
+# RELATIONS INTER-ORGANES DANS L'HYPERTENSION
+# =============================================================================
+
+relations_inter_organes:
+  coeur_foie:
+    principe: >
+      Quand le sang du C est abondant, le sang circule librement, le F a ce qu'il
+      entretient. Le Yin du F est en complète plénitude et modère le Yang du F.
+      En pathologie, quand le sang du C est en insuffisance, le sang du F est
+      également en vide. Si C et F sont ensemble en vide de sang : palpitations,
+      C troublé, visage sans couleur brillante, tête tourne, vue trouble, ongles
+      en mauvais état, mains et pieds paralysés.
+
+  foie_rein:
+    principe: >
+      F et R se situent au Réchauffeur Inférieur. Le F thésaurise le sang, le R
+      thésaurise le Jing — les deux se prêtent assistance. Si le Jing des R est
+      détérioré et le sang du F en insuffisance : vide du Yin du F et des R.
+      Le Yang plus fort monte — spasmes.
+    symptomes_vide_yin_F_R:
+      - tete_tourne
+      - maux_de_tete
+      - vision_double
+      - bourdonnements_oreille
+      - spermatorrhees
+    traitement: >
+      Nourrir le F (tonifier Yin du F = sang) et refaire forces du R (tonifier
+      Yin du R : V à droite, disperser R à gauche).
+
+  foie_rate:
+    principe: >
+      Le sang du F apporte son aide à la Rte et les transports/transformations
+      de la Rte aident le F à circuler et s'écouler. Si transports Rte faibles :
+      insuffisance sang F, manque d'appétit, ventre gonflé, gros besoin semi-liquide.
+      Si Souffles F ont obstructions : ballonnements, nausées, vomissements,
+      diarrhées (cycle de mépris).
+
+  source: PVI-t3-p60_61

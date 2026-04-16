@@ -1,0 +1,516 @@
+# BILAN ENERGETIQUE, INTERROGATOIRE, PALPATION, POULS
+# Source : PVII 5 Éléments tome 4, pp. 64-79
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_pathologies_bilan.yaml
+  source: PVII_5E_t4_p64_79
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_pathologies_cycles.yaml
+    - THEORIE/cinq_elements_pathologies_traitement.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+
+# =======================================================
+# BILAN ENERGETIQUE GENERAL
+# =======================================================
+bilan_energetique:
+  titre: Bilan énergétique général — rappels
+  ordre:
+    1: bilan_Yin_Yang_general
+    2: bilan_Yin_Yang_local
+    3: bilan_dans_5_elements
+    4: surface_couche_energetique_ou_meridien
+    5: profondeur_foyer_tsang_fou_fonction
+    6: etat_vide_ou_plenitude
+    7: nature_chaude_ou_froide
+    8: energie_touchee_iong_oe_sang_ancestrale
+  traitement: >
+    Le niveau de l'atteinte détermine le traitement
+    dans le même ordre, au cours de la même séance
+    ou sur plusieurs séances.
+  nombre_points: >
+    Le meilleur nombre de points traités est généralement
+    de 8 (16 aiguilles). Moins l'on fait de points, plus
+    le résultat est percutant. Plus on en pique, plus on
+    disperse l'énergie et moins le résultat est probant.
+
+# =======================================================
+# DIAGNOSTIC — 4 TEMPS ET 8 REGLES
+# =======================================================
+diagnostic:
+  quatre_temps:
+    - inspection
+    - audition_et_odoration
+    - interrogatoire_Yin_Yang_5E_vide_plenitude_froid_chaleur_surface_profondeur
+    - palpation_abdominale_et_pouls
+  huit_regles:
+    couples: [[Yin, Yang], [froid, chaleur], [vide, plenitude], [interne, externe]]
+  principes_generaux:
+    origine: >
+      Toute pathologie provient d'abord et avant tout
+      d'un déséquilibre du Yin/Yang.
+    theorie: >
+      Pathologie Yin = froid + vide + interne (et inversement).
+      Mais prendre cet énoncé avec beaucoup de réserves.
+    circulation: >
+      Plus sang et énergie circulent rapidement, plus ils
+      circulent en surface et génèrent chaleur. Et inversement.
+    maladies_externes: dereglement_climats_saisons_energies_perverses_traumatismes
+    maladies_internes: heredite_sentiments_alimentation
+    pathologies_psy: >
+      Pathologies psychiques et sentimentales = ressort
+      essentiel, voire exclusif, des 5 éléments.
+    Yang_leger: >
+      Pathologies Yang : légères, rapides, faciles.
+      Le Yang est mobile.
+    Yin_profond: >
+      Pathologies Yin : profondes, difficiles. Le Yin est
+      lent et profond. Vides de Yin très longs à traiter.
+    tonifier_Yin: >
+      Quand on tonifie le Yin, on tonifie toujours un
+      point Yang avec, ou on chauffe au moxa.
+    Terre_essentiel: >
+      Estomac = maître du Yang (36E).
+      Rate = maître du Yin (3Rte).
+      La Terre est essentielle pour tout l'organisme.
+    attaques_preferentielles:
+      humidite: bas_du_corps
+      froid: haut_du_dos
+      chaleur: sommet_de_la_tete
+      secheresse: face_poitrine
+      fong: cotes_du_corps_et_interstices
+  source: PVII-t4-p64_65
+
+# =======================================================
+# INTERROGATOIRE PAR LES TCHI DES ELEMENTS
+# =======================================================
+interrogatoire_tchi:
+  titre: Interrogatoire par les Tchi des éléments
+  principe: >
+    Un individu dont un élément est pathologique présente
+    des signes correspondants, plus marqués sur l'attaqué
+    que l'attaquant.
+  regle: >
+    Le besoin ou la recherche = vide.
+    Le rejet ou la fuite = plénitude.
+  traitement_vide:
+    - tonifier_penn_du_tsang_pathologique
+    - traiter_conseiller_en_d_ou_mere_en_t
+  traitement_plenitude:
+    - disperser_le_fils
+    - traiter_ennemi_vaincu_en_t
+  seuil_pathologie: >
+    La pathologie est acquise dès qu'il y a prédominance
+    évidente sur un élément et que les signes sont des
+    2/3 en excès ou en insuffisance.
+
+  tableaux_vide_plenitude:
+    Bois_F_VB:
+      plenitude:
+        - deteste_acide_calme_par_sucre
+        - colereux_la_colere_aggrave
+        - larmoyant
+        - aime_jaune
+        - polyglobulie
+        - aggrave_au_printemps
+        - fatigue_par_marche
+        - muscles_tendons_contractes
+        - deteste_mouton_millet
+        - aime_odeur_douce_deteste_rance
+        - craint_vent
+        - ongles_cassants
+        - troubles_vue
+      vide:
+        - recherche_acide_aggrave_par_sucre
+        - trop_serein_colere_fait_du_bien
+        - yeux_secs_vue_faible
+        - recherche_vert
+        - anemie
+        - ameliore_au_printemps
+        - ameliore_par_marche
+        - faiblesse_musculaire_tendineuse
+        - aime_mouton_millet
+        - deteste_odeur_douce_aime_rance
+        - aime_vent
+        - ongles_blanchatres
+
+    Feu_C_MC_IG_TR:
+      plenitude:
+        - deteste_amer_calme_par_piquant
+        - tres_excite_rit_trop
+        - toujours_content_satisfait
+        - sue_beaucoup
+        - aime_blanc
+        - exces_activite_psychique_exuberant
+        - aggrave_en_ete_ameliore_hiver
+        - fatigue_par_contemplation
+        - hypertension
+        - deteste_volaille_pain
+        - aime_odeur_fumee_deteste_brule
+        - craint_chaleur_ameliore_froid
+        - teint_congestionne_rouge
+      vide:
+        - recherche_amer_aggrave_par_piquant
+        - triste_jamais_heureux
+        - sue_peu
+        - recherche_rouge
+        - insuffisance_activite_psychique_renferme
+        - ameliore_ete_aggrave_hiver
+        - aime_observer_lentement_objets
+        - hypotension
+        - aime_volaille_mange_beaucoup_pain
+        - deteste_odeur_fumee_aime_brule
+        - recherche_chaleur_aggrave_froid
+        - teint_pale
+        - recherche_saveurs_fortes
+
+    Terre_E_Rte:
+      plenitude:
+        - deteste_sucre_calme_par_acide
+        - beaucoup_soucis_inquiet
+        - beaucoup_salive
+        - aime_vert
+        - chair_contracturee
+        - aggrave_5eme_saison
+        - ne_supporte_pas_assis
+        - deteste_boeuf_seigle
+        - aime_odeur_acide_deteste_parfum
+        - craint_humidite
+        - levres_herpetiques_gonflees
+        - troubles_toucher
+        - soucieux_anxieux_idees_fixes_obsessions_passeiste
+      vide:
+        - recherche_sucre_aggrave_par_acide
+        - insouciant
+        - peu_salive
+        - deteste_vert
+        - chair_flasque
+        - ameliore_5eme_saison
+        - veut_toujours_s_asseoir
+        - adore_boeuf_seigle
+        - deteste_odeur_acide_adore_parfum
+        - recherche_humidite
+        - levres_decolorees_vides
+        - tete_vide_raisonnement_difficile
+        - pensee_incoherente_dyslexie_temporelle_futuriste
+
+    Metal_P_GI:
+      plenitude:
+        - deteste_piquant_calme_par_acide
+        - tres_triste
+        - crache_beaucoup
+        - aime_vert
+        - trop_energie
+        - aggrave_automne
+        - ne_supporte_pas_couche
+        - deteste_cheval_riz
+        - aime_odeur_rance_deteste_fumee
+        - deteste_secheresse
+        - pilosites_en_exces
+        - n_aime_pas_odeurs_fortes
+      vide:
+        - adore_piquant_aggrave_par_acide
+        - peu_triste
+        - crache_peu
+        - deteste_vert
+        - pas_assez_energie
+        - ameliore_automne
+        - veut_rester_couche
+        - aime_cheval_riz
+        - deteste_odeur_rance_aime_fumee
+        - aime_secheresse
+        - poils_rares_malades
+        - recherche_odeurs
+
+    Eau_R_V:
+      plenitude:
+        - deteste_sale_calme_par_amer
+        - temeraire
+        - urine_beaucoup
+        - aime_rouge
+        - trop_volontaire
+        - aggrave_hiver
+        - veut_toujours_etre_debout
+        - deteste_porc_haricots
+        - aime_saveur_amere_deteste_putride
+        - craint_froid
+        - cheveux_drus_longs_brillants
+        - autoritaire
+        - squelette_solide_bonne_acuite_auditive
+      vide:
+        - recherche_sale_aggrave_par_amer
+        - tres_peureux
+        - urine_peu
+        - deteste_rouge
+        - pas_volonte
+        - ameliore_hiver
+        - ne_supporte_pas_rester_debout
+        - aime_porc_haricots
+        - deteste_saveur_amere_aime_putride
+        - aime_froid
+        - cheveux_rares_cassants_fourchus
+        - indecision
+        - transpiration_nuit
+        - os_articulations_fragiles_acouphenes
+  source: PVII-t4-p66_69
+
+# =======================================================
+# PALPATION ABDOMINALE
+# =======================================================
+palpation_abdominale:
+  titre: Palpation abdominale — atout majeur du diagnostic 5E
+  geste:
+    main: doigts_replies_rejoints_en_sphere
+    prealable: >
+      Passer le dos de la main sur l'abdomen à la
+      recherche de déséquilibre thermique (chaleur=excès,
+      froid=vide) et d'humidification (humidité=stagnation,
+      sécheresse=atteinte Yin).
+    palpation: >
+      Appuyer légèrement puis en profondeur pour sentir
+      tonicité, résistance, mollesse, gêne ou douleur.
+  zones:
+    Metal: flanc_droit_entre_25E_et_15Rte
+    Bois: flanc_gauche_entre_25E_et_15Rte
+    Terre_centre:
+      localisation: nombril
+      signification: >
+        L'Être dans la vie, ce qu'il est intimement.
+        Douleurs = tension, personne se cherchant.
+    Terre_digestive: au_dessus_nombril_9_10JM
+    Feu: sous_sternum_14JM
+    Eau:
+      localisation: sous_nombril_4_6JM
+      attention: >
+        Un fibrome présente une zone Eau pleine, dure,
+        gonflée et douloureuse.
+
+  interpretation_generale:
+    plenitude: plein_tendu_douleur_superficielle_chaleur_Yang_blocage
+    vide: vide_mou_douleur_profonde_froid_Yin_stagnation
+    superficiel: Yang_de_element_fou_touche_pathologie_recente
+    profond: Yin_de_element_tsang_touche_pathologie_ancienne_sentiments
+
+  indurations:
+    infra_cardiaque: intoxication_viande_beurre
+    cardiaque: volailles_lait_oeufs_fruits_mer
+    infra_ombilicale: exces_poissons
+    ombilicale: sucreries_feculents
+    9JM: alcool_graines_fruits
+
+  sus_et_sous_ombilical:
+    Rate_pleine: sus_pleine_gonflée_resistante
+    Rate_pleine_sous: sous_vide_creux_molle
+    cause_opposee: Rein_vide
+    Rate_Estomac: sus_gonflee_tendue_sous_faible_molle
+    cause_RE: Rein_Vessie_vides
+    Estomac: sus_gonflee_dure_sous_creux_vide
+    cause_E: Estomac_vide
+    Rein_gyneco: sus_pleine_dure_douleur_sous_vide_mou
+    cause_gyneco: general_Yin_vide
+
+  regle_capitale: >
+    Si une perturbation est présente sur une ou plusieurs
+    zones, les points de déblocage sont traités AVANT
+    tout autre traitement, même le Yin/Yang.
+  note_pratique: >
+    Rééquilibrer uniquement le Yin/Yang général puis
+    refaire la palpation : la plupart des troubles
+    disparaissent. Le Yin/Yang est la racine de tous
+    les déséquilibres.
+  schemas_classiques:
+    le_plus_frequent: Terre_vide_ou_bloquee_ou_Eau_Terre_vides
+    grave: rein_et_rate_vides_epuisement_ancestrale
+    axe_horizontal: [Terre_centre_ou_digestive, Metal, Bois]
+
+  points_deblocage:
+    Terre_centre: 5Rte_d
+    Terre_digestive: 6Rte_d
+    Eau: 5R_d
+    Bois: 2F_ou_3F_d
+    Metal: 5P_et_ou_5P_prime_d
+    Feu: 7C_ou_7MC_d
+    note: >
+      5P' est situé 1 distance sous le 5P.
+      Ces points sont traités quel que soit l'état
+      (vide ou plénitude) de la zone.
+    efficacite: >
+      Surprenant d'efficacité, vérifié aux pouls et
+      à la palpation. Quelques secondes suffisent.
+      Souvent, le praticien peut s'arrêter à cette
+      première étape.
+  source: PVII-t4-p69_72
+
+# =======================================================
+# PALPATIONS COMPLEMENTAIRES
+# =======================================================
+palpations_complementaires:
+  aorte_abdominale:
+    signification: energie_totale_Tchrong_Mo
+    pulsations_visibles:
+      sous_sternum: vide_Feu_et_coeur
+      sternum_a_ombilic: vide_Feu_et_Eau_Chao_Yin
+      sous_ombilic: vide_Eau_rein
+  VB_plenitude:
+    signe: >
+      Abdomen tendu partout, y compris défense
+      abdominale (spasme musculaire) = plénitude VB.
+    traitement:
+      - 38VB_d_a_gauche
+      - 44VB_saigne_a_gauche
+      - 34VB_d_a_droite_si_38VB_insuffisant
+  palpation_Hong_Kong:
+    zone_poumon:
+      localisation: sous_claviculaire_1P
+      vide: peau_seche_blanche_molle
+      plein: muscles_durs_tendus_poitrine_elargie
+    zone_estomac:
+      localisation: sous_costale_12JM
+      vide_E_et_P: molle_et_vide
+    zone_coeur:
+      localisation: sous_sternale_14JM
+      plenitude: tendue_sans_perception_battements
+      C_vide: battements_augmentent_avec_pression
+      C_et_R_vides: battements_s_etendent_au_nombril
+    zone_rate:
+      localisation: centrale_sus_ombilicale_13F
+      E_vide: gonflee_atone
+      Rte_E_vides: tendue_et_molle
+    zone_foie:
+      localisation: flancs_14F
+      normal: peau_muscles_forts_pleins
+      F_vide: vides_et_faibles
+      accumulation: indurations_nodosites_energie_homme_sang_femme
+      F_Yang_exces: pulsations_flanc_gauche
+    zone_rein:
+      localisation: sous_ombilicale_25VB
+      bonne_energie: pulsations_paisibles_fortes_4_5_par_respiration
+      R_vides: froide_sans_pulsation
+      vide_Yin: chaude_pulsations_faibles_rapides_montant_au_nombril
+      R_epuises: souple_en_surface_tendue_en_profondeur
+      signe_ancestrale: region_chaude_preservation_ancestrale
+  correspondances_membres:
+    rein: pied_cheville_mollet
+    rate: genou_cuisse
+    VB: hanche
+    foie: flancs
+    poumon: epaule_bras_coude
+    coeur: avant_bras_main_rouge_paume
+    psychisme: tension_relachement_muscles_avant_bras
+  variante_quadrants:
+    Terre: foyer_moyen
+    Eau: MI_fosse_iliaque_droits
+    Bois: MI_fosse_iliaque_gauches
+    Feu: MS_hemi_poitrine_gauches
+    Metal: MS_hemi_poitrine_droits
+  pouls_Chu_Li:
+    localisation: sous_sein_gauche_4eme_5eme_cotes
+    nature: >
+      Émergence du grand Lo de l'estomac. Pouls
+      systématique dans les dépressions nerveuses
+      (Chen et état énergétique du coeur).
+    interpretation:
+      battements_forts: Chen_coeur_epuise_vraie_depression
+      legers_disparaissant_pression: energie_Chen_vide
+      forts_diminuant_pression: >
+        Sang au coeur en vide. Chercher vide de sang
+        par vide/blocage foie et/ou rate.
+    traitement_foie_vide: >
+      Débloquer le Yin en bas : 6Rte et 9Rte d.
+    traitement_foie_congestione: >
+      Spasme diaphragme comprime veine cave :
+      16JM d, 18JM d, 14JM t, 6MC t.
+    traitement_rate: >
+      Chercher points douloureux Rate 17-21 et disperser,
+      puis 7C t.
+    douleur_coeur_par_foie: >
+      Comme un coup de poignard qui déchire et
+      empêche de respirer, quelques secondes.
+      Traiter par 6MC t = efficacité totale, immédiate
+      et définitive. Nombreuses "cardiopathies" et
+      tachycardies entrent dans ce champ.
+  foyers:
+    appreciation: froid_chaleur_vide_plenitude_humidite_secheresse
+    points_cles:
+      6JM_Tsri_Rae: doit_etre_tonique_contraire_vide_energie
+      12JM_Tchong_Koann: ferme_resistant_sans_durete
+      15JM_Tsiou_Mi: souple_detendu_sans_mollesse
+  MMM_complements:
+    gonflement_sous_costal: plenitude_VB
+    spasme_musculaire_sous_costal: plenitude_VB_meme_cote_gauche
+    spasmes_hypogastriques: sang_vicie_rate
+    palpitations_ombilicales: vide_reins
+    9JM_Choe_Fenn: Feu_a_F_et_R
+  source: PVII-t4-p72_76
+
+# =======================================================
+# POULS SAISONNIERS
+# =======================================================
+pouls_saisonniers:
+  titre: Les pouls de la médecine chinoise — qualité saisonnière
+  principe: >
+    Il y a un pouls physiologique correspondant à chaque
+    saison. Le pouls doit marquer la qualité de la saison
+    ("la forme du pouls"). Pris globalement sur les 3 loges.
+  formes:
+    Printemps_Bois: >
+      Superficiel, tendu comme une corde de violon,
+      résistant mais souple. Comme un fil de funambule.
+    Ete_Feu: >
+      Superficiel, ample, large, vaste, débordant, plein,
+      glissant. On ne peut l'écraser, l'artère roule sous
+      le doigt.
+    5eme_saison_Terre: >
+      Souple, rebondit bien. La souplesse doit être
+      présente toute l'année en trame de fond.
+    Automne_Metal: >
+      Plumeux, superficiel, tendu, léger. Disparaît
+      en surface pour légère pression, réapparaît en
+      profondeur. Léger comme plume sur l'eau.
+    Hiver_Eau: >
+      Profond, dur, comme une pierre au fond de l'eau.
+      On sent moins le bord de l'artère que pour le Feu.
+  souplesse_Terre: >
+    La souplesse est le facteur tempérant indispensable.
+    Montre que la synthétisation de l'énergie est bonne
+    (point iu des Yin en activité). Les excès du Bois et
+    Feu sont dans la perte de souplesse.
+  trois_pouls_superficiels: [Bois, Feu, Metal]
+  intersaison: >
+    18 jours de passage inter-saisonnier (9 début + 9 fin).
+    Le pouls perd le caractère précédent, retrouve l'aspect
+    Terre (souplesse) avant de prendre la nouvelle forme.
+  diagnostic:
+    pas_de_forme_correcte: >
+      L'individu ne synthétise pas l'énergie de la saison.
+      Le point penn ne fonctionne pas.
+    forme_trop_forte: >
+      L'individu synthétise trop l'énergie de la saison.
+    forme_autre_saison: >
+      Énergie perverse ayant pénétré l'organisme.
+      La nature du pouls indique la nature de l'attaque.
+  exemples_diagnostiques:
+    Eau_au_printemps: >
+      Froid au foie = la mère empiète sur le fils.
+    Metal_en_ete: >
+      Sécheresse au coeur = cycle raé.
+    Bois_en_5eme_saison: >
+      Fong à la rate = cycle ko.
+    Feu_au_printemps: >
+      Feu au foie = énergie en rébellion = tcheng inversé.
+  traitements:
+    pouls_en_exces: disperser_point_penn
+    pouls_en_vide: tonifier_point_penn
+    pouls_autre_saison: >
+      Disperser le point de l'autre saison sur le tsang
+      de la saison en cours.
+  pouls_des_elements:
+    pas_de_pouls_specifique: >
+      Il n'existe pas de pouls spécifique des éléments,
+      seulement celui des qualités/formes saisonnières.
+    moyen_terme: >
+      Chaque loge (I-II-III) : fou en surface, tsang en
+      profondeur. Le pouls médian (ni surface ni profondeur)
+      donne l'image de l'élément correspondant à la loge.
+  source: PVII-t4-p77_79

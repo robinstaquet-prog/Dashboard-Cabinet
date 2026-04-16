@@ -1,0 +1,225 @@
+# GROS INTESTIN — FOU DE L'ÉLÉMENT MÉTAL
+# Source : Polycopié VI, Série EEA tome 3 — Séminaire juin 1982
+# Auteurs : Dr Schatz, Elisabeth Rochas de la Vallée
+
+meta:
+  fichier: gros_intestin.yaml
+  source: PVI_EEA_t3
+  element: Metal
+  couplage_tsang: Poumon
+  relation: Biao_Li
+  statut: complet
+  liens:
+    - ZANG_FU/poumon.yaml
+    - ZANG_FU/role_general_fou.yaml
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+
+# =============================================================================
+# ANATOMIE ÉNERGÉTIQUE
+# =============================================================================
+
+anatomie:
+  structure:
+    partie_haute: intestin_tournant_ascendant_et_transverse
+    partie_basse: intestin_droit_colon_sigmoide_et_ileaque_et_caecum
+    note: >
+      La forme montre la nature et la fonction (principe chinois). La dénomination
+      d'intestin tournant a peut-être un rapport avec l'embryologie — les mouvements
+      tournants de 270° du péritoine qui mettent en place tous les viscères abdominaux.
+  portes:
+    superieure:
+      nom: Lan_Men
+      localisation: valvule_ileo_caecale
+      signification: >
+        LAN donne l'idée d'interception, d'écran. C'est un barrage, n'importe quoi
+        ne passe pas là, il y a eu un tri au niveau de IG.
+    inferieure:
+      nom: Po_Men
+      localisation: anus
+  source: PVI-t3-p23
+
+# =============================================================================
+# FONCTIONS
+# =============================================================================
+
+fonctions:
+  charge_SW8: >
+    Le gros intestin c'est la charge des chemins de transmission ;
+    changements et transformations en sortent (CHUAN DAO et BIAN HUA).
+
+  bian_hua:
+    bian: >
+      Changement plus radical, de nature céleste, véritable changement d'état.
+      De l'ensemble alimentaire il a été fait Zao Po (résidus et lies), ce n'est
+      plus profitable pour la vie.
+    hua: >
+      Transformation progressive, plus terrestre, proche de la chimie. Au niveau du GI,
+      HUA spécifie l'action sur le bol alimentaire. On retrouve HUA dans l'expression
+      moderne signifiant "digestion".
+
+  chuan_dao:
+    definition: >
+      CHUAN DAO — la charge du GI : Dao c'est le chemin, le cheminement. Chemin
+      c'est se propager de proche en proche. Le résultat de ce travail est un
+      dessèchement du contenu intestinal.
+
+  liquides_jin:
+    principe: >
+      Si l'IG commande les Yé, le GI commande les Jing Yé et plus particulièrement les Jin.
+      Les Jin sont plus Yang, moins épais, d'une circulation plus aisée et se dirigent
+      à l'extérieur du corps (sueur, urines). Cela va bien avec le rôle d'expulsion
+      et d'excrétion qui est le mouvement propre du GI.
+    dialectique_IG_GI: >
+      Au niveau de l'irrigation du corps par les liquides interstitiels, IG et GI extraient
+      des substances vitalisantes. Ce sont des actions de dessiccation. IG a plus
+      spécifiquement la charge du Yin (Yé profonds et épais), GI la charge des Jin
+      (Yang, extérieur).
+
+  source: PVI-t3-p23_24
+
+# =============================================================================
+# DIAGNOSTIC
+# =============================================================================
+
+diagnostic:
+  observation_nez: >
+    Dans le diagnostic, la longueur de la tranchée du nez sert à l'observation du GI.
+    Déduction du chapitre 20 du Su Wen. Toutes les sinusites, rhinites sont en rapport
+    avec le blocage du GI. Le nez a un rapport majeur avec le GI.
+
+  aspects_par_la_peau:
+    reference: Lin_Shu_chap_47
+    citation: >
+      Si la peau est épaisse, c'est que le GI est épais ; si elle est mince, c'est qu'il
+      est mince. La peau est relâchée et le revers du ventre relâché, l'intestin est grand
+      et large. La peau est serrée, c'est que le GI est serré et court. La peau glissante,
+      c'est que le GI est droit. La peau et les chairs ne se mobilisent pas, le GI est noué.
+
+  vide_froid_plein_chaud:
+    reference: Su_Wen_chap_20
+    vide_froid: >
+      Si le GI est vidé et froid, il ne peut assimiler les liquides, alors il y a
+      gargouillements et douleurs. Le gros besoin s'écoule sous forme de stagnation
+      et diarrhées.
+    plein_chaud: >
+      Au contraire, quand il est plein et chaud, c'est le processus d'élimination qui
+      est engagé, alors le gros besoin est bouché et noué.
+
+  source: PVI-t3-p24_25
+
+# =============================================================================
+# RELATION BIAO/LI AVEC LE POUMON
+# =============================================================================
+
+relation_poumon:
+  principe: >
+    A travers le diaphragme, il y a une relation entre le P et le GI. Le trajet du
+    Réchauffeur Moyen descend au GI et remonte à l'étage pulmonaire. Cliniquement,
+    la pathologie pulmonaire a une consonance importante sur le plan digestif.
+    Les syndromes rhino-pharyngés montrent bien ce que le P a à faire avec le GI.
+  source: PVI-t3-p39
+
+# ─── Enrichissement EEA t2 (séminaires CLM mai 1982 + juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_septieme_charge: >
+    Le GI est en 7ème position (Su Wen ch.8). Cité avant l'IG
+    car dans l'habitude chinoise le grand (TA TCHANG) est toujours
+    avant le petit (SHAO). Charge d'acheminer, de transmettre
+    par des voies de conduction ce qui reste du bol alimentaire.
+    Résidus de transformations et changements en sortent.
+  changement_radical: >
+    Dans le GI, un changement radical s'opère : tout ce qui avait
+    été assimilé et chargé de matériaux pleins de vie, il n'en
+    reste qu'une matière très resserrée (excréments), ne contenant
+    plus rien d'utilisable pour la vie.
+  gi_commande_jin: >
+    Le GI commande les Jin (liquides clairs). Sa fonction est
+    de dessécher le bol alimentaire et le contenu intestinal pour
+    récupérer une partie des Jin et les réinsérer dans la
+    circulation bénéfique de l'individu.
+  constipation_chaleur: >
+    Quand il y a excès de la fonction de dessèchement : les matières
+    restent dans le GI au lieu de descendre. Chaleur par entassement
+    → E et intestins secs et noués. Les Souffles des Fu ne circulent
+    pas en bas. La chaleur s'empare des Jin et les dessèche.
+  vent_et_gi: >
+    Vent et sécheresse ont une action de prédilection sur l'Intestin.
+    Le Fong et le sec s'empoignent au P et par transmission (Biao/Li
+    Métal) entrent au GI. Attaque par voie respiratoire et digestive.
+  su_wen_chap8_transit: >
+    Su Wen ch.8 : « Le Gros Intestin a la charge d'assurer les
+    transmissions et les cheminements et il change et transforme. »
+  source: PVI-EEA-t2-p28_46
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  gi_et_gorge: >
+    La gorge dépend de l'énergie du GI. Affection ponctuelle
+    gorge = traiter par GI (4GI t, 11GI). Chronique = traiter
+    par Rein (car GI obéit aux Reins). Angines répétées →
+    vérifier le Rein Yang.
+  yang_ming_descente: >
+    GI participe au Yang Ming (E+GI). Tout mouvement de
+    DESCENTE dans le corps dépend du Yang Ming. Si Yang Ming
+    contrarié par Chao Yang (agitation) → la descente ne se
+    fait pas (aérophagie, gaz, gonflements).
+  4GI_point_majeur: >
+    4GI = un des points les PLUS utilisés en acupuncture.
+    Yang du haut du corps, commande Yang Ming. Relance Yang
+    et traite sphère ORL. Avec 12JM t et 36E t = trinité
+    de tonification Yang (méthode I Sou Jen).
+  25E_et_GI: "25E t = purifie et relance le Yang du GI"
+  source: PIV_YY_tomes4-5_CP_I
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  energie_oe_detaillee: >
+    Le GI extrait de l'énergie résiduelle dans le bol fécal. Celui-ci
+    est parfaitement impur pour l'organisme mais contient une énergie
+    impure que le GI extrait et transmet pour devenir la future énergie
+    défensive oé. Oé est l'énergie dite "née de l'impur".
+  yang_ming_purete: >
+    Lorsque le GI élimine bien, tout le Yang est pur, limpide. La
+    pureté du Yang Ming et le drainage de tout le Yang se fait par
+    la tonification de 12JM t et 25E t. RÈGLE : tous les drainages
+    du corps doivent se faire sur les Fou, jamais sur les Tsang
+    (épuise leur énergie Tsing).
+  deuxieme_orifice_yang_ming: >
+    Le Yang Ming (GI + E) a 2 orifices : la bouche et l'anus.
+    L'anus est la sortie des déchets solides (et en partie liquides).
+  foyer_inferieur: >
+    Le GI appartient au foyer inférieur. Il assure le transit des
+    déchets solides et en partie liquides provenant du FM
+    (transformation des aliments) et du fonctionnement des organes.
+  maturation_enfant: >
+    Le tube digestif de l'enfant atteint sa maturité fonctionnelle à
+    la fin du 3ème mois de vie : il est alors capable de fabriquer
+    seul son énergie défensive oé (via le GI).
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  origine_oe_detaillee: >
+    Le GI effectue un ultime travail de récupération d'énergie
+    résiduelle dans les déchets. Cette énergie sans nom propre
+    deviendra Oé Tchi — la plus impure car issue de l'impur.
+    La transmission se fait vers le foie (probablement par le
+    canal chylifère en physiologie occidentale = réabsorption
+    de liquides par la muqueuse du GI vers le foie).
+  selles_diagnostic: >
+    Selles bien moulées = bon tonus du GI (muscle lisse).
+    Couleur marron = bonne purification et fermentation correcte.
+    Noirâtres = stagnation = froid (puis chaleur si prolongé).
+    Odeur = chaleur, nature de l'odeur signe l'élément déréglé.
+  retention_bloque_yang_ming: >
+    Ne JAMAIS se retenir pour les gaz ou les selles. La rétention
+    bloque TOUT le Yang Ming et le foyer concerné (E ou GI).
+    Même règle pour les éructations.
+  source: PV-3F-t2

@@ -1,0 +1,61 @@
+# RAPPORT D'INTÉGRATION — POLYCOPIÉ VI PHYSIOLOGIE TOME 1
+# Session d'intégration : 2026-04-05
+
+meta:
+  module: PVI_Physiologie_tome_1
+  fichier: PVI_t1_rapport.yaml
+  auteur: Thierry_Bollet
+  date_document: 04/07/2015
+  pages: 51
+  date_integration: 2026-04-05
+  statut: integre
+
+fichiers_crees:
+  - THEORIE/tsang_fou_physiologie_t1.yaml
+  - THEORIE/embryologie_constitution.yaml
+  - THEORIE/thermoregulation.yaml
+  - ZANG_FU/role_general_tsang.yaml
+  - ZANG_FU/role_general_fou.yaml
+  - THEORIE/regulateurs_vie.yaml
+  - MODULES_TRAITES/PVI_t1_rapport.yaml
+
+fichiers_mis_a_jour:
+  - LEXIQUE/lexique_termes_ieatc.yaml
+  - _SYSTEME/00_philosophie_clinique.yaml
+  - _SYSTEME/00_conflits_en_attente.yaml
+  - _SYSTEME/00_arbres_decision.yaml
+
+concepts_fondateurs_identifies:
+  - trilogie_identite_tsang_physique_sentimental_psychique
+  - regle_absolue_niveaux_et_points_traitement
+  - relations_peripheriques_diagnostic
+  - thermoregulation_sang_energie_saisons
+  - tsang_capital_energetique_tsing_et_intelligence
+  - fou_atelier_ouvrier_moteur_expression_tsang
+  - embryologie_constitution_organes
+  - methode_chinoise_pyramide_diagnostique
+
+enrichissements_00_philosophie:
+  - ajout_segments_corps_Ciel_Intermediaire_Terre
+  - ajout_classification_Yin_Yang_des_tsang
+  - ajout_relations_peripheriques_diagnostic
+  - ajout_importance_saisons_Empereur_dans_sa_saison
+
+conflits_detectes:
+  - C004_tsing_vs_iong_dans_cycle_5_elements_MAJEUR
+
+questions_en_attente:
+  - Q003_relation_iong_sang_fonctionnelle_ou_quasi_identite
+  - Q004_vide_fou_est_il_plus_frequent_que_vide_tsang
+
+lacunes_critiques:
+  - physiologie_individuelle_chaque_tsang_fou_attend_PVI_t2_et_suivants
+  - entrailles_curieuses_non_documentees
+  - energie_Yuan_Tchi_et_Tsong_Tchi_attend_module_FI
+  - cycle_de_iong_trajet_secondaire_non_documente
+
+dependances_modules_futurs:
+  PVI_t2_et_suivants: physiologie_individuelle_chaque_tsang_fou
+  FI_Foyer_Inferieur: Yuan_Tchi_Tsong_Tchi_energie_ancestrale
+  PVII_5_elements: correspondances_saveurs_sentiments_a_confirmer
+  PXI_Psychisme: entites_Yin_des_organes_Chen_Roun_Yi_Po_Zhi

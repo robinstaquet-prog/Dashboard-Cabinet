@@ -1,0 +1,186 @@
+# RÉGULATEURS DE LA VIE — INTERNES ET EXTERNES
+# Source : PVI Physiologie tome 1, pp. 20-31
+# Auteur : Thierry Bollet
+
+meta:
+  fichier: regulateurs_vie.yaml
+  source: PVI_Physio_t1_p20_31
+  statut: complet
+  liens:
+    - _SYSTEME/00_philosophie_clinique.yaml
+    - THEORIE/tsang_fou_physiologie_t1.yaml
+
+regulateurs_definition:
+  double_sens:
+    1: elements_ou_facteurs_qui_interviennent_sous_forme_de_stimuli
+    2: moyens_de_l_organisme_pour_transformer_ces_stimuli_en_energies
+  principe_vital: >
+    L'Homme vit parce qu'il "RÉAGIT". La vie n'est qu'une vaste
+    activité de réaction par rapport au monde extérieur.
+    Si l'on supprime le monde extérieur → l'Homme devient fou, meurt.
+  source: PVI-t1-p20_24
+
+regulateurs_internes:
+  definition: toutes_les_activites_des_tsang_et_fou
+  domaines:
+    - au_sein_des_3_foyers_fonctions_vitales
+    - synthétisation_des_energies_saisonnieres
+    - adaptation_aux_variations_climatiques_thermoregulation
+  cycle_iong_resume:
+    1: estomac_1er_tri_aliments_separation_liquides
+    2: rate_mutations_energetiques_raffinage_distribution
+    3: foie_reçoit_nutriments_stocke_sucres_filtre_sang
+    4: coeur_reçoit_energie_pure
+    5: intestin_grele_2eme_tri_absorption_capillaires
+    6: gros_intestin_plus_impur_residus_forment_energie_oe
+    7: iong_penetre_vaisseaux_sanguins_avec_sang
+    8: energie_vaisseaux_penetre_meridiens_iong_circule_dedans
+    9: toutes_energies_rejoignent_poumon_a_3h_du_matin
+    10: poumons_propulsent_energie_vers_epiderme_vers_17JM_Tran_Tchong
+    11: Tran_Tchong_17JM_point_reunion_distribue_aux_voies_lo_longitudinales
+    12: liquides_estomac_essence_dans_rate
+    13: rate_produit_tchi_defense_interne_organes_vers_poumon_et_21Rte_vers_1P
+    14: liquides_impurs_vers_vessie
+    15: energie_liquides_imbibe_tout_le_corps
+  liquides_specifiques_secretions:
+    reins: urine_abondante_avec_froid
+    coeur: sueur_disperse_chaleur_et_feu
+    foie: larmes
+    rate: salive_digestive_entretient_humidite
+    poumons: mucosites
+  source: PVI-t1-p24_25_26
+
+regulateurs_externes:
+  saisons_tableau:
+    PRINTEMPS:
+      climat: Fong_vent_agitation_pression_depression_atmospherique
+      stimule: [Foie, VB]
+    ETE:
+      climat: Chaleur_feu
+      stimule: [Coeur, IG, MC, TR]
+    5eme_SAISON:
+      climat: Humidite
+      stimule: [Rate, Estomac]
+    AUTOMNE:
+      climat: Dessiccation_secheresse
+      stimule: [Poumon, GI]
+    HIVER:
+      climat: Froid
+      stimule: [Rein, Vessie]
+  energies_principales: [chaleur, froid]
+  energies_secondaires:
+    Froid_engendre: [vent, humidite]
+    Chaleur_engendre: [feu, secheresse]
+    note: >
+      Froid + ses dérivés = tous Yin → maladies Yin.
+      Chaleur + ses dérivés = tous Yang → maladies Yang.
+  organe_emperor_dans_sa_saison: >
+    L'organe stimulé par sa saison se renforce et devient
+    LE PLUS PUISSANT des 5 tsang. Il est l'Empereur dans sa saison.
+  source: PVI-t1-p26_27
+
+kan_che_tableau:
+  explication: correspondance elements_energies_axes_couleurs
+  Bois: [Fong_vent, Tsiue_Yin, Bleu]
+  Feu: [Chaleur, Chao_Yin_et_Chao_Yang, Rouge]
+  Terre: [Humidite, Tae_Yin, Jaune]
+  Metal: [Secheresse, Yang_Ming, Blanc]
+  Eau: [Froid, Tae_Yang, Noir]
+  source: PVI-t1-p27
+
+regulateur_externe_environnement_physique:
+  liste_non_exhaustive:
+    - rayonnements_cosmiques
+    - lieu_geographique_montagne_plaine_mer_relief
+    - pression_atmospherique
+    - nature_de_l_air_ambiant
+    - lumiere_ombre_et_ensoleillement
+    - bruits_et_sons
+    - les_5_sens
+    - alimentation
+    - contexte_socioprofessionnel
+  source: PVI-t1-p29
+
+sentiments_regulation:
+  5_sentiments_base: [colere, joie, souci, tristesse, peur]
+  7_sentiments_MTC: >
+    Les 5 + obsession_ou_anxiete_ou_melancolie + chagrin.
+    Ces 2 supplémentaires = conquête de l'Homme vers humanisme.
+    Sans eux, l'Homme ne peut transformer les sentiments en Vertus.
+  pathologie:
+    - exces_ou_carence_d_un_sentiment
+    - manifestation_trop_frequente_ou_systematique
+    - expression_desordonnee
+  reserve_emotionnelle: >
+    Nous avons TOUS en réserve les charges émotionnelles des 5 sentiments.
+    Il est NORMAL d'exprimer tel sentiment selon la situation.
+    Les émotions sont gérées par le MC au niveau de Tran Tchong (17JM).
+  tsing_et_iong:
+    tsing: détermine_la_NATURE_du_sentiment_colere_joie_etc
+    iong: détermine_l_INTENSITE_du_sentiment
+  source: PVI-t1-p29_30
+
+saveurs_et_sentiments:
+  principe_So_Ouen: >
+    Les saveurs de l'alimentation ont une répercussion sur nos sentiments.
+    L'énergie des saveurs devient l'énergie émotionnelle des sentiments.
+  loi: >
+    La propension, l'accoutumance ou l'excès d'une saveur
+    génèrent un excès du sentiment correspondant.
+    La recherche permanente d'une saveur signe le déséquilibre
+    de l'élément correspondant.
+  source: PVI-t1-p30
+
+5_sens_et_stimulation:
+  role_capital: stimulation_de_l_organisme
+  transformation_IEATC: >
+    Les influx sensoriels sont transformés en énergies transmises
+    à la RATE qui les intègre dans les liquides purs de l'alimentation
+    pour en faire les 5 LIQUIDES des 5 tsang.
+  contenu_energetique:
+    sons: contiennent_les_5_sons_pour_chacun_des_5_tsang
+    couleurs_et_formes: idem
+    odeurs: idem
+  source: PVI-t1-p20
+
+systeme_locomoteur:
+  appartient_a: energie_de_la_surface
+  commande_par: 8_Merveilleux_Vaisseaux
+  principal_MV: Tae_Mo_pour_la_locomotion
+  systeme_nerveux_peripherique: appartient_a_energie_des_meridiens
+  source: PVI-t1-p20
+
+segments_corps_correspondances:
+  tete_et_MS: Ciel
+  tronc: Intermediaire
+  MI: Terre
+  source: PVI-t1-p17
+
+Tran_Tchong_17JM:
+  role: point_reunion_de_toutes_les_energies
+  fonction: distribue_aux_voies_lo_longitudinales_en_cas_de_besoin
+  energie_distribuee: energie_specifique_des_organes
+  lien_rate: >
+    Rate produit un tchi qui imbibe tout le corps.
+    Ce tchi rejoint les poumons et est la défense interne des organes
+    par liaison avec Tran Tchong et branche petits-fils 21Rte → 1P.
+  source: PVI-t1-p25
+
+methode_chinoise_vs_occidentale:
+  MO_occidentale: >
+    Collecte de détails → classification → analyse.
+    Plus de détails = plus d'espoir de solution.
+    Mais : compréhension inversement proportionnelle à l'étendue des connaissances.
+  MTC: >
+    Part des lois générales (Grande Unité, Taé I, Yin/Yang)
+    et va vers le multiple (5 éléments, 3 foyers, 4 énergies, tsang/fou).
+    Dans chaque multiple : image fidèle du UN.
+  loi_simple: >
+    Le Yin/Yang est à l'origine de toute chose.
+    Tout déséquilibre est à l'origine un trouble du Yin/Yang.
+    La rééquilibration du Yin/Yang élimine 80% des troubles du détail.
+  pyramide_diagnostic: >
+    Toujours remonter vers le sommet (Yin/Yang) pour trouver la cause.
+    Descendre vers la complexité SEULEMENT si niveau supérieur insuffisant.
+    Traiter le niveau le plus HAUT possible.
+  source: PVI-t1-p15_16

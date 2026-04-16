@@ -1,0 +1,199 @@
+# INTESTIN GRÊLE — FOU DE L'ÉLÉMENT FEU
+# Source : Polycopié VI, Série EEA tome 3 — Séminaire 12 décembre 1982
+# Auteurs : Dr Schatz, Elisabeth Rochas de la Vallée
+
+meta:
+  fichier: intestin_grele.yaml
+  source: PVI_EEA_t3
+  element: Feu
+  couplage_tsang: Coeur
+  relation: Biao_Li
+  statut: complet
+  liens:
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/gros_intestin.yaml
+    - ZANG_FU/role_general_fou.yaml
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+
+# =============================================================================
+# ANATOMIE ÉNERGÉTIQUE
+# =============================================================================
+
+anatomie:
+  extremite_superieure: communique_avec_E_par_YOU_MEN_pylore
+  extremite_inferieure: communique_avec_GI_par_LAN_MEN_valvule_ileo_caecale
+  portes:
+    you_men:
+      signification: >
+        YOU donne l'idée de quelque chose de sombre, mystérieux, caché.
+        Ce qui passe par là s'enfouit dans les profondeurs du corps.
+        YOU MEN est également le nom du point 21 Rein.
+    lan_men:
+      signification: >
+        LAN donne l'idée d'interception, d'écran. Un barrage : n'importe quoi
+        ne passe pas là, il y a eu un tri.
+  source: PVI-t3-p38
+
+# =============================================================================
+# FONCTIONS
+# =============================================================================
+
+fonctions:
+  charge_SW8: >
+    IG a la charge de recevoir et de porter à son comble, il en sort des matières
+    transformées, des matières qui ont subi des transformations digestives.
+
+  recevoir_et_plenifier:
+    recevoir: >
+      Le terme désigne une récolte — le même terme que les récoltes de l'automne.
+      Il y a déjà eu une action sur le bol alimentaire et IG le reçoit dans sa maturité.
+    plenifier: >
+      L'action de plénifier porte à son comble la séparation du clair et du trouble
+      déjà commencée au niveau de l'E. Le résultat : des choses transformées.
+
+  separation_clair_trouble:
+    mecanisme: >
+      Image : sable ou gravier humide pressé sur un tamis. Il en sort un jus (le clair)
+      et il reste des choses plus grossières (le trouble). Pression et tamisage : les
+      liquides sortent à travers les parois et sont des Jin Yé reversés dans la
+      circulation générale. Le reste passe au GI (résidus et lies, excréments).
+    clair: Jin_Ye_liquides_interstitiels_vers_circulation_generale
+    trouble: residus_et_lies_vers_GI_puis_excrements
+    reference: Su_Wen_chap_8
+
+  jing_wei_au_niveau_IG:
+    principe: >
+      Au niveau de IG, il y a également du Jing Wei (subtilité essentielle) puisque l'on
+      récupère sur le bol alimentaire des matières utiles à l'organisme. C'est à nouveau
+      sous la dépendance de la Rte pour la propagation.
+
+  liquides_ye:
+    principe: >
+      Le méridien de IG est dans sa pathologie en rapport avec les YÉ (profonds, épais,
+      dirigés vers les profondeurs du corps — articulations osseuses, système interne des
+      organes des sens, cerveau). Par contraste, le GI est en rapport avec les JIN (Yang,
+      extérieur — sueur, urines).
+
+  source: PVI-t3-p38_42
+
+# =============================================================================
+# RELATION BIAO/LI AVEC LE CŒUR
+# =============================================================================
+
+relation_coeur:
+  biao_li: >
+    L'élément Feu a comme une double face : IG pour l'avers (BIAO, sortir et montrer
+    des effets à l'extérieur) et C pour le revers (LI, organiser à l'intérieur).
+  rapport_fonctionnel: >
+    Il y a un rapport de positionnement entre IG (au centre) qui appuie directement
+    sur le C. Le diaphragme est un lieu d'échange plutôt que de séparation absolue.
+    Rapport embryologique : les tubes cardiaques se forment par rotation, le tube
+    digestif dans une rotation inverse (double mouvement concomitant de 270°).
+  yang_du_C_aide_IG: >
+    Les Souffles Yang du C s'abaissent à IG pour l'aider dans la séparation du clair
+    et du trouble. Le C participe à l'animation de la pompe pulmonaire qui abaisse
+    les liquides. XU LI est lié à la fois au C et au P.
+
+  pathologie_croisee:
+    feu_C_vers_IG: >
+      Si le Feu du C a une force qui dépasse la mesure, il peut déplacer la chaleur à IG.
+      Symptômes : petit besoin rouge, peu abondant, brûlant, douloureux, jusqu'au sang
+      dans les urines.
+    chaleur_IG_vers_C: >
+      Si IG a de la chaleur, elle peut faire que le Feu du C est fort et florissant,
+      avec des symptômes et malaises au niveau du C.
+
+  sueur_et_sang:
+    principe: >
+      La sueur est le YÉ du C. Pour une même masse liquidienne, s'il y a de trop grandes
+      sueurs, il y aura moins de liquides capables de former les sucs à l'origine du sang.
+      La sueur est en équilibre avec le volume général du sang. Dans les sueurs profondes,
+      il y a des anémies.
+    source: PVI-t3-p40
+
+  source: PVI-t3-p32_42
+
+# =============================================================================
+# DIAGNOSTIC
+# =============================================================================
+
+diagnostic:
+  pathologie_IG:
+    symptomes_generaux: >
+      Quand IG est malade, on observe essentiellement des obstacles dans la fonction
+      d'absorption et de digestion, le clair et le trouble ne sont pas séparés, petit
+      et gros besoins ont des anomalies, ventre douloureux, diarrhées.
+  source: PVI-t3-p41
+
+# ─── Enrichissement EEA t2 (séminaires CLM juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_huitieme_charge: >
+    L'IG est en 8ème position (Su Wen ch.8). Charge de réceptionner
+    et de « faire prospérer » = recevoir de l'E le bol alimentaire
+    et porter à la perfection l'opération déjà commencée de
+    séparation du clair et du trouble. Les choses transformées
+    en sortent — continuation des opérations de digestion.
+  ig_commande_ye: >
+    L'IG commande les Yé (liquides troubles/profonds), par
+    opposition au GI qui commande les Jin (liquides clairs).
+  source: PVI-EEA-t2-p46
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  3IG_tou_mo: >
+    3IG = point clé du Tou Mo (Du Mai). Commande la réserve
+    Yang et le gouverneur des TT. Utilisé en dispersion dans
+    le protocole Yang en plénitude (Tou Mo en excès → dos
+    tendu comme un arc). En tonification: renforce le Yang
+    dorsal et vertébral.
+  10IG_yang_haut: >
+    10IG = point Yang local du haut du corps (épaule,
+    membre supérieur). Utilisé dans les cas de blocage
+    Yang au niveau de l'épaule et du bras.
+  tae_yang_et_IG: >
+    L'IG fait partie du Tae Yang (V+IG). Énergie céleste
+    = froid. Fonction de rafraîchissement. Le Tae Yang se
+    perçoit au pouls gauche superficiel. Si Tae Yang
+    insuffisant → le Feu Ministre (Chao Yang) devient excessif.
+  source: PIV_YY_tomes4-5_CP_I
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  deuxieme_tri_detail: >
+    L'IG complète l'action de l'Estomac par le 2ème tri de
+    l'alimentation. Comme l'Estomac, il extrait le pur de l'impur :
+    — Ku Tchi (énergie pure extraite) → monte au thorax (P)
+    — Solides purs → transmis au Foie
+    — Tous les liquides → envoyés au Rein
+    — Reste du bol alimentaire → suit vers le GI
+  double_appartenance: >
+    L'IG appartient au foyer moyen (duodénum et jéjunum = rattachés
+    à l'Estomac en MTC) et sa partie terminale au foyer inférieur.
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  deuxieme_tri_complet: >
+    L'IG effectue la séparation définitive pur/impur et fin/épais :
+    — Énergie pure (Ku Tchi résiduelle) → monte au thorax → Tsong Tchi
+    — Liquides purs → Reins (filtration, récupération)
+    — Liquides impurs → accompagnent bol vers GI
+    — Solides purs → Foie (par villosités intestinales, seules les
+      substances les plus fines passent)
+    — Impur des aliments → GI pour évacuation
+  duodenum_jejunum: >
+    Duodénum ~60 cm (partie initiale), jéjunum ~1 m (partie principale
+    chargée de l'assimilation des substances nutritives dans le sang).
+  liquides_vers_reins: >
+    Tous les liquides issus du 2ème tri sont transmis aux reins pour
+    filtration. L'IG est Fou de l'élément Feu — la présence de sang
+    dans les urines est un signe de feu dont l'origine est l'IG
+    (Ko Feu→Eau), pas les reins ni la vessie en général.
+  source: PV-3F-t2

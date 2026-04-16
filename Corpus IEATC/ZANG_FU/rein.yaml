@@ -1,0 +1,633 @@
+# REIN — PHYSIOLOGIE INDIVIDUELLE
+# Source : PVI Physiologie tome 2, pp. 46-52
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: rein.yaml
+  source: PVI_Physio_t2_p46_52
+  statut: complet
+  liens:
+    - ZANG_FU/role_general_tsang.yaml
+    - THEORIE/embryologie_constitution.yaml
+    - THEORIE/hierarchie_sang_energie.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+
+identite:
+  titre: Feu_Ministre_conservateur_energie_ancestrale
+  polarite: Yin_dans_le_Yin
+  element: Eau
+  foyer: FI
+  position: >
+    Très haut, en arrière du foie et de la rate, en avant
+    de la colonne vertébrale. Ne dépassent pas les basses côtes.
+    Impossibles à palper. Douleur se projette au dos D10-L2.
+    ATTENTION : "mal aux reins" ≠ lombaires.
+  axe: partie_amont_du_Chao_Yin
+  couple_Yang: Vessie
+  energie: >
+    La plus Yin mais possède plus d'énergie que de sang.
+    Juste après le coeur en quantité d'énergie.
+  dedouble: rein_gauche_Yang_rein_droit_Yin
+  role_So_Ouen_ch6: reequilibre_polarite_Yin_Yin_Eau
+
+fonctions_energetiques:
+  uro_genital: >
+    Englobe la totalité du système uro-génital :
+    fonction de filtre/équilibre hydrique ET procréation.
+
+  rein_Yin:
+    commande: rein_droit
+    organe: couleur_blanche_filtration_sang_fonction_urinaire
+    dirige: prostate_glandes_seminales_et_liquide
+    intelligence_particuliere: >
+      Reconnaît et distingue les "vieux liquides" usagés
+      des "liquides neufs" de l'alimentation.
+      Capable de connaître les besoins du corps et de distinguer
+      ce qui est à conserver ou à rejeter.
+      Conserve le neuf, élimine le vieux vers la vessie.
+    relation_foie: >
+      Nécessairement en relation avec le foie (prévision des besoins).
+      Le foie puiserait dans la mémoire du rein (inconscient du Roun)
+      l'expérience dont il a besoin.
+    circuit_R_moins: R_moins_rate_foie_poumon
+    vide_R_moins: engendre_vide_Yin_du_foie_et_de_la_rate
+    fonctions:
+      - filtre_plasma_sanguin_pas_les_globules
+      - elimine_vieux_elements_et_surplus
+      - controle_squelette_articulations_cortysol
+      - dirige_osteoblastes_osteoclastes
+      - dirige_perioste
+      - emission_essences_reproduction
+      - spermatozoides_ovules
+      - glandes_seminales_prostate
+      - muqueuses_trompes_uterus_vagin
+    source: PVI-t2-p46_51
+
+  rein_Yang:
+    commande: rein_gauche
+    organe: glandes_surrenales_couleur_rouge_fonce
+    produit:
+      adrenaline: stimulant_fonction_cardiaque
+      cortysol: hormone_squelette_articulations
+      hormones_sexuelles: stimulent_gonades
+    conserve: vitalite_de_Ming_Men_par_chaleur_Feu_Chao_Yin
+    entretient: energie_ancestrale
+    commande_distribution: racine_du_Tchrong_Mo
+    circuit_R_plus: R_plus_rate_et_estomac_poumon_coeur
+    vide_R_plus: >
+      Engendre vide du poumon et du coeur.
+      Rate en excès de Yin (sans Yang pour fonctionner).
+    source: PVI-t2-p47_51
+
+  deux_racines:
+    principe: >
+      Les deux reins sont l'origine, dès la vie embryonnaire,
+      des deux racines fondamentales du Yin et du Yang.
+    R_moins: Racine_Yin_source_tout_Yin_eau_Eau
+    R_plus: Racine_Yang_source_tout_Yang_sel_Feu
+    R_plus_alimente_estomac: >
+      Sans Yang du R+, l'estomac est vide de Yang
+      et ne peut plus en fabriquer.
+      Tout vide de Yang au FM → vérifier rein Yang.
+
+  Feu_Ministre:
+    MC_et_Rein: les_2_Feux_Ministres_du_Coeur
+    MC_role: fonctions_sexuelles_genitales_reproduction_pulsions
+    Rein_Yang_role: assiste_coeur_adrenaline_Chao_Yin
+    Ming_Menn: aussi_nomme_Feu_Ministre_par_extension
+    Chao_Yang: >
+      Physiologie comme 1er Ministre d'un pays.
+      TR = psychisme/mental outil de l'Esprit.
+      VB = chef de la police, outil d'application.
+
+  energie_ancestrale:
+    3_energies: [Yuan_Tchi, Tsing_Tchi, Tsong_Tchi]
+    provenance: chacune_des_deux_parents
+    bipolarite: feminin_et_masculin_en_chaque_etre
+    lien_entites: Chen_Roun_Pro_dans_energie_ancestrale_et_moelles
+    support_physique: spermatozoide_et_ovule
+    localisation: Ming_Menn_et_moelles_osseuses
+
+  commande_FI:
+    - vessie_toute_energie_en_provient
+    - GI_regule_quantite_eau_reabsorbee
+    - TR_rigole_des_eaux_liquides_interstitiels
+    - sphere_genitale_uterus_ovaires_trompes_testicules
+
+  puissance_creatrice:
+    principe: >
+      Source de la puissance créatrice. Force intérieure.
+      Mouvement dans la vie.
+    faiblesse: timidite_manque_confiance_manque_idee_realisatrice
+    puissance: personnalite_enrichissement_spiritualite
+    sexualite: manifestation_et_expression_7R_charme_ou_virilite
+  source: PVI-t2-p46_52
+
+periodes_activite:
+  quadrant: inferieur_droit_tronc_et_MI_droit
+  cycle_iong: 17h_a_19h
+  lune: 4eme_periode
+  saison: hiver
+  planete: Mercure_quand_avance
+  etoiles: Tae_Yang_au_Ciel
+  source: PVI-t2-p51
+
+physiologie_5_elements:
+  mouvement: conservation_sedimentation_renaissance_mise_en_reserve
+  froid: energie_qui_produit_densifications_et_sedimentation
+  organisme:
+    quotidien: nuit_21h_a_3h_plus_17h_19h
+    annuel: hiver_5_novembre_au_5_fevrier
+  deux_periodes_fondamentales:
+    avant_minuit:
+      principe: repos_recuperation_fatigues
+      reins_recoivent: energie_du_poumon
+      condition: repos_fondamental_pas_de_footing_a_23h
+      note: sommeil_avant_minuit_compte_double
+    apres_minuit:
+      principe: repos_preparateur_journee_a_venir
+      puis: rendent_au_cycle_tcheng_pour_alimenter_Bois
+      conditionne: efficacite_tout_nouveau_cycle
+    entre_les_deux:
+      stockent: surplus_energies_tsing_et_tsong_tchi
+      comparatif: >
+        Comparaison entre acquis et inné. Ce qui n'est pas
+        conforme à la spécificité de l'être n'est pas conservé.
+    reve: >
+      Evacuation liée à la fonction filtre. Evacuation des
+      surplus ou parasites qu'il ne veut ni conserver
+      ni remettre en circulation.
+  tissu: squelette
+  epanouit_dans: cheveux
+  liquide_pur: urine_et_liquide_parotidien
+  eclat_regard: intensite_reserve_tsing_se_voit_a_eclat_regard
+  source: PVI-t2-p52
+
+enrichissement_5_elements:
+  element: Eau
+  nature_fonctionnelle: descendre_et_humidifier
+  orient: Nord_minuit_soleil_au_plus_bas
+  eaux_primordiales: >
+    Contiennent tous les germes de la vie. Le germe des germes.
+    L'Eau irrigue la Terre pour faire pousser le Bois.
+  sagesse: >
+    L'Eau pénètre tout, se faufile partout dans le
+    recueillement, la concentration, l'humilité.
+    Annonce toujours le futur, le renouveau.
+  organe_fondamental: >
+    1er organe fondamental dans les séquences de la vie.
+    Représente l'inné, l'énergie originelle, le Ciel antérieur.
+  Feu_dans_Eau: >
+    L'Eau contient le Feu primordial (magma terrestre =
+    hormones de procréation). Principe Yang sans lequel
+    la vie n'est pas possible.
+  couleurs_5E:
+    noir: nuit_eaux_profondes_cavernes_uterus
+    rouge_vermillon: >
+      Alchimie taoïste : têtard rouge. Potentiels de vie.
+      Principe Yang hérédité, inné, Ciel antérieur.
+      Ming Menn, Rein Yang. Origine Tae I.
+    pourpre: spiritualite_et_initiation
+  pathologie_5E: >
+    Liquides descendent et stagnent en bas (oedèmes).
+    Nature de l'Eau = descendre et humidifier.
+  source: PVII-t1-p45_46
+
+enrichissement_5E_t2:
+  cour_imperiale:
+    hiver: Empereur_le_plus_puissant
+    printemps: Mere_faible
+    ete: Conseiller_energique
+    5eme_saison: Ennemi_vaincu_soumis
+    automne: Fils_vigoureux
+  reserve_annuelle: >
+    Reçoit du Métal (fin d'automne) les surplus non
+    utilisés des tsing des 5 organes. Les conserve
+    durant l'hiver. S'ajoute à l'ancestrale, l'économise.
+    En cas d'urgence (maladie sévère, traumatisme),
+    le Rein retransmet la tsing spécifique à l'organe
+    déficient.
+  correspondances_completes:
+    therapeutique: gymnastique_Tao_Yin
+    psychisme: Tche_Zhi
+    vertu: sagesse
+    relation: epoux_epouse
+    expression: gemissement
+    voix: gemissant
+    position: debout_incline
+    ministere: fonctionnaire_habile
+    cereale: haricot
+    viande: porc
+    son: Yu
+    odeur: pourri
+    saveur: sale
+    sens: ouie
+    liquide: salive_fluide
+    organe_des_sens: oreille
+    expansion: cheveux
+    tissu: os
+    entraille_curieuse: os_moelle_cerveau
+  resume_activites_PVII_t2: >
+    Énergie ancestrale, tsing, sens du regard profond,
+    os et cheveux, oreille et audition.
+    R Yin = Eau/filtration. R Yang = Feu/vitalité.
+    Racines du Yin et du Yang de tout l'organisme.
+  source: PVII-t2-p18_40
+
+enrichissement_5E_t3:
+  so_ouen_chap5_Eau: >
+    Nord → froid → Eau → salé → Rein → moelle osseuse → Foie.
+    Le Rein gouverne les oreilles. CHEUN associé = Tchi (réalisation, volonté).
+    Son état dominant amènera l'abondance de la moelle.
+    Sentiment : peur. Ko : pensée profonde (Terre/Rate) domine la peur.
+    Blessure externe : froid blesse le sang. Ko : sécheresse domine froid.
+  points_su_Rein:
+    Ting_Bois: 1R
+    Iong_Feu: 2R
+    Iu_Terre: 3R
+    King_Metal: 7R
+    Ro_Eau: 10R
+    note: 1R = seul Ting non à l'ongle mais sous la voûte plantaire
+  axes_5E_t3:
+    groupe_meridiens: 3_Yin_du_bas_Yin_du_Yin
+    fonction_groupe: recevoir_energies_externes_absorber_energies_Terre_et_conduire_aux_Tsang
+    element_mouvement: Eau
+    fou_maitre: Vessie
+    Tae_Yang_specifique: >
+      Précurseur du Yang. Eau → Bois → Feu. Plus sanguin.
+      Réserve annuelle (stock surplus Métal, compense urgences).
+  ko_emotionnel_clinique: pensee_Rate_domine_peur_Rein
+  liens_nouveaux:
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+    - THEORIE/cinq_elements_mouvements_5E.yaml
+    - THEORIE/cinq_elements_points_su.yaml
+  source: PVII-t3-p15_44
+
+enrichissement_5E_t4:
+  pathologie_5E:
+    interrogatoire_vide_plenitude:
+      plenitude: deteste_sale_temeraire_trop_volontaire_aggrave_hiver_autoritaire
+      vide: recherche_sale_peureux_pas_volonte_ameliore_hiver_indecision_transpiration_nuit
+    point_penn: 10R_ro_Eau
+    Yin_Yang_et_penn: >
+      Rein = Yin du Yin. 10R agit sur le Yin du foyer
+      inférieur (Terre) de l'individu.
+    palpation_abdominale:
+      zone: sous_nombril_4_6JM
+      deblocage: 5R_d
+    gravite_vitale: >
+      Tsang à fonction vitale immédiate. Rein+Rate vides
+      = signe grave d'épuisement ancestrale.
+    zone_Hong_Kong: >
+      Sous ombilicale (25VB). Pulsations paisibles 4-5/resp
+      = bonne énergie. Froide sans pulsation = R vides.
+      Chaude pulsations faibles = vide Yin.
+    aorte_abdominale: >
+      Pulsations sous ombilic = vide de l'Eau, du rein.
+      L'aorte montre l'énergie du Tchrong Mo.
+  liens_nouveaux:
+    - THEORIE/cinq_elements_pathologies_cycles.yaml
+    - THEORIE/cinq_elements_pathologies_bilan.yaml
+  source: PVII-t4-p55_91
+
+# --- ENRICHISSEMENT SÉMINAIRE PVI t3 (EEA Tsang/Fou tome 3) ---
+enrichissement_seminaire_t3:
+  ming_men_et_embryologie:
+    trois_poles: >
+      Pôle héréditaire (Yuan Qi, Jing Qi, Zhong Qi) axé sur Ming Men.
+      Pôle d'individuation (Shen) axé sur le C.
+      Pôle alimentaire (Ciel Postérieur) axé sur le tronc E/Rte.
+    petit_coeur: >
+      Fonction intermédiaire (Xiao Xin) entre Ming Men et le C, avant que
+      Xin Bao Lo et Xin Zhu aient pris leur place. Sert de relais pour la
+      translation entre énergies héréditaires et celles qui commandent le corps.
+    BAO: >
+      Idéogramme BAO = embryon dans la matrice, enveloppements de la puissance
+      de donner la vie. BAO MAI (Mo de l'utérus) et BAO LUO (Lo de l'utérus)
+      relient le C (logis des Shen) à la région des R (Ming Men en VG4).
+  thesaurisation_Jing:
+    double_sens: >
+      1) Jing du Ciel Postérieur : essences des liquides et céréales de E/Rte,
+      base substantielle du maintien des mouvements vitaux.
+      2) Jing du Ciel Antérieur : Jing des R, racine de la reproduction et croissance.
+      Les deux sont indissociables et en étroit rapport.
+    circuit_Jing: >
+      Le Jing du CP part de E/Rte, va au P, descend vers V/R par les Réchauffeurs.
+      Au niveau des R : Qi Hua. Le clair réabsorbé remonte vers le P. Le trouble
+      excrété par la V.
+  Yin_Yang_du_R:
+    Yin_R: >
+      Action sur les liquides du corps, régulation par absorption et élimination.
+      Les liquides qui arrivent au Réchauffeur Inférieur sont re-triés : utiles
+      remontent, inutiles s'évacuent par V.
+    Yang_R: >
+      Force d'animation qui part des R. Le Yang du R est la racine des Souffles
+      Yang de tout le corps. Transports de la Rte, régulations du P, excrétion
+      de la V, passages du TR — tout est aidé par le Yang du R.
+    lateralite: >
+      R gauche = côté artériel = Yang. R droit = côté veineux = Yin.
+      On agit pour le Yin du côté droit, pour le Yang du côté gauche.
+  commandement_liquides:
+    citation_NJ: Les R c'est le zang des liquides, ils commandent les Jin Yé.
+    mecanisme: >
+      Les R ont le rôle essentiel dans le métabolisme des humeurs liquidiennes
+      (avec P et Rte). Qi Hua au Réchauffeur Inférieur : élever le clair
+      (Yang du R), abaisser le trouble (Yin du R).
+  ossature_moelles:
+    principe: >
+      Le R est lié à l'ossature — l'os est ce qu'il y a de plus profond.
+      L'ossature pose l'Homme dans sa station debout. Les R engendrent la moelle
+      (osseuse ET nerveuse — conjointes en MTC). La moelle communique avec le cerveau.
+    Chong_Mo_Du_Mo: >
+      Chong Mo (mer du sang) lié au R. Du Mo (dirige le système nerveux) lié au R.
+      Double fonction vasculaire et nerveuse dans les mêmes trajets.
+    pathologie_vide_Jing: >
+      Jing R suffisant : os/moelle/cerveau en plénitude, 4 membres forts,
+      mouvements vifs, œil et oreille fonctionnent parfaitement.
+      Jing R insuffisant : mouvements lents, os faibles, vue trouble,
+      tête tourne, mauvaise mémoire.
+  force_talent_habilete:
+    citation_SW8: Les R ont la charge de ce qui fait la force, talent et habileté en sortent.
+    explication: >
+      Passer à l'acte avec force. Image d'un arc tendu, puissance prête à envoyer
+      quelque chose droit. Il en sort l'adresse à mener sa vie, un savoir-faire,
+      un savoir-vivre. Les R sont tout à fait liés à la Sagesse dans la mentalité chinoise.
+  R_et_oreille:
+    principe: >
+      L'oreille est l'orifice extérieur des R. L'oreille est réceptrice (vs œil
+      émetteur). Bonne audition par irrigation et entretien de l'oreille interne
+      par les Souffles des R. Troubles de l'oreille peuvent avoir pour cause un
+      vide des R.
+  R_et_dents_cheveux:
+    dents: >
+      Surabondance des os. Solidité en rapport avec la montée en puissance (SHENG)
+      et décroissance (SHUAI) des Souffles des R. Dent de sagesse = "dent authentique"
+      en chinois — l'être en conformité avec sa nature originelle.
+    cheveux: >
+      Aspect fleuri des R. Ce qui nourrit les cheveux vient du sang (surabondance
+      du sang). Les R montrent leur puissance jusqu'au cerveau et au-delà.
+    dur_et_mou: >
+      Os = durs et solides. Moelle = molle, souple, fluide. Dents = dureté.
+      Cheveux = souplesse. Les R rassemblent ces deux aspects car très proches
+      des origines (Ming Men), conjonction Yin/Yang.
+  correspondances_element_Eau:
+    hiver: thesaurisation_profonde_de_la_vie
+    oreille: orifice_et_observateur
+    soupir: bruit_sort_des_profondeurs_relance_axe_Shao_Yin
+    sale: saveur_habituelle_eau_de_mer
+    crachats: ye_venant_du_profond_de_l_organisme
+    pourri: odeur_putrefaction_maceration_dans_eau
+    noir: couleur_cache_Nord
+    ZHI: esprit_volonte_C_qui_s_etablit_fermement_direction_determination_droite_et_forte
+  liens_nouveaux:
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    - ZANG_FU/vessie.yaml
+    - CLINIQUE/pathologies_oreille.yaml
+  source: PVI-t3-p64_75
+
+# ─── Enrichissement EEA t1 (séminaire CLM déc. 1981) ──────
+
+enrichissement_EEA_t1:
+  zhi_et_rein: >
+    Le ZHI est lié au Rein. C'est le vouloir, le vouloir-vivre,
+    l'effectuation pratique. Le cœur qui s'axe, s'oriente et va
+    vers quelque chose. Idéogramme : radical Cœur + mouvement
+    d'aller vers. C'est la base du développement de toute la vie
+    psychique, mentale, sentimentale et intellectuelle. Lié à l'Eau
+    authentique du C.A. Dans certains traitements, c'est le Zhi
+    qu'on prend comme appui pour le diagnostic.
+  rein_et_ming_men_approfondi: >
+    « À gauche c'est le Rein, à droite c'est Ming Men » (Nan Jing
+    chap. 36 et 39). C'est un CODE rituel pour dire qu'on parle
+    des énergies du C.A., PAS une latéralité anatomique. Le Yin
+    originel et le Yang originel logent au milieu des Reins avec
+    Ming Men. Relations de l'Eau et du Feu, enracinement réciproque.
+  yin_yang_originels: >
+    Zhen Yin (Yin authentique) = Jing du C.A. = Eau originelle.
+    Zhen Yang (Yang authentique) = Ming Men = Feu originel.
+    Yuan Yin = Yin originel (perspective C.A.).
+    Yuan Yang = Yang originel (perspective C.A.).
+    Ces épithètes « originels/authentiques » ne sont accolées
+    qu'au C.A., JAMAIS au C.P.
+  code_gauche_droite: >
+    Dans le C.A. : Yin à gauche, Yang à droite (perspective du
+    créateur). Dans le C.P. : Yang à gauche (Est, soleil), Yin
+    à droite (Ouest, lune). L'inversion indique si l'on parle
+    des mécanismes avant ou après la conception. Niboyet et Soulié
+    de Morant fixent Yin=gauche Yang=droite, ce qui est une
+    simplification du code chinois.
+  jing_et_rein: >
+    Les Zang, singulièrement le Rein, sont remplis de Jing.
+    « L'abondance du Jing à la force vitale, c'est ce qui
+    structure et compose le corps de l'Homme, c'est ce qui fait
+    le fond de tout l'organisme » (texte moderne). Jing du C.A.
+    = premier substrat de la conception. Jing du C.P. = entretien
+    continu par alimentation et respiration.
+  source: PVI-EEA-t1-p34_67
+
+# ─── Enrichissement EEA t2 (séminaires CLM mai 1982 + juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_dixieme_charge: >
+    Le Rein est en 10ème position (Su Wen ch.8). 10 = position
+    solaire, nombre de l'Homme (Père Larre). Charge de « susciter
+    la puissance » = force profonde, arc tendu. Pas le jaillissement
+    du Bois-Printemps mais la force des sources cachées, des eaux
+    souterraines, de la chaleur enfouie dans la terre pendant l'hiver.
+  savoir_faire: >
+    Ce qui résulte de la charge du Rein : habileté et savoir-faire.
+    Ingéniosité, tour de main. Assimilation totale des fonctions
+    vitales. Celui dont la force de vie s'exprime dans toute sa
+    puissance fait les choses réussies par le naturel même de sa vie.
+    Savoir-faire et savoir-vivre. Authenticité liée aux Reins.
+  couple_1_10: >
+    En prenant le 1 (Cœur) et le 10 (Rein) : les deux pôles de
+    la vie. Le 10 reprend le 1 dans la perfection de l'unité de
+    2ème ordre. Extraordinaire habileté du Cœur et des Reins.
+  jing_shen: >
+    Les Reins = monde des essences Jing. Relié au Shen, forme
+    le couple JING SHEN = expression la plus subtile de la vitalité.
+    Rayonnement des Esprits (Shen) + base profonde des essences
+    (Jing) = réalité la plus authentique de l'être.
+  yuan_qi_approfondissement: >
+    Yuan Qi est liée aux perspectives phylogénétiques de l'évolution
+    des êtres et du cosmos. Jing est lié aux matériaux cosmogénétiques
+    (idéogramme = vert des plantes, énergie chlorophyllienne). Zong Qi
+    est liée à l'apprentissage des habitudes, à la trophicité, aux
+    réserves vitellines du développement embryonnaire. XU LI = expression
+    de Zong Qi, lié aux réserves du tube digestif au sens embryologique.
+  double_fu_R: >
+    TR et V sont liés aux Reins comme un double Fu (Ling Shu).
+    Le Rein ayant double thésaurisation Yin et Yang, Eau et Feu :
+    V pour les eaux et la régulation des liquides, TR pour le Feu
+    de Ming Men et l'expansion des Souffles.
+  wei_et_rein: >
+    L'énergie Weï nocturne rentre au Rein. Pendant la nuit,
+    circuit interne : R → C → P → F → Rte → R (25 fois) = cycle
+    d'équilibration des 5 éléments. R.6 active le circuit nocturne
+    (insomnie = trop de Yang la nuit). V.62 active le circuit diurne
+    (somnolence = pas assez de Yang le jour).
+  source: PVI-EEA-t2-p6_10_47_48
+
+enrichissement_YY_t2:
+  ming_menn_fondements: >
+    Ming Menn (VG.4, entre L2/L3) = Porte du Mandat Céleste, Porte du Destin,
+    Porte de la Lumière (nom antique). C'est la cicatrice du point de pénétration
+    du spermatozoïde dans l'ovule — reste inscrite toute la vie. Le développement
+    embryonnaire (3 feuillets primitifs) se fait par rapport à ce point.
+    ALERTE : ponctions lombaires et péridurales se font exactement à Ming Menn.
+  region_ming_menn: >
+    La RÉGION Ming Menn = espace entre les deux reins OU le rein gauche (Yang).
+    Contient l'énergie ancestrale et le tsing. C'est la vitalité, la force,
+    l'endurance, la conviction, les certitudes. Source de la vie organique.
+    Nourrit le Chen quand elle rejoint le Cœur. Le Principe originel,
+    immuable et éternel, est contenu dans l'énergie ancestrale de Ming Menn.
+  inne_et_rein: >
+    Le Rein = détenteur de l'Énergie Originelle et créatrice = l'INNÉ.
+    Par opposition à l'Estomac/Rate = l'ACQUIS. Ces organes recèlent les
+    principes du passage Ciel antérieur → Ciel postérieur, de l'éternel
+    au fini, de l'informulé au déterminé, du préexistant à la forme sensible.
+  grossesse_et_nombres: >
+    La grossesse dure 9 mois lunaires = 9 cases du Ming Tang = 3 × 3.
+    Trois = nombre de la Vie en mouvement. 3 × 3 = 9 = perfection,
+    expression de Taé I. Le Chen cosmique préside à la grossesse entière,
+    présent tout le temps dans le ventre de la mère. 3 périodes de 3 mois
+    chacune, chaque trimestre ayant une qualité énergétique spécifique.
+  conception_et_chen: >
+    À l'instant de la fécondation, le spermatozoïde est accompagné par
+    le Chen cosmique (ou c'est le Chen qui induit la pénétration). La
+    conception = intersection des Ciels, accomplie par dynamisation du
+    Chen cosmique (Principe de Vie). So Ouen : « Le Yang transforme
+    le Souffle Tchi, le Yin achève la forme. »
+  axe_fort_faible_rein: >
+    Le Yin est fort en bas à droite (Yin/Yin = Terre + droite).
+    Le Yin est faible en bas à gauche (Yang/Yin = Terre + gauche).
+    Le Rein gauche (Yang) et le Rein droit (Yin) s'inscrivent dans
+    cette polarité : axe fort passe par le Rein droit (bas-droite),
+    axe faible par le Rein gauche (bas-gauche).
+  source: PIV-YY-t2-p17_20
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  deux_energies_fondamentales: >
+    Le Rein comprend 2 énergies: Yin et Yang fondamentaux
+    liés à l'hérédité. Si Yang des reins s'affaiblit →
+    excès Yin des reins → signes URINAIRES. Si Yin des reins
+    s'affaiblit → signes HORMONAUX et GYNÉCOLOGIQUES.
+  rein_yang_donne_a_E: >
+    Le Rein Yang (énergie ancestrale) donne son Yang à
+    l'Estomac ET à tout l'organisme. Il donne la CONFIANCE
+    EN SOI. L'Estomac existe pour fabriquer le Yang afin
+    d'économiser l'énergie originelle. Mais si E épuisé →
+    tout le Yang quotidien épuise directement les Reins.
+  cafe_et_reins: >
+    Sous l'effet du café, les Reins se vident de toute
+    leur énergie (adrénaline) dans le sang → élan de punch
+    → effet feed-back → vidé d'un coup. 6 heures pour
+    rétablir la réserve. À la longue, déséquilibre les Reins.
+  vide_rein_yang_protocole: >
+    Toujours restaurer EN PREMIER l'énergie Yang de l'Estomac
+    avant de traiter le Rein Yang (cas Virginie):
+    1ère séance: 4GI t, 12JM t, 25E t, 36E t + moxas
+    2ème séance: 2R t (point Feu R) + 8MC t (point Feu MC)
+    OU: 4TM t + 23V t. Il faut CHAUFFER le bas du corps.
+  rein_et_gorge: >
+    Gorge dépend de l'énergie du GI, lui-même commandé par
+    les Reins. Affection ponctuelle gorge = traiter par GI.
+    CHRONIQUE = traiter par R. Angines chroniques depuis
+    l'enfance = énergie ancestrale déficiente (cas Virginie).
+  rein_et_reves: >
+    Rêves d'eau = vide de l'élément Eau (Rein). Plus d'1x/mois
+    = pathologie avérée. Si le Cœur est vide, c'est par l'Eau
+    qu'on traitera (Eau contrôle Feu dans les 5E).
+  zones_blocage_rein:
+    1_cheville: "5R"
+    2_genou: "10R"
+    3_bassin: "11R"
+    4_torse: "21R — vide VB, échange YY foyer moyen"
+    5_gorge: "27R"
+  4TM_ming_menn_clinique: >
+    Point le plus noble. Ne se disperse pratiquement JAMAIS.
+    Pour action efficace: CHAUFFER l'aiguille. Indications:
+    maladies dégénératives, affaiblissements post-opératoires,
+    faiblesse lombaire/scoliose, insuffisance cardio-vasculaire,
+    maladies génitales, fragilités respiratoires congénitales.
+    Attention séquelles péridurales/ponctions lombaires au
+    niveau de ce point.
+  source: PIV_YY_tomes4-5_CP_I
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  capital_initial: >
+    L'énergie ancestrale est donnée en quantité définie à la conception.
+    Elle ne pourra JAMAIS augmenter. S'use comme une lampe à huile.
+    Quantité liée à l'état énergétique des parents à l'instant de la
+    relation sexuelle. Toute atteinte parentale (âge, maladie sévère,
+    chimiothérapie) compromet quantité ET qualité transmise.
+  qualite_determinante: >
+    La qualité détermine la capacité de résistance aux agressions,
+    la faculté d'adaptation, la possibilité de guérison. Quand
+    l'organisme ne peut se réparer avec les énergies complémentaires
+    (respiration, nourritures, tsing, tsong tchi), Yuan Tchi est
+    brusquement sollicitée → usure accélérée du patrimoine.
+  capitalisation_reins: >
+    Tsong Tchi et Tsing Tchi issues de la respiration et de l'alimentation
+    viennent se capitaliser dans les Reins, gardiens de Ming Menn, en
+    surplus de Yuan Tchi initiale, la préservant d'autant.
+  chaleur_humidite_fondamentales: >
+    L'apparition de la vie nécessite 2 facteurs : la chaleur bienfaisante
+    (Rein) et l'humidité (Rate). Nos cellules, organes et fonctions ont
+    besoin de ces 2 qualités. Le Chao Yin (R+C), bien qu'axe Yin, est
+    l'axe de la chaleur car la vie débute par Yuan Tchi. La Vessie
+    confère au Tae Yang le froid (évacuation surplus chaleur).
+  chao_yin_premier: >
+    Comme la vie débute par Yuan Tchi, le Chao Yin est le 1er axe
+    énergétique (Ming Menn et 1ère cellule) suivi du Tsiué Yin (sang,
+    cordon ombilical). 1er temps = énergie ancestrale, 2ème temps = le
+    sang. Ceci est l'ordre de l'Homme, différent de celui du Ciel.
+  foyer_inferieur_vitalite: >
+    Le FI donne à l'individu la force, la vitalité, le tempérament,
+    la conviction. L'énergie ancestrale diffuse à partir de Ming Menn
+    via la racine du Tchrong Mo → Tan Tienn inférieur (entre ombilic
+    et testicules) → stockage → diffusion vers les autres foyers.
+    6JM Tsri Raé = point de commande du Tan Tienn.
+  precautions_SW: >
+    Su Wen : pour vivre longtemps, préserver l'énergie Yang, proscrire
+    tout refroidissement sur une sueur (surtout lombaires), ne jamais
+    tomber dans les excès de la sexualité (dessèche la moelle épinière).
+    Protéger le dos (homme, Tou Mo) et le ventre (femme, Jen Mo).
+    Les pieds = correspondance des Reins = mêmes précautions.
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  urines_diagnostic: >
+    Urines claires = froid aux reins ou FI (excès R Yin / vide R Yang),
+    fréquentes et abondantes. Urines foncées = chaleur (excès R Yang /
+    vide R Yin), rares, peu abondantes, odorantes. Sang dans urines =
+    signe de feu venant de l'IG (Ko Feu→Eau), pas des reins en général.
+  regulation_thermique_vessie: >
+    La vessie contrôle l'équilibre thermique par les urines. Chaleur =
+    énergie, le liquide urinaire sert de support. Température élevée
+    → urines chaudes pour évacuer la chaleur excédentaire.
+  diarrhee_matinale_vide_reins: >
+    La diarrhée matinale (au lever) est un signe de vide des reins.
+    Diagnostic différentiel important avec les diarrhées du foie
+    (post-prandiale) ou de la rate (chronique).
+  mouvement_respiration: >
+    Inspiration (Yin) → énergie descend vers Foie puis Reins.
+    Les Reins sont le Yin dans le Yin du foyer inférieur (Yin/Yin).
+    La respiration dirige le mouvement de l'énergie dans le Tchrong Mo.
+  hormones_anciennes: >
+    Les Chinois connaissaient les hormones ("essences énergétiques
+    pures") contenues dans les urines. Ils utilisaient les urines de
+    femmes enceintes séchées pour en faire des produits thérapeutiques.
+  source: PV-3F-t2

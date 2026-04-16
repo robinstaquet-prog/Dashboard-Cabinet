@@ -1,0 +1,1813 @@
+# PHILOSOPHIE DE LECTURE CLINIQUE IEATC
+# Fichier vivant — enrichi à chaque module traité
+# Ne jamais écraser — toujours enrichir et versionner
+# Version 1.0 — base initiale
+
+meta:
+  fichier: 00_philosophie_clinique.yaml
+  role: >
+    Définit la logique de lecture clinique IEATC.
+    Permet à l'IA de choisir le bon prisme d'analyse
+    selon le tableau du patient — pas de réciter une liste.
+    À enrichir systématiquement à chaque module traité.
+  instruction_mise_a_jour: >
+    À chaque module traité, si une nouvelle correspondance
+    émotion/organe, choc/niveau, ou règle de priorité
+    de grille est documentée : l'ajouter ici immédiatement.
+    Ne jamais attendre la fin du corpus pour enrichir ce fichier.
+
+# ─────────────────────────────────────────────────
+# PRINCIPE FONDAMENTAL
+# ─────────────────────────────────────────────────
+
+principe_fondamental:
+  lecture_multi_grilles: >
+    Un patient n'est jamais lu par une seule grille.
+    Les grilles sont des prismes complémentaires qui
+    s'éclairent mutuellement. La compétence clinique
+    consiste à identifier LE prisme le plus cohérent
+    pour CE patient à CE moment, puis à croiser les
+    autres pour affiner.
+
+  entree_par_le_patient: >
+    C'est le signe dominant du patient qui choisit
+    la grille. Pas la grille qui choisit ce qu'on observe.
+
+  hierarchie_obligatoire:
+    etape_1: yin_yang        # toujours en premier — oriente tout
+    etape_2: localisation    # haut/bas · interne/externe · foyer
+    etape_3: grille_principale  # selon les signes dominants
+    etape_4: grilles_secondaires  # croisement et affinage
+
+  source: CP3-t1-p9
+
+# ─────────────────────────────────────────────────
+# NIVEAUX DE RÉALITÉ DU PATIENT
+# ─────────────────────────────────────────────────
+
+niveaux_de_realite:
+
+  niveau_1_physique_organique:
+    description: >
+      Symptômes corporels localisés, douleurs,
+      fonctions physiologiques perturbées.
+    grilles_prioritaires:
+      - zang_fu
+      - trois_foyers
+      - meridiens_principaux
+    signes_indicateurs:
+      - douleur localisée sur un trajet de méridien
+      - dysfonction d'organe identifiable
+      - symptôme lié à une fonction physiologique précise
+    statut: a_enrichir_module_PVI
+
+  niveau_2_energetique_fonctionnel:
+    description: >
+      Circulation des énergies, vides et plénitudes,
+      chaud/froid, surface/profondeur.
+    grilles_prioritaires:
+      - yin_yang
+      - quatre_energies
+      - grands_meridiens
+    signes_indicateurs:
+      - fatigue sans cause organique claire
+      - froid ou chaleur global ou local
+      - aggravation ou amélioration selon heure ou saison
+      - symptômes liés aux changements climatiques
+    statut: base_CP3t1_a_enrichir_PIV_PV
+
+  niveau_3_emotionnel_affectif:
+    description: >
+      Émotions chroniques, chocs affectifs,
+      relation aux autres, affectivité.
+    grilles_prioritaires:
+      - cinq_elements
+      - zang_fu_dimension_psychique
+      - foyer_moyen
+    signes_indicateurs:
+      - émotion dominante identifiable et chronique
+      - choc affectif dans l'anamnèse
+      - symptômes apparus après un événement émotionnel
+      - troubles relationnels chroniques
+    statut: PVII_t1_base_integree_enrichir_PXI
+
+  niveau_4_psychique_mental:
+    description: >
+      Pensées, mémoire, capacité de décision,
+      sommeil et rêves, sens de la vie.
+    grilles_prioritaires:
+      - cinq_elements
+      - entites_yin_des_organes
+      - merveilleux_vaisseaux
+    signes_indicateurs:
+      - troubles du sommeil avec rêves spécifiques
+      - ruminations ou obsessions
+      - perte de sens ou de direction
+      - troubles de la mémoire ou de la concentration
+    entites_concernees:
+      Chen: Feu_Coeur     # esprit, conscience
+      Roun: Bois_Foie     # âme, rêves, créativité
+      Yi: Terre_Rate      # intellect, mémoire, rumination
+      Po: Metal_Poumon    # instinct, sensation, deuil
+      Zhi: Eau_Rein       # volonté, peur, mémoire profonde
+    statut: a_enrichir_module_PXI
+
+  niveau_5_constitutionnel_ancestral:
+    description: >
+      Ce qui vient des parents, de la naissance,
+      ce qui est inné, fragilités profondes récurrentes.
+    grilles_prioritaires:
+      - energie_ancestrale_tsing
+      - tchrong_mo
+      - rein
+      - ming_menn
+    signes_indicateurs:
+      - troubles présents depuis l'enfance ou la naissance
+      - antécédents familiaux lourds et répétitifs
+      - vide profond ne répondant pas aux traitements habituels
+      - fragilité constitutionnelle évidente
+    statut: a_enrichir_module_PXI_et_PVI
+
+# ─────────────────────────────────────────────────
+# CORRESPONDANCES ÉMOTIONS → ORGANES
+# ─────────────────────────────────────────────────
+
+correspondances_emotions_organes:
+  # Base initiale — à enrichir modules P VII et P XI
+
+  regle_fondamentale: >
+    L'émotion chronique blesse l'organe.
+    L'organe blessé génère l'émotion correspondante.
+    Le cercle peut être entré par les deux portes :
+    traiter l'organe calme l'émotion,
+    traiter l'émotion soulage l'organe.
+
+  colere_frustration_irritabilite:
+    organe: Foie
+    element: Bois
+    dynamique: >
+      Stagnation du Qi du Foie — l'énergie ne circule plus.
+      Colère = énergie bloquée qui cherche à sortir.
+    statut: confirme_PVII_t1_base
+
+  joie_excessive_agitation_dispersion:
+    organe: Coeur
+    element: Feu
+    dynamique: >
+      Excès de Feu agite le Chen — l'esprit ne se pose plus.
+      Pas la joie saine mais l'excitation chronique.
+    statut: confirme_PVII_t1_base
+
+  rumination_souci_obsession_surmenage:
+    organe: Rate
+    element: Terre
+    dynamique: >
+      Le Yi (intellect de la Rate) tourne en rond.
+      Surmenage mental vide le Yin de la Rate.
+    statut: confirme_PVII_t1_base
+
+  tristesse_deuil_melancolie_nostalgie:
+    organe: Poumon
+    element: Metal
+    dynamique: >
+      Le Po (instinct du Poumon) se retire.
+      Le Qi du Poumon s'effondre vers le bas.
+    statut: confirme_PVII_t1_base
+
+  peur_anxiete_manque_volonte_isolement:
+    organe: Rein
+    element: Eau
+    dynamique: >
+      Le Zhi (volonté du Rein) est ébranlé.
+      Vide du Rein = peur sans objet, anxiété profonde.
+    statut: confirme_PVII_t1_base
+
+# ─────────────────────────────────────────────────
+# CORRESPONDANCES CHOCS → NIVEAUX ATTEINTS
+# ─────────────────────────────────────────────────
+
+correspondances_chocs_niveaux:
+  # À enrichir modules P XI Psychisme et P VI Tsang-Fou
+
+  choc_emotionnel_aigu:
+    atteinte_probable:
+      - stagnation_qi_foie
+      - vide_qi_coeur
+    signes_associes:
+      - symptômes apparus brutalement après l'événement
+      - localisation thoracique ou épigastrique
+    statut: a_confirmer_PXI
+
+  choc_affectif_chronique:
+    atteinte_probable:
+      - vide_qi_rate
+      - vide_yin_poumon
+    signes_associes:
+      - installation progressive sur des mois ou années
+      - fatigue, ruminations, tristesse de fond
+    statut: a_confirmer_PXI
+
+  traumatisme_peur_intense:
+    atteinte_probable:
+      - vide_ancestrale
+      - vide_yang_rein
+      - vide_zhi
+    signes_associes:
+      - peur chronique installée depuis l'événement
+      - problèmes lombaires, urinaires, sexuels
+      - sentiment de ne plus avoir de ressources profondes
+    statut: a_confirmer_PXI
+
+  surmenage_intellectuel_chronique:
+    atteinte_probable:
+      - vide_yin_rate
+      - vide_sang_coeur
+    signes_associes:
+      - ruminations, mémoire défaillante
+      - insomnie par excès de pensées
+      - digestion perturbée
+    statut: a_confirmer_PXI
+
+  exces_sexuels:
+    atteinte_probable:
+      - vide_jing_rein
+      - vide_ancestrale
+    signes_associes:
+      - fatigue profonde
+      - lombalgie
+      - troubles de la reproduction
+    statut: a_confirmer_PXI
+
+  deuil_non_fait:
+    atteinte_probable:
+      - vide_qi_poumon
+      - stagnation_qi_foie
+    signes_associes:
+      - tristesse enkystée
+      - problèmes respiratoires
+      - peau et défenses immunitaires affectées
+    statut: a_confirmer_PXI
+
+# ─────────────────────────────────────────────────
+# SIGNES DOMINANTS → GRILLE PRIORITAIRE
+# ─────────────────────────────────────────────────
+
+signes_vers_grilles:
+  # Règle : quel signe oriente vers quelle grille en premier
+  # À enrichir à chaque module
+
+  pouls_tendu:
+    grille_prioritaire: cinq_elements
+    orientation: Foie_Bois_en_premier
+    source: CP3-t1-p9
+
+  pouls_profond_vide:
+    grille_prioritaire: constitutionnel
+    orientation: Rein_Ancestrale_en_premier
+    source: CP3-t1-p10
+
+  pouls_rapide_vide:
+    grille_prioritaire: zang_fu
+    orientation: vide_Yin_avec_chaleur_vide
+    source: CP3-t1-p9
+
+  symptome_suit_horaire_precis:
+    grille_prioritaire: meridiens
+    orientation: cycle_Iong_heure_par_heure
+    source: CP3-t1-p19
+
+  lateralite_droite_gauche_marquee:
+    grille_prioritaire: merveilleux_vaisseaux
+    orientation: Yang_TM_ou_Yin_TM
+    source: CP3-t1-p62
+
+  symptome_peau_surface_tendons:
+    grille_prioritaire: grands_meridiens_TK
+    orientation: energie_Oe_et_TK
+    source: CP3-t1-p16
+
+  trouble_depuis_enfance_ou_naissance:
+    grille_prioritaire: constitutionnel
+    orientation: Ancestrale_Rein_Tchrong_Mo
+    source: CP3-t1-p56
+
+  symptome_apparu_apres_choc_emotionnel:
+    grille_prioritaire: cinq_elements
+    orientation: emotion_dominant_vers_organe
+    source: confirme_PVII_t2
+
+  symptome_lie_saison_ou_climat:
+    grille_prioritaire: cinq_elements_loi_unitaire
+    orientation: >
+      Identifier quel élément et organe sont en cause
+      par la saison et le climat associés.
+      Questionnaire capital : remonter loin dans le temps.
+    source: PVII-t2-p38_41
+
+  printemps_rate_annee_pathologique:
+    grille_prioritaire: cinq_elements
+    orientation: >
+      Si le printemps a été raté (climat insuffisant
+      ou pervers), toutes les énergies tsing restent
+      déficientes toute l'année. Foie = starter.
+      Compenser en attendant le printemps suivant.
+    source: PVII-t2-p40_41
+
+  rechute_cyclique_apres_traitement_reussi:
+    grille_prioritaire: merveilleux_vaisseaux
+    orientation: MV_en_cause
+    source: CP3-t1-p59
+
+  symptome_aggrave_par_climat:
+    grille_prioritaire: grands_meridiens
+    orientation: organisme_prealablement_sature
+    source: CP3-t1-p26
+
+  diffus_plusieurs_zones_corps:
+    grille_prioritaire: trois_foyers
+    orientation: identifier_foyer_dominant
+    source: CP3-t1-p35
+
+# ─────────────────────────────────────────────────
+# ZONES DIAGNOSTIQUES PÉRIPHÉRIQUES
+# ─────────────────────────────────────────────────
+
+zones_diagnostiques_peripheriques:
+  # Source : PVI-t1 — Bollet
+  # Chaque Tsang se manifeste à la périphérie
+  # dans sa zone de distribution fonctionnelle
+
+  principe: >
+    Chaque Tsang a une zone périphérique d'expression
+    où son état se lit directement. Ces zones sont les
+    premières à exprimer le vide ou la plénitude du Tsang
+    correspondant, avant que le symptôme interne n'apparaisse.
+
+  rein:
+    zone: pied_et_mollet
+    signe_vide: froid_des_pieds_faiblesse_mollets_chevilles_fragiles
+    signe_plenitude: oedemes_distaux_chaleur_pieds_nuit
+
+  rate:
+    zone: genou_et_cuisse
+    signe_vide: faiblesse_genoux_muscles_cuisses_flasques
+    signe_plenitude: lourdeur_genou_liquide_articulaire
+
+  foie:
+    zone: hanche_et_flanc
+    signe_vide: manque_souplesse_hanches_raideur_flancs
+    signe_plenitude: tension_hanches_douleur_flanc_hypocondre
+
+  poumon_et_coeur:
+    zone: coude_et_avant_bras
+    signe_vide: faiblesse_avant_bras_essoufflement_effort
+    signe_plenitude: tension_avant_bras_coude_douloureux_chaleur
+
+  application_clinique: >
+    En anamnèse : toujours interroger ces zones.
+    En palpation : évaluer leur tonus, température, souplesse.
+    Ces zones confirment ou infirment le diagnostic d'organe.
+
+  source: PVI-t1
+
+# ─────────────────────────────────────────────────
+# SEGMENTS CORPORELS — CIEL / INTERMÉDIAIRE / TERRE
+# ─────────────────────────────────────────────────
+
+segments_corporels:
+  # Source : PVI-t1 — Bollet
+  # Lecture du corps en trois étages verticaux
+
+  ciel:
+    zone: tete_et_cou
+    correspondance: Yang_pur_energie_montante_spirituelle
+    fonctions: shen_mental_psychique_orifices_sens
+    pathologie_dominante: exces_yang_montee_feu_confusion
+
+  intermediaire:
+    zone: thorax_et_abdomen
+    correspondance: equilibre_Yin_Yang
+    fonctions: regulation_echanges_tsang_fou_foyers
+    pathologie_dominante: desequilibres_fonctionnels_organiques
+
+  terre:
+    zone: bassin_membres_inferieurs
+    correspondance: Yin_pur_enracinement_ancestral
+    fonctions: constitution_sexualite_locomotion_ancrage
+    pathologie_dominante: vide_ancestral_froid_lourdeur
+
+  regle_traitement: >
+    Pathologie du Ciel → traiter par les membres supérieurs
+    Pathologie de l'Intermédiaire → traiter par les membres
+    Pathologie de la Terre → traiter par les membres inférieurs
+    Règle générale : traiter le niveau opposé pour créer
+    un mouvement compensateur (haut ↔ bas)
+
+  source: PVI-t1
+
+# ─────────────────────────────────────────────────
+# CLASSIFICATION YIN/YANG DES TSANG
+# ─────────────────────────────────────────────────
+
+classification_yin_yang_tsang:
+  # Source : PVI-t1 — Bollet
+  # Les Tsang ont une nature Yin mais certains
+  # sont plus Yang que d'autres dans leur fonctionnement
+
+  tsang_les_plus_yin:
+    - Rein: stockage_ancestrale_froid_profond
+    - Poumon: descente_pure_liquidites_peau
+
+  tsang_intermediaires:
+    - Rate: transformation_humidite_centre
+    - Foie: circulation_stagnation_lateralite
+
+  tsang_le_plus_yang_parmi_les_yin:
+    - Coeur: feu_chen_gouvernement_chaleur
+
+  application_clinique: >
+    Un vide de Rein est plus profond et plus lent à traiter
+    qu'un vide de Foie. Un vide de Cœur touche rapidement
+    le Chen (niveau psychique). Cette hiérarchie guide la
+    profondeur et la durée du traitement attendu.
+
+  source: PVI-t1
+
+# ─────────────────────────────────────────────────
+# ESPACE-TEMPS-RYTHME — PVII t1
+# ─────────────────────────────────────────────────
+
+espace_temps_rythme:
+  # Source : PVII-t1 So Ouen ch.66
+
+  trois_criteres_fondamentaux:
+    espace: Yin_mesure_selon_orients
+    temps: Yang_deroule_selon_saisons
+    rythme: Yang_synthese_des_deux
+  proportion: 2_Yang_pour_1_Yin
+  regle: >
+    Ces trois critères sont les règles de circulation
+    de toutes les énergies, la référence de la vie cellulaire.
+
+  regle_clinique_axe:
+    montee_descente: lois_Yin_Yang_axe_vertical
+    entree_sortie_adaptation: lois_5_Elements_plan_horizontal
+    ne_jamais_confondre: >
+      Traiter un problème de montée/descente par les 5E
+      ou un problème d'adaptation par le Yin/Yang pur
+      = erreur de grille.
+
+  deregulation_spatio_temporelle:
+    observation: >
+      Les organismes modernes perdent leurs références
+      d'espace, de temps et de rythme. Se pencher sur
+      cette dérégulation dans les maladies graves.
+    prescription_simple: >
+      1 heure/jour dehors par tous les temps = vertu
+      thérapeutique remarquable (dépressions notamment).
+
+  deplacement_et_Rate:
+    cercle_centre: 100_km_de_diametre
+    au_dela: 5_jours_adaptation_Rate
+    changement_fuseau: Rate_plus_Rein
+    changement_hemisphere: tout_organisme
+
+  source: PVII-t1-p25_27_43
+
+# ─────────────────────────────────────────────────
+# NATURE ET FONCTION — PVII t2
+# ─────────────────────────────────────────────────
+
+nature_et_fonction:
+  principe: >
+    En toute chose en énergétique, toujours distinguer
+    la NATURE (état) et la FONCTION (mouvement).
+  Yin:
+    nature: lourd_dense_descend
+    fonction: dynamise_par_Yang_monte
+  Yang:
+    nature: leger_subtil_monte
+    fonction: vient_dynamiser_Yin_descend
+  application_Ciel_Terre:
+    Yang_du_Ciel_et_Yin_de_la_Terre: nature_etat
+    Yin_du_Ciel_et_Yang_de_la_Terre: fonction_mouvement
+  source: PVII-t2-p58
+
+# ─────────────────────────────────────────────────
+# CLARTÉ DU CIEL ET IMPACT SUR L'HOMME — PVII t2
+# ─────────────────────────────────────────────────
+
+clarte_du_ciel:
+  observation_clinique: >
+    Observer l'état du Ciel pour déduire le mouvement
+    des énergies dans l'Homme : relations psychisme-
+    sentiments-organes, moteur des actes.
+  ciel_limpide: >
+    Énergie légère, monte. Idées claires. Compréhension
+    naturelle. Vie harmonieuse.
+  ciel_obscurci: >
+    Pensée obscurcie, sentiments confus. Yin trop dense
+    monté trop haut. Sang stagne en bas.
+  ATTENTION_exces_limpidite: >
+    Trop de limpidité = exaltation sans contrôle,
+    peut conduire au délire. Les drogues font pareil.
+  impact_Homme:
+    Yang_du_Ciel: energies_tete_Esprit
+    Yin_du_Ciel: pensee_interagit_sentiments_actes
+    Yang_de_la_Terre: sentiments_montent_moduler_pensee
+    Yin_de_la_Terre: tissus_organes_carburant
+  source: PVII-t2-p58_61
+
+# ─────────────────────────────────────────────────
+# SAISON vs CLIMAT — PVII t2
+# ─────────────────────────────────────────────────
+
+distinction_saison_climat:
+  saison: periode_precise_solstices_equinoxes
+  climat: temps_qu_il_fait_au_cours_d_une_saison
+  regle: >
+    "Bien dissocier le temps qui passe du temps qu'il fait."
+    La végétation suit la saison quel que soit le climat.
+    Mais chaque énergie en excès peut tuer, et en
+    insuffisance aussi.
+  source: PVII-t2-p56
+
+# ─────────────────────────────────────────────────
+# KO ÉMOTIONNELS — SO OUEN CHAP.5 — PVII t3
+# ─────────────────────────────────────────────────
+
+ko_emotionnels_so_ouen:
+  # Source : PVII-t3 So Ouen chap.5
+  # Le cycle Ko (domination) s'applique aux émotions :
+  # une émotion peut être contrée par l'émotion
+  # de l'élément qui la domine.
+
+  principe: >
+    Chaque émotion a une émotion dominante qui peut la
+    neutraliser. Ce n'est pas une suppression mais un
+    rééquilibrage par appel à l'énergie dominante.
+    En thérapeutique : stimuler l'élément dominant Ko
+    pour calmer l'émotion en excès.
+
+  tableau_ko_emotionnels:
+    colere_Bois:
+      emotion: colere_frustration_irritabilite
+      organe: Foie
+      domine_par: chagrin_Metal_Poumon
+      application: >
+        Un excès de colère (Bois) est dominé par le
+        Métal (Poumon). Appel aux valeurs de justice,
+        rigueur, bilan. Technique : travailler le
+        deuil et l'acceptation.
+    joie_Feu:
+      emotion: joie_excessive_agitation_Chen
+      organe: Coeur
+      domine_par: peur_Eau_Rein
+      application: >
+        L'excès de Feu (agitation, excitation) est
+        dominé par l'Eau (Rein). Appel à la prudence,
+        à la concentration, au recueillement.
+    rumination_Terre:
+      emotion: meditation_souci_obsession
+      organe: Rate
+      domine_par: colere_Bois_Foie
+      application: >
+        La pensée circulaire (Terre) est dominée par
+        le Bois (Foie). Appel à la décision, au
+        mouvement, à la créativité. Sortir de la
+        rumination par l'action.
+    anxiete_Metal:
+      emotion: anxiete_tristesse_melancolie
+      organe: Poumon
+      domine_par: joie_Feu_Coeur
+      application: >
+        L'anxiété et la tristesse (Métal) sont dominées
+        par le Feu (Cœur). Appel à la chaleur humaine,
+        à la relation, à la joie partagée. Technique :
+        travailler le lien social et l'enthousiasme.
+    peur_Eau:
+      emotion: peur_manque_volonte_isolement
+      organe: Rein
+      domine_par: pensee_Terre_Rate
+      application: >
+        La peur (Eau) est dominée par la Terre (Rate).
+        Appel à la réflexion posée, à la mémoire, à la
+        confiance dans le cycle. Ancrage dans le présent
+        et la sécurité de l'environnement immédiat.
+
+  regle_clinique_ko_emotionnel: >
+    RÈGLE : le Ko émotionnel est une entrée thérapeutique
+    par le psychisme. Ne remplace pas le traitement de
+    l'organe mais l'accompagne obligatoirement dans les
+    cas chroniques. Aborder l'émotion dominante en
+    consultation = levier de transformation durable.
+
+  source: PVII-t3-p10_44
+
+# ─────────────────────────────────────────────────
+# CALENDRIER XIA — PRINCIPE MÉDICAL — PVII t3
+# ─────────────────────────────────────────────────
+
+calendrier_xia_clinique:
+  # Source : PVII-t3 Calendrier des Xia (Prescriptions Mensuelles)
+  # Principe : contrarier le souffle saisonnier =
+  # blesser l'organe correspondant ET préparer la
+  # maladie de la saison suivante (loi Tcheng, le fils)
+
+  regle_fondamentale: >
+    "Ne pas contrarier le souffle de la saison
+    c'est respecter le cycle de vie des organes."
+    Chaque saison a un thème de vie (action conforme).
+    Vivre à contre-courant de ce thème blesse l'organe
+    de la saison ET fragilise l'organe de la saison
+    suivante (lien Mère-Fils du cycle Tcheng).
+
+  tableau_preventif_saisonnier:
+    printemps:
+      theme: jaillir_et_developper
+      action_conforme: >
+        Expansion, projets, mouvement, lever tôt,
+        marcher, laisser naître. Ne pas freiner.
+      contrarier_veut_dire: >
+        Rester statique, ne pas sortir, supprimer les
+        projets, vivre dans la contraction.
+      organe_blesse: Foie
+      risque_saison_suivante: maladie_Feu_Coeur_ete
+      signe_alerte: >
+        Signes de Foie atteint en fin de printemps :
+        prévoir renforcement du Cœur pour l'été.
+
+    ete:
+      theme: gravir_et_contempler
+      action_conforme: >
+        Expansion maximale, communication, chaleur
+        relationnelle, joie, activité physique.
+      contrarier_veut_dire: >
+        Isolement, tristesse, évitement de la chaleur,
+        excès de climatisation, manque de relation.
+      organe_blesse: Coeur
+      risque_saison_suivante: fievre_froid_automne_hiver
+      signe_alerte: >
+        Coeur affaibli en été → automne et hiver
+        avec fièvres et syndromes de froid précoces.
+
+    automne:
+      theme: construire_et_egaliser
+      action_conforme: >
+        Bilan, récolte, rigueur, organisation, rangement.
+        Activité régulière, respiration, marche au frais.
+      contrarier_veut_dire: >
+        Dispersion, excès de sorties nocturnes, négliger
+        la respiration et la qualité de l'air.
+      organe_blesse: Poumon
+      risque_saison_suivante: douleurs_froid_hiver
+      signe_alerte: >
+        Poumon affaibli en automne → hiver avec douleurs
+        profondes et manque de réserve.
+
+    hiver:
+      theme: maintenir_et_conserver
+      action_conforme: >
+        Repos, recueillement, réserve, coucher tôt,
+        protéger le froid, conserver l'énergie.
+        Bilan de vie, intériorité.
+      contrarier_veut_dire: >
+        Dépenser sans réserve, se coucher tard, s'exposer
+        au froid sans protection, ne pas se reposer.
+      organe_blesse: Rein
+      risque_saison_suivante: epuisement_printemps_Foie
+      signe_alerte: >
+        Rein épuisé en hiver → printemps avec Foie
+        sans ressource, tout le cycle annuel compromis.
+
+  application_anamnese: >
+    En consultation : demander comment le patient
+    a vécu CHAQUE saison des 12 derniers mois.
+    Les saisons mal vécues indiquent les organes
+    atteints et prédisent les risques à venir.
+    C'est une anamnèse temporelle, pas seulement
+    symptomatique.
+
+  source: PVII-t3-p80_96
+
+# ─────────────────────────────────────────────────
+# AXES ÉNERGÉTIQUES — LECTURE POSTURALE — PVII t3
+# ─────────────────────────────────────────────────
+
+axes_energetiques_posturaux:
+  # Source : PVII-t3 — Croix à 6 directions
+  # Les axes physiologiques ont des expressions posturales
+  # diagnostiques directement observables.
+
+  principe: >
+    Les 6 axes énergétiques (6 groupes de méridiens)
+    ont des directions précises. Une perturbation
+    de l'axe se lit sur la posture du patient.
+    C'est une lecture clinique directe sans interrogatoire.
+
+  tableau_axes_posturaux:
+    Yang_Ming_Metal:
+      direction: descend
+      meridiens: [GI, E]
+      pathologie_posturale: >
+        Excès : rigidité verticale, raideur cervicale.
+        Vide : effondrement, épaules tombantes, tête en avant.
+      clinique: >
+        Scolioses latérales en cause possible.
+        Axe le plus régulier (équilibré sang/énergie).
+
+    Tae_Yin_Terre:
+      direction: monte
+      meridiens: [Rate, Poumon]
+      pathologie_posturale: >
+        Vide : affaissement du centre, ventre proéminent.
+        Excès : tension thoracique, poitrine gonflée.
+
+    Tae_Yang_Eau:
+      direction: arriere_vers_avant
+      meridiens: [V, IG]
+      pathologie_posturale: >
+        Déséquilibre : hyperlordose ou cyphose.
+        Axe sanguin précurseur du Yang.
+      clinique: cypho_lordoses_premier_axe_a_evaluer
+
+    Chao_Yin_Feu:
+      direction: avant_vers_arriere
+      meridiens: [C, R]
+      pathologie_posturale: >
+        Déséquilibre : troubles de l'axe antéro-postérieur.
+        Cœur/Rein déséquilibré = cypho-lordoses compensatrices.
+
+    Chao_Yang_Bois_Feu:
+      direction: gauche_vers_droite
+      meridiens: [VB, TR]
+      pathologie_posturale: >
+        Déséquilibre : scolioses latérales.
+        Stagnation en haut si dysfonctionnel : migraines.
+      clinique: >
+        Chao Yang plus énergétique, interdépendant du
+        Tsiué Yin. Scolioses à évaluer avec cet axe en premier.
+
+    Tsue_Yin_Bois:
+      direction: droite_vers_gauche
+      meridiens: [Foie, MC]
+      pathologie_posturale: >
+        Déséquilibre : scolioses inversées par rapport
+        au Chao Yang.
+      clinique: >
+        Tsiué Yin = axe Ciel-Terre (le plus profond).
+        Double hélice avec Chao Yang = scoliose double courbure.
+
+  double_helice_ADN: >
+    Chao Yang (G→D) + Tsiué Yin (D→G) forment
+    une double hélice analogue à l'ADN.
+    Toute perturbation de ces deux axes = scoliose.
+    Traitement : rétablir l'équilibre des deux sens
+    en même temps, jamais un seul.
+
+  regle_lecture_posturale: >
+    Observer le patient debout AVANT toute question :
+    1. Axe vertical (Yang Ming/Taé Yin)
+    2. Axe antéro-postérieur (Taé Yang/Chao Yin)
+    3. Torsion latérale (Chao Yang/Tsiué Yin)
+    Chaque déformation posturale pointe vers l'axe déséquilibré
+    et donc vers les organes à traiter en priorité.
+
+  source: PVII-t3-p20_44
+
+# ─────────────────────────────────────────────────
+# ÂGE D'OR — PRINCIPE THÉRAPEUTIQUE — PVII t3
+# ─────────────────────────────────────────────────
+
+age_or_principe_therapeutique:
+  # Source : PVII-t3 So Ouen chap.69
+  # L'Âge d'Or comme référence de l'équilibre parfait.
+
+  principe: >
+    Avant la bascule de la Terre (90°→23°), l'axe
+    terrestre était parfaitement vertical. Les énergies
+    circulaient sans distorsion saisonnière. Pas de
+    maladies saisonnières, pas de déséquilibres liés
+    aux excès climatiques.
+
+  implication_clinique: >
+    Le traitement idéal restaure en l'Homme ce que
+    l'Âge d'Or était pour la Terre : un axe parfaitement
+    vertical, Feu en haut (Cœur/Esprit), Eau en bas
+    (Rein/Ancestrale), Terre au centre.
+    Toute pathologie = déviation par rapport à cet axe.
+
+  axes_originels:
+    axe_electrique: Est_Ouest_Bois_Metal
+    axe_magnetique: Nord_Sud_Eau_Feu
+    axe_vertical: Terre_centre_stabilisateur
+    signification: >
+      Ces trois axes sont les repères fondamentaux
+      de toute circulation énergétique. Les retrouver
+      dans le patient = retrouver l'ordre originel.
+
+  application_therapeutique: >
+    Rétablir la verticalité du patient = objectif premier.
+    Psychisme (Cœur/Chen) en haut, ancrage (Rein/Tchi)
+    en bas, transformation (Rate/Yi) au centre.
+    Un patient "penché" n'est pas seulement postural :
+    c'est son axe énergétique qui est dévié.
+
+  source: PVII-t3-p55_60
+
+# ─────────────────────────────────────────────────
+# POINTS SU ANTIQUES — USAGE CLINIQUE — PVII t3
+# ─────────────────────────────────────────────────
+
+points_su_philosophie_clinique:
+  # Source : PVII-t3 pp.10-20
+  # Les Points Su (Antiques) agissent sur les QUALITÉS
+  # énergétiques, pas sur les quantités.
+
+  principe_fondamental: >
+    Les Points Su n'agissent PAS sur la quantité d'énergie
+    (vide/plénitude) mais sur sa QUALITÉ (nature, mouvement,
+    direction). Confondre les deux = traitement inefficace
+    ou iatrogène.
+
+  tableau_usages:
+    Ting_Bois:
+      nature: puits_source_jaillit
+      usage: >
+        Point de départ, jaillissement, mouvement
+        initial. Urgences, pertes de connaissance,
+        déclenchement des cycles. Très puissant = réservé
+        aux urgences ou usage très ciblé.
+      localisation_Yin: ongle_extremite_membre
+      exception: 1R_sous_voute_plantaire
+
+    Iong_Feu:
+      nature: ruisseau_commence_a_couler
+      usage: >
+        Chaleur-froid superficiels, fièvres début,
+        tempérament du méridien. Agit sur la THERMORÉGULATION
+        du méridien concerné.
+      clinique: >
+        Premier point à évaluer pour toute pathologie
+        thermique d'un méridien.
+
+    Iu_Terre:
+      nature: riviere_porte_perversites
+      usage: >
+        Porte d'entrée des perversités climatiques
+        (vent, froid, humidité, chaleur...).
+        Point stratégique en pathologie climatique.
+        Aussi : douleurs articulaires et lourdeurs.
+      regle: >
+        Toute agression climatique = traiter le Iu du
+        méridien concerné en priorité.
+
+    Iuann_surnumeraire_Yang:
+      nature: code_barre_identite_meridien
+      usage: >
+        Point source Yang uniquement. Contient l'identité
+        propre du méridien. Permet de "reconnaître" le
+        méridien et de le recalibrer.
+        66 énergies différentes se mélangent dans le iong.
+      clinique: >
+        Iuann = traiter quand l'identité du méridien
+        est perdue (pathologie confuse, diagnostic incertain).
+
+    King_Metal:
+      nature: fleuve_energie_defensive
+      usage: >
+        Energie défensive (Oé) du méridien. Toux,
+        frissons, défense de surface. Aussi : voix
+        et parole (Metal = son, communication).
+      clinique: >
+        Point King des Yin = élément Métal = mobilise Oé.
+        9P (King du Poumon) = Maître des artères.
+
+    Ro_Eau:
+      nature: mer_communication_interne_externe
+      usage: >
+        Porte entre le méridien principal et le réseau
+        interne profond. Pathologies oscillantes,
+        alternances. Communication organe-surface.
+      clinique: >
+        4 Ro = 4 barrières majeures de communication.
+        Ro en excès = blocage interne-externe.
+        Ro en vide = fuite entre les deux niveaux.
+
+  regle_globale_points_su: >
+    Avant de choisir un Point Su, déterminer :
+    1. Quel aspect de la QUALITÉ est perturbé ?
+    (thermorégulation → Iong / perversité → Iu /
+    défense → King / communication → Ro / identité → Iuann)
+    2. Quel méridien est concerné ?
+    3. Yin ou Yang ? (Yin = 5 points / Yang = 6 points)
+    Ne jamais utiliser les Points Su comme des points
+    de "renforcement quantitatif" — c'est une erreur
+    de paradigme fondamentale.
+
+  source: PVII-t3-p10_20
+
+# ══════════════════════════════════════════════════════════
+# PRINCIPES PHILOSOPHIQUES PVII TOME 4 — PATHOLOGIES 5E
+# Source : PVII 5 Éléments tome 4, pp. 8-91
+# ══════════════════════════════════════════════════════════
+
+philosophie_pathologie_5E:
+
+  trois_niveaux_homme:
+    principe: >
+      L'Homme se structure en 3 niveaux indissociables :
+      organique (corps physique), affectif (sentiments/émotions),
+      psychique (activités mentales/spirituelles).
+      Toute pathologie les touche simultanément.
+      Les Points Su agissent sur les 3 niveaux à la fois —
+      c'est une erreur de traiter un seul niveau isolément.
+    implication_clinique: >
+      Un traitement uniquement symptomatique (organique)
+      sans considérer l'état affectif et psychique du patient
+      ne peut pas aboutir à une guérison véritable.
+    source: PVII-t4-p8_12
+
+  morphotype_precede_tout:
+    principe: >
+      Avant tout bilan énergétique, identifier le morphotype
+      (prédominance constitutionnelle d'un des 5 éléments).
+      Le morphotype colore toute la pathologie : un même
+      symptôme n'a pas la même signification chez un Bois
+      et chez un Métal. L'erreur fondamentale est de traiter
+      des symptômes sans connaître le terrain du patient.
+    source: PVII-t4-p8_12
+
+  ne_jamais_disperser_sentiment:
+    principe: >
+      So Ouen : ne jamais disperser un sentiment en excès
+      directement. Le sentiment est l'expression d'un déséquilibre,
+      pas sa cause. Disperser le sentiment = supprimer le signal
+      d'alarme sans traiter le feu.
+    methode: >
+      Renforcer par le point Penn l'élément dominateur
+      (cycle Ko de tempérance) pour que le dominant
+      ramène naturellement l'excès à l'équilibre.
+    exemple: >
+      Colère excessive (Bois) → ne pas disperser le Foie.
+      Renforcer le Métal (8P = Penn Poumon) qui domine
+      naturellement le Bois par le cycle Ko.
+    source: PVII-t4-p56_58
+
+  huit_activites_et_unite:
+    principe: >
+      Les 8 activités psychiques du Ling Tchrou (Chen, Roun,
+      I, Si, Pro, Lü, Tche, Zhi) ne sont pas des entités
+      séparées mais des facettes d'une même conscience
+      répartie dans les 5 éléments. Le Chen du Coeur
+      est le souverain qui unifie les 7 autres.
+    implication: >
+      Un trouble psychique n'est jamais isolé à un seul
+      élément — il résonne dans tout le système.
+      Le thérapeute doit chercher quel élément
+      a perdu le lien avec le Chen souverain.
+    source: PVII-t4-p55_58
+
+  gravite_vitale_trois_elements:
+    principe: >
+      Feu, Métal et Eau sont les 3 éléments à fonction
+      vitale immédiate. Vide profond de l'un d'eux engage
+      le pronostic vital. Rein + Rate vides simultanément
+      = épuisement de l'énergie ancestrale, signe de
+      gravité maximale.
+    prudence: >
+      Le praticien ne doit jamais disperser ces éléments
+      quand ils sont en vide. Toujours vérifier l'état
+      du Rein Yang (Ming Menn) comme source de tout Yang.
+    source: PVII-t4-p72_76
+
+  corps_comme_paysage:
+    principe: >
+      La palpation abdominale révèle le paysage intérieur
+      du patient. Le ventre est une carte des 5 éléments.
+      Chaque tension, chaque douleur, chaque température
+      raconte l'histoire énergétique du patient.
+    implication: >
+      Le diagnostic par la palpation n'est pas un examen
+      complémentaire mais un dialogue direct avec
+      l'énergie du patient. Il confirme ou infirme
+      l'interrogatoire et les pouls.
+    source: PVII-t4-p71_76
+
+  dix_principes_traitement:
+    resume: >
+      Les 10 principes de traitement par les 5E constituent
+      la synthèse opérationnelle de tout l'enseignement.
+      Ils intègrent Tcheng, Ko, Raé, Mère-Fils, Penn,
+      palpation, interrogatoire et pouls en un système
+      cohérent. Le praticien les applique dans l'ordre
+      pour construire son traitement.
+    philosophie: >
+      Le traitement n'est pas une recette mais un raisonnement.
+      Chaque principe éclaire un aspect du déséquilibre.
+      La maîtrise vient de la capacité à articuler
+      ces principes face à la complexité du vivant.
+    source: PVII-t4-p80_81
+
+  Kan_Che_et_temporalite:
+    principe: >
+      Le système Kan/Che introduit la dimension temporelle
+      dans le traitement. Le même déséquilibre traité au bon
+      moment (période favorable) ou au mauvais moment
+      (période défavorable) n'aura pas le même résultat.
+    implication: >
+      Le praticien avancé intègre les prévisions Kan/Che
+      dans sa stratégie thérapeutique : anticiper les périodes
+      de vulnérabilité, renforcer préventivement, choisir
+      le moment optimal pour les traitements lourds.
+    source: PVII-t4-p82_91
+
+  spirales_et_alchimie:
+    principe: >
+      La double spirale (ascendante Eau→Bois→Feu,
+      descendante Feu→Métal→Eau) est le mouvement
+      fondamental de la vie : la matière s'élève vers
+      l'esprit, l'esprit se densifie dans la matière.
+      La Terre est le pivot central des deux spirales.
+    implication: >
+      Un blocage dans une spirale se compense dans l'autre.
+      Ex : Métal bloqué (descente) → le Yang reste en haut
+      (hypertension, céphalées). Activer la spirale descendante
+      par le Métal débloque le circuit complet.
+    source: PVII-t4-p60_62
+
+# =============================================================================
+# PHILOSOPHIE DES TSANG/FOU — SÉMINAIRE CLM (PVI t3)
+# =============================================================================
+
+philosophie_tsang_fou_seminaire:
+  man_shi_et_decret_celeste:
+    principe: >
+      MAN (plénitude des Zang) est une plénitude céleste. Les Zang représentent
+      la part céleste dans l'Homme — les énergies héréditaires, la génétique, le
+      programme de développement depuis la cellule originelle. SHI (plénitude des Fu)
+      est la fructification des promesses de la cosmogénétique. Les 5 Zang et 6 Fu
+      sont là "par décret céleste".
+    implication: >
+      En clinique, atteindre un Zang est plus grave qu'atteindre un Fu, car on
+      touche à la programmation céleste de l'être. La distinction MAN/SHI guide
+      le pronostic : MAN toujours présente = le Zang garde ses potentialités
+      même affaibli ; SHI alternante = le Fu peut être relancé par son cycle naturel.
+    source: PVI-t3-p15_29
+
+  bande_de_moebius_et_retournement:
+    principe: >
+      La pensée orientale est dans le retournement incessant des valeurs (bande de
+      Moebius), pas dans le raisonnement binaire ou/ou occidental. BIAO/LI est un
+      échange, pas une séparation. Les Fu regardent vers le monde extérieur tandis
+      que les Zang sont en rapport avec l'interne, mais dans un autre regard les
+      Zang aussi ont des caractéristiques célestes.
+    implication: >
+      Le praticien ne doit jamais rester dans une vision binaire des déséquilibres.
+      Un même symptôme peut venir de l'interne comme de l'externe, et le retournement
+      des valeurs fait que le traitement doit toujours considérer les deux faces.
+    source: PVI-t3-p9_10
+
+  homme_transformateur_energie:
+    principe: >
+      L'Homme est un transformateur d'énergie en autogestion, avec un processus de
+      génération et de régénération. Il y a toujours dans les Traditions l'idée d'un
+      nouvel Homme en construction dans l'ancien (papillon, cocon, chrysalide, chenille).
+      L'individu est traversé par deux grands flux (entrant/sortant), lieu de passage
+      constant et de constant retournement des valeurs.
+    implication: >
+      La thérapeutique ne "répare" pas une machine mais aide un processus de
+      transformation qui est dans la nature même de la vie. Le praticien accompagne
+      cette alchimie plutôt que de la forcer.
+    source: PVI-t3-p10
+
+  saveurs_texture_pas_gout:
+    principe: >
+      Les 5 saveurs ne sont pas un goût dans la bouche. C'est, selon 5 modalités,
+      la façon dont on va prendre à l'extérieur, par l'alimentation, ce qui nous
+      constitue. Chaque saveur reconstitue les parties génétiquement sous la
+      dépendance d'un des 5 Zang. Le F se forme sur la texture de la saveur acide.
+    implication: >
+      La diététique chinoise n'est pas une question de sensation gustative mais
+      de reconstitution tissulaire. "Texture" au sens dynamique, pas matériel.
+      Corrélation avec le terrain, pas seulement avec le goût.
+    source: PVI-t3-p36
+
+  orifices_communication_bidirectionnelle:
+    principe: >
+      Un orifice est un moyen par lequel l'intérieur du corps ou de la personnalité
+      est en communication avec ce qui lui est extérieur. Fonction de relation.
+      L'oreille reçoit (réceptrice) et l'œil émet (émetteur). "Trou" est plus le
+      lieu de passage des énergies (distinction orifice/trou).
+    implication: >
+      En clinique, un trouble sensoriel informe dans les deux sens : l'état de l'organe
+      se lit dans l'orifice, et ce qui entre par l'orifice affecte l'organe.
+      Exemple : le R et l'oreille — les sons affectent le R, le vide du R se lit
+      dans l'audition.
+    source: PVI-t3-p33_74
+
+  diarrhees_six_mecanismes:
+    principe: >
+      Les diarrhées sont un exemple paradigmatique de la finesse diagnostique :
+      6 tableaux différents pour un même symptôme, chacun avec un mécanisme
+      pathogénique distinct et un traitement spécifique. Le froid, la chaleur,
+      l'humidité, l'alimentation, les cycles (Bois/Terre), et Ming Men.
+    implication: >
+      Un même symptôme n'a JAMAIS un traitement unique. Le diagnostic différentiel
+      par les mécanismes (et non par les symptômes seuls) est la clé de la MTC.
+      Exemple : diarrhées au petit matin = Yang de Ming Men qui décroît, pas
+      un problème intestinal.
+    source: PVI-t3-p42_46
+
+  surdites_psychisme_et_organes_sens:
+    principe: >
+      Les surdités montrent comment sentiments et organes sont intriqués.
+      "Fermeture des Souffles" par violentes colères ou peur soudaine peut causer
+      une surdité brusque. Les 7 sentiments se répercutent sur le fonctionnement
+      du Zang et créent un contre-courant des Souffles.
+    implication: >
+      En clinique, toujours interroger la dimension émotionnelle d'un trouble
+      sensoriel. Une surdité brusque après un choc émotionnel ne se traite pas
+      comme un vide des R qui se dégrade lentement.
+    source: PVI-t3-p83
+
+  clarifier_feu_du_vide:
+    principe: >
+      Le "Feu du vide" (insuffisance Yin des R → montée du Yang) se traite en
+      agissant sur le "fils" (F) pour soigner la cause (R). On tonifie le Yin du F
+      pour rétablir l'équilibre. "Clarifier" ce Feu c'est le refroidir — même
+      caractère pour les deux opérations en chinois.
+    implication: >
+      Principe thérapeutique majeur : ne pas disperser directement le Yang en
+      excès apparent quand la cause est un vide de Yin. Tonifier le fils pour
+      nourrir la mère. Applications nombreuses : bourdonnements, hypertension,
+      inflammations chroniques.
+    source: PVI-t3-p82
+
+# ─── Principes ajoutés PVI EEA t1 (séminaire CLM déc. 1981) ──────
+
+philosophie_energies_hereditaires:
+
+  ideogrammes_maitres:
+    principe: >
+      « Les idéogrammes sont les maîtres de notre conduite pédagogique.
+      C'est à partir d'eux qu'on définit le champ de l'explication. »
+      (Schatz). Chaque idéogramme a un champ spécifique qui ne peut
+      PAS empiéter sur celui d'un autre mécanisme. Si on empiète, on
+      commet une erreur d'interprétation.
+    implication: >
+      Ne jamais traduire un terme chinois par un seul mot français
+      figé. Toujours vérifier l'idéogramme d'origine. Un Zang du Foie
+      n'est PAS l'organe foie ni la fonction hépatique — c'est un
+      autre ensemble de paramètres.
+    source: PVI-EEA-t1-p9
+
+  mecanismes_pas_substances:
+    principe: >
+      Yuan Qi, Jing Qi, Zong Qi ne sont PAS des substances mais des
+      MÉCANISMES. On ne peut pas les stratifier en notions immobiles.
+      Tout est mouvement, dynamique des Souffles. Les terminologies
+      sont des mouvements. Les mêmes idéogrammes assemblés de la même
+      façon connotent les mêmes mécanismes — dès qu'il y a un autre
+      idéogramme, ce sont d'autres mécanismes.
+    implication: >
+      Ne jamais traiter une énergie comme un produit qu'on « ajoute »
+      ou « retire ». Traiter le mécanisme, pas la substance. La question
+      n'est pas « combien » mais « comment ça circule ».
+    source: PVI-EEA-t1-p34
+
+  solenoides_pas_cercles:
+    principe: >
+      Les cycles (saisonniers, journaliers, 5E) ne sont PAS des
+      éternels retours (cercles fermés) mais des SPIRALES (solénoïdes)
+      qui ne repassent jamais au même endroit. Il y a toujours une
+      ouverture sur l'irrationnel, l'indicible, le Dao.
+    implication: >
+      En clinique, ne jamais supposer qu'une saison produit exactement
+      les mêmes effets chaque année. Le patient n'est jamais revenu
+      au « même point » — il est sur une spire différente.
+    source: PVI-EEA-t1-p19
+
+  guerison_acte_a_minima:
+    principe: >
+      « La guérison, c'est retrouver sa route par soi-même, le
+      thérapeute étant comme n'existant pas, l'acte thérapeutique
+      très subtil, touchant à travers un acte a minima. Tous les
+      grands techniciens n'emploient que 2 ou 3 aiguilles, peut-être
+      un simple regard, pour corriger un être. » (Schatz)
+    implication: >
+      L'inflation des points est un signe de faiblesse diagnostique.
+      Plus le diagnostic est précis (remontée à l'Unité), moins
+      il faut de points. La qualité de la relation thérapeutique
+      (silence, empathie, sympathie) est aussi déterminante.
+    source: PVI-EEA-t1-p30
+
+  shen_primum_movens:
+    principe: >
+      « Pourquoi est-on malade ? Parce qu'il y a eu une déviation
+      du Shen primitif de notre existence. » Les Shen sont le primum
+      movens de toute pathologie — soit forces internes, soit forces
+      externes, soit leur confrontation.
+    implication: >
+      Le niveau des Shen (5E, points Penn) est le plus puissant
+      car le plus subtil. Traiter au niveau des Shen = agir sur le
+      codage fondamental. Mais exige le diagnostic le plus précis.
+    source: PVI-EEA-t1-p27_30
+
+  cheminement_fait_le_chemin:
+    principe: >
+      « C'est le cheminement qui finit par faire le chemin. Chemin
+      et cheminement sont entièrement dépendants l'un de l'autre.
+      Leur tout, c'est le mouvement, l'échange vital. » (Rochas de
+      la Vallée, à propos des méridiens)
+    implication: >
+      Les méridiens ne sont pas des tubes préformés mais des
+      mécanismes qui s'installent par l'usage. Les Lo ne sont pas
+      des ramifications du méridien principal mais une organisation
+      complémentaire qui se structure à la naissance. Cette vision
+      dynamique vaut aussi pour le patient : ses circuits se sont
+      formés par sa vie, ses habitudes, sa lignée.
+    source: PVI-EEA-t1-p16
+
+  apparence_pas_trompeuse:
+    principe: >
+      « Apparence trompeuse n'est pas une notion chinoise. Les
+      symptômes sont vrais et révèlent le mal, comme les reliefs
+      du terrain révèlent les forces telluriques. Le corps révèle
+      l'individu dans sa profondeur. » (Rochas de la Vallée)
+    implication: >
+      En diagnostic, ne jamais écarter un symptôme comme
+      « trompeur » ou « fonctionnel ». Tout ce qui apparaît
+      est significatif. Le diagnostic terrestre (multiplicité des
+      symptômes) doit être suivi du diagnostic céleste (retrouver
+      l'Unité sous-jacente).
+    source: PVI-EEA-t1-p49
+
+  qualite_du_jing_determine_la_vie:
+    principe: >
+      « La qualité de ce qu'on prend pour fabriquer sa propre
+      vitalité est importante pour la qualité même de ce qu'on est
+      et même pour une survie éventuelle de l'âme. » (Rochas de
+      la Vallée). Le Jing n'est pas seulement alimentation mais
+      aussi conversations, musiques, odeurs, toute la vie.
+    implication: >
+      En conseil de vie (Yang Sheng), la qualité de l'environnement
+      mental et sensoriel compte autant que l'alimentation. Nourrir
+      ses esprits de ce qu'il y a de meilleur = santé et longévité.
+    source: PVI-EEA-t1-p41_47
+
+  # ─── Principes ajoutés session PVI EEA t2 ──────
+
+  ne_pas_confondre_carte_et_territoire:
+    principe: >
+      « Il ne faut pas confondre la carte et le territoire. »
+      (Dr Schatz). Quand on dit que telle énergie se retrouve
+      dans tel organe, ce sont des mécanismes particularisés
+      pour les besoins de l'exposé. Yuan Qi est partout, Jing
+      est partout — la localisation est didactique, pas réelle.
+    implication: >
+      En diagnostic et traitement, ne jamais réduire une énergie
+      à un seul organe. Yuan Qi n'est pas « que » dans les Reins,
+      Yong n'est pas « que » dans les méridiens. Toujours garder
+      la vision globale derrière la description analytique.
+    source: PVI-EEA-t2-p7
+
+  pas_de_barriere_physique_psychique:
+    principe: >
+      « Il n'y a pas tellement de problème de passage entre ce
+      qu'on appelle physique et psychique. Cette barrière n'existe
+      pas en Chine comme en Occident. » (ERDLV). On tire un Jing
+      des odeurs, des sons, de la musique, des conversations.
+    implication: >
+      En traitement, les causes « psychiques » ne sont pas moins
+      réelles que les causes « physiques ». La constipation due
+      aux Souffles (état soucieux) est aussi organique qu'une
+      constipation par chaleur. Pas de hiérarchie physique/psychique.
+    source: PVI-EEA-t2-p19
+
+  douze_charges_fil_unique:
+    principe: >
+      Les 12 charges des viscères (Su Wen ch.8) forment un FIL
+      de la vie qui s'écoule dans une unité absolue. Ce Fil ne
+      peut se rompre sans perdre son intégrité. Aucune charge ne
+      peut défaillir sans que l'ensemble soit atteint.
+      Interdépendance absolue des 12 charges. (ERDLV/Père Larre)
+    implication: >
+      En diagnostic, une défaillance d'un viscère n'est jamais
+      isolée — chercher les répercussions sur l'ensemble du Fil.
+      En traitement, restaurer l'unité du Fil, pas seulement
+      la charge défaillante. « Vaste question ! » (Qi Bo)
+    source: PVI-EEA-t2-p36_37
+
+  hierarchie_celeste_terrestre_humaine:
+    principe: >
+      Dans chaque charge du Su Wen ch.8 : le NOM du Zang = aspect
+      céleste de la vie. La CHARGE = la Terre (charge terrestre).
+      Le RÉSULTAT = la vie humaine (qualité qui en sort). Trois
+      temps : Ciel → Terre → Homme, toujours. (Père Larre)
+    implication: >
+      Quand on traite un organe, on ne traite pas qu'une fonction
+      mais un aspect de la vie entière. Le Cœur n'est pas seulement
+      un organe, c'est d'abord un principe céleste (position 1)
+      qui se charge en Terre et produit une qualité humaine.
+    source: PVI-EEA-t2-p42
+
+  vide_necessaire_au_croisement:
+    principe: >
+      « Comment voulez-vous que le dragon Yin et le dragon Yang
+      puissent se croiser si vous ne leur en laissez pas la place ? »
+      (Père Larre, commentant la bannière de Ma Wang Du). Le vide
+      est nécessaire au passage, au croisement, à la transformation.
+    implication: >
+      En clinique, ne pas chercher à tout remplir. Le vide normal
+      n'est pas une pathologie mais une condition de la vie. Le vide
+      du Cœur (non-agir du Souverain), le vide du Réchauffeur (nom
+      sans forme) sont des conditions nécessaires du fonctionnement.
+    source: PVI-EEA-t2-p33_34
+
+  noeud_yin_yang_banniere:
+    principe: >
+      La vie = nœud Yin/Yang (Père Larre). Le nœud de la question
+      est le sujet perpétuel de l'enseignement. Si on s'acharne
+      vers le nœud sans s'occuper des brins, on tombe dans des
+      explications incohérentes. Si on suit les brins sans voir
+      le nœud, on perd la sécurité de la compréhension.
+    implication: >
+      En diagnostic, toujours identifier les deux « brins » (Yin
+      et Yang de la situation) avant de chercher le nœud pathologique.
+      Les « automatismes mentaux occidentaux » corrigent 95% des
+      représentations chinoises — se méfier de ses propres réflexes.
+    source: PVI-EEA-t2-p32_34
+
+  jin_ye_mecanismes_pas_substances:
+    principe: >
+      Les Jin Yé ne sont pas des substances mais des MÉCANISMES.
+      « Cette énumération n'est pas exhaustive. Ce qu'il faut retenir,
+      c'est qu'elle ne concerne pas des substances mais des mécanismes
+      qui se produisent dans l'intime du corps. » (Dr Schatz)
+    implication: >
+      Ne pas confondre Jin/Yé avec des liquides anatomiques précis.
+      Traiter les mécanismes (production, circulation, élimination),
+      pas les substances. L'image de la rivière (Jin) et du marais
+      (Yé) aide à comprendre les processus, pas les matières.
+    source: PVI-EEA-t2-p19
+
+  constipation_contexte_historique:
+    principe: >
+      « Avant d'entreprendre le traitement d'une constipation,
+      il faut tenir compte de l'histoire du sujet et savoir pourquoi
+      il est constipé. On peut aller jusqu'à regarder ce qui, du point
+      de vue mental, l'a amené à cet état. » (Dr Schatz)
+    implication: >
+      Toute pathologie, même digestive/mécanique, demande un
+      interrogatoire sur le contexte psychique et l'histoire de vie.
+      Le profil soucieux/oppressé/mélancolique est une CAUSE de
+      constipation (tableau des Souffles), pas un facteur secondaire.
+    source: PVI-EEA-t2-p26
+
+# ─────────────────────────────────────────────────
+# PHILOSOPHIE CLINIQUE CP I — PIV YY tomes 4-5
+# ─────────────────────────────────────────────────
+
+philosophie_CP_I:
+
+  tradition_vs_symptomatique:
+    principe: >
+      La médecine chinoise traditionnelle traite le TERRAIN,
+      pas les symptômes. Un traitement symptomatique peut
+      soulager mais ne guérit pas. La tradition exige de
+      remonter à la cause (Yin/Yang → 5E → Vide/Plénitude
+      → Froid/Chaleur) avant de choisir les points.
+    implication: >
+      Le praticien IEATC ne suit jamais une recette de points
+      pour un symptôme. Il reconstruit le raisonnement complet
+      à chaque patient. Même deux migraines identiques en
+      apparence peuvent avoir des traitements diamétralement
+      opposés.
+    source: PIV-YY-t5-p3_5
+
+  ethique_therapeute:
+    principe: >
+      « On n'est pas là pour résoudre les problèmes du
+      monde mais pour aider le patient à trouver sa voie. »
+      Le thérapeute ne doit jamais imposer sa vision ni
+      ses valeurs. Il accompagne, oriente, corrige l'énergie.
+      L'ambition thérapeutique doit rester humble et réaliste.
+    implication: >
+      Ne pas promettre de guérison. Ne pas juger le mode
+      de vie du patient. Respecter le rythme de chacun.
+      Les états dépassés (cancer avancé, dégénérescence)
+      exigent honnêteté: on accompagne, on soulage,
+      on ne prétend pas guérir.
+    source: PIV-YY-t5-p19_21
+
+  apparences_trompeuses_YY:
+    principe: >
+      Le Yang apparent et le Yin apparent sont les pièges
+      les plus fréquents du praticien débutant. Un excès
+      apparent de Yang cache un vide de Yin (et inversement).
+      Traiter l'apparence aggrave systématiquement le patient.
+    detection: >
+      Si un traitement standard (I Sou Jen) n'a aucun effet
+      après 2-3 séances → suspecter un apparent.
+      Vérifier cohérence pouls/symptômes.
+      Le pouls ne ment jamais (il montre le fond, pas l'apparence).
+    implication: >
+      Toujours se poser la question: « Est-ce un vrai Yang
+      ou un Yang qui compense un vide de Yin? » La réponse
+      est dans les pouls, pas dans le questionnaire.
+    source: PIV-YY-t4-p22_24
+
+  blocage_YY_paradoxe:
+    principe: >
+      Quand questionnaire et pouls se contredisent, ce n'est
+      pas une erreur diagnostique: c'est un BLOCAGE. Le corps
+      dit une chose (pouls) et la conscience en dit une autre
+      (questionnaire). Le blocage empêche toute circulation
+      normale et doit être levé en priorité absolue.
+    implication: >
+      Ne JAMAIS commencer un traitement YY ou 5E si un blocage
+      est suspecté. Débloquer d'abord (27TM d + 24JM d),
+      puis reprendre le bilan. Un bilan fait sur un patient
+      bloqué donne des résultats aberrants.
+    source: PIV-YY-t5-p12_15
+
+  rein_yang_fondation:
+    principe: >
+      Le Rein Yang (R+) est la source de tout le Yang de
+      l'organisme. L'Estomac ne peut pas fabriquer de Yang
+      s'il ne reçoit pas l'impulsion du R Yang. En cas de
+      vide de R Yang, le protocole est: TOUJOURS tonifier
+      l'Estomac d'abord (36E t) avant de tonifier le Rein.
+      Sinon le R Yang ne peut pas répondre.
+    implication: >
+      Le vide de R Yang est le vide le plus profond et le
+      plus grave. Il sous-tend de très nombreuses pathologies
+      chroniques. Angines à répétition, frilosité chronique,
+      manque de confiance en soi → penser R Yang en priorité.
+    source: PIV-YY-t5-cas_pratiques
+
+  tendinites_cystites_alerte:
+    principe: >
+      Les tendinites et cystites, malgré tous les signes
+      d'inflammation (chaleur, rougeur, douleur, gonflement),
+      sont PRESQUE TOUJOURS du Yin en médecine chinoise.
+      L'inflammation est une réaction Yang de défense à un
+      terrain Yin (vide, froid sous-jacent).
+    implication: >
+      Ne JAMAIS disperser le Yang dans ces cas. Tonifier
+      le Yin et soutenir le terrain. Cette erreur est la
+      plus fréquente chez les praticiens formés en médecine
+      occidentale qui associent inflammation = Yang = disperser.
+    source: PIV-YY-t5-cas_pratiques
+
+  cafe_chocolat_lune:
+    principe: >
+      Trois notions cliniques majeures issues de CP I:
+      1) Le café au lait BLOQUE systématiquement la VB
+      (le lait tamponne l'acide du café).
+      2) Le chocolat contient théobromine (excitant artériel)
+      qui aggrave migraines VB et palpitations.
+      3) La lune influence le traitement: pleine lune =
+      Yang augmente (attention aux plénitudes).
+    implication: >
+      L'interrogatoire alimentaire est OBLIGATOIRE.
+      Demander systématiquement: café, café au lait,
+      chocolat, alcool. Adapter le rythme des séances
+      au calendrier lunaire quand possible.
+    source: PIV-YY-t5-p18_cas_pratiques
+
+  neuf_cas_un_enseignement:
+    principe: >
+      Les 9 cas pratiques du CP I montrent que le
+      raisonnement clinique est un ART, pas un algorithme.
+      Chaque cas a sa logique propre. L'enseignement clé:
+      le praticien doit développer un FLAIR qui intègre
+      toutes les grilles sans se limiter à aucune.
+    implication: >
+      Le flair praticien se développe par la pratique ET
+      par la connaissance théorique. Sans théorie, le flair
+      est du hasard. Sans flair, la théorie est stérile.
+      CP I est le pont entre les deux.
+    source: PIV-YY-t5-p32_55
+
+  duite_pas_dualite:
+    principe: >
+      Yin et Yang sont dans un rapport de DUITÉ (opposition constructive),
+      jamais de dualité (opposition destructive). Ils ne se combattent pas,
+      ils se construisent mutuellement. La dualité bien/mal est une
+      conception occidentale étrangère à la pensée chinoise.
+    implication: >
+      En clinique, ne jamais aborder un déséquilibre comme un « ennemi
+      à vaincre ». Le symptôme est un signal d'adaptation en cours.
+      Traiter = rétablir la duité, pas combattre un facteur.
+    source: PIV-YY-t2-p14
+
+  relativite_absolue:
+    principe: >
+      « Rien n'est absolu, tout est relatif. » La polarité d'une chose
+      change en changeant l'échelle ou le domaine de référence.
+      Il y a toujours du Yin dans le Yang et du Yang dans le Yin.
+      Chaque chose contient les deux qualités en même temps.
+    implication: >
+      Ne jamais poser un diagnostic absolu (« c'est un vide de Yang »)
+      sans préciser le référentiel. Vide de Yang du Rein ≠ vide de Yang
+      du Poumon. Un même organe peut être Yang dans un contexte et Yin
+      dans un autre. La fermeté (Yang sain) ≠ la rigidité (Yang excessif
+      par vide de Yin) — la rigidité casse, pas la fermeté.
+    source: PIV-YY-t2-p16
+
+  un_symptome_deux_causes:
+    principe: >
+      UN MÊME SYMPTÔME peut avoir DEUX causes opposées : excès d'un
+      facteur OU insuffisance de son complémentaire. Fièvre = excès
+      de chaleur OU défaut de refroidissement. Frilosité = excès de
+      froid OU défaut de réchauffement. Seul le pouls tranche.
+    implication: >
+      C'est le principe le plus fondamental du diagnostic différentiel
+      en MTC. Traiter l'excès quand c'est un vide (ou inversement) =
+      AGGRAVER le patient. Toute consultation EXIGE la prise de pouls
+      pour discriminer entre les deux hypothèses.
+    source: PIV-YY-t2-p28
+
+  adaptation_pas_norme:
+    principe: >
+      « Tant qu'un organisme s'ADAPTE, quels que soient les chiffres,
+      il n'y a PAS de pathologie. » Les normes de l'acceptable en MTC
+      ne sont pas chiffrées — elles dépendent de chaque organisme.
+      Une tension de 15/8 peut être normale pour certains individus.
+    implication: >
+      Ne pas appliquer de norme absolue. Chercher les signes de
+      désadaptation, pas les chiffres hors-norme. La maladie est un
+      état de désadaptation, pas un chiffre. L'anamnèse doit explorer
+      le fonctionnement habituel du patient, pas le comparer à une
+      moyenne statistique.
+    source: PIV-YY-t2-p28_30
+
+  maladie_progresse_sur_vide:
+    principe: >
+      « La maladie progresse TOUJOURS sur un vide de l'énergie correcte
+      du corps. » Le froid pénètre profondément, l'inflammation se
+      généralise, le cancer prolifère — toujours sur un vide préexistant.
+      Ce qui n'était pas agressant pour l'organisme sain le devient
+      quand la vitalité diminue.
+    implication: >
+      En clinique, toujours chercher le VIDE sous-jacent, même face
+      à une plénitude apparente. Une invasion de froid récurrente
+      n'est pas qu'une exposition au froid — c'est un vide de Wei Qi
+      ou de Yang qui permet la pénétration. Traiter le vide de fond
+      est aussi important que traiter le symptôme aigu.
+    source: PIV-YY-t2-p31
+
+  spirale_pas_cercle:
+    principe: >
+      Le cycle Yin/Yang ne revient JAMAIS exactement au même point.
+      Le cercle est une abstraction ; la réalité est une SPIRALE.
+      Chaque cycle apporte une transformation. Le retour apparent
+      au point de départ est enrichi par le parcours accompli.
+    implication: >
+      Un patient qui revient avec les mêmes symptômes n'est PAS
+      au même point que la première fois. Son terrain a évolué,
+      ses réserves ont changé, son vécu s'est enrichi. Le traitement
+      ne peut pas être identique — il doit prendre en compte
+      l'évolution spiralaire.
+    source: PIV-YY-t2-p10_12
+
+  homme_mediateur_ciel_terre:
+    principe: >
+      L'Homme est le médiateur entre Ciel et Terre, à l'image de
+      l'arbre (position verticale). Il respire l'énergie céleste (Yang)
+      et se nourrit de l'énergie de la Terre (Yin). Les Souffles du
+      Ciel descendent, ceux de la Terre montent — leur rencontre dans
+      l'Homme produit le système des méridiens.
+    implication: >
+      La santé n'est pas un état intérieur isolé — elle dépend de
+      l'harmonisation permanente avec l'environnement (saisons, climats,
+      géographie, contexte émotionnel et socioprofessionnel). L'Homme
+      « vit dans la nature, par la nature, et POUR la nature ».
+    source: PIV-YY-t2-p17_21
+
+# ═══════════════════════════════════════════════════════════════
+# PRINCIPES 3 FOYERS TOME 1 (PV-3F-t1)
+# ═══════════════════════════════════════════════════════════════
+
+philosophie_3F_t1:
+
+  rein_rate_fondamentaux:
+    principe: >
+      Rein et Rate sont et resteront toute la vie les deux organes
+      FONDAMENTAUX de la vie conforme à l'Ordre. Dès la morula, la
+      survie ne dépend que de l'Eau (énergie ancestrale, Rein) et
+      de la Terre (entretien, Rate). Tout dérèglement de ces 2 organes
+      compromet l'équilibre vital à la racine.
+    implication: >
+      Dans tout cas complexe ou grave, toujours vérifier l'état du
+      Rein et de la Rate en premier. Ce sont les fondations sur
+      lesquelles tout le reste repose.
+    source: PV-3F-t1-p13_14
+
+  chaleur_humidite_vie:
+    principe: >
+      L'apparition de la vie nécessite 2 facteurs : la chaleur
+      bienfaisante (Rein) et l'humidité (Rate). Comme la graine
+      végétale, manifestation primaire de la vie. Nos cellules,
+      organes et fonctions ont besoin de ces 2 qualités.
+    implication: >
+      La vie commence et se maintient par chaleur + humidité.
+      Le refroidissement et l'assèchement sont les ennemis de la vie.
+    source: PV-3F-t1-p32
+
+  yuan_tchi_jamais_augmentee:
+    principe: >
+      L'énergie ancestrale est donnée en quantité définie à la
+      conception. Elle ne pourra JAMAIS augmenter au cours de la vie.
+      Comme une lampe à huile : tant qu'il y a du combustible, elle
+      brûle. L'objectif de la vie est de l'économiser au maximum.
+    implication: >
+      Le praticien doit toujours chercher à économiser l'énergie
+      ancestrale du patient. Tout traitement qui sollicite Yuan Tchi
+      use le patrimoine vital. Privilégier les énergies de substitution
+      (alimentation, respiration) et les apports saisonniers.
+    source: PV-3F-t1-p28_30
+
+  drainage_sur_fou_jamais_tsang:
+    principe: >
+      RÈGLE : tous les drainages du corps doivent se faire sur les
+      Fou et NON les Tsang. Drainer les Tsang (par homéopathie ou
+      phytothérapie) leur demande de faire eux-mêmes ce travail,
+      épuisant leur énergie Tsing qui est irremplaçable.
+    implication: >
+      Ne jamais prescrire un "drainage hépatique" ou "drainage rénal"
+      au sens occidental. Toujours drainer par les Fou (VB, V, GI, E, IG).
+    source: PV-3F-t1-p38
+
+  froid_ennemi_principal:
+    principe: >
+      "Le sang et l'énergie adorent la chaleur et ont horreur du froid."
+      Le froid bloque la circulation, fait refluer sang et énergie dans
+      les organes (méridiens vides), peut causer congestion des Tsang
+      → asphyxie → toxines → chaleur secondaire. La cause initiale
+      est en GÉNÉRAL un froid.
+    implication: >
+      Proscrire tout refroidissement : alimentation glacée, air froid
+      sur sueur (surtout lombaires). Protéger le dos (homme) et le
+      ventre (femme). Les pieds = correspondance des Reins. Un organe
+      congestionné dont la chaleur s'élève → chercher un froid initial.
+    source: PV-3F-t1-p33_39_51
+
+  foyer_moyen_barriere_cle:
+    principe: >
+      Le foyer moyen est la "barrière" entre le Ciel et la Terre de
+      l'Homme. Si bloqué/obstrué/stagnant, les énergies ne s'échangent
+      pas : le Yang reste en haut, le Yin en bas. L'être "n'est plus
+      ce qu'il doit être". C'est un point critique de la physiologie.
+    implication: >
+      Dans tout bilan, vérifier la barrière (pouls II). Si Yang en
+      excès (E+VB) → régurgitations → 6MC t + 13F t + 12JM d.
+      Si Yin en excès (F+Rte) → stagnation → 12JM t + 6MC d + 4GI t + 36E t.
+    source: PV-3F-t1-p48_49
+
+  vb_chef_orchestre_tr_regulateur:
+    principe: >
+      L'harmonie des 3 foyers vient de la VB (chef d'orchestre) et
+      l'équilibre vient du TR (régulateur). Les 11 organes obéissent
+      à la VB. Le TR fait l'interface avec l'extérieur via les 5 sens
+      et la peau. Si la VB dysfonctionne, tout l'orchestre est
+      désaccordé. Si le TR dysfonctionne, l'adaptation aux variations
+      extérieures est compromise.
+    source: PV-3F-t1-p37_38
+
+  lumiere_energie_fondamentale:
+    principe: >
+      La lumière est l'énergie fondamentale (avec le tchi de l'air)
+      pour activer la physiologie de tous les Fou et du psychisme.
+      Le méridien de l'Estomac synthétise la lumière comme les feuilles
+      de l'arbre. Sans cette lumière, l'Homme meurt.
+    implication: >
+      La luminothérapie a un fondement dans la MTC traditionnelle.
+      Les dépressions hivernales (manque de lumière) = insuffisance
+      de dynamisation du Yang Ming et des Fou.
+    source: PV-3F-t1-p38
+
+  inflammation_vient_vb:
+    principe: >
+      La température vitale produite par Yuan Tchi est toujours
+      physiologique et ne peut JAMAIS dépasser la norme. Les
+      inflammations (chaleur supérieure à la norme) viennent du
+      travail de la VB (Feu purificateur qui devient destructeur).
+    implication: >
+      Toute fièvre ou inflammation → toujours penser à la VB.
+      C'est le Feu de la VB qui produit l'élévation de température.
+    source: PV-3F-t1-p32_48
+
+# ═══════════════════════════════════════════════════════════════
+# PRINCIPES 3 FOYERS TOME 2 (PV-3F-t2)
+# ═══════════════════════════════════════════════════════════════
+
+philosophie_3F_t2:
+
+  rate_commande_estomac:
+    principe: >
+      La Rate COMMANDE la fonction de l'Estomac. Tous les sucs
+      gastriques sont des liquides de la Rate. L'identification
+      des aliments se fait dès la bouche par absorption perlinguale
+      → sécrétion immédiate d'un suc gastrique spécifique.
+    implication: >
+      En pathologie digestive, toujours penser à la Rate d'abord.
+      L'Estomac est l'exécutant mécanique, la Rate est le maître.
+    source: PV-3F-t2-p33_34
+
+  iong_oe_jamais_melanger:
+    principe: >
+      Iong (pur) et Oé (impur) ne se mélangent JAMAIS. Leurs zones
+      de circulation ne se chevauchent pas. Si Oé pénètre dans Iong,
+      l'impur pollue le pur → blocages → œdèmes.
+    implication: >
+      Les œdèmes signalent un mélange Iong/Oé. Rechercher la cause
+      de l'intrusion d'Oé dans les circuits internes.
+    source: PV-3F-t2-p25
+
+  fou_nourrit_tsang:
+    principe: >
+      Le Fou extrait de Iong l'énergie propre de son élément et la
+      transmet à son Tsang SANS RIEN GARDER. Le Tsang thésaurise
+      puis redonne au Fou ce dont il a besoin.
+    implication: >
+      En traitement, tonifier le Fou pour nourrir le Tsang. Le
+      surplus final va au 17JM (Trann Tchong), réserve aussi
+      capitale que Ming Menn.
+    source: PV-3F-t2-p29
+
+  respiration_dirige_energie:
+    principe: >
+      La respiration dirige le mouvement de l'énergie dans le
+      Tchrong Mo. Inspiration (Yin) → Foie → Reins.
+      Expiration (Yang) → Poumons → Cœur. Rate au centre (apnée).
+    implication: >
+      L'amplitude et le rythme respiratoires conditionnent toute
+      la physiologie énergétique. Tai Chi Chuan et Chi Kong
+      renforcent. Exercices respiratoires = thérapeutique majeure.
+    source: PV-3F-t2-p32_33
+
+  manger_conscient:
+    principe: >
+      Choisir aliments avec les 5 sens. La saveur (arôme) ≠ goût.
+      Mastication + salive extraient le tsing. Manger en conscience
+      concourt à l'extraction du tsing et à la sécrétion appropriée.
+    implication: >
+      Le mode alimentaire (vitesse, distraction, mastication) est
+      aussi important que le choix des aliments. Ne pas fumer
+      après les repas (empêche Poumons de purifier Ku Tchi).
+    source: PV-3F-t2-p32_34
+
+  sang_urines_feu_IG:
+    principe: >
+      Sang dans les urines = signe de Feu dont l'origine est l'IG
+      (Fou de l'élément Feu). Même en cas de feu apparent des reins,
+      chercher la cause au niveau de l'IG par cycle Ko Feu → Eau.
+    implication: >
+      Ne pas traiter les reins ou la vessie en première intention.
+      Remonter au cycle Ko pour identifier l'IG comme source.
+    source: PV-3F-t2-p37
+
+  diarrhee_trois_diagnostics:
+    principe: >
+      Diarrhée matinale (au lever) = vide des Reins.
+      Diarrhée post-prandiale (sitôt après repas) = pathologie du Foie.
+      Diarrhée chronique ancienne = angoisse, pathologie de la Rate.
+    implication: >
+      Le moment de la diarrhée et sa chronicité orientent vers
+      l'organe en cause. Diagnostic différentiel essentiel.
+    source: PV-3F-t2-p38_39
+
+  retention_bloque_yang_ming:
+    principe: >
+      Ne JAMAIS se retenir pour les gaz ou les selles. La rétention
+      bloque TOUT le Yang Ming et le foyer concerné. Ne pas croiser
+      les jambes pendant la digestion (bloque 29-31E).
+    implication: >
+      Conseils hygiéniques à donner systématiquement aux patients
+      souffrant de troubles digestifs.
+    source: PV-3F-t2-p38_39
+
+  rein_intelligence_filtration:
+    principe: >
+      Le Rein distingue les "vieux liquides" (usagés) des "liquides
+      neufs" (alimentation). Il conserve le neuf, élimine le vieux.
+      Intelligence de filtration du plasma (pas les globules).
+    implication: >
+      La qualité de l'alimentation et des boissons (eau dynamisée
+      vs eau morte) détermine la qualité des liquides "neufs"
+      que les reins conserveront.
+    source: PV-3F-t2-p39
+
+  17JM_aussi_capital_que_ming_menn:
+    principe: >
+      Le 17JM (Trann Tchong) stocke les réserves de Iong, Oé,
+      sang, énergie ancestrale, Tsing et Tsong Tchi pour tous
+      les circuits de surface. Son importance est aussi capitale
+      que Ming Menn.
+    implication: >
+      En pathologie de déplétion généralisée, penser au 17JM
+      comme point de reconstitution des réserves. Point fondamental.
+    source: PV-3F-t2-p29

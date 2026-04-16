@@ -1,0 +1,374 @@
+# TSANG / FOU — PHYSIOLOGIE 3 — SÉMINAIRES CLM
+# Source : Polycopié VI, Série EEA tome 3
+# Auteurs : Dr Schatz, Elisabeth Rochas de la Vallée, Jean-Louis Blard
+# Séminaires CLM 1982-1983 — 85 pages
+# Format : transcriptions de dialogues entre 3 intervenants
+
+meta:
+  fichier: tsang_fou_physiologie_t3_seminaire.yaml
+  source: PVI_EEA_t3
+  module: VI_Physiologie_tome_3
+  auteurs: [Schatz, Rochas_de_la_Vallee, Blard]
+  format: seminaire_CLM_transcription
+  dates_seminaires: [juin_1982, 12_decembre_1982, 9_janvier_1983, 8_avril_1983]
+  date_document: 06/07/2015
+  pages: 85
+  statut: complet
+  liens:
+    - THEORIE/tsang_fou_physiologie_t1.yaml
+    - THEORIE/embryologie_constitution.yaml
+    - THEORIE/hierarchie_sang_energie.yaml
+    - ZANG_FU/poumon.yaml
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/rein.yaml
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/gros_intestin.yaml
+    - ZANG_FU/intestin_grele.yaml
+    - ZANG_FU/vesicule_biliaire.yaml
+    - ZANG_FU/vessie.yaml
+    - CLINIQUE/pathologies_diarrhees.yaml
+    - CLINIQUE/pathologies_hypertension.yaml
+    - CLINIQUE/pathologies_oreille.yaml
+  note: >
+    Ce séminaire est fondamental car il donne la philosophie derrière les concepts
+    de Tsang/Fou, avec des explications étymologiques, des citations directes du
+    Su Wen et du Lin Shu, et un dialogue vivant entre sinologue (Rochas de la Vallée),
+    médecin acupuncteur (Schatz) et philosophe (Blard). Le format dialogué permet
+    de saisir les nuances que les polycopiés didactiques de Bollet ne peuvent transmettre.
+
+# =============================================================================
+# FONDEMENTS PHILOSOPHIQUES DES ZANG ET FOU
+# =============================================================================
+
+fondements_zang_fou:
+  distinction_fondamentale:
+    zang:
+      nature: Yin
+      fonction: amasser_thesauriser
+      etymologie: >
+        Idéogramme composé de "chair" (gauche) et "cacher" (droite).
+        Cacher comme on cache un trésor. Thésauriser pour préserver et garder
+        intactes toutes les potentialités. D'où la traduction "organes-trésors".
+      plenitude: MAN
+      description_man: >
+        La plénitude MAN procède à la façon d'un liquide qui imbibe un territoire.
+        L'idéogramme est régulier, parallèle et équilibré — quelque chose qui pénètre
+        partout, jusque dans les moindres interstices. Les Zang sont imbibés du Jing
+        et ont cette potentialité de réactivation de la vie. Les Zang sont TOUS
+        ENSEMBLE pleins de la plénitude MAN, en permanence.
+      reference: Su_Wen_chap_11
+      citation_SW11: >
+        Les 5 Zang cachent les Souffles Jing et ne dispersent pas,
+        ils sont MAN et non pas SHI.
+    fou:
+      nature: Yang
+      fonction: recevoir_emettre_diffuser
+      etymologie: >
+        Idéogramme reprenant "chair" et "entrepôt". Dans le Palais Impérial,
+        les Fu étaient des entrepôts où arrivaient tributs, impôts, taxes, qui étaient
+        notés, entreposés puis dispatchés. D'où "organes-ateliers".
+      plenitude: SHI
+      description_shi: >
+        La plénitude SHI est quelque chose de plus solide, concret, qui passe d'un
+        endroit à un autre. Les Fu ne sont pas tous pleins en même temps, contrairement
+        aux Zang. Le bol alimentaire emplit l'E de cette façon SHI, l'E travaille dessus,
+        pendant ce temps l'IG est en état de vacuité, d'attente. Et quand l'IG se remplit,
+        l'E se retrouve en état de vacance. Les Fu travaillent à la fructification des
+        apports extérieurs.
+      citation_SW11: >
+        Les Fu transportent et transforment, ils ne cachent pas,
+        c'est pourquoi ils sont SHI et non pas MAN.
+    source: PVI-t3-p15
+
+  biao_li_zang_fou:
+    definition: >
+      Les Fu sont BIAO (superficiels, Yang) et les Zang sont LI (profonds, Yin).
+      Mais BIAO/LI n'est pas une séparation mais un échange, un passage.
+      BIAO pour ce qui va vers l'extérieur, vers l'apparence sensible,
+      LI vers l'intérieur, pour la structuration et l'enrichissement.
+    distinction_nei_wai: >
+      NEI/WAI (interne/externe) décrit une topologie différente de BIAO/LI.
+      On peut très bien dire que Zang et Fu sont dans le LI et que les méridiens sont BIAO.
+      Suivant la nécessité, on modifie la relation BIAO/LI.
+    bande_de_moebius: >
+      Blard : BIAO/LI c'est avers/revers, comme la bande de Moebius — continuité
+      entre l'interne et l'externe. La pensée orientale est dans ce retournement
+      incessant des valeurs, pas dans le raisonnement binaire ou/ou occidental.
+    source: PVI-t3-p9_10
+
+  nombres_5_et_6:
+    cinq:
+      signification: >
+        Le nombre 5 représente le Ciel qui rappelle que MAN est cette plénitude céleste.
+        5 est le Centre, les Zang, les Éléments. C'est le chiffre du nœud de chaque vie —
+        une vie peut se nouer quand ce qui partait sur 4 se regroupe autour d'un centre.
+        Dans les 5 éléments, le 5ème est celui autour duquel se regroupent les 4 autres.
+    six:
+      signification: >
+        Le nombre 6 représente l'entretien de cette vie. Les 6 jonctions, les 6 réunions.
+        C'est la Terre, la façon dont cette vie formée autour de 5 est entretenue.
+        C'est le nombre de tubes musicaux — les Souffles du Ciel modulés en sons sensibles.
+    symbolique_numerique:
+      1: Ciel
+      2: Terre
+      3: Homme_les_Souffles_entre_Ciel_et_Terre
+      4: Saisons_expansion_dans_4_directions
+      5: Centre_Zang_Elements_noeud_vital
+      6: Reunions_entretien_Fu
+      7: Orifices_sentiments
+      8: Vents_pluridimensionnalite
+      9: totalite_pratique_7_plus_2_visible_invisible
+      10: Troncs_celestes
+      12: Branches_terrestres
+    source: PVI-t3-p16
+
+# =============================================================================
+# CIEL ANTÉRIEUR / CIEL POSTÉRIEUR
+# =============================================================================
+
+ciel_anterieur_posterieur:
+  unite_primitive:
+    principe: >
+      Les Chinois ont très bien vu que quand il y a une Unité primitive, il faut qu'il y ait
+      séparation, scission, pour qu'il y ait production de quelque chose. Il faut qu'il y ait
+      deux pour engendrer quelque chose. Ciel et Terre se sont formés par différenciation
+      qualitative, puis se tournent l'un vers l'autre dans un échange, croisent leurs influences.
+      C'est à ce croisement que tous les êtres vivants surgissent.
+    clair_trouble: >
+      Ce qui est clair aura un mouvement général de montée (Ciel, Zang) et ce qui est trouble
+      un mouvement de descente (Terre, Fu). Séparation à tous les niveaux. Dans l'alimentation,
+      le bol alimentaire est l'unité primitive de la dialectique clair/trouble.
+    source: PVI-t3-p12
+
+  schema_CA_CP:
+    ciel_anterieur:
+      yang_authentique: Yuan_Qi
+      yin_originel: Jing
+      correspondance: Eau_et_Feu
+    ciel_posterieur:
+      energie: Zong_Qi
+      definition: >
+        Rassemblement de cet être précis dans sa lignée, lieu géographique, époque,
+        habitudes de vie, ce qu'il mange et respire. Rassemblement de tout ce qui est
+        activité vitale dans le corps.
+    renversement_polarites: >
+      L'arrivée dans la Vie d'un nouvel être se fait par un renversement des polarités.
+      Gauche = Yang, Droite = Yin. A partir de quelque chose qui était séparé, une
+      nouvelle Unité qui, pour s'exprimer, est à nouveau dissociée.
+    analogie_ADN_ARN: >
+      Schatz : C'est ce qu'on appelle en biologie les développements de l'ARN à partir
+      de l'ADN, des plis qui feront un protoplasme particulier, spécifique. Les hélices
+      en constant retournement, comme la bande de Moebius, clé pour l'intelligence
+      du mystère de la vie.
+    source: PVI-t3-p13_14
+
+  fu_ciel_zang_heredite:
+    fu_et_ciel: >
+      Les Fu ont une place privilégiée car ils apportent des énergies venues de l'extérieur
+      (énergie solaire, alimentation, Ciel). Mais les Zang aussi ont des caractéristiques
+      qui se rapportent au Ciel — les énergies héréditaires (Yuan, Zong, Jing) qui viennent
+      par les parents du Ciel parental.
+    homme_transformateur: >
+      Blard : L'Homme est un transformateur d'énergie, en autogestion, avec un processus
+      de génération et de régénération. Il y a toujours dans les Traditions l'idée d'un
+      nouvel Homme en construction dans l'ancien. C'est l'histoire du papillon, cocon,
+      chrysalide et chenille.
+    jing_double_source: >
+      Le Jing a deux sources. Le Jing dans le sperme (Ciel Antérieur, dans les gonades)
+      détermine tout le développement de l'individu. Il rencontre le Jing des aliments
+      (Ciel Postérieur). Cet ensemble donne la structure de l'étoffe humaine.
+    ming_men: >
+      Ming Men est la porte d'entrée des énergies héréditaires dès la première apparition
+      de la cellule originaire. L'individu est traversé par deux grands flux, l'un qui sort,
+      l'autre qui rentre — lieu de passage constant et constant retournement des valeurs.
+    source: PVI-t3-p10_11
+
+# =============================================================================
+# FU EXTRAORDINAIRES — QI HENG ZHI FU
+# =============================================================================
+
+fu_extraordinaires:
+  definition:
+    nom_chinois: Qi_Heng_Zhi_Fu
+    nombre: 6
+    liste: [cerveau, moelles, os, mo, vesicule_biliaire, uterus]
+    reference: Su_Wen_chap_11
+    signification_heng: longue_duree_etalee_dans_le_temps
+    particularite: >
+      Contrairement aux Fu ordinaires, ils ne transmettent pas et ne laissent pas
+      s'écouler mais thésaurisent comme les Zang. Responsables de l'entretien de la
+      vie par une thésaurisation des énergies essentielles, du Jing. Leur action se
+      maintient longtemps et se manifeste très tôt dans l'embryon.
+    source: PVI-t3-p17
+
+  embryologie:
+    principe: >
+      Ce sont des formations embryonnaires qui se développent avant que les Zang et Fu
+      aient pris leur place définitive. Où sont les Zang à ce moment-là ? Chez la mère !
+      Ces Fu sont les relais qui permettent aux centres énergétiques de l'adulte de se
+      structurer. Ils sont dépendants pour leur vitalité fondamentale du Karma de la mère.
+    moelle: >
+      Moelle osseuse et moelle nerveuse sont conjointes dans la perspective chinoise.
+      Le système nerveux est entouré d'enveloppes vasculaires. La vascularisation du sang
+      qui anime le système nerveux est aussi importante que la transmission des influx.
+      Les maladies du système nerveux ne s'expliquent que si l'on connaît les fonctions
+      vasculaires trophiques.
+    mo: >
+      Les Mo sont comme des capillaires énergétiques (image).
+    vb: >
+      La VB est une commande du F. Le F anatomique et fonctionnel est intimement lié à elle.
+      On peut enlever le petit sac, mais la fonction qui est intra muros dans le F reste.
+    uterus: >
+      L'utérus rejoint l'idée que le sexe primordial est féminin. L'embryon est d'abord
+      sexué comme féminin, puis une imprégnation hormonale détermine le sexe masculin.
+      Contrairement à Freud qui considérait que la femme avait un sexe involué.
+    sexe_feminin_primordial: >
+      Le sexe de l'homme serait un clitoris développé plutôt que le clitoris un sexe involué.
+      Le Texte pourrait refléter une connaissance de la détermination du sexe féminin
+      comme sexe fondamental de l'être humain.
+    source: PVI-t3-p17_18_28
+
+  schema_global:
+    trois_groupes: >
+      6 Qi Heng Zhi Fu (formations embryonnaires, thésaurisation du Jing) +
+      5 Zang (plénitude céleste MAN, 5 pôles de la vie) +
+      5 Fu de transport/transformation (trophicité, écoulement du bol alimentaire).
+      L'ensemble donne une représentation globale de l'être entre Ciel et Terre.
+    5_zang_6_fu_par_decret_celeste: >
+      5 Zang et 6 Fu sont là par décret céleste et sont prédestinés à être la formation
+      fondamentale. Les 6 Qi Heng Zhi Fu sont la formation de développement à partir
+      de la génétique. Et tout ce qui est lié à la trophicité du sujet dépend des 5 Fu
+      de transport et transformation.
+    source: PVI-t3-p29
+
+# =============================================================================
+# 5 TRONCS D'ENRACINEMENT
+# =============================================================================
+
+cinq_troncs_enracinement:
+  reference: Su_Wen_chap_9
+  principe: >
+    Chaque Zang est qualifié de "tronc d'enracinement" de quelque chose dans la vie
+    de l'Homme. C'est une grande description de l'Homme avec ses 5 pôles et la
+    permutation de ces 5 pôles qui permet la vie.
+
+  coeur:
+    tronc_de: la_vie_la_vitalite
+    caractere: SHENG_vitaliser_engendrer
+
+  poumon:
+    tronc_de: les_Souffles
+    titre: Maitre_des_Souffles
+
+  rein:
+    tronc_de: ce_qui_est_thesaurise_cache_en_hibernation
+    description: >
+      Ces forces qui ne se voient pas mais sont extrêmement puissantes, à la façon
+      dont une graine ne se voit pas à l'intérieur du sol gelé en hiver mais a en elle
+      les potentialités énormes de la vie qui surgira au printemps.
+
+  foie:
+    tronc_de: la_fonction_musculaire_et_les_mouvements
+
+  rate:
+    tronc_de: les_granges_et_greniers
+    description: >
+      Pas la Rate toute seule mais liée à E, IG, GI, V et TR. Fonction de transmettre
+      et transformer les aliments. La Rate est le tronc d'enracinement du Ciel Postérieur
+      dans le corps de l'Homme. "Granges et greniers" c'est le mouvement d'apporter
+      du grain et de venir en chercher quand on en a besoin.
+    tronc_ciel_posterieur: E_Rte
+    tronc_ciel_anterieur: R
+
+  source: PVI-t3-p27
+
+# =============================================================================
+# CIRCULATION DES ÉNERGIES — SU WEN CHAP. 21
+# =============================================================================
+
+circulation_energies:
+  circuit_aliments_solides:
+    etapes:
+      - entree_E: Les Souffles des aliments solides entrent à l'E
+      - diffusion_F: Il y a diffusion de l'énergie essentielle au F
+      - imbibition_muscles: Il y a imprégnation des Souffles aux muscles
+      - retour_C: Les Souffles troubles font retour au C (par XU LI 16ème LO ou branche Rte-C)
+      - impregnation_MO: Il y a imprégnation du Jing aux MO (sous dépendance du C)
+      - retour_P: Les Souffles se propagent aux méridiens qui font retour au P
+      - relance_3h: Au P à 3h du matin, audience matinale, relance dans le solénoïde des 12 méridiens
+    source: Su_Wen_chap_21
+
+  circuit_liquides:
+    etapes:
+      - entree_E: Les liquides entrent à l'E
+      - elevation_Rte: Propagation des Souffles essentiels en haut véhiculés par la Rte
+      - retour_P: Les Souffles de la Rte diffusent et montent faire retour au P
+      - abaissement: Le P communique avec les cheminements des eaux et les régularise
+      - collection_V: En bas, ils sont re-collectés, marche descendante vers la V
+    source: Su_Wen_chap_21
+
+  formation_Zong_Qi:
+    lieu: Tan_Zhong_17RM_mer_des_Souffles
+    origine: reunion_Jing_air_inspire_plus_Jing_aliments
+    sortie: Rechauffeur_Superieur
+    action: >
+      Zong Qi sort à la gorge, au larynx, pour aller à l'expiration et à l'inspiration
+      enfiler le Mo du Cœur et se diffuser dans tout le corps.
+    source: Lin_Shu_chap_17
+
+  clair_trouble_alimentation:
+    principe: >
+      Le bol alimentaire est l'unité primitive de la dialectique clair/trouble.
+      À chaque étage de la digestion, il y a séparation : le clair s'élève (Rte vers P),
+      le trouble s'abaisse (IG vers GI vers V).
+    niveaux_separation:
+      - E: premier tri, clair vers Rte, trouble vers IG
+      - IG: pression et tamisage, clair = Jin Ye reversés dans circulation, trouble vers GI
+      - GI: dessiccation, résidus et lies, évacuation par anus
+      - R_V: Qi Hua, re-tri final, clair remonte vers P, trouble excrété par V
+    source: PVI-t3-p12_38_39
+
+# =============================================================================
+# PETIT CŒUR — XIAO XIN
+# =============================================================================
+
+petit_coeur:
+  nom_chinois: Xiao_Xin
+  definition: >
+    Fonction intermédiaire entre Ming Men et le C, présente avant que Xin Bao Lo
+    (lo des enveloppes du C) et Xin Zhu aient pris leur place. Le Petit Cœur sert
+    de relais pour la translation des énergies entre celles apportées par l'hérédité
+    (Ming Men) et celles qui commandent le corps (Feu Maître).
+  relation_MC: >
+    Peu à peu, cette fonction est voilée par les fonctions de Maître du Cœur avec sa
+    double articulation Xin Bao Lo et Xin Zhu. Mais elle existe toujours puisque tout
+    est pour toujours dans l'être.
+  rechauffeur_initial: >
+    Au début, on ne devrait pas présenter 3 Réchauffeurs mais un Réchauffeur Initial,
+    Réchauffeur du Ciel Antérieur. Ce Réchauffeur se dispatche ensuite en trois formations
+    avec le développement de l'embryon.
+  source: PVI-t3-p65
+
+# =============================================================================
+# RÈGLE MAÎTRE / INVITÉ — ZHU / KÉ
+# =============================================================================
+
+maitre_invite:
+  principe: >
+    ZHU (Maître) est celui qui est chez lui et commande de droit. KÉ (Invité) est celui
+    qui n'est pas chez lui. Les invités peuvent être des alliés (bons invités, qui viennent
+    rendre service) ou des pervers (envahisseurs).
+  application_puncture: >
+    On fait jouer les Lo pour porter assistance au Maître qui est atteint. L'Hôte (celui
+    qui reçoit) est celui qui est malade et doit être corrigé par l'Invité. C'est la
+    règle universelle de l'emploi des Lo.
+  application_militaire: >
+    Une armée nationale sera dite ZHU (chez elle), une armée qui n'est pas chez elle
+    sera KÉ — elle pourra venir combattre le territoire, ou en alliée aider à le défendre.
+  luo_et_treillis: >
+    LUO : image de la soie, du fil de soie tressé. Un territoire parcouru par un treillis
+    très fin, comme un treillis d'irrigation pour un champ. Le méridien principal, quand
+    il fait une liaison LUO avec le viscère associé, l'enserre comme un filet et lui
+    apporte ses qualités propres.
+  source: PVI-t3-p70

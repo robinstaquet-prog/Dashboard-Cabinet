@@ -1,0 +1,247 @@
+# CINQ ÉLÉMENTS — MOUVEMENTS ET CORRESPONDANCES (SO OUEN CHAP. 5)
+# Source : PVII Les 5 Éléments — Physiologie tome 3, pp. 27-36
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_mouvements_5E.yaml
+  source: PVII_5Elem_t3_p27_36
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_correspondances.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/poumon.yaml
+    - ZANG_FU/rein.yaml
+
+# ─────────────────────────────────────────────────
+# TABLEAU 4 — LES MOUVEMENTS DES 5 ÉLÉMENTS
+# ─────────────────────────────────────────────────
+
+tableau_mouvements_5_elements:
+  note: >
+    Ce tableau synthétise les 5 qualités de mouvement de chaque élément.
+    MOUVEMENT = nature du déplacement. ACTIVITÉ = ce qu'il fait.
+    ÉTAT = qualité intrinsèque. ACTION = verbe d'action. NATURE = essence.
+
+  Bois:
+    mouvement: naissance
+    activite: mise_en_mouvement
+    etat: souplesse
+    action: eveil_activite
+    nature: se_tordre_et_se_redresser
+
+  Feu:
+    mouvement: expansion
+    activite: developpement_epanouissement
+    etat: circulation
+    action: monter
+    nature: bruler_en_montant
+
+  Terre:
+    mouvement: maturite
+    activite: transformation
+    etat: immobilisation
+    action: desagreger_nutrition
+    nature: transformer
+
+  Metal:
+    mouvement: retraction
+    activite: recolte_engrangement
+    etat: enfouissement
+    action: fermete_rigidite_captativite
+    nature: respiration_etre_malleable_sous_action_Feu
+
+  Eau:
+    mouvement: conservation
+    activite: repos_mort_mutation
+    etat: fluidite
+    action: reproduction_elimination
+    nature: descendre_et_couler_muter
+  source: PVII_t3_tableau4_p27
+
+# ─────────────────────────────────────────────────
+# SO OUEN CHAP. 5 — LES 5 ÉLÉMENTS PAR DIRECTION
+# ─────────────────────────────────────────────────
+
+so_ouen_chap5_correspondances:
+  note: >
+    Tchi Po répond à l'Empereur Huong en décrivant les 5 éléments
+    par leur direction cosmique. Ce texte fondateur établit toutes
+    les correspondances cliniques essentielles. Les commentaires
+    entre parenthèses sont d'époque (annotation classique chinoise).
+
+  # ─── EST / BOIS ───────────────────────────────
+
+  Est_Bois:
+    direction: Est
+    produit: vent_Fong
+    naissance: Bois
+    saveur: acidite
+    organe: Foie
+    tissu: tissus_tendino_musculaires
+    suivant_engendre: Coeur_via_tendons_musculaires
+    orifice: yeux
+    couleur: vert_fonce
+    son_musical: KIO_3eme_note
+    bruit: hurlement
+    evenement: soumission_paisible
+    sentiment_normal: colere
+    pathologie_sentiment: colere_fatigue_le_foie
+    Ko_sentiment: chagrin_domine_la_colere
+    Ko_energie_externe: secheresse_domine_le_vent
+    Ko_saveur: saveur_piquante_domine_acidite
+    blessure_externe: vent_blesse_tendons
+    CHEUN_associe: HOUN_inconscient
+    note_clinique: >
+      Le HOUN calme amène la Voie parfaite.
+      La dysharmonie du KIO rend inquiet et cause le mécontentement.
+
+  # ─── SUD / FEU ────────────────────────────────
+
+  Sud_Feu:
+    direction: Sud
+    produit: chaleur
+    naissance: Feu
+    saveur: amer
+    organe: Coeur
+    tissu: sang_circulation
+    suivant_engendre: Rate_via_sang
+    orifice: langue
+    couleur: rouge
+    son_musical: TCHONG
+    bruit: rire
+    evenement: anxiete_productrices_de_bons_succes
+    sentiment_normal: joie
+    pathologie_sentiment: joie_extreme_blesse_le_coeur
+    Ko_sentiment: peur_domine_la_joie
+    Ko_energie_externe: froid_domine_la_chaleur
+    Ko_saveur: saveur_salee_domine_amer
+    blessure_externe: chaleur_fatigue_l_energie
+    CHEUN_associe: CHEUN_conscient_dans_le_coeur
+    note_clinique: >
+      Si le CHEUN reste dans le cœur, le sang et l'énergie circulent
+      normalement. La dysharmonie du TCHONG amène le chagrin des
+      travaux fatiguants.
+
+  # ─── CENTRE / TERRE ───────────────────────────
+
+  Centre_Terre:
+    direction: Centre
+    produit: humidite
+    naissance: sol_terre
+    saveur: douce
+    organe: Rate
+    tissu: chair
+    suivant_engendre: Poumon_via_chair
+    orifice: bouche
+    couleur: jaune
+    son_musical: KONG_grand_et_harmonieux
+    bruit: chant
+    evenement: hoquet_refroidissement_estomac
+    sentiment_normal: meditation_pensee
+    pathologie_sentiment: pensee_excessive_fatigue
+    Ko_sentiment: colere_domine_pensee
+    Ko_energie_externe: vent_domine_humidite
+    Ko_saveur: acidite_domine_douce
+    blessure_externe: humidite_blesse_la_chair
+    CHEUN_associe: I_idee_dans_rate
+    note_clinique: >
+      Les idées calmes empêchent la dispersion de la sagesse.
+      La saveur douce a une action de détente.
+      La dysharmonie du KONG cause la crainte envers l'orgueil.
+
+  # ─── OUEST / MÉTAL ────────────────────────────
+
+  Ouest_Metal:
+    direction: Ouest
+    produit: secheresse
+    naissance: Metal
+    saveur: piquante
+    organe: Poumon
+    tissu: peau_et_poils
+    suivant_engendre: Rein_via_peau_et_poils
+    orifice: nez
+    couleur: blanc
+    son_musical: CHANG_sonore_et_robuste
+    bruit: ton_pleurard
+    evenement: toux
+    sentiment_normal: anxiete_productrices_de_bons_succès
+    pathologie_sentiment: anxiete_extreme_blesse_les_poumons
+    Ko_sentiment: joie_domine_anxiete
+    Ko_energie_externe: froid_domine_chaleur
+    Ko_saveur: saveur_amere_domine_piquante
+    blessure_externe: chaleur_blesse_peau_et_poils
+    CHEUN_associe: PO_subconscient_aux_poumons
+    note_clinique: >
+      Le PO calme amène conduite vertueuse et longévité.
+      La saveur piquante a une action dispersante.
+      Le désordre du CHANG annonce mauvaise conduite des fonctionnaires.
+
+  # ─── NORD / EAU ───────────────────────────────
+
+  Nord_Eau:
+    direction: Nord
+    produit: froid
+    naissance: eau
+    saveur: salee
+    organe: Rein
+    tissu: moelle_osseuse
+    suivant_engendre: Foie_via_moelle_osseuse
+    orifice: oreilles
+    couleur: noir
+    son_musical: IU_profond_bruit_de_chute
+    bruit: exclamation
+    evenement: frissonnement_froid_ou_peur
+    sentiment_normal: peur
+    pathologie_sentiment: peur_permanente_blesse_les_reins
+    Ko_sentiment: pensee_profonde_domine_peur
+    Ko_energie_externe: secheresse_domine_froid
+    Ko_saveur: saveur_douce_domine_salee
+    blessure_externe: froid_blesse_le_sang
+    CHEUN_associe: TCHI_realisation_dans_reins
+    note_clinique: >
+      Son état dominant amènera l'abondance de la moelle.
+      Le frissonnement survient sous l'influence du froid ou de la peur.
+      La saveur salée attendrit et adoucit.
+
+# ─────────────────────────────────────────────────
+# SYNTHÈSE FINALE DU SO OUEN CHAP. 5
+# ─────────────────────────────────────────────────
+
+synthese_finale_so_ouen:
+  ciel_et_terre: parties_superieures_et_inferieures_de_tous_les_etres
+  Yin_Yang: deux_sexes_feminin_masculin_du_sang_et_energie
+  gauche_droite: voies_du_Yin_Yang_respectivement
+  Eau_et_Feu: >
+    Signes précurseurs du Yin et du Yang. Une fois connus, on comprend
+    aisément les transformations de tous les êtres.
+  conclusion: >
+    Le YIN reste à l'intérieur = gouverneur du YANG.
+    Le YANG reste à la superficie = garde du YIN.
+    Le YIN est calme et domine. Le YANG est plein d'activité et protège.
+  source: PVII_t3_p36
+
+# ─────────────────────────────────────────────────
+# TABLE DES KO ÉMOTIONNELS (récap clinique)
+# ─────────────────────────────────────────────────
+
+ko_emotionnels:
+  principe: >
+    Chaque sentiment pathologique (en excès) est dominé par le sentiment
+    du cycle Ko. Application thérapeutique directe : stimuler le sentiment
+    dominant pour calmer le sentiment en excès.
+  tableau:
+    colere_Bois: Ko_par_chagrin_Metal
+    joie_Feu: Ko_par_peur_Eau
+    meditation_Terre: Ko_par_colere_Bois
+    anxiete_Metal: Ko_par_joie_Feu
+    peur_Eau: Ko_par_pensee_Terre
+  note_CHEUN:
+    Houn_Foie: inconscient_impulses_intuition
+    Chen_Coeur: conscient_esprit_clair
+    I_Rate: idee_intentionnalite
+    Po_Poumon: subconscient_instincts
+    Tchi_Rein: realisation_volonte

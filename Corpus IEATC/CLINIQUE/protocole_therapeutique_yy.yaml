@@ -1,0 +1,294 @@
+# PROTOCOLE THÉRAPEUTIQUE YIN/YANG — SYNTHÈSE ET THÉRAPIE
+# Source: PIV YY tome 5 (CP I Partie 2) — pp.3-21
+# Méthode complète de la première séance à la stratégie long terme
+
+meta:
+  fichier: protocole_therapeutique_yy.yaml
+  source_principale: PIV_YY_tome5_CP_I_partie2
+  importance: >
+    Ce fichier rassemble tout ce qui concerne la mise en
+    œuvre concrète du traitement YY: tradition vs symptomatique,
+    idées guides, première séance, choix du matériel,
+    14 notions fondamentales, états dépassés.
+
+# ═══════════════════════════════════════════════════
+# TRADITION MÉDICALE vs SYMPTOMATIQUE
+# ═══════════════════════════════════════════════════
+
+tradition_vs_symptomatique:
+  tradition_medicale: >
+    Rechercher la cause de la maladie par le bilan traditionnel.
+    Traiter la cause qui a engendré les symptômes.
+    Le traitement est spécifique à chaque patient pour
+    un même symptôme. L'acupuncture traditionnelle est une
+    MÉDECINE DE TERRAIN.
+  methode_symptomatique: >
+    Traiter le symptôme directement par des recettes types.
+    Compilation de méthodes → multiplication des points.
+    Absence de raisonnement énergétique, ignorance des pouls.
+    "Le praticien navigue au hasard, résultats médiocres."
+  avertissement: >
+    Ne pas confondre les deux approches. La tradition
+    traite UN patient avec SON déséquilibre. La symptomatique
+    traite UNE maladie chez tous les patients de la même façon.
+
+# ═══════════════════════════════════════════════════
+# IDÉES GUIDES — LE PROTOCOLE COMPLET
+# ═══════════════════════════════════════════════════
+
+idees_guides:
+  interrogatoire: >
+    Ne pas poser toutes les questions d'un questionnaire.
+    Laisser le patient RACONTER son histoire. Au fur et
+    à mesure, les éléments de classification apparaissent
+    dans son discours — les affecter à une rubrique.
+    Après plusieurs critères de la même rubrique, la
+    conclusion s'impose d'elle-même.
+  ordre_protocole:
+    etape_1: "Yin/Yang (TOUJOURS en premier)"
+    etape_2: "5 Éléments"
+    etape_3: "Vide/Plénitude"
+    etape_4: "Froid/Chaleur"
+  regle_ordre: >
+    Chaque étape doit être suivie dans l'ordre, soit au
+    cours de chaque séance, soit d'une séance à l'autre.
+    L'implantation des aiguilles se fait en traitant les
+    points correspondant à chaque rubrique dans l'ordre.
+
+premiere_seance_8_etapes:
+  description: >
+    La première séance suit un protocole rigoureux en 8 étapes.
+    Le praticien adapte le questionnaire au fur et à mesure
+    selon ce qui ressort du discours du patient.
+  etapes:
+    1: "Interrogatoire — laisser raconter, classer les signes"
+    2: "Observation/Inspection — morphologie, teint, langue, attitude"
+    3: "Prise de pouls — YY d'abord (4 principes)"
+    4: "Palpation — abdominale (5 zones), points douloureux"
+    5: "Analyse — nature (YY/froid-chaleur) + siège"
+    6: "Détermination du traitement — ISJ/Siao Tse/points locaux"
+    7: "Pose des aiguilles — dans l'ordre du protocole (YY → 5E → V/P → F/C)"
+    8: "Vérification par les pouls — après chaque étape clé"
+
+# ═══════════════════════════════════════════════════
+# CHOIX DU MATÉRIEL
+# ═══════════════════════════════════════════════════
+
+choix_materiel:
+  aiguilles_traditionnelles:
+    description: >
+      Les aiguilles traditionnelles sont fabriquées selon
+      le nombre d'or (proportions). L'aiguille chinoise
+      est un outil de précision énergétique.
+    regles:
+      - tonification = aiguille dans le sens du méridien
+      - dispersion = aiguille contre le sens du méridien
+      - profondeur selon le point et la constitution
+  electricite:
+    description: >
+      L'électrostimulation peut être utilisée en complément.
+      Fréquences basses (2-4 Hz) = tonification.
+      Fréquences hautes (80-120 Hz) = dispersion.
+  laser:
+    description: >
+      Le laser peut remplacer l'aiguille dans certains cas.
+      Utile pour les points très sensibles (ex: 27TM au
+      laser pour augmenter le déblocage du Yang à la tête,
+      cas Martine).
+  moxas:
+    description: >
+      Chaleur par moxas (armoise) — tonifie fortement.
+      Moxas sur aiguille = combinaison puissante.
+      "Le sang et l'énergie adorent la chaleur."
+      Moxas au bâton d'encens pour les points où on ne
+      pose pas d'aiguille (ex: 1Rte en vide de sang).
+  massage:
+    description: >
+      Moyens à disposition avant maîtrise de l'aiguille.
+      Massage Fa = tonifie. Tui, Na, Han = disperse.
+      Doux et lent = disperse. Percutant et friction rapide = tonifie.
+      Massage ponctiforme avec sphère arrondie ~5mm pour
+      les points de déblocage YY (27TM, 24JM).
+
+# ═══════════════════════════════════════════════════
+# 14 NOTIONS FONDAMENTALES RÉCAPITULÉES
+# ═══════════════════════════════════════════════════
+
+quatorze_notions_fondamentales:
+  description: >
+    Le tome 5 récapitule 14 notions fondamentales avant
+    d'aborder les points et cas pratiques. Elles résument
+    l'ensemble de la formation YY des tomes 1 à 4.
+  notions:
+    1: "Le Yin/Yang est la première grille de lecture — TOUJOURS"
+    2: "Le Yin est préexistant au Yang et le génère"
+    3: "Priorité au Yin dans les insuffisances"
+    4: "Tout symptôme peut être Yin ou Yang — les tableaux seuls ne suffisent pas"
+    5: "Les pouls sont indispensables pour connaître la cause réelle"
+    6: "Nature (froid/chaleur) + Siège (haut/bas, externe/interne)"
+    7: "4 combinaisons possibles (YY, YYin, YinY, YinYin)"
+    8: "4 déséquilibres + Yin apparent + Yang apparent"
+    9: "Méthode I Sou Jen pour les 4 cas + points"
+    10: "Méthode Siao Tse pour niveaux + saisons + points Su"
+    11: "Sectorisation en 4 cadrans avec correspondances"
+    12: "Points généraux (3 Yang + 3 Yin) par plan (psychique/physique/organique)"
+    13: "Points locaux (haut/bas) pour chaque cadran"
+    14: "Blocage YY — toujours y penser en premier si contradiction questionnaire/pouls"
+
+# ═══════════════════════════════════════════════════
+# ÉTATS DÉPASSÉS
+# ═══════════════════════════════════════════════════
+
+etats_depasses:
+  definition: >
+    Quand un déséquilibre a progressé au-delà de la capacité
+    de l'organisme à compenser. L'énergie est bloquée ou
+    épuisée à un point tel que les traitements classiques
+    ne répondent plus immédiatement.
+  signes:
+    - absence de réaction aux traitements pourtant adaptés
+    - pouls ne changeant pas malgré les points corrects
+    - opposition persistante questionnaire/pouls
+  conduite:
+    1: "Vérifier d'abord un blocage YY (27TM d + 24JM d)"
+    2: "Si pas de blocage, vérifier blocage sur un méridien (zones)"
+    3: "Si pas de réaction → laisser évoluer et revoir"
+    4: "Adapter le rythme des séances à la gravité"
+
+# ═══════════════════════════════════════════════════
+# RYTHME DES SÉANCES
+# ═══════════════════════════════════════════════════
+
+rythme_seances:
+  pathologie_aigue_recente: "éventuellement 2 fois par semaine"
+  pathologie_ancienne: "tous les 15 jours, puis toutes les 3 semaines, max 1 mois"
+  lune_et_seances: >
+    Programmer les séances en fonction des lunes et énergies.
+    Lune montante = extériorisation du Yin vers le Yang.
+    Lune descendante = intériorisation du Yang vers le Yin.
+    15 jours = un demi-cycle lunaire (montante/descendante).
+  conseil_patient: >
+    Même si le symptôme initial va mieux, conseiller de
+    poursuivre le traitement pour traiter l'aspect général
+    et garantir un rétablissement complet, efficace et
+    durable (cas Florence).
+
+# ═══════════════════════════════════════════════════
+# RÉSUMÉ ORGANES/MÉRIDIENS CLINIQUE
+# ═══════════════════════════════════════════════════
+
+resume_organes_meridiens_clinique:
+  vesicule_biliaire:
+    role: >
+      Chef d'orchestre de tous les organes. Le plus Yang
+      de tous les organes. Tous lui obéissent. Commande
+      le diaphragme (muscle). Le Chao Yang (TR+VB) est
+      l'axe de la vie de relation: maintenir l'énergie en
+      haut du corps et en surface pour activer la fonction
+      mentale et la protection du corps par la vigilance.
+    pathologie_cafe_au_lait: >
+      Le mélange caféine + lactéine bloque instantanément
+      la VB pour la matinée. Peut déclencher de multiples
+      troubles jusqu'à des états dépressifs profonds.
+      Pas de laitage avec le café. Pas de yaourt non plus.
+      Au moins 1h avant ou après un café.
+      Thé au lait = même chose mais 5x moins prononcé.
+    recommandation_cafe: >
+      Si on boit du café: boire un verre d'eau AVANT et
+      APRÈS pour le diluer.
+  estomac:
+    role_yang: >
+      L'Estomac fabrique le Yang pour tout l'organisme.
+      Quand il fonctionne bien → tout dans la tranquillité.
+      S'il est épuisé → tout le Yang quotidien épuise
+      directement les reins.
+    yang_ming_descente: >
+      Tout mouvement de DESCENTE dans le corps dépend du
+      Yang Ming (E+GI). Si le Yang Ming est contrarié par
+      le Chao Yang (agitation) → la descente ne se fait pas
+      (cas Marie-Paule: aérophagie, gaz, gonflements).
+  foie:
+    blocage_3F_7F: >
+      Dès que le Foie subit une contrainte (à tous niveaux),
+      les points 3F et 7F se bloquent. Il faut les disperser.
+      Après dispersion, vérifier le pouls du F — s'il remonte,
+      il n'y avait que blocage méridien. S'il ne remonte pas →
+      cycle Raé → traitement 5E (dispersion points fils).
+    tsiue_yin: >
+      L'axe Tsiué Yin (F en bas + MC en haut) gère le
+      passage de l'énergie Yin du bas vers le haut du corps.
+      Plénitude = 18JM d (point nœud du Tsiué Yin, liaison
+      haut/bas, centre des émotions).
+  rate:
+    organe_plus_yin: >
+      La Rate est l'organe le plus Yin du corps. Elle assume
+      sa fonction grâce au Yang venant de l'Estomac. Si E
+      faible → Yang utilisé vient directement des Reins
+      (énergie ancestrale), ce qui les épuise.
+    cede_difficilement: >
+      La Rate est un organe qui cède difficilement au
+      traitement. Il faut y revenir souvent. On sollicite
+      la Rate toute la journée pour faire des choix.
+    soucis_anxiete: >
+      Le méridien de Rate est le méridien des soucis et
+      de l'anxiété. 5Rte d = grand point des soucis.
+  rein:
+    deux_energies: >
+      Le Rein comprend deux énergies: le Yin et le Yang
+      fondamentaux liés à l'hérédité. Si Yang des reins
+      s'affaiblit → excès Yin des reins → signes urinaires.
+      À l'inverse → signes hormonaux et gynécologiques.
+    yang_reins_donne: >
+      Le Rein Yang donne son Yang à l'Estomac et à tout
+      l'organisme. Il donne la confiance en soi.
+    vide_rein_yang_traitement: >
+      Toujours restaurer EN PREMIER l'énergie Yang de
+      l'Estomac avant de traiter le Rein Yang (cas Virginie:
+      1ère séance = 4GI t + 12JM + 25E t + 36E t avec moxas;
+      2ème séance = 2R t (point Feu du R) + 8MC t (point Feu MC)
+      ou 4TM t + 23V t).
+  chocolat:
+    analyse: >
+      Contient magnésium (besoin réel des adeptes → oligo-
+      éléments en compensation) + théobromine (= bromure,
+      calmant puissant du foie et de la circulation, ralentit
+      fortement → congestion hépatique → crise).
+
+# ═══════════════════════════════════════════════════
+# TRANSPIRATION — SIGNIFICATION
+# ═══════════════════════════════════════════════════
+
+transpiration_signification:
+  tete: "vide du Cœur"
+  cou_face: "Yang Ming, fonctions tube digestif, VB attaque E"
+  poitrine: "Foie"
+  jour_tete: >
+    Les gens qui transpirent beaucoup le jour, surtout
+    de la tête, se vident l'énergie du Cœur. Le Feu
+    Empereur peut être vide.
+
+# ═══════════════════════════════════════════════════
+# RÊVES — SIGNIFICATION
+# ═══════════════════════════════════════════════════
+
+reves_signification:
+  reves_abondants: "Foie"
+  cauchemars: "Vésicule Biliaire"
+  reves_eau: >
+    Le rêve avec de l'eau correspond à un vide de l'élément
+    Eau (Rein). Plus d'une fois par mois = pathologie.
+  lien_organe: >
+    Si le Cœur est vide, c'est par l'Eau (Rein) qu'on
+    traitera (car Eau contrôle Feu dans les 5E).
+
+# ═══════════════════════════════════════════════════
+# CERVICALES — DÉPENDANCES
+# ═══════════════════════════════════════════════════
+
+cervicales_dependances:
+  element: Bois
+  superieures: VB
+  inferieures: F
+  mouvements:
+    flexion_extension: "Tou Mo (3IG, 62V)"
+    rotation_inclinaison_laterale: "Chao Yang (VB)"

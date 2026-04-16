@@ -1,0 +1,370 @@
+# CINQ ÉLÉMENTS — CORRESPONDANCES COMPLÈTES, UNIVERS, COULEURS, LUNE
+# Source : PVII Les 5 Éléments — Physiologie tome 2, pp. 7-22
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_correspondances.yaml
+  source: PVII_5Elem_t2_p7_22
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_fondements.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_saisons.yaml
+
+# ─────────────────────────────────────────────────
+# 5 ÉLÉMENTS ET UNIVERS / SYSTÈME SOLAIRE
+# ─────────────────────────────────────────────────
+
+cinq_elements_et_univers:
+  principe: >
+    Chaque planète est la cristallisation d'une des 5 énergies.
+    Seule la Terre (planète) réalise l'équilibre parfait des 5
+    en les réunissant toutes. Les autres planètes sont le
+    miroir d'une seule énergie dominante.
+  planetes:
+    Bois: Jupiter
+    Feu: Mars
+    Terre: Saturne
+    Metal: Venus
+    Eau: Mercure
+  classification:
+    telluriques_Yin: [Mercure, Venus, Terre, Mars]
+    gazeuses_Yang: [Jupiter, Saturne, Uranus, Neptune]
+  soleil_et_lune:
+    Soleil: psychisme_mentalite_Chen
+    Lune: emotions_sentimentalite
+  double_effet_planetaire:
+    1: miroir_reflechissant_energie_galaxie
+    2: masse_propre_emettant_energie_specifique
+  reference_Steiner: >
+    Anthroposophie de Rudolf Steiner confirme ces
+    correspondances planètes-énergies dans le cadre
+    de la médecine anthroposophique.
+  source: PVII-t2-p7_9
+
+# ─────────────────────────────────────────────────
+# COULEURS SYMBOLIQUES DES 5 ÉLÉMENTS
+# ─────────────────────────────────────────────────
+
+couleurs_symboliques:
+  correspondances:
+    Bois: bleu_vert
+    Feu: rouge
+    Terre: jaune_safran
+    Metal: blanc
+    Eau: noir
+  precision: >
+    Noir et blanc ne sont PAS des couleurs au sens strict.
+    Les 3 couleurs fondamentales sont bleu, rouge, jaune.
+
+  construction_symbolique:
+    carre:
+      nombre: 4
+      signification: vie_materielle
+      elements: [Metal_blanc, Eau_noir, Terre_jaune, Bois_bleu_vert]
+      position: Metal_et_Eau_en_bas_Terre_et_Bois_en_haut
+    triangle:
+      nombre: 3
+      signification: esprit_immateriel
+      element: Feu_pourpre_au_sommet
+      position: au_dessus_du_carre
+    union_carre_triangle:
+      nombre_sacre: 7
+      signification: >
+        Nombre sacré universel = union de la matière (4)
+        et de l'esprit (3). On le retrouve dans toutes
+        les traditions : 7 jours, 7 notes, 7 chakras, etc.
+    charnieres:
+      Bois: entre_Ciel_et_Terre_Yang_montant
+      Terre: entre_Ciel_et_Terre_centre_reference
+  source: PVII-t2-p10_13
+
+# ─────────────────────────────────────────────────
+# LUNE ET 5 ÉLÉMENTS — CALENDRIERS
+# ─────────────────────────────────────────────────
+
+lune_et_cinq_elements:
+  4_calendriers:
+    astronomique: base_soleil_365j
+    civil_agricole: base_soleil_adapte_saisons
+    lunaire_Tet: base_lune_12_lunes_354j
+    energetique_acupuncteur: >
+      Combinaison solaire + lunaire. L'acupuncteur
+      travaille avec les deux simultanément.
+  lune:
+    nombre_lunes_par_an: 12
+    duree_lune: 29_jours_12_heures
+    total: 354_jours
+    ecart_solaire: 11_jours_par_an
+  cycle_60_lunes:
+    duree: 5_ans
+    base: 10_Kan_x_6
+    tableau_10_Kan:
+      Yang_Bois: Kia
+      Yin_Bois: I
+      Yang_Feu: Ping
+      Yin_Feu: Ting
+      Yang_Terre: Meou
+      Yin_Terre: Ke
+      Yang_Metal: Keng
+      Yin_Metal: Sin
+      Yang_Eau: Jenn
+      Yin_Eau: Kouei
+    alternance: Yang_puis_Yin_pour_chaque_element
+
+  critique_themes_energetiques:
+    position_Bollet: >
+      Les "thèmes énergétiques" fondés sur le R.P. Houang
+      sont problématiques car les tables chinoises ont subi
+      257 changements de calendrier en 2000 ans, avec
+      réinitialisations impériales à chaque dynastie.
+    fiabilite: 80_pourcent_exactitude_previsions_Bollet
+    consequences: >
+      Ne pas se fier aveuglément aux thèmes énergétiques
+      basés sur les dates de naissance. Les utiliser comme
+      indication, pas comme certitude.
+  source: PVII-t2-p14_17
+
+# ─────────────────────────────────────────────────
+# TABLEAU COMPLET DES TCHI DES 5 ÉLÉMENTS
+# ─────────────────────────────────────────────────
+
+tableau_tchi_complet:
+  note: >
+    Tableau des correspondances systématiques de chaque
+    élément. Source PVII-t2-p18-19. Fondamental pour
+    le raisonnement clinique par les 5 éléments.
+
+  Bois:
+    therapeutique: acupuncture
+    planete: Jupiter
+    psychisme: Roun
+    vertu: charite
+    meridiens: [F, VB]
+    relation: pere_fils
+    expression: cri
+    voix: colereux
+    sentiment: colere
+    position: debout
+    ministere: general_des_armees
+    cereale: ble
+    viande: poulet
+    couleur: bleu_vert
+    son: Kio
+    odeur: rance
+    saveur: acide
+    sens: vue
+    liquide: larmes
+    organe_des_sens: oeil
+    expansion: ongle
+    tissu: tendon_nerf
+    entraille_curieuse: aucune
+    Fou: VB
+    Tsang: Foie
+    moment: naissance_matin
+    substance: os_cartilage_dur
+    mouvement: vent
+    climat: vent_doux
+    saison: printemps
+    orient: Est
+
+  Feu:
+    therapeutique: pharmacopee
+    planete: Mars
+    psychisme: Chen
+    vertu: rite
+    meridiens: [C, IG, MC, TR]
+    relation: frere_soeur
+    expression: parole
+    voix: rieur
+    sentiment: joie
+    position: couche
+    ministere: empereur
+    cereale: millet_glutineux
+    viande: mouton
+    couleur: rouge
+    son: Tche
+    odeur: brule
+    saveur: amer
+    sens: gout
+    liquide: sueur
+    organe_des_sens: langue
+    expansion: teint
+    tissu: vaisseaux
+    entraille_curieuse: vaisseaux_sanguins
+    Fou: IG
+    Tsang: Coeur
+    moment: croissance_midi
+    substance: gaz
+    mouvement: chaleur
+    climat: chaleur
+    saison: ete
+    orient: Sud
+
+  Terre:
+    therapeutique: dietetique
+    planete: Saturne
+    psychisme: I_Yi
+    vertu: fidelite
+    meridiens: [Rte, E]
+    relation: maitre_serviteur
+    expression: chant
+    voix: chantant
+    sentiment: souci_reflexion
+    position: assis
+    ministere: grenier_public
+    cereale: millet
+    viande: boeuf
+    couleur: jaune
+    son: Kong
+    odeur: parfume_sucre
+    saveur: doux
+    sens: tact
+    liquide: salive_epaisse
+    organe_des_sens: bouche_levres
+    expansion: levres
+    tissu: chair_muscle
+    entraille_curieuse: aucune
+    Fou: Estomac
+    Tsang: Rate
+    moment: maturite_apres_midi
+    substance: liquide
+    mouvement: humidite
+    climat: humidite
+    saison: 5eme_saison_fin_ete
+    orient: Centre
+
+  Metal:
+    therapeutique: moxibustion
+    planete: Venus
+    psychisme: Pro_Po
+    vertu: justice
+    meridiens: [P, GI]
+    relation: ami
+    expression: pleurs
+    voix: larmoyant
+    sentiment: tristesse
+    position: couche_sur_ventre
+    ministere: 1er_Ministre
+    cereale: riz
+    viande: cheval
+    couleur: blanc
+    son: Chang
+    odeur: chair_crue
+    saveur: piquant
+    sens: odorat
+    liquide: mucus_nasal
+    organe_des_sens: nez
+    expansion: pilosite
+    tissu: peau_poils
+    entraille_curieuse: aucune
+    Fou: GI
+    Tsang: Poumon
+    moment: declin_soir
+    substance: mineral
+    mouvement: secheresse
+    climat: sec_et_frais
+    saison: automne
+    orient: Ouest
+
+  Eau:
+    therapeutique: gymnastique_Tao_Yin
+    planete: Mercure
+    psychisme: Tche_Zhi
+    vertu: sagesse
+    meridiens: [R, V]
+    relation: epoux_epouse
+    expression: gemissement
+    voix: gemissant
+    sentiment: peur
+    position: debout_incline
+    ministere: fonctionnaire_habile
+    cereale: haricot
+    viande: porc
+    couleur: noir
+    son: Yu
+    odeur: pourri
+    saveur: sale
+    sens: ouie
+    liquide: salive_fluide
+    organe_des_sens: oreille
+    expansion: cheveux
+    tissu: os
+    entraille_curieuse: os_moelle_cerveau
+    Fou: Vessie
+    Tsang: Rein
+    moment: mort_repos_nuit
+    substance: cristal_sel
+    mouvement: froid
+    climat: froid
+    saison: hiver
+    orient: Nord
+
+  schemas_expliques:
+    figure_tableau: >
+      Tableau en 5 colonnes (Bois, Feu, Terre, Métal, Eau)
+      avec toutes les correspondances ci-dessus en lignes.
+      Chaque ligne représente un critère (planète, psychisme,
+      vertu, etc.) et son association à chaque élément.
+  source: PVII-t2-p18_19
+
+# ─────────────────────────────────────────────────
+# CHING ET IÉ — LIQUIDES ORGANIQUES
+# ─────────────────────────────────────────────────
+
+ching_et_ie:
+  Ching:
+    nature: Yang_externe
+    circule_avec: Oe
+    lieu: teguments_surface
+    fonction: sudation_transpiration
+  Ie:
+    nature: Yin_interne
+    lieu: profondeur_muscles_articulations
+    fonction: lubrification_musculaire_articulaire_LCR
+  source: PVII-t2-p19
+
+# ─────────────────────────────────────────────────
+# RÉSUMÉ ACTIVITÉS ORGANIQUES
+# ─────────────────────────────────────────────────
+
+resume_activites_organiques:
+  Foie:
+    resume: >
+      Bouclier de l'organisme, défenses (oé), sang veineux,
+      métabolismes (acides gras, bilirubine, sucres, protéines),
+      anticoagulant, IG dans FM (métabolise solides purs).
+  Coeur:
+    resume: >
+      Propulse sang artériel, siège du Chen (conscience,
+      psychisme, mentalité), dirige la langue et la parole.
+      MC = sentiments et émotions → mots de la parole.
+  Rate:
+    resume: >
+      Grenier de l'organisme, toutes les mutations du sang
+      et de l'énergie, gère liquides organiques, maintient
+      les formes (chair, muscles, membres, organes en place).
+  Poumon:
+    resume: >
+      Énergie de l'air, maître de la peau et des poils,
+      rythme cardiaque via l'énergie, nez et odorat,
+      énergie physique de l'organisme.
+  Rein:
+    resume: >
+      Énergie ancestrale, tsing, sens du regard profond,
+      os et cheveux, oreille et audition.
+      R Yin = Eau/filtration. R Yang = Feu/vitalité.
+      Racines du Yin et du Yang de tout l'organisme.
+  VB:
+    resume: justice_jugement_decision
+  Estomac:
+    resume: mer_de_l_energie_1er_tri
+  IG:
+    resume: 2eme_tri_chaleur_separation_pur_impur
+  GI:
+    resume: impur_elimination
+  Vessie:
+    resume: gestion_liquides_urines
+  Trois_Foyers:
+    resume: FS_respiration_FM_alimentation_FI_elimination
+  source: PVII-t2-p20_22

@@ -1,0 +1,340 @@
+# ESTOMAC — FOU DE L'ÉLÉMENT TERRE
+# Reconstitué à partir des données dispersées dans le corpus
+# Sources multiples : PVI t2, PVI t3, PVI EEA t2, PIV YY CP I
+
+meta:
+  fichier: estomac.yaml
+  element: Terre
+  couplage_tsang: Rate
+  relation: Biao_Li
+  statut: reconstitue_a_completer
+  note: >
+    Aucun polycopié traité ne dédie une section individuelle complète
+    à l'Estomac. Cette fiche est reconstruite à partir de toutes les
+    données dispersées dans les 11 polys traités. À enrichir avec
+    les 3 Foyers (t1+t2) et futurs polys.
+  liens:
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/role_general_fou.yaml
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+
+# =============================================================================
+# IDENTITÉ
+# =============================================================================
+
+identite:
+  nature: viscere_creux_Fu
+  element: Terre
+  polarite: Yang_de_la_Terre
+  foyer: FM_Foyer_Moyen_D8_a_D12
+  axe: Yang_Ming_avec_GI
+  couple_Yin: Rate
+  rang_hierarchique: >
+    6ème position Su Wen ch.8. Charnière entre les charges nobles
+    (C, P, F, VB, Tan Zhong) et les charges de transit (GI, IG).
+  grand_meridien: Yang_Ming
+  source: [PVI-EEA-t2, PVI-t2, PIV-YY-CP_I]
+
+# =============================================================================
+# FONCTIONS
+# =============================================================================
+
+fonctions:
+  charge_SW8: >
+    L'Estomac (avec la Rate) a la charge des granges et des greniers.
+    Les 5 saveurs en sortent. YUN HUA = transporter et transformer.
+    Double mouvement : engranger ET venir chercher ce qui a été
+    engrangé pour nourrir le peuple.
+
+  fabrique_du_Yang:
+    principe: >
+      L'Estomac fabrique le Yang pour tout l'organisme.
+      Quand il fonctionne bien → tout dans la tranquillité.
+      S'il est épuisé → tout le Yang quotidien épuise
+      directement les Reins.
+    dependance_Rein_Yang: >
+      L'E ne peut fabriquer son Yang que s'il reçoit l'impulsion
+      du Rein Yang (R+). Sans Yang du R+, l'estomac est vide de Yang.
+      R+ fournit son Yang à la Rate et à l'Estomac.
+    source: [PIV-YY-t5-protocole, ZANG_FU/rein.yaml]
+
+  acquis_Ciel_Posterieur:
+    principe: >
+      L'Estomac (commandé par la Rate) = réceptacle des énergies
+      nourricières = l'ACQUIS. Par opposition au Rein = l'INNÉ.
+      Le couple Rein/Rate-Estomac incarne le passage du Ciel
+      Antérieur au Ciel Postérieur.
+    tronc_enracinement: >
+      Le tronc d'enracinement du Ciel Postérieur = E/Rte.
+      Le tronc du Ciel Antérieur = R.
+    source: [PIV-YY-t2, PVI-t3-p27]
+
+  premier_tri:
+    principe: >
+      Les Souffles des aliments solides entrent à l'E.
+      Premier tri : le clair monte vers la Rate (Jing Wei),
+      le trouble descend vers l'IG pour séparation approfondie.
+    jing_wei: >
+      Jing Wei (subtilité essentielle) sort de l'Estomac pour
+      aller vers la Rate où d'autres transformations produisent
+      les liquides interstitiels (Jin Yé). JING = aspect clair
+      (fluide, rapide), WEI = fin, menu, miniaturisé.
+    ku_tchi: >
+      Ku Tchi = énergie nutritionnelle issue des 1er et 2ème tris
+      de l'alimentation (estomac puis IG). La Rate commande sa
+      montée au FS. Origine de l'énergie Iong.
+    source: [PVI-t3-circuit, LEXIQUE/lexique_termes_ieatc.yaml]
+
+  yun_hua:
+    definition: >
+      YUN HUA = transporter et transformer. Fonction spécifique
+      de E/Rte. Transporter dans toutes les parties du corps
+      et assurer les transformations sur le bol alimentaire.
+      C'est la fonction de la Rte, PAS celle des Fu du tube digestif.
+    source: PVI-EEA-t2-p46
+
+  secretion_gastrique:
+    principe: >
+      Dès la mastication, les aliments libèrent des particules
+      liées à leur goût. La muqueuse de l'estomac sécrète
+      immédiatement un suc gastrique SPÉCIFIQUE de cet aliment
+      avant même que la 1ère bouchée n'y parvienne.
+    note: >
+      La muqueuse de l'estomac est un tissu de la Rate, pas de
+      l'Estomac. Les sucs gastriques sont des liquides appartenant
+      à la Rate. L'estomac = poche musculaire contenant la muqueuse
+      de la Rate. L'estomac les transforme en très acides (Bois/VB).
+    source: PVI-t2-p34
+
+# =============================================================================
+# YANG MING — AXE DE DESCENTE
+# =============================================================================
+
+yang_ming:
+  principe: >
+    Tout mouvement de DESCENTE dans le corps dépend du Yang Ming
+    (E+GI). Le Yang Ming est l'axe horizontal fin, mouvement
+    Yang→Yin (Feu→Eau). Descend. Équilibré entre sang et énergie.
+    Le plus régulier des axes.
+  contrariation: >
+    Si le Yang Ming est contrarié par le Chao Yang (agitation)
+    → la descente ne se fait pas (aérophagie, gaz, gonflements).
+  clinique: >
+    36E t tire le sang vers le bas dans l'axe Yang Ming.
+    E = maître de tout le Yang (36E).
+    Rate = maître de tout le Yin (3Rte).
+  source: [PIV-YY-t5-protocole, PVII-t3]
+
+# =============================================================================
+# RELATION AVEC LA RATE
+# =============================================================================
+
+relation_rate:
+  principe: >
+    La Rate commande l'Estomac. La Rate gouverne tout le travail
+    digestif, l'Estomac est son outil. Indissociables.
+  granges_greniers: >
+    La Rate, liée à E/IG/GI/V/TR, fait le tronc d'enracinement
+    des granges et greniers (Su Wen chap. 9). Les 5 Fu de transport
+    et transformation (E, IG, GI, V, TR) sont sous son rattachement.
+  yang_pour_rate: >
+    La Rate est très Yin et a particulièrement besoin de Yang pour
+    fonctionner. Yang fourni par l'Estomac et le Rein Yang (R+).
+    Sans Yang → congestion rapide avec gonflement (stagnation sang).
+  foyer_moyen: >
+    Lieu d'échange, espace où les énergies respectives mutent et
+    se transforment. Comprend à la fois le Ciel Yang et la Terre Yin.
+    Polarité bipolaire équilibrée Yin=Yang.
+  source: [PVI-t2, PVI-t3, PIV-YY-t2]
+
+# =============================================================================
+# POINTS PRINCIPAUX
+# =============================================================================
+
+points_principaux:
+  36E:
+    nom_chinois: Tsou_Sann_Li
+    traduction: Trois_distances_du_pied
+    nature: Yang_local_MI_et_Yang_general
+    indications:
+      - grand point Yang local genou + MI + Yang général
+      - >
+        Grand point de la sérénité ou de la "divine indifférence".
+        Tire vers le bas tout ce qui est au-dessus de la ceinture
+        dans l'axe Yang Ming. Action nutritionnelle majeure.
+      - >
+        Aide au démarrage matinal, supprime le coup de pompe.
+        Fait le plus grand bien sur les suites de mononucléose.
+      - avec moxas sur aiguille en tonification = maximum efficacité
+    alerte: >
+      ATTENTION: 36E t tire le sang vers le bas. Ne pas utiliser
+      en cas de règles hémorragiques.
+    trinite_Yang: >
+      4GI t + 12JM t + 36E t = trinité de tonification Yang
+      (méthode I Sou Jen pour Y/Yin).
+    source: PIV-YY-t5
+
+  25E:
+    nom_chinois: Tian_Shu
+    traduction: Pivot_du_Ciel
+    indications:
+      - purifie et relance le Yang du GI
+      - zone de palpation abdominale (flanc droit = Métal, flanc gauche = Bois)
+    source: PIV-YY-t5
+
+  12JM:
+    note: >
+      12JM (Tchong Koann) = milieu de l'estomac. Grand point Maître
+      du Yang organique. Tonifie le Yang de tous les organes depuis
+      l'Estomac. Régularise les soucis, idées noires, permet de tout
+      digérer (physique, affectif, psychique). Voir POINTS/points_yin_yang.yaml.
+
+  points_su:
+    Ting_Metal: 45E
+    Iong_Eau: 44E
+    Iu_Bois: 43E
+    King_Feu: 41E
+    Ro_Terre: 36E
+    source: PVII-t3
+
+# =============================================================================
+# PROTOCOLE VIDE DE REIN YANG (via Estomac)
+# =============================================================================
+
+protocole_vide_R_Yang:
+  regle: >
+    Toujours restaurer EN PREMIER l'énergie Yang de l'Estomac
+    avant de traiter le Rein Yang. Sinon le R Yang ne peut pas
+    répondre au traitement.
+  seance_1: >
+    4GI t + 12JM t + 25E t + 36E t avec moxas
+    (restauration du Yang par E d'abord)
+  seance_2: >
+    2R t (point Feu du R) + 8MC t (point Feu du MC)
+    ou 4TM t + 23V t (Ming Menn et Iu dos du R)
+  source: PIV-YY-t5-cas_Virginie
+
+# =============================================================================
+# DIAGNOSTIC
+# =============================================================================
+
+diagnostic:
+  pouls:
+    position: >
+      L'Estomac se lit au pouls. Yang Ming dans le 4ème principe
+      du pouls chinois.
+  palpation_abdominale:
+    zone_Terre_centre: nombril
+    zone_Terre_digestive: sus_ombilicale
+    si_bloque_centre: disperser_5Rte_d
+    si_bloque_digestive: disperser_6Rte_d
+    source: PVII-t4-p71_76
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  premier_tri_detail: >
+    Le 1er tri sépare le pur de l'impur, le fin du grossier :
+    — Ku Tchi (énergie nutritionnelle pure) → monte directement au
+      thorax, vers les poumons, propulsé par la Rate
+    — Solides purs (substances nutritives) → transmis au Foie
+    — Ching Ié (jus de l'alimentation) → transmis à la Rate
+    — Bol alimentaire restant → dirigé vers l'IG
+  estomac_chinois: >
+    En MTC, l'estomac commence à la gorge et comprend l'œsophage.
+    Il s'étend jusqu'au duodénum et jéjunum (début de l'IG en
+    physiologie occidentale). Les dents lui appartiennent.
+  lait_maternel: >
+    Le lait est une transformation du sang maternel. Le sein est sous
+    la dépendance du méridien de l'Estomac (17E = téton). L'ensemble
+    du tube digestif de l'enfant n'atteint sa maturité fonctionnelle
+    qu'à la fin du 3ème mois (fabrication autonome de l'énergie oé
+    par le GI).
+  yang_ming_maturation_enfant: >
+    Le Yang Ming de l'enfant n'est totalement mature qu'aux environs
+    de sa 6ème année. Tous les enfants sont "fragiles" du tube digestif
+    jusque-là. Il faut au moins 5 ans pour connaître toutes les
+    énergies de la Terre (chaque année = 1 des 5 éléments).
+  dents_et_marche: >
+    Il est courant qu'un enfant faisant ses dents (E) tôt marchera
+    (squelette = R) plus tardivement.
+  yang_ming_lumineux: >
+    Yang Ming = "Yang Lumineux" / "Lumière du Yang". Quand le Yang
+    Ming fonctionne bien, il draine toutes les impuretés du Yang
+    (3 Yang et les Fou) par le GI. Pureté par tonification de
+    12JM t et 25E t. Le méridien de l'Estomac synthétise la lumière
+    comme les feuilles de l'arbre. La lumière est l'énergie
+    fondamentale pour activer la physiologie des Fou et du psychisme.
+  regle_drainage: >
+    RÈGLE FONDAMENTALE : tous les drainages du corps doivent se faire
+    sur les Fou et NON les Tsang. Drainer les Tsang (homéopathie,
+    phytothérapie) leur demande de faire eux-mêmes ce travail,
+    épuisant leur énergie Tsing.
+  foyer_moyen_barriere: >
+    Le FM est la "barrière interne — Neï Koann" = barrière entre ce
+    qui vient de l'extérieur (alimentation) et l'interne du corps.
+    Son énergie (Estomac) est la Maîtresse de tout ce foyer.
+    L'opération digestive n'est réalisable que grâce à Yuan Tchi
+    qui active le feu nécessaire au métabolisme digestif.
+  points_commande_FM:
+    12JM: Maître du Yang du foyer, point Mo de l'E, Maître du Yang interne
+    13F: Maître du Yin du foyer, Mo de la Rte, Maître énergie des 5 Tsang
+    6MC: Neï Koann, Maître du Yin digestif et psychique
+  pathologies_barriere:
+    yang_exces: >
+      Barrière bloquée sur E et VB (Yang). Plénitude du FS. Pouls
+      superficiels loge II en excès, profonds faibles. Signes:
+      régurgitation, renvois, vomissements, reflux acides.
+      Traitement: 6MC t + 13F t + 12JM d.
+    yin_exces: >
+      Barrière bloquée sur F et Rte (Yin). Plénitude du FI. Pouls
+      profonds loge II en excès, superficiels en vide. Signes:
+      stagnation, digestion bloquée.
+      Traitement: 12JM t + 6MC d + 4GI t + 36E t.
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  muscle_blanc_lisse: >
+    L'Estomac est un muscle blanc lisse (contrairement aux muscles
+    striés rouges du système locomoteur gérés par le Foie). Son
+    travail est mécanique : il malaxe et écrase les aliments en
+    les mélangeant avec les essences digestives (hormones/sucs).
+  orifices_detail: >
+    Cardia : sphincter supérieur (œsophage-estomac) au niveau 16JM.
+    Pylore : sphincter inférieur (estomac-duodénum) au niveau 21R/22E.
+    Les deux sont hermétiquement fermés pendant le malaxage.
+  temporalite_digestion: >
+    20 minutes après cessation de la prise alimentaire, l'estomac
+    commence le malaxage. S'ensuit un va-et-vient permanent de 2
+    heures entre estomac et duodénum. La VB se vide d'un peu de bile
+    à chaque passage dans le duodénum.
+  fin_appetit_vb: >
+    La sensation de fin d'appétit est déclenchée par un message de la
+    VB. C'est elle qui décide quand l'estomac a reçu assez.
+  stenose_pylore_nourrisson: >
+    La sténose du pylore (vomissement en fusée du lait chez le
+    nourrisson) n'est qu'un simple spasme du pylore. Traitement :
+    dispersion (massage) du 21R à droite, avant chaque tétée.
+    Disparition en 2-3 jours.
+  separations_detaillees: >
+    L'estomac sépare : énergie pure (Ku Tchi) ↑ poumons / énergie
+    impure → IG / liquides purs (Ié) → Rate → 5 tsang / liquides
+    troubles → IG / solides purs → Foie / solides impurs → IG /
+    jus purs → Rate. Dégrade sans destruction l'épais en plus fin.
+  fermentation_gaz: >
+    Fermentation dans l'estomac = aérophagie : gonflement au-dessus
+    du nombril + éructations. Dans les intestins = aérocolie :
+    gonflement sous le nombril + vents. Ne JAMAIS se retenir :
+    la rétention bloque tout le Yang Ming.
+  jambes_croisees: >
+    Ne pas croiser les jambes pendant la digestion : bloque la libre
+    circulation du méridien de l'estomac au niveau des 29, 30 et 31E.
+  proverbe: "'300 pas sitôt le repas et la pharmacie reste fermée.'"
+  source: PV-3F-t2

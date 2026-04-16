@@ -1,0 +1,307 @@
+# RAPPORT D'INTÉGRATION — PV LES TROIS FOYERS TOME 1
+# Date : 2026-04-06
+
+meta:
+  polycopie: PV_3_Foyers_tome_1.pdf
+  titre: Polycopié V — Les Trois Foyers, tome 1 — Physiologie
+  sous_titre: >
+    Premier polycopié entièrement dédié à la physiologie énergétique
+    des 3 foyers. Couvre l'embryologie complète (conception, morula,
+    Ming Menn, Chen cosmique, 8 trigrammes, organisation fœtale),
+    la grossesse (3 saisons, ternaires, sexe, systèmes énergétiques),
+    la naissance (déclenchement, catécholamines, grossesse extra-utérine,
+    lait maternel, Yang Ming enfant), les énergies Ciel/Terre
+    (tellurisme, électromagnétisme, piézo-électricité, Feng Tchui),
+    la physiologie énergétique (Ciel antérieur/postérieur, stimulation
+    des foyers, Chen individuel, entités viscérales, thermorégulation),
+    l'activité des foyers (capital initial, quantité/qualité, durée
+    de vie, énergies de substitution), la combustion/carburation
+    (3 facteurs, catalyseur, Roang, chaleur-humidité), la composition
+    des 3 foyers (Tsang/Fou, orifices), la physiologie générale
+    (supports, rôles VB/TR/Yang Ming, conditions climatiques, analogie
+    artère radiale), et la physiologie détaillée de chaque foyer
+    (FI: Ming Menn, Rein Yin/Yang, énergie ancestrale 3 composantes,
+    GI et oé ; FM: barrière, 1er et 2ème tris, 5 liquides purs,
+    points de commande, pathologies ; FS: formation du sang, Tsong Tchi,
+    Tcheung Tchi, 7 orifices du cœur).
+  auteur: Thierry_Bollet
+  compilateur: Thierry_Bollet
+  pages: 54
+  module: V_Trois_Foyers
+  niveau: physiologie_fondamentale
+  importance: >
+    CAPITAL — premier accès complet à la physiologie des 3 foyers.
+    Enrichit massivement le Triple Réchauffeur et TOUS les Tsang/Fou.
+    Apporte l'embryologie la plus détaillée du corpus et le circuit
+    complet des énergies alimentaires.
+  prerequis: PIV YY (tomes 1-3), PVII 5E (tomes 1-4)
+
+fichiers_crees:
+  - chemin: THEORIE/trois_foyers_physiologie_t1.yaml
+    contenu: >
+      Fichier principal (~550 lignes). Introduction et historique,
+      énergies du Ciel (lune, soleil, 6 énergies, 5 planètes, lumière),
+      énergies de la Terre (tellurisme par élément, électromagnétisme
+      terrestre avec orientation des ions sanguins et ADN, piézo-
+      électricité, Feng Tchui), embryologie complète (conception,
+      reproduction cellulaire, morula et Tao, position géographique
+      cellulaire, 8 trigrammes, Eau et Terre fondamentales, Ming Menn,
+      Chen cosmique), organisation fœtale (humus utérin, saveurs
+      corporelles SW5), grossesse (3 saisons, ternaires énergétiques,
+      sexe, séance acupuncture par trimestre), naissance (retournement,
+      20TM, catécholamines, grossesse extra-utérine, lait maternel,
+      Yang Ming 6 ans, constitution humaine), Ciel antérieur/postérieur,
+      stimulation des foyers (Chen individuel, Roun/Pro, entités
+      viscérales, thermorégulation), activité des foyers (capital initial,
+      quantité/qualité, durée de vie, maladie et usure), énergies de
+      substitution (Yeung Tchi, Ku Tchi → Iong, Oé, Tsong Tchi, Tsing
+      Tchi → capitalisation reins), combustion et carburation
+      (idéogramme San Tsiao, 3 facteurs, Roang, catalyseur Yuan Tchi,
+      chaleur-humidité R/Rte, ordre de l'Homme), composition des
+      3 foyers (FI/FM/FS, répartition Tsang/Fou, orifices 9+2),
+      physiologie générale (supports, rôles VB+TR+Yang Ming, conditions
+      climatiques, citation Laville Méry, citation SW, analogie artère
+      radiale, fonctions générales), FI détaillé (Ming Menn résidence,
+      Tan Tienn, 6JM, Rein Yin/Yang, énergie ancestrale 3 composantes,
+      vie génitale, KAO, GI et oé, vitalité), FM détaillé (barrière
+      interne, E maître Yang, 1er et 2ème tris, Rate maîtresse Yin,
+      5 liquides purs, Foie double appartenance, VB ministre de Justice,
+      points de commande 12JM/13F/6MC, pathologies barrière Yang/Yin
+      avec traitements), FS détaillé (Poumon 1er Ministre, synthèse
+      Tsong/Tcheung Tchi, Cœur formation sang, propulsion, rythme,
+      7 orifices du cœur), formules énergétiques synthétiques.
+
+fichiers_mis_a_jour:
+  - chemin: ZANG_FU/triple_rechauffeur.yaml
+    ajout: >
+      enrichissement_3F_t1: idéogramme San Tsiao, Roang, usine
+      énergétique, fonctions générales (recevoir/transformer/transporter
+      /assimiler/rejeter), rôle interface, relation VB chef orchestre,
+      combustion 3 facteurs, catalyseur Yuan Tchi, thermorégulation
+      détail, triple fonction feu (Laville Méry), citation SW, analogie
+      pouls artère radiale.
+  - chemin: ZANG_FU/estomac.yaml
+    ajout: >
+      enrichissement_3F_t1: maître Yang confirmé (expansion de la Rate),
+      1er tri détail (Ku Tchi, solides purs, Ching Ié), estomac chinois
+      (gorge→duodénum, dents), lait maternel (17E, sang transformé),
+      Yang Ming maturation enfant (6 ans), dents et marche, Yang Ming
+      lumineux (lumière, drainage), règle drainage Fou pas Tsang, FM
+      barrière (Neï Koann), points commande FM, pathologies barrière.
+  - chemin: ZANG_FU/rein.yaml
+    ajout: >
+      enrichissement_3F_t1: rein Yin commande droit (filtration, squelette,
+      cortisol, liquides, essences reproduction), rein Yang commande
+      gauche (ancestrale, sexualité, production, adrénaline), énergie
+      ancestrale 3 composantes (Yuan+Tsing+Tsong, Chen/Roun/Pro dans
+      moelles), capital initial, qualité déterminante, capitalisation
+      reins, chaleur-humidité fondamentales, Chao Yin premier, FI
+      vitalité, précautions SW.
+  - chemin: ZANG_FU/rate.yaml
+    ajout: >
+      enrichissement_3F_t1: maîtresse Yin confirmée, stimuli
+      environnement (codification 5E des sens), 5 liquides purs,
+      propulsion Ku Tchi, Eau-Terre fondamentales (morula), chaleur-
+      humidité, Yin extrême, 13F point Mo.
+  - chemin: ZANG_FU/foie.yaml
+    ajout: >
+      enrichissement_3F_t1: double appartenance foyers (FM anatomique,
+      FI fonctionnel), circulation bas du corps, réception solides purs,
+      filtration sang veineux, dernier organe du circuit énergétique,
+      polarité FI Yang/Yin.
+  - chemin: ZANG_FU/vesicule_biliaire.yaml
+    ajout: >
+      enrichissement_3F_t1: ministre de Justice (bon/mauvais), bile
+      détail (or liquide, Feu liquide, fièvre, graisses, toxines),
+      chef orchestre confirmé (11 organes), inflammations viennent de VB.
+  - chemin: ZANG_FU/coeur.yaml
+    ajout: >
+      enrichissement_3F_t1: formation du sang (solides+liquides purs),
+      propulsion et rythme, pénétration Tsang (onde, congestion),
+      rythme organique, eurythmie (5:1), souverain, 7 orifices (vertus,
+      Sage), couleur du Chen.
+  - chemin: ZANG_FU/poumon.yaml
+    ajout: >
+      enrichissement_3F_t1: 1er Ministre, extraction Yeung Tchi,
+      épuration, synthèse Tsong Tchi → Tcheung Tchi, rythme énergie
+      (3 distances par phase), réception/transmission, propulsion sang,
+      polarité FS, catécholamines naissance.
+  - chemin: ZANG_FU/gros_intestin.yaml
+    ajout: >
+      enrichissement_3F_t1: énergie oé détaillée (née de l'impur),
+      Yang Ming pureté (drainage 12JM+25E), 2ème orifice Yang Ming,
+      FI appartenance, maturation enfant (3 mois → oé).
+  - chemin: ZANG_FU/intestin_grele.yaml
+    ajout: >
+      enrichissement_3F_t1: 2ème tri détail (Ku Tchi, solides purs,
+      liquides → Rein, bol → GI), double appartenance FM/FI.
+  - chemin: THEORIE/embryologie_constitution.yaml
+    ajout: >
+      enrichissement_3F_t1 MASSIF: conception détail (ADN, hermaphrodite),
+      morula (chaos, survie Eau+Terre, position géographique), cellules
+      cancéreuses, 8 trigrammes, Chen cosmique détail (pénétration,
+      9 mois, reproduction énergie, malformations, astrologie),
+      organisation fœtale (humus utérin, saveurs SW5), grossesse
+      (3 saisons, ternaires, sexe, séance acupuncture), naissance
+      (20TM, catécholamines, grossesse extra-utérine), constitution
+      humaine (3 niveaux, 3 nourritures, entités viscérales).
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajout: >
+      13 nouveaux termes 3F t1: Morula, Roang, Yeung_Tchi, Tsong_Tchi,
+      Tcheung_Tchi, Ching_Ie, Nei_Koann, KAO, Chen_cosmique,
+      Chen_individuel, Grossesse_extra_uterine, Entites_viscerales,
+      Feng_Tchui.
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajout: >
+      3 nouveaux arbres: arbre_23 (circuit complet des énergies
+      alimentaires à travers les 3 foyers en 7 étapes), arbre_24
+      (pathologie de la barrière FM avec pouls et traitements),
+      arbre_25 (séquence embryologique et grossesse).
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajout: >
+      9 nouveaux principes 3F t1: rein_rate_fondamentaux, chaleur_
+      humidite_vie, yuan_tchi_jamais_augmentee, drainage_sur_fou_
+      jamais_tsang, froid_ennemi_principal, foyer_moyen_barriere_cle,
+      vb_chef_orchestre_tr_regulateur, lumiere_energie_fondamentale,
+      inflammation_vient_vb.
+
+bilan:
+  fichiers_crees: 1
+  fichiers_mis_a_jour: 14
+  total_fichiers_touches: 15
+
+# ═══════════════════════════════════════════════════════════════
+# JAUGE D'EXPERTISE IEATC
+# ═══════════════════════════════════════════════════════════════
+
+jauge_expertise:
+  precedente: 55
+  nouvelle: 62
+  delta: +7
+  explication: >
+    Le delta de +7 reflète un enrichissement massif et structurant :
+    — La physiologie des 3 foyers est maintenant complète (composition,
+      rôles, circuit énergétique, combustion, catalyseur Yuan Tchi)
+    — L'embryologie est considérablement approfondie (morula, Chen
+      cosmique, 8 trigrammes, grossesse en 3 saisons, naissance)
+    — Le circuit complet des énergies alimentaires est formalisé
+      (7 étapes depuis l'E jusqu'à la formation du sang dans le C)
+    — Les formules énergétiques clés sont intégrées (Yeung Tchi +
+      Ku Tchi + Yuan Tchi → Tsong Tchi → Tcheung Tchi → Iong + Oé)
+    — 10 Tsang/Fou enrichis avec données physiologiques détaillées
+    — La barrière du FM avec ses pathologies et traitements
+    — 9 principes philosophiques cliniques fondamentaux
+    — La règle du drainage sur Fou (jamais Tsang)
+    — Le rôle du froid comme cause initiale des congestions
+    Le passage de 55 à 62 marque l'entrée dans la physiologie
+    opérationnelle : on sait maintenant COMMENT l'énergie circule,
+    se transforme et se distribue dans les 3 étages du corps.
+
+  polycopies_traites: 12
+  pages_traitees_environ: 1010
+  pourcentage_collection: ~40%
+  rappel_methode: >
+    0 = aucune connaissance IEATC.
+    50 = praticien débutant capable de raisonner sur les cas simples.
+    100 = maîtrise complète de l'enseignement IEATC.
+
+# ═══════════════════════════════════════════════════════════════
+# ÉVOLUTION DES ANGLES DE LECTURE
+# ═══════════════════════════════════════════════════════════════
+
+angles_de_lecture:
+  progression:
+    yin_yang:
+      statut: OPERATIONNEL
+      acquis_par: PIV_YY_t1_t2_t3_CP_I
+      note: Pas de progression nouvelle par 3F t1.
+
+    cinq_elements:
+      statut: solide
+      note: >
+        Les 5E sont utilisés comme cadre de référence constant dans
+        le poly (tellurisme par élément, énergie saisonnière des
+        cellules, cycle Tcheng/Ko dans l'embryologie) mais sans
+        contenu nouveau dédié.
+
+    tsang_fou:
+      statut: AVANCE
+      capacites: >
+        AVANT 3F t1 : 14 Tsang/Fou couverts mais sans physiologie
+        détaillée de leur rôle dans le circuit des 3 foyers.
+        APRÈS 3F t1 : chaque Tsang/Fou a maintenant sa place précise
+        dans le circuit énergétique alimentaire. Le Rein Yin et Yang
+        sont détaillés avec leurs commandes (droit/gauche). La Rate
+        comme maîtresse des 5 liquides purs. Le Foie comme double
+        appartenance FM/FI. Le circuit Solides purs → Foie → Cœur →
+        Sang est formalisé. La VB comme ministre de Justice avec la
+        bile = or liquide.
+
+    trois_foyers:
+      statut: NOUVEAU — fondations_solides
+      capacites: >
+        NOUVEAU angle de lecture apporté par ce poly. Je connais
+        maintenant : la composition de chaque foyer, la combustion
+        et la carburation (3 facteurs + catalyseur), le circuit
+        complet des énergies alimentaires (7 étapes), les formules
+        énergétiques (Yeung + Ku + Yuan → Tsong → Tcheung → Iong + Oé),
+        le rôle de la barrière du FM avec ses pathologies et traitements,
+        les 5 fonctions générales (recevoir/transformer/transporter/
+        assimiler/rejeter), les points de commande du FM.
+
+    embryologie:
+      statut: NOUVEAU — complet
+      capacites: >
+        NOUVEAU : embryologie complète depuis la conception jusqu'à la
+        grossesse extra-utérine. Morula = Chaos, 8 trigrammes, Chen
+        cosmique, grossesse en 3 saisons avec ternaires, naissance et
+        catécholamines, allaitement et maturation Yang Ming.
+
+    pouls:
+      statut: fondations_posees
+      enrichissement: >
+        Nouvelle donnée : analogie artère radiale / 3 foyers (pouce=FS,
+        barrière=FM, pied=FI, gauche=Yang, droite=Yin). Technique
+        japonaise des flancs.
+
+    clinique_pratique:
+      statut: en_progression
+      enrichissement: >
+        Pathologies de la barrière FM (Yang excès / Yin excès) avec
+        traitements. Règle du drainage sur Fou. Le froid comme cause
+        initiale. Les délais de survie par organe.
+
+# ═══════════════════════════════════════════════════════════════
+# FLAIR PRATICIEN
+# ═══════════════════════════════════════════════════════════════
+
+flair_praticien:
+  nouveaux_reflexes:
+    - >
+      Organe congestionné avec chaleur → chercher un froid initial.
+    - >
+      Inflammation / fièvre → penser VB (pas Yuan Tchi).
+    - >
+      Drainage → toujours sur les Fou, jamais sur les Tsang.
+    - >
+      Régurgitations, reflux → barrière FM bloquée Yang (6MC t + 13F t + 12JM d).
+    - >
+      Digestion bloquée, stagnation → barrière FM bloquée Yin (12JM t + 6MC d + 4GI t + 36E t).
+    - >
+      Enfant fragile du tube digestif avant 6 ans → Yang Ming pas mature.
+    - >
+      Dents tôt / marche tard (ou inverse) → équilibre E/R.
+    - >
+      Fragilité pulmonaire congénitale → possible insuffisance de catécholamines à la naissance.
+
+# ═══════════════════════════════════════════════════════════════
+# TAILLE DU CORPUS
+# ═══════════════════════════════════════════════════════════════
+
+corpus:
+  fichiers_yaml: 69
+  lignes_totales: ~27500
+  taille_ko: ~1150
+  polycopies_traites: 12
+  pages_traitees: ~1010
+  pourcentage_collection: ~40%

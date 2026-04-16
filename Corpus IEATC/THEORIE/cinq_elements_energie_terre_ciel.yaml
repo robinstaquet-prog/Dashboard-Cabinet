@@ -1,0 +1,283 @@
+# CINQ ÉLÉMENTS — ÉNERGIE TERRE/CIEL, PRODUCTION SAISONNIÈRE, YIN/YANG
+# Source : PVII Les 5 Éléments — Physiologie tome 2, pp. 55-61
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_energie_terre_ciel.yaml
+  source: PVII_5Elem_t2_p55_61
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_fondements.yaml
+    - THEORIE/cinq_elements_saisons.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+
+# ─────────────────────────────────────────────────
+# UN ÉLÉMENT — 5 QUALITÉS
+# ─────────────────────────────────────────────────
+
+un_element_5_qualites:
+  principe: >
+    Chaque élément possède en lui les qualités des
+    4 autres. Chaque élément contient les 5 qualités
+    énergétiques. "Tout est dans le tout."
+  exemple: >
+    Le Rein n'est pas que froid — il est aussi
+    sensible à la chaleur, au vent, à l'humidité.
+  hierarchie_interne: >
+    Dans chaque élément, les 5 qualités ont un ordre
+    d'importance et de vigueur selon la saison.
+    L'énergie qui correspond à l'élément est prédominante
+    et agit sur les autres qualités contenues dans
+    cet élément comme les éléments le font entre eux
+    (Tcheng et Ko internes à l'élément).
+  source: PVII-t2-p55
+
+# ─────────────────────────────────────────────────
+# PRODUCTION ÉNERGÉTIQUE SAISONNIÈRE
+# ─────────────────────────────────────────────────
+
+production_energetique_saisonniere:
+  regle: >
+    Chaque saison doit arriver à son heure et avoir
+    sa qualité propre.
+  non_conformites:
+    saison_en_retard:
+      description: >
+        Le froid de l'hiver persiste au printemps.
+        Carence de l'énergie Bois.
+      formule: "L'enfant ne s'est pas dégagé de la mère."
+      consequence: >
+        Le froid empiète, empêche le jeune Yang de monter.
+        Abus de la mère. Défaillance du foie.
+    saison_en_avance:
+      description: >
+        Il fait trop chaud au printemps, chaleur d'été.
+      formule: "L'enfant s'est dégagé trop tôt de sa mère."
+      consequence: >
+        Passage accéléré au Feu. Coeur activé avant
+        que le foie n'ait eu le temps.
+    saison_mauvais_caractere:
+      description: trop_humide_ou_sec_au_printemps
+      consequence: >
+        Bois et foie n'ont pas eu le temps de se nourrir
+        de l'énergie saisonnière → pathologies immédiates
+        ou ultérieures.
+  source: PVII-t2-p55_56
+
+# ─────────────────────────────────────────────────
+# SAISONS ET CLIMATS — DISTINCTION FONDAMENTALE
+# ─────────────────────────────────────────────────
+
+saisons_et_climats:
+  distinction: >
+    La saison est une PÉRIODE précise dans le temps
+    (mesurée par solstices et équinoxes).
+    Le climat est le TEMPS QU'IL FAIT au cours
+    d'une saison.
+    "Bien dissocier le temps qui passe du temps qu'il fait."
+  vegetation_suit_saison: >
+    Quel que soit le climat, la végétation suit son
+    développement : bourgeons au printemps même s'il
+    fait froid, fleurs en fin de printemps, fruits,
+    maturation fin d'été, graines en automne,
+    hibernation en hiver même si l'hiver est doux.
+  exces_tue:
+    froid: entrave_circulation_seve_et_energie
+    secheresse: stoppe_developpement
+    humidite: fait_pourrir
+    chaleur_feu: brule_tout
+    vent: deracine
+    insuffisance: tue_tout_autant
+  exces_opprime_complementaire: >
+    Excès d'humidité empêche l'assèchement nécessaire.
+    Insuffisance d'humidité permet le dessèchement.
+  exception_Chao_Yin: >
+    De toutes les énergies saisonnières, seul le
+    Chao Yin (Feu Roi) ne peut PAS tuer la vie.
+    Le Feu Roi est l'Empereur qui aime ses sujets.
+    C'est la "chaleur bénéfique" qui fait naître
+    et croître. Lié au Chen cosmique et individuel
+    et à l'énergie de reproduction.
+  source: PVII-t2-p56_57
+
+# ─────────────────────────────────────────────────
+# YIN/YANG DE LA TERRE — LES 5 MATIÈRES
+# ─────────────────────────────────────────────────
+
+yin_yang_de_la_Terre:
+  contexte: >
+    Après le Yin/Yang du Ciel (1ère année) et le début
+    du Yin/Yang de l'Homme, voici le Yin/Yang de la Terre.
+    Expression absente des ouvrages chinois — perspective
+    de présentation Bollet.
+  expression_chinoise: les_5_elements_ou_5_mouvements
+  pensee_chinoise: >
+    Mode ANALOGIQUE du classement (permet déduction),
+    PAS mode analytique (collection d'informations).
+    Les 5 éléments sont une diversification du Yin/Yang
+    comme les 6 énergies (3 Yin + 3 Yang).
+
+  manifestation_materielle: >
+    Les énergies se sont densifiées puis cristallisées
+    en donnant naissance aux 5 matières fondamentales
+    qui constituent toutes les structures = les formes.
+
+  deux_niveaux_Yin_Yang_Ciel:
+    etoiles: >
+      Trame de fond en arrière-plan des climats.
+      Yin/Yang moins perceptible (voir Kan et Che PIV t3).
+    soleil_et_lune: >
+      Yin/Yang le plus immédiat à notre perception
+      au travers des qualités climatiques.
+  ces_deux_niveaux_agissent_sur:
+    1: Yin_Yang_des_formes_materielles_ou_vivantes
+    2: constitution_physique_5_matieres
+    3: dynamisme_5_mouvements
+    4: 5_elements_matieres_substances_corporelles
+  source: PVII-t2-p57
+
+# ─────────────────────────────────────────────────
+# RAPPORT YIN/YANG — ADAPTATION ANNUELLE
+# ─────────────────────────────────────────────────
+
+rapport_yin_yang:
+  energie_annee: >
+    Déterminée par les Kan et Che (énergie dominante,
+    Maître ou Président de l'année). Toute une année
+    peut être humide, sèche, chaude, etc.
+  adaptation_tsang_fou: >
+    Au sein d'un élément, le Tsang (Yin) et le Fou
+    (Yang) subissent l'activation Yin ou Yang de
+    l'énergie de l'année.
+  exemple: >
+    Hiver peu froid → énergie en faveur de la Vessie
+    (Yang) au détriment du Rein (Yin).
+    Hiver très froid → vers le Rein au détriment
+    de la Vessie.
+  source: PVII-t2-p57_58
+
+# ─────────────────────────────────────────────────
+# NATURE ET FONCTION — YIN ET YANG
+# ─────────────────────────────────────────────────
+
+nature_et_fonction:
+  principe: >
+    En toute chose en énergétique, distinguer
+    la NATURE et la FONCTION.
+  Yin:
+    nature: lourd_dense_reste_en_bas_ou_descend
+    fonction: >
+      Dynamisé par le Yang qui l'anime d'un mouvement
+      de montée. En recevant le Yang, le Yin s'allège
+      et monte = le Yin monte.
+  Yang:
+    nature: leger_subtil_monte_ou_reste_en_haut
+    fonction: >
+      Vient dynamiser le Yin. En recevant le Yin
+      monté jusqu'à lui, le Yang s'alourdit et
+      descend = le Yang descend.
+  source: PVII-t2-p58
+
+# ─────────────────────────────────────────────────
+# CLARTÉ DU CIEL
+# ─────────────────────────────────────────────────
+
+clarte_du_ciel:
+  hemispheres: >
+    Été dans le nord = hiver dans le sud : bel
+    exemple de simultanéité Yin/Yang au niveau
+    planétaire. L'alternativité se manifeste par
+    la succession des saisons dans chaque hémisphère.
+
+  humidite_et_limpidite:
+    principe: >
+      L'état limpide ou obscurci du Ciel est lié au
+      degré d'humidité (énergie propre de la Terre).
+    ciel_clair: >
+      L'énergie descend "bas" sur Terre, au niveau
+      du sol, et en dynamise l'énergie. Celle-ci
+      remonte au Ciel (mouvement naturel du Yin).
+    ciel_obscurci: >
+      Énergie lourde, descend. Sang épaissit et
+      stagne en bas du corps.
+
+  impact_sur_Homme:
+    ciel_limpide: >
+      Énergie légère, monte, se diffuse à la tête.
+      Air et énergie fluides. Idées claires et logiques.
+      Compréhension du monde, choix des actes découlent
+      naturellement. Vie harmonieuse.
+    ciel_obscurci: >
+      Pensée obscurcie, sentiments confus.
+      Le Yin le plus dense monté trop haut
+      ou en quantité trop importante.
+    nuages_tenus: >
+      Sentiments allègres et vécus agréablement.
+    ciel_trop_limpide: >
+      ATTENTION : exaltation sans contrôle. Peut
+      dérégler le réel et conduire vers le délire.
+      Les drogues ont le même effet.
+
+  trois_parametres_monde_environnant:
+    situations: espace_ou_lieu_et_elements_reunis
+    evenements: action_et_evenement_en_cours
+    personnages: acteurs_de_l_evenement
+  source: PVII-t2-p58_59
+
+# ─────────────────────────────────────────────────
+# ÉNERGIE DE LA TERRE — ÉCHANGES CIEL/TERRE
+# ─────────────────────────────────────────────────
+
+energie_de_la_Terre:
+  Yin_de_la_Terre:
+    correspond_a: matiere_terre_roches_contenu
+    qualites: dense_lourd_inerte_tous_criteres_Yin
+    mouvement: stagne_et_descend_dans_profondeurs
+  Yang_de_la_Terre:
+    correspond_a: emanations_subtiles_transpiration_Terre
+    formes: humidite_naturelle_eau_sous_toutes_formes_gaz
+    qualites: leger_fluide_subtil_ethere
+    mouvement: monte_et_se_diffuse
+
+  Yin_du_Ciel:
+    correspond_a: energies_les_plus_densifiees_du_Ciel
+    mouvement: descend_sur_Terre
+  Yang_du_Ciel:
+    correspond_a: energies_les_plus_fines_du_Ciel
+    mouvement: reste_au_Ciel
+    note: >
+      Dans l'espace sont les énergies les plus subtiles
+      que nous ne pouvons pas connaître sur Terre.
+
+  formulation_usuelle:
+    Yang_du_Ciel: designe_Yin_et_ou_Yang_du_Ciel
+    Yin_de_la_Terre: designe_Yin_et_ou_Yang_de_la_Terre
+    sous_entendu:
+      - Yin_du_Ciel_qui_descend_sur_Terre
+      - Yang_de_la_Terre_qui_monte_au_Ciel
+    nature_etat: Yang_du_Ciel_et_Yin_de_la_Terre
+    fonction_mouvement: Yin_du_Ciel_et_Yang_de_la_Terre
+
+  echange_Ciel_Terre:
+    mecanisme: >
+      Sous l'effet de la circulation du Yang du Ciel,
+      le plus léger de la Terre (humidité, gaz) remonte.
+      Plus ça monte, plus ça subit compression du Yang
+      + abaissement température → condensation →
+      redevient lourd → pesanteur → retombe = pluie.
+    pluie: >
+      La pluie est l'énergie Yang de la Terre montée
+      au Ciel pour se charger en énergie Yang du Ciel
+      qu'elle ramène sur Terre.
+    citation: "Le Ciel féconde la Terre."
+
+  impact_sur_Homme:
+    Yang_du_Ciel: energies_tete_Esprit
+    Yin_du_Ciel: pensee_interagit_sentiments_actes
+    Yang_de_la_Terre: sentiments_montent_moduler_pensee
+    Yin_de_la_Terre: tissus_organes_carburant
+    observation_clinique: >
+      Observer l'état du Ciel permet de déduire le
+      mouvement des énergies dans l'Homme, les relations
+      psychisme-sentiments-organes, le moteur des actes.
+  source: PVII-t2-p59_61

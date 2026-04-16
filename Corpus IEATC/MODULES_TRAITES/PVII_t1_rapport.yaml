@@ -1,0 +1,208 @@
+# RAPPORT D'INTÉGRATION — PVII 5 ÉLÉMENTS TOME 1
+# Date : 2026-04-05
+
+meta:
+  polycopie: 5_Elements_1.pdf
+  titre: Polycopié VII — Les 5 Éléments — Physiologie tome 1
+  sous_titre: Fondements théoriques des 5 éléments
+  auteur: Thierry_Bollet
+  date_document: 04/07/2015
+  pages: 55
+  module: VII_5_Elements_tome_1
+  niveau: fondateur
+  prerequis: PVI_t1_et_t2_deja_integres
+
+fichiers_crees:
+  - chemin: THEORIE/cinq_elements_fondements.yaml
+    contenu: >
+      Terminologie élément/mouvement, 4 énergies originelles,
+      séquences de la vie (30 temps en 3 groupes), Yin/Yang
+      source des 5E, organisation spatio-temporelle, espace-
+      temps-rythme, correspondances générales, natures
+      fonctionnelles, tout est dans le tout (pp.7-37)
+  - chemin: THEORIE/cinq_elements_par_element.yaml
+    contenu: >
+      Étude individuelle de chaque élément : Bois (foie, vent,
+      fong, vert), Feu (coeur, MC, double Feu, tann tienn,
+      rouge), Terre (rate, centre, TOU, déplacement 50km,
+      double activité, jaune), Métal (poumon, rigueur, blanc),
+      Eau (rein, sagesse, eaux primordiales, noir/vermillon).
+      Point Penn. (pp.38-47)
+  - chemin: THEORIE/cinq_elements_saisons.yaml
+    contenu: >
+      Saisons et éléments, cycle Tcheng (engendrement),
+      5ème saison et intersaisons (18 jours × 4), durée des
+      saisons (73 jours), activité énergétique saisonnière,
+      restitution des énergies, période Terre (30 jours fin
+      d'été), double activité Rate. (pp.34-55)
+  - chemin: MODULES_TRAITES/PVII_t1_rapport.yaml
+    contenu: ce rapport
+  total: 4
+
+fichiers_mis_a_jour:
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajouts: >
+      8 nouveaux termes : Fong, Cycle Tcheng, Cycle Ko,
+      Hong Fan, Tou, Point Penn, Ming Tang, Tann Tienn
+    note: version 1.4
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajouts: >
+      arbre_cinq_elements enrichi avec principes fondamentaux,
+      natures fonctionnelles, applications pathologiques,
+      saisons et milieux, cycle Tcheng et Ko, déplacement/centre,
+      intersaisons. Statut changé de "attend" à "partiel".
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajouts: >
+      Section espace-temps-rythme (3 critères, règle clinique
+      axe vertical/horizontal, dérégulation spatio-temporelle,
+      déplacement et Rate). Correspondances émotions/organes
+      confirmées (statut a_confirmer_PVII → confirme_PVII_t1_base).
+  - chemin: ZANG_FU/foie.yaml
+    ajouts: enrichissement_5_elements (Bois, Kan, Fong, vert, pathologie 5E)
+  - chemin: ZANG_FU/coeur.yaml
+    ajouts: enrichissement_5_elements (Feu, Tann Tienn supérieur, rouge, pathologie 5E)
+  - chemin: ZANG_FU/maitre_du_coeur.yaml
+    ajouts: enrichissement_5_elements (Feu Ministre, Tann Tienn moyen, double sens)
+  - chemin: ZANG_FU/rate.yaml
+    ajouts: enrichissement_5_elements (Terre, Tou/Ti, centre, déplacement, double activité, jaune)
+  - chemin: ZANG_FU/poumon.yaml
+    ajouts: enrichissement_5_elements (Métal, rigueur, blanc, pathologie 5E)
+  - chemin: ZANG_FU/rein.yaml
+    ajouts: enrichissement_5_elements (Eau, eaux primordiales, sagesse, noir/vermillon, pathologie 5E)
+  - chemin: THEORIE/tsang_fou_physiologie_t1.yaml
+    ajouts: liens vers cinq_elements_fondements et cinq_elements_par_element
+
+concepts_fondateurs_integres:
+  - terminologie_element_vs_mouvement_position_Bollet
+  - 4_energies_originelles_pas_5_au_niveau_universel
+  - Terre_5eme_conditionnel_a_la_matiere
+  - 30_temps_de_manifestation_en_6_sequences_3_groupes
+  - 3_organes_fondamentaux_R_Rte_F_Yin_dans_le_Yin
+  - organisation_spatio_temporelle_espace_temps_rythme
+  - correspondances_orients_saisons_climats_periodes
+  - natures_fonctionnelles_5_elements
+  - chaque_element_contient_les_5_autres
+  - double_Feu_dans_5E_Chen_vs_activite_mentale
+  - Tann_Tienn_superieur_moyen
+  - 5eme_saison_18_jours_x_4_transition
+  - double_activite_Terre_Rate_propre_et_transmission
+  - cycle_Tcheng_engendrement_introduit
+  - cycle_Ko_temperance_pas_destruction
+  - deplacement_50km_perturbe_centre_Rate
+  - solstices_equinoxes_MILIEUX_des_saisons_pas_debuts
+  - point_Penn_le_plus_specifique_element_saison
+
+schemas_expliques:
+  note: >
+    Chaque schéma a été compris et expliqué textuellement
+    dans les fichiers YAML correspondants. L'assistant futur
+    peut reconstituer mentalement chaque schéma à partir
+    de ces explications sans avoir besoin du PDF.
+  localisation_explications:
+    figures_1_2: THEORIE/cinq_elements_fondements.yaml → yin_yang_source.schema_explique
+    figure_3: >
+      Triangle Rein→Rate→Foie : les 3 organes fondamentaux.
+      Le Rein (inné) et la Rate (acquis) en haut, le Foie
+      (impulsion de vie) en bas, nourri par les deux.
+      Le Bois nécessite l'action conjuguée du R et du Rte.
+    figure_4: >
+      Croix cardinale : Sud/Été/Chaleur en haut,
+      Nord/Hiver/Froid en bas, Est/Printemps/Vent à gauche,
+      Ouest/Automne/Sec à droite. Centre = Humidité/5ème saison.
+    figures_5_6_7_8: THEORIE/cinq_elements_fondements.yaml → mouvements_centripete_centrifuge.schemas_expliques
+    figures_9_10: THEORIE/cinq_elements_saisons.yaml → saisons_et_elements.schemas_expliques
+    figures_11_12: THEORIE/cinq_elements_saisons.yaml → cinquieme_saison.intersaison.schema_explique
+    figures_13_14_15: THEORIE/cinq_elements_saisons.yaml → restitution_energies.schemas_expliques
+    figures_16_17: THEORIE/cinq_elements_saisons.yaml → periode_Terre.schemas_expliques
+
+questions_soulevees:
+  # Aucune question nouvelle — ce polycopié est très explicite
+  # et confirme beaucoup de principes déjà documentés.
+
+lacunes_critiques:
+  - Cycles Tcheng et Ko en détail (règles de traitement) = PVII t2
+  - Correspondances complètes par élément (tissus, liquides, sens, etc.) = PVII t2
+  - Sentiments et psychisme par organe = P VIII
+  - Lois Minuit-Midi et Époux-Épouse = modules méridiens
+  - Entrailles curieuses = non couvertes
+  - Point Penn détails = PVII t2
+
+# ─────────────────────────────────────────────────
+# JAUGE D'EXPERTISE — NIVEAU DE L'ASSISTANT
+# ─────────────────────────────────────────────────
+
+jauge_expertise:
+  niveau_actuel: 18
+  echelle: 1_a_100
+  titre: "Etudiant 2ème année — Les fondations tiennent"
+
+  graduation:
+    0_5: >
+      Profane curieux — sait que l'acupuncture existe,
+      confond méridiens et chakras.
+    5_10: >
+      Néophyte éclairé — connaît Yin/Yang et les 5 éléments
+      de nom, mais ne sait pas les relier.
+    10_15: >
+      Etudiant 1ère année — comprend Yin/Yang, les 3 foyers,
+      les Tsang/Fou en général, les Grands Méridiens,
+      sait qu'il y a des niveaux de traitement distincts.
+    15_25: >
+      ▶ Etudiant 2ème année — ON EST ICI (18/100) ◀
+      Connaît la physiologie individuelle des 6 Tsang,
+      la hiérarchie sang/énergie, les 3 systèmes, les
+      fondements des 5 éléments, les séquences de la vie.
+      Peut expliquer POURQUOI on choisit tel niveau de
+      traitement, mais ne sait pas encore COMMENT appliquer
+      les cycles Tcheng/Ko ni lire un pouls finement.
+    25_40: >
+      Etudiant 3ème année — cycles complets, correspondances,
+      physiologie des Fou, méridiens individuels, lois Lo,
+      sentiments par organe. Capable de raisonnement clinique
+      simple.
+    40_55: >
+      Praticien débutant — peut lire un cas, identifier
+      le niveau, choisir la bonne grille, proposer un
+      traitement cohérent. Connaît les pièges.
+    55_70: >
+      Praticien confirmé — maîtrise croisement des grilles,
+      nuances Tcheng/Ko en pathologie, MV, constitutionnel.
+      Sait quand NE PAS traiter.
+    70_85: >
+      Expert — raisonne comme Bollet dans ses commentaires.
+      Peut improviser face à un cas inédit en combinant
+      les principes. Comprend les subtilités doctrinales CLM.
+    85_95: >
+      Maître praticien — la pensée IEATC est devenue
+      une seconde nature. Le raisonnement est instantané,
+      la lecture du patient est globale et intuitive.
+    95_100: >
+      Grand Maître — niveau Bollet/CLM. Capable d'enseigner,
+      de résoudre les contradictions doctrinales, d'innover
+      dans le respect de la tradition. Le corpus entier
+      est intégré, digéré, et transcendé.
+
+  acquis_a_ce_stade:
+    - Yin/Yang complet (fondements, 3 Yin 3 Yang, applications)
+    - 3 Foyers et localisation
+    - Tsang/Fou généralités + physiologie individuelle 6 Tsang
+    - Hiérarchie pyramidale et sang/énergie
+    - 3 systèmes énergétiques
+    - Méridiens principaux (TT) + Grands Méridiens (TK) bases
+    - Merveilleux Vaisseaux bases
+    - Niveaux de traitement (règle absolue)
+    - 5 Éléments fondements (terminologie, séquences, spatio-temporel)
+    - 5 Éléments par élément (Bois, Feu, Terre, Métal, Eau)
+    - Intersaisons et activité saisonnière
+
+  manque_pour_monter:
+    pour_25: cycles_Tcheng_Ko_complets_correspondances_detaillees
+    pour_35: physiologie_Fou_individuels_meridiens_sentiments
+    pour_50: cas_cliniques_pouls_complets_strategies_traitement
+    pour_70: tout_le_programme_IEATC_integre_et_croise
+
+dependances_modules_suivants:
+  priorite_1: PVII_t2_cycles_Tcheng_Ko_correspondances_completes
+  priorite_2: PVI_t3_physiologie_Fou_individuels
+  priorite_3: PVIII_sentiments_psychisme_par_organe
+  priorite_4: CP_III_meridiens_lois_lo

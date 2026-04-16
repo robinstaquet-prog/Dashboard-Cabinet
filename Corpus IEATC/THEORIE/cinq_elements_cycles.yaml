@@ -1,0 +1,642 @@
+# CINQ ÉLÉMENTS — CYCLES DÉTAILLÉS, LOIS DE RELATIONS, COUR IMPÉRIALE
+# Source : PVII Les 5 Éléments — Physiologie tome 2, pp. 23-54
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_cycles.yaml
+  source: PVII_5Elem_t2_p23_54
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_fondements.yaml
+    - THEORIE/cinq_elements_saisons.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+
+# ─────────────────────────────────────────────────
+# CYCLE TCHENG — ENGENDREMENT DÉTAILLÉ
+# ─────────────────────────────────────────────────
+
+cycle_Tcheng_detaille:
+  nom: loi_d_engendrement_cycle_de_production_mutuelle
+  nature: nutritionnel
+  principe: >
+    Chaque élément nourrit le suivant par l'énergie de
+    sa mère EXCLUSIVEMENT. Toute autre énergie serait
+    nocive et pathologique.
+  formule: >
+    Le Bois nourrit le Feu qui enrichit la Terre qui
+    renferme le Métal qui se liquéfie en Eau qui
+    nourrit le Bois.
+  ordre: [Bois, Feu, Terre, Metal, Eau]
+
+  transmission_Yin_a_Yin:
+    regle: >
+      C'est le Yin qui engendre le Yin — d'un TSANG
+      à un autre TSANG. L'organe est la racine de
+      l'énergie d'un élément.
+    ATTENTION: >
+      La même loi ne s'applique PAS au Yang (Fou).
+      Les Fou ne transmettent PAS leur énergie au Fou
+      de l'élément fils. Il y a antinomie entre 5 (Tsang)
+      et 6 (Fou). Confusion fréquente avec la physiologie
+      des 3 Foyers.
+    schema_transmission:
+      correct: Tsang_Empereur → Tsang_Fils
+      INTERDIT_dans_5E: Fou_Empereur → Fou_Fils
+    dans_chaque_element: >
+      Le Yin nourrit le Yang : le Tsang apporte à son
+      Fou couplé l'énergie de son activité.
+
+  role_Rate_transformation:
+    principe: >
+      L'énergie doit subir transformation par la Rate
+      avant de nourrir l'élément fils. Iong = énergie
+      active, modulée par la Rate pour chaque Tsang.
+    mecanisme: >
+      Tsang nourrit son Fou couplé → puis nourrit Tsang
+      fils → lequel nourrit son propre Fou couplé.
+
+  energie_nourriciere_direction:
+    regle: >
+      L'énergie nourricière doit TOUJOURS venir de
+      l'arrière (de la Mère). Seule cette direction
+      est bénéfique.
+    si_vient_du_Ko: >
+      Si l'énergie provient directement par le cycle Ko,
+      c'est pathologique SAUF si c'est physiologique
+      (tempérance ou assistance).
+    si_Ko_pervers: >
+      Énergie nocive par problème climatique via Ko
+      = trouble majeur, la perversité peut gagner
+      tous les organes et se mêler à l'énergie générale.
+
+  perspective_clinique: >
+    Les activités organiques ne peuvent être dissociées.
+    Cela remet en question le principe des spécialités
+    médicales occidentales qui isolent chaque organe.
+  source: PVII-t2-p23_25
+
+# ─────────────────────────────────────────────────
+# TROIS FOYERS vs CINQ ÉLÉMENTS — DISTINCTION
+# ─────────────────────────────────────────────────
+
+distinction_3F_vs_5E:
+  energie_saisonniere_5E:
+    caracteristique: qualite
+    circulation: cycle_saisonnier_entre_tsang
+    transmission: a_partir_des_tsang
+  energie_iong_3F:
+    caracteristique: quantite
+    circulation: cycle_journalier
+    transmission: a_partir_des_fou
+  voies_entree_energie_saisonniere:
+    1: air_et_alimentation
+    2: capteurs_peau_via_meridiens_vers_organes
+    3: 5_sens_odorat_ouie_vue_gout_tact
+  resume:
+    Fou: cycle_journalier_Iong
+    Tsang: cycle_saisonnier_5E
+  source: PVII-t2-p37
+
+# ─────────────────────────────────────────────────
+# BILAN ÉNERGÉTIQUE DES 5 ÉLÉMENTS
+# ─────────────────────────────────────────────────
+
+bilan_energetique_5E:
+  pouls_radial: >
+    Ne donne PAS d'indication directe sur l'état
+    énergétique des 5 éléments. Mais la prise de
+    pouls des Tsang-Fou (programme 2ème année)
+    permet d'en déduire le fonctionnement par
+    recoupements.
+  methodes_traditionnelles_preferees:
+    1: palpation_abdominale
+    2: observation_couleur_zones_visage
+    3: langue
+    4: questionnaire
+  questionnaire_5E:
+    indication: >
+      Les troubles sont liés à un phénomène saisonnier
+      ou à une qualité précise de l'énergie (ex: tous
+      les ans en été, ou aggravé par la chaleur).
+  source: PVII-t2-p37_38
+
+# ─────────────────────────────────────────────────
+# CYCLE KO — TEMPÉRANCE DÉTAILLÉE
+# ─────────────────────────────────────────────────
+
+cycle_Ko_detaille:
+  citation_CLM: >
+    "Le fléau pour activer le paresseux et la crosse
+    pour ramener la brebis égarée."
+  nature: >
+    Cycle PHYSIOLOGIQUE de tempérance et d'assistance.
+    PAS destructeur (erreur de traduction persistante).
+  mecanisme_grand_mere_petit_fils: >
+    La grand-mère contrôle son petit-fils :
+    l'active s'il est faible, le freine s'il est fort.
+    Contrôle mutuel simultané.
+  intelligence_du_Ko: >
+    Le Ko est doué de discernement. Il s'adapte
+    à la situation : tantôt freine, tantôt stimule.
+  relations:
+    Bois_controle: Terre
+    Terre_controle: Eau
+    Eau_controle: Feu
+    Feu_controle: Metal
+    Metal_controle: Bois
+
+  loi_passive_Hong_Fan:
+    sens: inverse_du_Ko_normal
+    ordre: [Eau, Feu, Bois, Metal, Terre]
+  loi_active:
+    sens: normal_du_Ko
+    ordre: [Bois, Feu, Terre, Metal, Eau]
+  source: PVII-t2-p26_29
+
+# ─────────────────────────────────────────────────
+# CYCLE RAÉ — RÉVOLTE
+# ─────────────────────────────────────────────────
+
+cycle_Rae:
+  definition: >
+    Cycle Ko inversé = cycle de révolte. Pathologique.
+    L'élément dominé se retourne contre son dominateur.
+  mecanisme_exemple: >
+    L'Eau tempère le Feu qui domine le Métal.
+    Si le Feu domine trop → Métal s'affaiblit →
+    Eau en insuffisance (mère Métal garde énergie
+    pour se défendre) → Eau cesse contrôle →
+    Feu s'emballe → attaque Métal = Ko pathologique.
+    Feu gagne les Reins par l'arrière (Tcheng) et
+    envahit l'Eau = cycle Raé.
+  LOI_FONDAMENTALE: >
+    Ces cycles pathologiques (Ko et Raé) peuvent se
+    mettre en place N'IMPORTE QUAND dans l'année,
+    n'importe quel élément peut attaquer ou se faire
+    attaquer à n'importe quel moment, EN DEHORS de
+    toute considération saisonnière.
+  duree: >
+    Un cycle Ko ou Raé pathologique peut durer d'une
+    heure à quelques années, parfois toute la vie.
+  source: PVII-t2-p52_53
+
+# ─────────────────────────────────────────────────
+# ACTIVITÉ SIMULTANÉE TCHENG ET KO
+# ─────────────────────────────────────────────────
+
+activite_simultanee_Tcheng_Ko:
+  principe: >
+    Chaque élément exerce 5 fonctions SIMULTANÉMENT :
+  fonctions:
+    1: succession_a_la_mere_nourri_par_elle
+    2: Empereur_dominant_de_sa_saison
+    3: engendrement_du_fils_nourrit_le_suivant
+    4: soumission_a_la_grand_mere_controle_Ko
+    5: domination_du_petit_fils_exerce_Ko
+  engendrement: empeche_conservation_abusive_d_energie
+  temperance: limite_augmentation_excessive
+  Ko_protege_mere: >
+    Le Ko protège sa propre mère en contrôlant
+    le petit-fils (qui pourrait attaquer la mère
+    par le Ko).
+  source: PVII-t2-p30_31
+
+# ─────────────────────────────────────────────────
+# COUR IMPÉRIALE — HIÉRARCHIE SAISONNIÈRE
+# ─────────────────────────────────────────────────
+
+cour_imperiale:
+  principe: >
+    À chaque saison, les 5 éléments s'organisent en
+    hiérarchie de puissance. Seuls les Tsang (Yin)
+    comptent dans les 5E car les mères donnent la vie.
+
+  roles:
+    Empereur:
+      puissance: le_plus_fort_de_tous
+      fonction: regne_domine_controle
+    Mere:
+      puissance: faible_tranquille
+      fonction: vient_d_accoucher_inactive
+    Fils:
+      puissance: vigoureux_moins_fort_que_Empereur
+      fonction: futur_Empereur_se_remplit
+    Ennemi_vaincu:
+      puissance: soumis_affaibli
+      fonction: petit_fils_domine_avec_honneur
+    Conseiller:
+      puissance: energique_actif_mais_obeissant
+      fonction: grand_mere_eclaire_et_tempere
+
+  exemple_ete:
+    Empereur: Feu_coeur_puissant
+    Mere: Bois_foie_faible
+    Fils: Terre_rate_vigoureux
+    Ennemi_vaincu: Metal_poumon_faible
+    Conseiller: Eau_rein_energique
+
+  exemple_5eme_saison:
+    Empereur: Terre_rate_puissant
+    Mere: Feu_coeur_faible
+    Fils: Metal_poumon_vigoureux
+    Ennemi_vaincu: Eau_rein_faible
+    Conseiller: Bois_foie_energique
+
+  triple_apport:
+    1: apport_externe_Yang_saison
+    2: apport_interne_Yin_mere
+    3: nutrition_Terre_Rate
+  changement_saison: decalage_d_un_cran_dans_le_cycle
+  source: PVII-t2-p31_35
+
+# ─────────────────────────────────────────────────
+# LOI UNITAIRE
+# ─────────────────────────────────────────────────
+
+loi_unitaire:
+  definition: >
+    La plus simple des lois. Base des éléments.
+    Concerne un élément et son organe pris
+    indépendamment des autres.
+
+  energie_saisonniere_et_climat:
+    principe: >
+      Chaque saison émet une énergie spécifique à
+      laquelle s'associe le climat. Le climat peut
+      être DIFFÉRENT de l'énergie de la saison.
+    climat_variable: >
+      Selon les années (décalage Kan et Che), le
+      climat des saisons n'est jamais le même.
+      Le climat est lié aux influences de la lune,
+      des planètes et des étoiles.
+    exemples_ete:
+      - chaleur_plus_humidite
+      - chaleur_plus_vent
+      - chaleur_plus_secheresse
+      - chaleur_plus_froid
+
+  synthetisation_energie_saisonniere:
+    mecanismes_captation:
+      1: meridiens_tsang_et_fou_par_la_peau
+      2: organe_des_sens_et_sens_correspondant
+      3: alimentation_specifique
+    Tsing_constitue_de: >
+      Toutes les subtilités extraites de l'environnement :
+      couleur, odeur, saveur, forme, consistance, viande,
+      céréale — chaque organe a ses préférences.
+
+  point_Penn_detaille:
+    definition: >
+      Point du méridien qui extrait ou synthétise la
+      quintessence de l'énergie de la saison ET du
+      tsing des aliments.
+    nombre: 5_points_Penn_un_par_organe
+    nature: >
+      Le point Penn est l'un des 5 points Su (antiques).
+      Il est le SEUL parmi eux qui corresponde à
+      l'énergie de la saison de son élément.
+      Les 4 autres correspondent aux 4 autres énergies.
+    exemple_foie:
+      Bois_vent: point_Penn_du_foie
+      Feu_chaleur: autre_point_su
+      Terre_humidite: autre_point_su
+      Metal_secheresse: autre_point_su
+      Eau_froid: autre_point_su
+    chaque_organe: >
+      Préférentiellement dynamisé par l'énergie de sa
+      saison mais a AUSSI besoin des autres énergies.
+
+  4_etats_possibles:
+    normalite: climat_correct_fonctions_Penn_normales
+    exces: climat_excessif_ou_fonctions_excessives
+    insuffisance: climat_insuffisant_ou_fonctions_insuffisantes
+    perversite: autre_energie_climatique_domine_ex_froid_en_ete
+
+  importance_questionnaire: >
+    Les situations vécues, les lieux fréquentés (ex.
+    Seychelles pour vacances d'hiver), les symptômes
+    sont capitaux, même en remontant loin dans le temps,
+    pour découvrir le point de départ d'un dérèglement.
+  source: PVII-t2-p38_41
+
+# ─────────────────────────────────────────────────
+# COLLECTE ANNUELLE MÉTAL ET RÉSERVE REIN
+# ─────────────────────────────────────────────────
+
+collecte_annuelle_Metal:
+  mecanisme: >
+    En fin d'année (fin d'automne), le Métal collecte
+    les surplus non utilisés des énergies tsing des
+    5 organes. Il engramme ces énergies en réserve
+    générale puis les conduit aux Reins qui les
+    conservent durant l'hiver.
+  analogie: >
+    Comme la graine qui s'enfouit dans le sol pour
+    germer au printemps. "Le Yang se cache dans le Yin."
+  utilisation_reserve:
+    1: s_ajoute_a_energie_ancestrale_l_economise
+    2: compense_besoin_important_et_immediat
+    3: organe_deficient_reçoit_sa_tsing_specifique_du_Rein
+  situations: maladie_severe_traumatisme_urgence
+  source: PVII-t2-p40
+
+# ─────────────────────────────────────────────────
+# IMPORTANCE CAPITALE DU PRINTEMPS
+# ─────────────────────────────────────────────────
+
+importance_printemps:
+  regle: >
+    L'arrivée du printemps et de son climat normal
+    (doux et venteux) est ESSENTIELLE car elle
+    conditionne tout le reste de l'année.
+  foie_starter: >
+    La puissance correcte du foie au printemps
+    provoque le réveil de toutes les activités
+    organiques pour la durée de l'année.
+    Foie et printemps = "le starter de la nature".
+  citation: >
+    "Le vent (physiologique) transmet sur Terre
+    les ordres du Ciel."
+  printemps_rate: >
+    Un printemps raté est une année ratée, source
+    de nombreuses maladies impossibles à enrayer.
+    Tout au plus calmer les effets en attendant
+    le printemps suivant.
+  consequences_carence: >
+    Toutes les tsing déficientes → ancestrale non
+    régénérée → mise à contribution excessive →
+    usure → fatigues et fragilités toute l'année.
+    Comme un salarié qui ne reçoit pas sa paie.
+  source: PVII-t2-p40_41
+
+# ─────────────────────────────────────────────────
+# LOI BINAIRE
+# ─────────────────────────────────────────────────
+
+loi_binaire:
+  definition: >
+    Combinaison à deux éléments reprenant les
+    liaisons directes des cycles Tcheng et Ko.
+  les_5_binaires_exemple_Bois:
+    1er: Bois_nourrit_Feu_Tcheng_Mere_Fils
+    2eme: Eau_engendre_Bois_Tcheng_Mere_Fils
+    3eme: Bois_controle_Terre_Ko_petit_fils
+    4eme: Metal_controle_Bois_Ko_grand_mere
+    5eme: Terre_mere_du_Metal_ennemi_nourrit_conseiller
+  source: PVII-t2-p41_42
+
+# ─────────────────────────────────────────────────
+# LOI TERNAIRE — LES 5 TERNAIRES
+# ─────────────────────────────────────────────────
+
+loi_ternaire:
+  definition: >
+    Combinaison à 3 éléments dans les cycles Tcheng
+    et Ko simultanément. Multiple combinaisons
+    alternatives et simultanées.
+  propriete: >
+    Les 5 mouvements peuvent agir en un instant
+    aussi court soit-il que sur un temps plus vaste
+    (une année ou plus).
+
+  1er_ternaire_triangle_rouge:
+    elements: [Feu, Terre, Metal]
+    liaisons:
+      Tcheng: Empereur_Feu_nourrit_fils_Terre
+      Ko: Empereur_Feu_controle_ennemi_Metal
+    organisation:
+      Empereur: nourrit_fils_controle_ennemi
+      Fils_Terre: nourri_par_mere_Empereur
+      Ennemi_Metal: nourri_par_mere_Terre_controle_par_Empereur
+
+  2eme_ternaire:
+    elements: [Feu, Terre, Metal]
+    liaisons:
+      Tcheng_1: Feu_nourrit_Terre
+      Tcheng_2: Terre_nourrit_Metal_petit_fils_ennemi
+
+  3eme_ternaire:
+    elements: [Feu, Metal, Eau]
+    liaisons:
+      Ko: Feu_controle_Metal
+      Ko_2: Eau_conseiller_controle_Feu_Empereur
+
+  4eme_ternaire:
+    elements: [Feu, Metal, Eau]
+    liaisons:
+      Ko: Feu_controle_Metal
+      Tcheng: Metal_nourrit_Eau_conseiller
+
+  5eme_ternaire_triangle_bleu:
+    elements: [Feu, Terre, Eau]
+    liaisons:
+      Tcheng: Feu_nourrit_Terre
+      Ko: Terre_controle_Eau_conseiller
+
+  schemas_expliques:
+    figures_11_a_17_ternaires: >
+      Série de pentagones (Feu en haut, Bois à gauche,
+      Eau en bas-gauche, Métal en bas-droite, Terre à
+      droite). Chaque ternaire est coloré différemment :
+      Triangle rouge = Empereur→Fils→Ennemi (Tcheng+Ko).
+      Triangle bleu = Empereur→Fils→Conseiller (Tcheng+Ko).
+      Triangle vert = Empereur→Ennemi→Conseiller (Ko+Tcheng).
+      Figure 16 = globalité : superposition des 3 triangles
+      montrant TOUTES les relations simultanées entre
+      4 éléments actifs (la Mère restant passive).
+      Figure 17 = synthèse quaternaire : les 4 éléments
+      actifs avec toutes les flèches Tcheng et Ko combinées.
+  source: PVII-t2-p42_49
+
+# ─────────────────────────────────────────────────
+# GLOBALITÉ DES TERNAIRES — 3 ANALYSES
+# ─────────────────────────────────────────────────
+
+globalite_ternaires:
+  note: >
+    "Contrôle" signifie TOUJOURS un cycle Ko
+    physiologique de tempérance/assistance.
+
+  analyse_1_triangle_rouge:
+    physiologie:
+      Terre_se_remplit: peut_nourrir_Metal
+      Empereur_controle_Metal: empeche_Metal_trop_fort
+      Metal_supporte_Ko: car_nourri_par_mere_Terre
+    pathologie_Empereur_faible:
+      - fils_Terre_pas_alimente_futur_regne_compromis
+      - Metal_pas_controle_peut_Rae_contre_Empereur
+    pathologie_Empereur_fort:
+      - cesse_alimentation_fils_despotisme
+      - Terre_faible_ne_nourrit_pas_Metal
+      - Ko_pathologique_contre_Metal
+
+  analyse_2_triangle_bleu:
+    physiologie:
+      Terre_vigoureuse: controle_Eau_conseiller
+      Eau_tempere_Empereur: sans_l_attaquer
+      Terre_surveille_Eau: empeche_Ko_pathologique_sur_Feu
+    pathologie_Empereur_faible:
+      - fils_Terre_faible
+      - Eau_pas_controlee_attaque_Empereur_Ko_destructeur
+    pathologie_Empereur_fort:
+      - retourne_contre_Eau_cycle_Rae
+
+  analyse_3_triangle_vert:
+    physiologie:
+      Metal_controle_normalement: pas_abusif
+      Eau_alimentee_par_Metal: controle_efficacement_Empereur
+      Empereur_controle_par_Eau: ne_peut_abuser_contre_Metal
+    pathologie_Empereur_faible:
+      - Metal_pas_controle_Rae_contre_Empereur
+      - Terre_faible_ne_controle_pas_Eau
+      - Eau_attaque_Empereur_Ko_pathologique
+    pathologie_Empereur_fort:
+      - Ko_pathologique_contre_Metal
+      - Rae_contre_Eau
+
+  conclusion_des_3_analyses:
+    LOI_SO_OUEN: >
+      Tout élément qui attaque en attaque toujours DEUX.
+      Tout élément qui se fait attaquer l'est toujours
+      par DEUX éléments : son ennemi et son conseiller.
+    Empereur_faible: >
+      Ennemi vaincu + conseiller s'unissent pour l'attaquer.
+      Métal → cycle Raé contre Feu.
+      Eau → cycle Ko simultané contre Feu.
+    Empereur_fort: >
+      Feu → Ko pathologique contre Métal.
+      Feu → Raé contre Eau.
+      Toujours Ko et Raé pathologiques et destructeurs.
+  source: PVII-t2-p45_49
+
+# ─────────────────────────────────────────────────
+# QUATERNAIRE ET QUINAIRE — 4 PRINCIPES
+# ─────────────────────────────────────────────────
+
+quaternaire_quinaire:
+  constat: >
+    Seuls 4 éléments sont actifs. La mère de l'Empereur
+    est toujours absente des analyses.
+
+  1er_principe:
+    alimentation_par_mere: >
+      Anticipe futurs besoins saisonniers ET besoins
+      immédiats nécessaires à l'équilibre en place.
+    Ko_empeche: >
+      Ennemi trop fort, le contraint à transmettre
+      son énergie à son fils, conduit Empereur à
+      être contrôlé par son conseiller.
+
+  2eme_principe_auto_regulation:
+    subtilite: >
+      L'Empereur engendre LUI-MÊME les critères
+      nécessaires à son propre contrôle.
+    mecanisme:
+      1: Empereur_Ko_ennemi_oblige_donner_energie_a_fils_conseiller
+      2: Conseiller_grace_energie_tempere_Empereur
+      3: Empereur_nourrit_son_fils
+      4: Fils_fort_controle_Conseiller_empeche_exces
+    conclusion: >
+      Le mécanisme est parfait. L'Empereur contrôle tout
+      mais engendre les mécanismes qui le contrôlent
+      lui-même.
+
+  3eme_principe_oscillation:
+    mecanisme: >
+      Quand Empereur contrôlé par Conseiller →
+      diminue contrôle sur Ennemi → conserve énergie
+      → nourrit davantage Fils → Fils contrôle Conseiller
+      → Ennemi conserve énergie → Conseiller affaibli
+      → diminue contrôle sur Empereur → Empereur reprend
+      contrôle → et tout recommence sans cesse.
+    analogie: >
+      Système de freination permanente évitant que
+      l'énergie ne s'emballe comme un moteur en
+      sur-régime et ne s'achemine vers la destruction.
+
+  4eme_principe_mere_faible:
+    regle: >
+      La mère de l'Empereur est faible et tranquille.
+      TOUT tient à ce simple fait.
+    si_mere_conserve_energie:
+      - faiblesse_autorite_Empereur
+      - Ko_affaiblissant_Fils_ne_peut_controler_Conseiller
+      - Conseiller_peut_attaquer_Empereur_Ko_pathologique
+    consequence_clinique: >
+      Les acupuncteurs traditionnels sont très vigilants
+      au passage de l'énergie lors des intersaisons
+      pour s'assurer que l'Empereur descendant soit
+      bien remplacé par son Fils.
+    surveillance: >
+      Même en bonne santé, examiner les patients
+      4 fois par an, à chaque changement de saison
+      (saison chinoise).
+  source: PVII-t2-p49_51
+
+# ─────────────────────────────────────────────────
+# DOMINANT / DOMINÉ
+# ─────────────────────────────────────────────────
+
+dominant_domine:
+  regle: >
+    Tout élément est dominant d'un élément et dominé
+    par un autre, simultanément.
+  simultane_et_alternatif: >
+    Toutes ces fonctions s'exercent en même temps
+    (simultanément) autant que l'une après l'autre
+    (alternativement).
+  multi_hierarchie:
+    saison: systeme_de_base_3_mois
+    journee: >
+      Matin = Bois Empereur, Midi = Feu, etc.
+      Une journée vaut une saison.
+    jour: chaque_jour_sous_dependance_d_un_element
+    lune: chaque_lune_correspond_a_un_element
+  imbrication: >
+    Multiples mécanismes imbriqués simultanément
+    et alternativement. Le principal reste la saison.
+  source: PVII-t2-p52
+
+# ─────────────────────────────────────────────────
+# CHANGEMENT DE SAISON — TRANSITION
+# ─────────────────────────────────────────────────
+
+changement_de_saison:
+  mecanisme: >
+    L'Empereur se vide → énergie passe à la Terre/Rate
+    → nourrit Fils. Le nouvel Empereur (Fils) domine
+    justement l'ancien Conseiller qui dominait sa Mère
+    (l'ancien Empereur).
+  protection_ancien_Empereur: >
+    L'ancien Conseiller devient Ennemi vaincu du
+    nouvel Empereur → contraint de cesser sa domination
+    sur l'ancien Empereur qui se vide en toute quiétude.
+  energie_Ko_bloquee: >
+    L'énergie ne pouvant plus suivre le Ko emprunte
+    le Tcheng pour nourrir le nouveau Conseiller
+    qui tempérera le nouvel Empereur.
+
+  exemple_fin_ete:
+    1: Feu_se_vide_dans_Rate_qui_controle_Eau
+    2: Eau_cesse_controle_sur_Coeur_qui_se_vide_en_paix
+    3: Eau_emprunte_Tcheng_nourrit_Bois
+    4: Bois_controle_nouvel_Empereur_Terre
+    5: Metal_libere_commence_a_se_remplir_future_temperance_Bois
+
+  trilogie_permanente: >
+    Trois éléments toujours en présence :
+    Empereur, Conseiller, Ennemi.
+    Fils se remplit passivement.
+    Mère est faible et se remet.
+
+  schemas_expliques:
+    figures_18_19_changement_saison: >
+      Figure 18 : Deux trilogies superposées montrant
+      le passage d'une saison à la suivante. À gauche :
+      Mère-Dominant-Tempérant de la saison en cours.
+      À droite : Fils-Dominant-Tempérant de la saison
+      suivante. Flèches montrant le décalage d'un cran.
+      Figure 19 : Exemple fin d'été avec le Feu se vidant,
+      la Rate montant en puissance, et toutes les
+      transitions de rôle entre les 5 éléments.
+  source: PVII-t2-p53_54

@@ -1,0 +1,280 @@
+# VÉSICULE BILIAIRE — FOU DE L'ÉLÉMENT BOIS + FU EXTRAORDINAIRE
+# Source : Polycopié VI, Série EEA tome 3 — Séminaire 9 janvier 1983
+# Auteurs : Dr Schatz, Elisabeth Rochas de la Vallée
+
+meta:
+  fichier: vesicule_biliaire.yaml
+  source: PVI_EEA_t3
+  element: Bois
+  couplage_tsang: Foie
+  relation: Biao_Li
+  statut_special: double_appartenance_Fu_et_Qi_Heng_Zhi_Fu
+  statut: complet
+  liens:
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/role_general_fou.yaml
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    - CLINIQUE/pathologies_hypertension.yaml
+
+# =============================================================================
+# IDENTITÉ ET DOUBLE STATUT
+# =============================================================================
+
+identite:
+  ideogramme_DAN: >
+    Partie gauche : la chair. Partie droite : pas d'explication étymologique rattachable
+    à la fonction de l'organe.
+  double_statut:
+    fu_ordinaire: fait partie des 6 Fu
+    fu_extraordinaire: fait partie des 6 Qi Heng Zhi Fu (Su Wen chap. 11)
+    explication: >
+      La VB est liée aux Zang et aux Fu. Elle a un rapport privilégié avec les énergies
+      essentielles en tant que Qi Heng Zhi Fu. Elle est appelée "Fu du Jing médian"
+      (ZHONG JING) — ce rapport direct avec les énergies essentielles la différencie
+      des autres Fu occupés à travailler sur le bol alimentaire.
+
+  surnoms:
+    - Fu_du_Jing_median_ZHONG_JING
+    - Intestin_Vert
+    - Fu_du_clair_et_du_limpide
+  source: PVI-t3-p27_58_59
+
+# =============================================================================
+# FONCTIONS
+# =============================================================================
+
+fonctions:
+  charge_SW8: >
+    La VB a la charge de la rectitude médiane (ZHONG ZHENG),
+    décision et sentence en sortent.
+
+  rectitude_mediane:
+    zheng: rectitude_orthodoxie_ce_qui_est_correct_et_doit_etre_fait
+    zhong: position_fonctionnelle_centrale
+    explication: >
+      Assurer la bonne orientation, la bonne orthodoxie. L'organisme dans son ensemble
+      va suivre le plan correct tracé pour la vitalité. Tous les viscères viennent
+      se référer à sa fonction pour prendre l'orientation de ce qui doit être fait,
+      tout comme le temps qu'il fait au printemps déterminera la bonne santé des plantes.
+      Il ne s'agit pas simplement de la petite poche, mais de la FONCTION.
+
+  decision_SW9:
+    citation: Les 11 viscères vont tous prendre leur décision à la VB.
+    explication: >
+      La VB est ce qui donne l'acte juste à la conduite des autres Zang et Fu.
+      Elle met la vitalité générale de l'individu dans le bon axe.
+
+  clair_et_limpide:
+    explication: >
+      La VB a un rapport avec quelque chose qui vient vers elle en s'élevant et est
+      déjà purifié par rapport à l'apport alimentaire direct. L'idée de limpidité
+      et de tranquillité renforce l'idée de clarté. Elle se différencie de tous les
+      autres Fu occupés des "transports et transformations".
+
+  thesaurisation_bile:
+    principe: >
+      La VB garde en dépôt le suc biliaire sécrété par le F. Les Souffles en
+      surabondance du F peuvent entrer en débordement à la VB, s'y accumuler,
+      s'y entasser et s'y former définitivement.
+
+  source: PVI-t3-p58_60
+
+# =============================================================================
+# RELATION AVEC LE FOIE
+# =============================================================================
+
+relation_foie:
+  biao_li: >
+    F et VB entretiennent des rapports mutuels par l'intermédiaire de leurs méridiens
+    principaux. Quand le F assure son rôle de faire circuler et s'écouler normalement
+    les énergies, cela aide la VB à remplir son rôle d'émission et de dépôt du suc
+    biliaire. Réciproquement, quand le suc biliaire est émis sans obstacle, cela
+    soutient le F dans son rôle de circulation.
+  identite_pathologique: >
+    La pathologie de la VB se confond pratiquement avec la pathologie du Yang du F.
+    Si les pervers de la chaleur atteignent le F, humidité et chaleur font des obstructions,
+    circulation et écoulement perdent leur normalité. Il y a cuisson à l'étuvée du suc
+    biliaire qui déborde — amertume à la bouche, douleurs aux côtes, jaunisses.
+  anatomie: >
+    La VB est une commande du F. Le F anatomique et fonctionnel est intimement lié
+    à elle. A l'extérieur des cellules hépatiques, les canalicules biliaires se
+    concrétisent pour former la VB. Comme la VB est à l'intérieur du F, de même
+    la V est à l'intérieur du R.
+  traitement_conjoint: >
+    Il y a influence réciproque F et VB, c'est pour cela qu'on les traite ensemble
+    en thérapeutique.
+
+  source: PVI-t3-p59_60
+
+# =============================================================================
+# PATHOLOGIE
+# =============================================================================
+
+pathologie:
+  presentation_generale: >
+    Maladies surtout sous l'aspect de maladies de plénitude : douleurs aux côtes,
+    amertume de la bouche, vomissements de liquide amer, jaunisse.
+  meridien: >
+    Le méridien de la VB est, avec ceux de V et E, le plus long du corps,
+    particulièrement dans les régions latérales. Ce qui frappe c'est l'importance
+    de la VB dans toutes les maladies.
+  chirurgie: >
+    Si l'on supprime la poche de la VB, il apparaît des néo-formations tubulaires,
+    mais la fonction biliaire est dans le F. La fonction reste.
+  douleurs: >
+    Douleurs vésiculaires souvent hépatiques, douleurs Yang, de pesanteur, douleurs
+    au niveau de la région axillaire, douleurs musculaires.
+  feu_VB_monte: >
+    Le feu de la VB monte à contre-courant (par rapport au trajet du méridien qui
+    descend), provoquant rougeurs au visage, œil rouge, surdités, vertiges.
+    C'est le secteur VB quand le Yang du F est en surabondance (brusques colères).
+  source: PVI-t3-p59_81
+
+# =============================================================================
+# RELATION AVEC LES OREILLES (SHAO YANG)
+# =============================================================================
+
+relation_oreille:
+  anatomie_energetique: >
+    Les méridiens du TR et de la VB se rassemblent au milieu de l'oreille.
+    On différencie trois zones : R correspond à l'oreille interne, Shao Yang
+    à l'oreille moyenne, Tai Yang à l'oreille externe.
+  pathologie: >
+    Les brusques colères mettent le Yang du F en surabondance et cet excès du
+    Yang du F est le secteur de la VB. Le feu de la VB monte, provoquant
+    bourdonnements et surdités du plein.
+  source: PVI-t3-p80_81
+
+# ─── Enrichissement EEA t2 (séminaires CLM juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_quatrieme_charge: >
+    La VB est en 4ème position (Su Wen ch.8) — un Fu avant les
+    Zang restants. Entraille spéciale, seule qui ne fait pas partie
+    du tube digestif. Qualifiée de claire, médiane, pure, essentielle.
+    Fu des essences dans une position centrale. Position de
+    commandement au milieu + Fu extraordinaire (Qi Heng Zhi Fu)
+    qui thésaurise les essences de façon fondamentale.
+  zhong_zheng_approfondi: >
+    Charge d'assurer ce qui est JUSTE et EXACT. Juste = centre,
+    milieu bien centré (ZHONG). Exact = conformité aux normes
+    orthodoxes (CHONG). La rectitude d'une chose est la forme
+    exacte : tirer droit au centre de la cible. Juste de la
+    manière du Ciel, exact de la manière terrestre.
+  determination_et_decision: >
+    Ce qui résulte de la charge : détermination et décision.
+    Le Foie conçoit les plans et analyse la conjoncture, mais
+    c'est la VB (côté Yang actif) qui TRANCHE, décide et détermine.
+    La décision est prise en un instant, la détermination est dans
+    la durée et doit contenir les éléments d'application.
+  ideogramme_dan: >
+    DAN (VB) = clef de la chair + image du soleil levant au-dessus
+    de l'horizon. La puissance du soleil levant s'exprime dans la
+    VB, donnant la possibilité de franchir le barrage de la
+    détermination et de passer à l'acte. Avoir des projets et
+    passer à l'acte ne sont pas la même chose.
+  qualite_shao_yang: >
+    Qualité des Souffles du Shao Yang = force du commencement,
+    concentration, puissance qui ne s'est pas encore étalée ou
+    développée. Force de la jeunesse.
+  vb_et_coeur: >
+    Su Wen ch.9 : les autres viscères viennent s'en remettre
+    à la VB pour la décision. Le Cœur donne l'orientation générale
+    mais les décisions concrètes doivent être faites dans la
+    justesse absolue du mouvement de la vie. Analyse F + décision VB.
+  source: PVI-EEA-t2-p43_44
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  chef_orchestre: >
+    La VB est le CHEF D'ORCHESTRE de tous les organes.
+    Le plus Yang de tous les organes. Tous lui obéissent.
+    Le Chao Yang (TR+VB) est l'axe de la VIE DE RELATION:
+    maintenir l'énergie en haut du corps et en surface
+    pour activer la fonction mentale et la protection par
+    la vigilance.
+  diaphragme: >
+    Le diaphragme est un muscle COMMANDÉ par l'énergie
+    du viscère VB. Un spasme du diaphragme (oppression
+    thoracique) peut résulter d'un déblocage de VB qui
+    irrigue soudainement l'organe (cas Martine).
+  acide_urique: >
+    Crise d'acide urique = TOUJOURS d'origine VB qui ne
+    se draine pas. Ne pouvant s'extérioriser, la chaleur
+    de VB reflue vers l'intérieur → envahit le F. Si la bile
+    ne se déverse pas → reflue dans le F → pénètre le sang.
+  cafe_au_lait: >
+    Le mélange caféine + lactéine BLOQUE INSTANTANÉMENT
+    la VB pour la matinée. Peut déclencher de multiples
+    troubles jusqu'à états dépressifs profonds. Interdit:
+    tout laitage avec café (y compris yaourt). Thé au lait
+    = 5x moins prononcé. Conseil: boire un verre d'eau
+    avant et après le café pour le diluer.
+  chocolat: >
+    Théobromine dans le chocolat = bromure, calmant puissant
+    du foie et de la circulation. Ralentit fortement →
+    congestion hépatique → crise. Le magnésium est le vrai
+    besoin (conseiller oligo-éléments).
+  migraines_vb: >
+    Points migraines VB: 1VB d, 20VB d, 21VB d, 23TR d.
+    22VB d = libère l'émotionnel (zone pli antérieur aisselle).
+    23VB d = passage énergie au diaphragme chez les
+    sensibles/émotionnels. 20VB d peut seul faire réapparaître
+    le pouls VB en surface (Yang recircule).
+  urgence_colique_hepatique:
+    34VB_d: "vide VB, dilate cholédoque, passe petits calculs = 'chasse de VB'"
+    21R_d: "ouvre le cholédoque"
+    25V_prime_d: "point 'Spasfon', antispasmodique organes creux, ARRÊT INSTANTANÉ douleurs"
+  vb_et_e: >
+    Si VB faible, le Yang de la barrière faible → E sans Yang
+    → Rte sans équilibre → Yang des Reins épuisé.
+    VB attaque E → transpiration cou+face = Yang Ming.
+  cauchemars: "VB = cauchemars (Foie = rêves)"
+  source: PIV_YY_tomes4-5_CP_I
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  ministre_de_justice: >
+    La VB est le Ministre de la Justice qui décide de ce qui est
+    "bon ou mauvais" pour l'organisme. Elle reçoit et stocke la bile.
+    C'est une barrière qui dégrade (Feu purificateur) ou rejette
+    (vers le haut = vomissements).
+  bile_detail: >
+    La bile est un liquide pur, "l'or liquide" et le "Feu liquide"
+    purificateur. Ce Feu peut devenir destructeur. La bile produit les
+    élévations de température et la fièvre lors des affections. Elle
+    se mêle au bol alimentaire pour dégrader les éléments grossiers
+    et les graisses. Elle brûle tout ce qui serait impropre (toxines).
+  inflammations_vb: >
+    La température vitale produite par Yuan Tchi ne peut JAMAIS dépasser
+    la norme vitale. Les inflammations (chaleur supérieure à la norme)
+    viennent du travail de la VB, PAS de Yuan Tchi.
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  mecanisme_digestion_bile: >
+    Pendant le va-et-vient de 2h entre estomac et duodénum, la VB se
+    vide d'un peu de bile à chaque passage du bol dans le duodénum.
+    Reflux dans l'estomac pour mélange complet. La bile dégrade les
+    graisses, fractionne finement les constituants, brûle l'impur.
+  peristaltisme: >
+    La présence de bile dans le bol alimentaire est un puissant
+    stimulant du péristaltisme intestinal (contractions). Son
+    insuffisance = cause fréquente de constipation. Son excès
+    ramollit les selles et peut donner des diarrhées.
+  fin_appetit: >
+    La VB déclenche la sensation de "fin d'appétit" par un message
+    envoyé à l'estomac. C'est elle qui décide quand assez d'aliments
+    ont été reçus.
+  selles_decolorees: >
+    Selles décolorées et molles = signe d'excès de bile = chaleur.
+    Les selles odorantes signent la chaleur, et leur odeur spécifique
+    (acide, aigre, fade) signe l'élément déréglé dans le corps.
+  source: PV-3F-t2

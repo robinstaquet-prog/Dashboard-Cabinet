@@ -1,0 +1,434 @@
+# CINQ ÉLÉMENTS — FONDEMENTS THÉORIQUES
+# Source : PVII Les 5 Éléments — Physiologie tome 1, pp. 7-37
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_fondements.yaml
+  source: PVII_5Elem_t1_p7_37
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_saisons.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_energie_terre_ciel.yaml
+    - THEORIE/hierarchie_sang_energie.yaml
+    - ZANG_FU/role_general_tsang.yaml
+
+# ─────────────────────────────────────────────────
+# TERMINOLOGIE : ÉLÉMENT vs MOUVEMENT
+# ─────────────────────────────────────────────────
+
+terminologie:
+  debat: element_ou_mouvement
+  position_Bollet: >
+    Les deux termes sont corrects selon le contexte.
+    Séquence complète de l'Univers :
+    4 énergies universelles → 5 énergies cosmiques
+    → 5 substances matérielles → 5 éléments inertes
+    → 5 substances corporelles → 5 mouvements.
+  synthese: >
+    L'ÉNERGIE génère le MOUVEMENT de l'ÉLÉMENT.
+    Élément = état cristallisé de l'énergie.
+    Mouvement = dynamisme imprimé par l'énergie.
+  source: PVII-t1-p7_9
+
+# ─────────────────────────────────────────────────
+# 4 ÉNERGIES ORIGINELLES (niveau universel)
+# ─────────────────────────────────────────────────
+
+quatre_energies_originelles:
+  principe: >
+    Au niveau universel, il n'y a que 4 énergies.
+    La Terre (5ème) n'apparaît qu'avec la matière.
+  les_4: [Bois, Feu, Métal, Eau]
+  Terre_absente: >
+    La Terre est conditionnelle à l'apparition de la matière.
+    Elle est le 5ème facteur, le centre, le référentiel.
+  planetes:
+    Mercure: Eau
+    Venus: Metal
+    Mars: Feu
+    Jupiter: Bois
+    Saturne: Terre
+  comparaison_alchimie: >
+    Le Bois chinois = Terre + quintessence de l'alchimie
+    occidentale. L'Eau chinoise = Eau occidentale.
+    Le Feu chinois = Feu occidental.
+    Le Métal chinois = Air occidental.
+  source: PVII-t1-p10_13
+
+# ─────────────────────────────────────────────────
+# GÉNÉRALITÉS — NOMBRE 5, CENTRE, RÉFÉRENTIEL
+# ─────────────────────────────────────────────────
+
+generalites:
+  sequence_Ciel_Terre_Homme:
+    nombre_1: Ciel_unite
+    nombre_2: Terre_bipolarite
+    nombre_3: Homme_synthese
+    nombre_4: constitution_materielle_4_elements
+    nombre_5: facteur_regulateur_centre_Ming_Tang
+  Rate_centre: >
+    La Rate est le centre parmi les 4 organes.
+    Le référentiel est le centre, externe au cycle, neutre.
+  Terre_nourriere: >
+    Ce n'est plus Ti (Terre planète/matière cosmique)
+    mais TOU (terre nourricière, humus, fécondante).
+    Capital pour stérilités modernes : muqueuse utérine
+    doit être TOU (accueillante) et non Ti (inerte).
+  Nombre_5_embleme: >
+    Emblème des mouvements de mutation, de l'évolution
+    de toute chose dans des cycles de temps variables.
+  5_felicites: [richesse, longévité, paix_et_repos, vertu, vie_sans_maladie]
+  source: PVII-t1-p14_17
+
+# ─────────────────────────────────────────────────
+# YIN YANG SOURCE DES 5 ÉLÉMENTS
+# ─────────────────────────────────────────────────
+
+yin_yang_source:
+  principe: >
+    L'ordonnancement de l'Univers suit Yin et Yang,
+    issus de l'Unité suprême, source de toute chose.
+  manifestation:
+    Yin: repos
+    Yang: activite
+  quatre_etats:
+    1: Yin_max_Yang_min
+    2: Yin_egal_Yang
+    3: Yang_max_Yin_min
+    4: Yang_egal_Yin
+  observateur_au_centre: >
+    L'observateur est le pivot du cercle, le centre
+    où se réunissent les 4 énergies.
+  schema_explique:
+    figures_1_2_cercle_Yin_Yang: >
+      Un cercle représente le cycle complet. Le Yang occupe
+      la moitié supérieure (maximum en haut), le Yin la moitié
+      inférieure (maximum en bas). Sur les côtés, deux points
+      d'équilibre : à gauche Yin=Yang (le Yang prend le dessus),
+      à droite Yang=Yin (le Yin prend le dessus). Au centre
+      du cercle : l'observateur/référentiel, le pivot d'où
+      l'individu observe toutes les variations. C'est la
+      sinusoïde Yin/Yang projetée sur un cercle.
+  source: PVII-t1-p17_18
+
+# ─────────────────────────────────────────────────
+# LES SÉQUENCES DE LA VIE — 30 TEMPS
+# ─────────────────────────────────────────────────
+
+sequences_de_la_vie:
+  structure: 3_groupes_x_2_sequences_x_5_temps_egal_30
+  formule: "(5 × 2) × 3 = 30"
+
+  groupe_1_structuration:
+    sequence_1_espace:
+      ordre: [Nord, Sud, Est, Ouest, Centre]
+      rang: 1_a_5
+      nature: mouvement_centripete_les_4_orients_vers_le_centre
+    sequence_2_elements:
+      ordre: [Eau, Feu, Bois, Metal, Terre]
+      rang: 6_a_10
+      nature: cristallisation_energie_dans_element_materiel
+    resultat: >
+      Organisation cardinale de l'espace.
+      Chaque orient = siège spécifique de l'énergie
+      de l'élément correspondant.
+    organe_depart: Rein_Eau_inne_Ciel_anterieur
+    source: PVII-t1-p18_19
+
+  groupe_2_mouvement:
+    sequence_3_mouvement:
+      ordre: [Terre, Metal, Eau, Bois, Feu]
+      rang: 11_a_15
+      nature: mouvement_centrifuge_Terre_genere_la_vie
+    sequence_4_complement:
+      ordre: [Terre, Metal, Eau, Bois, Feu]
+      rang: 16_a_20
+      nature: meme_sequence_pour_completer_bipolarite
+    couples_resultants:
+      Terre: [1_impair_Yang, 6_pair_Yin]
+      Metal: [2_pair_Yin, 7_impair_Yang]
+      Eau: [3_impair_Yang, 8_pair_Yin]
+      Bois: [4_pair_Yin, 9_impair_Yang]
+      Feu: [5_impair_Yang, 10_pair_Yin]
+    resultat: >
+      Chaque élément reçoit un aspect Yin et un aspect Yang.
+      Tout ce qui a reçu cette double énergie est viable.
+    organe_depart: Rate_Terre_acquis_Ciel_posterieur
+    source: PVII-t1-p19_20
+
+  groupe_3_vie:
+    sequence_5_engendrement:
+      ordre: [Bois, Feu, Terre, Metal, Eau]
+      rang: 21_a_25
+      nature: ordre_definitif_de_la_Vie_en_activite
+    sequence_6_maturation:
+      ordre: [Bois, Feu, Terre, Metal, Eau]
+      rang: 26_a_30
+      nature: perfection_de_la_creation
+    couples_resultants:
+      Bois: [1_Yang, 6_Yin]
+      Feu: [2_Yin, 7_Yang]
+      Terre: [3_Yang, 8_Yin]
+      Metal: [4_Yin, 9_Yang]
+      Eau: [5_Yang, 10_Yin]
+    resultat: >
+      Création complète et parfaite. La vie peut commencer.
+      Entretien = nutrition + respiration.
+      Le reste n'est qu'usure du temps car les 2 premiers
+      groupes (structurels) ne sont pas régénérateurs.
+    organe_depart: Foie_Bois_impulsion_de_la_vie
+    source: PVII-t1-p20_21
+
+  Ming_Tang_et_15: >
+    La somme des Nombres du Ming Tang dans toutes les
+    directions donne toujours 15 = les 15 premiers temps
+    indispensables à l'apparition de la Vie.
+    So Ouen ch1 : Femme=7, Homme=8, Union=15.
+
+  trois_organes_fondamentaux:
+    Rein: inne_energie_originelle_Ciel_anterieur
+    Rate: energie_acquise_Ciel_posterieur
+    Foie: demarrage_impulsion_de_la_vie
+    nature: les_3_meridiens_Yin_du_bas_Yin_dans_le_Yin
+    trilogie: >
+      Parfaite, complète et logique. Chacun dépendant de
+      la vitalité de celui qui le précède. Le Bois (vie)
+      nécessite l'action conjuguée du Rein et de la Rate.
+    deux_ecoles: [ecole_de_l_Eau, ecole_de_la_Terre]
+    affaiblissement_R_Rte: porte_ouverte_maladies_degeneratives
+    source: PVII-t1-p22
+
+  nombres_remarquables:
+    sequences_par_groupe: 2
+    groupes: 3
+    total_sequences: 6
+    temps_par_sequence: 5
+    temps_par_groupe: 10
+    temps_total: 30
+    lien_Yi_King: 2_parties_de_32_hexagrammes_dont_30_actifs
+    lien_cycle_60: 2_parties_de_30_combinaisons
+    source: PVII-t1-p21
+
+# ─────────────────────────────────────────────────
+# ORGANISATION SPATIO-TEMPORELLE
+# ─────────────────────────────────────────────────
+
+organisation_spatio_temporelle:
+  deux_rythmes: [Yin_Yang, Cinq_Elements]
+  role: generateurs_et_regulateurs_de_toutes_les_activites
+
+  orientations:
+    Sud: Yang_soleil_chaleur_lumiere
+    Nord: Yin_froid_obscurite
+    Est: debut_Yang_lever_soleil_naissance_jour_equilibre_YinYang
+    Ouest: debut_Yin_coucher_soleil_fin_Yang_equilibre_YangYin
+    Centre: reference_5eme_position
+
+  analogie_fondamentale: >
+    Une journée et une année sont exactement du même ordre
+    et suivent les mêmes variations. Seul le rythme du
+    temps qui s'écoule est différent.
+
+  correspondances_base:
+    5_orients: [nord, sud, est, ouest, centre]
+    5_saisons: [hiver, ete, printemps, automne, 5eme_saison]
+    5_climats: [froid, chaleur, vent, sec, humidite]
+    5_periodes: [nuit, matin, midi, apres_midi, soir]
+
+  regle_axe_vertical_vs_horizontal:
+    Yin_Yang: axe_vertical_haut_bas
+    Cinq_Elements: plan_horizontal_entree_sortie
+    consequence_clinique:
+      montee_descente: traiter_par_lois_Yin_Yang
+      entree_sortie_adaptation: traiter_par_lois_5_Elements
+    synthese: >
+      AXE VERTICAL + PLAN HORIZONTAL = totalité de l'espace.
+      Le centre + 4 directions cardinales + haut et bas.
+  source: PVII-t1-p23_25
+
+  espace_temps_rythme:
+    reference: So_Ouen_chapitre_66
+    espace: Yin_mesure_selon_orients
+    temps: Yang_deroule_selon_saisons
+    combinaison: systeme_spatio_temporel
+    subordonne_a: systeme_saisons_et_orients
+    3eme_terme: le_RYTHME
+    rythme: Yang_synthese_des_deux_precedents
+    proportion: 2_termes_Yang_pour_1_Yin
+    regle: >
+      Ces trois critères sont les règles de circulation
+      de toutes les énergies, la référence de la vie
+      cellulaire et de toutes les constructions organiques.
+    source: PVII-t1-p26
+
+  vivre_avec_environnement:
+    probleme_moderne: >
+      Les organismes perdent leurs références d'espace,
+      de temps et de rythme. Se pencher sur la dérégulation
+      spatio-temporelle dans les maladies graves plutôt
+      que sur les seules toxines.
+    regle_clinique: >
+      Obliger les patients à passer 1 heure par jour
+      à l'extérieur, par tous les temps = vertu
+      thérapeutique simple mais déroutante (dépressions).
+    facteurs_lumiere_chaleur:
+      Yang_active: circulation_sang_energie_fluidifie_liquides
+      exces_Yang: sature_et_bloque_circulations
+      absence_Yang: ralentit_epaissit_vide_Yang
+    synthese: >
+      La Vie = ajout du Yang (énergie vivifiante et dynamisante)
+      dans un corps Yin. Correspond exactement à l'écart
+      entre les éléments (inertes) et les mouvements (vivants).
+    source: PVII-t1-p27
+
+# ─────────────────────────────────────────────────
+# CORRESPONDANCES GÉNÉRALES
+# ─────────────────────────────────────────────────
+
+correspondances_generales:
+  principe_planetes:
+    soleil_lune: Yin_et_Yang
+    5_planetes: 5_Elements
+    Printemps_Bois: Jupiter
+    Ete_Feu: Mars
+    Automne_Metal: Venus
+    Hiver_Eau: Mercure
+    5eme_saison_Terre: Saturne
+
+  systeme_binaire_et_quinaire: >
+    Deux systèmes en présence. Le Ciel et la Terre
+    se correspondent et s'influencent mutuellement.
+    Constante interrelation et interaction entre
+    les activités de la nature et de l'Homme.
+
+  So_Ouen_ch66: >
+    Le Ciel gouverne les 5 sites cardinaux. Ils engendrent
+    les énergies de vent, sécheresse, chaleur, froid, humidité.
+    L'Homme a 5 tsang qui engendrent les 5 sentiments.
+    Le Chen cosmique provoque les mutations des énergies.
+    Le fong est son messager sur terre.
+  transformations_So_Ouen:
+    fong_par_est: Bois
+    chaleur_par_sud: Feu
+    humidite_feconde_sol: Terre
+    secheresse_par_ouest: Metal
+    froid_par_nord: Eau
+
+  6_energies_celestes: >
+    Les 6 combinaisons de Yin/Yang (Tae Yin, Chao Yin,
+    Tsiue Yin, Tae Yang, Chao Yang, Yang Ming) produisent
+    sur Terre les énergies structurantes des 4 orientations
+    qui engendrent 5 qualités saisonnières.
+    Les climats = combinaison 6 énergies Ciel + 5 terrestres.
+
+  mouvements_centripete_centrifuge:
+    structuration: centripete_4_orients_vers_centre
+    nutrition: centrifuge_centre_vers_4_orients
+    dynamisation: centripete_Feu_createur_du_Ciel
+    purification: Feu_purificateur_de_la_Terre
+    attention: >
+      L'excès du feu purificateur devient feu destructeur.
+      Feu créateur = le coeur (l'Esprit).
+      Feu destructeur = la vésicule biliaire (infarctus).
+    mouvement_vie: centrifuge_Bois_Feu_Metal_Eau_autour_Terre
+  schemas_expliques:
+    figure_5_structuration_centripete: >
+      Un carré avec le Centre au milieu et les 4 orients
+      (Nord, Sud, Est, Ouest) aux extrémités. Des flèches
+      convergent des 4 orients vers le centre : c'est le
+      mouvement centripète de structuration. Les énergies
+      des 4 directions viennent se rejoindre au centre
+      pour y cristalliser l'élément matériel.
+    figure_6_nutrition_centrifuge: >
+      Même disposition mais les flèches partent du centre
+      (la Terre/5ème saison) vers les 4 saisons (Printemps,
+      Été, Automne, Hiver). C'est le mouvement centrifuge
+      de nutrition : la Terre nourrit les 4 autres éléments.
+    figure_7_dynamisation_centripete: >
+      Le Feu créateur du Ciel (en haut) envoie son énergie
+      vers le bas, vers le Feu purificateur de la Terre
+      (en bas). Mouvement centripète de dynamisation.
+      ATTENTION : l'excès du feu purificateur devient
+      destructeur (C = Feu créateur, VB = Feu destructeur).
+    figure_8_mouvement_centrifuge: >
+      Cercle avec Feu en haut, Eau en bas, Bois à gauche,
+      Métal à droite, et Terre au centre ET en bas-gauche.
+      Les flèches suivent le sens horaire : Bois → Feu
+      → Terre → Métal → Eau. C'est le mouvement de la vie
+      en activité, le cycle d'engendrement (Tcheng).
+  source: PVII-t1-p28_32
+
+# ─────────────────────────────────────────────────
+# TOUT EST DANS LE TOUT
+# ─────────────────────────────────────────────────
+
+tout_est_dans_le_tout:
+  principe: >
+    La multiplicité est issue de l'Unité.
+    L'origine est une, bipolariée, puis subdivisée
+    en 3 Yin et 3 Yang. Le multiple = variantes
+    de combinaisons de l'Unité.
+  chaque_element_contient_les_5: >
+    Chacun des 5 éléments contient les 4 autres.
+    Chaque élément est représenté dans les 4 autres.
+    Leur différence provient de la prédominance
+    d'un des 5 éléments/mouvements sur les autres.
+  exemple_cellules: >
+    Toutes les cellules sont constituées sur le même schéma
+    mais différenciées par leur activité fonctionnelle.
+    Le foie = essentiellement Bois mais contient Eau (liquide),
+    Terre (noyau), Métal (membrane) etc.
+  cycles_Tcheng_Ko: >
+    Toute modification Yin/Yang se reflète dans les 5E
+    et dans la transmission par les cycles d'engendrement
+    (TCHENG) ou de tempérance (KO).
+  source: PVII-t1-p33_34
+
+# ─────────────────────────────────────────────────
+# NATURES FONCTIONNELLES DES ÉLÉMENTS
+# ─────────────────────────────────────────────────
+
+natures_fonctionnelles:
+  Eau: humidifier_et_descendre
+  Feu: bruler_et_monter
+  Bois: se_tordre_et_se_redresser
+  Metal: se_modifier_et_etre_malleable
+  Terre: recevoir_les_semences_produire_les_recoltes
+  importance: essentielles_a_la_pratique_par_5_elements
+  exemples_pathologiques:
+    Eau: liquides_descendent_oedemes_stagnent_en_bas
+    Bois: articulations_deforment_scolioses_rhumatismes_doigts
+    Feu: hypertensions_cerveau_hemorragies_nasales_cerebrales_glaucomes
+    Terre: surcharges_graisseuses_cellulitiques_PAS_obesite_PAS_boulimie
+    Metal: rigidite_caractere_cassant_tissus_cassants
+  attention_Terre: >
+    Ne pas confondre surcharges graisseuses (Terre)
+    avec obésité (Métal) ni boulimies (IG).
+  source: PVII-t1-p35
+
+energies_et_saisons:
+  solstices: maximum_energies_Yin_Yang
+  equinoxes: equilibre_Yin_Yang
+  difference_chinois_occidental: >
+    En Occident, solstices et équinoxes sont le DÉBUT
+    des saisons. En système chinois, ce sont les MILIEUX.
+  deux_saisons_Yang: [Printemps, Ete]
+  deux_saisons_Yin: [Automne, Hiver]
+  source: PVII-t1-p37
+
+successions_elementaires:
+  Hong_Fan: [Eau, Feu, Bois, Metal, Terre]
+  Hong_Fan_nature: ordonnancement_genese_non_cyclique
+  Nei_Tching: [Bois, Feu, Terre, Metal, Eau]
+  Nei_Tching_nature: ordre_production_energetique_entre_elements
+  cycle_Tcheng: loi_engendrement
+  cycle_Ko: loi_temperance
+  precision_Ko: >
+    Le cycle Ko est abusivement nommé cycle de destruction.
+    C'est un cycle parfaitement normal et physiologique.
+    Cependant, les pathologies empruntent souvent le Ko,
+    d'où la confusion partout répandue.
+  source: PVII-t1-p38

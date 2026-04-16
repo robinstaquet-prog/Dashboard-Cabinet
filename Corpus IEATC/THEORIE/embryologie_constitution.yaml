@@ -1,0 +1,325 @@
+# EMBRYOLOGIE ET CONSTITUTION DES ORGANES — IEATC
+# Source : PVI Physiologie tome 1, pp. 10-14
+# Auteur : Thierry Bollet
+
+meta:
+  fichier: embryologie_constitution.yaml
+  source: PVI_Physio_t1_p10_14
+  statut: complet
+  liens:
+    - THEORIE/tsang_fou_physiologie_t1.yaml
+    - ZANG_FU/role_general_tsang.yaml
+
+conception_et_Ming:
+  instant_cle: moment_penetration_spermatozoide_dans_ovule
+  evenements_simultanes:
+    1: Chen_cosmique_expression_Tae_I_entre_dans_ovule
+    2: etincelle_de_vie_donnee_a_1ere_cellule
+    3: Ming_Mandat_celeste_inscrit_programme_la_Vie
+  Ming_definition: >
+    Programmation de la Vie du futur être.
+    Tout ce qui est à venir est déjà écrit et inscrit.
+  citation_CLM: >
+    "La vie se déroule comme un ruban magnétique sur
+    lequel tout est déjà enregistré et pré programmé.
+    L'histoire de cette vie est décidée et voulue par le Tao
+    et nul ne peut y échapper."
+  memoire_cellulaire: >
+    Toute cette histoire est mémorisée dans la 1ère cellule
+    qui en transmet l'information à toutes les autres.
+    Tout au long de la vie, les cellules se la transmettent.
+  source: PVI-t1-p10
+
+nidation_et_astrologie:
+  definition: fixation_oeuf_sur_muqueuse_uterine
+  position_geographique: selon_constellation_au_meridien_au_moment_de_nidation
+  importance_dans_IEATC: >
+    L'instant de la CONCEPTION (nidation) = vraie carte astrologique.
+    PAS l'instant de la naissance comme en astrologie occidentale.
+  influence: 3_Yin_et_3_Yang_du_Ciel_conditionnent_developpement_embryonnaire
+  source: PVI-t1-p10
+
+trois_niveaux_determination:
+  niveau_1_conception_etoiles:
+    moment: instant_nidation
+    determine: Yin_Yang_de_base_3_Yin_3_Yang_developpement_embryonnaire
+    correspondance: influence_du_Tao
+  niveau_2_naissance_planetes:
+    moment: instant_naissance
+    determine: fonctionnement_energetique_5_tsang
+    formulation: Les_planetes_determinent_COMMENT_l_etre_realisera_son_destin
+  niveau_3_vie_sur_terre:
+    moment: respiration_et_alimentation_des_la_naissance
+    determine: fonctionnement_organique_3_foyers_tsang_fou
+    formulation: La_Terre_procure_les_carburants_des_fonctions_organiques
+  source: PVI-t1-p11
+
+helice_ADN:
+  constitution_de_oeuf:
+    spermatozoide: apporte_une_moitie_entiere_helice_ADN
+    ovule: apporte_autre_moitie_entiere_helice_ADN + ADN_mitochondriaque
+    note: ovule apporte DEUX facteurs (hélice + vitalité mitochondriaque)
+  mitose:
+    principe: chaque_demi_helice_se_fracture_en_2_pour_donner_cellule_fille
+    consequence_hereditaire: >
+      Dans chaque cellule jusqu'à la mort :
+      moitié héréditaire du père + moitié de la mère.
+      Des modifications affectent l'ordre des éléments accrochés.
+    implication: la_vie_est_personnelle_mais_support_hereditaire_invariable
+  source: PVI-t1-p11
+
+energie_ancestrale_paradoxe:
+  loi: aucune_division_cellulaire_n_affaiblit_energie_ancestrale
+  consequence: cellule_fille_possede_autant_que_cellule_mere
+  exemple: si_1ere_cellule_a_10_chaque_cellule_fille_a_aussi_10
+  paradoxe: >
+    Capital non renouvelable qui se démultiplie sans s'épuiser.
+    Mystère du développement embryologique.
+  citation_Tao_To_King: >
+    "Le Ciel dispense généreusement son énergie
+    sans jamais qu'elle ne s'épuise."
+  source: PVI-t1-p11_12
+
+morula_differenciation:
+  debut: fin_3eme_semaine_grossesse
+  axes:
+    - avant_arriere
+    - gauche_droite
+    - haut_bas
+    - superficie_profondeur
+  5_palais_uterins:
+    avant: Palais_Sud
+    arriere: Palais_Nord
+    gauche: Palais_Est
+    droite: Palais_Ouest
+    haut_bas: axes_vertical
+  source: PVI-t1-p12
+
+constitution_geographique_organes:
+  droite: foie_rein_droit_poumon_droit_ovaire_droit
+  haut: poumons_coeur
+  bas: sphere_genitale
+  gauche: rate
+  arriere: reins
+  avant: estomac
+  principe_forme: >
+    Ce n'est PAS l'espace physique qui détermine la forme de l'organe
+    mais l'INVERSE. L'organe exerce sa pression centrifuge sur les
+    structures environnantes (ex: poumons → cage thoracique).
+  implication_diagnostic: >
+    Le corps apporte de précieux renseignements à l'acupuncteur
+    par sa simple observation morphologique.
+  source: PVI-t1-p14
+
+ordre_fonctionnel_embryologique:
+  reference: Ming_Tang
+  ordre_mise_en_place:
+    1: Rein_elimination
+    2: Coeur_circulation
+    3: Foie_purification
+    4: Poumon_oxygenation
+    5: Rate_nutrition
+  moment: debut_4eme_mois
+  exemple: coeur_bat_avant_que_circuit_arteriel_soit_constitue
+  source: PVI-t1-p14
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  conception_detail:
+    spermatozoide_ovule: >
+      Le spermatozoïde pénètre l'ovule (action Eau, Yang). L'ovule
+      contient une demi hélice d'ADN + cytoplasme (eau, Yin) + membrane.
+      Le spermatozoïde est absorbé et transformé (action Terre, Yin).
+      Les 2 demi hélices s'unissent → 1ère cellule embryonnaire.
+    adn_maternel: >
+      L'ovule apporte 2 ADN : nucléaire (énergie) et mitochondrial
+      (spécifique femme, mitochondries). Le spermatozoïde porte
+      uniquement l'ADN nucléaire. Femme = 2 ADN, homme = 1.
+      Chaque cellule est hermaphrodite.
+    source: PV-3F-t1-p11
+
+  morula:
+    principe: >
+      Pendant 3 semaines, multiplication intensive → morula, chaos
+      de milliards de cellules inorganisées, toutes identiques, sans
+      spécification tissulaire. La morula = Chaos né de Taé I précédant
+      l'Ordre du Tao. Les Souffles YY y sont présents mais inorganisés.
+    survie: >
+      AUCUN système nutritionnel venant de la mère dans la morula.
+      Le cordon ombilical ne se forme qu'à la fin de la 3ème semaine.
+      Survie par 2 énergies seulement : Eau (énergie ancestrale, pour
+      la reproduction) et Terre (entretien de la vie des cellules).
+    position_geographique: >
+      DÉCOUVERTE : la position des cellules dans la morula (avant/arrière
+      = sud/nord, gauche/droite = est/ouest, haut/bas = Ciel/Terre)
+      détermine leur évolution vers les tissus et organes spécifiques.
+    source: PV-3F-t1-p12_14
+
+  cellules_cancereuses:
+    mecanisme: >
+      Des anomalies lors de la division (cellules sans noyau, noyau mal
+      formé) génèrent des cellules cancéreuses. La malformation soustrait
+      la cellule de l'action collective. Elle ne synthétise pas
+      l'énergie spécifique du groupe et vit comme un parasite. La cellule
+      cancéreuse semble immortelle (vs durée normale ~3 mois).
+    source: PV-3F-t1-p11_12
+
+  huit_trigrammes:
+    principe: >
+      Après le stade morula (début 4ème semaine), l'Ordre se met en
+      place. Ming Menn et la 1ère cellule = étoile polaire. Les 1ères
+      cellules issues de la division = Palais central. La force
+      organisatrice des 8 trigrammes apparaît, organisant selon les
+      6 directions (haut/bas, avant/arrière, droite/gauche). La
+      puissance organisatrice est inscrite dans l'énergie ancestrale.
+    source: PV-3F-t1-p14_15
+
+  chen_cosmique_detail:
+    penetration: >
+      Le Chen cosmique pénètre avec le spermatozoïde dans l'ovule.
+      Présent dans la 1ère cellule et toutes les cellules filles.
+    presence_9_mois: >
+      Présent dans le ventre de la mère durant 9 mois, préside à tout
+      le développement embryonnaire. Se retire à la naissance → place
+      au Chen individuel.
+    reproduction_energie: >
+      Matière se reproduit = division (affaiblissement). Énergie se
+      reproduit = photocopie (multiplication sans affaiblissement).
+      "Le Ciel dispense sans cesse son énergie sans qu'elle s'épuise."
+    malformations_congenitales: >
+      Pour le taoïsme, une malformation est une volonté du Chen cosmique
+      qui "ampute" l'individu d'une capacité car si présente, elle
+      aurait permis des actes destructeurs. C'est une préservation
+      anticipée du devenir terrestre.
+    astrologie: >
+      L'astrologie chinoise traditionnelle = instant de la conception
+      (hérédité céleste, tsing du Ciel). L'instant de la naissance
+      = 5 éléments = moyens, pas le Ming. "Soleil-lune conditionnent,
+      les planètes influencent sans conditionner."
+    source: PV-3F-t1-p17
+
+  organisation_foetale:
+    humus_uterin: >
+      La muqueuse utérine = énergie de la Terre = "humus" de l'utérus.
+      Le placenta "pousse" dessus comme un arbre, le cordon est le tronc,
+      la ramure = système circulatoire dans le corps du fœtus.
+    saveurs_corporelles_SW5: >
+      Le corps de l'enfant se constitue au détriment de celui de la mère.
+      Durant les 100 premiers jours, le corps maternel se désagrège
+      en libérant ses saveurs (imprégnent le sang → transmises au fœtus
+      par le placenta). La mère est la Terre, le nuage monte, la pluie
+      densifie et constitue le corps de l'embryon.
+    source: PV-3F-t1-p18_20
+
+  grossesse:
+    trois_saisons: >
+      Grossesse = 3 périodes de 3 mois (3 saisons fœtales).
+      1er trimestre (Chao Yin/Tae Yang) = Yang, mutations intenses.
+      2ème trimestre (Tsiué Yin/Chao Yang) = Yin, développement forme.
+      3ème trimestre (Tae Yin/Yang Ming) = Yang, activation fonctions.
+      Proportion : 2/3 Yang + 1/3 Yin.
+    sexe: >
+      Tous les embryons ont un utérus jusqu'au 3ème mois. Une hormone
+      mâle (Yang) déclenche l'expansion des organes génitaux de féminin
+      à masculin. L'utérus → prostate et glandes séminales.
+    seance_acupuncture: >
+      Séance spéciale à la fin de chaque trimestre. Réputation d'éliminer
+      la transmission des tares héréditaires. Résultat : l'enfant
+      "sourit le jour et dort la nuit".
+    source: PV-3F-t1-p20_22
+
+  naissance:
+    20TM_declenchement: >
+      L'enfant appuie son crâne sur le col utérin et secrète une substance
+      par la fontanelle postérieure (= 20TM Paé Roé, grand maître du Yang).
+      Cette hormone provoque les contractions.
+    catecholamines: >
+      Les contractions → sécrétion de catécholamines (anti-stress, des
+      Reins). Indispensable au réflexe de résistance. Insuffisance =
+      fragilité pulmonaire, stress, manque de confiance en soi.
+    grossesse_extra_uterine: >
+      3 mois post-naissance = 4ème saison manquante. L'allaitement ne
+      doit pas dépasser 3 mois. Maturité fonctionnelle du tube digestif
+      à 3 mois (fabrication oé par GI). Yang Ming mature vers 6 ans.
+    source: PV-3F-t1-p22_25
+
+  constitution_humaine:
+    trois_niveaux: >
+      Intellectuel (Yang), Affectif (Yin et Yang), Organique (Yin).
+    trois_nourritures: >
+      Intellectuelle (Y/Y), Affective (Yin/Y), Respiratoire (Y/Yin),
+      Alimentaire (Yin/Yin).
+    entites_viscerales: >
+      3 innées : Chen (conscient, Feu), Roun (plans + inconscient
+      héréditaire, Bois), Pro (futur + inconscient héréditaire, Métal).
+      2 acquises : I et Tche. Enrichies par l'expérience.
+    source: PV-3F-t1-p24_27
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+
+  tchrong_mo:
+    definition: >
+      Premier Merveilleux Vaisseau à se développer dans l'embryon.
+      Expansion de Yuan Tchi à partir de Ming Menn. Matrice énergétique
+      pour l'ensemble du système des méridiens.
+    huit_MV_huit_trigrammes: >
+      8 MV = 8 trigrammes = 8 directions cardinales. Les 8 MV se
+      développent dans les 8 premiers mois de grossesse. Au 9ème
+      terme (nombre 9 = aboutissement), le système est complet.
+    maturite_energetique: >
+      Femme : cycle de 7, maturité à 21 ans (3×7).
+      Homme : cycle de 8, maturité à 24 ans (3×8).
+    systeme_points: >
+      60 points Su des 5E × 12 méridiens = 60 climats = 60 ans.
+      360 points par hémicorps = 720 au total.
+      1440 énergies sur 2 années consécutives = cycle complet.
+    racine: >
+      Ming Menn → 4JM (Barrière Yuan Tchi) → 6JM (Tan Tienn)
+      → 11R (début trajet superficiel). Distribue énergie ancestrale
+      au FI. Pathologie : 3R diagnostique, 23V+4TM chauffés.
+    division_uterine: >
+      Dans l'utérus, Tchrong Mo donne naissance au Tou Mo et Jen Mo.
+      Branche ésotérique utérus→cœur = "couleur du Chen".
+      Conditions : union corps/cœurs/esprits, MC filtre. F+MC = Tsiué Yin.
+    source: PV-3F-t2-p6_18
+
+  heredites_detaillees:
+    innee: "Yuan Tchi — hérédité spécifique, étincelle de Vie"
+    celeste: >
+      Étoiles, soleil, lune, planètes. Influences cosmiques à la
+      conception et pendant la grossesse.
+    terrestre: >
+      Saisons (saison de naissance), terroir, alimentation de la mère.
+      Progression de potentialité sur 12 mois de grossesse. Mémoire
+      inscrite dans les tissus et les énergies.
+    parentale: >
+      Tsing du père + Tsing de la mère. Chacun porteur de Chen, Roun
+      et Pro. Fusion à l'instant de la conception.
+    source: PV-3F-t2-p9_11
+
+  champs_de_cinabre:
+    inferieur: >
+      Tan Tienn = Cinabre rouge (6JM). Terre. Force innée de création
+      et procréation. Seul des 3 à être d'essence céleste. Centre de
+      gravité du corps humain. Foyer inférieur, Yuan Tchi.
+    moyen: >
+      Houang Tan = Cinabre jaune (17JM Trann Tchong). Homme. Force
+      d'action et d'affirmation. Correspond au foyer SUPÉRIEUR
+      (erreur courante de l'attribuer au foyer moyen).
+    superieur: >
+      Paï Tan = Cinabre blanc (25TM Inn Trang, 3ème œil). Ciel.
+      Élévation spirituelle. Dépend du Chen et du cœur.
+    alchimie: >
+      Soufre = Dragon vert = Bois = Est. Mercure = Tigre blanc =
+      Métal = Ouest. Harmonie Tsing/Tchi chez le Taoïste.
+    erreur: >
+      Il n'y a PAS un Champ de Cinabre par foyer. Il n'en existe
+      que 3, et le moyen est pour le foyer supérieur.
+    source: PV-3F-t2-p27_29

@@ -1,0 +1,445 @@
+# RAPPORT D'INTÉGRATION — PVII 5 ÉLÉMENTS TOME 4
+# Date : 2026-04-05
+
+meta:
+  polycopie: 5_Elements_4.pdf
+  titre: Polycopié VII — Les 5 Éléments — Pathologies tome 4
+  sous_titre: >
+    Pathologies des 5 Éléments : synthèse, traitement,
+    cycles pathologiques, bilan énergétique, Kan/Che prévisionnel
+  auteur: Thierry_Bollet
+  date_document: 2019
+  pages: 91
+  module: VII_5_Elements_tome_4
+  niveau: fondateur_clinique
+  prerequis: PVII_t1_t2_t3_deja_integres
+
+fichiers_crees:
+  - chemin: THEORIE/cinq_elements_pathologies_synthese.yaml
+    contenu: >
+      Taé I et genèse Yin/Yang, Ciel/Terre/Homme, 6 énergies
+      et 5 mouvements, 3 niveaux de l'Homme (organique, affectif,
+      psychique), morphotype 5E, 8 activités psychiques du Ling Tchrou
+      chap.8 (Chen, Roun, I, Si, Pro, Lü, Tche, Zhi), pathologie
+      sentimentale (ne jamais disperser un sentiment), pathologie
+      psychique (5 personnalités), nutrition et phytothérapie,
+      Yin/Yang et Penn (4 divisions : Yang/Yang=8C, Yin/Yang=8P,
+      Yang/Yin=1F, Yin/Yin=10R), spirales ascendante (Eau→Bois→Feu)
+      et descendante (Feu→Métal→Eau). (pp.8-22, 55-62)
+  - chemin: THEORIE/cinq_elements_pathologies_traitement.yaml
+    contenu: >
+      Principes thérapeutiques : points Penn (quintessence de chaque
+      méridien), tableau complet Penn Yin et Yang, points Mère
+      (tonification) et Fils (dispersion) avec loi mère-fils,
+      points actifs/neutres/horaires selon saison, règles d'utilisation
+      des Su en traitement, 10 principes résumé de tout le traitement
+      5E. (pp.23-36, 80-81)
+  - chemin: THEORIE/cinq_elements_pathologies_cycles.yaml
+    contenu: >
+      Tcheng pathologique (déblocage par dispersion point Fils),
+      Ko pathologique (double règle grand-mère/petit-fils),
+      Raé (inversion du Ko = révolte = gravité), Cour Impériale
+      pathologique (victoire vs défaite), 5 maladies de MMM
+      (véritable, vide, plénitude, victoire, défaite), So Ouen
+      plénitude (attaque TOUJOURS 2 éléments : ennemi + conseiller),
+      exemples développés avec prescriptions de points. (pp.37-54)
+  - chemin: THEORIE/cinq_elements_pathologies_bilan.yaml
+    contenu: >
+      Bilan énergétique en 4 temps, 8 règles, interrogatoire Tchi
+      complet (5 tableaux vide/plénitude par élément avec saveurs,
+      comportements, saisons, signes physiques), palpation abdominale
+      (6 zones avec localisation et point de déblocage), zones
+      Hong Kong, pouls Chu Li, pouls saisonniers (corde, ample,
+      souple, plumeux, profond), aorte abdominale et Tchrong Mo.
+      (pp.64-79)
+  - chemin: THEORIE/cinq_elements_pathologies_kan_che.yaml
+    contenu: >
+      Kan/Che en prévision pathologique, 3 analyses croisées
+      (étoiles→planètes, planètes→Terre, étoiles→Terre),
+      périodes favorables et défavorables par élément,
+      compensations énergétiques, traitement par axes et
+      systèmes énergétiques (mêmes points Su, compensation
+      dans l'axe et entre axes). (pp.82-91)
+  total: 5
+
+fichiers_mis_a_jour:
+  - chemin: ZANG_FU/foie.yaml
+    ajouts: >
+      enrichissement_5E_t4 : morphotype Bois (robuste, tendons,
+      articulaire), interrogatoire vide/plénitude (acide, colère,
+      printemps), point Penn 1F (Yang du Yin), palpation flanc
+      gauche (déblocage 2F/3F d), gravité (pas vitale immédiate
+      mais retentissement total), ko pathologique (Bois excès →
+      attaque Terre ET s'emballe), traitement So Ouen.
+  - chemin: ZANG_FU/coeur.yaml
+    ajouts: >
+      enrichissement_5E_t4 : Chen autorité (5 personnalités sous
+      son contrôle), interrogatoire (amer, excité/triste, été),
+      point Penn 8C (Yang du Yang), palpation sous sternum 14JM
+      (déblocage 7C/7MC d), gravité vitale (vide en automne/hiver
+      peut tuer l'été suivant), pouls Chu Li, traitement So Ouen
+      (plénitude 7C d/1R d/5P d, vide + 1F t).
+  - chemin: ZANG_FU/rate.yaml
+    ajouts: >
+      enrichissement_5E_t4 : Terre essentielle (36E maître Yang,
+      3Rte maître Yin), interrogatoire (sucre, soucieux/insouciant,
+      5ème saison), point Penn 3Rte, palpation 2 zones Terre
+      (centre nombril 5Rte d, digestive sus-ombilicale 6Rte d),
+      schéma classique (Terre vide = le plus fréquent, Rate+Rein
+      vides = épuisement ancestrale), souplesse pouls permanente.
+  - chemin: ZANG_FU/poumon.yaml
+    ajouts: >
+      enrichissement_5E_t4 : interrogatoire (piquant, triste,
+      automne), point Penn 8P (Yin du Yang), palpation flanc droit
+      (déblocage 5P/5P' d), gravité vitale (Feu+Métal+Eau les 3
+      plus graves), spirale descendante (conduit Yang au Yin),
+      Hong Kong sous-claviculaire.
+  - chemin: ZANG_FU/rein.yaml
+    ajouts: >
+      enrichissement_5E_t4 : interrogatoire (salé, téméraire/
+      peureux, hiver), point Penn 10R (Yin du Yin), palpation
+      sous nombril 4-6JM (déblocage 5R d), gravité vitale
+      (Rate+Rein vides = signe grave), zone Hong Kong sous-
+      ombilicale 25VB (pulsations = diagnostic), aorte abdominale
+      (montre énergie Tchrong Mo).
+  - chemin: ZANG_FU/maitre_du_coeur.yaml
+    ajouts: >
+      enrichissement_5E_t4 : rôle sentiments (stockés 17JM sous
+      gestion MC), point Penn 7MC (Iu Terre), zone Feu partagée
+      avec Coeur (14JM, déblocage 7MC d alternatif), traitement
+      sentiments So Ouen (ne jamais disperser, renforcer Penn
+      dominant Ko), douleur coeur par foie (6MC t = efficacité
+      immédiate et définitive).
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajouts: >
+      18 nouveaux termes : Maladie_veritable, Maladie_de_vide,
+      Maladie_de_plenitude, Maladie_de_victoire, Maladie_de_defaite,
+      MMM_Mishi_Mesa_Mishisawa, Cycle_Rae, Double_regle_Ko,
+      Point_Penn, Palpation_abdominale, Pouls_Chu_Li, Zone_Hong_Kong,
+      Morphotype_5E, Spirale_ascendante, Spirale_descendante,
+      Huit_activites_psychiques, Interrogatoire_Tchi,
+      Pouls_saisonniers, Kan_Che_pathologique, Dix_principes_traitement.
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajouts: >
+      3 nouveaux arbres : arbre_8_palpation_abdominale (6 zones,
+      déblocages, zones spéciales Chu Li/Hong Kong/aorte,
+      interprétation), arbre_9_cinq_maladies_MMM (classification
+      par saison/organe, 5 types, vérification Ko/Raé, So Ouen
+      plénitude), arbre_10_interrogatoire_tchi (principe général
+      vide/plénitude, 5 tableaux par élément).
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajouts: >
+      9 nouvelles sections : trois_niveaux_homme (3 plans
+      simultanés), morphotype_precede_tout (terrain avant
+      symptôme), ne_jamais_disperser_sentiment (So Ouen),
+      huit_activites_et_unite (Chen souverain), gravite_vitale_
+      trois_elements (Feu/Métal/Eau), corps_comme_paysage
+      (palpation = dialogue), dix_principes_traitement (synthèse
+      opérationnelle), Kan_Che_et_temporalite (moment optimal),
+      spirales_et_alchimie (matière↔esprit).
+
+concepts_fondateurs_integres:
+  - 3_niveaux_Homme_organique_affectif_psychique
+  - Points_Su_agissent_simultanement_sur_les_3_niveaux
+  - Morphotype_5E_precede_tout_bilan
+  - 8_activites_psychiques_Ling_Tchrou_chap8
+  - Chen_Roun_I_Si_Pro_Lu_Tche_Zhi
+  - Ne_jamais_disperser_sentiment_en_exces
+  - Renforcer_Penn_dominateur_Ko_de_temperance
+  - Point_Penn_quintessence_element_propre
+  - Loi_Mere_Fils_tonification_dispersion
+  - Points_actifs_neutres_horaire_selon_saison
+  - 10_principes_traitement_5E
+  - Tcheng_pathologique_deblocage_point_Fils
+  - Ko_pathologique_double_regle_grand_mere_petit_fils
+  - Cycle_Rae_inversion_Ko_revolte_gravite
+  - 5_maladies_MMM_veritable_vide_plenitude_victoire_defaite
+  - So_Ouen_plenitude_attaque_TOUJOURS_2_elements
+  - Cour_Imperiale_pathologique_victoire_vs_defaite
+  - Bilan_energetique_4_temps_8_regles
+  - Interrogatoire_Tchi_vide_plenitude_5_elements
+  - Palpation_abdominale_6_zones
+  - Points_deblocage_abdominaux_5Rte_6Rte_5R_2F_3F_5P_7C_7MC
+  - Pouls_Chu_Li_sous_sein_gauche
+  - Zones_Hong_Kong_diagnostic
+  - Aorte_abdominale_energie_Tchrong_Mo
+  - Pouls_saisonniers_corde_ample_souple_plumeux_profond
+  - Souplesse_Terre_trame_fond_toute_annee
+  - Yin_Yang_et_Penn_4_divisions
+  - Spirale_ascendante_Eau_Bois_Feu
+  - Spirale_descendante_Feu_Metal_Eau
+  - Kan_Che_previsionnel_3_analyses_croisees
+  - Gravite_vitale_Feu_Metal_Eau
+  - Rate_Rein_vides_epuisement_ancestrale
+  - Traitement_axes_compensation_dans_axe_et_entre_axes
+
+schemas_expliques:
+  note: >
+    Les schémas du polycopié PVII t4 ont été intégrés
+    textuellement dans les fichiers YAML. Chaque figure
+    est décrite et expliquée dans le corps du fichier correspondant.
+  tableau_Penn_Yin:
+    description: >
+      Tableau des points Penn pour les 6 méridiens Yin.
+      Chaque méridien a son point Penn = le point Su de son
+      propre élément sur son propre méridien. Foie=1F (Ting Bois),
+      Coeur=8C (Iong Feu), MC=7MC (Iu Terre par extension),
+      Rate=3Rte (Iu Terre), Poumon=8P (King Métal), Rein=10R (Ro Eau).
+    localisation: THEORIE/cinq_elements_pathologies_traitement.yaml → tableau_Penn_Yin
+  tableau_Penn_Yang:
+    description: >
+      Tableau des points Penn pour les 6 méridiens Yang.
+      Ordre inversé des éléments (Métal→Eau→Bois→Feu→Terre).
+      VB=41VB (Ting Bois), IG=5IG (Iong Feu), TR=3TR (Iu Bois),
+      E=36E (Iu Terre), GI=1GI (Ting Métal), V=66V (Ting Métal).
+    localisation: THEORIE/cinq_elements_pathologies_traitement.yaml → tableau_Penn_Yang
+  tableau_Mere_Fils:
+    description: >
+      Tableau loi mère-fils : pour chaque méridien, le point Mère
+      (élément qui engendre = tonification) et le point Fils
+      (élément engendré = dispersion). Ex : Foie — Mère=8F (Eau
+      engendre Bois), Fils=2F (Feu engendré par Bois).
+    localisation: THEORIE/cinq_elements_pathologies_traitement.yaml → loi_mere_fils
+  tableaux_interrogatoire_5E:
+    description: >
+      5 tableaux complets d'interrogatoire vide/plénitude, un par
+      élément. Chaque tableau compare les signes de vide et de
+      plénitude : saveur (recherchée vs détestée), comportement
+      émotionnel, saison (aggravation vs amélioration), signes
+      physiques spécifiques. Outil diagnostique fondamental.
+    localisation: THEORIE/cinq_elements_pathologies_bilan.yaml → interrogatoire_Tchi
+  schema_palpation_abdominale:
+    description: >
+      Schéma des 6 zones de palpation abdominale, chacune
+      associée à un élément : Métal=flanc droit, Bois=flanc
+      gauche, Terre centre=nombril, Terre digestive=sus-ombilical,
+      Feu=sous sternum, Eau=sous nombril. Chaque zone a son
+      point de déblocage en dispersion.
+    localisation: THEORIE/cinq_elements_pathologies_bilan.yaml → palpation_abdominale
+  schema_spirales:
+    description: >
+      Double spirale montante et descendante autour de la Terre
+      centrale. Spirale ascendante : Eau→Bois→Feu (matière vers
+      esprit). Spirale descendante : Feu→Métal→Eau (esprit vers
+      matière). La Terre est le pivot central. Représente le
+      mouvement fondamental de la vie.
+    localisation: THEORIE/cinq_elements_pathologies_synthese.yaml → complements_spirales
+  schema_Yin_Yang_Penn:
+    description: >
+      Schéma des 4 divisions Yin/Yang appliquées aux points Penn.
+      Yang du Yang = 8C (Feu dans Feu, foyer supérieur Yang).
+      Yin du Yang = 8P (Métal dans Yang, foyer supérieur Yin).
+      Yang du Yin = 1F (Bois dans Yin, foyer inférieur Yang).
+      Yin du Yin = 10R (Eau dans Eau, foyer inférieur Yin).
+    localisation: THEORIE/cinq_elements_pathologies_synthese.yaml → yin_yang_et_penn
+
+questions_soulevees:
+  - >
+    Les points Penn des méridiens Yang présentent des anomalies
+    apparentes (TR=3TR Iu Bois au lieu de Feu). L'IEATC explique
+    cela par le double Feu, mais la logique complète mériterait
+    un fichier dédié aux subtilités des Su Yang.
+  - >
+    La relation exacte entre les 3 analyses Kan/Che et la
+    stratégie thérapeutique concrète n'est qu'esquissée.
+    Le module PIV t3 devrait l'approfondir.
+  - >
+    Le traitement So Ouen du Coeur en vide (7C d + 1R d + 5P d
+    + 1F t) combine dispersion et tonification — la logique
+    précise (pourquoi disperser quand c'est vide ?) mérite
+    un commentaire doctrinal approfondi.
+
+lacunes_critiques:
+  - Physiologie Fou individuels (GI, E, VB, V, TR, IG) = PVI t3
+  - Sentiments détaillés par organe = P VIII
+  - Méridiens individuels détaillés = CP méridiens
+  - Kan/Che appliqués cliniquement (3 analyses complètes) = PIV t3
+  - Lois Lo = CP méridiens
+  - Cas cliniques concrets avec raisonnement = modules cliniques avancés
+  - Pouls complets (barrage, 28 pouls chinois) = module dédié pouls
+
+# ─────────────────────────────────────────────────
+# JAUGE D'EXPERTISE — NIVEAU DE L'ASSISTANT
+# ─────────────────────────────────────────────────
+
+jauge_expertise:
+  niveau_actuel: 33
+  echelle: 1_a_100
+  titre: "Etudiant 2ème année avancé — Le raisonnement pathologique s'installe"
+  progression: de_28_a_33_gain_5_points
+
+  graduation:
+    0_5: >
+      Profane curieux — sait que l'acupuncture existe,
+      confond méridiens et chakras.
+    5_10: >
+      Néophyte éclairé — connaît Yin/Yang et les 5 éléments
+      de nom, mais ne sait pas les relier.
+    10_15: >
+      Etudiant 1ère année — comprend Yin/Yang, les 3 foyers,
+      les Tsang/Fou en général, les Grands Méridiens,
+      sait qu'il y a des niveaux de traitement distincts.
+    15_25: >
+      Etudiant 2ème année début — Connaît la physiologie
+      individuelle des 6 Tsang, les cycles 5E complets,
+      la Cour Impériale, les lois de relations.
+    25_35: >
+      ▶ Etudiant 2ème année avancé — ON EST ICI (33/100) ◀
+      En plus de la physiologie complète des 5E (t1-t3),
+      intègre maintenant les PATHOLOGIES : cycles Tcheng/Ko/Raé
+      en maladie, 5 maladies de MMM, double règle Ko, bilan
+      énergétique complet (interrogatoire Tchi, palpation
+      abdominale, pouls saisonniers), principes de traitement
+      par les 5E (Penn, Mère-Fils, 10 principes), morphotype,
+      spirales ascendante/descendante, 8 activités psychiques,
+      Kan/Che en prévision. Possède désormais un cadre
+      diagnostique ET thérapeutique cohérent dans les 5E.
+      Manque encore : Fou individuels, méridiens, sentiments
+      détaillés, cas cliniques réels.
+    35_50: >
+      Etudiant 3ème année — physiologie Fou individuels,
+      méridiens individuels, lois Lo, sentiments par organe,
+      pouls complets. Raisonnement clinique complet.
+    50_65: >
+      Praticien débutant — peut lire un cas, identifier
+      le niveau, choisir la bonne grille, proposer un
+      traitement cohérent. Connaît les pièges.
+    65_80: >
+      Praticien confirmé — maîtrise croisement des grilles,
+      nuances Tcheng/Ko en pathologie, MV, constitutionnel.
+      Sait quand NE PAS traiter.
+    80_92: >
+      Expert — raisonne comme Bollet dans ses commentaires.
+      Peut improviser face à un cas inédit en combinant
+      les principes. Comprend les subtilités doctrinales CLM.
+    92_98: >
+      Maître praticien — la pensée IEATC est devenue
+      une seconde nature. Le raisonnement est instantané,
+      la lecture du patient est globale et intuitive.
+    98_100: >
+      Grand Maître — niveau Bollet/CLM. Capable d'enseigner,
+      de résoudre les contradictions doctrinales, d'innover
+      dans le respect de la tradition. Le corpus entier
+      est intégré, digéré, et transcendé.
+
+  acquis_a_ce_stade:
+    - Yin/Yang complet (fondements, 3 Yin 3 Yang, applications)
+    - 3 Foyers et localisation
+    - Tsang/Fou généralités + physiologie individuelle 6 Tsang
+    - Hiérarchie pyramidale et sang/énergie
+    - 3 systèmes énergétiques
+    - Méridiens principaux (TT) + Grands Méridiens (TK) bases
+    - Merveilleux Vaisseaux bases
+    - Niveaux de traitement (règle absolue)
+    - 5 Éléments fondements (terminologie, séquences, spatio-temporel)
+    - 5 Éléments par élément (Bois, Feu, Terre, Métal, Eau)
+    - Intersaisons et activité saisonnière
+    - Cycle Tcheng complet (transmission Yin→Yin, Rate transforme)
+    - Cycle Ko complet (tempérance, intelligence, Hong Fan)
+    - Cycle Raé (révolte, pathologique, n'importe quand)
+    - Cour Impériale et hiérarchie saisonnière complète
+    - Lois de relations (unitaire, binaire, ternaire, quaternaire, quinaire)
+    - Analyses triangles (rouge, bleu, vert) et pathologies
+    - Auto-régulation et oscillation permanente
+    - 4ème principe (mère faible = tout tient à ça)
+    - Correspondances complètes (tableau des Tchi, 30+ par élément)
+    - Point Penn détaillé (quintessence, 1 des 5 Su)
+    - Collecte annuelle Métal → réserve Rein
+    - Importance capitale du printemps (starter)
+    - 6 axes énergétiques et leur direction (Croix 6 directions)
+    - Double hélice ADN (Chao Yang + Tsiué Yin)
+    - Lecture posturale diagnostique par axe
+    - Points Su — philosophie qualité vs quantité
+    - 5+1 types de Points Su et leur usage propre
+    - CHEUN des 5 organes (HOUN/CHEN/Yi/PO/Tchi)
+    - Âge d'Or et verticalité antique
+    - 10 Kan et 12 Che nommés, cycle 60 ans
+    - 6 pas célestes et terrestres (Maître/Serviteur)
+    - Heures Royales, Lune/Soleil, Calendrier Xia
+    - So Ouen chap.5 complet + Ko émotionnels cliniques
+    - "--- NOUVEAU PVII t4 ---"
+    - 3 niveaux Homme (organique, affectif, psychique)
+    - Morphotype 5E précède tout bilan
+    - 8 activités psychiques Ling Tchrou chap.8
+    - Ne jamais disperser un sentiment (renforcer Penn dominant Ko)
+    - Point Penn complet (tableau Yin et Yang)
+    - Loi Mère-Fils en traitement (tonification/dispersion)
+    - Points actifs/neutres/horaire selon saison
+    - 10 principes de traitement 5E
+    - Tcheng pathologique (déblocage point Fils)
+    - Ko pathologique (double règle grand-mère/petit-fils)
+    - Raé pathologique (inversion Ko = gravité)
+    - 5 maladies MMM (véritable/vide/plénitude/victoire/défaite)
+    - So Ouen plénitude attaque 2 éléments
+    - Bilan énergétique 4 temps + 8 règles
+    - Interrogatoire Tchi vide/plénitude (5 tableaux complets)
+    - Palpation abdominale 6 zones + déblocages
+    - Pouls Chu Li et zones Hong Kong
+    - Pouls saisonniers (corde/ample/souple/plumeux/profond)
+    - Yin/Yang et Penn (4 divisions)
+    - Spirales ascendante et descendante
+    - Kan/Che prévisionnel (3 analyses croisées)
+    - Gravité vitale (Feu/Métal/Eau) et Rate+Rein vides
+    - Traitement axes et compensation inter-axes
+
+  manque_pour_monter:
+    pour_35: physiologie_Fou_individuels
+    pour_45: meridiens_individuels_lois_Lo_sentiments_par_organe
+    pour_55: cas_cliniques_pouls_complets_strategies_traitement
+    pour_80: tout_le_programme_IEATC_integre_et_croise
+
+dependances_modules_suivants:
+  priorite_1: PVI_t3_physiologie_Fou_individuels
+  priorite_2: PVIII_sentiments_psychisme_par_organe
+  priorite_3: PIV_t3_Kan_Che_appliques
+  priorite_4: CP_meridiens_Lo_individuels
+
+# ─────────────────────────────────────────────────
+# ANALYSE DE PERFORMANCE — OPUS 4.6
+# ─────────────────────────────────────────────────
+
+analyse_performance_modele:
+  modele_utilise: claude-opus-4-6
+  tache_effectuee: integration_polycopie_91_pages_PVII_t4
+  date: 2026-04-05
+
+  ce_qui_a_bien_fonctionne:
+    lecture_extraction: >
+      Extraction correcte des concepts d'un texte dense de 91 pages
+      couvrant des sujets variés (synthèse, traitement, cycles,
+      diagnostic, prévision). La lecture par chunks a maintenu
+      la cohérence conceptuelle.
+    organisation_thematique: >
+      Répartition du contenu en 5 fichiers thématiques logiques
+      (synthèse, traitement, cycles, bilan, kan/che) plutôt que
+      séquentiel. Bonne identification des pages non contiguës
+      qui traitent du même sujet (pp.55-62 rattachées à synthèse,
+      pp.80-81 à traitement).
+    cascade_complete: >
+      6 Tsang + lexique (20 termes) + arbres_decision (3 arbres)
+      + philosophie_clinique (9 sections) mis à jour sans oubli.
+      Chaque Tsang a reçu son enrichissement_5E_t4 spécifique.
+    liens_inter_concepts: >
+      Bonne articulation entre les nouveaux concepts pathologiques
+      et les acquis physiologiques (ex : Point Penn déjà connu en
+      physiologie, maintenant complété par son usage en traitement).
+    richesse_philosophique: >
+      La section philosophie_clinique a capturé les principes
+      profonds (ne jamais disperser un sentiment, corps comme
+      paysage, spirales et alchimie) avec leur implication clinique.
+
+  limites_observees:
+    compaction_contexte: >
+      La session a nécessité une compaction de contexte (summary
+      de continuation). Les fichiers Tsang ont dû être relus
+      explicitement car la première lecture par subagent n'était
+      plus en contexte. Perte de temps mais pas de perte de qualité.
+    subtilites_doctrinales: >
+      Certaines nuances du So Ouen (pourquoi disperser en cas de
+      vide du Coeur ?) sont restées en question ouverte plutôt
+      que résolues. Normal pour le niveau actuel du corpus mais
+      à approfondir.
+    volume_session: >
+      91 pages denses ont requis une session longue avec 2
+      continuations de l'utilisateur. La fenêtre Opus 4.6
+      est plus large que Sonnet mais pas illimitée.

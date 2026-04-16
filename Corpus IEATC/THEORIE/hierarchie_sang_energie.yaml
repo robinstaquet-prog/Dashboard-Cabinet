@@ -1,0 +1,149 @@
+# HIERARCHIES DES TSANG / FOU
+# Source : PVI Physiologie tome 2, pp. 6-11
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: hierarchie_sang_energie.yaml
+  source: PVI_Physio_t2_p6_11
+  statut: complet
+  liens:
+    - ZANG_FU/role_general_tsang.yaml
+    - ZANG_FU/role_general_fou.yaml
+    - THEORIE/tsang_fou_physiologie_t1.yaml
+
+hierarchie_pyramidale:
+  principe: >
+    Système pyramidal conforme à l'Empire.
+    L'importance est en terme de direction et d'ordres donnés.
+  ordre:
+    1_empereur: Coeur_dirige_sang_et_circulation
+    2_MC: pas_rang_de_Ministre_mais_place_importante
+    3_1er_Ministre: Poumon_dirige_energie_et_distribution
+    4_Ministre_defense: Foie_dirige_ou
+    4_meme_niveau_Ministre_economie: Rate_dirige_iong
+    5_dernier: Rein_Feu_Ministre_conserve_ancestrale
+  regle_clinique: >
+    Sans 1er Ministre (poumon), il n'y a pas d'autorité.
+    L'importance énergétique peut être de même niveau,
+    mais il faut bien un chef.
+  regle_traitement: >
+    En théorie pure du vide : rétablir l'équilibre du tsang
+    suffit pour que les fou retrouvent activité normale.
+    CEPENDANT : souvent un tsang ne fonctionne plus quand
+    son fou est épuisé (Yang ne dynamise plus le Yin).
+  protocole_pouls_vide:
+    1: tonifier_tsang
+    2_si_pas_reponse: stimuler_aussitot_le_fou_couple
+    3_si_reponse: cause_trouvee_le_reste_est_jeu_d_enfant
+    causes_pouls_vide_tsang:
+      a: lui_meme_vide_energie_tonifier
+      b: bloque_energie_ne_circule_plus_technique_iu_mo
+      c: fou_couple_vide_pouls_le_montre_Yang_ne_dynamise_plus
+  source: PVI-t2-p6
+
+hierarchie_sang_energie:
+  tableau_tsang:
+    plus_energetique: Coeur
+    2eme: Rein
+    3eme: Poumon
+    4eme: Rate
+    5eme: MC
+    plus_sanguin: Foie
+  tableau_fou:
+    plus_energetique: VB
+    2eme: TR
+    3eme_equilibre: E
+    4eme_equilibre: GI
+    5eme: V
+    plus_sanguin: IG
+
+  complementarites_tsang:
+    C_et_F: >
+      Plus énergétique (C) et plus sanguin (F), en opposition
+      complémentaire : C = sang artériel, F = sang veineux.
+    R_et_MC: >
+      Énergétique (R) et sanguin (MC) = 2 Feux Ministres,
+      assistent le coeur et dirigent la reproduction.
+    P_et_Rte: >
+      Énergétique (P) et sanguine (Rte) = Maîtres des
+      alimentations de l'air et des nourritures.
+
+  complementarites_fou:
+    VB_et_IG: >
+      Plus énergétique (VB) et plus sanguin (IG),
+      au niveau duodénum (digestion).
+    TR_et_V: >
+      Énergétique (TR) et sanguine (V),
+      régulent thermorégulation et élimination liquides.
+    E_et_GI: >
+      Équilibrés, dirigent entrée/sortie des aliments.
+
+  couplages_5_elements:
+    regle: tsang_sanguin_couple_avec_fou_energetique_et_inversement
+    exemple_Feu: C_plus_energetique_couple_a_IG_plus_sanguin
+    exemple_Bois: F_plus_sanguin_couple_a_VB_plus_energetique
+    consequence_clinique: >
+      Piquer un méridien joue sur sa polarité sang/énergie.
+      Piquer foie = sang veineux aspect Yin bas du corps.
+      Piquer VB = énergie Yang surface du corps.
+      Piquer estomac = équilibre sang et énergie.
+      Piquer rein = énergie Yang profondeur du corps.
+    regle_surface_profondeur: >
+      Par les fou → axes Yang → surface du corps.
+      Par les tsang → organes → profondeur.
+  source: PVI-t2-p7_8
+
+axes_energetiques_sang_energie:
+  plus_energetiques: [Chao_Yang, Chao_Yin]
+  equilibres: [Tae_Yin, Yang_Ming]
+  plus_sanguins: [Tsiue_Yin, Tae_Yang]
+
+  couplages_axes:
+    Chao_Yin_plus_energetique_profondeur: avec_Tae_Yang_plus_sanguin_surface
+    Chao_Yang_plus_energetique_surface: avec_Tsiue_Yin_plus_sanguin_profondeur
+    Tae_Yin_equilibre_profondeur: avec_Yang_Ming_equilibre_surface
+
+  structure_interne_externe:
+    interne: 1_axe_energetique_1_axe_sanguin_1_axe_equilibre
+    externe: photocopie_exacte_de_l_interne
+    consequence:
+      sang_externe: dirige_par_Tae_Yang
+      sang_interne: dirige_par_Tsiue_Yin
+      energie_externe: dirige_par_Chao_Yang
+      energie_interne: dirige_par_Chao_Yin
+      equilibre_externe: dirige_par_Yang_Ming
+      equilibre_interne: dirige_par_Tae_Yin
+    Tae_Yin_Yang_Ming: >
+      Chargés de la fabrication et distribution des énergies iong
+      et du sang aux autres niveaux (interne et externe).
+      Interne = alimentation organes. Externe = alimentation méridiens.
+
+  desequilibres:
+    froid_externe: insuffisance_energie
+    chaleur_externe: exces_energie
+    froid_interne: exces_de_sang
+    chaleur_interne: vide_de_sang
+
+  energies_climatiques:
+    Chao_Yin: chaleur
+    Chao_Yang: feu
+    Tae_Yin: humidite
+    Yang_Ming: sec
+    Tsiue_Yin: vent
+    Tae_Yang: froid
+    climats_Yin: froid_humidite_vent_associes_au_sang
+    climats_Yang: chaleur_feu_secheresse_associes_a_l_energie
+  source: PVI-t2-p8_10
+
+organisation_3_systemes:
+  principe: >
+    Les 6 axes en 3 systèmes sont indispensables pour
+    comprendre la physiologie générale des tsang/fou.
+  flux:
+    1: tsang_du_haut_envoient_ordre_idee_energie_vers_Yang
+    2: Yin_du_haut_transmettent_aux_Yang_du_haut
+    3: Yang_du_haut_recoivent_et_realisent_fonction_3F
+    4: Yang_du_bas_recoivent_transportent_transmettent_aux_Yin_bas
+    5: Yin_du_bas_integrent_conduisent_aux_tsang_qui_thesaurisent
+  note: tsang_du_bas_thesaurisent_en_premier_et_alimentent_ceux_du_haut
+  source: PVI-t2-p11

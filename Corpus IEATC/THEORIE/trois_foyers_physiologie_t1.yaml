@@ -1,0 +1,1080 @@
+# TROIS FOYERS — PHYSIOLOGIE GÉNÉRALE (TOME 1)
+# Source : PV (Polycopié V) — Les Trois Foyers, tome 1
+# Auteur : Thierry Bollet, compilé 03/07/2015, 54 pages
+# Traité le : 2026-04-06
+
+meta:
+  fichier: trois_foyers_physiologie_t1.yaml
+  polycopie: PV_3F_t1
+  titre: Les Trois Foyers — Physiologie (tome 1)
+  auteur: Thierry_Bollet
+  pages: 54
+  module: V_Trois_Foyers
+  niveau: physiologie_fondamentale
+  importance: >
+    Polycopié fondamental de 2ème année. Première entrée directe dans
+    la physiologie énergétique, organique et physique de l'Homme.
+    Couvre l'embryologie complète, la conception, la grossesse, la
+    naissance, les énergies Ciel/Terre, la combustion/carburation,
+    la composition et la physiologie détaillée des 3 foyers.
+  prerequis: PIV_YY (tomes 1-3), PVII_5E (tomes 1-4)
+  liens:
+    - ZANG_FU/triple_rechauffeur.yaml
+    - ZANG_FU/estomac.yaml
+    - ZANG_FU/rein.yaml
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/vesicule_biliaire.yaml
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/poumon.yaml
+    - ZANG_FU/gros_intestin.yaml
+    - ZANG_FU/intestin_grele.yaml
+    - THEORIE/embryologie_constitution.yaml
+    - THEORIE/energies_hereditaires_seminaire.yaml
+    - THEORIE/jin_ye_liquides_seminaire.yaml
+
+# =============================================================================
+# INTRODUCTION ET HISTORIQUE
+# =============================================================================
+
+introduction:
+  contexte: >
+    Avec l'étude des 3 Foyers, on entre directement dans la physiologie
+    énergétique, organique et physique de l'Homme. Programme de 2ème
+    année qui fait sans cesse rappel au YY et aux 5E de 1ère année.
+  historique: >
+    La théorie des 3 Foyers est très antérieure au Su Wen. Issue de la
+    tradition taoïste la plus pure et ancienne, remontant aux Empereurs
+    mythiques. Correspondance appliquée à l'Homme du principe ternaire :
+    Taé I – Tchi – Chen / Tao – Yin – Yang / Ciel – Homme – Terre.
+  ternaire: >
+    3 foyers = 3 étages dans l'Homme. Chaque étage est lui-même
+    subdivisé en 3 autres. Su Wen nomme ces étages le Ciel, la Terre
+    et l'Homme de l'Homme.
+  source: PV-3F-t1-p6
+
+# =============================================================================
+# ÉNERGIES DU CIEL
+# =============================================================================
+
+energies_du_ciel:
+  principe: >
+    L'Homme reçoit, synthétise et intègre les énergies externes dites
+    "du Ciel" : Yin de la lune, Yang du soleil, 6 énergies du Ciel
+    (3 Yin + 3 Yang), énergie des 5 planètes (5 éléments), énergie
+    des 5/6 climats (chaleur/feu), énergie des 5 saisons, et la
+    vraisemblable principale énergie : la lumière.
+  source: PV-3F-t1-p7
+
+# =============================================================================
+# ÉNERGIES DE LA TERRE
+# =============================================================================
+
+energies_de_la_terre:
+  sources:
+    - respiration_de_air
+    - hydratation_par_eau
+    - nutrition_minerale_vegetale_animale
+    - energie_5_substances: >
+        Bois du végétal, Eau de l'eau ou des roches, Terre de l'humus,
+        Métal des déserts ou minéraux métalloïdiques.
+    - tellurisme
+
+  tellurisme:
+    principe: >
+      L'énergie développée par la Terre est différente selon l'espace
+      géographique. Chaque type de terrain renforce un élément spécifique.
+    correspondances:
+      montagne: Metal (air vif, riche en lumière, élève l'énergie)
+      bord_de_mer: Eau (eau saline ≈ plasma sanguin)
+      humus_vegetal: Terre (Beauce)
+      roche: Eau (Bretagne, Auvergne, Lubéron)
+      espaces_venteux: Bois (bords de mer, Languedoc)
+      iode_volcanique: Feu
+      foret: Bois
+      cultures: Terre
+    source: PV-3F-t1-p7_8
+
+  electromagnetisme_terrestre:
+    principe: >
+      Le magnétisme terrestre est un courant apte à déplacer et orienter
+      les métaux et métalloïdes ionisés. Le plasma sanguin avec ses
+      éléments ionisés se comporte comme un électrolyte conducteur.
+    orientation_ions: >
+      DÉCOUVERTE CNRS : tous les éléments cristallins (métaux, métalloïdes)
+      contenus dans le sang sous forme ionisée sont spatialement orientés
+      comme l'aiguille de la boussole. Quelle que soit la circulation du
+      sang, ses mouvements, tourbillons, ils restent TOUJOURS dans la même
+      orientation spatiale par rapport au nord/sud/est/ouest/haut/bas.
+    adn: >
+      Même orientation des éléments "collés" sur l'hélice d'ADN. Organisation
+      hiérarchique des oligo-éléments selon des lois liées au magnétisme
+      et à l'électricité.
+    maladies_graves: >
+      Dans TOUTES les maladies graves, il y a une désorganisation de
+      l'orientation cardinale de ces éléments tant dans le sang que sur
+      l'hélice d'ADN. D'où l'intérêt de considérer les champs EM en
+      surcharge (lignes haute tension, appareils).
+    experience_plomb: >
+      Des rats dans une caisse en plomb hermétique (avec lumière, chaleur,
+      air, nourriture) meurent au bout de 6 heures. Le plomb isole
+      totalement des rayonnements magnétiques.
+    transposition: >
+      Électrique = Yang. Magnétique = Yin.
+    source: PV-3F-t1-p8_9
+
+  piezzo_lumiere:
+    principe: >
+      L'activité du magma terrestre développe un puissant champ électrique.
+      L'effet piézo-électrique : frapper une roche génère un courant
+      électrique. La lumière du soleil touchant un cristal de roche
+      génère immédiatement un courant électrique à sa surface.
+    temples: >
+      Les civilisations aux constructions cyclopéennes (temples, pyramides)
+      recherchaient un effet de masse et de pression. Des chambres
+      (le Naos) condensaient des "énergies" dans leur espace. La statue
+      sacrée (bois recouvert de métal) se chargeait puissamment.
+    grottes: >
+      Les grottes et cavernes sont des espaces vides au sein de la roche
+      mais pleins d'une considérable énergie que les hommes préhistoriques
+      connaissaient peut-être (grottes rupestres).
+    source: PV-3F-t1-p9
+
+  feng_tchui:
+    definition: >
+      Science de l'emplacement (Fong Chui). Traditionnellement en Chine,
+      science de l'endroit où l'on devait bâtir la sépulture des morts
+      pour que leur Kouei ne perturbe pas les vivants. Fondée sur les
+      positions des 8 trigrammes avec positionnement des planètes.
+    prudence: >
+      Ce qui est présenté aujourd'hui comme Feng Tchui est un mélange,
+      parfois regrettable, de géobiologie européenne avec cette science.
+      Un énergéticien bien formé (codification YY) serait apte à pratiquer
+      le Feng Tchui presque sans en avoir appris la technique.
+    source: PV-3F-t1-p9_10
+
+# =============================================================================
+# EMBRYOLOGIE — LES 3 FOYERS APPARAISSENT AVEC L'EMBRYON
+# =============================================================================
+
+embryologie:
+  conception:
+    processus: >
+      Le spermatozoïde pénètre l'ovule (action Eau, Yang) en perçant
+      l'enveloppe. L'ovule est doué de vie brève (3 à 5 jours), composé
+      d'une demi hélice d'ADN, de cytoplasme (= eau, Yin) et d'une
+      membrane. Le spermatozoïde est absorbé par l'ovule qui le transforme
+      (action Terre, Yin). Sa flagelle se dissout, sa tête (Yang) contient
+      une demi hélice d'ADN. Les deux demi hélices s'unissent pour former
+      la 1ère cellule embryonnaire.
+    adn_maternel: >
+      L'ovule apporte 2 ADN : nucléaire (énergie de la 1ère cellule) et
+      mitochondrial (spécifique de la femme, fabrique les mitochondries).
+      Le spermatozoïde porte uniquement l'ADN nucléaire. La femme fournit
+      2 ADN, l'homme 1 seul. Chaque cellule est hermaphrodite.
+    source: PV-3F-t1-p11
+
+  reproduction_cellulaire:
+    mitose: >
+      Division symétrique : moitié noyau + moitié cytoplasme-membrane.
+      Durée de vie d'une cellule humaine : ~3 mois (la cellule cancéreuse
+      semble immortelle). Pas de cellules mâle/femelle se rejoignant.
+    cellules_cancereuses: >
+      Des anomalies lors de la division (cellules sans noyau, noyau mal
+      formé) génèrent des cellules cancéreuses. La malformation soustrait
+      la cellule de l'action collective du groupe. Elle ne synthétise pas
+      correctement l'énergie spécifique et vit comme un parasite.
+    loi_5_elements: >
+      L'énergie du Bois nourrit le foie et ses cellules. Le Tsiué Yin
+      stimule et active la fonction. L'ablation d'un des 5 Tsang est
+      mortelle car son Tsing est indispensable à l'ensemble de l'énergie
+      Tsing humaine conservée par les reins.
+    source: PV-3F-t1-p11_12
+
+  genie_antique:
+    morula: >
+      L'orifice de pénétration du spermatozoïde se referme en cicatrisant.
+      Pendant 3 semaines, multiplication intensive → morula, chaos de
+      cellules inorganisées avec capacité phénoménale de reproduction.
+      En 3 semaines : déjà des milliards de cellules toutes identiques,
+      sans spécification tissulaire ou organique.
+    morula_et_tao: >
+      La morula est exactement le Chaos né de Taé I précédant l'organisation
+      du Tao. Les Souffles YY y sont présents mais inorganisés.
+      Elle ne vit que par l'action de la Terre (mère) et de l'énergie
+      de l'Eau (énergie ancestrale). Elle échappe encore au Tao.
+    position_geographique: >
+      DÉCOUVERTE REMARQUABLE : la position géographique des cellules dans
+      la morula (avant/arrière/gauche/droite/haut/bas = sud/nord/est/
+      ouest/Ciel/Terre) détermine leur évolution spécifique vers la
+      formation des tissus et organes. C'est parfaitement l'énergétique
+      chinoise.
+    8_trigrammes: >
+      Après le stade morula (début 4ème semaine), l'Ordre se met en place.
+      Ming Menn et la 1ère cellule = étoile polaire. Les 1ères cellules
+      = Palais central. La force organisatrice des 8 trigrammes apparaît
+      autour de ce Palais, organisant selon les 6 directions.
+      La puissance organisatrice est inscrite dans l'énergie ancestrale.
+    source: PV-3F-t1-p12_15
+
+  eau_et_terre_fondamentales:
+    principe: >
+      Dans la morula, AUCUN système nutritionnel venant de la mère.
+      Le cordon ombilical ne se forme qu'à la fin de la 3ème semaine.
+      La survie embryonnaire ne dépend que de 2 énergies :
+      — Eau (énergie ancestrale) pour la reproduction,
+      — Terre pour l'entretien de la vie des cellules.
+    consequence: >
+      Rein et Rate sont et resteront toute la vie les deux organes
+      FONDAMENTAUX de la vie conforme à l'Ordre. Tout dérèglement du
+      Yin ou du Yang compromet cet équilibre, peut générer anarchie
+      cellulaire = source des maladies dégénératives.
+    source: PV-3F-t1-p13_14
+
+  ming_menn:
+    definition: >
+      Ming Menn = "Porte de la destinée", "Porte du Mandat céleste".
+      Menn = porte, Ming = le Mandat céleste. La trace de la pénétration
+      du spermatozoïde persiste toute la vie. Se situe dans l'espace
+      interépineux L2/L3. Point 4TM – Ming Menn.
+    centre_celeste: >
+      Ming Menn est le centre céleste initial de l'Homme. Le nombril
+      (cicatrice du cordon) est le centre terrestre, secondaire =
+      Terre centre, centre êtrique.
+    toute_division_autour: >
+      Toute la division cellulaire s'effectue autour de l'espace de la
+      1ère cellule. Les tissus se développent par rapport à cet espace.
+      Les organes s'organisent spatialement par rapport à lui.
+    source: PV-3F-t1-p14_16
+
+  chen_cosmique:
+    penetration: >
+      À l'instant où le spermatozoïde pénètre l'ovule, le Chen cosmique
+      l'accompagne et pénètre avec lui. Il est présent dans la 1ère
+      cellule et dans toutes les cellules filles.
+    reproduction_energie: >
+      Quand la matière se reproduit → division et affaiblissement.
+      Quand l'énergie se reproduit → c'est une photocopie d'elle-même,
+      multiplication et non division. "Le Ciel dispense sans cesse et
+      généreusement son énergie sans que celle-ci ne s'épuise jamais."
+    presence_9_mois: >
+      Le Chen cosmique est présent dans le ventre de la mère durant les
+      9 mois et préside à tout le développement embryonnaire. Il se
+      retire à la naissance pour laisser place au Chen individuel.
+    ming_mandat: >
+      Chaque être reçoit un conditionnement de ce qu'il sera et fera.
+      Le Ming est voulu et préparé par le Chen cosmique. Le libre arbitre
+      ne procure que les choix pour accomplir ce qu'il doit accomplir.
+    malformations: >
+      Pour le taoïsme, une malformation congénitale est l'expression
+      d'une volonté du Chen cosmique qui "ampute" l'individu d'une
+      capacité car, si présente, elle lui aurait permis des actes
+      destructeurs. C'est une préservation anticipée.
+    astrologie: >
+      L'astrologie chinoise traditionnelle ne tient compte que de
+      l'instant de la conception (= hérédité céleste, tsing du Ciel).
+      L'instant de la naissance (planètes, 5 éléments) = les moyens,
+      pas le Ming. "Soleil-lune conditionnent, les planètes influencent
+      sans conditionner."
+    source: PV-3F-t1-p17
+
+  organisation_foetale:
+    humus_uterin: >
+      La muqueuse utérine dépend de l'énergie de la Terre. Elle est
+      l'humus de l'utérus. Le placenta "pousse" sur cet humus comme
+      un arbre, le cordon ombilical est le tronc, la ramure = système
+      circulatoire artériel et veineux dans le corps du fœtus.
+    saveurs_corporelles: >
+      So Wen ch.5 : le corps de l'enfant commence par se constituer
+      au détriment du corps de la mère. Durant les 100 premiers jours,
+      le corps de la mère se désagrège en libérant ses saveurs qui
+      imprègnent son sang et sont transmises au fœtus par le placenta.
+      La mère est la Terre, son énergie "monte" dans l'utérus.
+      Le Ciel (Chen cosmique dans l'utérus) agit en formant le nuage
+      et la pluie, densifiant les saveurs pour constituer le corps.
+    citation_SW5: >
+      "La saveur appartient au corps, le corps appartient à l'énergie,
+      l'énergie appartient à l'essence et l'essence appartient à la
+      transformation. L'essence est nourrie par l'énergie, le corps
+      est nourri par le goût."
+    source: PV-3F-t1-p18_20
+
+# =============================================================================
+# GROSSESSE
+# =============================================================================
+
+grossesse:
+  trois_saisons: >
+    La grossesse évolue selon 3 périodes de 3 mois (≈ 3 saisons).
+    Il manque une 4ème saison = la grossesse extra-utérine (3 mois
+    post-naissance). 3+1 saisons = année solaire complète.
+
+  ternaires:
+    1er_trimestre:
+      systeme: Chao_Yin_Tae_Yang
+      nature: Yang (mutations intenses, division cellulaire, création organes)
+      mois: 0_a_3
+    2eme_trimestre:
+      systeme: Tsiue_Yin_Chao_Yang
+      nature: Yin (développement de la forme, augmentation des volumes)
+      mois: 4_a_6
+    3eme_trimestre:
+      systeme: Tae_Yin_Yang_Ming
+      nature: Yang (activation finale de toutes les fonctions)
+      mois: 7_a_9
+    proportion: >
+      2 phases Yang + 1 phase Yin = 2/3 Yang, 1/3 Yin.
+      Le Yang fait muter la forme, le Yin développe la forme.
+
+  sexe: >
+    Jusqu'à la fin du 3ème mois, tous les embryons ont un utérus.
+    Une hormone mâle (Yang) déferle et déclenche l'expansion des
+    organes génitaux de féminin à masculin par extériorisation (Yang
+    externe). L'utérus évolue en prostate et glandes séminales.
+
+  seance_acupuncture: >
+    Les praticiens font systématiquement une séance spéciale d'acupuncture
+    à la fin de chaque trimestre de la grossesse. Réputation d'éliminer
+    la transmission des tares héréditaires. Résultat confirmé : l'enfant
+    "sourit le jour et dort la nuit".
+
+  source: PV-3F-t1-p20_22
+
+# =============================================================================
+# NAISSANCE
+# =============================================================================
+
+naissance:
+  declenchement:
+    retournement: >
+      Position tête en haut = communication avec le Ciel. L'enfant se
+      retourne tête en bas → fin du cycle de la grossesse intra-utérine.
+      Tant qu'il ne s'est pas retourné, la grossesse énergétique n'est
+      pas terminée.
+    hormone_fontanelle: >
+      L'enfant appuie le sommet de son crâne sur le col utérin et
+      secrète une substance par sa fontanelle postérieure (= 20TM Paé Roé,
+      grand maître de tout le Yang). Cette hormone provoque les
+      contractions. Contractions fortes = Yang vigoureux.
+    catecholamines: >
+      Les contractions stressent l'enfant → il secrète des catécholamines
+      (anti-stress, viennent des reins). Insuffisance = source d'insuffisance
+      pulmonaire/respiratoire les premiers mois. Indispensable pour créer
+      le réflexe. Sans cette sécrétion : faible des poumons, facilement
+      stressé, fragile aux émotions, manque de confiance en soi.
+    source: PV-3F-t1-p22_23
+
+  arrivee_sur_terre:
+    caracteristiques:
+      - enfant respire de l'air de manière autonome
+      - cordon ombilical coupé
+    densite: >
+      L'eau amniotique et l'air extérieur : même milieu, différente densité
+      (l'eau = condensation de gaz). Le fœtus peut "respirer" le liquide
+      amniotique sans dommage.
+
+  grossesse_extra_uterine:
+    principe: >
+      3 mois complémentaires nécessaires après la naissance. C'est la
+      "grossesse extra-utérine" = 4ème saison manquante. L'enfant doit
+      être nourri au sein maternel car son système des 3 foyers n'est
+      pas opérationnel.
+    lait_maternel: >
+      Le lait est une transformation du sang maternel. Le sein est sous
+      la dépendance du méridien de l'Estomac (17E = téton). Rate et
+      Estomac = couple Terre nourricier. L'estomac obéit à la Rate.
+      Le lait contient les substances nutritives et l'immunologie maternelle.
+    tube_digestif: >
+      Le tube digestif de l'enfant n'a pas atteint sa maturité fonctionnelle.
+      Celle-ci commence à être opérationnelle à la fin du 3ème mois
+      (capable de fabriquer seul son énergie défensive oé via le GI).
+    yang_ming_maturation: >
+      Le Yang Ming de l'enfant n'est totalement mature qu'aux environs
+      de sa 6ème année. Tous les enfants sont "fragiles" du tube digestif
+      jusque-là. Il faut au moins 5 ans pour connaître toutes les
+      énergies de la Terre (chaque année = 1 des 5 éléments).
+    allaitement: >
+      L'allaitement ne doit pas dépasser 3 mois. Au-delà, cela retarde
+      l'évolution, l'apprentissage, et maintient un système de dépendance
+      affective et psychologique. L'enfant a besoin de découvrir la
+      densité pour s'imprégner de la matérialité.
+    dents_marche: >
+      Il est courant qu'un enfant faisant ses dents (estomac) tôt
+      marchera (squelette = reins) plus tardivement.
+    source: PV-3F-t1-p23_25
+
+  constitution_humaine:
+    trois_intentions: >
+      La conception est due à 3 intentions : 1) Souffle de Taé I,
+      2) Souffle des Parents, 3) Souffle du Soleil (étincelle de vie).
+    trois_niveaux:
+      intellectuel: Yang
+      affectif: Yin_et_Yang
+      organique: Yin
+    trois_nourritures:
+      intellectuelle: Yang_Yang
+      affective: Yin_Yang
+      respiratoire: Yang_Yin
+      alimentaire: Yin_Yin
+    source: PV-3F-t1-p24_25
+
+# =============================================================================
+# PHYSIOLOGIE ÉNERGÉTIQUE — CIEL ANTÉRIEUR / POSTÉRIEUR
+# =============================================================================
+
+ciel_anterieur_posterieur:
+  transition: >
+    Du virtuel au réel, du subtil au manifesté, de l'invisible au
+    visible, de l'imperceptible au mesurable, de l'éthéré au dense,
+    du non manifesté au manifesté. S'applique aussi aux plans
+    sentimental et psychique (inconscient → conscient).
+  tableau:
+    ciel_anterieur: Tae_I, Chen_Tchi, avant_manifestation, idee_des_formes
+    ciel_posterieur: Tao, Ciel_Terre_Homme, manifestation, apparition_des_formes
+  correspondances:
+    CA: eternel, informule, preexistant, inne
+    CP: fini, determine, forme_sensible, acquis
+  source: PV-3F-t1-p26_27
+
+# =============================================================================
+# STIMULATION DES FOYERS — CHEN ET ENTITÉS VISCÉRALES
+# =============================================================================
+
+stimulation_foyers:
+  chen_individuel: >
+    À la naissance, le Chen cosmique s'étant retiré, le Chen individuel
+    commence son activité par la "prise de conscience" (même rudimentaire).
+    La conscience est la principale caractéristique du Chen.
+    Le Chaman donne le nom secret à l'enfant d'après le son et la
+    puissance de son rire (ce qui est spontané vient du cœur et du Chen).
+
+  entites_viscerales:
+    innees:
+      Chen: conscient, jugement de valeur lié à la morale (Feu)
+      Roun: faculté d'établir des plans + inconscient héréditaire (Bois)
+      Pro: capacité à envisager le futur + inconscient héréditaire (Métal)
+    acquises: [I, Tche]
+    enrichissement: >
+      Ces facultés psychiques s'enrichissent des expériences acquises.
+      Chen, Roun et Pro = 3 entités viscérales innées.
+      I et Tche = 2 entités acquises.
+
+  thermoregulation_naissance: >
+    Les critères perceptibles à la naissance (froid/chaleur, lumière,
+    besoin de respirer et s'alimenter) déclenchent la mise en route
+    des fonctions des 3 foyers, en commençant par la thermorégulation.
+    La thermorégulation implique : fonction des 3 foyers (chaleur des
+    fou), fonction respiratoire (P → peau → pores → oé de surface),
+    activité du Tchrong Mo (régulation profonde sang/énergie, froid/chaleur).
+
+  respiration_nutrition: >
+    L'activation des 3 foyers stimule immédiatement les activités
+    respiratoire (énergie de l'air = tchi, producteur de chaleur) et
+    nutritionnelle (carburant énergétique + chaleur des muscles des
+    fou = muscles blancs, estomac et intestins). FS et FM activés
+    immédiatement, FI se met ensuite en activité pour l'élimination.
+
+  source: PV-3F-t1-p27_28
+
+# =============================================================================
+# ACTIVITÉ DES FOYERS — CAPITAL INITIAL
+# =============================================================================
+
+activite_foyers:
+  usine_energetique: >
+    Les 3 foyers fonctionnent comme une usine énergétique destinée à
+    fabriquer de l'énergie et à épurer l'organisme. D'une part, ils
+    fabriquent l'énergie carburante (iong) des fonctions organiques,
+    d'autre part, les Tsang et Fou fournissent l'énergie dont les
+    foyers ont besoin pour leur travail.
+
+  capital_initial:
+    quantite: >
+      L'énergie ancestrale est donnée en quantité définie à la conception.
+      Elle ne pourra JAMAIS augmenter au cours de la vie. Elle ne peut
+      que s'user régulièrement (lampe à huile : tant qu'il y a du
+      combustible, elle brûle). La quantité est liée à l'état énergétique
+      des parents à l'instant même de la relation sexuelle. Toute atteinte
+      parentale au moment de la fécondation (âge, maladie, chimiothérapie)
+      compromet la quantité ET/OU la qualité transmise.
+    qualite: >
+      Déterminante dans la capacité de résistance aux agressions,
+      faculté d'adaptation, possibilité de réponse aux maladies,
+      guérison. Comme la quantité, c'est celle des parents.
+    duree_de_vie: >
+      Chaque Tsang est vital. Délais de survie à l'arrêt de la fonction :
+      poumon/cœur = quelques minutes, foie = quelques heures,
+      pancréas = quelques heures, rein = 3 à 5 jours,
+      ne pas boire = 7 jours, ne pas manger = 60 jours.
+    maladie_usure: >
+      Quand l'organisme ne peut se réparer avec les énergies
+      complémentaires (respiration, nourritures, tsing, tsong tchi),
+      l'énergie ancestrale est brusquement sollicitée. Chaque sollicitation
+      use le patrimoine initial → santé plus fragile ou mort plus précoce.
+    source: PV-3F-t1-p28_30
+
+  energies_substitution:
+    principe: >
+      L'organisme substitue à l'énergie ancestrale d'autres énergies
+      pour entretenir les fonctions vitales de base, prolongeant
+      considérablement la vie.
+    sources:
+      Yeung_Tchi: énergie de l'air (respiration)
+      Ku_Tchi: énergie des nourritures (alimentation)
+    produits:
+      Iong: énergie nutritionnelle (s'épuise rapidement → besoin de manger)
+      Oe: énergie défensive (s'épuise rapidement → besoin de respirer)
+      Tsong_Tchi: vitalité et puissance corporelle (qualité de l'air et nourritures)
+      Tsing_Tchi: subtilités intrinsèques de l'air et nourritures
+    capitalisation: >
+      Tsong Tchi et Tsing Tchi viennent se capitaliser dans les reins,
+      gardiens de Ming Menn, en surplus de l'énergie ancestrale initiale
+      et la préservent d'autant. Iong et Oé ne suivent pas le même
+      chemin car elles s'épuisent rapidement (besoin de s'alimenter
+      plusieurs fois par jour et de respirer sans cesse).
+    source: PV-3F-t1-p30
+
+# =============================================================================
+# COMBUSTION ET CARBURATION
+# =============================================================================
+
+combustion_carburation:
+  ideogramme: >
+    San = trois. Tsiao = roussir, hâler, flamber. Le sens général est
+    celui de la combustion. Il s'agit de foyers comme l'âtre d'une cheminée.
+
+  combustion:
+    principe: >
+      En plus de la chaleur de base nécessaire à la vie, il faut une
+      combustion pour débarrasser ce que l'organisme absorbe et brûler
+      une partie de ses déchets. Les foyers traitent par la combustion
+      et intègrent les énergies impures sous forme d'énergies adaptées.
+    trois_facteurs: >
+      1) Combustible/matériau fourni par l'alimentation (solide/liquide),
+      2) Air pour l'oxygène indispensable à toute combustion,
+      3) Combustion dans le FM grâce au tchi et à l'oxygène du FS,
+      les déchets trop denses éliminés par le FI.
+    roang: >
+      Les 3 foyers sont formés par l'enveloppe des organes = ensemble
+      des membranes et du tissu conjonctif qui les entourent. Ces
+      enveloppes sont nommées "ROANG".
+    source: PV-3F-t1-p31
+
+  carburation:
+    catalyseur: >
+      L'énergie ancestrale est chaleur. Elle entretient la chaleur de
+      base dans chaque cellule. La somme des chaleurs cellulaires =
+      notre température. La température vitale produite par Yuan Tchi
+      est toujours physiologique et ne peut JAMAIS dépasser la norme.
+      Les inflammations (chaleur > norme) viennent du travail de la VB,
+      PAS de Yuan Tchi.
+    chaleur_humidite: >
+      L'apparition de la vie nécessite 2 facteurs : la chaleur
+      bienfaisante (Rein) et l'humidité (Rate). Nos cellules, organes
+      et fonctions ont besoin de ces 2 qualités.
+    chao_yin_chaleur: >
+      Le Chao Yin (R + C), bien qu'axe Yin, est l'axe de la chaleur
+      car la vie débute par Yuan Tchi. La vessie confère au Tae Yang
+      la qualité froide par l'évacuation des surplus de chaleur (feu
+      nocif) via urines et sueur.
+    ordre_homme: >
+      1er temps : spermatozoïde + ovule = énergie ancestrale.
+      2ème temps : cordon ombilical = le sang.
+      Ceci est l'ordre de l'Homme, différent de celui du Ciel.
+    precautions: >
+      L'énergie ancestrale diffuse vers chaque foyer comme critère
+      fondamentalement indispensable. PRECAUTIONS ESSENTIELLES :
+      — Proscrire tout refroidissement (alimentation glacée, air),
+      — Protéger le dos (homme) et le ventre (femme),
+      — Ne jamais tomber dans les excès de la sexualité
+        (dessèche la moelle épinière).
+    source: PV-3F-t1-p31_33
+
+# =============================================================================
+# COMPOSITION DES 3 FOYERS
+# =============================================================================
+
+composition:
+  foyer_inferieur:
+    localisation: pubis_au_nombril (ou sous orifice inférieur de l'estomac)
+    organes: [reins, glandes_genitales, vessie, intestins]
+    contient: Ming_Menn (réserve énergie ancestrale)
+    correspondance: Terre (au sein des 3 foyers)
+    note: >
+      L'utérus est une "entraille curieuse/extraordinaire" en raison
+      de sa fonction Terre par la muqueuse. Considérée comme une
+      enveloppe-roang = nourricière par imbibition.
+
+  foyer_median:
+    localisation: nombril_a_reunion_des_cotes
+    organes: [estomac_avec_IG, rate_pancreas, foie, vesicule_biliaire]
+    correspondance: Homme (au sein des 3 foyers)
+    note: >
+      L'estomac commence à la gorge (inclut œsophage), s'étend au
+      duodénum et jéjunum. Les dents lui appartiennent. Le foie est
+      anatomiquement dans ce foyer mais sa fonction appartient au FI.
+
+  foyer_superieur:
+    localisation: reunion_des_cotes_a_clavicules
+    organes: [coeur, poumon]
+    correspondance: Ciel (au sein des 3 foyers)
+    note: >
+      Le cœur est anatomiquement dans ce foyer mais sa fonction de
+      Maître de l'Esprit est "supérieure" (au-dessus des clavicules).
+
+  repartition_tsang_fou:
+    FS: uniquement_des_tsang_Yin (pas de Fou Yang)
+    FM: equilibre_tsang_et_fou
+    FI: trois_fou_et_un_tsang
+    organes_sens: au-dessus_des_clavicules (= vie de relation, Ciel)
+    fonction_genitale: sous_le_pubis
+
+  orifices:
+    total: 9 (7 supérieurs à la face + 2 inférieurs)
+    distribution:
+      Chao_Yin: 2x2 (2 oreilles, 1 méat urinaire, sexe + langue)
+      Yang_Ming: 2 (bouche et anus)
+      Tsiue_Yin: 1 double (2 yeux)
+      Tae_Yin: 2 dont_1_double (bouche et 2 narines)
+    orifices_fermes: [Ming_Menn, nombril]
+    total_complet: 11 + 2 cicatrisés
+    7_orifices_coeur: >
+      Le cœur a 7 orifices pour 2 artères et 5 veines. Chacun correspond
+      à une vertu à acquérir par transformation d'un des 7 sentiments.
+      Lorsqu'une vertu est intégrée, l'orifice "s'ouvre". Les 7 orifices
+      ouverts = le cœur ouvert à l'universel = le Sage.
+    source: PV-3F-t1-p34_36
+
+# =============================================================================
+# PHYSIOLOGIE GÉNÉRALE DES 3 FOYERS
+# =============================================================================
+
+physiologie_generale:
+  supports_activites:
+    tsang:
+      - fonction organique liée à alimentation/nutrition (énergie iong) et respiration
+      - fournissent à leurs fou couplés l'énergie nécessaire
+      - intelligence de la fonction du couple tsang/fou et Yin (sang)
+      - résonnent aux stimuli et thésaurisent le tsing saisonnier
+      - sont les "Trésors"
+    fou:
+      - dynamisation Yang nécessaire aux tsang
+      - puisent dans iong les qualités spécifiques du tsang, les raffinent et transmettent
+      - protègent leur tsang couplé contre toute agression externe
+      - sont les "ouvriers" ou "ateliers"
+    eurythmie: >
+      Rapport cardio-respiratoire lors de la prise de pouls :
+      5 pulsations cardiaques pour 1 respiration. Le cœur donne le
+      rythme au sang, le poumon donne le rythme à l'énergie.
+
+  role_chao_yang: >
+    Le Chao Yang joue un rôle essentiel. L'harmonie du fonctionnement
+    des 3 foyers vient de la VB = "chef d'orchestre" auquel tous
+    obéissent. Les 11 organes (6 Tsang avec MC + 5 Fou avec TR) lui
+    obéissent comme les musiciens.
+
+  role_triple_rechauffeur: >
+    L'équilibre du fonctionnement vient du TR. Cet équilibre est
+    toujours lié à ce qui se passe à l'extérieur du corps. Les 5 sens
+    et la peau sont l'outil privilégié du TR. Il agit comme régulateur
+    par une fonction d'interface entre les variations extérieures et
+    les activités organiques nécessaires pour s'y équilibrer.
+    Le climat intérieur doit rester constant malgré les variations
+    extérieures (panique → diarrhée, être aimé → accélération
+    circulatoire, pensée → active estomac et rate).
+
+  role_yang_ming: >
+    Le Yang Ming (E + GI) est tout aussi essentiel. Yang Ming =
+    "Yang Lumineux" / "Lumière du Yang" (Ming = lumière). Quand le
+    Yang Ming fonctionne bien, il draine toutes les impuretés du Yang
+    (les 3 Yang et les fou) par le GI. Pureté du Yang Ming et drainage
+    par tonification de 12JM et 25E.
+    RÈGLE : tous les drainages du corps doivent se faire sur les Fou
+    et non les Tsang. Drainer les Tsang (homéopathie, phytothérapie)
+    épuise leur énergie Tsing.
+    Le méridien de l'Estomac synthétise la lumière comme les feuilles
+    de l'arbre. La lumière est l'énergie fondamentale (avec le tchi
+    de l'air) pour activer la physiologie des fou et du psychisme.
+
+  conditions_climatiques:
+    SW69: >
+      "La maladie de l'Homme provient du déséquilibre des énergies des
+      5 activités. La maladie s'aggrave si l'énergie du Ciel lui est
+      défavorable."
+    citation: >
+      "Le sang et l'énergie adorent la chaleur et ont horreur du froid."
+    mecanisme: >
+      Quand il fait chaud → sang et énergie circulent librement à
+      l'extérieur, méridiens bien irrigués. Quand il fait froid → ils
+      refluent et se réfugient à l'intérieur, méridiens vides.
+    3_foyers: >
+      Les 3 foyers entretiennent l'équilibre thermique constant dans les
+      organes en s'adaptant aux variations extérieures.
+
+  citation_laville_mery: >
+    "Un Élément est la racine de la Terre alors que le méridien en est
+    les branches ; il est dynamisé par l'énergie de la saison, racine
+    du Ciel. Le feu purificateur des 3 foyers a une triple fonction :
+    régénération, transformation, évacuation. Ces fonctions ne sont
+    possibles que par la combustion interne de l'énergie ancestrale
+    dans le FI qui active la circulation de la chaleur vitale dans
+    les 2 autres foyers. Le Tchrong Mo véhicule l'énergie ancestrale
+    et prend racine dans les reins."
+
+  citation_SW: >
+    "Les douze méridiens reçoivent leur énergie des trois foyers."
+
+  analogie_artere_radiale:
+    principe: >
+      Li Tche Tcheng compare les 3 sections de l'artère radiale aux
+      3 foyers. Pouce (I) = FS, barrière (II) = FM, pied (III) = FI.
+      Gauche = Yang du foyer (énergétique), droite = Yin (sanguin).
+      Pression médiane, ni surface ni profondeur. Formes Yin (mou,
+      large, petit, profond, lent) et Yang (superficiel, ample, dur,
+      tendu, rapide).
+    flancs_artere: >
+      Technique japonaise des flancs de l'artère pour les organes :
+      flanc externe = Yang, flanc interne = Yin.
+
+  fonctions_generales:
+    liste: [Recevoir, Transformer, Transporter, Assimiler, Rejeter]
+    note: >
+      Ces fonctions sont les mêmes pour chacun des Fou dans leur
+      travail sur l'énergie iong par rapport à leur Tsang couplé.
+      Seuls les Fou communiquent avec le milieu extérieur, les Tsang
+      en sont totalement isolés (exception : pancréas = glande exocrine).
+
+  source: PV-3F-t1-p37_40
+
+# =============================================================================
+# FOYER INFÉRIEUR — PHYSIOLOGIE DÉTAILLÉE
+# =============================================================================
+
+foyer_inferieur:
+  correspondance: Terre
+  polarite:
+    rein: Yin_dans_le_Yin (= Yin/Yin, élément Eau)
+    foie: Yang_dans_le_Yin (= Yang/Yin, élément Bois)
+
+  ming_menn_residence: >
+    Ce foyer est la résidence (Ming Menn) et le siège (Tan Tienn) de
+    l'énergie ancestrale. Ming Menn = espace entre les 2 reins, en
+    avant de L2-L3, OU le rein gauche lui-même. 4TM = point de commande.
+    Toute la région lombaire D10 à l'ischion dépend de l'énergie des
+    reins, principalement du rein Yang.
+
+  diffusion_yuan_tchi: >
+    Yuan Tchi diffuse dans tout le corps en accompagnant le sang et
+    l'énergie iong. Sa voie : racine du Tchrong Mo → Tan Tienn inférieur
+    (entre ombilic et testicules) → stockage → diffusion vers les
+    autres foyers selon besoins. 6JM Tsri Raé = point de commande
+    du Tan Tienn et point de ce foyer.
+
+  triple_maitrise_6JM: >
+    6JM est Maître du Yin (foyer Yin dont l'énergie principale est le
+    sang), de la circulation de l'énergie ancestrale vers organes et
+    foyers, et du foyer lui-même.
+
+  face_yin_yang: >
+    RÈGLE : toujours considérer les foyers par leur face Yin (avant
+    du tronc) et leur face Yang (le dos). La plupart du temps, les
+    praticiens omettent d'y penser.
+
+  fonction: >
+    Le FI porte (le fœtus), transporte et élimine (les déchets).
+    Protection : dos (homme, Tou Mo) contre le froid, ventre (femme,
+    Jen Mo) en raison de la vitalité due au sang. Les pieds =
+    correspondance des reins et du FI → mêmes précautions.
+
+  vie_genitale: >
+    Ce foyer est le siège de l'activité génitale (solaire chez l'homme,
+    lunaire chez la femme) et de la gestation. L'énergie ancestrale,
+    venant des reins et dynamisée par une "juste sexualité", est la
+    "couleur du Chen", l'énergie de sa nourriture. Sans énergie
+    ancestrale dans le cœur, pas de Chen.
+    Chaque sexe "absorbe" l'énergie de l'autre au cours de l'acte sexuel
+    (imbibition par les muqueuses = fonction KAO). La femme reçoit le
+    Yang (mouvement, puissance, dureté, choc), l'homme absorbe le Yin
+    (humidité, souplesse, douceur, frottement).
+
+  dechets: >
+    Le FI assure l'évacuation des déchets liquides (vessie) et solides
+    (GI) provenant du FM (transformation aliments) et du fonctionnement
+    des organes. La vessie utilise les liquides pour l'équilibre
+    thermique (chaleur dans les urines).
+
+  gros_intestin_oe: >
+    Le GI extrait de l'énergie résiduelle dans le bol fécal (parfaitement
+    impur). Cette énergie impure extraite → future énergie défensive oé.
+    Oé est l'énergie dite "née de l'impur".
+
+  rein_yin:
+    commande: rein_droit
+    fonctions:
+      - filtre du sang, élimination déchets et surplus
+      - filtration éléments liquides et solides (eau interstitielle, sels minéraux, urates)
+      - contrôle squelette et articulations (cortisol, ostéoblastes/ostéoclastes, périoste)
+      - reçoit liquides du 2ème tri (IG), contrôle quantité selon besoins
+      - transmet à la vessie les liquides à éliminer
+      - envoie les liquides conservés à la Rate → Poumon → Cœur (= formation du sang)
+      - émission des essences de reproduction (spermatozoïdes, ovule)
+      - glandes séminales, vie des ovaires, sécrétions muqueuses
+
+  rein_yang:
+    commande: rein_gauche
+    fonctions:
+      - conserve et préserve l'ensemble de l'énergie ancestrale
+      - manifestation et expression de la sexualité
+      - production des essences de reproduction (testicules/ovaires)
+      - maintien de leur vie (chaleur et énergie ancestrale)
+      - pouvoir reproducteur (véhicule de l'énergie ancestrale)
+      - extériorisation sexualité par charme (femme) ou virilité (homme)
+      - production énergie du cœur (adrénaline) = rôle important activité cardiaque
+
+  energie_ancestrale_3_composantes:
+    principe: >
+      L'énergie ancestrale est composée de 3 énergies : Yuan Tchi,
+      Tsing Tchi, Tsong Tchi. Les 3 proviennent des parents.
+      D'où la bipolarité féminin/masculin en chaque être vivant.
+    chen_et_memoires: >
+      Le Chen et les 2 mémoires héréditaires inconscientes (Roun et Pro)
+      se trouvent dans l'énergie ancestrale, dans Ming Menn et dans les
+      moelles (principalement osseuses). Yuan Tchi = authentique
+      patrimoine (dont génétique).
+    tares: >
+      Yuan Tchi est chargée des facteurs et tares héréditaires mais
+      ceux-ci sont une composante qui interviendra peu sur l'usure
+      naturelle.
+
+  vitalite: >
+    Ce foyer donne à l'individu la force, la vitalité, le tempérament,
+    la conviction avec lesquelles il accomplira sa vie et affirmera
+    ce qu'il est dans son individualité.
+
+  source: PV-3F-t1-p41_45
+
+# =============================================================================
+# FOYER MOYEN — PHYSIOLOGIE DÉTAILLÉE
+# =============================================================================
+
+foyer_moyen:
+  correspondance: Homme
+  polarite:
+    rate: Yin_extreme (élément Terre)
+    estomac: Maitre_du_Yang
+
+  barriere_interne: >
+    Ce foyer est la "barrière interne — Neï Koann" = barrière entre ce
+    qui vient de l'extérieur (alimentation) avant de pénétrer vers
+    l'interne (Yin du corps). Il reçoit, transforme et transporte.
+    Il commande toutes les fermentations des liquides et solides.
+    C'est le "grenier des céréales". Cette opération n'est réalisable
+    que grâce à la présence de Yuan Tchi qui active le feu digestif.
+
+  estomac:
+    maitre_yang: >
+      L'estomac est le Maître de toute l'énergie Yang. Commandé par la
+      Rate (texte : il est une "expansion de la rate"). Sa muqueuse
+      appartient à la Rate, ses sucs gastriques sont des hormones de
+      digestion sécrétées par la Rate elle-même.
+    premier_tri: >
+      Reçoit les aliments, effectue le 1er tri (pur/impur, fin/grossier).
+      Extrait l'essence de la nourriture :
+      — Ku Tchi (énergie nutritionnelle) → monte au thorax (P), propulsé par la Rate
+      — Solides purs (substances nutritives) → transmis au Foie
+      — Ching Ié (jus de l'alimentation) → transmis à la Rate
+      — Bol alimentaire restant → dirigé vers l'IG
+
+  intestin_grele:
+    deuxieme_tri: >
+      Complète l'action de l'estomac. 2ème tri : extrait le pur de l'impur.
+      Ku Tchi → monte au thorax, solides purs → Foie, tous les
+      liquides → Rein, reste du bol → GI.
+
+  rate:
+    maitresse_yin: >
+      La Rate est la Maîtresse de toute l'énergie Yin = le sang et les
+      liquides organiques. Elle dirige la digestion par la fonction de E.
+    stimuli_environnement: >
+      Elle reçoit sous forme d'énergie les stimuli de l'environnement
+      captés par les organes des sens (couleur, odeur, etc.). Elle les
+      codifie selon leur élément d'appartenance et les intègre dans les
+      jus de l'alimentation correspondant (stimuli Bois dans liquide Bois).
+      Elle les distribue ensuite à chaque Tsang correspondant.
+    cinq_liquides_purs:
+      rein: urine et sérosité parotidienne
+      rate: salive
+      foie: larmes
+      coeur: sueur
+      poumon: mucus_bronchique
+    autres_fonctions:
+      - fait monter Ku Tchi au thorax
+      - dirige le volume sanguin
+      - dirige les liquides du corps et son humidification
+      - reçoit des reins les liquides purs et les transmet au foyer
+
+  foie:
+    double_appartenance: >
+      Appartient au FI pour le sang veineux et au FM pour les fonctions
+      hépatique de filtration et digestive.
+    fonctions:
+      - commande la circulation du bas du corps
+      - dirige toute l'activité sanguine du FI (vie génitale)
+      - reçoit les solides purs des 1er et 2ème tris → transmet au FS (cœur)
+      - filtre le sang veineux de retour → extrait la bile → VB
+      - filtre le sucre alimentaire (glycogénèse, excès nuiraient à la Rate)
+      - dernier organe du circuit énergétique
+      - filtre les énergies impures → transmet aux P et narines pour évacuation
+
+  vesicule_biliaire:
+    ministre_justice: >
+      Ministre de la Justice qui décide de ce qui est "bon ou mauvais"
+      pour l'organisme. Reçoit et stocke la bile. Barrière qui dégrade
+      (Feu purificateur) ou rejette (vers le haut = vomissements).
+    bile: >
+      La bile est un liquide pur, "l'or liquide" et le "Feu liquide"
+      purificateur. Ce Feu peut devenir destructeur. Elle produit les
+      élévations de température et la fièvre. Se mêle au bol alimentaire
+      pour dégrader les éléments grossiers et les graisses. Brûle tout
+      ce qui serait impropre à l'organisme (toxines).
+
+  barriere_mecanisme: >
+    Ce foyer se nomme "la barrière", représenté par le pouls II.
+    Fondamental pour les grands mouvements d'énergie haut↔bas.
+    La bonne fonction conditionne la correcte transmission entre le
+    Ciel et la Terre de l'Homme. Si bloqué/obstrué/stagnant, les
+    énergies ne s'échangent pas : le Yang reste en haut, le Yin en bas.
+    Les 3 Yin et 3 Yang tsou (bas) doivent communiquer avec tchéou (haut).
+
+  points_commande:
+    12JM: Maître du Yang du foyer, point Mo de l'Estomac, Maître du Yang interne (dans le Yin)
+    13F: Maître du Yin du foyer, Mo de la Rate, Maître de l'énergie des 5 Tsang
+    6MC: Neï Koann (même nom que la barrière), Maître du Yin digestif et psychique
+
+  pathologies_barriere:
+    yang_exces:
+      mecanisme: >
+        Yang ne pénètre pas dans le Yin = barrière bloquée sur E et VB (Yang).
+        Plénitude du FS dont l'énergie ne peut descendre.
+      pouls: superficiels loge II (E et VB) en excès, profonds faibles
+      signes: régurgitation, renvois, écœurement, vomissement, reflux acides, refus de l'externe/masculin
+      traitement: 6MC_t + 13F_t + 12JM_d
+    yin_exces:
+      mecanisme: >
+        Yin ne remonte pas vers le Yang = barrière bloquée sur F et Rte (Yin).
+        Plénitude du FI dont l'énergie ne peut remonter.
+      pouls: profonds loge II (F et Rte) en excès, superficiels en vide
+      signes: stagnation, digestion bloquée, foyer inférieur plein
+      traitement: 12JM_t + 6MC_d + 4GI_t + 36E_t
+
+  source: PV-3F-t1-p46_49
+
+# =============================================================================
+# FOYER SUPÉRIEUR — PHYSIOLOGIE DÉTAILLÉE
+# =============================================================================
+
+foyer_superieur:
+  correspondance: Ciel
+  polarite:
+    coeur: Yang_dans_le_Yang (= Yang/Yang, élément Feu)
+    poumon: Yin_dans_le_Yang (= Yin/Yang, élément Métal)
+
+  absorption: >
+    Ce foyer absorbe par la respiration l'énergie de l'air (tchi
+    universel). Le sang y est constitué.
+
+  poumon:
+    extraction: >
+      Extraient l'énergie de l'air "Yeung Tchi", qu'ils synthétisent
+      et métabolisent avec Ku Tchi grâce à Yuan Tchi.
+    epuration: >
+      Par la respiration : brûlent les résidus/déchets du sang non
+      filtrés par le foie + purification finale de Ku Tchi.
+    metabolisation: >
+      Métabolisent ensemble Yeung Tchi + Ku Tchi + Yuan Tchi →
+      produisent TSONG TCHI (énergie complète).
+    tcheung_tchi: >
+      Tsong Tchi + Yuan Tchi = TCHEUNG TCHI (énergie totale/véritable).
+      Propulsée dans tous les circuits. Contient tous les aspects :
+      iong (nutritionnelle, prolongement de Ku Tchi) et oé (défensive,
+      issue du GI). Les textes disent qu'il s'agit toujours de la
+      même énergie qui change de nom car elle change de fonction.
+    rythme: >
+      L'énergie avance de 3 distances (tsoun) à chaque phase
+      respiratoire : 3 à l'inspire et 3 à l'expire.
+    reception_transmission:
+      - reçoivent les liquides purs de la Rate → transmettent au Cœur
+      - reçoivent les énergies impures filtrées par le Foie → évacuent par respiration et mucosités
+      - 1er Ministre du Cœur, commande à toutes les énergies du corps
+
+  coeur:
+    formation_sang: >
+      Reçoit du Foie les solides purs (1er et 2ème tri). Reçoit des
+      Poumons les liquides purs (transmis par Rate, provenant des Reins).
+      Les solides et liquides purs se mélangent dans le Cœur pour
+      former le SANG.
+    propulsion: >
+      Propulse le sang artériel, lui imprime son rythme. L'énergie du
+      Poumon entretient le mouvement jusqu'aux extrémités (le cœur seul
+      n'aurait pas assez de puissance).
+    penetration_tsang: >
+      La puissance de l'onde sanguine permet au sang de pénétrer les
+      Tsang dont la densité (pleins) oppose une résistance. Un organe
+      congestionné → ne permet pas la pénétration → "s'asphyxie"
+      → accumule les toxines → sang stagne → chaleur s'élève.
+      La cause initiale est en général un froid.
+    rythme_organique: >
+      Le rythme du cœur impose aux organes leur rythme fonctionnel.
+      Accélération → chaleur organique, ralentissement → froid organique.
+    souverain: >
+      Du Cœur, le "Souverain", dépendent directement la vie et la mort.
+      Sa fonction de Maître de l'Esprit et Résidence du Chen est située
+      au-dessus des clavicules.
+
+  source: PV-3F-t1-p50_51
+
+# =============================================================================
+# FORMULES ÉNERGÉTIQUES CLÉS
+# =============================================================================
+
+formules_energetiques:
+  schema_combustion:
+    entrees: [Yeung_Tchi_air, Ku_Tchi_aliments, Yuan_Tchi_ancestrale]
+    synthese_FS: >
+      Yeung Tchi + Ku Tchi + Yuan Tchi = Tsong Tchi
+      Tsong Tchi + Yuan Tchi = Tcheung Tchi
+    distribution:
+      Tcheung_Tchi: énergie totale/véritable → circuits
+      Iong: énergie nutritionnelle (prolongement de Ku Tchi)
+      Oe: énergie défensive (née de l'impur, GI)
+    capitalisation_reins: Tsong_Tchi + Tsing_Tchi → reins (préservent Yuan Tchi)
+
+  circuit_aliments:
+    estomac_1er_tri:
+      ku_tchi: monte_au_thorax_par_rate
+      solides_purs: vers_foie
+      ching_ie: vers_rate
+      bol_restant: vers_IG
+    IG_2eme_tri:
+      ku_tchi: monte_au_thorax
+      solides_purs: vers_foie
+      liquides: vers_rein
+      bol_restant: vers_GI
+    GI:
+      extraction_oe: énergie_née_de_impur
+      elimination: selles
+    foie:
+      solides_purs: vers_coeur_FS
+      bile: vers_VB
+      energies_impures: vers_poumon_et_narines
+    rate:
+      liquides_purs: vers_poumon
+      ku_tchi: propulsé_au_thorax
+    poumon:
+      synthese: Yeung_Tchi + Ku_Tchi + Yuan_Tchi = Tsong_Tchi
+      liquides_purs: vers_coeur
+    coeur:
+      solides_purs_foie + liquides_purs_poumon: formation_du_sang
+      propulsion: sang_arteriel
+
+  source: PV-3F-t1-synthese

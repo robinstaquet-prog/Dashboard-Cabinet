@@ -1,0 +1,295 @@
+# CINQ ÉLÉMENTS — SAISONS, INTERSAISONS, ACTIVITÉ ÉNERGÉTIQUE
+# Source : PVII Les 5 Éléments — Physiologie tome 1, pp. 34-55
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_saisons.yaml
+  source: PVII_5Elem_t1_p34_55
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_fondements.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_energie_terre_ciel.yaml
+    - ZANG_FU/rate.yaml
+
+# ─────────────────────────────────────────────────
+# SAISONS ET ÉLÉMENTS
+# ─────────────────────────────────────────────────
+
+saisons_et_elements:
+  Printemps: Bois_vent_doux
+  Ete: Feu_chaleur
+  5eme_saison: Terre_humidite
+  Automne: Metal_sec_et_frais
+  Hiver: Eau_froid
+
+  energies_principales: [froid, chaud]
+  variations: [vent, humide, sec]
+  classification:
+    Yang: [chaleur, secheresse]
+    Yin: [froid, humidite, vent]
+
+  correspondances_journee:
+    Printemps: matin
+    Ete: midi
+    Automne: soir
+    Hiver: nuit
+
+  Terre_fin_ete: >
+    La Terre est la vitalité centrale, support des 4 autres.
+    Sa période propre = fin d'été, maturité. Par analogie,
+    les repas de la journée.
+
+  solstices_equinoxes:
+    solstice_ete: Yang_max_jour_le_plus_long_21_juin
+    solstice_hiver: Yin_max_nuit_la_plus_longue_21_dec
+    equinoxe_printemps: Yin_egal_Yang_21_mars
+    equinoxe_automne: Yang_egal_Yin_21_sept
+    position_chinoise: MILIEUX_des_saisons
+    position_occidentale: DEBUT_des_saisons
+  schemas_expliques:
+    figure_9_cercle_saisons: >
+      Cercle avec Été/Sud en haut (Yang max, chaleur max),
+      Hiver/Nord en bas (Yin max, froid max), Printemps/Est
+      à gauche (Yin diminue, Yang croît, Yin=Yang), Automne/
+      Ouest à droite (Yang diminue, Yin croît, Yang=Yin).
+      La Terre/Centre/5ème saison est au milieu : référence,
+      équilibre entre les opposés, égalité des termes.
+      En haut, la Fin d'été/Maturité/Repas s'intercale.
+    figure_10_cercle_vie: >
+      Même cercle mais avec les correspondances de la vie :
+      Grand Yang = Midi/Été/Croissance en haut,
+      Petit Yang = Matin/Printemps/Naissance à gauche,
+      Petit Yin = Soir/Automne/Déclin à droite,
+      Grand Yin = Nuit/Hiver/Mort en bas.
+      Montre l'identité parfaite journée/année/vie.
+  source: PVII-t1-p34_37
+
+# ─────────────────────────────────────────────────
+# LOI D'ENGENDREMENT — CYCLE TCHENG
+# ─────────────────────────────────────────────────
+
+cycle_Tcheng:
+  nom: loi_d_engendrement
+  principe: >
+    L'énergie de chaque saison engendre celle de la
+    suivante lorsqu'elle arrive à la fin de son temps
+    de manifestation.
+  ordre: [Bois, Feu, Terre, Metal, Eau]
+  succession: >
+    Petit Yang → Grand Yang → Petit Yin → Grand Yin → etc.
+  source: PVII-t1-p48
+
+# ─────────────────────────────────────────────────
+# LA 5ÈME SAISON — INTERSAISONS
+# ─────────────────────────────────────────────────
+
+cinquieme_saison:
+  raison_d_etre: >
+    Toute chose a besoin d'un système central de référence.
+    Pour la nature = la Terre. Pour les saisons = la 5ème saison.
+    Chaque saison vit comme un être : naît, croît, mature,
+    décroît et meurt — suit le modèle cyclique des 5 étapes.
+
+  transformation:
+    principe: >
+      Seule la Terre a la faculté de transformer les énergies.
+      Elle seule peut changer l'énergie d'une saison,
+      neutraliser les qualités de l'une pour la préparer
+      aux critères de la suivante.
+    mecanisme: >
+      La Terre reçoit, désagrège (Yin), structure autrement
+      puis donne naissance. Éternel retour à la Mère
+      créatrice (Ge).
+    sans_neutralisation: >
+      Il n'y aurait pas d'apparition d'une qualité de nature
+      différente = plus de saisons.
+    fonction_premiere_Rate: >
+      C'est la première et la plus importante fonction
+      de la Terre/Rate.
+  source: PVII-t1-p49_50
+
+  intersaison:
+    definition: >
+      Période de 18 jours assurant le passage progressif
+      d'une saison à la suivante. Une saison ne peut
+      suivre immédiatement une autre.
+    structure: 9_jours_fin_saison_plus_9_jours_debut_suivante
+    frequence: 4_fois_par_an
+    nature: projection_extrapolee_d_une_fonction_Terre
+    schema_explique:
+      figures_11_12_intersaisons: >
+        Deux cercles superposés. Le premier montre les
+        positions des solstices (haut=été, bas=hiver) et
+        équinoxes (gauche=printemps, droite=automne) comme
+        MILIEUX des saisons. Le second montre les 4 inter-
+        saisons placées entre chaque saison (début été/début
+        automne, début automne/début hiver, etc.), chacune
+        durant 18 jours à cheval sur deux saisons (9+9).
+      figure_activite_saison: >
+        Schéma en forme de losange vertical. En bas : début
+        de saison (9 jours intersaison), phase Yang montante,
+        concentration énergétique dans l'organe. Au milieu :
+        maximum d'expansion énergétique, distribution, l'organe
+        est le plus puissant. En haut : fin de saison (9 jours
+        intersaison), phase Yin descendante, l'organe se vide
+        progressivement.
+    NE_PAS_CONFONDRE: >
+      L'intersaison (18 jours × 4 = 72 jours) est DIFFÉRENTE
+      de la période propre de la Terre en fin d'été (30 jours).
+  source: PVII-t1-p50
+
+# ─────────────────────────────────────────────────
+# DURÉE DES SAISONS
+# ─────────────────────────────────────────────────
+
+duree_saisons:
+  annee: 365_jours
+  saison_brute: 91_jours
+  emprunt_Terre: 18_jours_par_saison
+  saison_vraie: 73_jours
+  periode_Terre_totale: 72_jours_4x18_plus_heures_egal_73
+  verification:
+    astronomique: 73_x_5_egal_365
+    cercle: 72_x_5_egal_360_degres
+  note: >
+    Selon les ouvrages, 72 ou 73 jours pour la période
+    saisonnière. Les deux sont corrects selon le référentiel.
+  source: PVII-t1-p51
+
+# ─────────────────────────────────────────────────
+# ACTIVITÉ ÉNERGÉTIQUE D'UNE SAISON
+# ─────────────────────────────────────────────────
+
+activite_energetique_saison:
+  debut_saison:
+    phase: 9_jours_intersaison
+    nature: concentration_energetique_dans_organe
+    mouvement: Yang_montee_de_l_energie
+
+  milieu_saison:
+    phase: distribution_energetique_manifestation
+    nature: maximum_expansion_energetique
+    organe: le_plus_puissant_de_tout_l_organisme
+
+  fin_saison:
+    phase: 9_jours_intersaison
+    nature: diminution_phase_Yin
+    mouvement: l_organe_se_vide_progressivement
+  source: PVII-t1-p50_51
+
+# ─────────────────────────────────────────────────
+# RESTITUTION DES ÉNERGIES — FIN DE SAISON
+# ─────────────────────────────────────────────────
+
+restitution_energies:
+  principe: >
+    En fin de saison, l'élément restitue son énergie
+    au centre (Terre) qui la transforme pour la saison
+    suivante. Mouvement centripète vers le centre
+    puis centrifuge vers l'élément suivant.
+  schema_passage:
+    1: element_precedent_restitue_au_centre_Terre
+    2: Terre_transforme_et_neutralise
+    3: Terre_transmet_a_element_suivant
+    4: element_suivant_se_charge
+  schemas_expliques:
+    figures_13_14_15_restitution: >
+      Figure 13 : Cercle des 5 éléments (Feu en haut, Eau en
+      bas, Bois à gauche, Métal à droite, Terre entre Feu et
+      Métal). Des flèches relient chaque élément au suivant
+      dans l'ordre Tcheng.
+      Figure 14 (exemple Bois) : L'élément précédent (Eau)
+      restitue son énergie au centre (Terre), puis la Terre
+      transmet l'énergie transformée au Bois qui se charge.
+      Deux mouvements : centripète (restitution vers Terre)
+      puis centrifuge (Terre vers élément suivant).
+      Figure 15 : Schéma général du passage montrant les deux
+      flèches pour chaque transition : élément → Terre → suivant.
+  source: PVII-t1-p51_52
+
+# ─────────────────────────────────────────────────
+# PÉRIODE TERRE — DOUBLE ACTIVITÉ
+# ─────────────────────────────────────────────────
+
+periode_Terre:
+  Rate_constante: >
+    La Rate est dite "constante" tout au long de l'année.
+    L'intensité énergétique de la Terre ne subit pas
+    de variation notable par rapport aux saisons qui passent.
+
+  fin_d_ete:
+    duree: 30_jours_complets_dernier_mois_ete_juillet
+    nature: >
+      Période d'activité propre de la Terre/Rate pour
+      sa propre activité et régénération, indépendante
+      des autres éléments.
+    role_supplementaire: >
+      Permet le ralentissement de la pleine expansion
+      du Yang pour que le Yin puisse commencer sa
+      croissance en automne.
+
+  superposition_fin_ete:
+    1: activite_Feu_qui_se_termine
+    2: activite_Terre_30_derniers_jours_physiologie_propre_Rate
+    3: activite_5eme_saison_9_jours_adapter_energie_Feu_vers_Metal
+    resultat: double_activite_Feu_plus_Terre_pendant_30_jours
+
+  deux_schemas:
+    schema_centre: >
+      La Terre centre et nourricière — cercle avec 4 pôles
+      et son centre. Utilisé pour parler de la Terre
+      en tant que référentiel.
+    schema_peripherie: >
+      La position fin d'été est sur la circonférence
+      entre l'Été et l'Automne. Utilisé pour les règles
+      énergétiques de travail.
+    les_deux_simultanes: >
+      On utilise simultanément les deux schémas.
+      Ne pas en être étonné.
+  schemas_expliques:
+    figure_16_periodes_transition: >
+      Cercle avec 4 zones hachurées entre chaque saison
+      (Printemps-Été, Été-Automne, Automne-Hiver, Hiver-
+      Printemps), chacune de 18 jours. Total : 4 × 18 = 72
+      jours. Avec les 4 saisons de 73 jours = 364 + 1 jour
+      manquant → une intersaison est de 18 jours ¼.
+    figure_17_double_activite_Feu_Rate: >
+      Diagramme temporel de la fin d'été. Trois bandes
+      superposées : 1) L'activité Feu qui se termine,
+      2) L'activité propre de la Rate sur 30 jours
+      (dernier mois d'été), 3) Les 9 jours d'intersaison
+      qui s'ajoutent à la fin pour transiter vers le Métal.
+      Montre la superposition Feu + Rate pendant 30 jours,
+      puis 9 jours de transition Feu→Métal via la Terre.
+  source: PVII-t1-p53_54
+
+# ─────────────────────────────────────────────────
+# PÉRIODE DE TRANSITION INTER-SAISONNIÈRE (récap)
+# ─────────────────────────────────────────────────
+
+recapitulatif_periodes:
+  calcul: >
+    4 × 18 jours = 72 jours (intersaisons)
+    4 × 73 jours = 292 jours (saisons)
+    292 + 72 = 364 → il manque 1 jour
+    → une intersaison est donc de 18 jours ¼
+
+  periode_Terre_totale:
+    principe: >
+      Le pôle central vers lequel l'énergie revient
+      sans cesse en vue de ses mutations. Le même
+      phénomène se produit dans l'organisme humain.
+    saison_installe: >
+      L'élément se charge de son énergie et devient
+      le plus puissant énergétiquement.
+    hors_intersaison: >
+      La Rate reçoit l'énergie rendue par l'organe
+      qui la détenait pendant sa propre saison.
+    pendant_sa_periode: >
+      Elle entre dans une phase particulière pour
+      sa propre activité. Les végétaux la régénèrent
+      par leurs racines et la sève élaborée.
+  source: PVII-t1-p53_54

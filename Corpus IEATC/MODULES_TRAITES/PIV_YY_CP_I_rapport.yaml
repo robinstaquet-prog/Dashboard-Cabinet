@@ -1,0 +1,278 @@
+# RAPPORT D'INTÉGRATION — PIV YIN/YANG COURS PRATIQUE I (CP I)
+# Date : 2026-04-06
+
+meta:
+  polycopie: PIV_Yin_Yang_t4_t5.pdf
+  titre: Polycopié IV — YIN / YANG — tomes 4 et 5 (Cours Pratique I)
+  sous_titre: >
+    Le polycopié le plus important du cursus IEATC. Première application
+    clinique complète du Yin/Yang : 8 règles diagnostiques, 4 principes
+    du pouls chinois, 4 combinaisons du bilan (I Sou Jen), méthode
+    Siao Tse (4 niveaux anatomiques), sectorisation 4 cadrans, protocole
+    4 temps, blocage YY, Yang/Yin apparents, points généraux YY
+    (3 Yang + 3 Yin), zones de blocage par méridien, protocole
+    thérapeutique complet, 9 cas pratiques avec raisonnement détaillé.
+  auteur: Thierry_Bollet
+  compilateur: Thierry_Bollet
+  pages: 107
+  module: IV_Yin_Yang_CP_I
+  niveau: clinique_fondamental
+  importance: CAPITAL — pont entre théorie et pratique
+  prerequis: >
+    PIV YY tomes 1 à 3 (théorie YY), PVII 5E (les 4 tomes),
+    PVI Physiologie (tomes 1-2), notions de pouls.
+  note_format: >
+    Polycopié mixte théorie/pratique. Tome 4 = théorie du bilan
+    (8 règles, pouls, combinaisons, méthodes). Tome 5 = protocole
+    thérapeutique + 9 cas pratiques complets avec interrogatoire,
+    pouls, palpation, analyse et traitement. Densité clinique
+    exceptionnelle. Nombreux enseignements pratiques non trouvés
+    ailleurs (café au lait et VB, tendinites = Yin, zones de blocage).
+
+fichiers_crees:
+  - chemin: DIAGNOSTIC/bilan_yin_yang.yaml
+    contenu: >
+      Fichier fondateur du diagnostic YY. 8 règles diagnostiques
+      complètes, tableaux YY général/local, vide/plénitude,
+      externe/interne, 4 combinaisons bilan (YY, Y/Yin, Yin/Y, Yin/Yin),
+      4 déséquilibres + Yin/Yang apparents, 2 lois du traitement,
+      méthode I Sou Jen (4 cas + points), méthode Siao Tse
+      (4 niveaux + saisons + points Su), sectorisation 4 cadrans,
+      protocole 4 temps, 5 temps bilan cursus, 3 plans humain,
+      blocage YY avec points, éthique du thérapeute.
+  - chemin: DIAGNOSTIC/pouls_chinois_principes.yaml
+    contenu: >
+      Technique complète du pouls: fondements physiologiques,
+      emplacement, 3 méthodes, technique de prise (positions,
+      sensibilité, anomalies, prise au pouce). 4 principes:
+      1er (gauche=Yang/droite=Yin + fondement astronomique),
+      2ème (superficie=Yang/profondeur=Yin), 3ème (3 secteurs
+      I/II/III = 3 foyers), 4ème (6 énergies avec tableau
+      synthèse gauche/droite × 3 niveaux).
+  - chemin: POINTS/points_yin_yang.yaml
+    contenu: >
+      Tous les points YY organisés par fonction: 3 généraux Yang
+      (20TM, 14TM, 12JM) + 3 généraux Yin (6MC, 6Rte, 6JM),
+      locaux Yang haut (4GI, 5TR, 3IG, 10IG, 15GI) + Yang bas
+      (36E, 62V, 41VB, 30VB, 3TM, 4TM), locaux Yin haut (7P)
+      + Yin bas (7R, 6R, 4JM), déblocage YY (27TM/24JM +
+      complémentaires), points des cas pratiques.
+  - chemin: CLINIQUE/protocole_therapeutique_yy.yaml
+    contenu: >
+      Protocole thérapeutique complet: tradition vs symptomatique,
+      idées guides, 8 étapes première séance, choix matériel
+      (aiguilles, électricité, laser, moxas, massage), 14 notions
+      fondamentales, états dépassés, rythme séances + lune,
+      résumé organes/méridiens clinique (VB chef d'orchestre,
+      E fabrique Yang, etc.), transpiration et rêves, cervicales.
+  - chemin: CLINIQUE/cas_pratiques_yin_yang.yaml
+    contenu: >
+      9 cas cliniques complets: Florence (genou+mono), Jean-Charles
+      (goutte), Marie-Paule (digestion+émotionnel), Monique 1
+      (VB+fibrome), Monique 2 (migraines chroniques), Patricia
+      (jambe+dépression), Martine (cervicales+migraines), Virginie
+      (angines+R Yang), Marie (lombalgies+règles+migraines),
+      Pierre-André (fatigue+blocage inapparent). Chacun avec
+      interrogatoire, observation, pouls, palpation, analyse et
+      traitement détaillés. Synthèse pédagogique.
+
+fichiers_mis_a_jour:
+  - chemin: ZANG_FU/vesicule_biliaire.yaml
+    ajout: >
+      enrichissement_CP_I: VB chef d'orchestre, diaphragme, acide
+      urique, café au lait (bloque VB), chocolat (théobromine),
+      migraines VB (points), urgence colique hépatique (34VB d,
+      21R d, 25V' d), VB et E, cauchemars.
+  - chemin: ZANG_FU/rate.yaml
+    ajout: >
+      enrichissement_CP_I: organe le plus Yin, méridien des soucis/
+      anxiété, cède difficilement au traitement, 5 zones blocage,
+      6Rte alerte (jamais disperser si hémorragies), langue et Rate,
+      points hémorragie.
+  - chemin: ZANG_FU/rein.yaml
+    ajout: >
+      enrichissement_CP_I: 2 énergies fondamentales (Yin→urinaire,
+      Yang→hormonal), R Yang donne à E et confiance en soi, café
+      et reins (6h récupération), protocole vide R Yang (E d'abord),
+      Rein et gorge (chronique), rêves d'eau, 5 zones blocage, 4TM.
+  - chemin: ZANG_FU/foie.yaml
+    ajout: >
+      enrichissement_CP_I: axe Tsiué Yin (F+MC), blocage 3F/7F
+      (test diagnostique cycle Raé), 3F point majeur, 7F déblocage,
+      4 zones blocage, rêves=F, cervicales inférieures, chaleur
+      reflux VB, mauvaises odeurs.
+  - chemin: ZANG_FU/gros_intestin.yaml
+    ajout: >
+      enrichissement_CP_I: GI et gorge (ponctuel=GI, chronique=R),
+      Yang Ming descente, 4GI point majeur, 25E.
+  - chemin: ZANG_FU/maitre_du_coeur.yaml
+    ajout: >
+      enrichissement_CP_I: 6MC triple fonction (Yin psychique +
+      Maître foyer moyen + barrière haut/bas), Tsiué Yin avec F,
+      urgence cardiaque (6MC d), 8MC point Feu.
+  - chemin: ZANG_FU/coeur.yaml
+    ajout: >
+      enrichissement_CP_I: transpiration tête=vide C, 7C joie de
+      vivre, Chao Yin, Feu Empereur vs Ministre.
+  - chemin: ZANG_FU/vessie.yaml
+    ajout: >
+      enrichissement_CP_I: 62V Yang Tsiao Mo, tendinites alerte Yin,
+      67V accouchement, 25V' Spasfon (arrêt instantané coliques),
+      V épuise R, Tae Yang.
+  - chemin: ZANG_FU/poumon.yaml
+    ajout: >
+      enrichissement_CP_I: 7P Lié Tsiué (Maître Yin haut du corps,
+      Jen Mo), confirmation dépression et P, Yang Ming et P.
+  - chemin: ZANG_FU/intestin_grele.yaml
+    ajout: >
+      enrichissement_CP_I: 3IG (point clé Tou Mo), 10IG (Yang local
+      haut), Tae Yang et IG.
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajout: >
+      14 nouveaux termes CP I: Huit_regles_diagnostiques, I_Sou_Jen,
+      Siao_Tse, Sectorisation_4_cadrans, Yang_apparent, Yin_apparent,
+      Blocage_YY, Protocole_4_temps, Yang_Tsiao_Mo, Points_generaux_Yang,
+      Points_generaux_Yin, Zone_blocage, Tendinite_alerte_clinique.
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajout: >
+      3 nouveaux arbres: arbre_20 (bilan YY complet — séquence maître
+      de la consultation), arbre_21 (zones de blocage par méridien —
+      Rate 5 zones, Foie 4 zones, Rein 5 zones), arbre_22 (urgences
+      et alertes cliniques CP I — colique hépatique, migraine VB,
+      urgence cardiaque, tendinites/cystites).
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajout: >
+      9 nouveaux principes CP I: tradition vs symptomatique, éthique
+      du thérapeute, apparences trompeuses YY, blocage YY paradoxe,
+      Rein Yang fondation, tendinites/cystites alerte, café/chocolat/lune,
+      neuf cas un enseignement.
+
+bilan:
+  fichiers_crees: 5
+  fichiers_mis_a_jour: 14
+  total_fichiers_touches: 19
+
+# ═══════════════════════════════════════════════════════════════
+# JAUGE D'EXPERTISE IEATC
+# ═══════════════════════════════════════════════════════════════
+
+jauge_expertise:
+  precedente: 46
+  nouvelle: 55
+  delta: +9
+  explication: >
+    CP I est le PLUS GRAND bond en avant du corpus. Pour la première
+    fois, la théorie YY devient un outil clinique opérationnel.
+    Le delta de +9 reflète:
+    - Capacité nouvelle à poser un bilan YY complet (8 règles,
+      pouls 4 principes, 4 combinaisons, blocage YY)
+    - Capacité à traiter avec les méthodes I Sou Jen et Siao Tse
+    - Maîtrise des points généraux YY (3+3) et locaux
+    - Compréhension des Yang/Yin apparents (piège classique)
+    - Capacité à identifier et traiter les zones de blocage
+    - 9 cas pratiques intégrés = flair clinique en construction
+    - Alertes cliniques précieuses (tendinites, café, chocolat)
+    Le passage du seuil 50 est symbolique: praticien débutant
+    capable de raisonner sur les cas simples.
+
+  polycopies_traites: 11
+  pages_traitees_environ: 956
+  pourcentage_collection: ~38%
+  rappel_methode: >
+    0 = aucune connaissance IEATC.
+    50 = praticien débutant capable de raisonner sur les cas simples.
+    100 = maîtrise complète de l'enseignement IEATC.
+
+# ═══════════════════════════════════════════════════════════════
+# ÉVOLUTION DES ANGLES DE LECTURE
+# ═══════════════════════════════════════════════════════════════
+
+angles_de_lecture:
+  progression:
+    yin_yang:
+      statut: OPERATIONNEL
+      acquis_par: PIV_YY_t1_t2_t3_CP_I
+      capacites: >
+        AVANT CP I: fondations théoriques posées (duité, sectorisation,
+        3 couples, axe fort/faible) mais AUCUNE capacité clinique.
+        APRÈS CP I: je peux poser un bilan YY complet, choisir entre
+        4 combinaisons, appliquer I Sou Jen ou Siao Tse, détecter
+        un blocage YY, identifier un Yang/Yin apparent, traiter avec
+        les bons points. Le YY est passé de « cadre théorique » à
+        « outil clinique opérationnel ». C'est le saut le plus important
+        de tout le corpus jusqu'ici.
+
+    cinq_elements:
+      statut: solide
+      capacites: >
+        Inchangé. CP I n'ajoute que peu aux 5E (protocole 4 temps
+        mentionne les 5E en étape 2, mais sans développement nouveau).
+        La prochaine progression viendra des CP dédiés aux 5E.
+
+    tsang_fou:
+      statut: en_construction_avancee
+      capacites: >
+        10 Tsang/Fou enrichis avec données cliniques CP I. Points
+        spécifiques par organe, zones de blocage, alertes cliniques.
+        Le lien entre organe et méridien se précise (ex: VB chef
+        d'orchestre, Rate organe le plus Yin, Rein Yang → Estomac).
+
+    pouls:
+      statut: fondations_posees
+      capacites: >
+        NOUVEAU: 4 principes du pouls chinois intégrés. Je sais
+        que gauche=Yang, droite=Yin, superficie=méridiens,
+        profondeur=organes, 3 secteurs=3 foyers, 6 énergies.
+        MAIS: je n'ai pas encore les qualités détaillées des
+        pouls (corde, glissant, profond, etc.) qui viendront
+        avec les modules P III.
+
+    clinique_pratique:
+      statut: NOUVEAU — débutant
+      capacites: >
+        NOUVEAU: première capacité à analyser un cas réel.
+        9 cas pratiques intégrés avec raisonnement complet.
+        Protocole en 8 étapes pour la première séance.
+        Choix du matériel, durée, vérification.
+        Ce n'est pas encore l'expertise mais c'est le
+        premier pas décisif hors de la théorie.
+
+# ═══════════════════════════════════════════════════════════════
+# FLAIR PRATICIEN
+# ═══════════════════════════════════════════════════════════════
+
+flair_praticien:
+  definition: >
+    Le « flair » est la capacité à identifier rapidement le noyau
+    du problème chez un patient, avant même d'avoir terminé le bilan
+    complet. C'est l'intuition clinique nourrie par la connaissance.
+  niveau_actuel: embryonnaire_mais_eveille
+  exemples_acquis:
+    - >
+      Migraines + café au lait → penser VB immédiatement.
+    - >
+      Tendinite inflammatoire → ne pas se laisser tromper, c'est du Yin.
+    - >
+      Angines à répétition → chercher Rein Yang, pas GI.
+    - >
+      Transpiration de la tête → vide de Cœur (7C t).
+    - >
+      Rêves d'eau → vide de Rein.
+    - >
+      Patient contradictoire (dit Yang, pouls Yin) → blocage YY.
+    - >
+      Traitement I Sou Jen inefficace → suspecter un apparent.
+    - >
+      Colique hépatique ou néphrétique → 25V' d = arrêt instantané.
+
+# ═══════════════════════════════════════════════════════════════
+# TAILLE DU CORPUS
+# ═══════════════════════════════════════════════════════════════
+
+corpus:
+  fichiers_yaml: 64
+  lignes_totales: ~24100
+  taille_ko: ~1000
+  polycopies_traites: 11
+  pages_traitees: ~956
+  pourcentage_collection: ~38%

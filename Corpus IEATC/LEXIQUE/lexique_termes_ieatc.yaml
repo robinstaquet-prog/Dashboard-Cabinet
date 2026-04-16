@@ -1,0 +1,1774 @@
+# LEXIQUE DES TERMES IEATC
+# Fichier vivant — mis à jour à chaque session
+# Un terme par entrée — format strict et court
+# Version 1.6 — enrichi session PVII tome 3
+
+meta:
+  fichier: lexique_termes_ieatc.yaml
+  role: >
+    Définir tous les termes spécifiques à l'IEATC avec
+    leur correspondance MTC et leurs nuances propres
+    à cette école. Référence première pour tout terme
+    ambigu ou inconnu.
+  instruction_mise_a_jour: >
+    À chaque nouveau terme rencontré dans un module :
+    1. Vérifier s'il existe déjà dans ce fichier
+    2. Si oui — enrichir l'entrée existante avec source
+    3. Si non — créer une nouvelle entrée
+    Signaler [TERME INCONNU] dans les fiches si un terme
+    n'est pas encore défini ici.
+
+termes:
+
+  Iong:
+    correspondance_mtc: Ying Qi
+    definition_ieatc: >
+      Énergie nutritive. Circule à l'intérieur des méridiens.
+      Nourrit et relie les structures internes.
+      INDISSOCIABLE du sang : Iong = énergie du sang,
+      sang = matérialité de l'Iong. Deux faces d'une
+      même réalité (confirmé praticien 2026-04-05).
+      Contient les Tsing de TOUS les Tsang — la Rate
+      les trie/étiquette, les Fou couplés les captent
+      pour les transmettre à leur Tsang.
+    alerte_homonymie: >
+      Iong désigne AUSSI le 2ème point des méridiens
+      (Ying-Spring point). Toujours préciser le contexte :
+      Iong (énergie) ou Iong (point).
+    Q003_resolu: >
+      Iong et sang sont INDISSOCIABLES. Traiter l'Iong =
+      traiter le sang, et inversement. Résolu 2026-04-05.
+    voir_aussi: [Iong_Tchi, Yong_Qi]
+    source: lexique_initial_praticien
+
+  Oe:
+    correspondance_mtc: Wei Qi
+    definition_ieatc: >
+      Énergie défensive et adaptative. Circule en surface.
+      Protège les échanges avec l'extérieur.
+      Amène chaleur et lubrification à la surface,
+      aux articulations superficielles, aux muscles
+      superficiels — pas les muscles profonds.
+    distinction_importante: >
+      L'Oé est DISTINCT des Grands Méridiens (GM/axes
+      énergétiques) qui assurent aussi une protection.
+      Les GM protègent SANS notion d'énergie Oé.
+    question_ouverte: >
+      Distinction superficiel/profond pour les muscles :
+      anatomique ou fonctionnelle ?
+    voir_aussi: [Oe_Tchi, Wei_Qi]
+    source: [lexique_initial_praticien, CP3-t1-p22]
+
+  Tsing:
+    synonyme_ieatc: Ancestrale
+    correspondance_mtc: Jing
+    definition_ieatc: >
+      Énergie ancestrale. Stockée principalement dans
+      le Rein. Distribuée par le Tchrong Mo à chaque
+      cellule. Fondement de la vie et de la constitution.
+    organe_detenteur: Rein
+    organe_distributeur: Tchrong_Mo
+    voir_aussi: [Jing_Qi_hereditaire, Tsing_propre]
+    source: CP3-t1-p17
+
+  TT:
+    forme_longue: Tching_Tcheng
+    correspondance_mtc: Jing (méridien principal)
+    definition_ieatc: >
+      Méridien principal. Voie de circulation de l'énergie
+      Iong dans les téguments. Les 12 TT constituent le
+      système de base de la circulation énergétique.
+    source: CP3-t1_usage_constant
+
+  TK:
+    forme_longue: Tching_Kann
+    synonyme: Tching_Kann
+    correspondance_mtc: Jingjin
+    definition_ieatc: >
+      Vaisseaux tendino-musculaires. Gèrent la surface
+      du corps : peau, muscles superficiels, tendons,
+      ligaments, capsules articulaires, organes des sens,
+      phanères. Couverts et protégés par l'énergie Oé.
+    source: CP3-t1-p16
+
+  TP:
+    forme_longue: Tching_Pie
+    correspondance_mtc: Jingbie
+    definition_ieatc: Méridiens distincts.
+    lacune: >
+      Définition complète attendue dans
+      module P IX Méridiens.
+    source: CP3-t1-p15
+
+  GM:
+    forme_longue: Grands_Meridiens
+    synonyme_ieatc: Axes_energetiques
+    correspondance_mtc: Liu_Jing
+    definition_ieatc: >
+      Les 6 Grands Méridiens / Axes Énergétiques. Système de protection contre
+      les énergies externes ET d'équilibration du milieu intérieur.
+      DISTINCT des TT (méridiens principaux) et de l'énergie Oé.
+      Chaque GM est composé de 2 méridiens (Tchéou = main + Tsou = pied)
+      couplés Yin/Yin ou Yang/Yang. Actifs dès la naissance (vs méridiens
+      Yin+Yang par élément, actifs dès le 3ème mois de grossesse).
+      Distribués comme poupées russes emboîtées selon les tissus corporels.
+    les_6_GM_couplages:
+      Tae_Yang: "IG + V — froid/refroidissement"
+      Chao_Yin: "C + R — chaleur/réchauffement"
+      Chao_Yang: "TR + VB — feu"
+      Tsiue_Yin: "MC + F — fong_vent"
+      Yang_Ming: "GI + E — sécheresse/assèchement"
+      Tae_Yin: "P + Rte — humidité/humidification"
+    systemes_3_couples:
+      Yang_Ming_Tae_Yin: "sécheresse_humidité — 5h-13h"
+      Tae_Yang_Chao_Yin: "froid_chaleur — 13h-21h"
+      Chao_Yang_Tsiue_Yin: "feu_fong — 21h-5h"
+    niveaux_anatomiques:
+      Tae_Yang_Tae_Yin: surface_peau
+      Chao_Yang_Tsiue_Yin: moyenne_muscles
+      Yang_Ming_Chao_Yin: profondeur_os
+    voir_aussi: [Systemes_energetiques_3, Tcheou_meridien, Tsou_meridien]
+    source: [CP3-t1-p22, PIV-YY-t3-p37_43]
+
+  Iu:
+    ALERTE: triple_usage_toujours_preciser_le_contexte
+    usage_1:
+      nom: Iu_generique
+      definition: >
+        Nom générique de tous les points d'acupuncture.
+        Usage archaïque — peu utilisé en pratique.
+    usage_2:
+      nom: Iu_dos
+      correspondance_mtc: Bei_Shu / Shu_du_dos
+      definition: >
+        Points assentiments du dos. Situés sur la branche
+        interne du TT de V. Un par organe.
+        Agissent sur le Yang de l'organe — drainage et
+        élimination des énergies perverses.
+    usage_3:
+      nom: Iu_elements
+      correspondance_mtc: Shu_Stream_point
+      definition: 3ème point des méridiens.
+      yin: mouvement_Terre
+      yang: mouvement_Bois
+    source: CP3-t1-p33
+
+  # Note : les définitions complètes de Ting, Iong (point), Iu (point Su),
+  # King et Ro sont regroupées dans la section Points Su (PVII-t3) plus bas.
+  # Voir aussi : Iu (triple usage) juste au-dessus.
+
+  Tsri:
+    correspondance_mtc: Xi_Cleft_point
+    definition_ieatc: >
+      Point d'urgence ou de condensation de l'énergie
+      du méridien. Toujours dispersé pour débloquer
+      une situation récente et aiguë.
+    question_ouverte: >
+      Urgence dans un sens clinique précis
+      (douleur aiguë, hémorragie) ou sens énergétique
+      plus large ? Décision praticien requise.
+    source: lexique_initial_praticien
+
+  Penn:
+    correspondance_mtc: aucun_equivalent_direct
+    definition_ieatc: >
+      Point de quintessence saisonnière. Point qui
+      correspond à l'élément de la saison sur le méridien
+      de cet élément. Le point le plus efficace dans
+      les traitements de Grands Méridiens.
+    exemples:
+      printemps_Bois: 1F (point Bois du méridien Bois)
+      intersaison_Terre: 3Rte (point Terre du méridien Terre)
+      ete_Feu: point Feu du méridien Feu
+      automne_Metal: point Metal du méridien Metal
+      hiver_Eau: point Eau du méridien Eau
+    source: CP3-t1-p24_praticien
+
+  Fong:
+    usage_1_generique:
+      correspondance_mtc: Xie_Qi_externe
+      definition: >
+        Terme générique pour TOUTES les énergies perverses
+        EXTERNES : vent, froid, humidité, chaleur, sécheresse,
+        feu pathogène. Plus large que le seul vent de la MTC.
+      distinction: Fong_externe vs Kouei_interne
+      source: lexique_praticien
+    usage_2_vent:
+      correspondance_mtc: Feng_vent
+      definition: >
+        Vent. Idéogramme contient insecte piqueur/vers rongeur.
+        Messager des ordres du Ciel sur Terre (comme Hermès).
+        Starter de la nature. Affection brutale et rapide.
+        Énergie climatique du Bois/Printemps/Est.
+      source: PVII-t1-p39
+
+  Kouei:
+    definition_ieatc: Énergies perverses INTERNES.
+    distinction: Kouei_interne vs Fong_externe
+    lacune: définition complète attendue dans module futur
+    source: lexique_praticien
+
+  Ming_Menn:
+    correspondance_mtc: Ming_Men
+    definition_ieatc: >
+      Porte de la Destinée. Point 4TM physiquement.
+      Lié à la physiologie du Tchrong Mo ET des Reins.
+      Exemple paradigmatique de l'interrelation complexe
+      IEATC — ne jamais traiter comme notion isolée.
+    liens_conceptuels:
+      - Tchrong_Mo: distribution_Ancestrale
+      - Rein: stockage_Ancestrale_et_Jing
+      - 4TM: localisation_physique
+    voir_aussi: [Ming_Menn_point]
+    source: CP3-t1-p61_praticien
+
+  CLM:
+    type: reference_doctrinale
+    identite: Charles_Laville_Mery
+    statut: >
+      Maître de référence cité constamment dans les
+      polycopiés IEATC. Ses positions font autorité mais
+      sont parfois discutées ou nuancées par Bollet.
+      Auteur de Bioénergétique.
+    note: >
+      En cas de divergence Bollet/CLM, soumettre
+      comme conflit — ne pas trancher seul.
+    source: CP3-t1_usage_constant
+
+  FM:
+    forme_longue: Foyer_Moyen
+    correspondance_mtc: Zhong_Jiao
+    vertebres: D8_a_D12
+    organes: [estomac, rate, foie, digestion]
+    emotion_dominante: problemes_affectifs
+    source: CP3-t1-p35
+
+  FS:
+    forme_longue: Foyer_Superieur
+    correspondance_mtc: Shang_Jiao
+    vertebres: D1_a_D7
+    organes: [coeur, poumon, tete, psychisme]
+    emotion_dominante: tensions_psychiques
+    source: CP3-t1-p35
+
+  FI:
+    forme_longue: Foyer_Inferieur
+    correspondance_mtc: Xia_Jiao
+    vertebres: D10_a_L5
+    organes: [rein, vessie, intestins, genital]
+    emotion_dominante: problemes_organiques_profonds
+    source: CP3-t1-p35
+
+  Tou_Mo:
+    synonyme_ieatc: TM
+    correspondance_mtc: Du_Mai
+    point_cle: 3IG
+    point_depart: 1TM
+    nature: reserve_Yang_energie_gouverneur_TT
+    source: [lexique_initial_praticien, CP3-t1-p60]
+
+  Jen_Mo:
+    synonyme_ieatc: JM
+    correspondance_mtc: Ren_Mai
+    point_cle: 7P
+    point_depart: 1JM
+    nature: reserve_Yin_sang_regisseur_tsang
+    source: [lexique_initial_praticien, CP3-t1-p60]
+
+  Chen:
+    correspondance_mtc: Shen
+    ALERTE: terme_a_usages_multiples
+    usage_1:
+      nom: Chen_cosmique
+      definition: >
+        Intelligence universelle, esprit divin, entité
+        cosmique. Désigne aussi le divin, le cosmos.
+    usage_2:
+      nom: Chen_individuel
+      definition: >
+        Entité psychique vivant dans l'élément Feu et
+        le Cœur. Esprit individuel, conscience propre
+        de l'être humain.
+    relation_avec_Roun: >
+      Chen est la résidence céleste.
+      Roun est le messager qui va rejoindre le Chen
+      la nuit pendant les rêves.
+      SO dit : "Roun est l'ombre du Chen."
+      "Quand Chen est dans l'Homme, il est Roun."
+    lacune: développement complet attend P XI Psychisme
+    source: [CP3-t1-p69, praticien]
+
+  Roun:
+    correspondance_mtc: Hun
+    definition_ieatc: >
+      Entité psychique de l'élément Bois et du Foie.
+      Messager du ciel. Sort du corps la nuit pendant
+      les rêves. Interagit avec les Roun des personnes
+      de l'entourage proche. Reçoit les enseignements
+      du Chen pendant les voyages nocturnes et les
+      rapporte au réveil (Tsing Ming = aube).
+    element: Bois
+    organe: Foie
+    lacune: développement complet attend P XI Psychisme
+    source: [CP3-t1-p69, praticien]
+
+  Soen_Lo:
+    definition_ieatc: >
+      Terminaisons superficielles des Lo longitudinaux.
+      Capillaires sous-cutanés. Normalement invisibles.
+      Leur présence indique une congestion de surface
+      et une atteinte plus profonde de la voie principale.
+    lecture_couleur:
+      rouge_vif: plenitude_chaleur
+      bleuatre: vide_energie
+      noiratre: plenitude_sang_froid
+      rosaire: vide_sang
+    question_ouverte: Q001_distinction_Soen_Lo_vs_Pi_Pou
+    source: CP3-t1-p43
+
+  Pi_Pou:
+    definition_ieatc: >
+      Terminaisons superficielles des Lo longitudinaux.
+      Citées conjointement aux Soen Lo.
+    question_ouverte: Q001_distinction_Soen_Lo_vs_Pi_Pou
+    statut: a_clarifier_avec_praticien
+    source: CP3-t1-p43
+
+  Kao_et_Roang:
+    definition_ieatc: fonctions_vitales_profondes
+    points_associes: [43V, 16R]
+    lacune: >
+      Définition complète attendue dans modules futurs.
+      Praticien a confirmé que ce sera documenté plus tard.
+    question: Q002
+    source: CP3-t1-p33
+
+  Ming:
+    correspondance_mtc: Ming_Ling
+    definition_ieatc: >
+      Mandat céleste. Programme de vie attribué à l'être
+      avant sa naissance. Déterminé par les étoiles et les
+      planètes au moment de la conception et de la nidation.
+      Inscrit dans l'énergie Ancestrale et dans le Rein.
+    distinction: >
+      Ming = programme (le mandat)
+      Tsing = énergie qui permet de réaliser ce programme
+    source: PVI-t1-embryologie
+
+  Tae_I:
+    correspondance_mtc: Tai_Yi
+    definition_ieatc: >
+      Grand Un (TAÉ I). Principe suprême, intelligence universelle
+      première. Niveau cosmique antérieur à la différenciation
+      Yin/Yang. Source de tout ce qui existe. Avec la duité
+      Yin/Yang, forme la trilogie indispensable à toute Création.
+      Représenté par l'Œuf, animé des mouvements primaires
+      d'inspire et d'expire. 9 = 3 × 3 = expression de Taé I.
+      En physiologie IEATC : niveau le plus profond de la
+      constitution de l'être, antérieur à la Tsing.
+    source: [PVI-t1-embryologie, PIV-YY-t2-p36_37]
+
+  Tsing_propre:
+    synonyme: Tsing_des_Tsang
+    correspondance_mtc: Jing_du_Zang
+    definition_ieatc: >
+      Énergie essentielle propre à chaque Tsang.
+      Fabriquée par le Tsang à partir de l'Iong qui y entre.
+      DISTINCT de la Tsing ancestrale (Rein).
+      Présente dans l'Iong circulant — la Rate l'étiquette
+      pour son Tsang destinataire, le Fou couplé la capte
+      et la transmet à son Tsang. Confirmé praticien.
+    ALERTE: >
+      Ne pas confondre avec la Tsing/Ancestrale du Rein.
+      La Tsing propre est fabriquée par chaque Tsang.
+      La Tsing ancestrale est héritée et stockée au Rein.
+    C004: RESOLU_2026-04-05
+    source: PVI-t1-p51
+
+  Yuan_Tchi:
+    correspondance_mtc: Yuan_Qi
+    definition_ieatc: >
+      Énergie originelle. Énergie issue de la transformation
+      de la Tsing ancestrale pour alimenter les fonctions
+      vitales. Distribué par le Tchrong Mo. Présent aux
+      points Yuan (source) de chaque méridien.
+    lien: Tsing_ancestrale_→_transformation_→_Yuan_Tchi
+    voir_aussi: [Yuan_Qi]
+    source: PVI-t1-regulateurs
+
+  Tsong_Tchi:
+    correspondance_mtc: Zong_Qi
+    synonyme_ieatc: Energie_Ancestrale_fonctionnelle
+    definition_ieatc: >
+      Énergie complète produite par les Poumons à partir du mélange
+      de Yeung Tchi (air) + Ku Tchi (aliments) + Yuan Tchi (ancestrale).
+      Accumulée dans le Foyer Supérieur (thorax). Alimente le cœur
+      et les poumons. Gouverne la voix et la respiration. Source de la
+      vitalité et de la puissance corporelle. Se capitalise dans les
+      Reins pour préserver Yuan Tchi.
+    lien_anatomique: Foyer_Superieur_thorax
+    voir_aussi: [Zong_Qi]
+    source: [PVI-t1-regulateurs, PV-3F-t1-p30_50]
+
+  Tran_Tchong:
+    correspondance_mtc: Dan_Zhong
+    point_anatomique: 17JM
+    definition_ieatc: >
+      Mer des Souffles. Centre énergétique thoracique.
+      Point 17JM. Reçoit l'énergie Tsong Tchi.
+      Gouverne la distribution de l'énergie dans le
+      Foyer Supérieur. Point de diagnostic du niveau
+      d'énergie du FS — son aspect (creux, saillant,
+      douloureux) donne l'état du FS.
+    role_diagnostique: >
+      Creux et déprimé → vide FS grave
+      Douloureux → stagnation énergie FS
+      Normal → FS équilibré
+    source: PVI-t1-p45
+
+  Kan:
+    definition_ieatc: >
+      10 Kan = 10 troncs célestes terrestres codifiant les mouvements
+      planétaires. Divisent l'année en 5 saisons × 2 (Yang + Yin).
+      Noms : Kia/I/Ping/Ting/Wou/Tchi/Keng/Hsin/Jen/Koui.
+      1ère énergie terrestre = Bois (printemps). Différent de 1ère énergie
+      céleste = Terre (Saturne). Confusion = erreurs graves.
+      Utilisé dans les tableaux kan/che pour croiser éléments,
+      énergies, axes et couleurs.
+    lien: che
+    source: [PVI-t1-regulateurs, PVII-t3-p74_76]
+
+  Che:
+    definition_ieatc: >
+      12 Che = 12 branches terrestres (zodiaque). Déterminent un mois
+      de l'année et l'orientation cardinale d'entrée des énergies.
+      Noms : Tse/Tcheou/Yin/Mao/Tchen/Seu/Ou/Wei/Chen/Yeou/Siu/Hai.
+      Cycle de 60 = 10 Kan × 12 Che.
+      Manifestation énergétique des éléments dans le corps.
+      Complément du Kan dans les tableaux de correspondances.
+    lien: kan
+    source: [PVI-t1-regulateurs, PVII-t3-p74]
+
+  Ku_Tchi:
+    correspondance_mtc: Gu_Qi
+    definition_ieatc: >
+      Énergie nutritionnelle issue des 1er et 2ème tris
+      de l'alimentation (estomac puis IG).
+      La rate commande sa montée au FS.
+      Origine de l'énergie iong.
+    source: PVI-t2-p26_34
+
+  Yeung_Tchi:
+    correspondance_mtc: Ying_Qi_de_l_air
+    definition_ieatc: >
+      Énergie de l'air extraite par les Poumons lors de la respiration.
+      Se métabolise avec Ku Tchi et Yuan Tchi pour produire Tsong Tchi.
+      Une des 2 grandes énergies de substitution (avec Ku Tchi) qui
+      préservent l'énergie ancestrale.
+    source: [PVI-t2-p25_26, PV-3F-t1-p30_50]
+
+  Tcheung_Tchi:
+    correspondance_mtc: Zhen_Qi
+    definition_ieatc: >
+      Énergie totale ou énergie véritable. Produite par Tsong Tchi +
+      Yuan Tchi. Propulsée dans tous les circuits énergétiques. Contient
+      Iong (nutritionnelle) et Oé (défensive). Les textes disent qu'il
+      s'agit toujours de la MÊME énergie qui change de nom selon sa
+      fonction à chaque niveau.
+    voir_aussi: [Zhen_Qi]
+    source: [PVI-t2-p26, PV-3F-t1-p50_51]
+
+  R_plus_R_moins:
+    definition_ieatc: >
+      Rein Yang (R+, gauche) et Rein Yin (R-, droit).
+      Les deux racines fondamentales du Yin et du Yang
+      de tout l'organisme, dès la vie embryonnaire.
+      R- = source de tout le Yin (eau/Eau).
+      R+ = source de tout le Yang (sel/Feu).
+    circuits:
+      R_moins: R_rate_foie_poumon
+      R_plus: R_rate_et_estomac_poumon_coeur
+    source: PVI-t2-p48_51
+
+  # ─── Termes ajoutés PVII tome 1 ───
+
+  Cycle_Tcheng:
+    correspondance_mtc: cycle_Sheng_engendrement
+    definition_ieatc: >
+      Loi d'engendrement des 5 éléments. Cycle nutritionnel.
+      Chaque élément nourrit le suivant par l'énergie
+      de sa mère EXCLUSIVEMENT (toute autre énergie = nocive).
+      Transmission Yin→Yin (Tsang→Tsang), PAS Fou→Fou.
+      Énergie transformée par la Rate avant transmission.
+      Ordre : Bois → Feu → Terre → Métal → Eau.
+    source: [PVII-t1-p48, PVII-t2-p23_25]
+
+  Cycle_Ko:
+    correspondance_mtc: cycle_Ke_controle
+    definition_ieatc: >
+      Loi de tempérance des 5 éléments. Cycle parfaitement
+      normal et physiologique. Abusivement nommé cycle de
+      destruction. CLM : "Le fléau pour activer le paresseux
+      et la crosse pour ramener la brebis égarée."
+      Grand-mère contrôle petit-fils. Doué d'intelligence.
+      Bois→Terre→Eau→Feu→Métal→Bois.
+    source: [PVII-t1-p38, PVII-t2-p26_29]
+
+  Hong_Fan:
+    definition_ieatc: >
+      Le "Grand Plan". Texte classique donnant la succession
+      des éléments lors de la genèse : Eau → Feu → Bois
+      → Métal → Terre. Ordonnancement non cyclique.
+      Description par rapport au Ming Tang.
+    source: PVII-t1-p38
+
+  Tou:
+    correspondance_mtc: Tu_terre_nourriere
+    definition_ieatc: >
+      Terre nourricière, couche d'humus, terre fécondante.
+      Différent de Ti (terre planète/matière cosmique).
+      Capital pour stérilités : muqueuse utérine doit être
+      Tou (accueillante) et non Ti (inerte).
+    source: PVII-t1-p17
+
+  Point_Penn:
+    correspondance_mtc: point_Ben
+    definition_ieatc: >
+      Point Su de l'élément propre du méridien sur lui-même.
+      Le SEUL des 5 points Su qui corresponde à l'énergie de
+      la saison de son élément. Extrait la quintessence de
+      l'énergie de la saison ET du tsing des aliments. Point le
+      plus puissant de chaque méridien pour agir sur son élément.
+      Agit sur le foyer Yin/Yang correspondant de l'individu.
+      Fondamentaux pour constituer les tsing et renforcer
+      l'énergie ancestrale.
+    points_Penn:
+      Bois: 1F
+      Feu: 8C
+      Terre: 3Rte
+      Metal: 8P
+      Eau: 10R
+    source: [PVII-t1-p47, PVII-t2-p38_39, PVII-t4-p23_28]
+
+  Ming_Tang:
+    definition_ieatc: >
+      Carré magique 3×3 dont la somme dans toutes les
+      directions donne toujours 15 (= 3 groupes × 5 temps
+      indispensables à la Vie). Chaque élément occupe des
+      cases spécifiques : Eau [1,6], Feu [2,7], Bois [3,8],
+      Métal [4,9], Terre [5,10].
+    source: PVII-t1-p14_19
+
+  Tann_Tienn:
+    correspondance_mtc: Dan_Tian
+    definition_ieatc: >
+      Trois foyers de concentration énergétique :
+      Supérieur = entre les deux yeux (3ème oeil, Chen, méridien C),
+      Moyen = poitrine/17JM (émotions, méridien MC),
+      Inférieur = sous nombril (énergie ancestrale, Rein).
+    source: PVII-t1-p40
+
+  # ─── Termes ajoutés PVII tome 2 ───
+
+  Cycle_Rae:
+    correspondance_mtc: cycle_Wu_revolte
+    definition_ieatc: >
+      Cycle Ko inversé = cycle de révolte. PATHOLOGIQUE.
+      L'élément dominé se retourne contre son dominateur.
+      Se met en place quand l'Empereur est faible et
+      l'ennemi vaincu n'est plus contrôlé. Les flèches du Ko
+      s'inversent. Signe de pathologie grave et d'épuisement
+      du dominant. Peut survenir à n'importe quel moment de l'année.
+      Ex : Bois en excès attaque le Métal au lieu d'être dominé par lui.
+    source: [PVII-t2-p52_53, PVII-t4-p46_48]
+
+  Cour_Imperiale:
+    definition_ieatc: >
+      Modèle hiérarchique des 5 éléments à chaque saison.
+      5 rôles : Empereur (le plus fort), Mère (faible,
+      vient d'enfanter), Fils (vigoureux), Ennemi vaincu
+      (soumis, petit-fils), Conseiller (énergique, grand-mère).
+      Décalage d'un cran à chaque changement de saison.
+    source: PVII-t2-p31_35
+
+  Ching:
+    definition_ieatc: >
+      Liquides moins purs que les Ié. Yang, externes. Circulent
+      avec l'Oé. Humidité de la peau (conjonctif, collagène,
+      3 feuillets : hypoderme, derme, épiderme), sueur.
+    complement: Ie
+    voir_aussi: [Jin_liquides]
+    source: [PVII-t2-p19, PV-3F-t2-p27]
+
+  Ie:
+    definition_ieatc: >
+      Liquides purs par excellence. Yin, internes. Circulation
+      uniquement interne : liquide interstitiel, cytoplasme,
+      synovie, liquide céphalo-rachidien. Lubrification
+      musculaire et articulaire. Issus de la séparation
+      pur/impur par l'IG et distribués par la Rate.
+    complement: Ching
+    voir_aussi: [Ye_liquides]
+    source: [PVII-t2-p19, PV-3F-t2-p26_27]
+
+  Loi_unitaire:
+    definition_ieatc: >
+      Loi de base des 5 éléments. Concerne un élément
+      et son organe indépendamment des autres.
+      Énergie saisonnière + climat + synthétisation
+      par le point Penn + constitution du tsing.
+    source: PVII-t2-p38
+
+  Loi_ternaire:
+    definition_ieatc: >
+      Combinaison de 3 éléments dans les cycles Tcheng
+      et Ko simultanément. 5 ternaires possibles
+      formant 3 triangles (rouge, bleu, vert).
+      Base du raisonnement pathologique des 5 éléments.
+    source: PVII-t2-p42_49
+
+  # ─── PVII tome 3 ───────────────────────────────
+
+  Points_Su:
+    definition_ieatc: >
+      5 points par méridien Yin (6 pour les Yang avec Iuann).
+      Signifie « points de l'origine/commencement de l'énergie dans les
+      membres ». Commandent les 5 mouvements saisonniers. Agissent sur
+      les QUALITÉS d'énergie (pas les quantités). Capteurs et adaptateurs
+      des énergies externes vers l'organisme.
+    noms: Ting_Iong_Iu_Iuann_King_Ro
+    localisation: ongles_jusqu_aux_coudes_genoux
+    source: PVII-t3-p37_45
+
+  Ting:
+    correspondance_mtc: Jing_Well_point
+    definition_ieatc: >
+      1er point Su = puits. Mise en mouvement. À l'ongle (sauf 1R).
+      Yin = Bois/vent. Yang = Métal/sécheresse. Porte de jonction
+      Tching Kann / méridien principal.
+    action_surface: >
+      Tous les Ting des Yin et Yang régularisent la surface
+      du corps (peau, muscles superficiels, tendons,
+      ligaments, organes des sens, phanères).
+    source: [PVII-t3-p39, CP3-t1-p16]
+
+  Iong_point:
+    correspondance_mtc: Ying_Spring_point
+    ALERTE: homonyme_de_Iong_energie — toujours préciser le contexte
+    definition_ieatc: >
+      2ème point Su = ru. L'eau s'écoule par déclivité. Yin = Feu/chaleur
+      (réchauffe, psychisme). Yang = Eau/froid (rafraîchit). Accélère
+      la circulation iong.
+    source: [PVII-t3-p40, lexique_initial_praticien]
+
+  Iu_point_Su:
+    correspondance_mtc: Shu_Stream_point
+    ALERTE: voir aussi Iu (triple usage) en début de lexique
+    definition_ieatc: >
+      3ème point Su = rivière. Porte de pénétration de la perversité externe.
+      Yin = Terre/humidité = Iu-Iuann fusionnés. Yang = Bois/vent.
+      Si insuffisant → perversité pénètre jusqu'au Ro puis aux organes.
+    source: [PVII-t3-p40, CP3-t1-p33]
+
+  Iuann:
+    definition_ieatc: >
+      Point Source — surnuméraire pour les Yang uniquement. Appose un
+      « code barre » aux énergies externes pour que l'organe les reconnaisse.
+      Augmente puissamment la quantité iong du méridien.
+    source: PVII-t3-p41
+
+  King:
+    correspondance_mtc: Jing_River_point
+    definition_ieatc: >
+      4ème point Su = fleuve. Homme au travail. Yin = Métal/automne
+      (énergie défensive Oé, cicatrisation, fractures). Yang = Feu/chaleur.
+      Traite os, articulations, muscles profonds.
+    source: [PVII-t3-p41, lexique_initial_praticien]
+
+  Ro:
+    correspondance_mtc: He_Sea_point
+    definition_ieatc: >
+      5ème point Su = mer/rassemblement. Aux 4 barrières (coudes/genoux).
+      Yin = Eau/hiver (reproduction). Yang = Terre/5ème saison.
+      Porte principale communication interne/externe. Branche profonde.
+    source: [PVII-t3-p41, lexique_initial_praticien]
+
+  Hou:
+    definition_ieatc: >
+      Période de 5 jours. Unité de temps des Kan et Che. 72 Hou par an
+      (= nombre total des méridiens d'acupuncture toutes branches).
+      Chaque Hou est sous la dépendance d'un des 5 mouvements.
+    source: PVII-t3-p51
+
+  Maitre_annee:
+    definition_ieatc: >
+      Énergie dominante d'une année (pas céleste). Siège au Sud, solstice
+      d'été = son milieu. Domine les 6 mois Yang (printemps/été).
+      Appelé aussi Président ou énergie du Ciel. Les 6 mois Yang = printemps
+      et été = période d'expansion et de manifestation. L'énergie maîtresse
+      est diamétralement opposée à l'énergie servante (opposition diamétrale
+      sur la roue des 6 énergies).
+    oppose: Serviteur_du_Ciel
+    voir_aussi: [Pas_energetique, Tienn_Tou]
+    source: [PVII-t3-p60, PIV-YY-t3-p20]
+
+  Serviteur_du_Ciel:
+    definition_ieatc: >
+      Énergie diamétralement opposée au Maître de l'année. Siège au Nord.
+      Domine les 6 mois Yin (automne/hiver). Réponse de la Terre au Ciel.
+      Les 6 mois Yin = automne et hiver = période de rétraction et de
+      thésaurisation. Le Serviteur "répond" aux initiatives du Maître.
+    voir_aussi: [Maitre_annee, Pas_energetique]
+    source: [PVII-t3-p61, PIV-YY-t3-p20]
+
+  Heures_Royales:
+    definition_ieatc: >
+      Loi de Wang Chou Houo (6ème s. ap. J.C.). Une journée = une année.
+      Matin (3h-9h) = Bois. Midi (9h-15h) = Feu. Fin d-m (15h-21h) = Métal.
+      Nuit (21h-3h) = Eau. 4 repas = Terre.
+    source: PVII-t3-p77
+
+  HOUN:
+    definition_ieatc: >
+      Âme inconsciente, impulsions, intuition. CHEUN associé au Foie.
+      Le HOUN calme amène la Voie parfaite.
+    source: PVII-t3-p29
+
+  PO:
+    definition_ieatc: >
+      Subconscient, instincts corporels. CHEUN associé au Poumon.
+      Le PO calme amène conduite vertueuse et longévité.
+    source: PVII-t3-p34
+
+  Tchi_realisation:
+    definition_ieatc: >
+      Volonté profonde, réalisation. CHEUN associé au Rein (à ne pas
+      confondre avec Tchi = énergie). Son état dominant = abondance
+      de la moelle osseuse.
+    source: PVII-t3-p35
+
+  Croix_6_directions:
+    definition_ieatc: >
+      Correspondance des 6 axes énergétiques aux 6 directions de l'espace.
+      Yang Ming = descend. Taé Yin = monte. Taé Yang = arrière→avant.
+      Chao Yin = avant→arrière. Chao Yang = gauche→droite.
+      Tsiué Yin = droite→gauche. Superposition = double hélice ADN.
+    source: PVII-t3-p25_26
+
+  # ── PVII tome 4 — 5 Éléments Pathologies ──
+
+  Maladie_veritable:
+    definition_ieatc: >
+      1ère des 5 maladies selon MMM (Mishi Mesa Mishisawa).
+      L'organe est atteint dans sa propre saison. Pronostic favorable
+      si traité à temps. Traitement : point Penn de l'élément en cause.
+    source: PVII-t4-p37_40
+
+  Maladie_de_vide:
+    definition_ieatc: >
+      2ème maladie MMM. L'organe est atteint en saison de sa Mère
+      (la Mère devrait le nourrir mais n'y parvient pas).
+      Traitement : tonifier la Mère par le point Mère du méridien fils.
+    source: PVII-t4-p37_40
+
+  Maladie_de_plenitude:
+    definition_ieatc: >
+      3ème maladie MMM. L'organe est atteint en saison de son Fils
+      (le Fils épuise la Mère par excès de demande).
+      Traitement : disperser le Fils par le point Fils du méridien mère.
+    source: PVII-t4-p37_40
+
+  Maladie_de_victoire:
+    definition_ieatc: >
+      4ème maladie MMM. L'organe est atteint en saison de son
+      Ennemi (l'attaquant Ko). Pas grave = victoire de l'attaquant,
+      mais l'attaqué résiste. Récidive possible 2-3 saisons après.
+    source: PVII-t4-p37_40
+
+  Maladie_de_defaite:
+    definition_ieatc: >
+      5ème maladie MMM. L'organe est atteint en saison de son
+      Conseiller (celui qu'il domine en Ko). GRAVE = l'attaqué
+      est si faible que même celui qu'il devrait dominer le blesse.
+      Signe de dépassement des ressources vitales.
+    source: PVII-t4-p37_40
+
+  MMM_Mishi_Mesa_Mishisawa:
+    definition_ieatc: >
+      Auteur japonais cité par l'IEATC pour la classification
+      des 5 maladies (véritable, vide, plénitude, victoire, défaite)
+      basée sur la relation entre la saison d'apparition et l'organe atteint.
+    source: PVII-t4-p37
+
+  Double_regle_Ko:
+    definition_ieatc: >
+      Règle pathologique : un déséquilibre Ko se produit quand
+      grand-mère trop forte ET petit-fils trop faible (ou inverse).
+      L'attaque suit la diagonale du Ko.
+      Raé = quand la relation s'inverse (le petit-fils attaque la grand-mère).
+    source: PVII-t4-p44_48
+
+  Palpation_abdominale:
+    definition_ieatc: >
+      Méthode diagnostique par palpation de 6 zones abdominales.
+      Métal=flanc droit (25E-15Rte), Bois=flanc gauche (25E-15Rte g),
+      Terre centre=nombril, Terre digestive=sus-ombilical,
+      Feu=sous sternum (14JM), Eau=sous nombril (4-6JM).
+      Chaque zone se débloque par un point Su spécifique en dispersion.
+    source: PVII-t4-p71_76
+
+  Pouls_Chu_Li:
+    definition_ieatc: >
+      Palpation sous le sein gauche. Battements forts et visibles
+      = Chen épuisé, le Feu s'échappe. Signe de gravité.
+      Douleur en coup de poignard à cet endroit = spasme diaphragme
+      (6MC en tonification = efficacité immédiate et définitive).
+    source: PVII-t4-p76
+
+  Zone_Hong_Kong:
+    definition_ieatc: >
+      Zones de palpation diagnostique enseignées à Hong Kong.
+      Poumon : creux sous-claviculaire (1P) — peau sèche/molle = vide.
+      Rein : sous-ombilicale (25VB) — pulsations paisibles = bonne énergie,
+      froide sans pulsation = reins vides.
+    source: PVII-t4-p75_76
+
+  Morphotype_5E:
+    definition_ieatc: >
+      Prédominance constitutionnelle d'un des 5 éléments chez un individu.
+      Détermine la physiologie de base, les forces et faiblesses innées.
+      Capital à identifier avant tout traitement : le morphotype colore
+      toute la pathologie et oriente le bilan énergétique.
+    source: PVII-t4-p8_12
+
+  Spirale_ascendante:
+    definition_ieatc: >
+      Mouvement de la matière vers l'esprit dans les 5E.
+      Eau → Bois → Feu. La matière se subtilise en montant.
+      Correspond au cycle Tcheng dans sa dimension verticale.
+    source: PVII-t4-p60_62
+
+  Spirale_descendante:
+    definition_ieatc: >
+      Mouvement de l'esprit vers la matière dans les 5E.
+      Feu → Métal → Eau. L'esprit se densifie en descendant.
+      Le Métal conduit le Yang du Feu vers le Yin de l'Eau.
+    source: PVII-t4-p60_62
+
+  Huit_activites_psychiques:
+    definition_ieatc: >
+      Ling Tchrou chap. 8 : les 8 activités de l'Homme.
+      Chen (conscience), Roun (inconscient/imagination),
+      I (idée/intentionnalité), Si (mémoire/pensée),
+      Pro (subconscient/instinct), Lü (inquiétude/prudence),
+      Tche (volonté/réalisation), Zhi (sagesse/discernement).
+      Se répartissent dans les 5 éléments sur 3 niveaux.
+    source: PVII-t4-p55_58
+
+  Interrogatoire_Tchi:
+    definition_ieatc: >
+      Méthode d'interrogatoire systématique pour déterminer
+      vide ou plénitude de chaque élément. Pour chaque élément :
+      saveur recherchée/détestée, comportement émotionnel,
+      saison d'aggravation/amélioration, signes physiques.
+      Vide = recherche la saveur de son élément.
+      Plénitude = déteste la saveur de son élément.
+    source: PVII-t4-p64_70
+
+  Pouls_saisonniers:
+    definition_ieatc: >
+      Qualité normale du pouls selon la saison.
+      Printemps = corde (Bois), Été = ample (Feu),
+      5ème saison = souple (Terre), Automne = plumeux (Métal),
+      Hiver = profond (Eau). La souplesse (Terre) doit être
+      présente en trame de fond toute l'année.
+    source: PVII-t4-p77_79
+
+  Kan_Che_pathologique:
+    definition_ieatc: >
+      Système de prévision basé sur les troncs célestes (Kan)
+      et branches terrestres (Che). 3 analyses croisées :
+      étoiles→planètes, planètes→Terre, étoiles→Terre.
+      Permet de prévoir les périodes favorables/défavorables
+      pour chaque élément et d'anticiper les traitements.
+    source: PVII-t4-p82_91
+
+  # --- NOUVEAU PVI t3 (Séminaire EEA Tsang/Fou) ---
+
+  MAN:
+    definition_ieatc: >
+      Plénitude des Zang. Plénitude à la façon d'un liquide qui imbibe un territoire,
+      pénètre partout jusque dans les moindres interstices. Les 5 Zang sont tous
+      ensemble et en permanence pleins de cette plénitude MAN. Ils cachent les
+      Souffles Jing et ne dispersent pas.
+    source: PVI-t3-p15_Su_Wen_chap_11
+
+  SHI_plenitude:
+    definition_ieatc: >
+      Plénitude des Fu. Quelque chose de plus solide, concret, qui passe d'un
+      endroit à un autre. Les Fu ne sont pas tous pleins en même temps (contrairement
+      aux Zang). Le bol alimentaire emplit l'E de cette façon SHI, puis passe à IG.
+      Les Fu travaillent à la fructification des apports extérieurs.
+    source: PVI-t3-p15_Su_Wen_chap_11
+
+  Qi_Heng_Zhi_Fu:
+    definition_ieatc: >
+      Les 6 Fu Extraordinaires : cerveau, moelles, os, Mo, VB et utérus.
+      HENG = longue durée. Fonctionnent comme des Zang (thésaurisent le Jing)
+      mais sont classés Fu. Formations embryonnaires, action très précoce et
+      qui dure toute la vie. Sont là avant les Zang et Fu définitifs.
+    source: PVI-t3-p17_Su_Wen_chap_11
+
+  Cinq_Troncs_Enracinement:
+    definition_ieatc: >
+      Chaque Zang est qualifié de "tronc d'enracinement" (Su Wen chap. 9).
+      C = vie/vitalité (SHENG). P = Souffles. R = ce qui est thésaurisé/caché.
+      F = fonction musculaire/mouvements. Rte+E/IG/GI/V/TR = granges et greniers.
+      Tronc du Ciel Postérieur = E/Rte. Tronc du Ciel Antérieur = R.
+    source: PVI-t3-p27
+
+  Bian_Hua:
+    definition_ieatc: >
+      Changements et transformations. BIAN = changement radical d'état (céleste).
+      HUA = transformation progressive (terrestre, chimie). Employé pour la
+      charge du GI : les changements-transformations qui sortent du GI.
+      HUA est dans l'expression moderne signifiant "digestion".
+    source: PVI-t3-p23
+
+  Chuan_Dao:
+    definition_ieatc: >
+      Charge du GI : chemins de transmission. DAO = chemin, cheminement.
+      Se propager de proche en proche. Le résultat est un dessèchement du
+      contenu intestinal.
+    source: PVI-t3-p24
+
+  You_Men:
+    definition_ieatc: >
+      "Porte sombre" — partie inférieure de E / partie supérieure de IG (pylore).
+      YOU = sombre, mystérieux, caché. Ce qui passe par là s'enfouit dans les
+      profondeurs du corps. Aussi nom du point 21 Rein.
+    source: PVI-t3-p38
+
+  Lan_Men:
+    definition_ieatc: >
+      "Porte-écran" — partie inférieure de IG / partie supérieure de GI
+      (valvule iléo-caecale). LAN = interception, écran, barrage. N'importe
+      quoi ne passe pas là, il y a eu un tri.
+    source: PVI-t3-p38
+
+  Xiao_Xin:
+    definition_ieatc: >
+      "Petit Cœur" — fonction intermédiaire entre Ming Men et le C, présente
+      avant que Xin Bao Lo et Xin Zhu aient pris leur place. Sert de relais
+      pour la translation des énergies héréditaires vers celles qui commandent
+      le corps. Existe toujours dans l'être mais voilée par les fonctions MC.
+    source: PVI-t3-p65
+
+  JIE_articulation:
+    definition_ieatc: >
+      Nœud d'articulation rythmique. Idéogramme du bambou — nœud entre chaque
+      segment, lieu de condensation de la vitalité. Le P est responsable des JIE
+      dans le corps. 24 JIE dans l'année, 365 nœuds d'articulation dans le corps
+      (proche des points d'acupuncture).
+    source: PVI-t3-p21
+
+  QING_SU:
+    definition_ieatc: >
+      Fonction fondamentale du Poumon : éclaircir, refroidir, condenser et faire
+      descendre. QING = le clair, caractéristique du P. Clarifier et refroidir
+      sont deux notions connexes en Chine, comme ce qui est touffu est proche
+      de la chaleur.
+    source: PVI-t3-p21
+
+  Qi_Hua:
+    definition_ieatc: >
+      Transformation des Souffles — principe de la vie, partout et tout le temps.
+      Au Réchauffeur Inférieur : action de R/V sur la masse liquidienne, re-tri
+      entre éléments utilisables (remontent comme Jin Yé clairs) et déchets
+      (excrétés par V). Fonction conjointe R et V.
+    source: PVI-t3-p67_77
+
+  Jing_Wei:
+    definition_ieatc: >
+      Subtilité essentielle. JING = essentiel, WEI = fin, menu, miniaturisé.
+      Ensemble subtil et pénétrant extrait du bol alimentaire au niveau de E,
+      monte directement à la Rte. Sert de matrice à l'élaboration des Jin Yé.
+    source: PVI-t3-p66
+
+  Zao_Po:
+    definition_ieatc: >
+      Résidus et lies. Ce qui reste après la séparation du clair et du trouble
+      au niveau du tractus digestif. Image : tonneau où fermentent les liquides,
+      au fond la sédimentation et en surface les impuretés.
+    source: PVI-t3-p23
+
+  XIE_ecoulement:
+    definition_ieatc: >
+      Faire s'écouler. Même idéogramme que la dispersion en contraposition avec
+      la tonification. Pour les diarrhées (XIE XIE) et pour la fonction du F
+      de "faire circuler et s'écouler". L'idée d'un liquide qui se répand.
+    source: PVI-t3-p42_51
+
+  JUE_flechissement:
+    definition_ieatc: >
+      Idée de quelque chose qui arrive à son extrémité. Comme dans Jué Yin où
+      le Yin arrive à son point extrême et repasse vers le Yang. En pathologie :
+      c'est un vide, les énergies perverses investissent le territoire de ces vides.
+      Vide des R : région lombaire et dos froids, douleur thorax, bourdonnements.
+    source: PVI-t3-p79
+
+  ZHONG_ZHENG:
+    definition_ieatc: >
+      Rectitude médiane — charge de la VB (Su Wen chap. 8). ZHONG = centre,
+      ZHENG = rectitude, orthodoxie, ce qui est correct. La VB assure la bonne
+      orientation de tout l'organisme. Les 11 viscères viennent prendre leur
+      décision à la VB.
+    source: PVI-t3-p58
+
+  # ─── Termes ajoutés CP I (PIV YY tomes 4-5) ───
+
+  Huit_regles_diagnostiques:
+    correspondance_mtc: Ba_Gang
+    definition_ieatc: >
+      Les 8 règles du diagnostic chinois = 4 qualités Yin + 4 qualités Yang.
+      Yang: chaud, plein, externe, Yang. Yin: froid, vide, interne, Yin.
+      Fondement absolu de tout bilan énergétique. Toujours en premier.
+      Tableau croisé: chaque signe du patient est classé dans l'une
+      des 8 catégories, puis on totalise les points Y vs Yin.
+    source: PIV-YY-t4-p6_16
+
+  I_Sou_Jen:
+    definition_ieatc: >
+      Méthode de traitement Yin/Yang en 4 combinaisons.
+      Croise le bilan local (1er) et le bilan général (2nd):
+      YY = 20TM d + 14TM d + 12JM d (tout disperser Yang).
+      Y/Yin = 4GI t + 12JM t + 36E t (tonifier Yang localement).
+      Yin/Y = 6Rte t + 6JM t + 6MC t (tonifier Yin localement).
+      Yin/Yin = 6Rte d + 6JM d + 6MC d (tout disperser Yin).
+      Méthode de base enseignée en 1ère année IEATC.
+    source: PIV-YY-t4-p37_42
+
+  Siao_Tse:
+    synonyme: Siao_Seu
+    definition_ieatc: >
+      Méthode de traitement par les 4 niveaux anatomiques.
+      Niveau 1 = peau/poils (points Ting).
+      Niveau 2 = muscles superficiels (points Iong).
+      Niveau 3 = muscles profonds/articulations (points King).
+      Niveau 4 = organes/viscères (points Ro via Tching Pie).
+      Croisé avec la nature (5E) et les saisons (points Su).
+    source: PIV-YY-t4-p43_48
+
+  Sectorisation_4_cadrans:
+    definition_ieatc: >
+      Division du corps en 4 secteurs Yin/Yang pour le bilan:
+      Haut-gauche = YY (tête + MS gauche).
+      Bas-gauche = Y/Yin (tronc + MI gauche).
+      Haut-droite = Yin/Y (FS + MS droite).
+      Bas-droite = Yin/Yin (FM+FI + MI droite).
+      Le bilan local précède toujours le bilan général.
+    source: PIV-YY-t4-p28_36
+
+  Yang_apparent:
+    definition_ieatc: >
+      Situation où le Yang semble en excès mais le vrai
+      problème est un vide de Yin sous-jacent. Le Yin
+      insuffisant ne retient plus le Yang qui déborde.
+      Traitement: tonifier le Yin (pas disperser le Yang).
+      Erreur classique du débutant: disperser le Yang apparent.
+    source: PIV-YY-t4-p22_24
+
+  Yin_apparent:
+    definition_ieatc: >
+      Situation où le Yin semble en excès mais le vrai
+      problème est un vide de Yang sous-jacent. Le Yang
+      insuffisant ne contrôle plus le Yin qui s'accumule.
+      Traitement: tonifier le Yang (pas disperser le Yin).
+    source: PIV-YY-t4-p22_24
+
+  Blocage_YY:
+    definition_ieatc: >
+      Situation clinique où le questionnaire et le pouls
+      donnent des résultats contradictoires (ex: questionnaire
+      Yang mais pouls Yin, ou inversement). Traitement:
+      27TM d + 24JM d (ouvrir les deux extrémités du tronc).
+      Complémentaires: 20TM d (psychique) ou 14TM d (physique)
+      ou 12JM d (organique). Si blocage Yin: 6MC d, 6Rte d, 6JM d.
+    source: PIV-YY-t5-p12_15
+
+  Protocole_4_temps:
+    definition_ieatc: >
+      Séquence obligatoire du bilan IEATC en 4 étapes:
+      1) Yin/Yang (orientation générale, toujours en premier).
+      2) 5 Éléments (nature de l'énergie, adaptation).
+      3) Vide/Plénitude (quantité d'énergie, combien).
+      4) Froid/Chaleur (qualité thermique, le plus fin).
+      Ne JAMAIS sauter d'étape ni inverser l'ordre.
+    source: PIV-YY-t4-p49_52
+
+  Yang_Tsiao_Mo:
+    correspondance_mtc: Yang_Qiao_Mai
+    definition_ieatc: >
+      Merveilleux vaisseau de la mise en mouvement Yang.
+      Point clé = 62V (Chen Mo). Commande le fait d'avancer
+      dans TOUS les domaines de la vie. Grande indication:
+      système musculaire, marche, station debout. Colonne
+      vertébrale inférieure + chaîne musculaire postérieure
+      (talon→nuque).
+    source: PIV-YY-t5-cas_pratiques
+
+  Points_generaux_Yang:
+    definition_ieatc: >
+      3 points généraux Yang du corps (méthode I Sou Jen):
+      20TM = Yang psychique (tête, mental, Chen).
+      14TM = Yang physique (dos, muscles, vertèbres).
+      12JM = Yang organique (E, fabrication Yang).
+      En dispersion: traitement du YY (excès Yang général).
+      En tonification: renforcement du Yang déficient.
+    source: PIV-YY-t4-p38_42
+
+  Points_generaux_Yin:
+    definition_ieatc: >
+      3 points généraux Yin du corps (méthode I Sou Jen):
+      6MC = Yin psychique (émotions, MC, barrière haut/bas).
+      6Rte = Yin physique (muscles, sang, liquides).
+      6JM = Yin organique (FI, Rein, énergie ancestrale).
+      En tonification: traitement du Yin/Y.
+      En dispersion: traitement du Yin/Yin.
+    source: PIV-YY-t4-p38_42
+
+  Zone_blocage:
+    definition_ieatc: >
+      Zones anatomiques où l'énergie d'un méridien peut
+      stagner et se bloquer. Identifiées par palpation
+      le long du trajet du méridien. Technique: tonifier
+      en aval du blocage, disperser en amont.
+      Rate: 5 zones (cheville→émotionnel).
+      Foie: 4 zones (cheville→hypocondre).
+      Rein: 5 zones (cheville→gorge).
+    source: PIV-YY-t5-p22_31
+
+  Tendinite_alerte_clinique:
+    definition_ieatc: >
+      ALERTE CLINIQUE IEATC: les tendinites, bien que
+      manifestant de nombreux signes d'inflammation (chaleur,
+      rougeur, douleur), sont PRESQUE TOUJOURS du Yin.
+      Les cystites aussi, malgré les signes inflammatoires.
+      Ne pas se laisser tromper par l'apparence Yang.
+    source: PIV-YY-t5-cas_pratiques
+
+  Feu_du_vide:
+    definition_ieatc: >
+      Inflammations provenant de la déficience du Yin du R. Le Yin (liquides) des R
+      en insuffisance → montée du Feu (Yang des R et Yang du F). Cause de
+      bourdonnements de type vide (bruit de cigale, ténus). On "clarifie" ce Feu
+      en tonifiant le Yin du F (agir sur le fils pour soigner la cause).
+    source: PVI-t3-p82
+
+  Dix_principes_traitement:
+    definition_ieatc: >
+      Résumé des 10 règles fondamentales du traitement par les 5E.
+      Incluent : disperser l'attaquant dans l'attaqué, loi mère-fils,
+      Penn saisonnier, ne jamais disperser un sentiment en excès,
+      renforcer le dominant Ko pour tempérer, traiter les 3 niveaux,
+      vérifier compensation dans l'axe et entre axes.
+    source: PVII-t4-p80_81
+
+  # --- NOUVEAU PVI EEA t1 (Séminaire CLM déc. 1981) ---
+
+  Yuan_Qi:
+    correspondance_mtc: Yuan_Qi / Original_Qi
+    definition_ieatc: >
+      Énergie Originelle / Principielle. Exclusivement du Ciel Antérieur.
+      Magma existentiel qui précède l'être et toute différenciation. Deux
+      idéogrammes : le 1er insiste sur Principe/Unité (1er caractère de
+      l'Hexagramme du Ciel), le 2nd sur Source perpétuelle (même idéogramme
+      que les points Sources/Iuann). Se distribue par voie centrifuge via
+      les 3 Réchauffeurs depuis Ming Men. Rapprochée de l'ADN par Schatz
+      (métaphore prudente).
+    voir_aussi: [Yuan_Tchi]
+    source: PVI-EEA-t1-p34_52
+
+  Jing_Qi_hereditaire:
+    correspondance_mtc: Jing_Qi / Essential_Qi
+    ALERTE: ne_pas_confondre_avec_Jing_Wei_ou_Tsing_des_Tsang
+    definition_ieatc: >
+      Énergie Essentielle. À la fois C.A. et C.P. Énergie du Ciel, liée
+      au cycle du carbone et à l'énergie solaire (chlorophyllienne).
+      Idéogramme : grain qui éclate + couleur bleue-verte du printemps.
+      C.A. = substrat parental à la conception, « Yin authentique ».
+      C.P. = alimentation, respiration, et au-delà (conversations,
+      musiques, odeurs). Les Zang sont remplis de Jing (surtout le Rein).
+    voir_aussi: [Tsing, Tsing_propre]
+    source: PVI-EEA-t1-p35_51
+
+  Zong_Qi:
+    correspondance_mtc: Zong_Qi / Ancestral_Qi / Pectoral_Qi
+    definition_ieatc: >
+      Énergie Ancestrale. Exclusivement du Ciel Postérieur. Zong =
+      Ancêtre dans la lignée (PAS l'ancêtre fondateur qui serait ZU).
+      Mécanismes post-conceptionnels tirant leur exemplarité des habitudes
+      imprimées dans la lignée (territoire, alimentation, civilisation).
+      Rassemble en 17VC (Tan Zhong, « mer des Souffles »). Transmise par
+      le 16ème Lo Xu Li. Au Réchauffeur Supérieur. Rapprochée de l'ARN
+      par Schatz (métaphore prudente).
+    voir_aussi: [Tsong_Tchi]
+    source: PVI-EEA-t1-p36_47
+
+  Gui:
+    definition_ieatc: >
+      « Esprits de la Terre » ou esprits terrestres. En couple avec Shen
+      (Esprits du Ciel). Traduit souvent par « démons » mais désigne les
+      esprits tels qu'ils se manifestent sur terre. Partie droite commune
+      des idéogrammes Hun et Po. Après la mort, les Po deviennent des Gui
+      qui retournent à la Terre et se dissolvent.
+    source: PVI-EEA-t1-p59
+
+  Xing_forme:
+    definition_ieatc: >
+      La forme, ce qui se présente aux sens. L'apparence qui est tributaire
+      des lignes de force intérieures. « Apparence trompeuse » n'est PAS
+      une notion chinoise — les symptômes sont vrais. « Le Xing, c'est
+      le tronc où s'enracine le corps » (Su Wen chap. 4). Aussi : les 5
+      planètes (Xing) = modèle du mouvement exemplaire, circulation
+      harmonieuse.
+    source: PVI-EEA-t1-p49_57
+
+  Ti_structure:
+    definition_ieatc: >
+      Structure corporelle. Couches successives de formation. Même relation
+      que les Rites pour la société : structure profonde qui met tout à sa
+      bonne place. Os = structure = Rites. Quand on remplace « os » par
+      « esprits » dans l'idéogramme, on obtient les Rites.
+    source: PVI-EEA-t1-p49
+
+  Zheng_correct:
+    definition_ieatc: >
+      Correct, droit, orthodoxe. Conformité à ce qui doit être fait.
+      Contraire de XIÉ (pervers, tordu). Ne tolère aucune déviation.
+      « Souffles corrects » vs « Souffles pervers ».
+    source: PVI-EEA-t1-p45
+
+  Zhen_authentique:
+    definition_ieatc: >
+      Authenticité, réalité. Différent de Shen (individuation) et de
+      Zheng (correction). Zhen = les Souffles authentiques, le décor
+      dans lequel émergent toutes les individualités. Conformité à
+      la nature propre de l'être tel qu'il est d'après son origine.
+      Vivre de façon authentique = plus grand épanouissement possible.
+    source: PVI-EEA-t1-p45_50
+
+  Sheng_vie:
+    definition_ieatc: >
+      Naître, naissance, vie, vivifier, engendrer. Pousse végétale qui
+      sort du sol. Naissance et conception sont subsumés par le même
+      idéogramme car nous sommes toujours en état de conception/naissance.
+      Cycle d'engendrement des 5E = acte continu de vivification.
+    source: PVI-EEA-t1-p17_48
+
+  Sheng_Hua:
+    definition_ieatc: >
+      Naissances-transformations. Couple fondamental : Sheng (naissance)
+      + Hua (transformation). « Les Sheng Hua de la Rate-Terre du C.P.
+      s'appuient sur la chaleur nourricière du Feu de Ming Men du C.A. »
+      Interdépendance C.A./C.P.
+    source: PVI-EEA-t1-p67
+
+  Jing_Shen_vs_Shen_Jing:
+    definition_ieatc: >
+      Jing Shen = du Jing les esprits propres, la vivacité, l'intelligence,
+      la subtilité d'un être (en fonction du matériau Jing).
+      Shen Jing = des Shen le matériau (les Shen ont un substrat).
+      L'ordre des idéogrammes change le sens. Ce qui est important dans
+      ces couples, c'est ce qu'il y a ENTRE les deux termes = le réel.
+    source: PVI-EEA-t1-p38_39
+
+  Tian_Ciel:
+    definition_ieatc: >
+      Puissance et caractère unique. Grand Homme avec ce qui est au-dessus
+      de sa tête, ou bien Grand + Un (I de l'Unité). Incite, féconde la
+      Terre, donne la vie et le Mandat (destinée). « Le Ciel couvre. »
+    source: PVI-EEA-t1-p28
+
+  Di_Ti_Terre:
+    definition_ieatc: >
+      Répond à l'initiative du Ciel. TU = humus (5E Terre). DI = bloc
+      terrestre. Reçoit les Souffles du Ciel et les ressort transformés,
+      particularisés, formalisés. « La Terre porte. » On ne parle des
+      Souffles de la Terre qu'à condition de voir qu'il n'y a de Souffles
+      que ceux du Ciel transformés par la Terre.
+    source: PVI-EEA-t1-p28
+
+  # ─── Termes ajoutés session PVI EEA t2 ──────
+
+  Jin_liquides:
+    definition_ieatc: >
+      Liquides clairs du corps, côté Yang. Image du gué d'une rivière.
+      Circulent facilement, destinés à l'extérieur (urine, transpiration).
+      Suivent les Souffles défensifs (Weï). Commandés par le GI.
+      Humidifient chairs, peau. Mécanismes des 3 Réchauffeurs.
+    correspondance_mtc: Jin
+    voir_aussi: [Ching]
+    source: PVI-EEA-t2-p14_16
+
+  Ye_liquides:
+    definition_ieatc: >
+      Liquides troubles/profonds du corps, côté Yin. Image du marais.
+      Se propagent sans circuler, vont en profondeur. Suivent les
+      Souffles nourriciers (Yong). Commandés par l'IG. Produisent
+      liquides céphalo-rachidiens, synoviaux, de l'œil. Yé qui montent
+      vers le cerveau = catégorie spéciale capitale.
+    correspondance_mtc: Ye
+    voir_aussi: [Ie]
+    source: PVI-EEA-t2-p14_19
+
+  Yong_Qi:
+    definition_ieatc: >
+      Énergie nutritive, profonde, stable, claire. Origine : Réchauffeur
+      Moyen (Jing des aliments). Circuit : 12 méridiens + Du Mo + Ren Mo,
+      25 fois jour, 25 fois nuit (identique jour/nuit). Contribue à la
+      formation du sang. Idéogramme YING : 2 feux + abri = camp militaire.
+    correspondance_mtc: Ying_Qi_Rong_Qi
+    voir_aussi: [Iong, Iong_Tchi]
+    source: PVI-EEA-t2-p22_25
+
+  Wei_Qi:
+    definition_ieatc: >
+      Énergie défensive. Moins subtile que Yong. Hors des trajets
+      d'énergie. Origine : Réchauffeur Inférieur. Jour : 3 Yang via
+      œil (25 fois). Nuit : 5 Zang via Rein (25 fois). Idéogramme :
+      cuir travaillé (bouclier) + marche. R.6 pour insomnie, V.62
+      pour somnolence.
+    correspondance_mtc: Wei_Qi
+    voir_aussi: [Oe, Oe_Tchi]
+    source: PVI-EEA-t2-p25_26
+
+  Zhen_Qi:
+    definition_ieatc: >
+      Souffles authentiques. Résultat de la jonction (HE) de tous
+      les Souffles du C.A. et du C.P. dans le corps. Plénitude non
+      pathologique (CHONG). Conformité aux origines, en accord avec
+      la visée du Ciel en soi.
+    correspondance_mtc: Zhen_Qi
+    voir_aussi: [Tcheung_Tchi]
+    source: PVI-EEA-t2-p20_21
+
+  Zheng_Qi_corrects:
+    definition_ieatc: >
+      Souffles corrects. Vents normatifs des saisons, émanations
+      de la nature. Ni plein ni vide. Modulations saisonnières de
+      l'énergie corporelle. Étymologie ZHENG = talon du pied = bonne
+      limite. Souffles du printemps au printemps, etc.
+    ALERTE: ne_pas_confondre_avec_Zheng_correct_EEA_t1
+    source: PVI-EEA-t2-p21_22
+
+  Chuan:
+    definition_ieatc: >
+      Transmission, propagation de proche en proche. Rôle des entrailles
+      digestives (transformations et transmissions successives). Aussi
+      propagation de maladies d'un viscère à un autre. Distinguer de
+      « cycle » (mot occidental linéarisé). Ce sont des états successifs,
+      pas un petit train sur un tracé.
+    source: PVI-EEA-t2-p10_11
+
+  Bian_Bi:
+    definition_ieatc: >
+      BIAN = besoin (satisfaire ses besoins naturels) + aisance.
+      BI = constipation (épi de céréales + tamisage serré = rétention).
+      DA BIAN BU TONG = constipation (Gros-Besoin-Négation-Communiquer).
+      Deux catégories : ZAO JIE (sec et noué) et BI JIE (secret et noué).
+    source: PVI-EEA-t2-p26
+
+  Tie_noeuds:
+    definition_ieatc: >
+      TIE = nœuds du bambou. Image du rythme inhérent à tout mouvement :
+      alternance creux/plein, temps forts et resserrements. Désigne aussi
+      les 24 périodes climatiques (nœuds des Souffles de l'année). Sens
+      de régulation, modération, tempérance. Charge spécifique du Poumon.
+    source: PVI-EEA-t2-p41
+
+  He_jonction:
+    definition_ieatc: >
+      HE = jonction, réunion. Deux choses font jonction pour former
+      un nouvel ensemble. Même idéogramme que les points Ré (coude/genou).
+      Les 6 jonctions avec les Jing Bié. Les 6 jonctions Ciel/Terre
+      qui ferment le monde où la vie se déroule.
+    source: PVI-EEA-t2-p20
+
+  Hui_rassemblement:
+    definition_ieatc: >
+      HUI = rassemblement. Comme un congrès où tous s'accordent pour
+      remplir un rôle précis et spécifique. Points de rassemblement.
+    source: PVI-EEA-t2-p20
+
+  YUN_HUA:
+    definition_ieatc: >
+      Transporter et transformer. Fonction spécifique de Rte/E.
+      Faire aller dans toutes les parties du corps et assurer les
+      transformations. Pas la fonction des Fu du tube digestif.
+    source: PVI-EEA-t2-p30
+
+  DAN_vesicule:
+    definition_ieatc: >
+      Idéogramme DAN (VB) = clef de la chair + soleil levant au-dessus
+      de l'horizon. Puissance du soleil levant qui donne la possibilité
+      de franchir le barrage de la détermination et de passer à l'acte.
+    source: PVI-EEA-t2-p44
+
+  Lan_orchidee:
+    definition_ieatc: >
+      LAN = orchidée. Radical végétaux + barrière d'interception.
+      Passage gardé entre deux battants de porte. Identique au Lan
+      de Lan Men (valvule iléo-cæcale). Orchidée spirituelle (LING LAN)
+      = Salle de la bibliothèque de l'Empereur Jaune. Su Wen ch.8
+      = « Traité des écrits secrets de l'Orchidée Spirituelle ».
+    source: PVI-EEA-t2-p35_36
+
+  Tchi_souffles:
+    correspondance_mtc: Qi
+    definition_ieatc: >
+      Idéogramme = vapeur qui soulève le couvercle de la marmite.
+      Énergie se dégageant de la matière en transformation.
+      Yin = matière, Yang = énergie — deux expressions d'une même
+      réalité. Le Tchi originel se manifeste sous des apparences
+      diverses selon le temps, la nature et le lieu.
+    source: PIV-YY-t2-p5
+
+  Ming_mandat:
+    definition_ieatc: >
+      MING = Mandat Céleste conféré à chaque être à la conception.
+      Implique destinée et mission terrestre sans supprimer le libre
+      arbitre. Aussi interprété comme Lumière (Chen individuel) qui
+      éclaire l'être sur son chemin. Lié au Ming Tang (Palais de la
+      Lumière) et à Ming Menn (Porte de la Lumière).
+    source: PIV-YY-t2-p17_18
+
+  Ming_Menn_point:
+    correspondance_mtc: VG.4_DU_MAI_4
+    definition_ieatc: >
+      Porte du Mandat Céleste / Porte du Destin / Porte de la Lumière.
+      Entre L2/L3. Cicatrice du point de pénétration du spermatozoïde
+      dans l'ovule. La région Ming Menn = espace entre les deux reins
+      ou le rein gauche (Yang). Contient énergie ancestrale et tsing.
+    voir_aussi: [Ming_Menn]
+    source: PIV-YY-t2-p18
+
+  Duite:
+    definition_ieatc: >
+      DUITÉ ≠ dualité. Opposition CONSTRUCTIVE (Yin/Yang chinois)
+      par opposition à dualité = opposition destructive (bien/mal
+      occidental). Les opposés se construisent mutuellement dans
+      la duité ; ils se combattent dans la dualité.
+    source: PIV-YY-t2-p14
+
+  Axe_fort_faible:
+    definition_ieatc: >
+      Axe fort = haut-gauche (Yang/Yang) → bas-droite (Yin/Yin).
+      Axe faible = haut-droite (Yin/Yang) → bas-gauche (Yang/Yin).
+      Source : So Ouen. Déterminent deux axes énergétiques du corps
+      humain à partir des 4 cadrans de la sectorisation humaine.
+    source: PIV-YY-t2-p27
+
+  Trois_couples_physiologiques:
+    definition_ieatc: >
+      3 couples Yin/Yang conditionnant le milieu intérieur :
+      1) Froid/Chaleur (constante thermique ~37°C)
+      2) Humidité/Sécheresse (constante hydrique)
+      3) Fong/Feu (constante indéfinissable en termes occidentaux).
+      Un même symptôme peut avoir 2 causes opposées (excès ou
+      insuffisance) → seul le pouls indique la nature du déséquilibre.
+    source: PIV-YY-t2-p28_29
+
+  Fourchette_du_tolerable:
+    definition_ieatc: >
+      Les normes d'équilibre en MTC ne sont PAS chiffrées et dépendent
+      de chaque organisme. Tant qu'un organisme s'ADAPTE, quels que
+      soient les chiffres, il n'y a pas de pathologie. Antithèse de
+      la norme unique occidentale (ex : tension artérielle 13/8).
+    source: PIV-YY-t2-p28_30
+
+  # ─── Termes ajoutés 3 Foyers tome 1 (PV-3F-t1) ───
+
+  Morula:
+    definition_ieatc: >
+      Stade embryonnaire des 3 premières semaines : chaos de milliards
+      de cellules inorganisées, toutes identiques, sans spécification
+      tissulaire. Correspond au Chaos né de Taé I précédant l'Ordre
+      du Tao. Ne vit que par l'Eau (énergie ancestrale) et la Terre.
+    source: PV-3F-t1-p12
+
+  Roang:
+    definition_ieatc: >
+      Enveloppes des organes = ensemble des membranes et du tissu
+      conjonctif qui entourent les organes. Les 3 foyers sont formés
+      par ces enveloppes. Le terme s'applique aussi à l'utérus
+      (enveloppe nourricière par imbibition).
+    source: PV-3F-t1-p31_41
+
+  Ching_Ie:
+    definition_ieatc: >
+      "Jus de l'alimentation" extraits par l'Estomac lors du 1er tri.
+      Transmis à la Rate qui les codifie selon les 5 éléments et les
+      distribue aux Tsang correspondants. Distinct de Ku Tchi (énergie
+      pure) et des solides purs.
+    source: PV-3F-t1-p46
+
+  Nei_Koann:
+    definition_ieatc: >
+      "Barrière interne". Nom du foyer moyen et du point 6MC. Barrière
+      entre ce qui vient de l'extérieur (alimentation) avant de
+      pénétrer vers l'interne (Yin du corps). Si bloquée → les
+      énergies ne s'échangent pas entre Ciel et Terre de l'Homme.
+    source: PV-3F-t1-p46_48
+
+  KAO:
+    definition_ieatc: >
+      Fonction d'imbibition par les muqueuses. Chaque sexe "absorbe"
+      l'énergie de l'autre au cours de l'acte sexuel par cette fonction.
+      La Femme reçoit le Yang (mouvement, puissance), l'Homme absorbe
+      le Yin (humidité, souplesse, douceur).
+    source: PV-3F-t1-p42
+
+  Chen_cosmique:
+    definition_ieatc: >
+      Esprit universel qui pénètre avec le spermatozoïde dans l'ovule
+      au moment de la conception. Présent durant les 9 mois de grossesse,
+      préside au développement embryonnaire. Se retire à la naissance
+      pour laisser place au Chen individuel. Porte le Ming (Mandat
+      céleste) de l'être.
+    source: PV-3F-t1-p17
+
+  Chen_individuel:
+    definition_ieatc: >
+      Esprit propre de l'individu qui commence son activité à la
+      naissance, quand le Chen cosmique se retire. Sa principale
+      caractéristique est la conscience. Ce qui est spontané vient
+      toujours du cœur et du Chen.
+    source: PV-3F-t1-p27
+
+  Grossesse_extra_uterine:
+    definition_ieatc: >
+      Les 3 mois suivant la naissance = 4ème saison manquante de la
+      grossesse (qui ne dure que 3 saisons). Formation complète de
+      l'enfant n'est réellement terminée qu'après cette période.
+      L'allaitement ne doit pas dépasser 3 mois.
+    note: sens différent de la grossesse extra-utérine médicale occidentale
+    source: PV-3F-t1-p24
+
+  Entites_viscerales:
+    definition_ieatc: >
+      5 activités psychiques liées aux 5 éléments. 3 innées : Chen
+      (conscient/morale, Feu), Roun (plans + inconscient héréditaire,
+      Bois), Pro (futur + inconscient héréditaire, Métal). 2 acquises :
+      I (Terre) et Tche (Eau). S'enrichissent des expériences.
+    source: PV-3F-t1-p27
+
+  Feng_Tchui:
+    definition_ieatc: >
+      Science de l'emplacement (Fong Chui). Science chinoise de l'endroit
+      où bâtir les sépultures (pour que le Kouei ne perturbe pas les
+      vivants). Fondée sur les 8 trigrammes et la boussole géomantique.
+      Prudence : ce qui est présenté en Europe est souvent un mélange
+      avec la géobiologie occidentale.
+    source: PV-3F-t1-p9_10
+
+# ─── Termes ajoutés 3 Foyers tome 2 (PV-3F-t2) ───
+
+  Tchrong_Mo:
+    definition_ieatc: >
+      Chong Mai. Premier Merveilleux Vaisseau, expansion de Yuan Tchi.
+      Matrice énergétique des méridiens. Vaisseau interne principal
+      pour les connexions entre foyers, tsang et fou. Lieu de mélange
+      des énergies → Tcheung Tchi. Racine : Ming Menn → 4JM → 6JM → 11R.
+    source: PV-3F-t2-p6_18
+
+  Tan_Tienn:
+    definition_ieatc: >
+      "Chaudron céleste" (Tan = chaudron, Tienn = céleste). Point 6JM.
+      Champ de Cinabre inférieur (rouge). Seul des 3 creusets à être
+      d'essence céleste. Centre de gravité du corps. Lieu de stockage
+      Yuan Tchi. Force innée de création et procréation.
+    source: PV-3F-t2-p27_28
+
+  Trann_Tchong:
+    definition_ieatc: >
+      Point 17JM. Champ de Cinabre moyen (jaune). Réserves de Iong,
+      Oé, sang, énergie ancestrale, Tsing et Tsong Tchi pour tous
+      les circuits de surface. Aussi capital que Ming Menn.
+      Correspond au foyer supérieur (pas au moyen — erreur courante).
+    source: PV-3F-t2-p13_29
+
+  Inn_Trang:
+    definition_ieatc: >
+      Point 25TM. 3ème œil, entre les sourcils. Champ de Cinabre
+      supérieur (blanc = Paï Tan). Dépend du Chen et du cœur.
+      Élévation de soi vers les énergies spirituelles.
+    source: PV-3F-t2-p27_28
+
+  Iong_Tchi:
+    definition_ieatc: >
+      Énergie nutritionnelle. Issue de Tcheung Tchi, prolongement de
+      Ku Tchi. Polarité Yin (interne). Circule indissociable du sang,
+      dans les méridiens, selon un rythme lié à la position du soleil.
+      Nourrit chaque cellule du corps.
+    voir_aussi: [Iong, Yong_Qi]
+    source: PV-3F-t2-p24_25
+
+  Oe_Tchi:
+    definition_ieatc: >
+      Énergie défensive. Issue de Tcheung Tchi, la plus impure (née
+      de la récupération du GI). Polarité Yang (externe). Circule
+      hors des méridiens, en surface (muscles/peau). Lutte contre
+      perversités externes, thermorégulation, trophicité superficielle.
+      Ne se mélange JAMAIS à Iong (sinon → œdèmes).
+    voir_aussi: [Oe, Wei_Qi]
+    source: PV-3F-t2-p22_25
+
+  Sang_blanc:
+    definition_ieatc: >
+      Lymphe et circuit lymphatique. Défense interne complémentaire
+      d'Oé (défense externe). Canaux → ganglions → globules blancs.
+      Amygdales et appendice = barrières. Sous autorité de la Rate.
+      En MTC, "sang" comprend rouge ET blanc sans distinction.
+    source: PV-3F-t2-p25_26
+
+  Canal_chylifere:
+    definition_ieatc: >
+      Voie par laquelle le GI réabsorbe des liquides contenus dans
+      les selles pour les renvoyer au foie. Correspondance avec la
+      récupération d'énergie résiduelle par le GI en MTC (future Oé).
+    source: PV-3F-t2-p40
+
+  Koann_Yuan:
+    definition_ieatc: >
+      Point 4JM. "Barrière de Yuan Tchi". Point de commande du
+      Tchrong Mo avec 4TM et 6JM. Résidence de l'énergie ancestrale,
+      siège et fonctions génitales.
+    source: PV-3F-t2-p11
+
+  Huit_regles_therapeutiques:
+    definition_ieatc: >
+      So Ouen ch.62. 8 méthodes de traitement des pathologies des
+      3 foyers : sudorification, vomification, purgation, harmonisation,
+      calorification, réfrigération, assèchement, humidification.
+      S'appliquent selon chaleur/froid × interne/externe.
+    source: PV-3F-t2-p19_20
+
+  Houang_Tan:
+    definition_ieatc: >
+      Cinabre jaune. 2ème creuset alchimique au 17JM (Trann Tchong).
+      Correspond à l'Homme, force d'action et d'affirmation de soi.
+      Issu de la décomposition alchimique du Cinabre rouge primordial.
+    source: PV-3F-t2-p28
+
+  Pai_Tan:
+    definition_ieatc: >
+      Cinabre blanc. 3ème creuset alchimique au 25TM (Inn Trang).
+      Correspond au Ciel, élévation spirituelle. Dépend du Chen
+      et du cœur.
+    source: PV-3F-t2-p28
+
+  # ─── Termes ajoutés PIV YY t3 (01/10/2019) ───
+
+  Tienn_Tou:
+    definition_ieatc: >
+      Coïncidence entre un pas céleste et un pas terrestre de même énergie.
+      Quand le pas céleste qui règne = pas terrestre du moment,
+      il y a renforcement : les deux énergies se cumulent.
+      Effet clinique, climatique et pathologique amplifié — à repérer
+      impérativement dans le bilan des influences cosmologiques.
+    source: PIV-YY-t3-p27
+
+  Tcheou_meridien:
+    synonymes: [Tchéou, TCHEOU, méridien_de_la_main, méridien_du_pouce]
+    definition_ieatc: >
+      TCHEOU = méridien de la main / du pouce. Désigne la partie
+      d'un axe énergétique qui se situe sur le membre supérieur
+      (au-dessus du diaphragme). Équivalent de "méridien de la main"
+      selon les auteurs. Complément de TSOU (pied).
+      Exemples : Tchéou Taé Yang = IG ; Tchéou Chao Yin = Cœur.
+    voir_aussi: [Tsou_meridien]
+    source: PIV-YY-t3-p41
+
+  Tsou_meridien:
+    synonymes: [TSOU, méridien_du_pied, méridien_du_coude]
+    definition_ieatc: >
+      TSOU = méridien du pied / du coude. Désigne la partie
+      d'un axe énergétique située sur le membre inférieur
+      (sous le diaphragme). Complément de TCHEOU (main).
+      Exemples : Tsou Taé Yang = Vessie ; Tsou Chao Yin = Rein.
+      L'ensemble Tchéou + Tsou constitue un axe énergétique complet.
+    voir_aussi: [Tcheou_meridien]
+    source: PIV-YY-t3-p41
+
+  Sieou:
+    correspondance_mtc: Xiu (logis_lunaires)
+    definition_ieatc: >
+      Espace astronomique en forme de tranche de melon, délimité par deux
+      méridiens allant de l'étoile polaire jusqu'à l'horizon terrestre.
+      Chaque Siéou couvre entre 3° et 45° d'arc.
+      7 Siéou par saison = ~90°. 28 Siéou = 4 saisons = 360° complets.
+      Différent du zodiaque occidental (bande horizontale) : le Siéou
+      s'étend de l'horizon jusqu'au cercle polaire. L'étoile KIO,
+      dans le croissant de lune = premier jour du printemps (fête du Tết).
+      Influence astrologiques comptées depuis la CONCEPTION, pas la naissance.
+    source: PIV-YY-t3-p16_21_glossaire
+
+  Pa_Fong:
+    correspondance_mtc: Ba_Feng / Ba_Gua
+    definition_ieatc: >
+      8 Vents / 8 Trigrammes. Organisateurs de la lumière galactique.
+      Organisent l'espace en 5 Palais : 1 Palais central + 4 Palais latéraux.
+      Les 8 forces structurent les 8 directions (rose des vents).
+      2³ = 8 combinaisons possibles des polarités Yin/Yang (— et - -)
+      combinées par 3 niveaux. Fondement du Yi King (8×8 = 64 hexagrammes).
+      En acupuncture : les points portent encore parfois leurs noms antiques
+      d'étoiles organisées selon les Pa Fong.
+    voir_aussi: [Feng_Tchui]
+    source: PIV-YY-t3-p14_15
+
+  Maturite_energetique:
+    definition_ieatc: >
+      Processus graduel de développement du système énergétique :
+      — Nourrisson : pas de 360 points complets.
+      — 5 ans : maturité des points des énergies de la Terre.
+      — 6 ans : maturité des points des énergies du Ciel.
+      — Naissance : activation des axes Yin/Yin et Yang/Yang (Ciel).
+      — 3ème mois grossesse : mise en place des méridiens Yin+Yang (Terre).
+      — 60 ans : maturité complète de l'être (36 Ciel + 25 Terre).
+    source: PIV-YY-t3-p34_36
+
+  Geographie_sacree:
+    definition_ieatc: >
+      Correspondance entre les points d'acupuncture du corps humain et les
+      étoiles du Ciel. Le corps est une projection de la géographie céleste.
+      Les points portent souvent des noms d'étoiles dans les textes anciens.
+      De même, des villes étaient placées selon la projection de constellations
+      (Grèce antique, lieux de culte de la Vierge en France : Notre Dame,
+      Puy = "puits" = point d'acupuncture au sol).
+      L'acupuncture est le témoignage d'une "géographie sacrée" sur le corps.
+    source: PIV-YY-t3-p36_51
+
+  Systemes_energetiques_3:
+    synonyme: les_trois_8
+    definition_ieatc: >
+      Trois couples d'axes énergétiques (un Yang + un Yin chacun) qui s'activent
+      séquentiellement sur 8 heures chacun (24h ÷ 3 = 8h par système) :
+      1) Yang Ming + Taé Yin : 5h-13h — sécheresse/humidité.
+      2) Taé Yang + Chao Yin : 13h-21h — froid/chaleur.
+      3) Chao Yang + Tsiué Yin : 21h-5h — feu/fong.
+      Chaque système Yang+Yin s'équilibre mutuellement. Activés par la
+      position solaire (pas de circulation d'énergie d'un système à l'autre).
+    voir_aussi: [GM, Croix_6_directions]
+    source: PIV-YY-t3-p42_43
+
+  Pas_energetique:
+    synonymes: [pas_celeste, pas_terrestre, six_pas]
+    definition_ieatc: >
+      Unité de temps énergétique cosmologique = 60 jours et 21 heures.
+      6 pas = une année. Il existe 6 pas célestes (mobiles, polaires)
+      et 6 pas terrestres (fixes, zodiacaux). L'ordre des pas terrestres
+      diffère des pas célestes : inversion entre Chao Yang (3ème) et
+      Taé Yin (4ème). Equivalent de 2 signes zodiacaux (60° = 2×30°).
+    voir_aussi: [Tienn_Tou, Maitre_annee, Serviteur_du_Ciel]
+    source: PIV-YY-t3-p19_22

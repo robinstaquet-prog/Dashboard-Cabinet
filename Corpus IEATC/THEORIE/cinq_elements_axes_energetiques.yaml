@@ -1,0 +1,343 @@
+# CINQ ÉLÉMENTS — AXES ÉNERGÉTIQUES, CELLULE, EAU/FEU, BOIS/MÉTAL, CROIX 6 DIRECTIONS
+# Source : PVII Les 5 Éléments — Physiologie tome 3, pp. 1-27
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_axes_energetiques.yaml
+  source: PVII_5Elem_t3_p1_27
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_fondements.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/maitre_du_coeur.yaml
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/poumon.yaml
+    - ZANG_FU/rein.yaml
+
+# ─────────────────────────────────────────────────
+# TERRE — DOUBLE POSITION
+# ─────────────────────────────────────────────────
+
+terre_double_position:
+  Terre_centre:
+    role: mediateur_plan_horizontal_ET_intermediaire_Ciel_Terre
+    forces: centripetes_et_convergentes
+    Yang: cohesion_maintient_ensemble
+    Yin: densite_solidifie_et_materialise
+    axe: entre_Ciel_et_Terre
+
+  Terre_excentree:
+    position: entre_Feu_et_Metal_sur_le_cercle_Tcheng
+    role: organique_position_saisonniere
+    note: >
+      Les deux positions sont utilisées simultanément selon le contexte.
+      Terre centre = référentiel. Terre excentrée = règles énergétiques de travail.
+  source: PVII_t3_p8_10
+
+# ─────────────────────────────────────────────────
+# 5 ÉLÉMENTS ET 6 AXES ÉNERGÉTIQUES
+# ─────────────────────────────────────────────────
+
+cinq_elements_et_6_axes:
+  principe_fondateur: >
+    Les 5 Éléments se manifestent à travers 6 axes énergétiques.
+    Le Feu a deux axes (Feu Roi = Chao Yin, Feu Ministre = Chao Yang)
+    ce qui explique les 6 niveaux de traitement à partir de 5 éléments.
+
+  REGLE_ABSOLUE: >
+    La RACINE de tous les systèmes énergétiques = les 5 TSANG.
+    Tout méridien, tout axe, tout niveau de traitement a sa racine
+    dans un des 5 Tsang. Pathologie à un niveau ≠ pathologie aux autres.
+    L'aggravation progressive de la maladie se traduit par une pénétration
+    vers les niveaux plus profonds = vers les Tsang.
+
+  tableau_correspondances:
+    Metal_Yang_Ming:
+      element: Metal
+      axe: Yang_Ming
+      organe: Poumon_Gros_Intestin
+    Feu_Chao_Yin:
+      element: Feu_Roi
+      axe: Chao_Yin
+      organe: Coeur_Intestin_Grele
+    Feu_Chao_Yang:
+      element: Feu_Ministre
+      axe: Chao_Yang
+      organe: Maitre_Coeur_Triple_Rechauffeur
+    Terre_Tae_Yin:
+      element: Terre
+      axe: Tae_Yin
+      organe: Rate_Estomac
+    Eau_Tae_Yang:
+      element: Eau
+      axe: Tae_Yang
+      organe: Rein_Vessie
+    Bois_Tsiue_Yin:
+      element: Bois
+      axe: Tsiue_Yin
+      organe: Foie_Vesicule_Biliaire
+
+  tableau_5E_axes_MV_points_commande:
+    Feu_Chao_Yin:
+      MV: Yin_Tsiao_Mo
+      point_commande: 6R
+    Bois_Tsiue_Yin:
+      MV: Yin_Oe_Mo
+      point_commande: 6MC
+    Terre_Tae_Yin:
+      MV_1: Tchrong_Mo
+      point_1: 4Rte
+      MV_2: Jenn_Mo
+      point_2: 7P
+    Eau_Tae_Yang:
+      MV: Yang_Tsiao_Mo
+      point_commande: 62V
+    Feu_Chao_Yang:
+      MV: Yang_Oe_Mo
+      point_commande: 5TR
+    Metal_Yang_Ming:
+      MV_1: Tae_Mo
+      point_1: 41VB
+      MV_2: Tou_Mo
+      point_2: 3IG
+  source: PVII_t3_p10_13
+
+# ─────────────────────────────────────────────────
+# LA CELLULE — PHILOSOPHIE IEATC
+# ─────────────────────────────────────────────────
+
+la_cellule:
+  hierarchie_analogique:
+    cellule: unite_de_base_couple_Yin_Yang
+    famille: groupe_de_cellules
+    village: organe
+    region: foyer
+    pays: corps_entier
+
+  conscience_cellulaire: >
+    CLM : « Notre conscience est la somme des consciences de
+    chacune de nos cellules. »
+    Chaque cellule possède sa propre conscience. L'organisme
+    est une société cellulaire organisée hiérarchiquement.
+
+  cancer_signification: >
+    Le cancer = individualisme cellulaire = échappement à l'Ordre
+    hiérarchique de l'organisme. La cellule cancéreuse n'obéit
+    plus à la Loi de l'ensemble et n'accepte plus sa propre mort.
+    Pathologie de l'Ordre social cellulaire.
+
+  principe_therapeutique: >
+    « Pour balayer la maladie, il faut faire circuler l'énergie. »
+    L'énergie doit circuler comme l'eau — conduire et non s'opposer.
+    Cf. légende de l'endiguement du Fleuve Jaune (Âge d'Or).
+  source: PVII_t3_p13_14
+
+# ─────────────────────────────────────────────────
+# EAU ET FEU — PRÉCURSEURS YIN ET YANG
+# ─────────────────────────────────────────────────
+
+eau_et_feu:
+  axe_vertical: Chao_Yin
+  principe: >
+    Eau = eaux primordiales = patrimoine génétique de toute vie.
+    Eau est le PRÉCURSEUR du Yang et du Feu (Eau → Bois → Feu).
+    Feu = Chen cosmique + matière = PRÉCURSEUR du Yin et de l'Eau
+    (Feu → Métal → Eau).
+    Chao Yin = axe de la verticalité, de la sexualité, de l'élévation
+    spirituelle, du tantrisme.
+
+  mouvement_Eau_vers_Feu:
+    sequence: Eau_Tae_Yang → Bois_Tsiue_Yin → Feu_Chao_Yin
+    sens: Yin_vers_Yang
+    acte: fecondation_montee_de_la_vie
+
+  mouvement_Feu_vers_Eau:
+    sequence: Feu_Chao_Yin → Metal_Yang_Ming → Eau_Tae_Yang
+    sens: Yang_vers_Yin
+    acte: retour_au_calme_conservation
+
+  absence_union:
+    blocage_Bois: plénitude_de_Bois_energy_bloquée_en_montée
+    blocage_Metal: vide_Métal_energy_ne_redescend_plus
+    pathologie: >
+      Lorsque l'axe Chao Yin est bloqué, il y a soit plénitude (montée
+      bloquée par Bois) soit vide (descente bloquée par Métal).
+  source: PVII_t3_p18_20
+
+# ─────────────────────────────────────────────────
+# BOIS ET MÉTAL — COMMENCEMENT ET FIN
+# ─────────────────────────────────────────────────
+
+bois_et_metal:
+  axe: horizontal_Est_Ouest
+  principe: >
+    « Le Bois et le Métal sont le commencement et la fin. »
+    Axe horizontal = commencement (Bois/Est) et fin (Métal/Ouest).
+
+  Bois_Tsiue_Yin:
+    mouvement: Yin_vers_Yang_Eau_vers_Feu
+    role: transmettre_impulsion_Yin_vers_le_haut
+    pathologie: >
+      Si Tsiué Yin trop sanguin → stagne en bas → varices,
+      congestion utérine, hémorroïdes.
+
+  Metal_Yang_Ming:
+    mouvement: Yang_vers_Yin_Feu_vers_Eau
+    role: ramener_Yang_vers_le_bas
+    pathologie: >
+      Si Yang Ming stagne en haut → problèmes de tête,
+      accumulation énergétique céphalique.
+
+  ovule_fecondation:
+    ponte_ovule: Chao_Yin_axe_vertical
+    migration_trompe: Tsiue_Yin_mouvement_Bois
+    nidation: Tae_Yin_ancrage_Terre
+    note: Application physiologique des axes aux fonctions reproductives.
+  source: PVII_t3_p21_22
+
+# ─────────────────────────────────────────────────
+# LE CIEL FÉCONDE LA TERRE — 6 MOUVEMENTS AXIAUX
+# ─────────────────────────────────────────────────
+
+ciel_feconde_terre:
+  principe: >
+    Le Yang descend (Ciel) et le Yin monte (Terre). Cette fécondation
+    perpétuelle conditionne toute circulation énergétique dans l'Homme.
+
+  Yang_descend:
+    Tae_Yang:
+      direction: plus_sanguin
+      pathologie_si_faible: énergie_ne_descend_pas
+    Yang_Ming:
+      direction: equilibre_sanguin_et_energetique
+      qualite: le_plus_regulier
+
+  Chao_Yang:
+    direction: plus_energetique
+    pathologie: stagne_en_haut → migraines_vertiges_cephalees
+
+  Yin_monte:
+    Chao_Yin_et_Tae_Yin:
+      direction: montent_vers_le_haut
+      role: alimenter_les_Yang_du_haut
+
+  Tsiue_Yin:
+    direction: plus_sanguin
+    pathologie: stagne_en_bas → varices_congestion_uterine
+
+  interdependance_Tsiue_Yin_Chao_Yang: >
+    Ces deux axes s'interdépendent pour leurs mouvements.
+    Chao Yang a besoin que Tsiué Yin monte pour pouvoir descendre.
+    Tsiué Yin a besoin que Chao Yang descende pour pouvoir monter.
+    Toute pathologie de l'un retentit sur l'autre.
+  source: PVII_t3_p23_24
+
+# ─────────────────────────────────────────────────
+# 4 GROUPES DE 3 MÉRIDIENS
+# ─────────────────────────────────────────────────
+
+quatre_groupes_meridiens:
+  organisation: >
+    Les 12 méridiens se répartissent en 4 groupes de 3 selon leur
+    positionnement (haut/bas du corps) et leur nature (Yin/Yang).
+    Chaque groupe a une fonction propre dans la captation et
+    distribution des énergies externes (Ciel et Terre).
+
+  schema_explique:
+    figure_tableau8: >
+      Tableau en 4 lignes (3 Yin du haut, 3 Yang du haut, 3 Yang du bas,
+      3 Yin du bas) avec une 5ème ligne Terre/centre. Pour chaque groupe :
+      fonction, correspondance d'élément, Tsang maître et Fou maître.
+
+  groupes:
+    3_Yin_du_haut:
+      nom: Yang_du_Yin
+      fonction: conduire_le_Yin_en_haut_alimenter_les_Yang_du_haut
+      element: Bois_mouvement
+      tsang_maitre: Foie
+      fou_maitre: Vesicule_Biliaire
+      dynamisme: tres_Yang_actif
+      composition: 2_meridiens_energie_1_meridien_sang
+
+    3_Yang_du_haut:
+      nom: Yang_du_Yang
+      fonction: capturer_les_energies_Yang_externes
+      element: Feu_mouvement
+      tsang_maitre: Coeur_et_Maitre_Coeur
+      fou_maitre: Intestin_Grele_Triple_Rechauffeur
+      dynamisme: equilibre_peut_basculer_facilement
+      composition: 1_energie_1_sang_1_sang_egal_energie
+
+    3_Yang_du_bas:
+      nom: Yin_du_Yang
+      fonction: conduire_energies_externes_vers_le_bas_Yin
+      element: Metal_mouvement
+      tsang_maitre: Poumon
+      fou_maitre: Gros_Intestin
+      dynamisme: equilibre_peut_basculer
+      composition: 1_energie_1_sang_1_sang_egal_energie
+
+    3_Yin_du_bas:
+      nom: Yin_du_Yin
+      fonction: recevoir_energies_externes_absorber_Terre_conduire_aux_Tsang
+      element: Eau_mouvement
+      tsang_maitre: Rein
+      fou_maitre: Vessie
+      dynamisme: tres_Yin_stagnation_sang_en_bas_besoin_beaucoup_Yang
+      composition: 1_energie_2_meridiens_sang
+
+    Terre_centre:
+      nom: Foyer_moyen
+      fonction: articuler_tous_les_mouvements_haut_bas
+      element: Terre_mouvement
+      tsang_maitre: Rate
+      fou_maitre: Estomac
+  source: PVII_t3_p56_57
+
+# ─────────────────────────────────────────────────
+# CROIX À 6 DIRECTIONS
+# ─────────────────────────────────────────────────
+
+croix_6_directions:
+  principe: >
+    Les 6 axes énergétiques correspondent chacun à une direction
+    dans l'espace tridimensionnel. L'ensemble forme une croix à
+    6 branches (3D) qui décrit tous les mouvements énergétiques
+    possibles dans le corps.
+
+  correspondances:
+    Yang_Ming: descente_haut_vers_bas
+    Tae_Yin: montee_bas_vers_haut
+    Tae_Yang: arriere_vers_avant
+    Chao_Yin: avant_vers_arriere
+    Chao_Yang: gauche_vers_droite
+    Tsiue_Yin: droite_vers_gauche
+
+  spirales:
+    spirale_Yang_descendante: descend_de_la_tete_vers_les_pieds
+    spirale_Yin_ascendante: monte_des_pieds_vers_la_tete
+    image_ADN: >
+      La superposition des deux spirales (Yang descendante + Yin
+      ascendante) évoque la double hélice de l'ADN. L'ADN serait
+      ainsi une représentation moléculaire des mouvements
+      fondamentaux de l'énergie vitale.
+
+  pathologies:
+    scolioses: Chao_Yang_Tsiue_Yin_axe_gauche_droite
+    cypho_lordoses: Tae_Yang_Chao_Yin_axe_avant_arriere
+
+  schemas_expliques:
+    figure_croix_6_directions: >
+      Croix 3D avec 6 flèches depuis un point central. Yang Ming pointe
+      vers le bas, Taé Yin vers le haut (axe vertical de descente/montée).
+      Taé Yang pointe vers l'avant, Chao Yin vers l'arrière (axe antéro-
+      postérieur). Chao Yang pointe à droite, Tsiué Yin à gauche (axe
+      latéral). Les flèches opposées par paires sont les axes couplés.
+      La superposition des rotations donne deux spirales helicoidales :
+      l'une Yang tournant vers la droite en descendant, l'autre Yin
+      tournant vers la gauche en montant = double hélice ADN.
+  source: PVII_t3_p25_26

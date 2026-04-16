@@ -1,0 +1,180 @@
+# YONG QI ET WEÏ QI — ÉNERGIES NUTRITIVE ET DÉFENSIVE
+# Source : PVI EEA t2 — Séminaire CLM mai 1982
+# Dr Schatz, Elisabeth Rochas de la Vallée
+# Compilé par Thierry Bollet (2015)
+
+meta:
+  fichier: yong_wei_energies_seminaire.yaml
+  source: PVI-EEA-t2-p22_26
+  statut: complet
+  liens:
+    - THEORIE/jin_ye_liquides_seminaire.yaml
+    - THEORIE/energies_hereditaires_seminaire.yaml
+    - ZANG_FU/poumon.yaml
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/rein.yaml
+
+# ─── ÉNERGIE YONG (NUTRITIVE) ────
+
+yong_qi:
+  ideogramme_ying: >
+    YING : image de 2 feux et d'un abri. Constructions
+    faites selon un plan, comme un camp militaire. Premier
+    plan de protection de la vie : cabanes, fossés, feu pour
+    éloigner les bêtes et faire cuire la soupe.
+    Sens : tirer les plans pour construire une ville, un
+    cadastre. Entretien de la vie en profondeur, stable, au
+    foyer.
+  ideogramme_rong: >
+    RONG : arbre sortant de terre avec tronc et racines.
+    Aspect glorieux de la vie, le fleuri, la luxuriance.
+    Utilisé quand on parle des 5 éléments.
+    L'énergie nutritive profonde s'écrit normalement YING,
+    RONG est pour les correspondances 5E.
+  nature: >
+    Énergie profonde, stable, tranquille, dite CLAIRE.
+    Nourricière par son origine alimentaire et par les
+    matériaux choisis de son alimentation.
+  origine: >
+    Apparaît au niveau du Réchauffeur Moyen (mais les
+    3 Réchauffeurs participent — la subdivision en 3 est
+    didactique, pas réelle : « ils ont un nom et pas de forme »).
+    Engendrée à partir du Jing des aliments solides et
+    liquides. Alimentée aussi par Du Mo, Ren Mo et Chong Mo
+    (relation avec RI et Yuan Qi).
+  fonction_sang: >
+    Contribue à la formation du sang mais ne peut être
+    ramenée au sang. Le sang est une matière physique,
+    Yong est un mécanisme. Elle circule dans les mo
+    (trajets d'énergie).
+  analogie_occidentale: >
+    Un petit peu représentée par la fonction des globules
+    rouges dans le sang. Fonction de structuration du corps
+    dans son intime par l'oxygénation, le transport de
+    l'énergie.
+  commentaire_nei_jing: >
+    « YONG QI, ce sont les Souffles essentiels qui circulent
+    au milieu du trajet d'énergie des MO. Engendrés à
+    partir des liquides et des céréales. Leur origine est à
+    Rte et E. Ils sortent au Réchauffeur Moyen et ont leur
+    rôle dans la formation du sang et la nutrition de tout
+    le corps. »
+  lin_shu_16: >
+    « Les Souffles YONG sécrètent par tamisage les JIN YÉ,
+    ils se déversent aux trajets d'énergie par transformation.
+    Ils font le sang pour aller nourrir les 4 membres. A
+    l'interne ils se déversent aux 5 ZANG et aux 6 FU. »
+  circuit:
+    trajet: >
+      Circuit très régulier et vectorisé sous l'obédience des
+      12 méridiens principaux + Du Mo et Ren Mo.
+    depart: P_commence_au_Rechauffeur_Moyen
+    sequence: P_GI_E_Rte_C_IG_V_R_MC_TR_VB_F
+    retour: >
+      Du F, une branche se termine au sommet de la tête,
+      gagne Du Mo, descend le dos, enfile Ren Mo, remonte
+      au P qu'il rejoint au Réchauffeur Moyen.
+    frequence: 25_fois_le_jour_25_fois_la_nuit
+    constance: >
+      Le circuit de Yong est le même de jour et de nuit,
+      quand l'Homme s'active et quand il est au repos.
+    role: >
+      Yong n'est pas seulement chargée d'apporter
+      l'alimentation mais aussi d'ORGANISER la vie.
+
+# ─── ÉNERGIE WEÏ (DÉFENSIVE) ────
+
+wei_qi:
+  ideogramme: >
+    WEI : partie centrale = image du cuir travaillé (bouclier).
+    Parties extérieures = marche, mouvement, parcours.
+    Sens : défense des frontières. Les troupes patrouillent
+    le long de la Grande Muraille.
+  nature: >
+    Énergie défensive. Moins subtile, moins raffinée que
+    Yong. Plus trouble. Circule EN DEHORS des trajets
+    d'énergie.
+  origine: >
+    Traditionnellement fabriquée par le Réchauffeur Inférieur.
+  analogie_occidentale: >
+    Rapprochée du rôle des globules blancs (Leung Kwok Yuen)
+    et particulièrement des lymphocytes (Chamfrault).
+  fonctions:
+    en_superficie: >
+      Action dans la peau, les chairs, les muscles
+      superficiels qu'elle parcourt pour les tiédir.
+      Affermit la trame du derme et de l'épiderme.
+      Rôle contre les agressions externes (Xié Qi).
+      Particulièrement présente dans les fuseaux musculaires
+      des méridiens tendino-musculaires.
+    en_profondeur: >
+      Rôle au niveau du diaphragme, des formations
+      mésenchymateuses du thorax et du ventre.
+      Rapport avec les viscères.
+  circuit_diurne:
+    depart: oeil_coin_interne
+    trajet: >
+      Weï se déverse à partir de l'œil dans tout le corps
+      en suivant les grands méridiens Yang :
+      1) Tai Yang (pied et main)
+      2) Shao Yang
+      3) Yang Ming
+      (ordre du Lin Shu)
+    retour: du_pied_remonte_a_oeil_par_Yin_Qiao_Mo
+    frequence: 25_fois_pendant_le_jour
+    nature: >
+      Action tournée vers l'extérieur du corps à travers
+      les méridiens Yang.
+  circuit_nocturne:
+    entree: R_organe_meridien_des_Reins
+    trajet: R_C_P_F_Rte_et_retour_R
+    nature: >
+      Cycle d'équilibration des 5 éléments.
+      Fonction tournée vers l'intérieur, travail de
+      rééquilibrage en profondeur.
+    frequence: 25_fois_pendant_la_nuit
+    retour: au_matin_regagne_coin_oeil_pour_circuit_diurne
+  points_cles:
+    insomnie: >
+      Si la nuit le circuit de jour est emprunté (trop de
+      Yang) → activer le circuit interne par R.6 (Zhao Hai).
+    somnolence: >
+      Si le jour il y a somnolence → activer le circuit
+      externe par V.62 (Shen Mai).
+
+# ─── PARADOXE YONG / WEÏ ────
+
+paradoxe_yong_wei:
+  unite: >
+    Il ne devrait y avoir qu'un seul circuit puisque là où
+    il y a du Yong il y a du Weï. Mais il y a deux circuits.
+  explication: >
+    Yong et Weï n'ont pas la même intensité de
+    manifestation. Les circuits décrivent les endroits où
+    chaque énergie se manifeste avec le plus d'intensité.
+  opposition_nycthemere: >
+    Opposition entre Yong et Weï en rapport avec le cycle
+    du nycthémère, cycle du sommeil et de la veille.
+    Yong = constant jour et nuit.
+    Weï = change radicalement entre jour et nuit.
+  source: PVI-EEA-t2-p23_26
+
+# ─── CHUAN — TRANSMISSION ────
+
+chuan_transmission:
+  ideogramme: >
+    CHUAN = transmission, propagation de proche en proche.
+    Employé pour les commentaires qui font suite à un Texte,
+    les propagations d'ouvrages, de doctrines.
+  usage_medical: >
+    Connote le rôle des entrailles digestives qui opèrent
+    sur le bol alimentaire de façon successive, font leur
+    propre transformation et transmettent les matières.
+    Aussi pour les transmissions normatives de Souffles
+    (physiologiques ou pathologiques).
+  distinction_cycle: >
+    « Cycle » est un mot occidental linéarisé (petit train).
+    Ce sont simplement des transmissions de situations
+    énergétiques d'un endroit à l'autre du corps. Des états
+    successifs de certaines parties du corps.
+  source: PVI-EEA-t2-p10_11

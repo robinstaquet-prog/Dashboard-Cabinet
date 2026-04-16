@@ -1,0 +1,1762 @@
+# ARBRES DE DÉCISION CLINIQUE IEATC
+# Logique conditionnelle pour le raisonnement clinique
+# Version 1.0 — base initiale à enrichir module par module
+# Ne jamais écraser — toujours enrichir
+
+meta:
+  fichier: 00_arbres_decision.yaml
+  role: >
+    Fournir à l'IA une logique opérationnelle de décision
+    clinique. Pas de la prose — des conditions et des
+    conclusions. Ce fichier est la colonne vertébrale du
+    raisonnement clinique IEATC.
+  instruction_mise_a_jour: >
+    À chaque module traité, si un principe de traitement,
+    une règle de choix de points, ou une logique de
+    diagnostic est documentée : l'ajouter ici.
+    Chaque arbre est annoté de sa source exacte.
+    Les nœuds incomplets sont marqués statut: a_completer
+    avec le module qui comblera la lacune.
+
+# ─────────────────────────────────────────────────
+# ARBRE 1 — ORIENTATION GÉNÉRALE
+# Question : par quelle grille commencer ?
+# ─────────────────────────────────────────────────
+
+arbre_1_orientation_generale:
+
+  etape_1_yin_yang_toujours_en_premier:
+    regle: >
+      Toujours commencer par déterminer le Yin/Yang.
+      C'est la grille de base qui oriente toutes les autres.
+    determiner:
+      - exces_ou_vide
+      - yin_ou_yang
+      - haut_ou_bas
+      - interne_ou_externe
+    source: CP3-t1-p9
+    si_yin_yang_clair:
+      suivant: etape_2_localisation
+    si_yin_yang_mixte_ou_ambigu:
+      suivant: croiser_avec_trois_foyers
+
+  etape_2_localisation_trois_foyers:
+    foyer_superieur_FS:
+      vertebres: D1_a_D7
+      organes: [coeur, poumon, tete, psychisme]
+      emotion_dominante: tensions_psychiques
+      source: CP3-t1-p35
+    foyer_moyen_FM:
+      vertebres: D8_a_D12
+      organes: [estomac, rate, foie, digestion]
+      emotion_dominante: problemes_affectifs
+      source: CP3-t1-p35
+    foyer_inferieur_FI:
+      vertebres: D10_a_L5
+      organes: [rein, vessie, intestins, genital]
+      emotion_dominante: problemes_organiques_profonds
+      source: CP3-t1-p35
+
+  etape_3_choix_grille_principale:
+
+    si_symptome_suit_trajet_meridien:
+      grille: meridiens_principaux_TT
+      statut: a_completer
+      attend: P_IX_Meridiens
+
+    si_symptome_suit_horaire_precis:
+      grille: cycle_iong_horaire
+      regle: >
+        Disperser 12h après la tranche horaire du méridien
+        (moment où il est le plus faible).
+        Tonifier pendant sa tranche horaire
+        (moment où il a le plus de vitalité).
+      points: [lo, source, yuan_pour_meridiens]
+      points_organes: [mo, iu_dos, yuan_pour_organes]
+      source: CP3-t1-p19
+
+    si_emotion_chronique_dominante_identifiable:
+      grille: cinq_elements
+      statut: a_completer
+      attend: P_VII_5_Elements
+
+    si_trouble_surface_peau_tendons_ligaments:
+      grille: grands_meridiens_TK
+      points_prioritaires:
+        - ting_des_yin_et_yang
+        - points_reunion_TK: [13VB, 18IG, 22_23VB, 3_4JM]
+      source: CP3-t1-p16
+
+    si_rechute_cyclique_apres_traitement_reussi:
+      grille: merveilleux_vaisseaux
+      source: CP3-t1-p59
+      statut: a_enrichir
+
+    si_dysfonction_organe_claire:
+      grille: zang_fu
+      statut: a_completer
+      attend: P_VI_Tsang_Fou
+
+    si_trouble_circulation_fluides_oedemes:
+      grille: trois_foyers
+      statut: a_completer
+      attend: P_V_Trois_Foyers
+
+    si_trouble_constitutionnel_depuis_enfance:
+      grille: ancestrale
+      points_prioritaires:
+        - tchrong_mo: [11R, 30E]
+        - ming_menn: [4TM, 23V_chauffes]
+        - rein: [3R, 7R]
+      source: CP3-t1-p61
+
+# ─────────────────────────────────────────────────
+# ARBRE 2 — LECTURE YIN/YANG DU POULS
+# ─────────────────────────────────────────────────
+
+arbre_2_pouls_yin_yang:
+
+  distinction_capitale:
+    pouls_radiaux:
+      concernent: organes_uniquement
+      indique_superficie: [meridiens, tete, organes_sens, haut_corps, externe, peau_TK_6_axes]
+      indique_profondeur: [organes, sang, ancestrale, FM_FI, branches_profondes]
+    pouls_chamfrault:
+      concernent: meridiens_uniquement
+      liste: [9P, 4GI, 9E_42E_5E, 11Rte, 3C, 18IG, 2V, 3R, 7MC, 23TR, 3ou4VB, 3ou11F]
+    erreur_historique: confondu_avant_1980
+    alerte: >
+      Attention aux ouvrages antérieurs aux années 80
+      qui confondent les deux types de pouls.
+    source: CP3-t1-p10
+
+  lecture_volume:
+    plein: exces
+    vide: insuffisance
+    dicrote: statut_a_completer
+    rugueux: statut_a_completer
+
+  lecture_forme:
+    tendu:
+      nature: yang
+      orientation: Foie_Bois_probable
+      source: CP3-t1-p9
+    relache:
+      nature: yin
+      statut: a_completer
+    rapide:
+      nature: chaleur
+      statut: a_completer
+    lent:
+      nature: froid
+      statut: a_completer
+
+  lecture_situation:
+    position_I_II_III: statut_a_completer_PIII
+    gauche_ou_droite: statut_a_completer_PIII
+    superficie_ou_profondeur:
+      superficie: meridiens_haut_externe
+      profondeur: organes_sang_ancestrale
+
+# ─────────────────────────────────────────────────
+# ARBRE 3 — CATÉGORIES DE MALADIES
+# ─────────────────────────────────────────────────
+
+arbre_3_categories_maladies:
+
+  systeme_locomoteur:
+    nature: atteinte_meridiens_trauma_ou_surmenage
+    exemples: [accident, entorse, coups, tendinites]
+    points_dans_ordre:
+      1: cle_et_depart_MV_plus_points_croisement
+      2: lo_et_yuan
+      3: specifique_fonction_os_ou_muscles_ou_symptomatique
+    source: CP3-t1-p18
+
+  yin_yang_general:
+    nature: desequilibres_generaux_etudies_1ere_annee
+    points_dans_ordre:
+      1: points_generaux_yin_yang
+      2: points_auxiliaires_yin_yang
+    source: CP3-t1-p18
+
+  yin_yang_general_plus_local:
+    appliquer: [doctrine_I_Sou_Jenn, doctrine_Siao_Seu]
+    source: CP3-t1-p15_et_18
+
+  maladie_de_surface:
+    nature: peau_et_pathologies_cutanees
+    exemples: [psoriasis, eczema, pityriasis, blessures, brulures]
+    points_dans_ordre:
+      1: ting_et_points_reunion
+      2: energie_oe
+      3: qualification_feu_froid
+    source: CP3-t1-p20
+
+  maladie_de_profondeur:
+    nature: pathologies_organiques
+    points_dans_ordre:
+      1: iu_dos_mo_yuan
+      2: siao_seu
+      3: ro_par_TP
+      4: points_transvasement_foyer_a_foyer
+      5: points_sortie_surface_ou_entree_profondeur
+    source: CP3-t1-p20
+
+  maladie_aigue_soudaine:
+    nature: arrivee_brutale_recente
+    points_dans_ordre:
+      1: tsri_a_disperser_en_premier_toujours
+      2: technique_iu_d_mo_t_simultane_pour_organes
+    source: CP3-t1-p21
+
+  maladie_chronique:
+    nature: rhumatismes_douleurs_constantes
+    points_acupuncture:
+      - iu_elements_et_king_des_yin
+    complementaires_obligatoires:
+      principal: phytotherapie
+      autres: [homeopathie, oligotherapie, vitamines, complements]
+      imperatif: reequilibration_alimentaire
+    source: CP3-t1-p21
+
+  maladie_a_rechutes:
+    nature: revient_apres_traitement_reussi
+    points_systematiques:
+      - iu_elements_des_yin
+      - king_des_yin
+    effet: >
+      Renforce l'énergie Iong (nutrition de la fonction)
+      et l'énergie Oé (protection).
+    source: CP3-t1-p21
+
+  maladie_horaire:
+    nature: troubles_aux_memes_heures_ou_tranches_horaires
+    approche: regulariser_cycle_iong
+    voie_meridiens: [lo, points_passage]
+    voie_organes: [iu_mo, yuan]
+    principe_dispersion: >
+      Disperser 12h après la tranche horaire de fonction
+      accrue (moment le plus faible — énergie facile à
+      mobiliser).
+    principe_tonification: >
+      Tonifier pendant la tranche horaire
+      (moment de vitalité maximale pour réagir).
+    source: CP3-t1-p19
+
+  attaque_energie_externe_fong:
+    si_declenchee_par_climat_ponctuel:
+      suivant: arbre_4_grands_meridiens
+    si_aggravee_par_climat_chronique:
+      regle: >
+        Si un patient est aggravé par un climat,
+        c'est parce que son organisme était préalablement
+        saturé de cette énergie. Le climat n'a fait que
+        faire déborder le trop-plein antérieur.
+      exemples:
+        - rhumatisme_humide: Tae_Yin_exces_et_ou_Yang_Ming_insuffisant
+        - grippe_froid: Tae_Yang_exces_et_ou_Chao_Yin_insuffisant
+      traitement: meme_principes_que_mecanisme_interne
+    source: CP3-t1-p20_et_26
+
+# ─────────────────────────────────────────────────
+# ARBRE 4 — GRANDS MÉRIDIENS
+# ─────────────────────────────────────────────────
+
+arbre_4_grands_meridiens:
+
+  presentation:
+    synonyme_ieatc: axes_energetiques
+    role: >
+      Système de protection contre les énergies externes
+      ET d'équilibration du milieu intérieur.
+      DISTINCT de l'énergie Oé — ne pas confondre.
+    source: CP3-t1-p22
+
+  les_6_GM_et_leurs_couples:
+    tae_yang_chao_yin:
+      nature: froid_chaleur
+      meridiens: [V, IG, R, C]
+      elements: [Eau, Feu]
+    chao_yang_tsiue_yin:
+      nature: feu_fong_vent
+      meridiens: [VB, TR, F, MC]
+      elements: [Bois, Feu]
+    yang_ming_tae_yin:
+      nature: secheresse_humidite
+      meridiens: [GI, E, Rte, P]
+      elements: [Metal, Terre]
+    precision_capitale:
+      yang_ming_GI: >
+        PAS la sécheresse mais l'ASSÈCHEMENT des excès
+        d'humidité — nuance IEATC importante.
+      tae_yang_V: >
+        PAS le froid mais le RAFRAÎCHISSEMENT du corps.
+    source: CP3-t1-p22_23
+
+  5_regles_fondamentales:
+    regle_1: >
+      Dans chaque GM, l'énergie du méridien dominant
+      l'emporte sur l'autre (ex: dans Tae Yang, le froid
+      de V l'emporte sur la chaleur de IG).
+    regle_2: >
+      Si un GM est déréglé en excès, c'est en raison
+      d'une déficience de son GM couplé.
+    regle_3: >
+      Un GM doit apporter son énergie dominante à son
+      GM couplé pour équilibrer et compenser.
+    regle_4: >
+      Disperser un point d'un GM + tonifier un point
+      du GM couplé = transfert automatique d'énergie.
+      UNIQUEMENT par les méridiens du bas du corps :
+      Tae Yang/Chao Yin → R et V (pas IG et C)
+      Chao Yang/Tsiue Yin → F et VB (pas TR et MC)
+      Yang Ming/Tae Yin → E et Rte (pas GI et P)
+    regle_5: >
+      Quand une maladie se déclenche, l'énergie de même
+      nature était préalablement en plénitude dans le
+      méridien (externe) ou dans l'organisme (interne).
+    source: CP3-t1-p24_25_26
+
+  traitement_1_GM_seul:
+    exemple_corps_trop_chaud:
+      cause_possible_1: Chao_Yin_en_exces_exces_reel
+      cause_possible_2: Tae_Yang_en_vide_exces_apparent
+      traitement:
+        - iu_C_en_d
+        - mo_R_en_t
+        - point_eau_R_ro_en_t
+        - point_feu_C_iong_en_d
+        - preferer_point_penn_si_possible
+      si_saison_contraire_au_point_penn:
+        alternative: point_Mere_ou_Fils_de_element
+        note: >
+          Moins efficace car agit à l'échelle des saisons
+          de 3 mois — pas immédiatement.
+    source: CP3-t1-p24
+
+  traitement_2_GM_couples:
+    si_traitement_1GM_insuffisant:
+      principe: >
+        Le GM couplé est en insuffisance et n'a pas
+        apporté son énergie compensatrice.
+        Renforcer son énergie selon le même principe.
+      exemple_froid_interne:
+        cause: insuffisance_chaleur_du_Chao_Yin
+        traitement: 8C_en_t_point_penn_chaleur_C_Feu_Chao_Yin
+        ne_pas: renforcer_le_Rein_qui_represente_le_froid
+    source: CP3-t1-p24_25
+
+# ─────────────────────────────────────────────────
+# ARBRE 5 — POINTS IU DU DOS ET MO
+# ─────────────────────────────────────────────────
+
+arbre_5_iu_dos_et_mo:
+
+  logique_iu_dos_vs_mo:
+    iu_dos:
+      polarite: Yang_du_corps_dos
+      agit_sur: Yang_de_l_organe
+      action_principale: drainer_eliminer_energies_perverses
+      indication_principale: plenitudes_et_pathologies_aigues
+    mo:
+      polarite: Yin_du_corps_ventre
+      agit_sur: Yin_de_l_organe
+      action_principale: nourrir_renforcer_accumuler_energie
+      indication_principale: vides_et_maladies_chroniques
+    source: CP3-t1-p34_et_39
+
+  technique_iu_mo_simultane:
+    indication: >
+      Affection trop chronique ou profonde.
+      L'énergie ne peut plus circuler par les techniques
+      habituelles. L'organisme ne répond plus.
+    protocole:
+      iu_dos: disperser_arrachage_energie_perverse
+      mo: tonifier_parfois_chauffer
+      position_patient: assise_le_plus_souvent
+    vigilance_absolue:
+      populations_a_risque:
+        - hypotendus
+        - convalescents_tres_affaiblis
+        - tres_emotifs_surtout_hommes
+        - spasmophiles
+      risque: syncope_vagale_par_reflexe
+      si_syncope:
+        1: enlever_toutes_aiguilles_immediatement
+        2: allonger_pieds_en_l_air
+        3: parler_constamment_obliger_a_repondre
+        4: masser_plexus_faire_respirer
+      note_importante: >
+        Cette réaction impressionnante est TOUJOURS
+        le signe de la réussite du traitement.
+    source: CP3-t1-p36
+
+  quand_tonifier_iu_dos:
+    regle: chauffer_obligatoirement_pour_etre_efficace
+    effet: >
+      Action très puissante, parfois supérieure au Mo.
+      Chaque Iu des Tsang tonifie l'ensemble des 5 Tsang
+      mais plus fortement son propre Tsang.
+    source: CP3-t1-p36
+
+# ─────────────────────────────────────────────────
+# ARBRE 6 — MERVEILLEUX VAISSEAUX
+# ─────────────────────────────────────────────────
+
+arbre_6_merveilleux_vaisseaux:
+
+  quand_interviennent_les_MV:
+    1: >
+      Quand les voies Lo transversales n'ont pas suffi
+      à réguler le déséquilibre.
+    2: >
+      Quand le déséquilibre est constitutionnel ou profond
+      (niveau Ancestrale).
+    3: >
+      Quand il y a rechute systématique après traitement.
+    4: >
+      Quand la pathologie est bilatérale ou touche
+      une chaîne entière.
+    source: CP3-t1-p59
+
+  syndromes_specifiques_MV:
+    tchrong_mo:
+      signes_cles:
+        - problemes_genitalite_sexualite
+        - douleur_lombaire_avec_brulure
+        - froid_interne_profond
+        - douleur_baladeuse_FI_GI
+        - urticaire_plaques_rouges
+      traitement_general: 11R_t_et_30E_t
+      traitement_genitalite: 4TM_et_23V_t_chaufes
+      source: CP3-t1-p61
+
+    tou_mo_TM:
+      signe_cle: dos_tendu_comme_un_arc
+      traitement: 27TM_d_14TM_d_16V_d_20TM_d_3IG_d
+      source: CP3-t1-p61
+
+    jen_mo_JM:
+      signes_cles:
+        - genitalite_fecondite_sang_regles
+        - douleur_FI_montant_au_C
+      traitement: 4JM_t_6JM_t_7P_t
+      source: CP3-t1-p62
+
+    yang_tsiao_mo:
+      signes_cles:
+        - agitation_diurne
+        - impatiences_jambes
+        - oeil_grand_ouvert_pupille_dilatee
+        - pathologie_souvent_unilaterale
+      diagnostic_differentiel: Tae_Yang_V_qui_gere_agitation
+      traitement: >
+        Disperser 62V et 1V du côté en excès (œil ouvert)
+        Tonifier mêmes points du côté opposé
+      source: CP3-t1-p62
+
+    yin_tsiao_mo:
+      signes_cles:
+        - agitation_nocturne_lit_defait_le_matin
+        - oeil_ferme_pupille_retractee
+      traitement: comme_Yang_TM_sur_6R_et_1V
+      source: CP3-t1-p62
+
+    yang_oe_mo:
+      signes_cles:
+        - alternance_froid_chaleur
+        - atteinte_articulations_MS
+      diagnostic_differentiel: [Chao_Yang, Tsiue_Yin]
+      traitement: 5TR_et_63V_t
+      source: CP3-t1-p62
+
+    yin_oe_mo:
+      signe_cle: douleur_C_type_dechirure_bloque_respiration
+      traitement: 6MC_t
+      source: CP3-t1-p62
+
+    tae_mo:
+      signes_cles:
+        - comme_Tchrong_Mo_mais_avec_froid_pas_chaleur
+        - lombaire_retroversion_deviation_laterale
+        - comme_assis_dans_baquet_eau_froide
+        - douleurs_poly_articulaires_MI
+      diagnostic_differentiel_avec_Tchrong_Mo:
+        - tchrong_mo: douleur_lombaire_avec_brulure
+        - tae_mo: douleur_lombaire_avec_froid
+      traitement: traitement_complet_du_MV
+      source: CP3-t1-p62_63
+
+  protocole_traitement_complet_MV:
+    regle: >
+      Poncturer TOUS les points du MV en tonification
+      (car pathologie = MV ne fonctionne pas).
+    minimum_requis:
+      - point_cle
+      - point_de_depart
+      - dernier_point_du_MV
+    plus: points_croisement_ou_pathologie_se_manifeste_le_plus
+    tous_dans_meme_sens: point_cle_t_ou_d
+    source: CP3-t1-p63
+
+# ═══════════════════════════════════════════════════════════════
+# ARBRE 31 — CINQ ÉLÉMENTS (PVII t1+t2+t3 intégrés)
+# ═══════════════════════════════════════════════════════════════
+
+arbre_31_cinq_elements:
+  statut: complet_PVII_t1_t2_t3_integres
+  attend_complement: pathologie_detaillee_et_traitement_modules_suivants
+
+  principes_fondamentaux:
+    axe_vertical: traiter_par_lois_Yin_Yang_montee_descente
+    plan_horizontal: traiter_par_lois_5_Elements_entree_sortie
+    regle: >
+      Montée/descente = Yin/Yang.
+      Entrée/sortie, adaptation, alimentation = 5 Éléments.
+      Ne jamais confondre les deux plans.
+    source: PVII-t1-p25
+
+  natures_fonctionnelles:
+    Eau: humidifier_et_descendre
+    Feu: bruler_et_monter
+    Bois: se_tordre_et_se_redresser
+    Metal: se_modifier_et_etre_malleable
+    Terre: recevoir_semences_produire_recoltes
+    application_pathologique:
+      Eau: oedemes_stagnation_bas_du_corps
+      Feu: hypertension_hemorragies_haut_du_corps
+      Bois: deformations_articulaires_scolioses
+      Terre: surcharges_graisseuses_cellulite_PAS_obesite
+      Metal: rigidite_caractere_tissus_cassants
+    attention:
+      obesite: Metal_pas_Terre
+      boulimie: IG_pas_Terre
+    source: PVII-t1-p35
+
+  saisons_et_milieux:
+    regle_chinoise: >
+      Solstices et équinoxes sont les MILIEUX des saisons
+      (pas le début comme en Occident).
+    point_Penn: >
+      Point le plus spécifique pour l'énergie de la saison
+      et l'organe correspondant. À utiliser en priorité
+      pendant la saison de l'élément.
+    attend_details: PVII_t2
+
+  cycle_Tcheng_engendrement:
+    ordre: [Bois, Feu, Terre, Metal, Eau]
+    principe: >
+      Cycle nutritionnel. Transmission Yin→Yin (Tsang→Tsang).
+      PAS Fou→Fou (antinomie 5 vs 6).
+      Rate transforme l'énergie entre deux saisons.
+      Énergie nourricière doit TOUJOURS venir de l'arrière (Mère).
+    regles_pathologiques:
+      mere_vide: fils_pas_alimente_futur_compromis
+      Tcheng_bloque: Empereur_trop_fort_garde_energie_despotisme
+      perversite_par_Ko: >
+        Si énergie provient du Ko par problème climatique
+        = trouble majeur, perversité gagne tous les organes.
+    source: PVII-t2-p23_25
+
+  cycle_Ko_temperance:
+    principe: >
+      Tempérance et assistance. Grand-mère→petit-fils.
+      Doué d'intelligence et de discernement.
+    relations: [Bois_Terre, Terre_Eau, Eau_Feu, Feu_Metal, Metal_Bois]
+    loi_passive_Hong_Fan: sens_inverse
+    loi_active: sens_normal
+    regles_pathologiques:
+      Ko_pathologique: >
+        Empereur trop fort attaque ennemi vaincu.
+        Ko destructeur, pas de tempérance.
+      cycle_Rae: >
+        Ennemi vaincu se retourne contre Empereur
+        affaibli. Cycle Ko inversé = révolte.
+      LOI_SO_OUEN: >
+        Tout élément qui attaque en attaque toujours DEUX.
+        Tout élément attaqué l'est toujours par DEUX
+        (ennemi + conseiller).
+      peut_survenir: >
+        N'IMPORTE QUAND dans l'année, n'importe quel
+        élément, en dehors de toute considération
+        saisonnière. Durée : heures à toute la vie.
+    source: PVII-t2-p26_53
+
+  cour_imperiale:
+    principe: >
+      Hiérarchie des 5 éléments à chaque saison.
+      Seuls les Tsang comptent (les mères donnent la vie).
+    roles:
+      Empereur: le_plus_fort_regne
+      Mere: faible_tranquille_TOUT_depend_de_sa_faiblesse
+      Fils: vigoureux_futur_Empereur
+      Ennemi_vaincu: soumis_petit_fils
+      Conseiller: energique_grand_mere_tempere
+    auto_regulation: >
+      L'Empereur engendre lui-même les critères de
+      son propre contrôle. Système oscillant permanent.
+    surveillance: >
+      Examiner patients 4 fois/an à chaque changement
+      de saison chinoise, même en bonne santé.
+    source: PVII-t2-p31_51
+
+  lois_relations_ternaires:
+    triangle_rouge: Empereur_Fils_Ennemi_Tcheng_Ko
+    triangle_bleu: Empereur_Fils_Conseiller_Tcheng_Ko
+    triangle_vert: Empereur_Ennemi_Conseiller_Ko_Tcheng
+    pathologie_Empereur_faible: >
+      Ennemi + Conseiller s'unissent pour attaquer.
+      Raé de l'Ennemi + Ko du Conseiller = simultanés.
+    pathologie_Empereur_fort: >
+      Ko pathologique contre Ennemi + Raé contre Conseiller.
+    source: PVII-t2-p42_49
+
+  importance_printemps:
+    regle: >
+      Printemps raté = année ratée. Foie = starter.
+      Conditionne toutes les activités organiques de l'année.
+      Carence → ancestrale non régénérée → fatigue toute l'année.
+    source: PVII-t2-p40_41
+
+  bilan_energetique_5E:
+    methodes: [palpation_abdominale, visage_couleurs, langue, questionnaire]
+    pouls_radial: >
+      Ne donne PAS d'indication directe sur les 5E.
+      Recoupements nécessaires.
+    questionnaire: >
+      Capital si troubles liés à phénomène saisonnier
+      ou qualité précise d'énergie.
+    source: PVII-t2-p37_38
+
+  # ── Enrichissement PVII t3 ──────────────────────────
+
+  points_su_clinique:
+    principe: >
+      Les points Su = capteurs/adaptateurs des énergies externes.
+      Agissent sur les QUALITÉS (pas les quantités).
+      Ordre Yin : Bois→Feu→Terre→Métal→Eau.
+      Ordre Yang : inversé Métal→Eau→Bois→Feu→Terre.
+    points_urgents:
+      Iu: >
+        Porte de pénétration de la perversité. Puncturer Iu
+        avant que la perversité pénètre plus profond.
+        Si Iu faible → perversité atteint le Ro puis le Tsang.
+      Ro: >
+        Porte interne/externe. Communication Tsang ↔ méridien.
+        Voie de distribution d'urgence par le Tsang.
+    code_barre: >
+      Le Iuann appose un code barre aux énergies externes.
+      Seul l'organe correspondant reconnaît « sa » énergie.
+      66 qualités d'énergie circulent mélangées dans l'iong.
+    source: PVII-t3-p37_45
+
+  kan_che_clinique:
+    principe: >
+      Chaque année caractérisée par une énergie (Maître = Ciel/étoiles)
+      ET un mouvement (Terre/planètes). Leur relation détermine
+      si l'année est harmonieuse ou pathologique.
+    lecture_roue:
+      1ere_analyse: energie_vs_mouvement_annee
+      2eme_analyse: resultante_vs_saison
+      3eme_analyse: impact_sur_patient_specifique
+    impair: par_exces_energies_puissantes
+    pair: par_insuffisance_element_ko_prend_sa_place
+    source: PVII-t3-p50_83
+
+  heures_royales_clinique:
+    principe: Une_journee_vaut_une_annee
+    Bois: matin_3h_9h
+    Feu: midi_9h_15h
+    Metal: fin_apres_midi_15h_21h
+    Eau: nuit_21h_3h
+    Terre: repas_4_fois
+    application: >
+      Conjoncture exceptionnelle (heure Bois + jour Bois + saison Bois
+      + année Bois...) peut déclencher ou guérir des pathologies
+      incurables autrement.
+    source: PVII-t3-p77
+
+  so_ouen_chap5_ko_emotionnels:
+    note: Application directe du cycle Ko aux émotions
+    colere: Ko_par_chagrin_Metal
+    joie: Ko_par_peur_Eau
+    meditation: Ko_par_colere_Bois
+    anxiete: Ko_par_joie_Feu
+    peur: Ko_par_pensee_Terre
+    source: PVII-t3-p28_36
+
+  axes_energetiques_clinique:
+    Tsiue_Yin_stagnation_bas: varices_congestion_uterine
+    Chao_Yang_stagnation_haut: migraines_vertiges
+    Tae_Yang_Chao_Yin: cypho_lordoses
+    Chao_Yang_Tsiue_Yin: scolioses
+    source: PVII-t3-p23_26
+
+  calendrier_xia_preventif:
+    regle: >
+      Contrarier le souffle de sa saison blesse l'organe correspondant
+      ET prépare la pathologie de la saison suivante.
+    Printemps_contrarié: foie_fourbu_risque_maladie_ete
+    Ete_contrarié: coeur_patit_fievre_automne_hiver
+    Automne_contrarié: poumon_blesse_douleurs_diarrhees_hiver
+    Hiver_contrarié: reins_meurtris_perte_appetit_printemps
+    source: PVII-t3-p88_96
+
+  deplacement_et_centre:
+    regle_50km: >
+      Tout déplacement > 50 km perturbe le centre (Rate).
+      5 jours d'adaptation. Changement de fuseau = Rate + Rein.
+      Changement d'hémisphère = tout l'organisme.
+    source: PVII-t1-p43
+
+  intersaison_5eme_saison:
+    duree: 18_jours_9_plus_9_a_cheval
+    frequence: 4_fois_par_an
+    fonction: Terre_neutralise_et_transforme_energie_saisonniere
+    rate_constante: >
+      La Rate est dite "constante" tout au long de l'année.
+      Pas de variation notable. Mais sa période propre
+      = 30 jours fin d'été pour sa propre régénération.
+    source: PVII-t1-p43_54
+
+# ─────────────────────────────────────────────────
+# ARBRES À CRÉER — modules futurs
+# ─────────────────────────────────────────────────
+
+arbres_a_creer:
+  arbre_zang_fu:
+    attend: P_VI_Tsang_Fou
+    contenu_prevu: >
+      Syndromes par organe, correspondances,
+      interactions inter-organes, dimensions psychiques.
+
+  arbre_diagnostic_pouls:
+    attend: P_III_t3_t4
+    contenu_prevu: >
+      Lecture complète des pouls IEATC selon Chamfrault
+      et tradition, positions, qualités, correspondances.
+
+  arbre_diagnostic_langue:
+    attend: P_III_t1_t2
+    contenu_prevu: >
+      Corps, enduit, humidité, zones, correspondances
+      organes, signes pathologiques.
+
+  arbre_lecture_emotionnelle_complete:
+    attend: P_XI_Psychisme
+    contenu_prevu: >
+      Entités Yin des organes (Chen, Roun, Yi, Po, Zhi),
+      chocs émotionnels et niveaux atteints, traitement
+      psychique par acupuncture.
+
+  arbre_constitutionnel_ancestral:
+    attend: [P_XI_Psychisme, P_VI_Tsang_Fou]
+    contenu_prevu:
+
+# ─────────────────────────────────────────────────
+# RÈGLE ABSOLUE — NIVEAUX ET POINTS DE TRAITEMENT
+# Intégrée session PVI t1
+# ─────────────────────────────────────────────────
+
+regle_absolue_niveaux_traitement:
+  # Source : PVI-t1 — Bollet — RÈGLE FONDAMENTALE
+  # Erreur la plus grave en acupuncture IEATC selon Bollet
+
+  enonce: >
+    Un même organe a des fonctions différentes selon la
+    grille de lecture utilisée. Les points qui traitent
+    ces fonctions NE SONT PAS interchangeables.
+    Traiter avec les points d'un niveau pour un problème
+    d'un autre niveau = traitement inefficace ou aggravant.
+
+  les_niveaux:
+    niveau_TT_meridiens_principaux:
+      traite: circulation_iong_dans_les_merid_et_teguments
+      points: points_des_12_TT
+      ne_traite_pas: fonctions_organiques_profondes
+      ne_traite_pas_2: fonctions_constitutionnelles_ancestrales
+
+    niveau_trois_foyers:
+      traite: fonctions_organiques_globales_par_etage
+      points: iu_dos_et_mo_principalement
+      ne_traite_pas: circulation_superficielle_TK
+      ne_traite_pas_2: constitution_ancestrale
+
+    niveau_cinq_elements:
+      traite: relations_inter_organes_cycles_Sheng_Ke
+      points: points_Ting_Iong_Iu_King_Ro_selon_element
+      ne_traite_pas: surface_et_peau
+      ne_traite_pas_2: directement_constitution_ancestrale
+
+    niveau_grands_meridiens:
+      traite: protection_et_equilibre_climatique
+      points: points_Penn_et_Mere_Fils_des_GM
+      ne_traite_pas: fonctions_organiques_profondes
+      ne_traite_pas_2: constitution_ancestrale
+
+    niveau_merveilleux_vaisseaux:
+      traite: constitution_ancestrale_et_heredite
+      points: points_des_8_MV_avec_points_cles
+      ne_traite_pas: circulation_energetique_courante
+      ne_traite_pas_2: climatique_superficiel
+
+  exemple_erreur_type: >
+    Traiter un vide profond de Rein (niveau ancestral)
+    uniquement par les TT du Rein → inefficace.
+    → Il faut les MV (Tchrong Mo, TM, JM selon le cas).
+
+  exemple_erreur_type_2: >
+    Traiter une pathologie climatique (froid/humidité)
+    avec des points Iu dos / Mo → inefficace.
+    → Il faut les GM (Grands Méridiens correspondants).
+
+  critere_choix_niveau: >
+    1. Lire le signe dominant (voir arbre_1)
+    2. Identifier le niveau de la pathologie
+    3. Choisir les points du BON niveau
+    4. Ne jamais mélanger les niveaux sans intention précise
+
+  source: PVI-t1-regle_fondamentale
+
+# ─────────────────────────────────────────────────
+# ARBRE 7 — TSANG / FOU : QUI TRAITER EN PREMIER ?
+# ─────────────────────────────────────────────────
+
+arbre_7_tsang_fou_priorite:
+
+  regle_generale:
+    vide_tsang_ou_vide_fou:
+      observation_statistique: >
+        Le vide du Tsang est beaucoup plus fréquent que
+        le vide du Fou (Q004 — en attente de confirmation
+        comme règle systématique ou simple observation).
+      par_defaut: chercher_vide_tsang_en_premier
+      source: PVI-t1
+
+  criteres_vide_tsang:
+    - fatigue_profonde_et_durable
+    - symptômes_chroniques_anciens
+    - terrain_constitutionnel_fragilise
+    - pouls_profond_vide
+    - zones_peripheriques_deficientes
+
+  criteres_vide_fou:
+    - symptômes_apparus_apres_surmenage_fonctionnel
+    - signes_d_encombrement_ou_surcharge
+    - plenitude_dans_le_FOU_precedant_le_vide
+    - evolution_recente_quelques_jours_semaines
+
+  si_vide_tsang_confirme:
+    traitement_prioritaire: tonifier_le_tsang_en_cause
+    points: mo_du_tsang_en_t_et_iu_dos_chauffe_en_t
+    attention: >
+      Ne pas disperser le Fou correspondant si le Tsang
+      est en vide — cela aggraverait le vide.
+
+  si_vide_fou_confirme:
+    traitement_prioritaire: stimuler_le_fou_en_cause
+    points: >
+      Méridien du Fou correspondant, points selon
+      la nature du blocage (plénitude → disperser d'abord)
+    attention: >
+      Vérifier que le Tsang couplé n'est pas en vide
+      avant de traiter le Fou seul.
+
+  si_vide_tsang_et_fou_simultanes:
+    principe: >
+      Traiter le Tsang en premier (tonifier).
+      Le Fou se régénère secondairement quand
+      le Tsang peut lui fournir l'énergie nécessaire.
+    source: PVI-t1
+
+# ══════════════════════════════════════════════════════
+# ARBRE 8 — DIAGNOSTIC PAR PALPATION ABDOMINALE
+# Source : PVII-t4-p71_76
+# ══════════════════════════════════════════════════════
+
+arbre_8_palpation_abdominale:
+  description: >
+    Arbre de diagnostic par palpation des 6 zones abdominales.
+    Chaque zone correspond à un élément. Tension/douleur = blocage.
+    Déblocage par point Su spécifique en dispersion.
+
+  etape_1_palper_6_zones:
+    Metal_flanc_droit:
+      localisation: entre_25E_et_15Rte_droite
+      si_bloque: disperser_5P_ou_5P_prime_d
+      Hong_Kong: creux_sous_claviculaire_1P_peau_seche_molle_egale_vide
+    Bois_flanc_gauche:
+      localisation: entre_25E_et_15Rte_gauche
+      si_bloque: disperser_2F_ou_3F_d
+    Terre_centre:
+      localisation: nombril
+      si_bloque: disperser_5Rte_d
+    Terre_digestive:
+      localisation: sus_ombilicale
+      si_bloque: disperser_6Rte_d
+    Feu_sous_sternum:
+      localisation: 14JM_partage_C_et_MC
+      si_bloque: disperser_7C_d_ou_7MC_d
+    Eau_sous_nombril:
+      localisation: 4_a_6JM
+      si_bloque: disperser_5R_d
+
+  etape_2_zones_speciales:
+    pouls_Chu_Li:
+      localisation: sous_sein_gauche
+      battements_forts_visibles: Chen_epuise_signe_grave
+      douleur_coup_poignard: spasme_diaphragme_traiter_6MC_t
+    zone_Hong_Kong_Rein:
+      localisation: sous_ombilicale_25VB
+      pulsations_paisibles_4_5_par_resp: bonne_energie
+      froide_sans_pulsation: reins_vides
+      chaude_pulsations_faibles: vide_Yin
+    aorte_abdominale:
+      pulsations_sous_ombilic: vide_Eau_vide_Rein
+      montre: energie_Tchrong_Mo
+
+  etape_3_interpretation:
+    une_seule_zone_bloquee: pathologie_locale_element_concerne
+    plusieurs_zones: >
+      Chercher le schéma cyclique (Tcheng, Ko, Raé).
+      Ex : Bois + Feu bloqués = excès Bois envahit Feu.
+      Ex : Terre + Eau bloquées = vérifier Rate-Rein.
+    toutes_zones_tendues: epuisement_general_verifier_ancestrale
+
+  source: PVII-t4-p71_76
+
+# ══════════════════════════════════════════════════════
+# ARBRE 9 — 5 MALADIES MMM ET ORIENTATION TRAITEMENT
+# Source : PVII-t4-p37_54
+# ══════════════════════════════════════════════════════
+
+arbre_9_cinq_maladies_MMM:
+  description: >
+    Arbre de classification des 5 types de maladie selon
+    la relation entre saison d'apparition et organe atteint.
+    Oriente le choix thérapeutique et évalue la gravité.
+
+  etape_1_identifier_organe_et_saison:
+    question: quel_organe_est_atteint_et_en_quelle_saison
+    correspondances:
+      Bois_Foie: printemps
+      Feu_Coeur: ete
+      Terre_Rate: 5eme_saison
+      Metal_Poumon: automne
+      Eau_Rein: hiver
+
+  etape_2_classifier_maladie:
+    si_organe_atteint_dans_sa_propre_saison:
+      type: maladie_veritable
+      gravite: favorable_si_traite
+      traitement: point_Penn_de_l_element
+    si_organe_atteint_en_saison_de_sa_Mere:
+      type: maladie_de_vide
+      gravite: moderee
+      traitement: tonifier_Mere_point_Mere_du_meridien_fils
+    si_organe_atteint_en_saison_de_son_Fils:
+      type: maladie_de_plenitude
+      gravite: moderee
+      traitement: disperser_Fils_point_Fils_du_meridien_mere
+    si_organe_atteint_en_saison_de_son_Ennemi:
+      type: maladie_de_victoire
+      gravite: pas_grave_mais_recidive_possible
+      traitement: disperser_attaquant_dans_attaque_cycle_Ko
+    si_organe_atteint_en_saison_de_son_Conseiller:
+      type: maladie_de_defaite
+      gravite: GRAVE_depassement_ressources
+      traitement: renforcer_attaque_en_urgence
+
+  etape_3_verifier_Ko_et_Rae:
+    double_regle_Ko:
+      condition: grand_mere_forte_ET_petit_fils_faible
+      resultat: attaque_Ko_classique
+    cycle_Rae:
+      condition: domine_se_revolte_contre_dominant
+      resultat: inversion_Ko_gravite_elevee
+      signe: element_normalement_domine_devient_attaquant
+
+  etape_4_So_Ouen_plenitude:
+    principe: >
+      Un élément en plénitude attaque TOUJOURS 2 éléments :
+      son Ennemi (Ko direct) ET son Conseiller (Ko inverse/Raé).
+    traitement: disperser_point_Fils_des_3_elements_bloques
+    exemple_Feu_en_exces: >
+      Feu attaque Métal (Ko) + Eau (Raé).
+      Disperser : 7C d (Fils Feu) + 5P d (Fils Métal) + 1R d (Fils Eau).
+
+  source: PVII-t4-p37_54
+
+# ══════════════════════════════════════════════════════
+# ARBRE 10 — INTERROGATOIRE TCHI VIDE/PLENITUDE
+# Source : PVII-t4-p64_70
+# ══════════════════════════════════════════════════════
+
+arbre_10_interrogatoire_tchi:
+  description: >
+    Arbre d'interrogatoire systématique pour déterminer
+    l'état vide ou plénitude de chaque élément.
+
+  principe_general:
+    vide: recherche_saveur_propre_ameliore_en_saison_propre
+    plenitude: deteste_saveur_propre_aggrave_en_saison_propre
+
+  par_element:
+    Bois:
+      saveur: acide
+      plenitude: deteste_acide_colere_violente_cephalees_yeux_rouges_aggrave_printemps
+      vide: recherche_acide_indecis_timide_yeux_fatigues_ameliore_printemps
+    Feu:
+      saveur: amer
+      plenitude: deteste_amer_excite_rit_trop_sue_hypertension_aggrave_ete
+      vide: recherche_amer_triste_renferme_hypotension_ameliore_ete_teint_pale
+    Terre:
+      saveur: doux
+      plenitude: deteste_sucre_soucieux_idees_fixes_passeiste_chair_contracturee
+      vide: recherche_sucre_insouciant_tete_vide_dyslexie_temporelle_chair_flasque
+    Metal:
+      saveur: piquant
+      plenitude: deteste_piquant_tres_triste_crache_trop_energie_aggrave_automne
+      vide: adore_piquant_peu_triste_pas_assez_energie_ameliore_automne
+    Eau:
+      saveur: sale
+      plenitude: deteste_sale_temeraire_trop_volontaire_aggrave_hiver_autoritaire
+      vide: recherche_sale_peureux_pas_volonte_ameliore_hiver_indecision
+
+  source: PVII-t4-p64_70
+
+# =============================================================================
+# ARBRE 11 — DIARRHÉES : 6 TABLEAUX DIFFÉRENTIELS
+# Source : PVI-t3 (séminaire Schatz)
+# =============================================================================
+
+arbre_11_diarrhees:
+  description: >
+    Arbre de décision pour les diarrhées (XIE XIE). 6 tableaux cliniques
+    différenciés par leur mécanisme pathogénique, avec symptômes et traitements.
+  entree: patient_avec_diarrhees
+  etapes:
+    1_evaluer_temperature:
+      froid: >
+        Matières claires et froides, excrements de canard, ni malaise ni soif,
+        urines claires → Tableau 1 (Froid attaque Rte/E)
+        Traitement : V25 moxa, E25, VC12, VC6
+      chaleur: >
+        Excrements jaunes/rouges/chauds, anus brûlant, langue jaune, pouls rapide,
+        bouche sèche → Tableau 2 (Chaleur Yang Ming)
+        Traitement : GI4, E44 t, VC10
+    2_evaluer_humidite:
+      si_humidite: >
+        Ventre non douloureux, langue blanche et grasse, pouls imbibé/relâché,
+        gros besoin semi-liquide → Tableau 3 (Humidité attaque Rte/E)
+        Traitement : VC9 moxa, Rte9, Rte4 d, V20 t
+    3_evaluer_alimentation:
+      si_desordre_alimentaire: >
+        Ventre douloureux, envie d'aller aux WC et douleur moindre après,
+        poussées sales, gaz → Tableau 4 (Alimentation désordonnée)
+        Traitement : VC21, E36, V21, V25, VC12 d
+    4_evaluer_cycles:
+      si_bois_chevauche_terre: >
+        Intestins gargouillant, digestion ne se fait pas, aliments non digérés
+        → Tableau 5 (Bois chevauche Terre, cycle de mépris)
+        Traitement : V20 t, V21 t, E36 t, F3 d, F2 d
+    5_evaluer_ming_men:
+      si_diarrhees_petit_matin: >
+        Diarrhées à l'aube, visage noir, Shen fatigués, pouls submergé/profond/fin,
+        diarrhées qui traînent → Tableau 6 (Yang de Ming Men décroît)
+        Traitement : VG4, V23, VC4, VG20 moxa, V20 t
+  source: PVI-t3-p42_46
+
+# =============================================================================
+# ARBRE 12 — HYPERTENSION : 2 TABLEAUX
+# Source : PVI-t3 (séminaire Schatz)
+# =============================================================================
+
+arbre_12_hypertension:
+  description: >
+    Arbre de décision pour l'hypertension en MTC. 2 tableaux : vide et plein.
+    Symptômes communs : maux de tête, tête tourne, bourdonnements, insomnies,
+    palpitations, visage rouge, pouls en corde d'arc.
+  entree: patient_hypertendu
+  etapes:
+    1_evaluer_vide_plein:
+      vide_Yin: >
+        Corps amaigri, Shen malades, vue trouble, palpitations, insomnies.
+        Cause : Eau ne contient pas Bois, sang ne nourrit pas F.
+        → Tableau 1 : R3 t, V23 t, V15 t, F2 d, F3 d
+      plein_phlegme: >
+        Mange gras/sucré, violentes colères, phlegme, feu du F monte.
+        Cause : humidité → phlegme → feu → vent.
+        → Tableau 2 : E40 d, VC12 d, F2 d, V18 d, MC7 d
+  source: PVI-t3-p61_63
+
+# =============================================================================
+# ARBRE 13 — SURDITÉS ET BOURDONNEMENTS : VIDE / PLEIN
+# Source : PVI-t3 (séminaire Schatz)
+# =============================================================================
+
+arbre_13_surdites:
+  description: >
+    Arbre de décision pour surdités et bourdonnements d'oreille.
+    Anatomie : R = oreille interne, Shao Yang = oreille moyenne, Tai Yang = oreille externe.
+  entree: patient_avec_surdite_ou_bourdonnements
+  etapes:
+    1_evaluer_apparition:
+      brusque: probable_plein
+      progressive: probable_vide
+    2_si_plein:
+      caractere_son: croassements_flux_reflux_bruits_violents
+      symptomes: tete_lourde_nez_bouche_bouche_amere_cotes_douloureuses
+      causes:
+        vent_pervers: >
+          Douleurs tête, nez bouché, gorge sèche
+          → TR5 d, P7 d, GI4 d, VB20 d, TR17 d
+        fermeture_souffles_emotionnelle: >
+          Colères, chagrin, peur soudaine → surdité brusque
+          → VB2 d, IG12 d, TR17 d, TR3 d, TR21 d
+        feu_phlegme: >
+          Alimentation riche/grasse, P bloqué
+          → E40 d, GI4 d, MC7 d, MC6 d, TR3 d, VB2 d
+        feu_foie: >
+          Vertiges, éblouissements, colère, palpitations
+          → F2 d, F3 d, VB43 d, VB2 d, R3 t (droite pour Yin)
+    3_si_vide:
+      caractere_son: cigale_flute_continuels_tenus
+      symptomes: bourdonnements_intermittents_aggrave_fatigue_lombalgies
+      causes:
+        affaiblissement_souffles: >
+          Fatigue E/Rte, visage terne
+          → VG20 t, E36 t, VC6 t
+        vide_reins: >
+          Confusion, douleurs lombaires, spermatorrhée
+          → V23 t, VC4 t, R3 t
+      traitement_general_vide: >
+        Tonifier F et R + moxas : 23VB t, 4VG t, 3R t, 6Rte t, 2F t
+        Clarifier Feu du vide : agir sur le fils (F) pour soigner la cause (R)
+  source: PVI-t3-p79_85
+
+# ─── Arbres ajoutés PVI EEA t1 (séminaire CLM déc. 1981) ──────
+
+arbre_14_identification_energies_hereditaires:
+  question_initiale: >
+    Quel mécanisme énergétique est en jeu : C.A. ou C.P. ?
+  etape_1_code_gauche_droite:
+    question: Le patient parle-t-il de symptômes liés à la constitution ou à l'acquis ?
+    si_constitution: >
+      Penser C.A. → Yuan Qi et Jing Qi du C.A.
+      Code : « à gauche le Rein, à droite Ming Men » (Nan Jing 36)
+      Pôles : Yin originel (Eau) et Yang originel (Feu)
+    si_acquis: >
+      Penser C.P. → Zong Qi et Jing Qi du C.P.
+      Lieu : Tan Zhong 17VC (mer des Souffles)
+      Transmission : Xu Li (grand Lo de l'Estomac)
+  etape_2_voie_energetique:
+    question: Le trouble est-il centrifuge ou centripète ?
+    centrifuge: >
+      Voie Ming Men → 3 Réchauffeurs → Organes.
+      Énergie innée, constitutionnelle. Yuan Qi.
+      Traitement par les MV si profond.
+    centripete: >
+      Voie extérieur → Points Su → Organes.
+      Énergie acquise, saisonnière. Jing du C.P.
+      Traitement par les 5 éléments et points Su.
+  etape_3_trois_rechauffeurs:
+    RS: Zong_Qi (ancestrale, habitudes, lignée)
+    RM: Jing_Qi + Iong (nutrition, sang)
+    RI: Oé (défense)
+  source: PVI-EEA-t1-p34_52
+
+arbre_15_cinq_shen_diagnostic:
+  question_initiale: >
+    Quel Shen est perturbé chez le patient ?
+  etape_1_groupe:
+    question: Perturbation du groupe supérieur ou inférieur ?
+    superieur_Shen_Hun_Po:
+      Shen_perturbe: >
+        Éclatement, folie, perte de coordination. Le Cœur
+        ne commande plus les Shen Ming. Perte de discernement.
+        → Traiter le Cœur (Feu)
+      Hun_perturbe: >
+        Projection excessive, colère, raptus, tourné vers l'avoir,
+        rêves désordonnés, imaginations débridées.
+        → Traiter le Foie (Bois)
+      Po_perturbe: >
+        Manque d'allant, énergie faible, instincts émoussés,
+        perte de la « mémoire du futur ».
+        → Traiter le Poumon (Métal)
+    inferieur_Yi_Zhi:
+      Yi_perturbe: >
+        Obsession, régurgitation mentale, retour vers le passé,
+        discours intérieur en boucle.
+        → Traiter la Rate (Terre)
+      Zhi_perturbe: >
+        Perte de volonté, pas de direction, pas d'allant vers le futur,
+        vouloir-vivre déficient.
+        → Traiter le Rein (Eau)
+  etape_2_relations_5E: >
+    Les 5 Shen interagissent selon les cycles Tcheng et Ko.
+    Excès de Hun (Bois) peut envahir Yi (Terre) par le Ko.
+    Vide de Zhi (Eau) peut affaiblir Hun (Bois) par le Tcheng.
+    Toujours vérifier l'élément Mère et l'élément Fils.
+  source: PVI-EEA-t1-p56_63
+
+# ─── Arbre 16 : Constipations — diagnostic différentiel ──────
+
+arbre_16_constipations:
+  description: >
+    Différencier les 6 types de constipation selon les mécanismes
+    énergétiques (plein vs vide) et choisir le traitement adapté.
+  etape_1_plein_ou_vide:
+    question: Constipation par plein ou par vide ?
+    plein:
+      signes: >
+        Énergie perverse externe, chaleur, vent, excès
+        alimentaire. Transit contrarié par un agent actif.
+      aller_etape_2_plein: oui
+    vide:
+      signes: >
+        Insuffisance du terrain. Yang insuffisant ou Yin
+        asséché. Pas d'agent pervers mais manque de force.
+      aller_etape_3_vide: oui
+  etape_2_plein_4_tableaux:
+    chaleur: >
+      Intestin/E chaud par entassement. Haleine fétide, envie
+      de boire frais, selles compactes. Jin desséchés.
+      → R.6 t, F.1 d, GI.4 d
+    souffles: >
+      Cause psychique (soucieux, oppressé). Ventre alternance
+      gonflé/diminué, côtes enflées, oppression. Foie bloqué.
+      → VC.4, Rte.6 moxa
+    vent: >
+      Fong + sec au P, transmis au GI. Toux sèche, pharynx
+      douloureux, ongles secs, peau sèche.
+      → V.12, VG.16, V.25 d
+    aliments: >
+      Indigestion, excès alimentaire. Renvois, côtes pressées.
+      Rte/E en panne.
+      → VC.12, E.36 d
+  etape_3_vide_2_tableaux:
+    vide_yang_froid: >
+      Yang insuffisant, Yin congelé. RI vide et froid.
+      Parésie des liquides, tout est figé.
+      → V.17 t, V.18 t, E.25 t
+    vide_yin: >
+      Jing Yé anéantis (après maladie ou constitution).
+      Xing et sang desséchés. Souffles des Fu flétris
+      comme du bois mort.
+      → Nourrir le Yin (R.6 t, Rte.6 t, VC.4 t)
+  points_communs_tous: E.44_E.25_V.25_Rte.15_dispersion
+  source: PVI-EEA-t2-p26_31
+
+# ─── Arbre 17 : Jin Yé — identification du déséquilibre ──────
+
+arbre_17_jin_ye:
+  description: >
+    Différencier un trouble des Jin (liquides clairs, Yang,
+    extérieur) d'un trouble des Yé (liquides profonds, Yin,
+    intérieur) pour orienter le traitement.
+  etape_1:
+    question: Le trouble est-il des Jin ou des Yé ?
+    jin_atteints:
+      signes: >
+        Peau sèche, chairs amaigries, transpiration perturbée,
+        urines anormales, soif. Surface et extérieur atteints.
+      organes: GI_commande_Jin_P_Wei_peau
+      circuit: Suivent_Wei_Qi_3_Rechauffeurs
+      traitement: >
+        Traiter le GI, le P, la surface. Humidifier les chairs.
+        Vérifier le mécanisme des 3 Réchauffeurs (brouillard/
+        macération/canal).
+    ye_atteints:
+      signes: >
+        Articulations raides, os fragiles, yeux secs, vertiges,
+        troubles cognitifs (cerveau), moelles atteintes. Profondeur
+        et intérieur atteints.
+      organes: IG_commande_Ye_R_moelles_cerveau
+      circuit: Suivent_Yong_Qi_meridiens_principaux
+      traitement: >
+        Traiter l'IG, le R, la profondeur. Nourrir le Yin profond.
+        Les Yé qui montent au cerveau sont capitaux (vertiges,
+        troubles mémoire/concentration).
+  source: PVI-EEA-t2-p14_19
+
+arbre_18_double_cause_symptome:
+  nom: Diagnostic_différentiel_Yin_Yang_un_symptôme_deux_causes
+  declencheur: >
+    Un symptôme quelconque se présente (fièvre, frilosité,
+    rhumatismes, œdèmes, sécheresse, etc.)
+  principe: >
+    TOUT symptôme en MTC peut avoir DEUX causes opposées.
+    C'est le fondement absolu du diagnostic différentiel.
+    Seul le POULS indique la nature du déséquilibre.
+  etapes:
+    1_identifier_couple:
+      question: Ce symptôme relève de quel couple physiologique ?
+      couples:
+        thermique: froid_vs_chaleur
+        hydrique: humidite_vs_secheresse
+        dynamique: fong_vs_feu
+    2_deux_hypotheses:
+      hypothese_A: >
+        EXCÈS du facteur en cause (ex: trop de chaleur → fièvre).
+        = Plénitude. Traitement par dispersion de l'excès.
+      hypothese_B: >
+        INSUFFISANCE du facteur opposé (ex: pas assez de
+        refroidissement → fièvre). = Vide. Traitement par
+        tonification du déficient.
+    3_discrimination:
+      methode: prise_de_pouls_OBLIGATOIRE
+      alerte: >
+        MÊME résultante, MÊME symptôme, DEUX traitements
+        DIFFÉRENTS. Traiter à l'inverse = aggraver.
+  exemples:
+    fievre:
+      cause_exces: trop_de_chaleur_Yang_en_exces_disperser
+      cause_vide: pas_assez_de_refroidissement_Yin_insuffisant_tonifier
+    frilosite:
+      cause_exces: trop_de_froid_Yin_en_exces_disperser
+      cause_vide: pas_assez_de_rechauffement_Yang_insuffisant_tonifier
+    rhumatismes_humides:
+      cause_exces: trop_humidite_dans_corps
+      cause_vide: insuffisance_assechement_sudation_respiration_Poumon
+    oedemes:
+      cause_exces: exces_humidification
+      cause_vide: insuffisance_drainage_assechement
+  source: PIV-YY-t2-p28_30
+
+arbre_19_axe_fort_faible:
+  nom: Diagnostic_par_axe_fort_faible_du_corps
+  declencheur: >
+    Symptômes latéralisés ou asymétriques entre gauche/droite
+    ou haut/bas du corps.
+  principe: >
+    Le corps a deux axes énergétiques (So Ouen) :
+    Axe fort = haut-gauche (YY) → bas-droite (YinYin).
+    Axe faible = haut-droite (YinY) → bas-gauche (YYin).
+  etapes:
+    1_localiser:
+      question: Le symptôme est localisé dans quel cadran ?
+      cadrans:
+        sup_gauche: Yang_du_Yang_axe_fort
+        sup_droit: Yin_du_Yang_axe_faible
+        inf_droit: Yin_du_Yin_axe_fort
+        inf_gauche: Yang_du_Yin_axe_faible
+        centre: bipolaire_equilibre_foyer_moyen
+    2_qualifier:
+      axe_fort_atteint: >
+        Pathologie sur l'axe fort = déséquilibre majeur
+        (les cadrans les plus polarisés sont touchés).
+      axe_faible_atteint: >
+        Pathologie sur l'axe faible = déséquilibre mineur
+        mais plus insidieux (polarité mixte).
+  note: >
+    Les pathologies détaillées sont désormais intégrées dans CP I
+    (Cours pratique 1 — PIV YY tomes 4-5). Voir arbre 20.
+  source: PIV-YY-t2-p27
+
+# ══════════════════════════════════════════════════════
+# ARBRE 20 — BILAN YIN/YANG COMPLET (CP I)
+# Source : PIV-YY-t4-p6_52 + PIV-YY-t5-p3_55
+# ══════════════════════════════════════════════════════
+
+arbre_20_bilan_yin_yang_complet:
+  description: >
+    Arbre maître du bilan Yin/Yang IEATC. Séquence complète
+    de la première consultation au traitement. Synthèse du
+    Cours Pratique I (CP I).
+
+  etape_1_interrogatoire_8_regles:
+    principe: >
+      Classer CHAQUE signe du patient dans les 8 règles:
+      Yang (chaud, plein, externe, Yang) vs Yin (froid, vide, interne, Yin).
+      Totaliser: majorité Yang ou Yin → orientation générale.
+    tableaux_reference: DIAGNOSTIC/bilan_yin_yang.yaml
+    source: PIV-YY-t4-p6_16
+
+  etape_2_pouls_chinois:
+    4_principes:
+      1er: gauche_Yang_droite_Yin
+      2eme: superficie_Yang_profondeur_Yin
+      3eme: 3_secteurs_I_FS_II_FM_III_FI
+      4eme: 6_energies_par_niveau
+    alerte: >
+      Si pouls et questionnaire contradictoires → BLOCAGE YY.
+      Traiter d'abord le blocage (27TM d + 24JM d) avant
+      tout bilan. Complémentaires selon nature du blocage.
+    source: PIV-YY-t4-p17_36
+
+  etape_3_bilan_4_combinaisons:
+    regle: local_en_premier_general_en_second
+    combinaisons:
+      YY:
+        description: Yang_local_Yang_general_exces_Yang_partout
+        traitement_I_Sou_Jen: 20TM_d_14TM_d_12JM_d
+      Y_Yin:
+        description: Yang_local_Yin_general_Yang_bloque_en_haut
+        traitement_I_Sou_Jen: 4GI_t_12JM_t_36E_t
+      Yin_Y:
+        description: Yin_local_Yang_general_vide_local
+        traitement_I_Sou_Jen: 6Rte_t_6JM_t_6MC_t
+      Yin_Yin:
+        description: Yin_local_Yin_general_exces_Yin_partout
+        traitement_I_Sou_Jen: 6Rte_d_6JM_d_6MC_d
+    source: PIV-YY-t4-p37_42
+
+  etape_4_methode_Siao_Tse:
+    regle: croiser_avec_niveau_anatomique
+    niveaux:
+      1_peau_poils: points_Ting
+      2_muscles_superficiels: points_Iong
+      3_muscles_profonds_articulations: points_King
+      4_organes_visceres: points_Ro_via_Tching_Pie
+    croisement_saison: >
+      Chaque saison active un type de point Su.
+      Printemps/Bois = Ting Yin ou Iu Yang.
+      Été/Feu = Iong Yin ou Iuann Yang.
+      5ème saison/Terre = Iu Yin ou King Yang.
+      Automne/Métal = King Yin ou Ro Yang.
+      Hiver/Eau = Ro Yin ou Ting Yang.
+    source: PIV-YY-t4-p43_48
+
+  etape_5_protocole_4_temps:
+    sequence_obligatoire:
+      1: Yin_Yang_orientation_generale
+      2: 5_Elements_nature_energie
+      3: Vide_Plenitude_quantite
+      4: Froid_Chaleur_qualite_thermique
+    regle: ne_jamais_sauter_ni_inverser
+    source: PIV-YY-t4-p49_52
+
+  etape_6_premiere_seance:
+    les_8_etapes:
+      1: poser_bilan_YY_et_5E
+      2: choisir_cote_traitement
+      3: choisir_meridien_premier
+      4: tonifier_ou_disperser
+      5: determiner_points_generaux
+      6: determiner_points_locaux
+      7: duree_aiguilles_15_a_20_min
+      8: verifier_pouls_fin_seance
+    source: PIV-YY-t5-p3_21
+
+  cas_particulier_yang_yin_apparents:
+    yang_apparent:
+      mecanisme: vide_Yin_sous_jacent_Yang_deborde
+      erreur: disperser_Yang_aggrave_le_vide_Yin
+      traitement: tonifier_Yin
+    yin_apparent:
+      mecanisme: vide_Yang_sous_jacent_Yin_stagne
+      erreur: disperser_Yin_aggrave_le_vide_Yang
+      traitement: tonifier_Yang
+    detection: >
+      Si traitement standard (I Sou Jen) n'a aucun effet
+      après 2-3 séances → suspecter un apparent.
+      Vérifier la cohérence pouls/symptômes.
+    source: PIV-YY-t4-p22_24
+
+  source: PIV-YY-t4_t5
+
+# ══════════════════════════════════════════════════════
+# ARBRE 21 — ZONES DE BLOCAGE PAR MÉRIDIEN
+# Source : PIV-YY-t5-p22_31
+# ══════════════════════════════════════════════════════
+
+arbre_21_zones_blocage:
+  description: >
+    Arbre de diagnostic et traitement des zones de blocage
+    énergétique le long des méridiens. Palpation systématique.
+    Technique: tonifier en aval, disperser en amont.
+
+  Rate_5_zones:
+    zone_1: cheville_interne
+    zone_2: genou_interne
+    zone_3: mi_cuisse
+    zone_4: pli_aine
+    zone_5: emotionnel_21Rte_Ta_Pao
+    alerte_6Rte: >
+      JAMAIS disperser 6Rte si antécédents hémorragiques.
+      6Rte t = coagulation. 6Rte d = anticoagulation.
+
+  Foie_4_zones:
+    zone_1: cheville_interne
+    zone_2: genou_interne
+    zone_3: mi_cuisse
+    zone_4: hypocondre
+    test_diagnostique: >
+      3F t puis 7F d → si résistance à 7F = cycle Raé en cours.
+      Confirmation: 5F sensible à la palpation.
+
+  Rein_5_zones:
+    zone_1: cheville_interne
+    zone_2: genou_interne
+    zone_3: mi_cuisse
+    zone_4: lombaires
+    zone_5: gorge
+    note: >
+      Angines répétées → vérifier Rein Yang (chronique).
+      Ponctuel gorge = traiter GI (4GI t, 11GI).
+
+  source: PIV-YY-t5-p22_31
+
+# ══════════════════════════════════════════════════════
+# ARBRE 22 — URGENCES ET ALERTES CLINIQUES CP I
+# Source : PIV-YY-t5 cas pratiques
+# ══════════════════════════════════════════════════════
+
+arbre_22_urgences_CP_I:
+  description: >
+    Points et protocoles d'urgence issus des cas pratiques CP I.
+
+  colique_hepatique:
+    traitement: 34VB_d_21R_d_25V_prime_d
+    note: >
+      25V' (branche externe, hauteur L4/L5) = point 'Spasfon'.
+      ARRÊT INSTANTANÉ de la douleur. Efficace aussi sur
+      colique néphrétique et tous spasmes abdominaux.
+
+  migraine_VB:
+    traitement: 34VB_d_43VB_d_20VB_d_2VB_d
+    si_migraine_chronique: verifier_foie_et_diaphragme
+    chocolat: aggrave_migraines_VB_theobromine
+    cafe_au_lait: bloque_VB_systematiquement
+
+  urgence_cardiaque:
+    coup_de_poignard_poitrine: 6MC_d_efficacite_immediate
+    note: spasme_diaphragme_pas_forcement_coeur
+
+  tendinites_et_cystites:
+    alerte: >
+      PRESQUE TOUJOURS du Yin malgré signes inflammatoires.
+      Ne pas se laisser tromper par l'apparence Yang.
+      Traiter le Yin (tonifier) et non le Yang (disperser).
+
+  transpiration_tete: vide_Coeur_7C_t
+  reves_eau: vide_Rein
+
+  source: PIV-YY-t5-cas_pratiques
+
+# ═══════════════════════════════════════════════════════════════
+# ARBRE 23 — CIRCUIT DES ÉNERGIES ALIMENTAIRES (3 FOYERS)
+# Ajouté par PV 3 Foyers tome 1
+# ═══════════════════════════════════════════════════════════════
+
+arbre_23_circuit_energies_alimentaires:
+  titre: Circuit complet des énergies à travers les 3 foyers
+  source: PV-3F-t1
+  description: >
+    Arbre maître du circuit des énergies issues de l'alimentation
+    à travers les 3 foyers, depuis l'entrée des aliments jusqu'à
+    la formation du sang et la distribution de l'énergie.
+  etapes:
+    1_estomac_1er_tri:
+      action: sépare pur/impur, fin/grossier
+      produits:
+        ku_tchi: monte au thorax (P) propulsé par la Rate
+        solides_purs: vers Foie
+        ching_ie: vers Rate
+        bol_restant: vers IG
+    2_IG_2eme_tri:
+      action: complète le 1er tri
+      produits:
+        ku_tchi: monte au thorax
+        solides_purs: vers Foie
+        liquides: vers Rein
+        bol_restant: vers GI
+    3_GI:
+      action: extraction énergie résiduelle de l'impur
+      produit: oé (énergie défensive née de l'impur)
+      elimination: selles
+    4_foie:
+      recoit: solides purs des 1er et 2ème tris
+      transmet: au Cœur (FS)
+      filtre: sang veineux de retour → bile → VB
+      filtre_aussi: énergies impures → P et narines
+    5_rate:
+      recoit: Ching Ié (jus), liquides purs des Reins
+      transmet: liquides purs au Poumon, Ku Tchi au thorax
+      codifie: stimuli environnement → distribue aux Tsang
+    6_poumon:
+      recoit: Ku Tchi + Yeung Tchi (air) + Yuan Tchi
+      synthese: Tsong Tchi (énergie complète)
+      puis: Tsong Tchi + Yuan Tchi = Tcheung Tchi (énergie totale)
+      distribue: Iong (nutritionnelle) + Oé (défensive)
+    7_coeur:
+      recoit: solides purs (du Foie) + liquides purs (du Poumon/Rate)
+      forme: le SANG
+      propulse: dans le circuit artériel
+
+# ═══════════════════════════════════════════════════════════════
+# ARBRE 24 — PATHOLOGIE DE LA BARRIÈRE (FOYER MOYEN)
+# Ajouté par PV 3 Foyers tome 1
+# ═══════════════════════════════════════════════════════════════
+
+arbre_24_pathologie_barriere_FM:
+  titre: Diagnostic et traitement de la barrière du foyer moyen
+  source: PV-3F-t1-p48_49
+  description: >
+    Le foyer moyen = "barrière interne" (Neï Koann). Si bloqué,
+    les énergies ne s'échangent pas entre Ciel et Terre de l'Homme.
+  points_commande:
+    12JM: Maître du Yang du FM, Mo de l'Estomac
+    13F: Maître du Yin du FM, Mo de la Rate, Maître énergie 5 Tsang
+    6MC: Neï Koann, Maître du Yin digestif et psychique
+  si_yang_en_exces:
+    mecanisme: Yang ne pénètre pas dans le Yin (E+VB bloqués)
+    pouls: superficiels loge II en excès, profonds faibles
+    signes: régurgitation, renvois, vomissements, reflux acides
+    traitement: 6MC_t + 13F_t + 12JM_d
+  si_yin_en_exces:
+    mecanisme: Yin ne remonte pas vers le Yang (F+Rte bloqués)
+    pouls: profonds loge II en excès, superficiels en vide
+    signes: stagnation, digestion bloquée, FI plein
+    traitement: 12JM_t + 6MC_d + 4GI_t + 36E_t
+
+# ═══════════════════════════════════════════════════════════════
+# ARBRE 25 — EMBRYOLOGIE ET GROSSESSE
+# Ajouté par PV 3 Foyers tome 1
+# ═══════════════════════════════════════════════════════════════
+
+arbre_25_embryologie_grossesse:
+  titre: Séquence embryologique et grossesse selon les 3 foyers
+  source: PV-3F-t1
+  sequence:
+    1_conception:
+      spermatozoide_ovule: union des 2 demi hélices ADN
+      chen_cosmique: pénètre avec le spermatozoïde
+      ming_menn: cicatrice de la pénétration (L2/L3)
+    2_morula_3_semaines:
+      nature: Chaos inorganisé (Taé I avant le Tao)
+      survie: Eau (ancestrale) + Terre seulement
+      cordon: ne se forme qu'à la fin de la 3ème semaine
+    3_organisation_4eme_semaine:
+      force: 8 trigrammes organisent les 6 directions
+      feuillets_primaires: mise en place
+    4_grossesse:
+      1er_trimestre: Chao Yin/Tae Yang (Yang, mutations)
+      2eme_trimestre: Tsiué Yin/Chao Yang (Yin, développement)
+      3eme_trimestre: Tae Yin/Yang Ming (Yang, activation)
+      seance_acupuncture: fin de chaque trimestre
+    5_naissance:
+      retournement: enfant tête en bas → Chen cosmique se retire
+      declenchement: hormone via fontanelle = 20TM
+      catecholamines: anti-stress des Reins (indispensable)
+    6_grossesse_extra_uterine:
+      duree: 3 mois post-naissance (4ème saison)
+      allaitement: maximum 3 mois
+      yang_ming_mature: vers 6 ans
+
+# ═══════════════════════════════════════════════════════════════
+# ARBRES 26-30 — 3 FOYERS TOME 2
+# ═══════════════════════════════════════════════════════════════
+
+arbre_26_diagnostic_urines:
+    titre: "Diagnostic par les urines"
+    source: PV-3F-t2-p37_38
+    entree: "Observation des urines"
+    branches:
+      claires_abondantes:
+        diagnostic: "Froid aux reins / FI"
+        mecanisme: "Excès R Yin ou vide R Yang ou attaque de froid"
+      foncees_rares_odorantes:
+        diagnostic: "Chaleur aux reins / FI"
+        mecanisme: "Excès R Yang ou vide R Yin"
+      sang_dans_urines:
+        diagnostic: "Feu de l'IG (pas des reins en général)"
+        mecanisme: "Cycle Ko Feu → Eau"
+        rechercher: "Cause au niveau IG même si feu apparent des reins"
+
+arbre_27_diagnostic_selles:
+  titre: "Diagnostic par les selles"
+  source: PV-3F-t2-p38_39
+  entree: "Observation des selles"
+  branches:
+    normales: "Bien moulées, marron = bon tonus GI, bonne purification"
+    decolorees_molles:
+      diagnostic: "Excès de bile = chaleur"
+      organe: VB
+    noirâtres:
+      diagnostic: "Stagnation tube digestif = froid (→ chaleur si prolongé)"
+    odorantes:
+      diagnostic: "Chaleur (l'odeur signe l'élément déréglé)"
+    fines:
+      diagnostic: "Pathologie de la rate"
+    aliments_non_digeres:
+      diagnostic: "Pathologie du foie"
+    diarrhee_matinale:
+      diagnostic: "Vide des reins"
+      voir_aussi: "arbre_11_diarrhees"
+    diarrhee_post_prandiale:
+      diagnostic: "Pathologie du foie"
+    diarrhee_chronique:
+      diagnostic: "Angoisse liée à pathologie de la rate"
+
+arbre_28_mouvement_respiratoire:
+  titre: "Mouvement des énergies et respiration dans le Tchrong Mo"
+  source: PV-3F-t2-p32_33
+  schema:
+    expiration_yang:
+      direction: "Vers le haut"
+      trajet: "Rate → Poumon (Yin/FS) → Cœur (Yang/FS)"
+    inspiration_yin:
+      direction: "Vers le bas"
+      trajet: "Rate → Foie (Yang/FI) → Reins (Yin/FI)"
+    apnee:
+      lieu: "Rate (centre, foyer moyen)"
+      fonction: "Mutation énergie liquides et solides selon 5 éléments"
+
+arbre_29_assimilation_alimentaire_complete:
+  titre: "Assimilation de l'alimentation — circuit complet"
+  source: PV-3F-t2-p33_42
+  note: "Développe et remplace arbre_23 (circuit simplifié de t1)"
+  etapes:
+    0_bouche:
+      mastication: "Molaires écrasent, canines déchirent, incisives coupent"
+      salive: "Liquide pur de la Rate, reconnaissance perlinguale"
+      consequence: "Rate identifie → suc gastrique spécifique sécrété"
+    1_estomac_1er_tri:
+      duree: "2h de va-et-vient estomac ↔ duodénum"
+      bile: "VB ajoute bile à chaque passage (Feu purificateur)"
+      extractions:
+        energie_pure: "Ku Tchi → Rate → Poumons"
+        liquides_purs: "Ié → Rate → 5 tsang"
+        solides_purs: "→ Foie"
+        impur: "→ IG (2ème tri)"
+    2_IG_2eme_tri:
+      extractions:
+        energie_pure: "Ku Tchi résiduelle → Poumons"
+        liquides_purs: "→ Reins (filtration)"
+        solides_purs: "→ Foie (villosités intestinales)"
+        impur: "→ GI"
+    3_reins_filtration:
+      intelligence: "Distingue vieux liquides (usagés) des neufs"
+      conserve: "Le neuf, élimine le vieux"
+      recuperation: "Liquides purs → Rate → circuit normal"
+      elimination: "Reste → Vessie"
+    4_foie:
+      sang_veineux: "Filtre le sang veineux (dernier organe du circuit)"
+      solides_purs: "→ Cœur (via sang veineux)"
+      bile: "Fabrique bile avec impuretés/toxines (recyclage)"
+      energies_impures: "→ Poumons et narines (éternuements matinaux)"
+    5_poumons:
+      formation: "Ku Tchi + Yeung Tchi + Yuan Tchi → Tsong Tchi"
+      epuration: "Évacue énergies impures par respiration/narines"
+      transmission: "Liquides purs → Cœur"
+    6_coeur:
+      formation_sang: "Solides purs (Foie) + liquides purs (Poumons) = sang"
+      distribution: "Sang + Iong → tous les tissus"
+    7_GI:
+      recuperation: "Énergie résiduelle ultime → Foie → future Oé"
+      elimination: "Selles (commandé par Reins)"
+
+arbre_30_circuit_nutrition_tsang:
+  titre: "Circuit de nutrition des Tsang par leur Fou couplé"
+  source: PV-3F-t2-p29
+  etapes:
+    1: "Iong (énergie brute, 5 qualités mélangées) circule dans les méridiens"
+    2: "Fou reçoit Iong et extrait l'énergie propre de son élément"
+    3: "Fou adapte et transmet au Tsang SANS RIEN GARDER"
+    4: "Tsang thésaurise pour lui-même"
+    5: "Tsang donne au Fou couplé ce dont il a besoin"
+    6: "Surplus → organe suivant dans le circuit"
+    7: "Surplus final → stocké 17JM (Trann Tchong) = réserves"

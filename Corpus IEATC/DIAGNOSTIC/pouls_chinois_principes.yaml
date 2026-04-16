@@ -1,0 +1,374 @@
+# LES POULS CHINOIS — 4 PRINCIPES YIN/YANG
+# Source: PIV YY tome 4 (CP I Partie 1) — pp.17-36
+# L'acte PRINCIPAL de l'acupuncteur traditionnel
+# Les points de traitement sont choisis à partir de la prise de pouls
+
+meta:
+  fichier: pouls_chinois_principes.yaml
+  source_principale: PIV_YY_tome4_CP_I_partie1
+  importance: >
+    CAPITAL. "La prise de pouls est l'acte principal de
+    l'acupuncteur traditionnel." Sans elle, le praticien
+    ne peut savoir ce qu'il fait. Les tableaux seuls ne
+    suffisent pas — seuls les pouls distinguent vide/excès
+    réels. "Il faut apprendre à SENTIR avant d'interpréter."
+
+# ═══════════════════════════════════════════════════
+# FONDEMENTS PHYSIOLOGIQUES
+# ═══════════════════════════════════════════════════
+
+fondements:
+  pouls_et_vie: >
+    Le pouls et la circulation sanguine = manifestation
+    de la vie biologique/énergétique. Leurs qualités
+    indiquent l'état de l'énergie de l'organisme. Le pouls
+    radial est celui qui marque le mieux chez l'Homme.
+  fluidique: >
+    Les acupuncteurs occidentaux expliquent par la mécanique
+    des fluides: pression/dépression en un endroit se transmet
+    partout (incompressibilité des liquides).
+  physiologie: >
+    Le sang circule en circuit ininterrompu. La densité des
+    tissus oppose une résistance. Toute modification de
+    calibre artériel/veineux modifie les qualités du sang
+    perçues au pouls radial.
+  froid_chaleur_effets:
+    froid: "épaissit et ralentit, rétracte et durcit les tissus"
+    chaleur: "fluidifie et accélère, assouplit et dilate les tissus"
+  criteres_principaux:
+    - rythme
+    - vitesse de passage de l'onde sanguine
+    - volume de l'onde
+    - aspect mou ou dur
+    - localisation superficielle ou profonde
+
+# ═══════════════════════════════════════════════════
+# EMPLACEMENT ET TECHNIQUE
+# ═══════════════════════════════════════════════════
+
+technique:
+  artere: radiale, gouttière radiale de l'avant-bras
+  repere: styloïde radiale (renflement osseux ~2cm du pouce)
+  doigts: index + majeur + annulaire, collés en cuillère
+  positionnement:
+    medius: sur la styloïde radiale (milieu = secteur II)
+    index: base du pouce (secteur I = Ciel)
+    annulaire: vers le coude (secteur III = Terre)
+  largeur_reference: >
+    L'espace total = largeur des 3 doigts du PATIENT
+    (index+majeur+annulaire au niveau P1/P2). Adapter
+    l'écartement de ses propres doigts en conséquence.
+  contre_appui: >
+    Pouce en opposition sur face dorsale du poignet,
+    formant une pince. Indispensable pour éviter de tirer
+    le bras et déformer la perception.
+  regle_croisee: >
+    Main gauche du praticien sur poignet droit du patient
+    et inversement. L'index est toujours à la base du pouce.
+    Ne JAMAIS prendre les 2 poignets en même temps — le
+    cerveau ne peut enregistrer 2 sensations séparées.
+
+  positions_patient:
+    allongee:
+      description: >
+        Favorise détente et libre circulation. Pesanteur sans
+        influence. Pouls au repos = déficiences fondamentales.
+        Position de "l'Eau".
+      technique: coude plié ~70°, bord cubital sur ventre, main au-dessus du cœur
+    assise:
+      description: >
+        Semi-activité. Pesanteur freine le retour sang/énergie.
+        Image d'adaptation = effets plus que causes.
+        Position de la "Terre".
+      technique: dos droit, jambes non croisées, aucune articulation <90°
+    debout:
+      description: >
+        Plus dépensière en énergie. Position "Feu" — plus
+        d'effort pour le cœur. Seuls praticiens très avertis
+        comparent les 3 positions.
+
+  sensibilite:
+    exercice_chinois: >
+      Prendre un grain de sable entre pouce et chaque doigt
+      à tour de rôle, 5 minutes chaque. Reconnaître toutes
+      les facettes. Répéter chaque jour.
+    exercice_tissus: >
+      Plusieurs carrés de tissus différents dans un sac
+      opaque. Les reconnaître au toucher.
+    interdits:
+      - ne jamais frotter la pulpe avec du papier de verre (épaissit la peau)
+      - ne pas utiliser de gommage cosmétique
+    temps_apprentissage: >
+      "Pour commencer à bien prendre le pouls, disent les
+      Chinois, il faut en avoir pris 600." Entraînement
+      quotidien avec l'entourage.
+
+  anomalies_anatomiques:
+    - deviation artere vers dos avant-bras (pouls inutilisable)
+    - kystes graisseux en regard de l'artere
+    - cals osseux sur anciennes fractures
+    - cicatrices cheloïdes ou modifications chirurgicales
+
+  prise_au_pouce: >
+    Recherche globale sur la totalité des 3 secteurs.
+    Pression au niveau médian. Nécessite l'habitude de la
+    perception superficiel/profond. Pouce longitudinal,
+    extrémité vers le coude. Prise alternative d'un pouce
+    à l'autre.
+
+  attention_niveau_profond: >
+    L'écrasement de l'artère contre l'os = ENTRAÎNEMENT
+    UNIQUEMENT. En pratique réelle, proscrire formellement:
+    les sphincters artériels se contractent/dilatent sous
+    agression, la perception ne correspond plus à l'état réel.
+    Avec l'habitude, atteindre directement le niveau profond.
+
+# ═══════════════════════════════════════════════════
+# LES 3 MÉTHODES PRINCIPALES
+# ═══════════════════════════════════════════════════
+
+trois_methodes:
+  methode_1:
+    objet: répartition du Yin/Yang dans le corps
+    application: >
+      TOUJOURS en premier. Pratiquement toutes les pathologies
+      sont issues d'un trouble YY. Traiter celui-ci résout
+      la plupart des problèmes.
+    correspondance: >
+      Concordance des mouvements de l'énergie organique avec
+      les grandes circulations cosmiques: soleil (6 mois Yang/Yin),
+      lune (montante Yang / descendante Yin), constellations.
+  methode_2:
+    objet: équilibre sang/énergie dans chaque organe/viscère
+    application: >
+      Complète un des principes YY. Donne une idée du rapport
+      individu/saisons.
+  methode_3:
+    objet: nature des troubles (28 formes de pouls pathologiques)
+    application: >
+      Nature des énergies agressantes: froid, chaleur,
+      humidité, sécheresse, vent.
+
+# ═══════════════════════════════════════════════════
+# 1er PRINCIPE — GAUCHE / DROITE
+# ═══════════════════════════════════════════════════
+
+premier_principe:
+  objet: "équilibre YY entre gauche et droite du corps"
+  fondement_astronomique: >
+    L'Homme face au Sud (position de référence chinoise).
+    Le matin (Est→Sud), Yang montant irradie le côté gauche.
+    L'après-midi (Sud→Ouest), Yin croissant domine à droite.
+    Le matin prépare la synthétisation du Yang (midi).
+    Le soir prépare la synthétisation du Yin (minuit).
+
+  correspondances:
+    gauche:
+      polarite: Yang
+      energie: dominante
+      pouls: poignet gauche = mesure du Yang, de l'énergie
+      mouvement: "énergie sort des profondeurs → surface, méridiens"
+    droite:
+      polarite: Yin
+      sang: dominant
+      pouls: poignet droit = mesure du Yin, du sang
+      mouvement: "énergie reflue de surface → profondeur"
+
+  normalite:
+    homme: "pouls gauche légèrement plus fort (plus d'énergie que de sang = Yang)"
+    femme: "pouls droit légèrement plus fort (plus de sang que d'énergie = Yin)"
+
+  synthese: >
+    Comparaison puissance pulsative et volume entre les 2
+    poignets → normalité ou déséquilibre sang/énergie
+    entre gauche et droite.
+
+  nuit_et_synthese_yin: >
+    Durant la nuit, l'Homme est couché. Synthétisation
+    surface/profondeur. Montée en puissance étoiles/lune
+    dynamise l'énergie dans les zones organiques. Le sang
+    rejoint les organes et le Yin y est synthétisé.
+    Aucune nuit n'est identique selon les quartiers de lune.
+
+# ═══════════════════════════════════════════════════
+# 2ème PRINCIPE — SUPERFICIE / PROFONDEUR
+# ═══════════════════════════════════════════════════
+
+deuxieme_principe:
+  objet: "équilibre YY entre surface (externe) et profondeur (interne)"
+
+  correspondances:
+    superficiel:
+      polarite: Yang
+      represents: énergie
+    profond:
+      polarite: Yin
+      represents: sang
+
+  poignet_gauche:
+    objet: "l'externe, le système locomoteur, les méridiens"
+    superficie: "énergie externe (méridiens)"
+    profondeur: "sang externe (méridiens)"
+
+  poignet_droit:
+    objet: "l'interne, le système organique"
+    superficie: "énergie interne (organique)"
+    profondeur: "sang interne (organique)"
+
+  synthese_2_principes: >
+    Poignet gauche → similitude côté gauche et totalité
+    de la superficie (locomoteur, méridiens).
+    Poignet droit → similitude côté droit et totalité
+    de la profondeur (organes, foyers).
+    Superficie = haut du corps = énergie.
+    Profondeur = bas du corps = sang.
+
+  exemple: >
+    Poignet gauche très fort en superficie = pathologie Yang,
+    énergie en excès, à gauche ou en superficie (méridiens).
+    Poignet droit trop fort en profondeur = excès de sang
+    dans les organes ou à droite du corps.
+
+# ═══════════════════════════════════════════════════
+# 3ème PRINCIPE — 3 SECTEURS (HAUT / BAS / FOYERS)
+# ═══════════════════════════════════════════════════
+
+troisieme_principe:
+  objet: "équilibre YY entre haut et bas du corps + 3 foyers organiques"
+
+  secteurs:
+    I:
+      position: base du pouce (le plus éloigné du centre)
+      doigt: index
+      correspondance: Yang, haut du corps (MS + tête)
+      foyer: "supérieur — sphère cardio-respiratoire (au-dessus diaphragme)"
+    II:
+      position: milieu (styloïde radiale)
+      doigt: majeur
+      correspondance: Homme, tronc (clavicules → pubis)
+      foyer: "moyen — sphère digestive (sous diaphragme)"
+    III:
+      position: vers le coude
+      doigt: annulaire
+      correspondance: Yin, bas du corps (MI + sexe)
+      foyer: "inférieur — sphère uro-génitale"
+
+  regle_eloignement: >
+    Plus on s'éloigne du centre du corps, plus on va vers
+    le Yang (secteur I) et inversement (secteur III).
+
+  prise_medicale: >
+    Prendre chaque niveau au niveau médian (entre superficie
+    et profondeur). Comparer gauche et droite pour connaître
+    l'équilibre YY de chaque foyer.
+    Gauche = Yang-énergie du foyer.
+    Droite = Yin-sang du foyer.
+
+  synthese_3_principes: >
+    Les 3 prises correspondent aux 3 directions spatiales.
+    Ensemble → carte énergétique complète du corps dans
+    le volume (sagital, frontal, horizontal).
+
+  exemple_complet: >
+    Pouls trop fort à gauche (1er P), en superficie (2ème P),
+    dans le secteur III (3ème P) = Yang-énergie en excès
+    dans un méridien du bas du corps à gauche = ex: cystite.
+
+# ═══════════════════════════════════════════════════
+# 4ème PRINCIPE — 6 ÉNERGIES
+# ═══════════════════════════════════════════════════
+
+quatrieme_principe:
+  objet: >
+    Activité des grandes fonctions énergétiques de l'organisme
+    et leurs relations avec les 5 Palais célestes.
+    Application du traité des 6 énergies (3 Yin et 3 Yang).
+
+  six_energies_du_ciel:
+    explication: >
+      Le Ciel se manifeste par YY: froid (Yin) et chaleur (Yang).
+      Sur Terre, les manifestations sont plus variées. Les Chinois
+      subdivisent en 3+3 incluant les premières:
+    yin:
+      principales: froid
+      secondaires: "humidité et vent (nés du froid)"
+    yang:
+      principales: chaleur
+      secondaires: "feu et sécheresse (nés de la chaleur)"
+
+  six_activites_physiologiques:
+    tae_yang:
+      organes: "vessie + intestin grêle"
+      poignet: gauche
+      niveau: superficiel
+      energie_celeste: froid
+    chao_yang:
+      organes: "vésicule biliaire + triple réchauffeur"
+      poignet: gauche
+      niveau: moyen
+      energie_celeste: feu
+    yang_ming:
+      organes: "estomac + gros intestin"
+      poignet: gauche
+      niveau: profond
+      energie_celeste: sécheresse
+    tae_yin:
+      organes: "rate + poumon"
+      poignet: droit
+      niveau: superficiel
+      energie_celeste: humidité
+    tsiue_yin:
+      organes: "foie + maître du cœur"
+      poignet: droit
+      niveau: moyen
+      energie_celeste: vent
+    chao_yin:
+      organes: "rein + cœur"
+      poignet: droit
+      niveau: profond
+      energie_celeste: chaleur
+
+  tableau_synthese:
+    gauche:
+      superficiel: "TAE YANG (froid) — V + IG"
+      moyen: "CHAO YANG (feu) — VB + TR"
+      profond: "YANG MING (sec) — E + GI"
+    droite:
+      superficiel: "TAE YIN (humide) — Rte + P"
+      moyen: "TSIUE YIN (vent) — F + MC"
+      profond: "CHAO YIN (chaleur) — R + C"
+
+  integration_organisme: >
+    L'organisme reçoit sans cesse les 6 énergies du Ciel,
+    les intègre, les mêle à ses propres énergies dans les
+    activités physiologiques et les tissus. Chaque énergie
+    correspond à un niveau du pouls.
+
+# ═══════════════════════════════════════════════════
+# POULS DANS LES CAS PRATIQUES — ENSEIGNEMENTS
+# ═══════════════════════════════════════════════════
+
+enseignements_cas_pratiques:
+  contradiction_questionnaire_pouls: >
+    Fréquent chez les migraineux. Quand questionnaire et
+    pouls se contredisent → penser blocage YY EN PREMIER.
+    La prise de médicaments peut fausser le terrain et les
+    pouls (cas Monique 2).
+  pouls_vide_deux_sens: >
+    Un pouls vide peut signifier 2 choses: soit l'organe
+    est vide, soit il est BLOQUÉ (énergie ne circule plus,
+    pouls apparaît vide mais organe en plénitude).
+  visceres_pleins: >
+    Attention aux viscères dont le pouls est plein — ce peut
+    être le contenu (ex: V pleine ou E plein après un repas)
+    et non l'énergie.
+  verification_dynamique: >
+    Après chaque point posé, reprendre les pouls pour
+    vérifier l'effet. La modification peut être immédiate.
+    Ex: après 20VB d, le pouls VB apparaît en surface
+    (la dispersion a fait recirculer le Yang bloqué).
+  pouls_francais: >
+    Le pouls du poignet gauche est souvent faible chez
+    les Français, sauf en régions à forte énergie (chaleur
+    du sud, iode en littoral, air en altitude). Si faible,
+    commencer par le poignet droit.

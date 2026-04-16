@@ -1,0 +1,441 @@
+# CYCLES TCHENG, KO, RAE PATHOLOGIQUES — 5 MALADIES MMM
+# Source : PVII 5 Éléments tome 4, pp. 37-54
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_pathologies_cycles.yaml
+  source: PVII_5E_t4_p37_54
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_pathologies_traitement.yaml
+    - THEORIE/cinq_elements_pathologies_bilan.yaml
+
+# =======================================================
+# DESEQUILIBRES DU CYCLE TCHENG
+# =======================================================
+desequilibres_tcheng:
+  titre: Les déséquilibres énergétiques du cycle Tcheng
+  principe: >
+    Par la transmission de l'énergie selon le cycle tcheng,
+    tout déséquilibre d'un élément retentit sur les autres.
+  loi_generale: >
+    "Le vide provient toujours de l'arrière, de la mère.
+    La plénitude provient toujours de l'avant, du fils."
+  vide:
+    mecanisme: >
+      La mère ne nourrit pas son fils, par son propre vide
+      ou par blocage de la circulation mère/fils.
+    signes: >
+      Les signes pathologiques sont plus apparents sur
+      l'élément considéré (le fils) que sur sa mère.
+    cause_primaire: vide_de_la_mere_entrainant_celui_du_fils
+  plenitude:
+    mecanisme: >
+      Le fils refuse l'énergie de sa mère car il est déjà
+      en plénitude. Il régurgite ou refuse. La mère ne
+      pouvant se vider est à son tour en plénitude,
+      pouvant déclencher un cycle ko pathologique.
+    signes: >
+      Les signes sont plus marqués sur la mère dont la
+      plénitude est secondaire à celle du fils.
+    cause_primaire: blocage_ou_plenitude_du_fils
+  exception: >
+    La mère d'un élément vide peut très bien être en
+    plénitude, et le fils d'un élément plein être vide.
+    Un organe peut conserver son énergie sans la
+    transmettre. Il faut une autorité de tutelle :
+    le cycle ko.
+  principe_traitement:
+    vide: tonifier_la_mere
+    plenitude: disperser_le_fils
+  source: PVII-t4-p37_38
+
+# =======================================================
+# DESEQUILIBRES DU CYCLE KO
+# =======================================================
+desequilibres_ko:
+  titre: Les déséquilibres énergétiques du cycle Ko
+  causes_possibles:
+    - energie_saison_en_exces_ou_insuffisance
+    - energie_inappropriee_a_la_saison
+    - mauvaise_alimentation
+    - choc_emotionnel_ou_psychique_prolonge
+  double_regle:
+    titre: La double règle du cycle Ko pathologique
+    note: >
+      Met toujours en jeu TROIS éléments, pouvant déborder
+      en dérèglement secondaire sur les deux autres.
+
+    premiere_regle:
+      titre: La grand-mère contrôle — excès d'un élément
+      conditions:
+        A: petit_fils_trop_faible
+        B: grand_mere_trop_forte
+      resultat: >
+        La grand-mère attaque son petit-fils.
+        Son énergie se déverse abusivement dans le petit-fils.
+        Or un élément ne peut recevoir d'énergie que de sa mère,
+        toute autre énergie lui est nocive.
+      enchainement:
+        1: grand_mere_conserve_energie_cycle_tcheng_interrompu
+        2: fils_de_grand_mere_non_alimente_s_affaiblit
+        3: petit_fils_faible_conserve_son_energie_pour_se_defendre
+        4: fils_du_petit_fils_affaibli_ne_controle_plus_grand_mere_par_ko
+        5: grand_mere_liberee_de_toute_temperance_peut_detruire
+      quatre_causes:
+        1: >
+          L'élément qui contrôle la grand-mère était
+          préalablement faible (pas de tempérance ko).
+        2: >
+          Ce même élément, fils du petit-fils, était faible
+          car sa mère (petit-fils) était préalablement faible.
+        3: le_petit_fils_est_naturellement_trop_faible
+        4: la_grand_mere_est_naturellement_trop_forte
+      exemple: >
+        Bois=grand-mère, Terre=petit-fils, Métal=contrôleur.
+        Le Bois attaque la Terre, le Métal ne peut plus
+        tempérer le Bois.
+
+    deuxieme_regle:
+      titre: La grand-mère est contrôlée — faiblesse d'un élément
+      conditions:
+        A: grand_mere_trop_faible
+        B: petit_fils_trop_fort
+      resultat: >
+        Plus de contrôle, le petit-fils s'emballe en
+        provoquant une dysharmonie dans les 5 éléments.
+        Son énergie se déverse dans SON petit-fils (cycle ko).
+      enchainement:
+        1: petit_fils_conserve_energie_cycle_tcheng_interrompu
+        2: fils_du_petit_fils_non_alimente_s_affaiblit
+        3: petit_fils_du_petit_fils_se_defend_et_ne_transmet_plus
+        4: grand_mere_encore_plus_affaiblie
+        5: petit_fils_libere_de_toute_temperance
+      quatre_causes:
+        1: >
+          L'élément qui contrôle la grand-mère était
+          lui-même faible, pas de stimulation ko.
+        2: >
+          Ce même élément, fils du petit-fils, était faible
+          car sa mère (petit-fils) conservait son énergie.
+        3: le_petit_fils_est_initialement_trop_fort
+        4: la_grand_mere_est_initialement_trop_faible
+
+  recapitulatif:
+    physiologie_normale:
+      grand_mere:
+        - soutient_petit_fils_trop_faible
+        - tempere_petit_fils_trop_fort
+      petit_fils:
+        - tempere_par_grand_mere_si_trop_actif
+        - stimule_par_grand_mere_si_pas_assez_actif
+    physiologie_dereglee:
+      grand_mere:
+        - attaque_petit_fils_quand_trop_forte
+        - se_fait_attaquer_quand_trop_faible
+      petit_fils:
+        - se_fait_attaquer_quand_trop_faible
+        - attaque_mere_de_grand_mere_quand_trop_fort
+    conclusion: >
+      Lorsqu'une attaque s'enclenche, le cycle ko
+      devient destructeur et perd son rôle de tempérance.
+  source: PVII-t4-p38_41
+
+# =======================================================
+# CYCLE RAE
+# =======================================================
+cycle_rae:
+  titre: Le cycle Raé — révolte et insulte mutuelle
+  definition: >
+    Inversion du sens des flèches du cycle ko.
+    Les petits-enfants se retournent contre l'autorité
+    des grands-parents.
+  prolongement_1ere_regle: >
+    L'excès de la grand-mère peut aussi bien attaquer
+    son petit-fils (ko) ET sa propre grand-mère (raé).
+    Exemple : Bois en excès attaque Terre ET Métal.
+  prolongement_2eme_regle: >
+    L'excès du petit-fils peut attaquer son propre
+    petit-fils (ko) ET sa propre grand-mère (raé).
+    Exemple : Terre en excès attaque Eau ET Bois.
+  gravite:
+    ko_normal: >
+      Cycle abusif mais qui reste physiologique.
+      L'affection ne sera pas grave.
+    rae: >
+      Grave car le sens physiologique de l'énergie
+      est inversé.
+  source: PVII-t4-p42_43
+
+# =======================================================
+# COUR IMPERIALE PATHOLOGIQUE
+# =======================================================
+cour_imperiale_pathologique:
+  titre: La Cour Impériale — pathologies de l'Empereur de la saison
+  physiologie_imperiale:
+    principe: >
+      Les pathologies les plus graves se situent toujours
+      lorsque l'empereur d'une saison est dans un
+      engrenage de pathologie, car seul l'empereur peut
+      synthétiser l'énergie tsing de la saison pour la
+      thésauriser dans Ming Menn.
+    rythmes_autres: >
+      Les Chinois n'ont retenu que les pathologies liées
+      à l'empereur de la saison, mais les pathologies peuvent
+      toucher tous les éléments selon des rythmes de 2h,
+      jour, hou (5 jours), mois, saison, année.
+    praticien_moderne: >
+      Ne doit pas ignorer les pathologies hors saison,
+      surtout sentimentales et psychiques, totalement
+      ignorées des Chinois de l'époque.
+  correspondances:
+    Empereur: element_et_organe_de_la_saison
+    Fils: sans_changement
+    Mere: sans_changement
+    Ennemi_vaincu: petit_fils_de_empereur
+    Conseiller: grand_mere_de_empereur
+
+  pathologies_ordinaires:
+    titre: Maladie par victoire — pas grave
+    conditions:
+      - empereur_garde_energie_blocage_tcheng
+      - empereur_attaque_ennemi_vaincu_ko
+      - empereur_se_retourne_sur_conseiller_rae
+    gravite: >
+      Pathologies ordinaires, cessent en fin de saison.
+      Maladies par plénitude.
+    nom: la_maladie_par_victoire
+
+  pathologies_graves:
+    titre: Maladie par défaite — grave
+    conditions:
+      - conseiller_attaque_empereur_trop_faible_ko
+      - ennemi_attaque_empereur_rae
+      - fils_se_retourne_contre_empereur_tcheng_inverse
+    gravite: >
+      Toutes graves car l'empereur ne peut synthétiser
+      l'énergie de l'année.
+    nom: la_maladie_par_defaite
+
+  recidives:
+    deux_saisons_apres: >
+      L'empereur qui a attaqué (victoire) se retrouve
+      en position de conseiller 2 saisons après.
+      La victoire peut devenir défaite pour le nouvel
+      empereur.
+    trois_saisons_apres: >
+      L'empereur se retrouve en position d'ennemi vaincu.
+      Son ennemi se retourne à nouveau = récidive = défaite.
+    vide_apres_victoire: >
+      Un défaite originelle peut récidiver en victoire
+      2-3 saisons après. Bien que théoriquement pas
+      grave, l'issue peut être mortelle.
+    exemple_clinique: >
+      Pathologie par vide du coeur en automne/hiver
+      (hypotension, infarctus) : celles non graves à
+      cette saison peuvent devenir mortelles l'été suivant.
+      L'acupuncture = médecine préventive.
+    annee_suivante: >
+      Si l'empereur épuisé se retrouve à nouveau empereur
+      l'année suivante, le risque est majeur.
+    Kan_et_Che: >
+      Récidive tous les 5 ans (mouvement) ou 6 ans
+      (énergie), voire 30 ans, avec pronostic vital.
+  gravite_organes_vitaux:
+    plus_graves: [coeur, poumon, rein]
+    elements: [Feu, Metal, Eau]
+  source: PVII-t4-p43_47
+
+# =======================================================
+# 5 MALADIES DE MISHI MESA MISHISAWA (MMM)
+# =======================================================
+cinq_maladies_MMM:
+  titre: Loi générale des traitements — les 5 maladies de MMM
+  auteur: >
+    Mishi Mesa Mishisawa, grand Maître qui a simplifié
+    tous les principes des maladies des 5 éléments.
+  restriction: >
+    MMM ne tient compte que de la règle générale
+    d'apparition au moment de la saison. Il ignore
+    la possibilité d'une pathologie à tout moment.
+  tableau:
+    maladie_veritable:
+      cause: lui_meme_sans_dereglement_autre
+      traitement: >
+        Disperser fils ou point fils (excès).
+        Tonifier mère ou point mère (insuffisance).
+        Le point penn peut être fait en sus.
+    maladie_par_vide:
+      cause: mere_vide_n_a_pas_alimente_empereur
+      traitement: >
+        Tonifier la mère par son point penn (tonifiant
+        à ce moment) ou tonifier le point mère de
+        l'empereur.
+      limites_MMM: >
+        Ne tient pas compte d'un possible blocage tcheng,
+        ni d'un ko/raé sur la mère, ni du vide en cascade.
+    maladie_par_plenitude:
+      cause: fils_en_exces_refuse_energie
+      traitement: >
+        Disperser le fils ou le point fils de l'empereur.
+      limites_MMM: >
+        Ne tient pas compte d'un blocage tcheng vers
+        le fils, ni d'un ko/raé sur le fils.
+    maladie_par_victoire:
+      cause: empereur_puissant_attaque_ennemi_ou_conseiller
+      traitement: >
+        Disperser l'attaquant dans l'attaqué = disperser
+        le point représentant l'élément empereur dans
+        l'attaqué.
+      complement: >
+        En sus : disperser l'empereur, tonifier l'attaqué,
+        tonifier le conseiller pour tempérer.
+    maladie_par_defaite:
+      cause: empereur_faible_se_fait_attaquer
+      traitement: >
+        Disperser l'attaquant dans l'attaqué = disperser
+        le point représentant l'attaquant dans l'empereur.
+      complement: >
+        En sus : disperser l'attaquant, tonifier l'empereur
+        par lui-même et/ou sa mère.
+  critique_IEATC: >
+    MMM tient compte uniquement de l'effet et non de la cause.
+    Pour une efficacité réelle, agir sur tous les éléments
+    nécessaires, toujours trois, dans le sens qu'il convient.
+    La notion de "disperser l'attaquant dans l'attaqué"
+    est cependant essentielle.
+  source: PVII-t4-p47_49
+
+# =======================================================
+# DEBLOCAGE DU CYCLE TCHENG
+# =======================================================
+deblocage_tcheng:
+  titre: Débloquer le cycle Tcheng
+  principe: >
+    Tout élément déséquilibré par un cycle ko se bloque
+    et interrompt la circulation du cycle tcheng.
+    Les 3 éléments en cause (empereur, conseiller, ennemi)
+    se bloquent et n'assurent plus la transmission.
+  renvoi: palpation_abdominale_points_deblocage
+  source: PVII-t4-p49
+
+# =======================================================
+# TRAITEMENT KO PAR VICTOIRE
+# =======================================================
+traitement_ko_victoire:
+  titre: Traiter et enrayer un cycle Ko par victoire
+  methode:
+    1: disperser_point_penn_et_ou_point_fils_de_attaquant
+    2: disperser_attaque_dans_attaque
+    3: tonifier_attaque_par_penn_et_ou_point_mere
+    4: tonifier_conseiller_pour_dominer_par_ko
+  exemple_Terre_en_exces_attaque_Eau:
+    disperser_fils_attaquant: 5Rte_d
+    disperser_attaquant_dans_attaque: 3R_d
+    tonifier_attaque_par_penn: 10R_t
+    tonifier_Bois_pour_dominer_Terre: 1F_t
+  source: PVII-t4-p50
+
+# =======================================================
+# TRAITEMENT KO/RAE PAR DEFAITE
+# =======================================================
+traitement_ko_defaite:
+  titre: Traiter un cycle Ko ou Raé par défaite
+  methode:
+    1: tonifier_attaque_par_point_mere_et_ou_penn
+    2: disperser_attaquant_dans_attaque
+    3: disperser_attaquant_par_point_fils_et_ou_penn
+    4: tonifier_fils_de_attaque_pour_controler_attaquant_par_ko
+  exemple_Feu_vide_attaque_par_Eau:
+    disperser_attaquant_dans_attaque: 3C_d
+    tonifier_Feu_point_mere_ou_penn: 9C_t_ou_8C_t
+    disperser_attaquant_par_penn: 10R_d
+    disperser_attaquant_vers_fils: 1R_d
+    tonifier_dominant_de_attaquant: 3Rte_t_ou_9Rte_t_ou_8C_t_ou_2Rte_t
+  source: PVII-t4-p50
+
+# =======================================================
+# CYCLE KO SELON SO OUEN
+# =======================================================
+so_ouen_ko:
+  titre: Cycle Ko et Raé selon So Ouen
+  contexte: >
+    Les principes précédents sont assez récents
+    (quelques siècles) et ne correspondent pas à la
+    formulation de So Ouen. Ils mettent en cause 2
+    éléments. So Ouen énonce des lois différentes.
+
+  plenitude_attaque_2_elements:
+    loi: >
+      Un élément en plénitude attaque TOUJOURS 2 éléments :
+      l'ennemi vaincu ET le conseiller à la cour.
+    evolution:
+      1_rae: >
+        D'abord le conseiller (déjà faible, ne tempère
+        plus) est attaqué = cycle raé.
+      2_ko: >
+        Puis l'ennemi vaincu est attaqué en toute
+        tranquillité = cycle ko.
+    consequence: >
+      Les 3 éléments se bloquent. Aucun ne transmet
+      plus d'énergie à son fils. Le cycle tcheng est
+      totalement interrompu.
+    premier_principe: >
+      "Si l'énergie correcte circule librement,
+      elle balaye la maladie."
+    exemple_Feu_attaque:
+      elements: Feu_attaque_Eau_puis_Metal
+      Yang_attaque_Yin: >
+        Le Yang (Feu) attaque les deux éléments Yin
+        par l'intermédiaire des éléments.
+
+  traitement_plenitude:
+    principe: >
+      Pour enrayer, rétablir le cycle tcheng en dispersant
+      le point fils des 3 éléments bloqués.
+    methode: >
+      Disperser dans chacun des 3 éléments bloqués le
+      point penn de leur élément fils respectif.
+    exemple_Feu_attaque_Eau_Metal:
+      ordre:
+        1_empereur: 7C_d
+        2_conseiller: 1R_d
+        3_ennemi: 5P_d
+    suffisance: >
+      Ce traitement est réputé par So Ouen pour suffire
+      à rétablir la normalité.
+
+  vide_se_fait_attaquer_par_2:
+    loi: >
+      Un élément vide se fait TOUJOURS attaquer par
+      2 éléments : l'ennemi vaincu ET le conseiller.
+    evolution:
+      1_ko: >
+        D'abord le conseiller attaque l'empereur déjà
+        faible = cycle ko.
+      2_rae: >
+        Puis l'ennemi vaincu profite de la situation
+        = cycle raé.
+    consequence: >
+      Même blocage des 3 éléments. Cycle tcheng
+      totalement interrompu.
+
+  traitement_vide:
+    principe: >
+      Disperser les 3 éléments bloqués (comme plénitude)
+      PLUS tonifier la mère de l'empereur.
+    methode: >
+      Disperser point fils des 3 bloqués + tonifier
+      point penn de la mère de l'empereur.
+    exemple_Feu_attaque_par_Eau_Metal:
+      ordre:
+        1_empereur: 7C_d
+        2_conseiller: 1R_d
+        3_ennemi: 5P_d
+        4_mere_empereur: 1F_t
+    traitement_complet: >
+      Cause (vide de la mère) + déblocage = traitement
+      complet.
+
+  source: PVII-t4-p51_54

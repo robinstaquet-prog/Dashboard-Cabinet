@@ -1,0 +1,93 @@
+# RÔLE GÉNÉRAL DES FOU
+# Source : PVI Physiologie tome 1, pp. 46-49
+# Auteur : Thierry Bollet
+
+meta:
+  fichier: role_general_fou.yaml
+  source: PVI_Physio_t1_p46_49
+  statut: complet
+  liens:
+    - ZANG_FU/role_general_tsang.yaml
+    - THEORIE/tsang_fou_physiologie_t1.yaml
+
+definition:
+  traduction_centripete: Atelier
+  traduction_centrifuge: Ouvrier
+  nature: Yang_externe
+  physiologie_cle: actifs_quand_pleins_repos_quand_vides
+  source: PVI-t1-p46_47
+
+fonctions_generales:
+  comme_les_3F:
+    - Recevoir
+    - Transformer
+    - Assimiler
+    - Transmettre
+    - Eliminer
+  these_fonctions_etendues_a: chaque_fou_son_meridien_et_son_axe
+  source: PVI-t1-p46
+
+sens_centripete:
+  nom: l_Atelier
+  matiere_premiere_traitee: [energie_iong, energies_externes_des_meridiens, impacts_affectifs_et_psychiques]
+  role_Yang_general: couvrir_et_proteger_le_Yin_le_tsang_couplé
+  application_emotions: >
+    C'est ainsi que l'ESTOMAC est le garant de la SÉRÉNITÉ.
+    Le fou couvre les émotions pour le tsang.
+  relation_de_commande: >
+    Le fou travaille toujours aux ORDRES du tsang.
+    Le tsang fournit au fou l'énergie de sa fonction.
+  processus_identification:
+    1: reconnait_dans_iong_la_TSING_etiquetee_par_la_Rate_pour_son_tsang
+    2: discernement_selon_gout_des_5_elements_propre_au_fou
+    3: capte_cette_tsing_dans_iong_circulant
+    4: filtre_et_adapte_selon_gout_du_tsang
+    5: transmet_au_tsang_couple
+  precision_C004_resolue: >
+    Confirmé par praticien (2026-04-05) : la Tsing de chaque
+    Tsang est présente dans l'Iong partout. C'est la Rate
+    qui étiquette chaque Tsing pour son destinataire.
+    Le Fou couplé CAPTE dans l'Iong la Tsing étiquetée
+    pour son Tsang et la lui transmet.
+  note_yuan: >
+    Analogue au point Yuan des méridiens Yang :
+    "adapter l'énergie externe selon le goût du tsang et l'intégrer dans iong"
+  source: PVI-t1-p47
+
+sens_centrifuge:
+  nom: l_Ouvrier
+  fonctions:
+    elimination: >
+      Collecte les énergies impures du tsang couplé pour les éliminer.
+      Mais d'abord utilisation rationnelle avant élimination :
+      - urines → thermorégulation
+      - bile → digestion et péristaltisme
+      - sucs gastriques → digestion
+    moteur_expression_tsang: >
+      Dynamise la circulation de l'énergie que le tsang émet.
+      Concourt à ses manifestations externes.
+    exemples:
+      VB_foie: >
+        Foie nourrit les muscles → VB est le vecteur de cette nutrition.
+        Foie émet énergie colère → VB permet manifestation externe.
+        Si VB faible : colère reste intériorisée et s'accumule.
+      VB_Roun: >
+        Foie est racine du Roun → VB inscrit cette faculté dans activité mentale.
+        Sans VB : sujet apte à produire un plan mais ne le met pas en place.
+    tonus_yang:
+      determine:
+        - tonus_musculaire_et_qualite_contractile
+        - fermete_du_squelette
+        - qualite_soyeuse_peau_resistance_elasticite
+        - fluidite_systeme_arterio_veineux
+        - tonicite_des_chairs_opposé_graisses_et_cellulite
+      note: les_tsang_apportent_l_energie_qui_nourrit_ces_tissus
+  source: PVI-t1-p48
+
+pathologie_vide_du_fou:
+  implication: >
+    La paresse d'un foie, la fatigue des reins, l'insuffisance
+    du poumon, etc. peuvent provenir d'un VIDE D'ÉNERGIE (Yang)
+    du fou couplé — ce qui est FRÉQUENT.
+  indication: tonifier_le_fou_avant_ou_en_meme_temps_que_le_tsang
+  source: PVI-t1-p48

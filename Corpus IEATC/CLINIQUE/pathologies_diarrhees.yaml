@@ -1,0 +1,188 @@
+# PATHOLOGIES — LES DIARRHÉES (XIE XIE)
+# Source : Polycopié VI, Série EEA tome 3 — Séminaire 12 décembre 1982
+# Auteurs : Dr Schatz, Elisabeth Rochas de la Vallée
+# 6 tableaux cliniques complets avec symptômes et traitements
+
+meta:
+  fichier: pathologies_diarrhees.yaml
+  source: PVI_EEA_t3
+  auteurs: [Schatz, Rochas_de_la_Vallee]
+  statut: complet
+  liens:
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/gros_intestin.yaml
+    - ZANG_FU/intestin_grele.yaml
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/rein.yaml
+
+# =============================================================================
+# ÉTYMOLOGIE
+# =============================================================================
+
+etymologie:
+  xie_xie: >
+    XIE XIE — signifie en chinois classique "faire s'écouler". L'idée d'un liquide
+    qui se répand, d'un certain rejet. Les deux idéogrammes ensemble donnent "diarrhée".
+    Dans les deux cas, il y a l'élément Eau. C'est l'idéogramme classique de la dispersion
+    en contraposition avec la tonification.
+  source: PVI-t3-p42
+
+# =============================================================================
+# TABLEAU 1 — FROID ATTAQUE RTE/E
+# =============================================================================
+
+tableau_1:
+  titre: Rte_et_E_recoivent_le_froid
+  mecanisme: >
+    Les Transports (YUN) et Transformations (HUA) sont déficients. Les régions du centre
+    (E/Rte) ne commandent plus aux réchauffements et aux transports. Les Souffles du F
+    viennent à la place — diarrhées dues au froid. La Rte aime particulièrement la tiédeur.
+  symptomes:
+    - ventre_douloureux_sans_autre_cause
+    - matieres_claires_et_froides_excrements_de_canard
+    - ni_malaise_ni_soif
+    - urines_claires
+  note_diagnostique: diarrhees_spontanees_dues_au_coup_de_froid_blocage_metabolique_sans_douleurs_prealables
+  traitement:
+    principe: rechauffer_et_diffuser_le_froid
+    points:
+      - V25_moxa: Iu_de_GI
+      - E25: Mo_de_GI
+      - VC12: Mo_de_E_rechauffer_Yang_de_Rte
+      - VC6: action_sur_Souffles_chasse_le_froid
+  source: PVI-t3-p42_43
+
+# =============================================================================
+# TABLEAU 2 — CHALEUR DANS LE YANG MING
+# =============================================================================
+
+tableau_2:
+  titre: chaleur_accumule_dans_Yang_Ming
+  mecanisme: >
+    Les Souffles de la chaleur font des chevauchements à l'intérieur. Ils se réunissent
+    avec ceux de l'humidité. Le feu de l'E et des Intestins est ardent. Les sécrétions
+    de la chaleur s'évacuent vers le bas — brusques déversements.
+  symptomes:
+    - excrements_jaunes_rouges_chauds_sentent_tres_mauvais
+    - anus_brulant
+    - ventre_douloureux
+    - urine_ne_sort_pratiquement_plus
+    - enduit_langue_jaune
+    - pouls_rapide
+    - bouche_seche
+    - malaises
+  traitement:
+    principe: clarifier_et_faire_ecouler_la_chaleur
+    points:
+      - GI4: clarifie_fait_ecouler_chaleur_profonde_dans_GI
+      - E44_tonification: harmonise_E_disperse_chaleur_inflammation
+      - VC10: clarifie_intestins_fait_ecouler_chaleur
+  source: PVI-t3-p43
+
+# =============================================================================
+# TABLEAU 3 — HUMIDITÉ ATTAQUE RTE/E
+# =============================================================================
+
+tableau_3:
+  titre: humidite_en_exces_attaque_Rte_E
+  mecanisme: >
+    On est couché ou assis à l'humidité au petit matin, ou bien temps couvert avec
+    pluies qui durent longtemps. Les pervers de l'humidité envahissent l'intérieur.
+    Ou bien l'Eau et le Froid entrent et deviennent invités pathologiques de l'intestin.
+    L'humidité est vainqueur — diarrhées d'avoir été mouillé et trempé.
+  symptomes:
+    - ventre_non_douloureux
+    - poitrine_peu_encombree
+    - enduit_langue_blanc_et_gras
+    - pouls_imbibe_et_relache
+    - gros_besoin_semi_liquide
+  traitement:
+    principe: conduire_eaux_et_humidites_faire_sortir_petit_besoin
+    note: faire_fonctionner_petit_besoin_pour_plenifier_gros_besoin
+    points:
+      - VC9_moxa: conduit_eaux_et_humidites
+      - Rte9: conduit_eaux_et_humidites
+      - Rte4_disperse: point_lo_assure_transports_Rte
+      - V20_tonifie: tonifie_Terre_Iu_de_Rte
+  source: PVI-t3-p44
+
+# =============================================================================
+# TABLEAU 4 — ALIMENTATION DÉSORDONNÉE
+# =============================================================================
+
+tableau_4:
+  titre: apport_alimentaire_desordonne_Rte_E_perdent_transports
+  mecanisme: >
+    Blocage et accumulation, l'intestin a ses conductions désorganisées.
+    Rte et E perdent leur fonction de transport et transformation.
+  symptomes:
+    - ventre_douloureux
+    - envie_aller_aux_cabinets_douleur_moindre_apres
+    - respiration_difficile_assez_sec
+    - poussees_diarrheiques_sales_mauvaise_odeur
+    - gaz
+  traitement:
+    principe: assurer_transport_Souffles_montee_et_descente
+    points:
+      - VC21: transport_Souffles_descente_et_montee
+      - E36: transport_Souffles_descente_et_montee
+      - V21: harmonise_intestins_et_E
+      - V25: harmonise_intestins_et_E
+      - VC12_dispersion: met_ordre_au_niveau_Rate_point_strategique
+  source: PVI-t3-p44_45
+
+# =============================================================================
+# TABLEAU 5 — BOIS CHEVAUCHE TERRE (CYCLE DE MÉPRIS)
+# =============================================================================
+
+tableau_5:
+  titre: Souffles_E_Rte_en_decroissance_Bois_chevauche_Terre
+  mecanisme: >
+    Le Bois en profite pour chevaucher la Terre. Les Souffles du Vent vont entrer
+    à la Rte. L'E n'accomplit pas ses fonctions de putréfaction et de maturation.
+    Les aliments n'ont pratiquement pas été digérés (diarrhées "des repas", terme ancien).
+    Le Bois (élément équilibrant) écrase la Terre affaiblie — cycle de mépris.
+  symptomes:
+    - intestins_gargouillant
+    - ventre_douloureux
+    - digestion_ne_se_fait_pas
+  traitement:
+    principe: soutenir_Terre_affaiblir_Bois
+    points:
+      - V20_tonifie: soutenir_Terre
+      - V21_tonifie: soutenir_Terre
+      - E36_tonifie: soutenir_Terre
+      - F3_disperse: affaiblir_Bois
+      - F2_disperse: affaiblir_Bois
+  source: PVI-t3-p45
+
+# =============================================================================
+# TABLEAU 6 — YANG DE MING MEN DÉCROÎT
+# =============================================================================
+
+tableau_6:
+  titre: Yang_de_Ming_Men_decroit_Feu_nengendre_pas_Terre
+  mecanisme: >
+    Le R est la racine de ce qui est thésaurisé. Si le Yang authentique au milieu des R
+    décroît, le Réchauffeur Moyen perd la solidité de sa défense. Les Souffles Yang
+    ne peuvent plus stimuler — le Yin et le Froid sont vainqueurs. Le Feu de Ming Men
+    est affaibli, la zone du Réchauffeur Inférieur n'est pas assez réchauffée, elle
+    perd son pouvoir de retenir. Diarrhées surtout aux moments où les Souffles Yang
+    doivent monter en puissance (aube).
+  symptomes:
+    - diarrhees_au_petit_matin
+    - visage_noir
+    - besoin_semi_liquide
+    - ventre_peu_douloureux
+    - Shen_fatigues
+    - pouls_submerge_profond_fin
+    - diarrhees_qui_trainent_en_longueur
+  traitement:
+    principe: augmenter_Feu_engendrer_Terre
+    points:
+      - VG4: augmenter_Feu
+      - V23: augmenter_Feu
+      - VC4: tonifie_origine_R_separe_clair_trouble_mo_de_IG
+      - VG20_moxa: fait_monter_Souffles_Yang_E_Rte_atteint
+      - V20_tonifie: soutenir_Terre
+  source: PVI-t3-p45_46

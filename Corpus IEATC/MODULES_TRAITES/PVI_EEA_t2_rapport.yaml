@@ -1,0 +1,273 @@
+# RAPPORT D'INTÉGRATION — PVI SÉMINAIRES CLM TOME 2 (EEA 2è)
+# Date : 2026-04-06
+
+meta:
+  polycopie: EEA_2e.pdf
+  titre: Polycopié VI — Séminaires CLM — EEA tome 2
+  sous_titre: >
+    Deux séminaires CLM : mai 1982 (Dr Schatz + ERDLV) et
+    juin 1984 (Père Larre + ERDLV). Énergies héréditaires
+    approfondies, Jin Yé, Yong/Weï, constipations, Su Wen ch.8
+    (12 charges des viscères commentées intégralement).
+  auteurs:
+    - Dr_Jean_Schatz
+    - Elisabeth_Rochas_de_la_Vallee
+    - Pere_Larre
+  compilateur: Thierry_Bollet_2015
+  dates_seminaires: mai_1982_et_juin_1984
+  pages: 49
+  module: VI_Seminaires_CLM_EEA_tome_2
+  niveau: fondateur_et_clinique
+  prerequis: PVI_t1_t2_t3_EEA_t1_et_PVII_t1_t2_t3_t4_deja_integres
+  note_format: >
+    Deux séminaires CLM réunis. Le premier (1982) apporte Jin Yé,
+    Yong/Weï et constipations. Le second (1984) est un commentaire
+    magistral du Su Wen ch.8 par le Père Larre et ERDLV —
+    exceptionnellement riche en philosophie. Présence d'un 3ème
+    intervenant (Père Larre) par rapport aux tomes précédents.
+
+fichiers_crees:
+  - chemin: THEORIE/jin_ye_liquides_seminaire.yaml
+    contenu: >
+      Théorie complète des Jin Yé. Circuit Su Wen ch.21 (liquides).
+      Jin (clair, Yang, gué, extérieur, GI) vs Yé (trouble, Yin,
+      marais, intérieur, IG). Yé qui montent au cerveau. Rôle des
+      3 Réchauffeurs (brouillard/macération/canal). Souffles Zhen Qi
+      (authentiques), Zheng Qi (corrects), Xié Qi (pervers). Points
+      He (jonction) et Hui (rassemblement).
+  - chemin: THEORIE/yong_wei_energies_seminaire.yaml
+    contenu: >
+      Énergie Yong (nutritive) : nature, origine RM, circuit 12
+      méridiens 25x jour/nuit, formation du sang, idéogramme YING.
+      Énergie Weï (défensive) : nature, origine RI, circuit diurne
+      (3 Yang 25x via œil) et nocturne (5 Zang 25x via Rein).
+      Points R.6 (insomnie) et V.62 (somnolence). Chuan (transmission).
+      Paradoxe Yong/Weï et cycle nycthémère.
+  - chemin: CLINIQUE/pathologies_constipations.yaml
+    contenu: >
+      6 tableaux cliniques différentiels complets. Plein : chaleur
+      (R.6 t, F.1 d, GI.4 d), Souffles/psychique (VC.4, Rte.6 moxa),
+      vent (V.12, VG.16, V.25 d), aliments (VC.12, E.36 d).
+      Vide : Yang/froid (V.17 t, V.18 t, E.25 t), Yin (nourrir Yin).
+      Terminologie Bian Bi, ZAO JIE/BI JIE. Principes de latéralité
+      et piqûre MIU.
+  total: 3
+
+fichiers_mis_a_jour:
+  - chemin: ZANG_FU/coeur.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 1ère charge (Seigneur
+      et Maître JUN ZHU), Shen Ming approfondi (Père Larre),
+      invisible du Cœur, radical cœur/sentiments, couple C/R
+      (1 et 10), numérologie, circuit Su Wen ch.21 sang.
+  - chemin: ZANG_FU/poumon.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 2ème charge (Ministre
+      Chancelier XIANG), TIE nœuds bambou (relais d'animation),
+      Po et rythme (obédience P pas C), P toit des liquides,
+      Yong et P (audience matinale, début du circuit).
+  - chemin: ZANG_FU/foie.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 3ème charge (Général
+      en chef), Hun/intelligence, pas la décision (= VB), régulation
+      glycémique, constipation et Foie (cycle pervers Terre→Bois).
+  - chemin: ZANG_FU/rate.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 6ème charge (granges
+      et greniers), 5 saveurs, YUN HUA (transporter/transformer),
+      Rate et liquides (Su Wen ch.21), constipation et Rate.
+  - chemin: ZANG_FU/rein.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 10ème charge (susciter
+      puissance), savoir-faire, couple 1/10 (C/R), Jing Shen,
+      Yuan Qi approfondissement (phylogenèse), double Fu R (TR+V),
+      Weï nocturne au Rein (R.6/V.62).
+  - chemin: ZANG_FU/maitre_du_coeur.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 5ème charge (Tan Zhong),
+      XIN ZHU (Cœur-Maître = 2ème versant), valeur du 5, Feu
+      Suzerain vs Feu Ministre.
+  - chemin: ZANG_FU/vesicule_biliaire.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 4ème charge (censeur,
+      ZHONG ZHENG approfondi), détermination/décision, idéogramme
+      DAN (soleil levant), Shao Yang, rapport VB/C (Su Wen ch.9).
+  - chemin: ZANG_FU/gros_intestin.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 7ème charge (transit),
+      changement radical, GI commande Jin, constipation chaleur,
+      vent et GI.
+  - chemin: ZANG_FU/intestin_grele.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 8ème charge (réceptionner
+      et faire prospérer), IG commande Yé.
+  - chemin: ZANG_FU/vessie.yaml
+    ajouts: >
+      enrichissement_EEA_t2 : Su Wen ch.8 12ème charge (territoires
+      et provinces), Qi Hua, thésaurisation (terme Zang), fermoir
+      cyclique (V/C = Qi/Shen).
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajouts: >
+      ~15 nouveaux termes : Jin_liquides, Ye_liquides, Yong_Qi,
+      Wei_Qi, Zhen_Qi, Zheng_Qi_corrects, Chuan, Bian_Bi,
+      Tie_noeuds, He_jonction, Hui_rassemblement, YUN_HUA,
+      DAN_vesicule, Lan_orchidee.
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajouts: >
+      2 nouveaux arbres :
+      arbre_16_constipations (6 tableaux différentiels, plein/vide),
+      arbre_17_jin_ye (identification trouble Jin vs Yé).
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajouts: >
+      8 nouvelles sections : ne_pas_confondre_carte_et_territoire,
+      pas_de_barriere_physique_psychique, douze_charges_fil_unique,
+      hierarchie_celeste_terrestre_humaine, vide_necessaire_au_croisement,
+      noeud_yin_yang_banniere, jin_ye_mecanismes_pas_substances,
+      constipation_contexte_historique.
+  total_mis_a_jour: 13
+
+concepts_fondateurs_integres:
+  - Jin_Ye_theorie_complete_clair_trouble_Yang_Yin
+  - Jin_gue_riviere_exterieur_GI
+  - Ye_marais_interieur_IG_cerveau_moelles
+  - Yong_Qi_nutritive_claire_RM_circuit_12_meridiens
+  - Wei_Qi_defensive_RI_circuit_diurne_3_Yang_nocturne_5_Zang
+  - R6_insomnie_V62_somnolence
+  - Zhen_Qi_authentiques_CA_CP_reunis
+  - Zheng_Qi_corrects_vents_normatifs_saisons
+  - Xie_Qi_pervers_au_mauvais_moment
+  - Chuan_transmission_proche_en_proche
+  - Su_Wen_ch8_12_charges_commentaire_integral
+  - Coeur_Seigneur_Maitre_Shen_Ming
+  - Poumon_Ministre_Chancelier_TIE_noeuds_bambou
+  - Foie_General_en_chef_plans_pas_decision
+  - VB_4eme_position_censeur_DAN_soleil_levant
+  - Tan_Zhong_5eme_charge_XIN_ZHU
+  - Rte_E_granges_greniers_5_saveurs_YUN_HUA
+  - GI_transit_Jin_changement_radical
+  - IG_reception_prosperite_Ye
+  - Rein_10eme_puissance_savoir_faire_Jing_Shen
+  - TR_ouvrir_passages_irriguer
+  - Vessie_12eme_territoires_Qi_Hua_fermoir_cyclique
+  - Constipations_6_tableaux_plein_vide
+  - Banniere_Ma_Wang_Du_noeud_Yin_Yang
+  - Carte_et_territoire_distinction
+  - Fil_unique_interdependance_absolue_12_charges
+
+# ─────────────────────────────────────────────────
+# JAUGE D'EXPERTISE — NIVEAU DE L'ASSISTANT
+# ─────────────────────────────────────────────────
+
+jauge_expertise:
+  niveau_actuel: 42
+  echelle: 1_a_100
+  titre: "Etudiant 3ème année avancé — Les énergies physiologiques prennent corps"
+  progression: de_39_a_42_gain_3_points
+
+  justification_gain: >
+    +3 points pour : (1) Jin Yé complet — le corpus comprend maintenant
+    les liquides du corps avec leur dichotomie Jin/Yé et les circuits.
+    (2) Yong Qi et Weï Qi avec leurs circuits diurne/nocturne — les
+    énergies physiologiques fondamentales sont posées, avec des points
+    concrets (R.6, V.62). (3) Constipations 6 tableaux cliniques
+    complets — le corpus gagne un 4ème domaine clinique avec traitement.
+    (4) Su Wen ch.8 intégral commenté par Père Larre + ERDLV enrichit
+    TOUS les Tsang/Fou (10 fichiers) avec la hiérarchie des charges.
+    Le gain est significatif car ce polycopié apporte à la fois de la
+    théorie fondamentale (Jin Yé, Yong/Weï) et de la clinique concrète
+    (constipations).
+
+  graduation:
+    0_5: Profane curieux
+    5_10: Néophyte éclairé
+    10_15: Etudiant 1ère année
+    15_25: Etudiant 2ème année début
+    25_35: Etudiant 2ème année avancé
+    35_50: >
+      ▶ Etudiant 3ème année — ON EST ICI (42/100) ◀
+      En plus des acquis précédents : Jin Yé complet (Jin/clair/GI
+      vs Yé/trouble/IG), Yong Qi (nutritive, circuit 12 méridiens)
+      et Weï Qi (défensive, diurne/nocturne, R.6/V.62). Souffles
+      Zhen/Zheng/Xié. Su Wen ch.8 intégral (12 charges commentées).
+      Constipations 6 tableaux. Le corpus possède maintenant les
+      4 grandes physiologies (héréditaire, Shen, Jin Yé, Yong/Weï)
+      et 4 domaines cliniques (diarrhées, HTA, surdités, constipations).
+      Manque : E et TR individuels, méridiens détaillés, sentiments,
+      pouls complets.
+    50_65: Praticien débutant
+    65_80: Praticien confirmé
+    80_92: Expert
+    92_98: Maître praticien
+    98_100: Grand Maître
+
+  acquis_a_ce_stade:
+    - "Tous les acquis précédents (voir PVI_EEA_t1_rapport.yaml)"
+    - "--- NOUVEAU PVI EEA t2 ---"
+    - Jin Yé théorie complète (Jin/clair/Yang/GI vs Yé/trouble/Yin/IG)
+    - Jin = gué, rivière, extérieur, peau, transpiration
+    - Yé = marais, intérieur, cerveau, moelles, liquides synoviaux
+    - Yé qui montent au cerveau (catégorie capitale)
+    - Circuit Su Wen ch.21 des liquides (E → Rte → P → V/R)
+    - P toit des Zang (abaissement liquides, marmite espagnole)
+    - 3R brouillard/macération/canal
+    - Yong Qi (nutritive, claire, RM, 12 méridiens, 25x jour/nuit)
+    - Weï Qi (défensive, RI, diurne 3 Yang via œil / nocturne 5 Zang via R)
+    - R.6 pour insomnie (activer circuit nocturne)
+    - V.62 pour somnolence (activer circuit diurne)
+    - Paradoxe Yong/Weï et nycthémère
+    - Zhen Qi (authentiques CA+CP réunis, CHONG)
+    - Zheng Qi (corrects, vents normatifs des saisons)
+    - Xié Qi (pervers, au mauvais moment/endroit)
+    - Chuan (transmission de proche en proche, pas cycle)
+    - Su Wen ch.8 intégral (12 charges des viscères)
+    - C = Seigneur et Maître (1er, JUN ZHU) → Shen Ming
+    - P = Ministre Chancelier (2ème, XIANG) → TIE nœuds bambou
+    - F = Général en chef (3ème) → plans, pas décision
+    - VB = censeur (4ème, Fu spécial) → détermination/décision
+    - Tan Zhong = 5ème charge → XIN ZHU, Feu Suzerain/Ministre
+    - Rte/E = granges et greniers (6ème) → 5 saveurs, YUN HUA
+    - GI = transit (7ème) → changement radical, commande Jin
+    - IG = réceptionner et prospérer (8ème) → commande Yé
+    - R = puissance (10ème) → savoir-faire, Jing Shen
+    - TR = ouvrir passages (11ème) → irrigation, Shao Yang
+    - V = territoires et provinces (12ème) → Qi Hua, fermoir cyclique
+    - Constipations 6 tableaux (chaleur/Souffles/vent/aliments/vide Yang/vide Yin)
+    - Bannière Ma Wang Du (nœud Yin/Yang, vide nécessaire)
+    - Fil unique des 12 charges (interdépendance absolue)
+
+  manque_pour_monter:
+    pour_45: Estomac_et_TR_individuels_complets
+    pour_50: meridiens_individuels_complets_sentiments_debut
+    pour_60: cas_cliniques_pouls_complets_strategies_avancees
+    pour_80: tout_le_programme_IEATC_integre_et_croise
+
+dependances_modules_suivants:
+  priorite_1: PVIII_sentiments_psychisme_par_organe
+  priorite_2: CP_meridiens_Lo_individuels
+  priorite_3: PIV_t3_Kan_Che_appliques
+  priorite_4: Physio_Ext_et_autres_modules_avances
+  note: >
+    EEA t2 a posé les grandes physiologies (Jin Yé, Yong/Weï)
+    et enrichi tous les Tsang/Fou via Su Wen ch.8. Le corpus
+    possède maintenant 4 domaines cliniques. E et TR restent
+    individuellement incomplets (mais leurs charges Su Wen ch.8
+    sont intégrées via les fichiers existants).
+
+# ─────────────────────────────────────────────────
+# STATISTIQUES GLOBALES DU CORPUS
+# ─────────────────────────────────────────────────
+
+statistiques_corpus:
+  polycopies_traites: 9
+  polycopies_restants: 36
+  pages_traitees: ~807
+  pages_totales: ~2550
+  progression_pourcentage: ~32
+  fichiers_THEORIE: 15
+  fichiers_ZANG_FU: 11
+  fichiers_CLINIQUE: 4
+  fichiers_DIAGNOSTIC: 0
+  fichiers_SYNDROMES: 0
+  termes_lexique: ~170
+  arbres_decision: 17
+  principes_philosophie: ~51

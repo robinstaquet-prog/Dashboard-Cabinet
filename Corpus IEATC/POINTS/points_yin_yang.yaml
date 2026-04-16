@@ -1,0 +1,591 @@
+# POINTS DU YIN/YANG — INDICATIONS DÉTAILLÉES
+# Sources: PIV YY tome 4 (pp.51-52) + PIV YY tome 5 (pp.21-31)
+# Tous les points avec indications cliniques complètes
+# Le tome 5 donne les indications que "vous ne trouverez pas dans l'ensemble"
+
+meta:
+  fichier: points_yin_yang.yaml
+  sources:
+    - PIV_YY_tome4_CP_I_partie1_pp51-52
+    - PIV_YY_tome5_CP_I_partie2_pp21-31
+  importance: >
+    Les points du YY sont les PLUS COURAMMENT UTILISÉS.
+    Plus efficaces dans les affections locales, action non
+    négligeable sur les déséquilibres généraux. Les mêmes
+    points reviennent très fréquemment.
+  principes_utilisation:
+    1: "Déterminer le ou les niveaux à traiter"
+    2: "Décider de la polarité concernée"
+  lois_action:
+    - "Toujours donner la priorité au Yin faible"
+    - "Toujours donner la préférence au vide"
+    - "Tonifier ce qui est en vide"
+    - "Disperser ce qui est en excès"
+    - "Soit simultanément, soit alternativement selon séances"
+  choix_localisation: >
+    Points bilatéraux choisis selon: polarité (YY),
+    sens (t/d), endroit (haut/bas, gauche/droite) =
+    fonction d'un des 4 cadrans.
+
+# ═══════════════════════════════════════════════════
+# POINTS GÉNÉRAUX DU YIN/YANG
+# ═══════════════════════════════════════════════════
+
+points_generaux:
+  yang:
+    20TM:
+      nom_chinois: Pae Roé
+      traduction: Cent réunions
+      plan: psychique
+      indications_detaillees:
+        - point de toutes les énergies Yang du corps
+        - >
+          stimule le Yang psychique et la conscience.
+          Vide de Yang au cerveau = confusion, perte de
+          mémoire, vertiges. En dispersion = libère les
+          excès de Yang à la tête.
+        - >
+          Associé au 14TM et 12JM = les 3 points généraux
+          Yang forment le traitement de base de tout excès
+          ou vide de Yang.
+      note_tome5: >
+        Grand point du Yang de la tête. Commande le
+        confluent de tous les méridiens Yang. En excès de Yang
+        général (YY), il est dispersé avec 14TM d et 12JM d.
+        En vide de Yang, il est tonifié en association.
+
+    14TM:
+      nom_chinois: Ta Tchouei
+      traduction: Grande vertèbre
+      plan: physique
+      localisation: 7ème cervicale
+      indications_detaillees:
+        - point de toutes les fonctions Yang du système locomoteur
+        - >
+          Grand point des dorsalgies, cervicalgies,
+          raideur de nuque. Point de rencontre de tous
+          les méridiens Yang sur le dos.
+        - >
+          Yang physique = locomoteur, muscles, articulations.
+          Point majeur de l'énergie défensive (Weï Qi).
+      note_tome5: >
+        Point qui commande le Yang physique et le Tou Mo.
+        Toutes les atteintes du système locomoteur qui
+        nécessitent du Yang. Renforce l'énergie défensive.
+
+    12JM:
+      nom_chinois: Tchong Koann
+      traduction: Milieu de l'estomac
+      plan: organique
+      localisation: milieu épigastre
+      indications_detaillees:
+        - point du Yang organique et de l'Estomac
+        - >
+          Grand point Maître du Yang organique. Il tonifie
+          le Yang de tous les organes depuis l'Estomac qui
+          fabrique le Yang pour l'organisme. Il régularise
+          les soucis, les idées noires, permet de tout
+          digérer (physique, affectif, psychique). Il libère
+          des entraves du passé.
+        - >
+          En association I Sou Jen avec 4GI et 36E =
+          tonification du Yang partout.
+      alerte_clinique: >
+        ATTENTION: si on fait le 12JM t au début du traitement
+        chez un patient avec VB bloquée, on risque de déclencher
+        une crise. En apportant du Yang au foyer moyen, on
+        pourrait provoquer un spasme de VB.
+
+  yin:
+    6MC:
+      nom_chinois: Nei Koann
+      traduction: Barrière interne
+      plan: psychique
+      indications_detaillees:
+        - point du Yin psychique, Maître de la barrière
+        - >
+          Grand point Maître du Yin psychique et digestif.
+          Commande le foyer moyen. Dispersion = ouvre la
+          descente du Yang vers le Yin ET la remontée du
+          Yin vers le Yang. La barrière s'ouvre dans les 2 sens.
+        - >
+          Maître du Yin digestif (foyer moyen) et psychique.
+          D'un point de vue général, le pouls indique t ou d.
+        - >
+          En urgence: traite immédiatement les troubles
+          qui touchent le cœur ou le péricarde (cas Martine).
+      note_tome5: >
+        6MC d harmonise MC et apporte une action utile sur
+        le YY organique. Commande la liaison entre F (bas)
+        et MC (haut) par l'axe Tsiué Yin.
+
+    6Rte:
+      nom_chinois: Sann Yin Tsiao
+      traduction: Réunion des 3 Yin
+      plan: physique
+      indications_detaillees:
+        - point du Yin physique, croisement des 3 méridiens Yin du MI
+        - >
+          Grand point du Yin du bas du corps. Action majeure
+          sur les 3 méridiens Yin (R, Rte, F). Dispersion =
+          disperse le Yin du bas du corps. Il gère le Yin
+          jusqu'au nombril. Grand point pour les varices.
+        - >
+          ALERTE: ne JAMAIS disperser le 6Rte pour une femme
+          qui fait des hémorragies ou a des règles trop
+          abondantes (cas Monique 1).
+      alerte_clinique: >
+        Le 6Rte dispersé pourrait aggraver des règles déjà
+        longues. Pour compenser, utiliser 41VB t à la place.
+
+    6JM:
+      nom_chinois: Tsri Raé
+      traduction: Mer de l'énergie
+      plan: organique
+      indications_detaillees:
+        - point du Yin organique, mer de l'énergie
+        - >
+          Disperse le Yin organique en général, surtout
+          au foyer inférieur et à l'abdomen. En tonification,
+          nourrit le Yin profond.
+        - >
+          Associé au 4JM pour la commande du Jen Mo.
+          Souvent couplé avec 4JM, piqué dans le même sens.
+
+# ═══════════════════════════════════════════════════
+# POINTS LOCAUX YANG — HAUT DU CORPS
+# ═══════════════════════════════════════════════════
+
+points_locaux_yang_haut:
+  4GI:
+    nom_chinois: Ro Kou
+    traduction: Fond de la vallée
+    indications_detaillees:
+      - point Yang Maître du haut du corps et de la face
+      - >
+        Grand point Yang de commande du Yang Ming (GI+E).
+        Dynamise la mise en mouvement du Yang Ming.
+        Multiplie l'action du 12JM. Relance le Yang et
+        traite la sphère ORL. Point de l'énergie défensive
+        (froid, grippes, angines).
+      - >
+        L'un des points les plus utilisés en acupuncture.
+        Avec 12JM t et 36E t = trinité de tonification Yang.
+      - >
+        Bilatéral dans les traitements généraux.
+        Tonification = relance Yang, dispersion = calme excès.
+    utilisation_isj: "Dans Yang/Yin: 4GI t + 12JM t + 36E t"
+
+  5TR:
+    nom_chinois: Oae Koann
+    traduction: Barrière externe
+    indications_detaillees:
+      - point Yang du Chao Yang pour le haut du corps
+      - >
+        Commande le Yang Weï Mo, grand vaisseau Yang
+        de la défense externe. Action sur toute la surface
+        du corps dans sa partie supérieure.
+      - >
+        Indications: troubles du Yang du MS, douleurs
+        épaule-bras de nature Yang, migraines par excès
+        de Chao Yang. Associé au 41VB pour traiter le
+        Tae Mo.
+    note_tome5: >
+      En plénitude Yang du haut du corps: point de commande
+      Yang = énergie externe. Lors des vides de Yin avec
+      plénitude Yang, action en sens inverse.
+
+  3IG:
+    nom_chinois: Réou Tchi
+    traduction: Vallon postérieur
+    indications_detaillees:
+      - grand point Yang de la colonne vertébrale supérieure
+      - >
+        Commande le grand axe énergétique du Tou Mo = grande
+        réserve de Yang pour tous les méridiens, vaisseau
+        Gouverneur.
+      - >
+        Grand point nuque et dorsales hautes. Action
+        efficace jusqu'à la pointe de l'omoplate. En dessous,
+        relais pris par le 62V.
+      - >
+        Principales indications: torticolis (flexion/extension),
+        épaule, trapèzes supérieur et moyen, dorsalgies,
+        Scheuermann.
+      - >
+        Étant point Yang du haut, concoure à l'augmentation
+        du Yang général via le Tou Mo. Associé au 20TM et
+        14TM, piqué en bilatéral.
+
+  10IG:
+    nom_chinois: Nao Iu
+    traduction: Assentiment de l'épaule
+    indications_detaillees:
+      - point Maître du Yang de l'épaule
+      - >
+        Action depuis la base occipitale jusqu'à ~D10 et
+        de la colonne à la pointe externe de l'épaule.
+        Équivalent au bassin = 30VB.
+      - >
+        Le PLUS GRAND point de l'épaule (musculaire et
+        articulaire): tous mouvements élévation/rotation.
+        Toutes dorsalgies et cervicalgies.
+      - >
+        Commande toute la ceinture scapulaire (clavicule,
+        omoplate + muscles/ligaments/artères/veines/nerfs).
+
+  15GI:
+    nom_chinois: Tsienn Iu
+    traduction: Assentiment du deltoïde
+    indications_detaillees:
+      - point Yang du deltoïde antérieur/moyen et du biceps
+      - >
+        En avant de l'épaule. Yang du deltoïde antérieur/moyen,
+        du biceps (surtout long biceps). GI couplé au Poumon →
+        ce point rééquilibre la fonction Yang du méridien (+7P d).
+
+# ═══════════════════════════════════════════════════
+# POINTS LOCAUX YANG — BAS DU CORPS
+# ═══════════════════════════════════════════════════
+
+points_locaux_yang_bas:
+  36E:
+    nom_chinois: Tsou Sann Li
+    traduction: Trois distances du pied
+    indications_detaillees:
+      - grand point Yang local du genou + MI + Yang général
+      - >
+        Grand point de la sérénité ou de la "divine indifférence".
+        Tire vers le bas tout ce qui est au-dessus de la ceinture,
+        dans l'axe Yang Ming. Action nutritionnelle majeure.
+      - >
+        Aide au démarrage matinal, supprime le coup de pompe.
+        Action sur l'état général. "Fait le plus grand bien
+        sur les suites de mononucléose" (cas Florence).
+      - >
+        Avec moxas sur aiguille en tonification pour
+        maximum d'efficacité.
+    alerte_clinique: >
+      ATTENTION: 36E t tire le sang vers le bas. Ne pas
+      utiliser en cas de règles hémorragiques (cas Monique 1).
+
+  12JM_local:
+    note: "12JM est aussi un point local Yang du bas du corps"
+
+  62V:
+    nom_chinois: Chen Mo
+    traduction: Vaisseau de l'heure Mo
+    indications_detaillees:
+      - un des premiers grands points du Yang général
+      - >
+        Commande le YANG TSIAO MO = mise en mouvement
+        de l'énergie Yang. Grand point de la colonne
+        vertébrale inférieure (dorsale basse, lombaire, sacrée).
+      - >
+        Commande toute la chaîne musculaire postérieure
+        du talon à la nuque (relais vers D8 par le 3IG).
+      - >
+        Grande indication: système musculaire et mouvement
+        dans la marche et station debout. Commande le fait
+        d'avancer (marche) dans TOUS les domaines de la vie,
+        projection vers le futur.
+      - >
+        Grand point des sciatiques postérieures, lombalgies,
+        lombo-sciatiques (flexion/extension).
+      - >
+        ALERTE: les tendinites, bien que manifestant de
+        nombreux signes d'inflammation, sont PRESQUE TOUJOURS
+        du Yin.
+      - >
+        Hyperlordose = faiblesse des reins, possiblement
+        excès de la vessie → vérifier contractures des
+        paravertébraux lombaires et si oui disperser.
+      - >
+        Couplé avec 20TM t = stimule fortement le Yang
+        (seulement si le Yin est bon = voir pouls).
+        Couplé avec 41VB t = gère tout le train inférieur.
+      - >
+        Action sur contractions utérines trop faibles;
+        avec 67V t aide retournement et expulsion à
+        l'accouchement.
+      - "Agitation diurne. Dilatation pupille (à disperser)."
+
+  41VB:
+    nom_chinois: Lin Tsri
+    traduction: Se pencher pour pleurer
+    indications_detaillees:
+      - Maître des articulations du train inférieur (ceinture → orteils)
+      - >
+        Commande le TAE MO (vaisseau ceinture) = maintenir
+        la statique et la solidité de la ceinture.
+      - "Grand point de l'acide urique (crise de goutte = Yang) et crises"
+      - "Atteintes polyarticulaires"
+      - >
+        Lombalgies, sciatiques externes quand mouvement
+        de la ceinture bloqué en rotation ou inflexion latérale.
+      - >
+        Point génital très important: fausses couches, pertes,
+        impuissances, frigidités, stérilités.
+      - >
+        Point qui RETIENT le sang. Équilibre VB/F. Oblige VB
+        à obéir au F. Met du Yang dans le bas du corps.
+        Alternative au 6Rte d chez les femmes à règles
+        abondantes (cas Monique 1).
+
+  30VB:
+    nom_chinois: Roang Tsiao
+    traduction: Enveloppe et fait marcher
+    indications_detaillees:
+      - point majeur du Yang de la hanche et ceinture pelvienne
+      - "Agit du nombril au genou"
+      - "Toutes affections hanche, surtout arthrose"
+      - >
+        Tendinites fascia-lata, muscles trochantériens,
+        massif fessier (contractures = origine de nombreuses
+        sciatiques).
+      - "Affections ganglionnaires de l'aine"
+      - >
+        Problèmes de la fosse iliaque: ovaire, trompe,
+        testicule, prostate, colon, psoas iliaque, périnée.
+      - >
+        Faiblesses lombo-sacrées (en t), lombaires, hyperlordose,
+        instabilité squelette bassin/lombes.
+      - >
+        Faiblesses des jambes. Renforce cuisse et statique
+        du bassin (marche et équilibre latéral train inférieur).
+
+  3TM:
+    nom_chinois: Yang Koann
+    traduction: Barrière du Yang
+    indications_detaillees:
+      - grand point lombo-sacré et charnière L4/L5
+      - "Localement, donne la force des reins"
+      - >
+        L'énergie Yang venant des reins émerge à ce point et:
+        1) entre dans le Tou Mo → monte à la tête en donnant
+           vigueur à la colonne vertébrale
+        2) descend dans les jambes → tonus et vigueur à la
+           marche + propulse le sang veineux vers le haut
+
+  4TM:
+    nom_chinois: Ming Menn
+    traduction: Porte du Mandat Céleste
+    indications_detaillees:
+      - >
+        Certainement le point "le plus noble" pour un
+        acupuncteur. Le principe "génétique" est contenu
+        dans ce seul point.
+      - "Renforce l'énergie ancestrale qui circule mal"
+      - "Maladies dégénératives sous toutes leurs formes"
+      - >
+        Affaiblissements profonds après traumatismes ou
+        opérations graves dont les patients ne se remettent pas.
+      - "Faiblesse lombaire, hyperlordose, scoliose (surtout idiopathique)"
+      - "Faiblesse des reins organes, surtout le rein hormonal"
+      - "Plupart des insuffisances cardio-vasculaires"
+      - >
+        Toutes maladies congénitales ou acquises dès la
+        naissance, surtout fragilités respiratoires (arrêt
+        respiratoire du nourrisson).
+      - "Toutes maladies génitales: impuissance, frigidité, stérilité"
+      - "Vide d'énergie à la colonne vertébrale"
+    regles_pratiques:
+      - "ne se disperse pratiquement JAMAIS"
+      - "pour action efficace, il faut CHAUFFER l'aiguille"
+    note_peridurale: >
+      Fréquence des séquelles après péridurale ou ponction
+      lombaire. 4TM est l'endroit de pénétration. Bien que
+      sans pouvoir atteindre l'énergie noble de Ming Menn,
+      l'action opère comme la mésothérapie inventée par les
+      Chinois en 1970 (injection infime sur points d'acupuncture
+      = équivalent injection massive ailleurs).
+
+# ═══════════════════════════════════════════════════
+# POINTS LOCAUX YIN — HAUT DU CORPS
+# ═══════════════════════════════════════════════════
+
+points_locaux_yin_haut:
+  7P:
+    nom_chinois: Lié Tsiué
+    indications_detaillees:
+      - Grand point Maître du Yin du haut du corps (surtout FS)
+      - >
+        Commande le Jen Mo (vaisseau conception) = Maître
+        de la vie organique et alimentation des organes par
+        le sang.
+      - >
+        En tonification, traite insuffisances de Yin ou
+        excès de Yang pour:
+        - tous vides de Yin et sang de la vie organique (surtout génitale)
+        - carences en liquides haut du corps (organes des sens, bouche, poumon)
+        - tous excès de Yang en haut: VB excès (migraines, vomissements, nausées, colères)
+        - tous problèmes locomoteurs haut du corps
+        - faiblesse/vide du poumon, cachexie, le "tuberculinique" en homéopathie
+      - "En dispersion, traite les excès de Yin (l'inverse)"
+      - >
+        Carence du Jen Mo (voir pouls) = vide Yin et sang
+        de l'ensemble de la vie organique.
+
+  6MC_local:
+    note: >
+      6MC est aussi un point local Yin du haut du corps.
+      Voir section points généraux Yin pour indications.
+
+# ═══════════════════════════════════════════════════
+# POINTS LOCAUX YIN — BAS DU CORPS
+# ═══════════════════════════════════════════════════
+
+points_locaux_yin_bas:
+  7R:
+    nom_chinois: Fou Léou
+    traduction: Retour d'écoulement
+    indications_detaillees:
+      - fortifie le Yin en profondeur, surtout FI et uro-génital
+      - >
+        Le Yin du corps dépend de Rate et de Rein.
+        C'est dans cet aspect relationnel que ce point agit.
+      - >
+        Rein urinaire et affections inflammatoires:
+        néphrite, pyélonéphrite, calculs d'oxalate, sang
+        dans les urines.
+      - >
+        ALERTE: les cystites, bien que manifestant de
+        nombreux signes d'inflammation, sont PRESQUE
+        TOUJOURS du Yin.
+      - "Gère la quantité des éléments solides dans les urines"
+      - "Sang de la sphère génitale"
+      - "Eaux fœtales et aspect Yin du développement embryonnaire"
+      - "Facilite les urines (t), augmente (t) ou diminue (d) leur concentration"
+
+  6R:
+    nom_chinois: Tchao Raé
+    traduction: Mer lumineuse
+    indications_detaillees:
+      - un des grands points du Yin général
+      - >
+        Commande le YIN TSIAO MO = mise en mouvement
+        de l'énergie Yin (association avec le 62V pour
+        équilibre YY du mouvement).
+      - >
+        Dirige l'équilibre énergie entre rein et vessie
+        (méridiens + organes) car V dépense beaucoup
+        d'énergie par la chaleur des urines et peut
+        épuiser les reins.
+      - "Agitation nocturne et rétrécissement pupille (à disperser)"
+      - "Fait circuler l'énergie du foyer inférieur"
+      - "Douleurs bas ventre (d)"
+
+  4JM:
+    nom_chinois: Koann Yuan
+    traduction: Barrière de l'énergie ancestrale
+    indications_detaillees:
+      - un des points majeurs de l'énergie ancestrale (= Yin absolu)
+      - >
+        Agit sur la sphère génitale et organes du FI.
+        Grand point de la femme (avec 6JM).
+        Grand point de commande du Jen Mo (avec 6JM).
+      - >
+        En dispersion: ouvre la circulation de l'énergie
+        ancestrale pour qu'elle rejoigne les autres foyers
+        qui ne peuvent fonctionner sans elle (apporte la
+        chaleur de base = "feu vital"). Aussi un point
+        du Yin général.
+      - >
+        Toutes pathologies génitales: frigidité, impuissance,
+        stérilité, régulation cycle menstruel. La polarité
+        doit être déterminée à chaque fois (t ou d).
+      - "Souvent couplé avec 6JM, piqué dans le même sens"
+      - "Purifie le feu des reins (en t)"
+
+  6Rte_local:
+    note: >
+      6Rte est aussi un point local Yin du bas du corps.
+      Voir section points généraux Yin.
+
+  6JM_local:
+    note: >
+      6JM est aussi un point local Yin du bas du corps.
+
+# ═══════════════════════════════════════════════════
+# POINTS DE DÉBLOCAGE YIN/YANG
+# ═══════════════════════════════════════════════════
+
+points_deblocage:
+  principaux:
+    27TM:
+      nom_chinois: Choé Kéou
+      traduction: Extrémité saillante
+      action: "déblocage du Yang"
+      technique: "toujours en dispersion"
+    24JM:
+      nom_chinois: Sing Tsiang
+      traduction: Reçoit la boisson
+      action: "déblocage du Yin"
+      technique: "toujours en dispersion"
+  protocole: >
+    Contradiction de polarité entre questionnaire/observation
+    et pouls → penser blocage YY EN PREMIER.
+    1) Disperser 27TM et 24JM simultanément
+    2) Points très sensibles à l'aiguille → massage
+       ponctiforme avec sphère arrondie (~5mm) très efficace
+    3) Reprendre les pouls → modification en 1-2 minutes
+    4) Refaire le bilan sur le nouvel état énergétique
+
+  complementaires:
+    - "37E t — débloque excès Yang haut du corps"
+    - "39E d — traite vides Yang haut du corps"
+    - "3TM d — traite vides Yang bas du corps"
+    - "4TM t — traite vides Yang aux lombes"
+    - "4JM d — débloque excès Yin abdomen"
+    - "6Rte d — débloque excès Yin bas du corps et organiques"
+    - "15GI d et 39V d — débloquent excès Yang aux membres"
+
+# ═══════════════════════════════════════════════════
+# POINTS SPÉCIFIQUES DÉCOUVERTS DANS LES CAS
+# ═══════════════════════════════════════════════════
+
+points_specifiques_cas:
+  migraines:
+    - "1VB d — grand point des migraines"
+    - "23TR d — grand point des migraines"
+    - "20VB d — disperse Yang local tête, débloque VB, détend/déstresse"
+    - "21VB d — renforce 20VB, débloque trapèzes"
+    - "22VB d — libère l'émotionnel (pli antérieur aisselle)"
+    - "23VB d — passage énergie au diaphragme"
+  vesicule_biliaire_urgence:
+    - "34VB d — vide VB, dilate cholédoque, 'chasse de VB'"
+    - "21R d — ouvre le cholédoque"
+    - "25V' d — point 'Spasfon', antispasmodique des organes creux, dilate canaux, arrêt instantané douleurs colique hépatique et néphrétique"
+  genou:
+    - "33VB d + 7F d — synergie puissante sur dérèglements ligamentaires et œdèmes du genou (LLE+LLI + périarticulaire)"
+    - "44VB t — renforce complexe ligamentaire du genou"
+    - "9Rte d — Yin du bas du corps, remontée liquides/œdèmes, LLI"
+  foie_blocage:
+    - "3F d — fait passer le Yin dans le Yang, passage au diaphragme"
+    - "7F d — point de déblocage F méridien et organe + sang veineux"
+    - "2F d — vide plénitude F, traite chaleur méridien"
+  rate_zones_blocage:
+    zone_1_cheville: "5Rte — grand point anxiété/soucis"
+    zone_2_genou: "9Rte — grand point antispasmodique organes creux"
+    zone_3_bassin: "13Rte — grand point fong (infections) abdominaux"
+    zone_4_ceinture: "15Rte — fonctionnement GI, constipation, colite"
+    zone_5_emotionnel: "21Rte — grand point capillaires superficiels, ouvre passage Rate→Cœur"
+  foie_zones_blocage:
+    zone_1_cheville: "4F"
+    zone_2_genou: "7F"
+    zone_3_bassin: "12F"
+    zone_4_torse: "14F"
+  rein_zones_blocage:
+    zone_1_cheville: "5R"
+    zone_2_genou: "10R"
+    zone_3_bassin: "11R"
+    zone_4_torse: "21R"
+    zone_5_gorge: "27R"
+  technique_deblocage_meridien: >
+    Commencer par le bas. Si le lieu du blocage est inconnu,
+    disperser le point de zone 1, si ça se débloque c'est OK,
+    sinon remonter zone par zone. Si on sait que c'est
+    émotionnel → aller directement au point le plus haut.
+  hemorragie:
+    sang_present: "9P d — quand il y a du sang (Yin), l'énergie du sang vient du P"
+    vide_de_sang: "1Rte t + moxas — quand vide de sang = vide de Yin, pas d'aiguille car vide, chauffer aux moxas ou bâton d'encens"

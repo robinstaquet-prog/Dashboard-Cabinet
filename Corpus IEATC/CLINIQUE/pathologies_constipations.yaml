@@ -1,0 +1,253 @@
+# CONSTIPATIONS — TABLEAUX CLINIQUES DIFFÉRENTIELS
+# Source : PVI EEA t2 — Séminaire CLM mai 1982
+# Dr Schatz, Elisabeth Rochas de la Vallée
+# Compilé par Thierry Bollet (2015)
+
+meta:
+  fichier: pathologies_constipations.yaml
+  source: PVI-EEA-t2-p26_31
+  statut: complet
+  liens:
+    - ZANG_FU/gros_intestin.yaml
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/poumon.yaml
+    - THEORIE/jin_ye_liquides_seminaire.yaml
+    - CLINIQUE/pathologies_diarrhees.yaml
+
+# ─── TERMINOLOGIE ────
+
+terminologie:
+  bian: >
+    BIAN = le besoin, dans les deux sens : satisfaire ses
+    besoins naturels (aller à la selle ou uriner) et
+    commode, aisance.
+  bi: >
+    BI = constipation. Deux parties : à gauche épi de
+    céréales, à droite idée de séparation/tamisage serré.
+    Ensemble : quelque chose de caché, mystérieux, rétention.
+  expression_complete: >
+    DA BIAN BU TONG = Gros – Besoin – Négation – Communiquer.
+    Expression classique pour l'ensemble des constipations.
+  deux_categories:
+    sec_et_noue: >
+      ZAO JIE = sécheresse et nœuds. Selles difficiles
+      et pénibles. Le gros besoin est sec et noué.
+    secret_et_noue: >
+      BI JIE = nœuds qui mettent au secret. Constipation
+      totale, les excrétions ne se font plus du tout.
+
+# ─── MÉCANISME GÉNÉRAL ────
+
+mecanisme_general:
+  principe: >
+    Dans la constipation, c'est surtout le processus de
+    l'ABAISSEMENT qui est contrarié. Processus situé au
+    niveau de Rte/E, Réchauffeur Moyen.
+  dispatching: >
+    Au Réchauffeur Moyen se fait un dispatching :
+    - Une partie des énergies alimente le noble (SN, vaisseaux, C)
+    - L'autre partie est pour l'abaissement et l'élimination
+    Quand l'abaissement ne fonctionne pas → ballonnements,
+    diarrhées ou constipations (alternativement ou en permanence).
+  deux_grandes_categories:
+    plein: >
+      En général lié à une énergie perverse (externe) qui
+      perturbe le cycle normal du transit des énergies.
+    vide: >
+      En principe une insuffisance corporelle.
+  note_clinique: >
+    Modèle de traitement concret à adapter au cas concret
+    qui nous sera proposé (Dr Schatz). Il faut replacer le
+    sujet dans son contexte historique, comprendre pourquoi
+    il est constipé. Aspect psychique souvent en cause.
+
+# ─── POINTS COMMUNS À TOUS LES TABLEAUX ────
+
+points_communs:
+  points: E.44_E.25_V.25_Rte.15_dispersion
+  note: >
+    Cités globalement. La sélection plus fine se fait en
+    fonction de l'énergie et du sang : tonifier à droite
+    le sang, tonifier à gauche l'énergie.
+
+# ─── TABLEAU 1 : CONSTIPATION DUE À LA CHALEUR ────
+
+tableau_1_chaleur:
+  categorie: plein
+  type: constipation_due_a_la_chaleur
+  pathogenie: >
+    Les intestins et l'E ont de la chaleur par entassement.
+    Inflammation réitérée créant du plein au niveau de E
+    et des intestins (Réchauffeur Moyen).
+  deuxieme_cause: >
+    Pervers de la chaleur qui se transmettent au revers
+    (cause externe ou chaleur alimentaire). La chaleur
+    s'empare des Jin et les dessèche.
+  mecanisme: >
+    Le GI commande les Jin. Excès de la fonction de
+    dessèchement du bol : les matières restent dans le GI
+    au lieu de descendre. Intestin et E sont secs et noués.
+    Les Souffles des fu ne circulent pas en bas.
+  symptomes: >
+    Le gros besoin est compact, consistance. Malaises
+    dus à la chaleur, haleine fétide. Envie de boire frais.
+  traitement:
+    points: R.6_tonification_F.1_dispersion_GI.4_dispersion
+    principe: >
+      R.6 (Zhao Hai) en tonification nourrit le Yin.
+      F.1 et GI.4 en dispersion évacuent la chaleur.
+
+# ─── TABLEAU 2 : CONSTIPATION DUE AUX SOUFFLES ────
+
+tableau_2_souffles:
+  categorie: plein
+  type: constipation_due_aux_Souffles
+  pathogenie: >
+    Point de départ PSYCHIQUE : état soucieux, oppressé,
+    mélancolique. Les Qi sont noués, le sujet n'est pas
+    détendu.
+  mecanisme: >
+    Le Foie-Bois perd sa fonction de faire pénétrer les
+    énergies partout (impetus printanier). Être triste =
+    atteinte Terre-Rte → cycle pervers de Terre vers Bois
+    (cycle du mépris). Les Souffles sont bloqués, les
+    aliments ne circulent plus.
+  symptomes: >
+    Ventre tantôt gonflé tantôt diminué. Côtes enflées
+    et oppression.
+  resultat: >
+    Le gros besoin est secret et noué → constipation totale.
+  traitement:
+    points: VC.4_Rte.6_moxa
+    principe: >
+      VC.4 (Guan Yuan) libère le RI. Rte.6 au moxa
+      relance la fonction Terre et débloque le cycle.
+
+# ─── TABLEAU 3 : CONSTIPATION DUE AU VENT ────
+
+tableau_3_vent:
+  categorie: plein
+  type: constipation_due_au_vent
+  pathogenie: >
+    Le Fong et le sec s'empoignent au P et par transmission
+    entrent au GI. Attaque par voie respiratoire et digestive.
+    Le méridien du P prend sa racine au Réchauffeur Moyen →
+    rapport immédiat avec le GI (relation Biao/Li Métal).
+  deuxieme_cause: >
+    Feu par entassement qui se dissimule à l'interne.
+    Le vent surgit du revers → inflammation → atteinte
+    des Jin.
+  mecanisme: >
+    Vent et sécheresse ont action de prédilection sur
+    l'intestin. Intestin et E secs, transmissions et
+    transformations difficiles.
+  symptomes: >
+    Toux sèches, pharynx douloureux, ongles desséchés,
+    peau sèche.
+  traitement:
+    points: V.12_VG.16_V.25_dispersion
+    principe: >
+      V.12 (Feng Men = porte du vent) chasse le vent.
+      VG.16 disperse le vent. V.25 libère le GI.
+
+# ─── TABLEAU 4 : CONSTIPATION DUE AUX ALIMENTS ────
+
+tableau_4_aliments:
+  categorie: plein
+  type: constipation_par_plenitude_alimentaire
+  pathogenie: >
+    Indigestion. Les aliments solides et liquides sont
+    sans mesure. On mange et boit immodérément.
+  mecanisme: >
+    Transports et transformations (YUN HUA) perdent
+    leur normalité. Fonction d'élévation en panne.
+    Les aliments sont bloqués, se dissimulent et
+    s'entassent. Rte/E perdent leur capacité de digérer
+    et broyer. Les Souffles des fu ne communiquent plus.
+  symptomes: >
+    Mal à l'aise, renvois, côtes pressées. Le F est
+    en cause.
+  traitement:
+    points: VC.12_E.36_dispersion
+    principe: >
+      VC.12 (Zhong Wan) débloque le Réchauffeur Moyen.
+      E.36 relance la descente et le transit.
+
+# ─── TABLEAU 5 : CONSTIPATION PAR VIDE DE YANG (FROID) ────
+
+tableau_5_vide_yang:
+  categorie: vide
+  type: constipation_due_au_vide_de_Yang_froid
+  pathogenie: >
+    Insuffisance du terrain. Le Yang est en insuffisance,
+    le Yin est congelé. L'énergétique n'est pas mobilisable.
+  mecanisme: >
+    Tout ce qui est hydrique, sanguin, liquides interstitiels
+    reste sur place, se prend en gelée, devient parétique.
+    Le Yin est figé, noué. Le Réchauffeur Inférieur est
+    vide et froid. Le Yang insuffisant amplifie le trouble
+    car le RI est aussi chargé de la transmission de Yuan Qi.
+  resultat: >
+    Les Souffles des fu sont bouchés → constipations par
+    vide de Yang = constipations dues au froid.
+  traitement:
+    points: V.17_V.18_E.25_tonification
+    principe: >
+      V.17 (Ge Shu = diaphragme/sang) et V.18 (Gan Shu = F)
+      en tonification relancent le Yang. E.25 tonifie
+      le transit.
+
+# ─── TABLEAU 6 : CONSTIPATION PAR VIDE DE YIN ────
+
+tableau_6_vide_yin:
+  categorie: vide
+  type: constipation_due_au_vide_de_Yin
+  pathogenie: >
+    Vide de Yin = tout le secteur hydrique (liquides
+    interstitiels, sang). Après une maladie, les Jing Yé
+    sont anéantis. Ou le Yin est vide de façon habituelle.
+    Xing et sang sont desséchés et secs.
+  expression_xing_sue: >
+    XING-SUE = expression globale pour tout le secteur
+    Yin du corps (hors liquides interstitiels).
+    Joint CA et CP.
+  mecanisme: >
+    Maladie des Jing Yé. Ils ne peuvent pas arroser et
+    humidifier les intestins. Les Souffles des fu sont
+    flétris comme du bois mort. Le gros besoin perd
+    son humidification.
+  resultat: >
+    Constipations dues au vide de Yin = constipations
+    dues au vide (générique).
+  traitement:
+    note: >
+      Points non explicitement détaillés dans le texte
+      pour ce tableau. Principe : nourrir le Yin,
+      humidifier les intestins. Points de tonification
+      du Yin : R.6 t, Rte.6 t, VC.4 t.
+
+# ─── PRINCIPES DE TRAITEMENT ────
+
+principes_traitement:
+  lateralite: >
+    Tonifier à droite le sang, à gauche l'énergie.
+    Traitement symétrique qui permet d'économiser une
+    aiguille sur deux.
+  syndromes_lateralises: >
+    Grande piqûre ou piqûre MIU : piqûre contro-latérale
+    très intéressante. Grandes urgences souvent chroniques
+    ou subaiguës traitées en quelques minutes par
+    évacuation contro-latérale des énergies.
+  carapace_musculaire: >
+    Dégager la carapace musculaire, responsable de
+    nombreux troubles. Dégager les liaisons Lo.
+    Techniques spéciales d'engager la thérapeutique
+    dans un exercice de mouvement.
+  contexte_global: >
+    Avant d'entreprendre le traitement, tenir compte
+    de l'histoire du sujet. Savoir pourquoi il est constipé.
+    Aller jusqu'à regarder le profil mental (constipations
+    liées à un profil psychique soucieux, oppressé,
+    mélancolique).
+  source: PVI-EEA-t2-p26_31

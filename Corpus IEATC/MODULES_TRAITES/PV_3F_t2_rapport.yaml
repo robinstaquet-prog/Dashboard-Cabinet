@@ -1,0 +1,108 @@
+# ══════════════════════════════════════════════════════════════
+# RAPPORT DE TRAITEMENT — PV 3 FOYERS TOME 2
+# ══════════════════════════════════════════════════════════════
+
+meta:
+  polycopie: "PV – Les Trois Foyers, tome 2"
+  auteur: Thierry Bollet
+  date_polycopie: 2019-08-26
+  pages: 48
+  date_traitement: 2026-04-06
+  statut: COMPLET
+
+contenu_traite:
+  sujets_majeurs:
+    - "Tchrong Mo (Chong Mai) — 1er MV, matrice des méridiens, racine, trajets"
+    - "8 Merveilleux Vaisseaux — 8 trigrammes, développement embryonnaire"
+    - "Hérédités détaillées — innée (Yuan), céleste, terrestre, parentale"
+    - "Conclusion fonctions des 3 foyers — éléments moteurs par foyer"
+    - "Pathologies des 3 foyers (SW ch.62) — 8 règles thérapeutiques"
+    - "Détail de chaque énergie — Yuan, Tsing, Tsong, Ku, Oé, Yeung, Tcheung, Iong"
+    - "Sang rouge et blanc (lymphe) — 4 organes, défense interne"
+    - "Liquides du corps — Ching Ié, Ié (internes), Ching (externes)"
+    - "Nutrition des Tsang — chaudrons alchimiques, 3 Champs de Cinabre"
+    - "Circuit Fou→Tsang — Fou extrait, adapte, Tsang thésaurise"
+    - "Interdépendance fonctions — Chen gouverne tout"
+    - "L'Homme binôme Yin/Yang — progression Yang→Yin, 6 énergies, 3 fonctions"
+    - "Mouvement des énergies et respiration — inspiration/expiration, Rate centre"
+    - "Vertus de l'alimentation — saveur ≠ goût, 8 paramètres, manger conscient"
+    - "Assimilation détaillée — salive, mastication, muqueuse buccale, estomac, VB/bile"
+    - "2ème tri (IG) — séparation définitive, villosités intestinales"
+    - "Éliminations — urines (diagnostic), selles (diagnostic), fermentation"
+    - "Trajets complets — liquides, solides, énergies (schémas détaillés)"
+    - "Citations So Ouen ch.21 et ch.11 — circuit en 12 étapes"
+    - "Alchimie taoïste — Cinabre rouge/jaune/blanc, Soufre/Mercure, Or/Argent"
+
+fichiers_crees:
+  - THEORIE/trois_foyers_physiologie_t2.yaml
+
+fichiers_mis_a_jour:
+  - ZANG_FU/rein.yaml (enrichissement_3F_t2 — filtration intelligente, urines, diarrhée matinale, respiration, hormones)
+  - ZANG_FU/rate.yaml (enrichissement_3F_t2 — muqueuses, identification aliments, défense interne, mutation 5E, saveur)
+  - ZANG_FU/foie.yaml (enrichissement_3F_t2 — sang veineux, énergies impures, solides purs, respiration, muscles, diarrhée)
+  - ZANG_FU/coeur.yaml (enrichissement_3F_t2 — formation sang, gouverneur, respiration, couleur Chen, cinabre)
+  - ZANG_FU/poumon.yaml (enrichissement_3F_t2 — épuration impures, audience matin, respiration, exercices, tabac)
+  - ZANG_FU/estomac.yaml (enrichissement_3F_t2 — muscle lisse, Rate commande, orifices, temporalité, sténose, gaz)
+  - ZANG_FU/vesicule_biliaire.yaml (enrichissement_3F_t2 — bile digestion, péristaltisme, fin appétit, selles décolorées)
+  - ZANG_FU/gros_intestin.yaml (enrichissement_3F_t2 — origine Oé, selles diagnostic, rétention Yang Ming)
+  - ZANG_FU/intestin_grele.yaml (enrichissement_3F_t2 — 2ème tri complet, duodénum/jéjunum, liquides→reins/feu IG)
+  - ZANG_FU/vessie.yaml (enrichissement_3F_t2 — régulation thermique, urines diagnostic, commandée par reins)
+  - ZANG_FU/triple_rechauffeur.yaml (enrichissement_3F_t2 — 8 règles, mensurateur pouls, Tchrong Mo)
+  - THEORIE/embryologie_constitution.yaml (Tchrong Mo, hérédités détaillées, 3 Champs de Cinabre)
+  - LEXIQUE/lexique_termes_ieatc.yaml (14 nouveaux termes)
+  - _SYSTEME/00_arbres_decision.yaml (5 nouveaux arbres : urines, selles, respiration, assimilation complète, nutrition Tsang)
+  - _SYSTEME/00_philosophie_clinique.yaml (10 nouveaux principes cliniques)
+
+bilan:
+  fichiers_crees: 1
+  fichiers_mis_a_jour: 15
+  total_fichiers_touches: 16
+  termes_lexique_ajoutes: 14
+  arbres_decision_ajoutes: 5
+  principes_cliniques_ajoutes: 10
+
+corpus_apres_traitement:
+  fichiers_yaml: 70
+  lignes_totales: "~28750"
+  taille: "~1400 Ko"
+  polycopies_traites: 13
+  pages_totales: "~1060"
+  couverture_estimee: "~42%"
+
+jauge_expertise:
+  avant: 62
+  apres: 68
+  delta: "+6"
+  justification: >
+    Entrée complète dans la physiologie des énergies (Iong, Oé, Tcheung,
+    sang rouge/blanc, liquides Ching/Ié). Maîtrise du circuit complet
+    d'assimilation alimentaire (1er et 2ème tri). Tchrong Mo et chaudrons
+    alchimiques. Mouvement respiration/énergie. 8 règles thérapeutiques.
+    Diagnostic par urines et selles. La chaîne complète alimentation→sang
+    est maintenant documentée de bout en bout.
+
+  angles_de_lecture:
+    yin_yang: "opérationnel"
+    cinq_elements: "solide"
+    tsang_fou: "avancé (tous les enrichissements t1+t2 intégrés)"
+    trois_foyers: "COMPLET (t1+t2 traités, circuit entier documenté)"
+    embryologie: "avancé (Tchrong Mo, hérédités, Champs de Cinabre)"
+    pouls: "enrichi (mensurateur TR, 3R diagnostic Tchrong Mo)"
+    energies: "NOUVEAU — chaîne complète Yuan→Tcheung→Iong/Oé"
+    sang_liquides: "NOUVEAU — formation, circuits, Ching/Ié"
+    alimentation: "NOUVEAU — assimilation complète, vertus, diagnostic selles/urines"
+    clinique: "en progression (diarrhées, urines, sténose pylore, constipation)"
+
+  flair_praticien:
+    - "Rate commande Estomac : en digestif, toujours penser Rate d'abord"
+    - "Sang dans urines → chercher IG (Ko Feu→Eau), pas reins"
+    - "Diarrhée matinale = reins, post-prandiale = foie, chronique = rate"
+    - "Sténose pylore nourrisson : 21R dispersé à droite, 2-3 jours"
+    - "Constipation → insuffisance de bile (VB)"
+    - "Œdèmes → mélange Iong/Oé (impur dans le pur)"
+    - "Éternuements matinaux = épuration Foie→Poumons (normal)"
+    - "Rétention gaz/selles bloque tout le Yang Ming"
+    - "Ne pas croiser jambes pendant digestion (29-31E)"
+    - "17JM = réserves aussi capitales que Ming Menn"
+    - "Fou nourrit Tsang sans rien garder : tonifier Fou pour nourrir Tsang"
+    - "Saveur ≠ goût : arôme perçu dans l'arrière-nez"

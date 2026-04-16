@@ -1,0 +1,302 @@
+# CONFLITS ET CONTRADICTIONS EN ATTENTE DE DÉCISION
+# Chaque conflit est soumis au praticien avant intégration
+# Ne jamais trancher seul — ne jamais intégrer sans décision
+# Version 1.0
+
+meta:
+  fichier: 00_conflits_en_attente.yaml
+  role: >
+    Centraliser toutes les contradictions détectées entre
+    sources. Aucun conflit n'est intégré dans le corpus
+    tant que le praticien n'a pas tranché.
+    C'est lui l'expert du fond — pas l'IA.
+  instruction_mise_a_jour: >
+    Dès qu'une contradiction est détectée dans un module,
+    l'ajouter ici immédiatement avec le format ci-dessous.
+    Marquer dans les fiches concernées :
+      statut: bloque_conflit_C[numero]
+    Ne jamais écrire deux versions contradictoires dans
+    une même fiche sans signalement explicite.
+
+format_conflit:
+  conflit_id: C[numero_sequentiel]
+  date_detection: [session]
+  statut: EN_ATTENTE  # ou RESOLU
+  source_a:
+    module: [nom exact du module]
+    page: [numéro]
+    auteur: [Bollet / CLM / Poulhalec / autre]
+    dit: "[citation exacte — mot pour mot]"
+  source_b:
+    module: [nom exact du module]
+    page: [numéro]
+    auteur: [Bollet / CLM / Poulhalec / autre]
+    dit: "[citation exacte — mot pour mot]"
+  nature: "[ce qui s'oppose exactement — en une phrase]"
+  ma_lecture: "[comment je comprends la tension — neutre]"
+  question_au_praticien: "[ce que j'attends comme décision]"
+  decision: EN_ATTENTE  # remplacé par la décision du praticien
+  integration_bloquee_dans:
+    - [fiche 1 concernée]
+    - [fiche 2 concernée]
+  note_resolution: ""  # rempli quand résolu
+
+# ─────────────────────────────────────────────────
+# CONFLITS DÉTECTÉS
+# ─────────────────────────────────────────────────
+
+conflits:
+
+  - conflit_id: C001
+    date_detection: session_initiale_CP3t1
+    statut: EN_ATTENTE
+    source_a:
+      module: CP_III_tome_1
+      page: 57
+      auteur: CLM
+      dit: >
+        Les MV distribuent l'énergie Ancestrale lors de la
+        période embryologique et jusqu'à la naissance.
+        Ensuite ils entrent en sommeil total et n'interviennent
+        que lors de besoins vitaux de récupération majeurs.
+    source_b:
+      module: CP_III_tome_1
+      page: 57
+      auteur: Bollet
+      dit: >
+        Le Tchrong Mo est constamment actif car il distribue
+        l'énergie Ancestrale à chaque cellule en permanence.
+        Sans cette distribution, pas de Vie.
+        Implique l'activité continuelle de TM et JM également.
+    nature: >
+      CLM dit que les MV sont en sommeil après la naissance
+      sauf urgences. Bollet dit que le Tchrong Mo (et donc
+      TM et JM) sont constamment actifs tout au long de la vie.
+    ma_lecture: >
+      Bollet semble corriger CLM sur ce point précis en
+      s'appuyant sur la physiologie (chaque cellule vivante
+      nécessite l'Ancestrale en permanence). Il maintient
+      cependant le respect général pour CLM.
+    question_au_praticien: >
+      Dans l'enseignement IEATC actuel, quelle position
+      est retenue ? Les MV sont-ils en sommeil après la
+      naissance (CLM) ou le Tchrong Mo reste-t-il actif
+      en permanence (Bollet) ? Cela affecte directement
+      les indications d'usage des points clés de MV.
+    decision: EN_ATTENTE
+    integration_bloquee_dans:
+      - POINTS/points_MV.yaml
+      - THEORIE/merveilleux_vaisseaux.yaml
+
+  - conflit_id: C002
+    date_detection: session_initiale_CP3t1
+    statut: EN_ATTENTE
+    source_a:
+      module: CP_III_tome_1
+      page: 61
+      auteur: Bollet_citant_majorite_acupuncteurs
+      dit: >
+        Nous n'avons jamais trouvé que le 4Rte (point clé
+        du Tchrong Mo) soit efficace et rejoignons la majorité
+        des acupuncteurs qui lui préfèrent 11R et 30E.
+    source_b:
+      module: CP_III_tome_1
+      page: 56
+      auteur: tradition_classique
+      dit: >
+        Liste des points clés : 4Rte = Tchrong Mo.
+        C'est le point clé officiel de ce MV selon
+        la tradition.
+    nature: >
+      Le point clé officiel du Tchrong Mo est 4Rte selon
+      la tradition. Mais Bollet et la majorité des praticiens
+      lui préfèrent 11R + 30E en pratique clinique.
+    ma_lecture: >
+      Il semble y avoir une divergence entre la théorie
+      classique (4Rte = point clé) et la pratique clinique
+      IEATC réelle (11R + 30E plus efficaces). Les deux
+      pourraient coexister selon le contexte.
+    question_au_praticien: >
+      Dans ta pratique IEATC, comment gérer cette divergence ?
+      Faut-il documenter 4Rte comme point clé théorique ET
+      11R/30E comme traitement clinique réel du Tchrong Mo ?
+      Ou l'un remplace-t-il l'autre ?
+    decision: EN_ATTENTE
+    integration_bloquee_dans:
+      - POINTS/fiches/4Rte.yaml
+      - POINTS/fiches/11R.yaml
+      - POINTS/fiches/30E.yaml
+      - POINTS/points_MV.yaml
+
+  - conflit_id: C003
+    date_detection: session_initiale_CP3t1
+    statut: EN_ATTENTE
+    source_a:
+      module: CP_III_tome_1
+      page: 40
+      auteur: tradition_classique_citee_par_Bollet
+      dit: >
+        Le Mo agit sur le Yin de l'organe (l'organe lui-même).
+        Le Iu du dos agit sur le Yang de l'organe.
+    source_b:
+      module: CP_III_tome_1
+      page: 40
+      auteur: Bollet
+      dit: >
+        Nous restons dubitatifs devant cette affirmation
+        non donnée par les Textes classiques.
+        Nan King question 67 (cité par A. Faubert) :
+        le point Mo met en relation le méridien auquel
+        il appartient ET son foyer — pas seulement l'organe.
+    nature: >
+      La tradition attribue Mo = Yin de l'organe et
+      Iu dos = Yang de l'organe. Bollet remet en question
+      cette attribution et cite le Nan King qui donne
+      au Mo une action aussi sur le méridien.
+    ma_lecture: >
+      Bollet ne contredit pas la tradition mais la nuance.
+      Le Mo aurait une action plus large que le seul Yin
+      de l'organe — il agirait aussi sur le méridien.
+    question_au_praticien: >
+      Dans l'enseignement IEATC, cette nuance est-elle
+      enseignée ? Faut-il documenter les deux (tradition
+      + nuance Bollet/Nan King) ou retenir une seule version ?
+    decision: EN_ATTENTE
+    integration_bloquee_dans:
+      - POINTS/points_mo.yaml
+      - POINTS/points_iu_dos.yaml
+
+  - conflit_id: C004
+    date_detection: session_PVI_t1
+    statut: RESOLU
+    date_resolution: 2026-04-05
+    source_a:
+      module: tradition_MTC_et_enseignement_standard
+      auteur: tradition_classique
+      dit: >
+        Dans le cycle Tcheng, c'est l'Iong qui circule.
+    source_b:
+      module: CP_VI_Physiologie_t1
+      page: 51
+      auteur: Bollet
+      dit: >
+        C'est la Tsing des Tsang qui circule dans le cycle
+        Tcheng, pas l'Iong directement.
+    resolution_praticien: >
+      PAS DE CONTRADICTION — PRECISION SUPPLEMENTAIRE :
+      La Tsing des Tsang est PRESENTE DANS l'Iong, partout.
+      Le mécanisme complet est :
+      1. L'Iong circule et contient les Tsing de TOUS les Tsang
+      2. La RATE joue le rôle d'étiqueteur : elle détermine
+         quelle Tsing est destinée à quel Tsang
+         (sorte d'adressage / tri postal)
+      3. Les FOU COUPLÉS captent dans l'Iong circulant
+         la Tsing étiquetée pour leur Tsang couplé
+         et la lui transmettent
+      Détails à compléter dans les polycopiés suivants.
+    implications_pour_le_corpus:
+      rate_role_central: >
+        La Rate n'est pas qu'un organe de transformation —
+        elle est le trieur/adresseur des Tsing dans l'Iong.
+        Rôle unique et fondamental.
+      fou_couples_role_captation: >
+        Les Fou ne sont pas que des ateliers de transformation —
+        ils sont les capteurs actifs de la Tsing dans l'Iong
+        pour la donner à leur Tsang couplé.
+      iong_vehicule_universel: >
+        L'Iong est le véhicule universel contenant toutes
+        les Tsing. Ce n'est pas Iong OU Tsing qui circule :
+        c'est Iong CONTENANT Tsing.
+    integration_a_faire:
+      - THEORIE/tsang_fou_physiologie_t1.yaml (mécanisme complet)
+      - ZANG_FU/role_general_tsang.yaml (rôle Rate comme trieur)
+      - ZANG_FU/role_general_fou.yaml (rôle captation Tsing par Fou)
+
+# ─────────────────────────────────────────────────
+# QUESTIONS EN ATTENTE DE RÉPONSE
+# ─────────────────────────────────────────────────
+
+questions:
+
+  - question_id: Q001
+    date: session_initiale_CP3t1
+    statut: EN_ATTENTE
+    module: CP_III_tome_1
+    page: 43
+    citation: "Les soen lo et les pi pou sont les terminaisons superficielles des lo longitudinaux."
+    interpretation: >
+      Je lis Soen Lo et Pi Pou comme deux termes désignant
+      la même chose — les terminaisons superficielles des
+      Lo longitudinaux (capillaires sous-cutanés).
+    doute: >
+      Sont-ils strictement synonymes ou y a-t-il une
+      distinction entre Soen Lo et Pi Pou dans
+      l'enseignement IEATC ?
+    impact:
+      - LEXIQUE/lexique_termes_ieatc.yaml
+      - POINTS/points_lo.yaml
+    decision: EN_ATTENTE
+
+  - question_id: Q002
+    date: session_initiale_CP3t1
+    statut: EN_ATTENTE
+    module: CP_III_tome_1
+    page: 33
+    citation: "43V : iu des centres vitaux, des fonctions Kao et Roang"
+    interpretation: >
+      Kao et Roang semblent désigner des fonctions vitales
+      profondes liées aux centres vitaux, associées aux
+      points 43V et 16R.
+    doute: >
+      Qu'est-ce que les fonctions Kao et Roang exactement
+      dans l'enseignement IEATC ? Ce sera documenté dans
+      un module futur mais je veux signaler la lacune.
+    impact:
+      - POINTS/fiches/43V.yaml
+      - POINTS/fiches/16R.yaml
+    decision: EN_ATTENTE
+    note: praticien_a_confirme_que_sera_dans_modules_futurs
+
+  - question_id: Q003
+    date: session_PVI_t1
+    statut: RESOLU
+    date_resolution: 2026-04-05
+    module: CP_VI_Physiologie_t1
+    page: 22
+    reponse_praticien: >
+      Iong et sang sont INDISSOCIABLES.
+      Iong = l'énergie du sang.
+      Sang = la matérialité de Iong.
+      Ce ne sont pas deux choses séparées mais deux faces
+      de la même réalité : l'une énergétique, l'autre matérielle.
+    implication: >
+      Traiter l'Iong = traiter le sang, et inversement.
+      Toute action sur le sang a une action sur l'Iong.
+    integration_a_faire:
+      - LEXIQUE/lexique_termes_ieatc.yaml (entrée Iong — enrichir)
+      - THEORIE/tsang_fou_physiologie_t1.yaml
+
+  - question_id: Q004
+    date: session_PVI_t1
+    statut: EN_ATTENTE
+    module: CP_VI_Physiologie_t1
+    page: 30
+    citation: >
+      "Le vide du Fou est beaucoup plus rare que le vide du Tsang.
+      Le Fou travaille et se vide, mais il se repose aussi
+      et se régénère. Le Tsang, lui, peut présenter un vide
+      profond et durable."
+    interpretation: >
+      Le vide du Tsang est la pathologie profonde commune,
+      le vide du Fou est rare et plutôt aigu (surmenage
+      fonctionnel). Cette distinction orienterait vers un
+      traitement Tsang prioritaire dans la majorité des cas.
+    doute: >
+      Est-ce une règle générale de priorité diagnostique
+      (toujours chercher le vide du Tsang en premier)
+      ou une simple observation statistique sans valeur
+      de règle systématique ?
+    impact:
+      - THEORIE/tsang_fou_physiologie_t1.yaml
+      - _SYSTEME/00_arbres_decision.yaml
+    decision: EN_ATTENTE

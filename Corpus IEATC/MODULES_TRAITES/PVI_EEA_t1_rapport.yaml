@@ -1,0 +1,386 @@
+# RAPPORT D'INTÉGRATION — PVI SÉMINAIRES CLM TOME 1 (EEA 1er)
+# Date : 2026-04-06
+
+meta:
+  polycopie: EEA_1er.pdf
+  titre: Polycopié VI — Séminaires CLM — EEA tome 1
+  sous_titre: >
+    Transcriptions du séminaire CLM de décembre 1981.
+    Dr Jean Schatz, Elisabeth Rochas de la Vallée.
+    Compilé par Thierry Bollet (2015). Systémique des méridiens,
+    énergies héréditaires, cinq Shen, embryologie, Ming Men.
+  auteurs:
+    - Dr_Jean_Schatz
+    - Elisabeth_Rochas_de_la_Vallee
+  compilateur: Thierry_Bollet_2015
+  dates_seminaires: decembre_1981
+  pages: 68
+  module: VI_Seminaires_CLM_EEA_tome_1
+  niveau: fondateur_philosophique_et_embryologique
+  prerequis: PVI_t1_t2_t3_et_PVII_t1_t2_t3_t4_deja_integres
+  note_format: >
+    Format séminaire dialogué CLM, compilé 34 ans après.
+    Très dense philosophiquement : Dao, Taé I, embryologie,
+    Ming Men, Shen. Peu de clinique directe mais fondements
+    doctrinaux profonds qui sous-tendent toute la pratique.
+
+fichiers_crees:
+  - chemin: THEORIE/energies_hereditaires_seminaire.yaml
+    contenu: >
+      Yuan Qi (C.A. uniquement, principielle, métaphore ADN, via 3R
+      depuis Ming Men), Jing Qi (C.A. + C.P., essentielle,
+      chlorophyllienne, double sens), Zong Qi (C.P. uniquement,
+      ancestrale, métaphore ARN, Tan Zhong 17VC, Xu Li grand Lo).
+      Synthèse topologique CA/CP, répartition 3R, deux voies
+      centrifuge/centripète. Yin/Yang originels et authentiques
+      (4 termes, code gauche/droite). Jing des aliments
+      (Jing Weï, Jing Yé, Su Wen chap.21 circuit).
+  - chemin: THEORIE/shen_cinq_esprits_seminaire.yaml
+    contenu: >
+      Nature générale des Shen (non-dualité, miniaturisation,
+      indestructibilité). Hiérarchie : groupe supérieur
+      (Shen/Hun/Po) + groupe inférieur (Yi/Zhi). Couple Shen
+      céleste / Gui terrestre. 5 Shen individuels détaillés :
+      Shen(C), Hun(F), Po(P), Yi(Rte), Zhi(R). Embryologie
+      des Shen (textes 10è siècle, Huai Nan Zi, mois par mois).
+      Relations inter-Shen et 5E. Xing/Ti/Shen = 3 angles du corps.
+  - chemin: THEORIE/meridiens_systemique_seminaire.yaml
+    contenu: >
+      Principes systémiques (Mo/Mai, mécanisme, Jing = systématique
+      autonome). Hiérarchie embryologique des méridiens :
+      Qi Mo → Jing Jin → Jing Mo → Lo Mo → Jing Bié
+      (5 niveaux de surface à profondeur). Solénoïdes (pas cercles),
+      Fong (communication/douleur), Neï/Waï vs Biao/Li.
+      Dao et Taé I, Ming Men approfondi avec embryologie.
+  total: 3
+
+fichiers_mis_a_jour:
+  - chemin: ZANG_FU/coeur.yaml
+    ajouts: >
+      enrichissement_EEA_t1 : Shen et cœur (logis du Shen),
+      Shen Ming (discernement lumineux), radical cœur dans
+      l'écriture chinoise, Feu maître et Ming Men.
+  - chemin: ZANG_FU/foie.yaml
+    ajouts: >
+      enrichissement_EEA_t1 : Hun (archétypes, imagination, père),
+      embryologie 7è mois, excès de Hun, après la mort (Hun monte),
+      solides vers foie.
+  - chemin: ZANG_FU/poumon.yaml
+    ajouts: >
+      enrichissement_EEA_t1 : Po (instincts, mémoire du futur, mère),
+      embryologie 8è mois, audience matinale, pouls et Poumon.
+  - chemin: ZANG_FU/rate.yaml
+    ajouts: >
+      enrichissement_EEA_t1 : Yi (discours intérieur, obsession),
+      Rate tronc CP, Jing Weï/Jing Yé, Sheng Hua (engendrer
+      et transformer).
+  - chemin: ZANG_FU/rein.yaml
+    ajouts: >
+      enrichissement_EEA_t1 : Zhi (volonté, vouloir-vivre),
+      Ming Men approfondi (Nan Jing code), Yin/Yang originels
+      (4 termes distincts), code gauche/droite, Jing et Rein.
+  - chemin: ZANG_FU/maitre_du_coeur.yaml
+    ajouts: >
+      enrichissement_EEA_t1 : Petit Cœur embryologie (différenciation
+      dans le réchauffeur initial), retournement cœur/IG,
+      Jing Jin et pathologie cardiaque.
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajouts: >
+      ~15 nouveaux termes : Yuan_Qi, Jing_Qi_hereditaire, Zong_Qi,
+      Gui, Xing_forme, Ti_structure, Zheng_correct, Zhen_authentique,
+      Sheng_vie, Sheng_Hua, Jing_Shen_vs_Shen_Jing, Tian_Ciel,
+      Di_Ti_Terre.
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajouts: >
+      2 nouveaux arbres :
+      arbre_14_identification_energies_hereditaires (CA/CP,
+      centrifuge/centripète, 3R),
+      arbre_15_cinq_shen_diagnostic (5 Shen perturbés, relations 5E).
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajouts: >
+      8 nouvelles sections : ideogrammes_maitres,
+      mecanismes_pas_substances, solenoides_pas_cercles,
+      guerison_acte_a_minima, shen_primum_movens,
+      cheminement_fait_le_chemin, apparence_pas_trompeuse,
+      qualite_du_jing_determine_la_vie.
+  total_mis_a_jour: 9
+
+concepts_fondateurs_integres:
+  - Dao_et_Tae_I_unite_originelle
+  - Yuan_Qi_principielle_CA_uniquement_ADN
+  - Jing_Qi_essentielle_CA_et_CP_chlorophyllienne
+  - Zong_Qi_ancestrale_CP_uniquement_ARN_Xu_Li
+  - Yin_Yang_originels_et_authentiques_4_termes
+  - Code_gauche_droite_Rein_Yang_Yin
+  - Ming_Men_approfondi_Nan_Jing_embryologie
+  - Hierarchie_embryologique_meridiens_5_niveaux
+  - Qi_Mo_Jing_Jin_Jing_Mo_Lo_Mo_Jing_Bie
+  - Solenoides_pas_cercles_vision_mecaniste
+  - Fong_communication_et_douleur
+  - Cinq_Shen_hierarchie_sup_inf
+  - Shen_celeste_Gui_terrestre
+  - Hun_archetypes_imagination_pere
+  - Po_instincts_memoire_du_futur_mere
+  - Yi_discours_interieur_obsession
+  - Zhi_volonte_vouloir_vivre
+  - Embryologie_Shen_Huai_Nan_Zi_mois_par_mois
+  - Xing_Ti_Shen_trois_angles_du_corps
+  - Petit_Coeur_MC_embryologie_retournement
+  - Jing_Jin_pathologie_cardiaque
+  - Non_dualite_Shen_miniaturisation_indestructibilite
+
+schemas_expliques:
+  note: >
+    Format séminaire oral CLM — pas de schémas visuels formels.
+    Les explications topologiques (3 Réchauffeurs CA/CP,
+    hiérarchie embryologique des méridiens, code G/D du Rein)
+    ont été structurées en YAML à partir du discours oral.
+
+questions_soulevees:
+  - >
+    La distinction Yuan Qi / Jing Qi / Zong Qi avec les métaphores
+    ADN/ARN ouvre des perspectives sur la compréhension moderne
+    de l'hérédité en MTC. Le lien clinique (comment diagnostiquer
+    un déficit de l'une vs l'autre) reste à approfondir.
+  - >
+    Les 5 niveaux embryologiques de méridiens (Qi Mo → Jing Bié)
+    sont posés mais leur utilisation en diagnostic et traitement
+    (quel niveau traiter en priorité ?) sera développée dans
+    les modules méridiens individuels.
+  - >
+    Le couple Hun/Po (père/mère, archétypes/instincts) et son
+    rapport à la psychothérapie acupuncturale mérite un
+    développement clinique (probablement dans P VIII sentiments).
+  - >
+    L'embryologie des Shen mois par mois (Huai Nan Zi) fournit
+    un cadre pour comprendre les pathologies néonatales et
+    pédiatriques — pas encore exploité cliniquement dans le corpus.
+
+lacunes_critiques:
+  - Estomac (E) et Triple Réchauffeur (TR) toujours manquants
+  - Méridiens individuels détaillés (CP méridiens non traité)
+  - Sentiments détaillés par organe (P VIII non traité)
+  - Cas cliniques complets avec raisonnement intégral
+  - Pouls complets (28 pouls chinois)
+  - Jing Jin et Lo Mo en détail individuel
+
+# ─────────────────────────────────────────────────
+# JAUGE D'EXPERTISE — NIVEAU DE L'ASSISTANT
+# ─────────────────────────────────────────────────
+
+jauge_expertise:
+  niveau_actuel: 39
+  echelle: 1_a_100
+  titre: "Etudiant 3ème année — Les fondements doctrinaux s'approfondissent"
+  progression: de_36_a_39_gain_3_points
+
+  justification_gain: >
+    +3 points pour : (1) Énergies héréditaires complètes (Yuan Qi,
+    Jing Qi, Zong Qi) avec topologie CA/CP et métaphores ADN/ARN —
+    compréhension fondamentale de ce qui anime l'organisme.
+    (2) Cinq Shen détaillés individuellement avec embryologie et
+    hiérarchie — le corpus sait maintenant lire le psychisme par
+    les 5 organes. (3) Systémique des méridiens avec hiérarchie
+    embryologique à 5 niveaux — fondement structurel pour les
+    modules méridiens à venir. (4) Ming Men approfondi avec Nan
+    Jing et code G/D — enrichissement majeur du Rein. Le gain est
+    modéré car ce séminaire est très philosophique/fondamental et
+    apporte peu d'outils cliniques directs (pas de tableaux de
+    traitement, pas de formules de points).
+
+  graduation:
+    0_5: >
+      Profane curieux — sait que l'acupuncture existe,
+      confond méridiens et chakras.
+    5_10: >
+      Néophyte éclairé — connaît Yin/Yang et les 5 éléments
+      de nom, mais ne sait pas les relier.
+    10_15: >
+      Etudiant 1ère année — comprend Yin/Yang, les 3 foyers,
+      les Tsang/Fou en général, les Grands Méridiens,
+      sait qu'il y a des niveaux de traitement distincts.
+    15_25: >
+      Etudiant 2ème année début — Connaît la physiologie
+      individuelle des 6 Tsang, les cycles 5E complets,
+      la Cour Impériale, les lois de relations.
+    25_35: >
+      Etudiant 2ème année avancé — Intègre les PATHOLOGIES
+      5E (cycles Tcheng/Ko/Raé, 5 maladies MMM, bilan
+      énergétique, 10 principes traitement, Kan/Che).
+    35_50: >
+      ▶ Etudiant 3ème année — ON EST ICI (39/100) ◀
+      En plus des acquis précédents : Fou individuels (GI, IG,
+      VB, Vessie), Fu extraordinaires, tableaux cliniques
+      (diarrhées, hypertension, surdités). NOUVEAU : énergies
+      héréditaires (Yuan/Jing/Zong Qi), 5 Shen détaillés avec
+      embryologie, systémique des méridiens (5 niveaux),
+      Ming Men approfondi, Dao/Taé I. Le fondement doctrinal
+      est désormais solide. Manque : E, TR, méridiens
+      individuels, sentiments, pouls complets.
+    50_65: >
+      Praticien débutant — peut lire un cas, identifier
+      le niveau, choisir la bonne grille, proposer un
+      traitement cohérent. Connaît les pièges.
+    65_80: >
+      Praticien confirmé — maîtrise croisement des grilles,
+      nuances Tcheng/Ko en pathologie, MV, constitutionnel.
+      Sait quand NE PAS traiter.
+    80_92: >
+      Expert — raisonne comme Bollet dans ses commentaires.
+      Peut improviser face à un cas inédit en combinant
+      les principes. Comprend les subtilités doctrinales CLM.
+    92_98: >
+      Maître praticien — la pensée IEATC est devenue
+      une seconde nature. Le raisonnement est instantané,
+      la lecture du patient est globale et intuitive.
+    98_100: >
+      Grand Maître — niveau Bollet/CLM. Capable d'enseigner,
+      de résoudre les contradictions doctrinales, d'innover
+      dans le respect de la tradition. Le corpus entier
+      est intégré, digéré, et transcendé.
+
+  acquis_a_ce_stade:
+    - Yin/Yang complet (fondements, 3 Yin 3 Yang, applications)
+    - 3 Foyers et localisation
+    - Tsang/Fou généralités + physiologie individuelle 6 Tsang
+    - Hiérarchie pyramidale et sang/énergie
+    - 3 systèmes énergétiques
+    - Méridiens principaux (TT) + Grands Méridiens (TK) bases
+    - Merveilleux Vaisseaux bases
+    - Niveaux de traitement (règle absolue)
+    - 5 Éléments fondements (terminologie, séquences, spatio-temporel)
+    - 5 Éléments par élément (Bois, Feu, Terre, Métal, Eau)
+    - Intersaisons et activité saisonnière
+    - Cycle Tcheng complet (transmission Yin→Yin, Rate transforme)
+    - Cycle Ko complet (tempérance, intelligence, Hong Fan)
+    - Cycle Raé (révolte, pathologique, n'importe quand)
+    - Cour Impériale et hiérarchie saisonnière complète
+    - Lois de relations (unitaire, binaire, ternaire, quaternaire, quinaire)
+    - Analyses triangles (rouge, bleu, vert) et pathologies
+    - Auto-régulation et oscillation permanente
+    - 4ème principe (mère faible = tout tient à ça)
+    - Correspondances complètes (tableau des Tchi, 30+ par élément)
+    - Point Penn détaillé (quintessence, 1 des 5 Su)
+    - Collecte annuelle Métal → réserve Rein
+    - Importance capitale du printemps (starter)
+    - 6 axes énergétiques et leur direction (Croix 6 directions)
+    - Double hélice ADN (Chao Yang + Tsiué Yin)
+    - Lecture posturale diagnostique par axe
+    - Points Su — philosophie qualité vs quantité
+    - 5+1 types de Points Su et leur usage propre
+    - CHEUN des 5 organes (HOUN/CHEN/Yi/PO/Tchi)
+    - Âge d'Or et verticalité antique
+    - 10 Kan et 12 Che nommés, cycle 60 ans
+    - 6 pas célestes et terrestres (Maître/Serviteur)
+    - Heures Royales, Lune/Soleil, Calendrier Xia
+    - So Ouen chap.5 complet + Ko émotionnels cliniques
+    - 3 niveaux Homme (organique, affectif, psychique)
+    - Morphotype 5E précède tout bilan
+    - 8 activités psychiques Ling Tchrou chap.8
+    - Ne jamais disperser un sentiment (renforcer Penn dominant Ko)
+    - Point Penn complet (tableau Yin et Yang)
+    - Loi Mère-Fils en traitement (tonification/dispersion)
+    - Points actifs/neutres/horaire selon saison
+    - 10 principes de traitement 5E
+    - Tcheng/Ko/Raé pathologiques complets
+    - 5 maladies MMM (véritable/vide/plénitude/victoire/défaite)
+    - Bilan énergétique 4 temps + 8 règles
+    - Palpation abdominale 6 zones + déblocages
+    - Pouls saisonniers + Chu Li + zones Hong Kong
+    - Kan/Che prévisionnel (3 analyses croisées)
+    - Gravité vitale (Feu/Métal/Eau) + Rate+Rein vides
+    - MAN/SHI distinction plein vs plénitude
+    - BIAO/LI couplage Tsang-Fou
+    - Fu extraordinaires Qi Heng Zhi Fu
+    - Cinq troncs d'enracinement
+    - Fou individuels GI, IG, VB, Vessie
+    - Diarrhées/hypertension/surdités tableaux cliniques
+    - Feu du vide vs Feu du plein
+    - "--- NOUVEAU PVI EEA t1 ---"
+    - Yuan Qi / Jing Qi / Zong Qi (topologie CA/CP complète)
+    - Yin/Yang originels et authentiques (4 termes distincts)
+    - Ming Men approfondi (Nan Jing, embryologie, code G/D)
+    - Hiérarchie embryologique méridiens 5 niveaux (Qi Mo → Jing Bié)
+    - Solénoïdes (pas cercles) et Fong communication
+    - 5 Shen détaillés (Shen/Hun/Po/Yi/Zhi) avec hiérarchie
+    - Embryologie des Shen mois par mois (Huai Nan Zi)
+    - Couple Shen céleste / Gui terrestre
+    - Hun archétypes/imagination/père — Po instincts/mémoire du futur/mère
+    - Yi discours intérieur — Zhi volonté/vouloir-vivre
+    - Xing/Ti/Shen = 3 angles du corps
+    - Petit Cœur → MC (embryologie retournement)
+    - Dao et Taé I (unité originelle)
+    - Jing Jin et pathologie cardiaque
+
+  manque_pour_monter:
+    pour_42: Estomac_et_TR_individuels
+    pour_50: meridiens_individuels_complets_lois_Lo_sentiments
+    pour_60: cas_cliniques_pouls_complets_strategies_avancees
+    pour_80: tout_le_programme_IEATC_integre_et_croise
+
+dependances_modules_suivants:
+  priorite_1: PVI_EEA_t2_seminaire_CLM_suite
+  priorite_2: PVIII_sentiments_psychisme_par_organe
+  priorite_3: CP_meridiens_Lo_individuels
+  priorite_4: PIV_t3_Kan_Che_appliques
+  note: >
+    EEA t1 a posé les fondements doctrinaux profonds (énergies
+    héréditaires, 5 Shen, systémique méridiens). EEA t2 est la
+    suite logique directe du même séminaire. E et TR manquent
+    toujours — à chercher dans EEA t2 ou modules dédiés.
+
+# ─────────────────────────────────────────────────
+# ANALYSE DE PERFORMANCE — OPUS 4.6
+# ─────────────────────────────────────────────────
+
+analyse_performance_modele:
+  modele_utilise: claude-opus-4-6
+  tache_effectuee: integration_seminaire_68_pages_PVI_EEA_t1
+  date: 2026-04-06
+
+  ce_qui_a_bien_fonctionne:
+    fondements_doctrinaux: >
+      Bonne extraction des concepts philosophiques profonds
+      (Dao, Taé I, non-dualité des Shen, Ming Men embryologique)
+      à partir d'un séminaire oral très dense. Structuration
+      YAML fidèle à l'esprit CLM.
+    cinq_shen: >
+      Création réussie d'un fichier complet sur les 5 Shen avec
+      embryologie mois par mois — le corpus peut maintenant
+      évaluer le psychisme par les 5 organes (fondement pour P VIII).
+    energies_hereditaires: >
+      Distinction claire Yuan/Jing/Zong avec topologie CA/CP
+      et métaphores modernes (ADN/ARN). L'arbre de décision
+      associé permet un diagnostic différentiel.
+    cascade_complete: >
+      3 fichiers créés + 6 Tsang/MC enrichis + ~15 termes lexique +
+      2 arbres décision + 8 principes philosophie. Application
+      systématique du principe "tout est interconnecté".
+
+  limites_observees:
+    contexte_epuise: >
+      Comme pour PVI t3, la session a atteint les limites du
+      contexte. Rapport écrit après compaction.
+    peu_de_clinique: >
+      Ce séminaire est très philosophique. Pas de nouveaux
+      tableaux cliniques ni formules de traitement.
+      Le gain jauge est donc principalement doctrinal.
+
+# ─────────────────────────────────────────────────
+# STATISTIQUES GLOBALES DU CORPUS
+# ─────────────────────────────────────────────────
+
+statistiques_corpus:
+  polycopies_traites: 8
+  polycopies_restants: 37
+  pages_traitees: ~758
+  pages_totales: ~2550
+  progression_pourcentage: ~30
+  fichiers_THEORIE: 13
+  fichiers_ZANG_FU: 11
+  fichiers_CLINIQUE: 3
+  fichiers_DIAGNOSTIC: 0
+  fichiers_SYNDROMES: 0
+  termes_lexique: ~155
+  arbres_decision: 15
+  principes_philosophie: ~43

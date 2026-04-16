@@ -1,0 +1,224 @@
+# ÉNERGIES HÉRÉDITAIRES — SÉMINAIRE CLM DÉCEMBRE 1981
+# Source : EEA 1er.pdf (PVI EEA t1), Dr Schatz + E. Rochas de la Vallée
+# Intégré : 2026-04-06
+
+# ─────────────────────────────────────────────────
+# PRÉAMBULE : TERMINOLOGIE ET PRÉCAUTIONS
+# ─────────────────────────────────────────────────
+
+preambule:
+  note_fondamentale: >
+    Les trois énergies Yuan Qi, Jing Qi et Zong Qi ne sont PAS
+    des substances. Ce sont des MÉCANISMES, des façons de décrire
+    des processus vitaux qui sont toujours en mouvement et toujours
+    ensemble. On les sépare pour les décrire, mais dans la réalité
+    elles forment l'Unité de la vie. Le terme « énergies héréditaires »
+    est arbitraire — il n'existe pas de terme générique dans les Textes.
+  regle_pedagogique_EEA: >
+    Les idéogrammes sont les maîtres de la conduite pédagogique (Schatz).
+    C'est à partir d'eux qu'on définit le champ de l'explication.
+    Chaque idéogramme a un champ précis qui ne peut pas empiéter
+    sur celui d'un autre mécanisme.
+
+# ─────────────────────────────────────────────────
+# LES TROIS ÉNERGIES HÉRÉDITAIRES
+# ─────────────────────────────────────────────────
+
+yuan_qi:
+  nom: Yuan Qi — Énergie Originelle / Principielle
+  position_CA_CP: Ciel_Anterieur_exclusivement
+  nature: >
+    Magma existentiel qui précède l'être non seulement comme individu
+    mais même comme incarnation de forme. C'est l'énergie du Cosmos
+    entier avant toute différenciation. Liée à la création même,
+    au-delà de la phylogenèse.
+  deux_ideogrammes:
+    premier: >
+      Insiste sur la notion de PRINCIPE — principe des êtres, principe
+      de vie. Rappel de l'Unité. Premier caractère de l'Hexagramme du
+      Ciel dans le Livre des Mutations. Utilisé pour Eau originelle,
+      Feu originel, Yin/Yang originels.
+    second: >
+      Escarpement rocheux avec eau blanche qui coule = image de SOURCE
+      perpétuelle. Même idéogramme que les points Sources (Iuann).
+      C'est le ressourcement et le retour à l'origine.
+  metaphore_occidentale: >
+    Schatz rapproche Yuan Qi de l'ADN — la matrice fondamentale,
+    le code primordial. Mais c'est une métaphore limitée car Yuan Qi
+    va bien au-delà de la génétique : c'est cosmogénétique.
+  relation_3R: >
+    Le Triple Réchauffeur est le vecteur de Yuan Qi dans l'embryon
+    et chez l'adulte. « Yuan, c'est le titre honorifique des 3
+    Réchauffeurs » (Nan Jing, Difficulté 66). Les 3R séparent et
+    envoient les Souffles originels vers les 5 Zang et 6 Fu.
+  voie_centrifuge: >
+    Yuan Qi se distribue dans l'être par la voie centrifuge — du
+    centre vers la périphérie, de Ming Men vers les 3 Réchauffeurs,
+    puis vers tous les organes et méridiens.
+
+jing_qi:
+  nom: Jing Qi — Énergie Essentielle
+  position_CA_CP: a_la_fois_CA_et_CP
+  nature: >
+    Énergie du Ciel, énergie chlorophyllienne, liée à la formation
+    du cycle du carbone et à l'énergie solaire. Se présente sous
+    deux formes : celle du C.A. (substrat de la première cellule)
+    et celle du C.P. (alimentation, respiration, tout ce qui
+    sustente l'être depuis l'extérieur).
+  ideogramme: >
+    Grain de céréale qui éclate (même radical que Qi) + couleur
+    bleue-verte = image des champs de blé au printemps, de la sève,
+    du Ciel profond. C'est la vitalité visible, le Bois, l'émergence.
+  double_sens:
+    sens_large: >
+      Tout ce qu'on tire pour fabriquer et entretenir sa propre
+      existence — pas seulement alimentation et respiration, mais
+      aussi conversations, musiques, odeurs. La QUALITÉ de ce qu'on
+      prend influence la qualité de ce qu'on est.
+    sens_restreint: sperme, séminal
+  Jing_CA: >
+    Le substrat qui vient des parents au moment de la conception.
+    C'est le « Yin authentique, le Yin originel » (Su Wen).
+    Tenu en réserve au niveau de Ming Men. Nourrit les organes
+    producteurs et résiste aux mauvaises excitations.
+  Jing_CP: >
+    Tout ce que l'être assimile d'extérieur pour entretenir sa
+    vitalité : alimentation (Jing Weï), respiration, et au-delà.
+    Les Zang, singulièrement le Rein, sont remplis de Jing.
+  metaphore_occidentale: >
+    Schatz rapproche Jing Qi de l'hérédité non-chromosomique,
+    protoplasmique, plus archaïque que l'hérédité chromosomique.
+    Métaphore prudente.
+  citation_Su_Wen_chap1: >
+    « Les Hommes d'aujourd'hui par leurs désirs épuisent
+    leur JING, par leurs manières de s'user ils dispersent
+    leur authenticité (ZHEN). »
+  citation_Ling_Shu_chap8: >
+    « La venue de la naissance, c'est ce qu'on appelle le JING. »
+  voie_centripete: >
+    Jing du C.P. entre par la voie centripète — de l'extérieur vers
+    l'intérieur, par les points Su (5 éléments), la voie saisonnière.
+
+zong_qi:
+  nom: Zong Qi — Énergie Ancestrale
+  position_CA_CP: Ciel_Posterieur_exclusivement
+  nature: >
+    PAS « originelle » — Zong signifie ANCÊTRE (dans la lignée),
+    pas ancêtre fondateur (qui serait ZU). Ce sont les mécanismes
+    post-conceptionnels qui tirent leur exemplarité des habitudes
+    imprimées chez les parents et la lignée.
+  ideogramme: >
+    Toit avec présence des Ancêtres en dessous. Signifie :
+    1) Chef du culte des Ancêtres (modèle, maître des habitudes)
+    2) Ancêtre en tant que rassembleur (réunit la famille)
+    3) Lignée et plis héréditaires (territoire, climat, alimentation)
+  contenu: >
+    Toutes les promesses concrétisées à la naissance qui donnent
+    certains plis, certains aspects. C'est l'ensemble du C.P. :
+    habitudes de vie, alimentaires, respiratoires, mentales,
+    environnement spatial et temporel, civilisation.
+  localisation: >
+    Au Réchauffeur Supérieur. La « mer des Souffles » (Tan Zhong,
+    17VC) est le lieu de plus haute potentialité de Zong Qi.
+    Transmise par le 16ème Lo, Xu Li (Grand Lo de l'Estomac).
+  metaphore_occidentale: >
+    Schatz rapproche Zong Qi de l'ARN — fragmentation de l'ADN
+    en filières spécifiques, plus particularisé. Habitudes génétiques,
+    possibles mutations acquises. Métaphore prudente.
+  globalisant: >
+    « Le Souffle de Zong qi est globalisant dans le centre.
+    Il est l'effectuation au moment de la conception de tout
+    ce qui précède. » (Schatz)
+
+# ─────────────────────────────────────────────────
+# SYNTHÈSE TOPOLOGIQUE : CA / CP ET RÉCHAUFFEURS
+# ─────────────────────────────────────────────────
+
+synthese_topologique:
+  schema_CA_CP:
+    Ciel_Anterieur: Yuan_Qi (exclusif) + Jing_Qi_CA
+    moment_inaugural: Conception (Ming Men)
+    Ciel_Posterieur: Zong_Qi (exclusif) + Jing_Qi_CP
+    note: >
+      Entre C.A. et C.P. il n'y a PAS de limite nette — c'est
+      le passage de l'être au non-être, de l'avoir au non-avoir.
+      Le passage se fait au moment inaugural de la conception.
+      On est perpétuellement en état de conception/naissance.
+  repartition_3R:
+    Rechauffeur_Superieur: Zong_Qi
+    Rechauffeur_Moyen: Jing_Qi + Iong
+    Rechauffeur_Inferieur: Oé
+    note: >
+      Assertions fondamentales dans tous les Textes Chinois anciens
+      et modernes, sans lesquelles on ne peut se diriger. C'est l'ABC.
+  deux_voies:
+    centrifuge: >
+      Yuan Qi → depuis Ming Men → 3 Réchauffeurs → tout l'être.
+      C'est la voie des énergies innées qui se distribuent.
+    centripete: >
+      Jing Qi du C.P. → depuis l'extérieur (alimentation, respiration,
+      peau, existence) → vers l'intérieur par les 5 éléments et les
+      points Su. C'est la voie saisonnière.
+    note: >
+      Ces deux voies n'en font qu'UNE car tout se ramène à l'Unité.
+      La perspective de l'interne de l'interne aboutit à l'externe
+      car tout se ramène au Ciel.
+
+# ─────────────────────────────────────────────────
+# YIN/YANG ORIGINELS ET AUTHENTIQUES
+# ─────────────────────────────────────────────────
+
+yin_yang_originels:
+  quatre_termes:
+    Zhen_Yin: Yin authentique = Jing du C.A. = Eau originelle
+    Zhen_Yang: Yang authentique = Ming Men = Feu originel
+    Yuan_Yin: Yin originel (C.A., perspective avant conception)
+    Yuan_Yang: Yang originel (C.A., perspective avant conception)
+  localisation: >
+    Logent au milieu des Reins avec Ming Men. « Le Yin originel
+    et le Yang originel logent au milieu d'eux » (texte moderne).
+    Relations de l'Eau et du Feu, enracinement réciproque Yin/Yang.
+  code_gauche_droite:
+    dans_CA: Yin_a_gauche + Yang_a_droite (perspective du créateur)
+    dans_CP: Yang_a_gauche + Yin_a_droite (perspective de l'individu face au soleil)
+    rein_Ming_Men: >
+      « À gauche c'est le rein, à droite c'est Ming Men »
+      (Nan Jing chap. 36 et 39). C'est un CODE pour dire qu'on
+      parle des énergies du C.A., pas une latéralité anatomique.
+    note: >
+      Niboyet et Soulié de Morant placent toujours Yin à gauche
+      et Yang à droite. Les Textes Chinois inversent selon C.A./C.P.
+      C'est une source fréquente de confusion.
+
+# ─────────────────────────────────────────────────
+# JING WEÏ ET JING YÉ — CIRCUIT DES ALIMENTS
+# ─────────────────────────────────────────────────
+
+jing_des_aliments:
+  jing_wei:
+    definition: >
+      Ce qui sort de l'estomac après fragmentation du bol alimentaire.
+      Weï = menu, petit, miniaturisation. Jing Weï va vers la Rate
+      où d'autres transformations produisent les liquides interstitiels.
+  jing_ye:
+    Jing_liquide: >
+      Aspect le plus CLAIR des liquides — plus fluides, circulation
+      rapide. Irrigue en surface.
+    Ye_liquide: >
+      Aspect le plus OPAQUE — plus épais, circulation lente, irrigue
+      en profondeur (articulations, organes des sens internes).
+    entre_les_deux: >
+      Tous les mécanismes liquidiens du corps, formés depuis le
+      Réchauffeur Moyen vers toutes les parties du corps.
+  deux_destinations_Su_Wen_21:
+    liquides: >
+      Estomac/Rate → Poumon (abaissement) → Vessie.
+      Le Poumon a autorité sur tout le secteur hydrique,
+      les mécanismes interstitiels.
+    solides: >
+      Estomac/Rate → Foie → muscles → Cœur (muscle privilégié).
+      Étape de la formation du sang (hématose au champ pulmonaire).
+  note: >
+    Ce circuit Su Wen chap. 21 est aussi cité dans le PVI t3
+    (enrichissement Poumon). Ici, il est relié aux énergies
+    héréditaires comme partie du Jing du C.P.

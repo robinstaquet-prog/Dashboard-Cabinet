@@ -1,0 +1,607 @@
+# CAS PRATIQUES YIN/YANG — 9 CAS COMPLETS DU STAGE D'ÉTÉ
+# Source: PIV YY tome 5 (CP I Partie 2) — pp.32-55
+# Chaque cas avec interrogatoire, observation, pouls, analyse, traitement
+# "De l'or pur" — la pédagogie clinique IEATC par l'exemple
+
+meta:
+  fichier: cas_pratiques_yin_yang.yaml
+  source_principale: PIV_YY_tome5_CP_I_partie2
+  importance: >
+    Ces cas sont les PREMIERS cas pratiques de la formation.
+    Ils enseignent le raisonnement clinique complet étape
+    par étape. Chaque cas illustre un ou plusieurs principes
+    fondamentaux du diagnostic YY.
+  schema_protocole:
+    1: "Yin/Yang"
+    2: "5 Éléments"
+    3: "Vide/Plénitude"
+    4: "Froid/Chaleur"
+
+# ═══════════════════════════════════════════════════
+# CAS 1 — FLORENCE, 28 ANS
+# Genou + séquelles mononucléose
+# ═══════════════════════════════════════════════════
+
+cas_1_florence:
+  age: 28
+  motif: "genou droit craque et douloureux depuis 2 mois"
+
+  interrogatoire:
+    douleur: "craquement sonore à la marche uniquement, pas en sautant/courant"
+    position_ameliorante: "moins mal en torsion (jambe repliée)"
+    moment: "douleur la nuit au repos, pas en marchant ni dansant"
+    activite: "danse classique et contemporaine, 6-10h/semaine en 3 fois"
+    traumatisme: non
+    preferences: "aime la pluie, n'aime pas le ski, aime la montagne"
+    antecedents: "mononucléose avec atteinte hépatique il y a 7 ans, fatiguée 2 ans, fatigabilité permanente depuis"
+
+  observation: "aspect genou normal, identique à l'autre, pas de gonflement"
+
+  prise_pouls:
+    foyer_inferieur: "faible à gauche (Yang insuffisant FI)"
+    droit_profond: "trop large et mou = Yin en excès avec vide de Yang"
+    9E: "normal (énergie externe et haut du corps)"
+    9P: "vide (énergie interne et bas du corps)"
+    rate: "forte = Yin en excès au foyer moyen"
+
+  palpation:
+    ganglions: "nombreux le long du sterno-cléido-mastoïdien (TR et VB)"
+    genou: "température normale, aucun point douloureux à la pression"
+
+  analyse:
+    polarite: "Yin — douleur au repos, mouvement Yang ne gêne pas, >2 mois"
+    type: "problème local Yin sur système locomoteur = problème de méridien"
+    mecanisme: >
+      VB apporte tonicité capsule et ligaments externes du genou.
+      Mononucléose touche méridien VB au cou. Un fong a usé
+      l'énergie du méridien. 5 ans de résistance puis lâchage
+      dans la région la plus affaiblie par la danse.
+    contradiction: >
+      Florence aime la pluie alors qu'elle est pleine d'humidité
+      → contradiction questionnaire/pouls → penser blocage YY.
+      Ici, intervenir d'abord sur foyer moyen (E=Yang, Rte=Yin)
+      pour lever le blocage.
+
+  traitement:
+    - "62V t bilatéral — équilibre 2 jambes et bassin, YY local"
+    - "30VB t bilatéral + moxas — équilibre bassin, amène Yang aux MI"
+    - "41VB t — problèmes polyarticulaires train inférieur (danseuse)"
+    - "31VB d — libère circulation énergie VB hanche→genou (Yang descend)"
+    - "33VB d + 7F d — synergie puissante ligaments et œdèmes genou"
+    - "44VB t — renforce complexe ligamentaire genou"
+    - "9Rte d — Yin bas du corps, remontée liquides, LLI"
+    - "36E t + moxas — Yang local genou + état général post-mononucléose"
+
+  enseignement_cle: >
+    Si aux pouls on trouve un vide de Yang général → traiter
+    le YY général d'abord. Sinon, le Yang local apporté serait
+    absorbé par le vide de Yang général. Toujours conseiller de
+    poursuivre le traitement même si le genou va bien, pour
+    traiter l'aspect général.
+
+# ═══════════════════════════════════════════════════
+# CAS 2 — JEAN-CHARLES
+# Crise de goutte
+# ═══════════════════════════════════════════════════
+
+cas_2_jean_charles:
+  motif: "crise de goutte il y a 1 an, gros orteil gauche, état latent de douleur"
+  declencheur: "crise à chaque période difficile ou problèmes"
+
+  prise_pouls:
+    droit: "plus fort en profondeur"
+    yin: "plus fort"
+    yang: "pas de Yang, pas de pouls superficiels"
+
+  palpation: "tous les points locaux sensibles et douloureux à faible pression = aspect Yang et plénitude, orteil chaud"
+  observation: "orteil rouge, gonflé, congestif dans zone douloureuse"
+
+  analyse:
+    lateralite: "pied gauche = Bois = F et VB"
+    mecanisme: >
+      Bois et Terre en conflit. Pouce du pied entre F (Bois)
+      et Rte (Terre). Une chaleur ne peut JAMAIS se développer
+      d'elle-même sur Rte/Terre car c'est le Yin le plus important.
+      La chaleur vient d'IG ou VB. Ici → chaleur VB via le F.
+    acide_urique: "crise d'acide urique = TOUJOURS d'origine VB qui ne se draine pas"
+    reflux: >
+      VB ne pouvant s'extérioriser → chaleur reflue vers l'intérieur
+      → envahit le F. Physiologiquement: si bile ne se déverse pas
+      suffisamment → reflue dans le F → pénètre le sang filtré.
+    psychisme: >
+      Crises liées aux soucis → méridien de Rate = soucis et anxiété.
+      3Rte d apaise cette tendance.
+    bilan: "Yang local sur vide de Yang général"
+
+  traitement:
+    protocole: "1, 3, 4 du protocole (pas 5E en 1ère séance)"
+    etape_1_yy:
+      - "4GI t bilatéral — tonifier Yang général"
+      - "12JM t — tonifier Yang organique"
+      - "41VB d à gauche — disperser Yang local"
+    etape_3_vide_plenitude:
+      - "3Rte d avec saignée — disperser en aval de la douleur (Yin monte), débloquer énergie méridien"
+    etape_4_froid_chaleur:
+      - "2Rte d avec saignée — traite chaleur du méridien"
+      - "2F d — vide plénitude F, traite chaleur méridien"
+      - "3F d — douloureux, point en aval, libère circulation et vide plénitude en amont"
+      - "38VB d + 40VB d — vider VB de chaleur et plénitude"
+    note: >
+      Tous points en unilatéral sauf 4GI. Possibilité de
+      piqûre en étoile autour de l'inflammation pour faire
+      circuler l'énergie.
+
+  enseignement_cle: >
+    Tonifier le Yang partout sauf en local. Disperser le Yang
+    local. Un même symptôme (goutte) nécessite d'identifier
+    la chaîne causale complète (VB→F→E/Rte + psychisme).
+
+# ═══════════════════════════════════════════════════
+# CAS 3 — MARIE-PAULE
+# Troubles digestifs + émotionnel
+# ═══════════════════════════════════════════════════
+
+cas_3_marie_paule:
+  motif: "ne digère pas, gonfle, gaz, rots — quand ennuis/contrariétés, surtout le soir"
+  amelioration: "au calme"
+  appetit: "adore manger, mange beaucoup"
+  selles: "normales"
+  douleur: "pas de douleur"
+
+  palpation: "Terre centre et Bois tendus. 3F et 18JM très douloureux."
+  observation: "traces de dents sur bords de langue = Rte (volume = excès Yin organique)"
+
+  prise_pouls:
+    superficiel: "correct bilatéral"
+    profond: "E faible, Rte correcte, VB et F faibles"
+
+  premiere_analyse:
+    mecanisme: >
+      Le mouvement de descente (Yang Ming) ne se fait pas.
+      Dès que Marie-Paule est confrontée à l'agitation →
+      fonctionne sur le Chao Yang (TR-VB) = axe de la vie
+      de relation qui maintient l'énergie en haut du corps.
+      Ceci contrarie le mouvement de descente Yang Ming.
+    pouls: "Yang en surface mais Yang Ming profond très faible"
+
+  traitement_premiere_analyse:
+    - "12JM t — tonifie Yang local"
+    - "6JM d — disperse Yin local"
+    - "4GI t — dynamise Yang Ming, multiplie action 12JM"
+    - "12JM t — régularise soucis, idées noires, digère tout (physique/affectif/psychique), libère entraves du passé"
+    - "36E t — tire vers le bas, Yang Ming, sérénité, 'divine indifférence'"
+    - "6JM d — disperse Yin abdominal"
+    - "6Rte d — disperse Yin bas du corps, action R/Rte/F, gère Yin jusqu'au nombril, varices"
+
+  seconde_analyse:
+    cafe_au_lait: >
+      VB faible car café au lait le matin → caféine + lactéine
+      bloque VB pour la matinée. Patients qui n'arrêtent pas
+      ne peuvent PAS aller mieux. Pas de laitage avec café.
+    chaine: >
+      VB faible → F faible (Yin nourrit le Yang) → Yang de la
+      barrière faible → Rte sans Yang de E → Yang des Reins
+      épuisé car E ne fabrique plus le Yang pour l'organisme.
+    traitement_complementaire:
+      - "3F d + 7F d — débloquer F (vérifier pouls après: si F remonte = blocage; sinon = cycle Raé)"
+      - "7C t — point de la joie de vivre"
+      - "6MC d — harmonise MC, action YY organique"
+
+  enseignement_5E:
+    cycle_rae: >
+      Rte forte + F faible → cycle Raé possible (Terre attaque Bois).
+      Un élément fort attaque 2 éléments:
+      Terre attaque Eau et Bois → 5Rte d, 1R d, 2F d.
+      Si Métal aussi impliqué (2 attaquent 1) → 5Rte d, 5P d, 2F d, 8F t.
+
+# ═══════════════════════════════════════════════════
+# CAS 4 — MONIQUE 1
+# VB bloquée, calculs, fibrome, règles longues
+# ═══════════════════════════════════════════════════
+
+cas_4_monique_1:
+  motif: "vomissements importants en janvier, vertiges, sueurs, nausées"
+  antecedents: "calculs VB (échographie), crises de foie à l'adolescence, chocolat ++"
+  symptomes_associes: >
+    lever difficile, coup de pompe 10h, somnolence postprandiale,
+    maux de tête, fond de colère qui rumine, mal être dès novembre,
+    déteste humidité/vent, mal ventre côté gauche, selles molles,
+    ballonnements, urines foncées, fibrome, kystes ovaire gauche,
+    cycle 28j mais règles 15 jours (!), bras droit bloqué avec
+    calcification épaule, adénome fibromateux sein droit.
+
+  palpation: "Terre digestive tendue, Bois sensible, Eau pleine"
+  prise_pouls:
+    yy: "Yin fort aux 3 niveaux, droit plus fort, profond plus fort, superficiel faible"
+    loges: "loge III très pleine, loge I modérée"
+    organes: "F-VB très fort, R-V très fort, Rte faible, E plein, C rien"
+
+  analyse:
+    conclusion: >
+      Plénitude Yin en profondeur = Yin/Yin. Plénitude Yin
+      en bas du corps (loge III). VB bloquée → Yang ne circule plus.
+    points_urgence:
+      - "34VB d — vide VB, dilate cholédoque, passe petits calculs"
+      - "21R d — ouvre cholédoque"
+      - "25V' d — 'Spasfon', antispasmodique organes creux, ARRÊT INSTANTANÉ douleurs"
+
+  traitement:
+    dispersion_yin:
+      - "6JM d — Yin organique général"
+      - "6Rte d — Yin bas du corps"
+      - "4JM d — Yin organique FI"
+      - "3F d — fait passer le Yin dans le Yang pour mutation"
+    compensation:
+      - "12JM t — Yang organique (ATTENTION: pas en début si VB risque de spasmer)"
+      - "36E t — équilibre Rte, renforce 12JM, tire Yang en bas → VB lâche"
+    specifiques:
+      - "1VB d + 23TR d + 20VB d — migraines et déblocage tête"
+
+  phase_2:
+    note: "2-3F d après le traitement précédent sinon augmenterait le sang des règles"
+    alerte_6rte: >
+      NE JAMAIS disperser 6Rte pour une femme à règles trop
+      abondantes. Alternative: 41VB t (retient le sang, équilibre
+      VB/F, met Yang dans le bas du corps).
+    hemorragie:
+      sang_present: "9P d"
+      vide_de_sang: "1Rte t + moxas (pas d'aiguille car vide)"
+
+  seconde_analyse:
+    tsiue_yin: >
+      Plénitude F+MC = Tsiué Yin en plénitude → 18JM d
+      (point nœud, liaison haut/bas). En dispersant le Yin
+      du bas → remonte vers haut → MC en excès.
+    5_elements: >
+      Eau en excès (signes: kystes, fibromes, calcifications).
+      Bois en plénitude → cycle Tcheng bloqué → reflux dans Eau.
+      Traitement → réalimenter le Feu insuffisant.
+      6MC d + 2-3F d pour conduire énergie dans élément Feu.
+
+  enseignement_cle: >
+    Cas complexe multi-niveaux. La plénitude Yin concerne
+    les 3 méridiens du bas du corps (R, Rte, F). Identifier
+    lesquels sont touchés (1, 2 ou 3). Toujours vérifier
+    les contre-indications avant chaque point (hémorragies!).
+
+# ═══════════════════════════════════════════════════
+# CAS 5 — MONIQUE 2
+# Migraines chroniques depuis 16-17 ans
+# ═══════════════════════════════════════════════════
+
+cas_5_monique_2:
+  motif: "migraines et maux de tête très forts et répétitifs depuis 16-17 ans"
+  symptomes: >
+    Plutôt le jour, tête lourde au réveil. Boule entre les yeux,
+    commence derrière œil gauche. Toute la tête (= céphalée pas
+    migraine). Plus mal en été (chaud, humide). Nausées/vomissements.
+    Baisse vue, un œil pratiquement aveugle depuis 10 ans.
+    Mouches dans l'œil. Sinus bloqués. Tempes.
+    Soulagée dans le noir et le silence.
+  douleur_precise: "centre 2 yeux (25TM = In Trang) et coin interne œil (= Vessie, pas VB)"
+  declencheur: "après premier accouchement très mal passé (hémorragie interne)"
+
+  prise_pouls:
+    yang_organique: en profondeur
+    yang_barriere: au niveau II
+    note: "Contradictoire avec céphalées — fréquent chez migraineux"
+  observation: "lèvres sèches + peau = chaleur Rte/barrière. Langue pointue (Yang). Fissure longue = atteinte Rate."
+
+  analyse: >
+    Accumulation de médicaments quotidiens a pu fausser le terrain.
+    Débloquer le Yang en haut (douleur précise + blocage).
+
+  traitement:
+    deblocage:
+      - "20VB d + 21VB d — débloque VB tête + trapèzes"
+      - "10V d côté gauche — traite Yang de son Yang"
+      - "23TR d + 1VB d — migraines"
+      - "2V d et saigné — sinusites et accumulations frontales"
+      - "In Trang dispersé et saigné — plénitudes sinusites"
+    suite:
+      - "27TM au laser — augmenter déblocage Yang tête (pas de changement = pas un blocage)"
+      - "22VB d — libérer l'émotionnel (zone pli aisselle douloureuse)"
+    note: >
+      Ce n'était pas un blocage car absence de Yang au pouls +
+      teint pâle → tonifier le Yang plutôt que disperser.
+      Mouche blanche = Yang, mouche noire = Yin.
+
+# ═══════════════════════════════════════════════════
+# CAS 6 — PATRICIA
+# Jambe bloquée + syndrome prémenstruel + dépression
+# ═══════════════════════════════════════════════════
+
+cas_6_patricia:
+  motif: "douleur jambe gauche empêche de marcher, impression péroné bloqué"
+  symptomes_associes: >
+    Vomissements depuis 1 mois, douleurs 22VB et 18JM.
+    Hypersomnie. Syndrome prémenstruel important depuis 1 an.
+    Règles ½ journée, gros caillot, sang sombre, puis plus rien.
+    Dépressive. Traitements hormonaux durs depuis 2 ans.
+    Fatigue intellectuelle, rêve beaucoup de bébé.
+    Transpiration qui sent mauvais (F ou C).
+
+  analyse: >
+    Déblocage par massage 22VB → blocage reporté sur jambe gauche.
+    R et F ont souffert: R = système hormonal (R Yang),
+    F = filtre chimie. Rte (mémoire) touchée, sommeil non
+    réparateur, énergie ne passe pas au cerveau.
+
+  traitement_immediat:
+    - "44VB d — dégage énergie VB qui gère le péroné"
+    - "40VB d — draine organe et méridien, point Iuann ('presse-citron')"
+  resultat: "péroné libéré aussitôt. Reste = séance complète ultérieure."
+
+  enseignement_cle: >
+    Parfois un déblocage local suffit comme première intervention.
+    Le diagnostic traditionnel complet se fera lors d'une séance
+    dédiée. Le point Iuann (40VB) est un "presse-citron" de
+    l'organe et du méridien.
+
+# ═══════════════════════════════════════════════════
+# CAS 7 — MARTINE
+# Arthrose cervicale + migraines + Yang de Yang
+# ═══════════════════════════════════════════════════
+
+cas_7_martine:
+  motif: "douleur nuque (arthrose), douleur le matin + au fil de journée + pire le soir"
+  symptomes: >
+    Douloureux la nuit (dort avec cachet). Plus mal côté gauche.
+    Aggravée en tournant/penchant tête (surtout avant).
+    Envie de chaleur. Massage soulage un moment puis fait mal.
+    Épaule douloureuse. Maux de tête quotidiens commençant
+    par gauche/tempe puis toute la tête. Pas de nausées.
+    Rêve toutes nuits (rêves + cauchemars). Se réveille dans rêve.
+    Colère. Transpire de la tête. Rêve de se noyer (eau >1x/mois).
+    Malaise cardiaque antérieur → 6MC d a traité immédiatement.
+
+  analyse:
+    profil: "Yang général sur Yang local (migraines) = Yang de Yang"
+    mecanisme: >
+      Feu Ministre (Chao Yang) trop important car rafraîchissement
+      (Tae Yang) insuffisant. Rêves d'eau = vide élément Eau (Rein).
+      Si Cœur vide → traiter par l'Eau.
+    transpiration: "tête = vide du Cœur"
+    cervicales: "7 cervicales = Bois: supérieures = VB, inférieures = F"
+    rotation: "tous mouvements rotation/inclinaison latérale = Chao Yang (VB)"
+
+  prise_pouls:
+    profond: "très plein surtout foyer moyen"
+    superficie: "fin"
+    VB: "pas de pouls explosif (pas de signe de feu)"
+    R: "présent"
+    V: "faible"
+    C: "présent"
+    paradoxe: >
+      Yang de Yang mais pas de pouls superficiel → SIGNE DE
+      BLOCAGE YY. Le Yang est bloqué à la tête. Le Yin stagne
+      en bas en attendant le Yang.
+
+  palpation: "Métal et Feu un peu sensibles"
+  observation: "visage très ridé par sécheresse = E-GI Yang Ming, Rte n'apporte pas son humidité"
+
+  traitement_seance_1:
+    - "20VB d + 21VB d — débloquer VB tête"
+    - note: "Après 20VB d, pouls VB apparaît en surface à gauche → Yang recircule"
+    - "22VB d + 23VB d — passage énergie au diaphragme (sensible/émotionnel)"
+    - "1VB d + 23TR d — migraines"
+    - note: "Le pouls de la barrière profond reste plein → le Yin n'arrive pas à monter"
+    - "27TM au laser — augmenter déblocage Yang"
+    - note: "Oppression respiratoire = diaphragme (muscle commandé par VB) qui réagit à l'énergie débloquée"
+    - "6MC d — ouvre descente Yang→Yin ET remontée Yin→Yang (barrière s'ouvre dans les 2 sens)"
+    - "3F d — passage Yin au diaphragme, Yin→Yang (foyer supérieur)"
+    - "7F d — déblocage F méridien+organe + sang veineux"
+
+  traitement_seance_2:
+    contexte: >
+      4 jours plus tard. Souvenir d'insolation grave pendant l'exode
+      + chocs émotionnels + méfiance médecin. Jaunisse 3 ans après.
+      Pas repris d'aspirine. Oppression zone 18JM → blocage montée
+      Yin du F au centre des émotions.
+    pouls: "Terre en plénitude (médian droit), déséquilibre Bois"
+    traitement:
+      - "5Rte d — grand point soucis/déblocage rate (pouls pas changé)"
+      - "21Rte d — ouvre passage Rate→Cœur (pouls du C prend forme)"
+      - "3Rte d — pouls pas changé, la Rate ne veut pas lâcher"
+      - note: "Rate cède difficilement — il faut y revenir souvent"
+      - "12JM t — relance Yang Estomac"
+      - "21R d à droite — vide VB (douleur dans le dos)"
+
+  zones_blocage_rate:
+    1_cheville: "5Rte — anxiété, soucis"
+    2_genou: "9Rte — antispasmodique organes creux"
+    3_bassin: "13Rte — fong (infections) abdominaux"
+    4_ceinture: "15Rte — fonctionnement GI, constipation, colite"
+    5_emotionnel: "21Rte — capillaires superficiels"
+
+  lune_et_energie: >
+    Lune montante → extériorisation Yin vers Yang.
+    Lune descendante → intériorisation Yang vers Yin.
+    Programmer séances en conséquence. 15 jours est correct,
+    3 semaines trop long.
+
+  massage_femmes: >
+    Tous les soirs, les femmes devraient se masser les points
+    douloureux autour des seins des méridiens E, Rte, VB, R.
+
+  enseignement_cle: >
+    Cas majeur illustrant: blocage YY inapparent au premier
+    abord, mémoire énergétique d'un événement ancien (insolation
+    + traumatisme émotionnel = inscription persistante toute la vie),
+    nécessité de traiter les organes quand les méridiens ne
+    suffisent plus, Rate qui résiste au traitement.
+
+# ═══════════════════════════════════════════════════
+# CAS 8 — VIRGINIE
+# Angines chroniques + vide Rein Yang
+# ═══════════════════════════════════════════════════
+
+cas_8_virginie:
+  motif: "angine à chaque changement de saison, surtout printemps"
+  evolution: "nez coule (liquide au début), descend sur gorge, toux sèche par crises (nuit et matin)"
+  gorge: "le soir, serrée, gonflement, rouge enflammée, pique"
+  depuis: "enfant, déjà sujette aux angines"
+  saisons: "arrivée beaux jours + arrivée du froid"
+
+  questionnaire_froid_chaleur:
+    boissons: "chaudes, jamais froid ni glacé"
+    frileuse: "oui, écharpe en soie pour dormir, claque des dents le soir"
+    froid_ventre: non
+    chaleur: "n'aime pas trop chaud mais pas mal à la chaleur"
+    humidite: "horreur, mais préfère chaleur humide à sèche"
+    urines: "boit beaucoup, n'urine pas souvent, jamais soif, beaucoup de cystites"
+    cycle: "25-26 jours, règles avec caillots 1 jour, symptôme prémenstruel"
+    antecedents: "phlébite jambe gauche (pilule), récidive avec œdème, rougit facilement, bleus, hémorragie il y a 6-7 ans"
+    cervicales: "C5-C6, ne peut pas tourner la tête"
+
+  prise_pouls:
+    superficiel: "INEXISTANT bilatéral"
+    profond: "faible bilatéral"
+    gauche: "IG rien, C faible, VB faible, F présent sans plus, V rien, R faible"
+    droite: "GI rien, P rien, E faible, Rte présent, TR rien, MC faible"
+
+  analyse:
+    gorge_chronique: >
+      Gorge dépend de l'énergie du GI, commandé par les Reins.
+      Affection ponctuelle = traiter par GI. Chronique = traiter par R.
+    rein_yang_vide: >
+      Froid interne jusqu'aux os. Tous les problèmes du R Yang.
+      R Yang vide → GI sans énergie → gorge vulnérable.
+      R Yang vide → E sans Yang (R fournit le Yang à E).
+      E sans Yang → ne fabrique plus de sang.
+    priorite: "énergie ancestrale déficiente"
+
+  traitement:
+    seance_1:
+      note: "Restaurer Yang de l'Estomac EN PREMIER pour préparer traitement R Yang"
+      points:
+        - "4GI t — relance Yang, sphère ORL"
+        - "12JM t"
+        - "25E t — purifie et relance Yang du GI"
+        - "36E t + moxas"
+    seance_2:
+      option_1:
+        - "2R t — point Feu du Rein"
+        - "8MC t — point Feu du MC"
+      option_2:
+        - "4TM t — relance activité R Yang"
+        - "23V t"
+      note: "Il faut chauffer le bas du corps"
+
+  enseignement_cle: >
+    Vide de Rein Yang profond. La chronique de toute
+    la vie depuis l'enfance indique l'énergie ancestrale.
+    Toujours restaurer l'Estomac d'abord avant le Rein
+    Yang. Le froid chronique nécessite du Yang par chaleur
+    (moxas, 4TM).
+
+# ═══════════════════════════════════════════════════
+# CAS 9 — MARIE
+# Lombalgies + règles douloureuses + migraines
+# ═══════════════════════════════════════════════════
+
+cas_9_marie:
+  age: sage-femme
+  motif: "douleurs lombaires (point précis sous côtes), règles douloureuses, migraines côté gauche"
+  lombalgies:
+    frequence: "plusieurs fois par mois, épisodiques"
+    localisation: "tantôt droite tantôt gauche"
+    type: "gêne, améliorée par la pression"
+    depuis: "plusieurs années, pas de traumatisme"
+  cycle: "irrégulier 28-35 jours, pas de contraception"
+  regles: "caillot important noir 1er jour puis diminue, spasmes violents 2 premiers jours (jusqu'au malaise)"
+  migraines: "gauche, pulsatives, parfois nausées, calmées obscurité/repos allongé"
+  antecedents: "travail humanitaire en Mauritanie, beaucoup de vaccins"
+  frileusite: oui
+
+  observation: "voix faible"
+  palpation: "Eau sensible"
+  prise_pouls:
+    superficie: faible
+    profondeur: "présent mais mou"
+    F: "très faible"
+    VB: spasmée
+    R: faible
+    3R: faible
+
+  analyse: >
+    Symptomatologies atypiques, difficiles à relier.
+    On retient la faiblesse du Yin et du R en premier.
+
+  traitement:
+    - "11V d + 23V d — purifie les reins, moxas en fin de séance pour renforcer"
+    - "25VB t — point de tonification des reins"
+
+  enseignement_cle: >
+    Quand les symptômes sont atypiques et difficiles à relier,
+    revenir à l'essentiel: le Rein et le Yin. Purifier d'abord,
+    renforcer ensuite. Le 25VB t comme point de tonification
+    des reins est une indication spécifique IEATC.
+
+# ═══════════════════════════════════════════════════
+# CAS 10 — PIERRE-ANDRÉ
+# Fatigue cyclique + blocage YY inapparent
+# ═══════════════════════════════════════════════════
+
+cas_10_pierre_andre:
+  motif: "fatigué et sans énergie, cyclique depuis 2 ans"
+  saison: "aucun lien"
+  sommeil: "bon, endormissement 23h, réveil 5-6h"
+  reves: "oui, pas de situation récurrente"
+  activite: "Tai Chi Chuan + nombreuses activités"
+  alimentation: "végétarien, bon appétit, digère bien, parfois douleur gastrique"
+  vie: "divorcé (bien passé), une fille, pas de problème relationnel"
+
+  palpation: "Terre digestive tendue, Feu sensible"
+  prise_pouls:
+    superficiel: insuffisant
+    profond: correct
+    F: insuffisant
+    E: insuffisant
+    3R: bien
+
+  traitement:
+    etape_1:
+      - "12JM t + 4GI t + 36E t — pas de changement au pouls"
+    etape_2:
+      - "21R d — débloquer échange YY foyer moyen — pas de changement"
+    etape_3_deblocage:
+      - "27TM d + 24JM d — les pouls évoluent enfin!"
+    conclusion: >
+      Il y avait blocage YY inapparent au premier abord.
+      Une fois le déblocage entamé, laisser évoluer l'énergie.
+      Parfois on peut continuer, parfois il faut s'arrêter
+      et attendre la séance suivante.
+
+  enseignement_cle: >
+    CAS MAJEUR pour le diagnostic. L'absence de réaction
+    alors que le traitement est parfaitement adapté INDIQUE
+    que l'organisme ne peut céder → met le praticien sur la
+    piste d'un BLOCAGE. Le blocage YY peut être totalement
+    silencieux et ne se révéler que par l'absence de réponse
+    au traitement correct. C'est un diagnostic d'EXCLUSION.
+
+# ═══════════════════════════════════════════════════
+# SYNTHÈSE PÉDAGOGIQUE DES 9 CAS
+# ═══════════════════════════════════════════════════
+
+synthese_pedagogique:
+  principes_illustres:
+    florence: "YY général avant YY local; séquelles anciennes via méridien VB"
+    jean_charles: "tonifier partout sauf local; chaîne causale VB→F→Rte"
+    marie_paule: "Yang Ming/Chao Yang; café au lait et VB; cycle Raé"
+    monique_1: "complexité multi-niveaux; contre-indications hémorragiques; Tsiué Yin"
+    monique_2: "contradiction pouls/questionnaire; médicaments faussent terrain"
+    patricia: "déblocage local suffit parfois; point Iuann"
+    martine: "mémoire énergétique ancienne; Rate résiste; zones de blocage; lune"
+    virginie: "Rein Yang profond; restaurer E avant R; points Feu"
+    marie: "symptômes atypiques → revenir au Rein"
+    pierre_andre: "blocage inapparent = diagnostic d'exclusion"
+
+  conseil_memorisation: >
+    "Ne cherchez pas à apprendre par cœur la correspondance de
+    tous les symptômes. Ceux-ci reviendront très souvent et
+    vous les retiendrez naturellement." — Bollet
+    "Cherchez dans votre lexique la situation du point pour
+    comprendre. Ainsi vous en retiendrez mieux la localisation
+    et les indications thérapeutiques."

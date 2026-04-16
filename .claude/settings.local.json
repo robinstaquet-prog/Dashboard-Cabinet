@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(\\\\.gitignore\")",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:5173/)",
+      "WebFetch(domain:privacy.claude.com)",
+      "Bash(mkdir -p \"C:/Users/Utilisateur/Desktop/DASHBOARD CABINET/pipeline/backend/tests\")",
+      "Bash(mkdir -p \"C:/Users/Utilisateur/Desktop/DASHBOARD CABINET/pipeline/data/incoming\")",
+      "Bash(mkdir -p \"C:/Users/Utilisateur/Desktop/DASHBOARD CABINET/pipeline/data/normal\")",
+      "Bash(mkdir -p \"C:/Users/Utilisateur/Desktop/DASHBOARD CABINET/pipeline/data/anonymized\")",
+      "Bash(touch \"C:/Users/Utilisateur/Desktop/DASHBOARD CABINET/pipeline/backend/__init__.py\")",
+      "Bash(touch \"C:/Users/Utilisateur/Desktop/DASHBOARD CABINET/pipeline/backend/tests/__init__.py\")",
+      "Bash(pip install:*)",
+      "Bash(python -m pytest pipeline/backend/tests/test_crypto.py -v)",
+      "Bash(python -m pytest pipeline/backend/tests/test_pseudonymizer.py -v)",
+      "Bash(python -m pytest pipeline/backend/tests/test_compressor.py pipeline/backend/tests/test_vision_extractor.py -v)",
+      "Bash(python -m pytest pipeline/backend/tests/test_docx_generator.py -v)",
+      "Bash(python -m pytest backend/tests/ -v --tb=short)",
+      "Bash(python -m pytest backend/tests/test_photo_watcher.py -v --tb=short)",
+      "Bash(python -m pytest backend/tests/test_main.py -v --tb=short)",
+      "Bash(python -m pytest backend/tests/test_main.py -q)",
+      "Bash(python -m pytest backend/tests/ -q)",
+      "Bash(set PIPELINE_PASSWORD=test)",
+      "Bash(python -c ':*)",
+      "Bash(python:*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File creer_raccourci.ps1)",
+      "Bash(powershell -ExecutionPolicy Bypass -Command ':*)",
+      "Bash(powershell:*)"
+    ]
+  }
+}

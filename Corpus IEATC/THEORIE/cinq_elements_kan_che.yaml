@@ -1,0 +1,482 @@
+# CINQ ÉLÉMENTS — MOUVEMENTS CÉLESTES/TERRESTRES, KAN ET CHE, LUNES
+# Source : PVII Les 5 Éléments — Physiologie tome 3, pp. 46-87
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_kan_che.yaml
+  source: PVII_5Elem_t3_p46_87
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_correspondances.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_energie_terre_ciel.yaml
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+
+# ─────────────────────────────────────────────────
+# L'ÂGE D'OR DE LA TERRE
+# ─────────────────────────────────────────────────
+
+age_or_terre:
+  description: >
+    Il fut un temps où la perfection régnait. Les gens vivaient des
+    centaines d'années. Les 9 étoiles brillaient. Les 5 éléments
+    fonctionnaient normalement. La Terre était droite sur son axe.
+
+  so_ouen_chap69: >
+    « Autrefois les Hommes se conduisaient correctement et avec sagesse,
+    ainsi les neuf étoiles brillaient dans le Ciel et la circulation des
+    5 éléments fonctionnait normalement. L'Homme et la Terre étaient si
+    proches du Ciel que, lorsqu'il labourait son champ, le paysan devait
+    s'incliner pour ne pas le toucher. Mais lorsque la Sagesse déclinât,
+    deux des étoiles s'éteignirent et depuis il n'y en a plus que 7. Un
+    des 4 piliers de la Terre s'est brisé et le Ciel s'est incliné au
+    nord-ouest. Depuis les 5 éléments ne fonctionnent plus normalement. »
+
+  verticalite_antique:
+    axes_parfaits: Tae_Yin_Chao_Yin_ET_Tae_Yang_Yang_Ming_paralleles
+    double_verticalite:
+      axe_1: Eau_Feu_axe_magnetique_N_S
+      axe_2: Terre_Metal_ou_Air_axe_alchimique
+    saison_unique: eternel_printemps_equateur_Chao_Yin_dominant
+    note: >
+      Le Feu du Chao Yin est le Feu bienveillant qui fait naître et croître.
+      Période Terre permanente = production incessante des fruits.
+      Les maladies sont apparues avec la perturbation du Yin/Yang
+      de la Terre = déséquilibre constant depuis la bascule.
+
+  bascule_de_la_Terre:
+    angle_initial: 90_degres
+    angle_actuel: 23_degres_environ
+    consequences:
+      - generation_des_saisons
+      - desequilibre_electromagnetique_permanent
+      - cycle_Ko_devenu_destructeur_lors_des_desequilibres
+      - maladies_apparues
+    Bollet_note: >
+      Bollet met en doute l'explication mathématique par sinus/cosinus
+      pour expliquer la position excentrée de la Terre dans le cycle Tcheng.
+      La période Terre est au 8ème mois lunaire = milieu de l'année = 3ème
+      mois de l'été.
+
+  axes_electromagnetiques:
+    axe_electrique: Est_Ouest_Bois_Metal_suit_course_soleil
+    axe_magnetique: Nord_Sud_Eau_Feu_axe_des_poles
+    pole_nord: Yin_de_la_Terre_Eau
+    pole_sud: Yang_de_la_Terre_Feu
+    schemas_expliques:
+      figure9_axes_Terre: >
+        Schéma cruciforme avec SUD en haut, NORD en bas (géographie
+        chinoise inversée par rapport à l'occident). Axe magnétique
+        vertical N-S = Feu-Eau. Axe électrique horizontal E-O = Bois-Métal.
+        Rappel : en cartographie chinoise, le sud est toujours en haut.
+      figure10_inclinaison_Terre: >
+        La tête humaine en position normale forme un angle d'environ 75°
+        (ou ~23° d'inclinaison du 20TM par rapport à la verticalité stricte)
+        — identique à l'angle d'inclinaison de l'axe des pôles terrestres.
+        Yang faible = tête inclinée vers le sol (cherche le Yang du haut).
+        Yang fort = menton relevé (plénitude). Même logique pour le regard.
+        En méditation : repositionner le 20TM à la verticale par « menton
+        rentré » pour rétablir la connexion avec l'axe primordial.
+  source: PVII_t3_p46_49
+
+# ─────────────────────────────────────────────────
+# MOUVEMENTS CÉLESTES ET TERRESTRES — KAN ET CHE
+# ─────────────────────────────────────────────────
+
+kan_et_che_introduction:
+  definition: >
+    Les Kan et Che = mouvements célestes et terrestres = influence des
+    planètes (mouvements = Terre) et des étoiles (énergies = Ciel).
+    Connus depuis au moins le 11ème siècle av. J.C. (R.P. Gaubil, 18ème s.).
+    Complètent la roue des énergies Yin/Yang (Polycopié IV, tome 3).
+  niveau: >
+    Étude la plus avancée — uniquement pour ceux qui souhaitent
+    développer leurs connaissances à la plus haute science acupuncturale.
+    Module post-graduates IEATC pour les Kan et Che approfondis.
+  source: PVII_t3_p50
+
+# ─────────────────────────────────────────────────
+# PÉRIODES DE MANIFESTATION DES MOUVEMENTS
+# ─────────────────────────────────────────────────
+
+periodes_manifestation:
+  principe: >
+    Comme pour les 6 énergies, les mouvements dominent des périodes précises.
+    Tout se passe selon le cycle Tcheng, en commençant toujours par la Terre.
+
+  annee:
+    regle: un_mouvement_par_annee
+    cycle: 5_ans_pour_5_mouvements_MAIS_6_pas_celestes_par_an
+    decalage: conduit_au_cycle_de_60_combinaisons
+    depart: commence_par_la_Terre
+
+  lune:
+    regle: un_mouvement_par_lune
+    circuit: 10_lunes_par_circuit
+    cycle_complet: 60_lunes_5_annees
+
+  Hou:
+    definition: periode_de_5_jours
+    regle: un_mouvement_par_Hou
+    circuit: 10_Hou_50_jours_par_circuit
+    cycle_complet: 300_jours
+
+  jour:
+    regle: un_mouvement_par_jour
+    circuit: 10_jours
+    cycle_complet: 60_jours
+
+  tranche_horaire:
+    attribution_Wang_Chou_Houo: >
+      Maître du 6ème siècle ap. J.C. (fameux traité des pouls).
+      Loi des Heures Royales : une journée = une année (analogie).
+    heures_mouvements:
+      Bois: matin_3h_9h
+      Feu: midi_9h_15h
+      Metal: fin_apres_midi_15h_21h
+      Eau: nuit_21h_3h
+      Terre: 4_repas_par_jour
+    note: >
+      Il existe donc « l'heure Bois de la période Bois du jour Bois du
+      Hou Bois de la saison Bois de la lune Bois de l'année Bois » —
+      conjoncture exceptionnelle sur 60 ans, capable de déclencher des
+      pathologies ne pouvant être guéries qu'au retour de la même somme
+      de conjonctures.
+  source: PVII_t3_p50_51_p77
+
+# ─────────────────────────────────────────────────
+# ROUE DES 6 PAS CÉLESTES
+# ─────────────────────────────────────────────────
+
+pas_celestes:
+  definition: >
+    Influence des étoiles (cercle polaire). Détermine l'intensité du
+    Yin/Yang climatique. 6 énergies qui dominent chacune une année
+    et une période de 60 jours dans l'année.
+
+  double_influence:
+    annee: une_energie_domine_toute_l_annee
+    periode: une_energie_par_periode_de_60_jours_et_21h
+    calcul: 6x60j = 360j (les 5 jours restants « n'existent pas »)
+
+  succession_6_energies: >
+    Ordre immuable (Tableau 7 = ordre du Ciel) :
+    Tsiué Yin – Chao Yin – Taé Yin – Chao Yang – Yang Ming – Taé Yang
+    Ce circuit dure 6 ans. La 7ème année recommence.
+
+  tableau_correspondances_6_energies:
+    Tsiue_Yin: {element: Bois, rang: 1, couleur: bleu}
+    Chao_Yin:  {element: Feu,  rang: 2, couleur: rouge}
+    Tae_Yin:   {element: Terre, rang: 3, couleur: jaune}
+    Chao_Yang: {element: Feu_Ministre, rang: 4, couleur: rouge_fonce_marron}
+    Yang_Ming: {element: Metal, rang: 5, couleur: gris_pale_mauve}
+    Tae_Yang:  {element: Eau,  rang: 6, couleur: noir}
+
+  maitre_de_l_annee:
+    nom_alternatif: energie_de_l_annee_ou_President
+    position: au_Sud_solstice_d_ete_est_son_milieu
+    domine: 6_premiers_mois_Yang_printemps_et_ete
+    mise_en_place: vers_le_20_janvier_60j_avant_equinoxe_printemps
+
+  serviteur_du_ciel:
+    definition: energie_diamétralement_opposee_au_Maitre
+    position: au_Nord
+    domine: 6_derniers_mois_Yin_automne_et_hiver_a_partir_5_aout
+    role: >
+      Réponse de la Terre au Ciel. Si le Ciel l'opprime (excès),
+      la Terre se venge par l'énergie opposée.
+
+  schemas_expliques:
+    figure12_roue_6_pas_celestes: >
+      Cercle divisé en 6 secteurs colorés (bleu, rouge, jaune, rouge
+      foncé, gris, noir). Le Maître de l'année (3ème pas) siège au
+      Sud (en haut). Cette couronne est MOBILE — tourne d'un cran vers
+      la gauche (sens anti-horaire) chaque année. Ainsi pour trouver
+      l'année N, compter N-1 crans depuis l'année 1 (1984). À gauche du
+      Maître = année précédente. À droite = année suivante.
+    figure13_maitre_serviteur: >
+      Cercle avec demi-cercle supérieur « Ciel Yang 6 mois » (printemps/
+      été) labellisé « Maître » et demi-cercle inférieur « Terre Yin 6
+      mois » (automne/hiver) labellisé « Serviteur ». Illustre la
+      domination alternée Ciel/Terre selon les deux semestres annuels.
+  source: PVII_t3_p58_60
+
+# ─────────────────────────────────────────────────
+# ROUE DES 6 PAS TERRESTRES
+# ─────────────────────────────────────────────────
+
+pas_terrestres:
+  definition: >
+    Position de la Terre par rapport au zodiaque. Indique les dates
+    et périodes climatiques saisonnières. ROUE FIXE (ne change jamais).
+
+  tableau_pas_terrestres_et_saisons:
+    Tsiue_Yin: {saison: Printemps,    climat: vent_doux}
+    Chao_Yin:  {saison: Debut_ete,    climat: chaleur_benefique}
+    Chao_Yang: {saison: Plein_ete,    climat: pleine_chaleur}
+    Tae_Yin:   {saison: Fin_ete,      climat: humidite}
+    Yang_Ming: {saison: Automne,      climat: frais_et_sec}
+    Tae_Yang:  {saison: Hiver,        climat: froid}
+
+  inversion_notable: >
+    Le Taé Yin (grand Yin = humidité) et le Chao Yang (feu plein été)
+    sont INVERSÉS par rapport à la succession du Ciel. Raison : calage
+    saisonnier — la pleine chaleur d'été (Chao Yang) précède l'humidité
+    de fin d'été (Taé Yin). Cette inversion est fondamentale.
+
+  zodiaque_role: >
+    Le zodiaque = système de repérage de la position de la Terre par
+    rapport au soleil. Pas d'influence directe propre — indique
+    simplement les dates saisonnières. Chaque année, la Terre passe
+    devant les mêmes étoiles zodiacales aux mêmes périodes.
+
+  influence_2_niveaux:
+    cercle_polaire: intensite_du_climat_Yin_Yang
+    zodiaque: dates_de_manifestation_froid_chaleur_quantitatif
+  source: PVII_t3_p61_65
+
+# ─────────────────────────────────────────────────
+# MOUVEMENTS CÉLESTES ET TERRESTRES
+# ─────────────────────────────────────────────────
+
+mouvements_celestes_terrestres:
+  definition: >
+    Influence des planètes (contrairement aux pas qui sont l'influence
+    des étoiles). Les mouvements agissent sur les éléments, organes,
+    sentiments et psychisme. Les pas agissent sur les axes énergétiques
+    et les méridiens.
+
+  mouvement_celeste:
+    depart: Terre_en_1ere_position
+    succession: ordre_cycle_Tcheng
+    cycle: 5_ans
+    position: se_place_au_Printemps_le_1er_mouvement_de_l_annee
+
+  mouvement_terrestre:
+    fixe: correspond_a_la_repartition_des_saisons
+    particularite: >
+      La période inter-saisonnière de 18 jours pour la planète Terre
+      est absente au niveau des planètes (Saturne = Terre céleste bénéficie
+      d'une saison entière). Raison : les intersaisons sont l'action
+      propre de notre planète, pas de Saturne.
+
+  annees_paires_impaires:
+    impair: annee_par_exces_energies_et_mouvements_puissants
+    pair: annee_par_insuffisance_energies_et_mouvements_faibles
+    regle_paire: >
+      L'énergie en insuffisance est remplacée dans sa manifestation
+      par l'énergie qui la domine naturellement dans le cycle Ko.
+      Ex : 2ème année = Métal faible → Feu circule à sa place.
+
+  harmonie_desequilibre:
+    harmonie: energie_annee_compatible_avec_mouvement_annee_selon_Tcheng
+    acceptable: domination_Ko_sans_abus
+    grave: cycle_Tcheng_inverse_ou_cycle_Rae
+    note: >
+      Cycles inversés = autorité renversée, Terre domine Ciel,
+      enfants dominent parents = conflits énergétiques permanents
+      toute l'année = calamités et maladies.
+
+  cycle_de_60:
+    principe: 6_ans_Ciel_x_5_ans_Terre_PPCM_60
+    1ere_annee: Terre_Chao_Yin_1984_debut_du_cycle_actuel
+    fin_du_cycle_actuel: 2043
+    precedents: 1924_1864_1804_1740_etc
+    exemple_1984: >
+      Mouvement Terre sur Eau (Terre pénètre par le Nord = Eau).
+      Année impaire = par excès. Ko pathologique : humidité (Terre)
+      opprime le froid (Eau). Combinaison froid + humidité = état
+      le plus sévère pour l'organisme. L'humidité envahit les chairs
+      et attaque les os/articulations/squelette (Eau).
+    exemple_2000: >
+      17ème combinaison = impaire = par excès. Maître = Yang Ming
+      (frais et sec). Serviteur = Chao Yin (chaleur). L'année 2000
+      débute son printemps par le Taé Yin (humidité). Toutes les
+      énergies et mouvements sont en excès.
+  source: PVII_t3_p66_73
+
+# ─────────────────────────────────────────────────
+# LES 10 KAN ET LES 12 CHE
+# ─────────────────────────────────────────────────
+
+les_10_Kan_et_12_Che:
+  Che_definition: >
+    12 Che = les 12 pas terrestres (zodiaque). Chacun détermine
+    un mois de l'année et l'orientation cardinale par où les énergies
+    pénètrent l'espace terrestre. NE PAS CONFONDRE avec les 6 énergies
+    célestes des 6 pas (confusion fréquente et source d'erreurs graves).
+
+  Kan_definition: >
+    10 Kan = 10 périodes de 36 jours divisant l'année terrestre en
+    5 saisons × 2 Kan (une Yang + une Yin par saison). Codifient les
+    mouvements planétaires. 5 × 2 = 10 car chaque mouvement se
+    manifeste deux fois : une Yin et une Yang.
+
+  noms_10_Kan_terrestres:
+    rang_1:  {nom: Kia,   saison: Printemps, Yin_Yang: Yang_plus}
+    rang_2:  {nom: I,     saison: Printemps, Yin_Yang: Yin_moins}
+    rang_3:  {nom: Ping,  saison: Ete,       Yin_Yang: Yang_plus}
+    rang_4:  {nom: Ting,  saison: Ete,       Yin_Yang: Yin_moins}
+    rang_5:  {nom: Wou,   saison: 5eme,      Yin_Yang: Yang_plus}
+    rang_6:  {nom: Tchi,  saison: 5eme,      Yin_Yang: Yin_moins}
+    rang_7:  {nom: Keng,  saison: Automne,   Yin_Yang: Yang_plus}
+    rang_8:  {nom: Hsin,  saison: Automne,   Yin_Yang: Yin_moins}
+    rang_9:  {nom: Jen,   saison: Hiver,     Yin_Yang: Yang_plus}
+    rang_10: {nom: Koui,  saison: Hiver,     Yin_Yang: Yin_moins}
+
+  noms_12_Che:
+    rang_1:  Tse
+    rang_2:  Tcheou
+    rang_3:  Yin
+    rang_4:  Mao
+    rang_5:  Tchen
+    rang_6:  Seu
+    rang_7:  Ou
+    rang_8:  Wei
+    rang_9:  Chen
+    rang_10: Yeou
+    rang_11: Siu
+    rang_12: Hai
+
+  premiere_combinaison: Kia_Tse
+  cycle_60_logique: >
+    10 Kan × 12 Che = 60 combinaisons avant de retrouver Kia-Tse.
+    Les rangs 11 et 12 de la ligne des Kan répètent Kia et I car
+    10 < 12. Ce décalage génère les 60 combinaisons.
+
+  Kan_celestes_vs_terrestres: >
+    Kan célestes : 1ère énergie = Terre (Saturne). Ordre : Terre/Métal/
+    Eau/Bois/Feu en alternance +/-.
+    Kan terrestres : 1ère énergie = Bois (printemps). Ordre : Bois/Feu/
+    Terre/Métal/Eau en alternance +/-.
+    ERREUR CLASSIQUE : de nombreux auteurs ont confondu les deux et
+    pensé que la 1ère énergie du cycle était Bois. Cette erreur génère
+    des thérapies et préventions fausses.
+  source: PVII_t3_p74_76
+
+# ─────────────────────────────────────────────────
+# KAN ET HOU ET JOURS
+# ─────────────────────────────────────────────────
+
+kan_hou_jours:
+  Hou_et_Kan: >
+    Un Hou = 5 jours. 72 Hou par an (360/5). 72 est aussi le nombre
+    total des méridiens d'acupuncture toutes branches comprises.
+    Le 1er Hou de l'année (Kia-Tse) commence après le solstice d'hiver.
+    1ère énergie du 1er Hou = Bois (Kan terrestre).
+
+  jours_et_Kan: >
+    Chaque jour est sous un mouvement. 10 jours = 1 circuit.
+    6 circuits = 60 jours = 2 mois. 6 cycles = 1 an (360 j).
+    Le 1er jour de l'année (Kia-Tse) suit immédiatement le solstice d'hiver.
+    Exemple de succession : Bois-Bois, Feu-Bois, Terre-Bois, Métal-Bois,
+    Eau-Bois, puis Bois-Feu, Feu-Feu, etc.
+
+  heures_chinoises: >
+    1 heure chinoise = 2 heures occidentales. 12 heures chinoises/jour.
+    1ère heure Kia-Tse = de 23h à 1h du matin (occident).
+    Cycle complet = 60 heures chinoises = 120 heures = 5 jours = base du Hou.
+  source: PVII_t3_p76_78
+
+# ─────────────────────────────────────────────────
+# ÉNERGIES HÔTESSES ET INVITÉES
+# ─────────────────────────────────────────────────
+
+energies_hotesses_invitees:
+  metaphore_maison:
+    maison: espace_terrestre_ou_vit_l_etre_humain
+    hotes: propriétaires_permanents_energies_planetes_mouvements
+    invites: visiteurs_transitoires_energies_etoiles_pas
+
+  energie_hotesse:
+    source: planetes_mouvements
+    role: recevoir_les_invites_et_les_diffuser
+    principe: permanence_mais_change_chaque_annee
+
+  energie_invitee:
+    source: etoiles_pas
+    role: changer_chaque_annee_colorer_le_milieu
+    principe: transitoire_dans_la_maison_des_planetes
+
+  3_analyses_annuelles:
+    1ere: >
+      Confronter énergie (Ciel/étoiles) + mouvement (Terre/planètes).
+      5 situations : même élément (renforcement), Tcheng/Ko (activation),
+      Tcheng inversé / Raé (grave conflit).
+    2eme: >
+      Confronter résultante de l'analyse 1 + saison en cours.
+      2 situations : renforcement saison / opposition saison.
+    3eme: >
+      Influence conjuguée énergie + mouvement + saison sur les patients.
+      Certains seront améliorés, d'autres aggravés selon leur propre
+      déséquilibre.
+  source: PVII_t3_p80_83
+
+# ─────────────────────────────────────────────────
+# L'INFLUENCE DES LUNES
+# ─────────────────────────────────────────────────
+
+influence_lunes:
+  principe:
+    Ciel_Yang: action_des_6_energies_celestes_des_etoiles
+    Terre_Yin: action_du_soleil_saisons_ET_de_la_lune
+    Homme: integre_les_deux_plus_action_5_mouvements_planetes
+
+  caracteristiques_lune:
+    rythme: 12_lunes_par_an_354_jours_cycle_60_lunes_5_ans
+    manifestation: au_cours_6_mois_Yin_ou_6_mois_Yang
+    hauteur: zenith_nadir_en_pleine_et_nouvelle_lune
+    quartiers: 4_quartiers_7j9h_Yang_1er_2eme_Yin_3eme_4eme
+    heure: presence_au_meridien_plein_Sud
+
+  soleil_vs_lune:
+    soleil:
+      nature: Yang_limpide
+      action: >
+        Rend limpide l'énergie. Agit sur la tête/psychisme, les 7 orifices
+        supérieurs, foyer supérieur, activité cardio-respiratoire (Cœur/Poumon).
+        Développe l'extériorisation des sentiments, l'activité psychique,
+        la vitalité physique musculaire.
+    lune:
+      nature: Yin_trouble
+      action: >
+        Rend trouble l'énergie. Agit sur le corps/vie organique, les
+        2 orifices inférieurs, foyer inférieur, activité uro-génitale
+        (Rein/Foie). Entretient le sang, la vie organique, la production
+        des sentiments.
+
+  desequilibre_permanent: >
+    Désynchronisme permanent entre l'année solaire (365j6h) et l'année
+    lunaire (354j). → Désynchronisme permanent entre le Yang et le Yin
+    de l'être humain. Ce décalage est une source continue de tensions
+    physiologiques à compenser.
+
+  lunes_et_10_Kan:
+    cycle: 60_lunes_5_ans
+    tableau_premiers_10:
+      lune_1:  {mouvement: Terre,  kan: Kia}
+      lune_2:  {mouvement: Metal,  kan: I}
+      lune_3:  {mouvement: Eau,    kan: Ping}
+      lune_4:  {mouvement: Bois,   kan: Ting}
+      lune_5:  {mouvement: Feu,    kan: Wou}
+      lune_6:  {mouvement: Terre,  kan: Tchi}
+      lune_7:  {mouvement: Metal,  kan: Keng}
+      lune_8:  {mouvement: Eau,    kan: Hsin}
+      lune_9:  {mouvement: Bois,   kan: Jen}
+      lune_10: {mouvement: Feu,    kan: Koui}
+    exemple: >
+      Lune Bois (Ting) → active préférentiellement le Foie et son
+      activité végétative (irrigation sanguine).
+
+  lunes_intercalaires: >
+    Lune intercalaire ajoutée tous les 3 ans pour rattraper le décalage
+    de 11j/an. Les Chinois lui confèrent le même Kan que la lune
+    précédente (deux lunes successives au même mouvement), ce qui
+    est énergétiquement incorrect pour Bollet. D'où des imprécisions
+    dans le RP Hoang. L'IEATC estime la précision actuelle à 80-90%.
+
+  lune_et_satelite: >
+    La lune = satellite de la Terre, non planète → ne transmet pas
+    l'influence des étoiles → JAMAIS de correspondance avec les
+    pas célestes et terrestres.
+  source: PVII_t3_p84_87

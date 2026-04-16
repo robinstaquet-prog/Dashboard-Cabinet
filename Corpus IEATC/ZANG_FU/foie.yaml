@@ -1,0 +1,534 @@
+# FOIE — PHYSIOLOGIE INDIVIDUELLE
+# Source : PVI Physiologie tome 2, pp. 38-45
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: foie.yaml
+  source: PVI_Physio_t2_p38_45
+  statut: complet
+  liens:
+    - ZANG_FU/role_general_tsang.yaml
+    - ZANG_FU/rein.yaml
+    - THEORIE/hierarchie_sang_energie.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+    - THEORIE/cinq_elements_energie_terre_ciel.yaml
+
+identite:
+  titre: Ministre_de_la_defense
+  polarite: Yang_dans_le_Yin
+  element: Bois
+  foyer: anatomiquement_FM_fonction_appartient_au_FI
+  lateralite: droite_Yin
+  axe: partie_amont_du_Tsiue_Yin
+  couple_Yang: VB
+  rang_hierarchique: Ministre_defense_pas_guerre
+  energie_la_plus_Yin: le_plus_sanguin_de_tous_les_tsang
+  tsang_sanguins_ordre: foie_MC_rate
+  role_So_Ouen_ch6: reequilibre_polarite_Yang_Yin_Bois
+
+fonctions_energetiques:
+  commande_oe:
+    principe: >
+      Responsable de la stratégie de défense de l'organisme
+      contre les attaques de fong venant de l'extérieur.
+    anticipation: >
+      Le foie anticipe et prépare à satisfaire les futurs besoins.
+      Informé à l'avance des situations climatiques.
+      Utilise le Roun (conscient) et le I (mémoire) pour anticiper.
+    quantite_oe: >
+      Décide de l'intensité et de la nature de la réponse.
+      Mobilise la quantité de oé nécessaire, sans plus.
+    allergies: >
+      Totalement différentes des empoisonnements/intoxications.
+      = excès/abus de la réponse de oé par rapport à l'agression.
+    repartition: >
+      Répartit oé au niveau de la peau selon les situations.
+      oé se déplace comme une troupe au combat vers la zone en besoin.
+      oé circule dans les tching kan sans circuit fixe = libre et rapide.
+    tching_kan_foie: >
+      Siège par excellence de l'intelligence de oé.
+      Se ramifie avec tous les tching kan du corps.
+      Tous les tching kan se réunissent au 20TM Paé Roé.
+    stockage_oe:
+      zones: 16TM_et_17JM
+      raison: >
+        16TM = grande porte d'entrée d'énergies externes vers cerveau.
+        17JM = commande toute l'activité fonctionnelle du FS.
+    distinction_poumon_foie: >
+      Le poumon amène oé en surface et détermine sa fabrication/quantité.
+      Le foie gère la REPARTITION et la MOBILISATION de oé en surface.
+      Le poumon ne gère pas la répartition une fois en surface.
+
+  commande_sang:
+    principe: >
+      Maître de la circulation du bas du corps (18V point de commande).
+      Réservoir de sang. Commande la répartition du sang
+      selon les besoins et activités physiques.
+    veines: >
+      Commande le calibre des veines par énergie Bois
+      (tonicité des parois veineuses). 4F = Métal = fermeté.
+      Toute varice = déficience du foie.
+      Muqueuse intérieure des veines = rate (5Rte).
+    ATTENTION: sang_veineux_ne_veut_pas_dire_veines_qui_dependent_de_la_rate
+    composants_sang:
+      foie_dirige: pourcentages_equilibre_entre_composants
+      rate_et_rein: quantites
+      point_composants: 43V
+      point_volume_sanguin: 10Rte_Ocean_de_sang
+    circulation_veineuse_commande_arterielle: >
+      Le sang veineux s'écoule laissant une vacuité que pénètre
+      le sang artériel. C'est parce que le veineux s'écoule
+      que l'artériel circule. Toute congestion veineuse (varices)
+      = entrave à la circulation artérielle.
+    foie_conserve: le_sang
+    rate_commande: le_sang
+    coeur_gouverne: le_sang
+
+  perceptions_sensorielles:
+    principe: >
+      Procure la faculté de TOUTES les perceptions sensorielles.
+      N'est pas à l'origine des 5 sens (dépendent de chaque tsang/élément)
+      mais en détermine la PERCEPTION (conscience) et l'INTENSITE.
+    foie_faible: intensite_sensations_faible_y_compris_sentiments
+    VB: gere_sensibilite_cutanee_a_l_externe_commandee_par_foie
+    influx_nerveux: >
+      Permet la conduction de l'influx nerveux sur les nerfs périphériques.
+      Clé de la contractilité musculaire et du tonus de base (VB).
+      ATTENTION : les paralysies ne dépendent PAS du foie.
+    proprioception: >
+      Procure le sens proprioceptif (position de chaque segment
+      du corps par rapport aux autres et dans l'espace, yeux fermés).
+
+  source: PVI-t2-p38_42
+
+physiologie_occidentale:
+  circuit_veineux: dernier_organe_avant_coeur_3_lobes
+  recoit: tout_sang_du_bas_du_corps
+  commande: veines_saphenes_jusqu_a_veine_cave_inferieure
+  filtre: sang_veineux_fabrique_bile_vers_VB
+  recoit_de_IG: sang_charge_substances_nutritives_pures
+  transmet_au_coeur: par_veine_cave_inferieure_a_travers_diaphragme
+  diaphragme_orifice: >
+    Oesophage + aorte abdominale + complexe sympathique =
+    beaucoup pour un orifice souvent spasmé par stress.
+  glycogenese: controle_sucre_avec_pancreas
+  source: PVI-t2-p43
+
+physiologie_dans_foyer:
+  FM_digestif:
+    recoit: solides_purs_des_1er_et_2eme_tris_par_IG
+    transmet: au_coeur_pour_former_sang
+    filtre: energies_impures_vers_poumons_et_narines
+  FI_genital:
+    maitre_sang_genital: erection_irrigation_regles
+    kystes_ovariens: congestion_sanguine_foie
+    kystes_eau: rate_drainage_lymphatique
+    meridien_et_saphene: >
+      Méridien principal, tching kan et lo longitudinal du foie
+      sont la source de l'énergie génitale (le sang)
+      en conduisant la saphène (encadrée par méridiens foie et rate).
+    regles: >
+      Épuration primaire du sang que l'homme ne possède pas.
+      L'homme fabrique beaucoup de bile → plus tendu, colèrique.
+      La femme a besoin de cette épuration (plus Yin, brûle moins bien).
+    femme_et_VB: >
+      Plus sang des règles abondant → moins VB forte en énergie →
+      plus MC prend place importante (Tsiue Yin = sentiments).
+    sterilites_modernes: >
+      Femme active trop sa tension nerveuse → fabrique bile →
+      affaiblit foie et sang génital → stérilités passives (FIV inefficaces).
+    ovulation: >
+      Descente et migration ovule dépendent du Tsiue Yin (foie + MC).
+      Grossesses extra-utérines = insuffisance Tsiue Yin.
+      Ovulation bloquée par stress/émotions négatives.
+  source: PVI-t2-p43_44
+
+periodes_activite:
+  quadrant: inferieur_gauche_tronc_et_jambe_gauche
+  cycle_iong: 1h_a_3h
+  lune: 1ere_periode
+  saison: printemps
+  planete: Jupiter_quand_avance
+  etoiles: Tsiue_Yin_au_Ciel
+  source: PVI-t2-p44_45
+
+physiologie_5_elements:
+  mouvement: naissance_commencement_reveil_mise_en_mouvement
+  analogie: Yang_naissant_jeune_pousse_sort_du_Yin_terre
+  Bois_foie: Messager_sur_Terre_des_ordres_du_Ciel
+  organisme:
+    quotidien: matin_3h_a_9h_periode_Bois
+    annuel: printemps_5_fevrier_au_5_mai
+    action: envoie_messages_de_reveil_a_tous_les_tsang
+  sentiment: envies_desirs_ressenti
+  psychique: conscient_Plans_strategie_ordre_des_choses
+  conscient_precision: >
+    PAS la Conscience (Chen). Le conscient dans la Pensée,
+    le ressenti des sentiments, sensibilité, tact, toucher,
+    position du corps dans l'espace.
+  tissu: muscles_tendons_ligaments
+  epanouit_dans: ongles
+  liquide_pur: larmes
+  source: PVI-t2-p45
+
+enrichissement_5_elements:
+  element: Bois
+  nature_fonctionnelle: se_tordre_et_se_redresser
+  Kan: bouclier_protecteur_organisme
+  vent_fong: >
+    Le Fong est le climat du Bois. Dynamise et stimule.
+    Messager des ordres du Ciel. Starter de la nature.
+    Pathologiquement : affection brutale et rapide.
+  couleur: vert_couleur_du_regne_vegetal
+  organe_fondamental: >
+    3ème organe fondamental dans les séquences de la vie.
+    Représente le démarrage, l'impulsion de la vie.
+    Le Bois nécessite l'action conjuguée du Rein et de la Rate.
+  pathologie_5E: >
+    Articulations se déforment (scolioses, rhumatismes
+    articulaires des doigts). Nature du Bois = se tordre.
+  etoile_depart_printemps: KIO_dans_Epi_de_la_Vierge
+  source: PVII-t1-p38_39
+
+enrichissement_5E_t2:
+  cour_imperiale:
+    printemps: Empereur_le_plus_puissant
+    ete: Mere_faible_vient_d_enfanter
+    5eme_saison: Conseiller_energique
+    automne: Ennemi_vaincu_soumis
+    hiver: Fils_vigoureux
+  importance_capitale_printemps: >
+    Le foie au printemps = "starter de la nature".
+    Conditionne TOUTE l'année. Un printemps raté
+    = année ratée, maladies impossibles à enrayer.
+    Toutes les tsing restent déficientes → ancestrale
+    non régénérée → fatigue et fragilité toute l'année.
+  correspondances_completes:
+    therapeutique: acupuncture
+    psychisme: Roun
+    vertu: charite
+    relation: pere_fils
+    expression: cri
+    voix: colereux
+    position: debout
+    ministere: general_des_armees
+    cereale: ble
+    viande: poulet
+    son: Kio
+    odeur: rance
+    saveur: acide
+    sens: vue
+    liquide: larmes
+    organe_des_sens: oeil
+    expansion: ongle
+    tissu: tendon_nerf
+  resume_activites_PVII_t2: >
+    Bouclier de l'organisme, défenses (oé), sang veineux,
+    métabolismes (acides gras, bilirubine, sucres, protéines),
+    anticoagulant, IG dans FM (métabolise solides purs).
+  source: PVII-t2-p18_41
+
+enrichissement_5E_t3:
+  so_ouen_chap5_Bois: >
+    Est → vent Fong → Bois → acidité → Foie → tendons/muscles →
+    Cœur. Le Foie gouverne les yeux. CHEUN associé = HOUN (inconscient).
+    Sentiment : colère. Ko : chagrin (Métal) domine la colère.
+    Blessure externe : vent blesse les tendons. Ko : sécheresse domine vent.
+  points_su_Foie:
+    Ting_Bois: 1F
+    Iong_Feu: 2F
+    Iu_Terre: 3F
+    King_Metal: 4F
+    Ro_Eau: 8F
+    note: >
+      Le Ting du Foie (1F) = point principal de mise en mouvement
+      de TOUT l'organisme car Foie = Bois = printemps = naissance.
+  axes_5E_t3:
+    groupe_meridiens: 3_Yin_du_haut_Yang_du_Yin
+    fonction_groupe: conduire_le_Yin_en_haut_alimenter_les_Yang_du_haut
+    element_mouvement: Bois
+    fou_maitre: VB
+    Tsiue_Yin_specifique: >
+      Axe horizontal commencement. Mouvement Yin→Yang (Eau→Feu).
+      Si trop sanguin : stagne en bas = varices, congestion utérine.
+  ko_emotionnel_clinique: chagrin_Poumon_domine_colere_Foie
+  liens_nouveaux:
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+    - THEORIE/cinq_elements_mouvements_5E.yaml
+    - THEORIE/cinq_elements_points_su.yaml
+  source: PVII-t3-p15_44
+
+enrichissement_5E_t4:
+  pathologie_5E:
+    morphotype_Bois: >
+      Prédominance Bois : colère, planification outrancière
+      (Roun = le "plan"), excellent organisateur mais rigide.
+    interrogatoire_vide_plenitude:
+      plenitude: deteste_acide_colereux_larmoyant_aggrave_printemps_muscles_contractes
+      vide: recherche_acide_trop_serein_yeux_secs_ameliore_printemps_faiblesse_musculaire
+    point_penn: 1F_seul_point_synthetisant_fong_et_regenerant_muscles_tendons_ligaments
+    palpation_abdominale:
+      zone: flanc_gauche_entre_25E_et_15Rte
+      deblocage: 2F_ou_3F_d
+    Yin_Yang_et_penn: >
+      Foie = Yang du Yin. 1F agit sur le Yang du foyer
+      inférieur de l'individu.
+    spirale_ascendante: >
+      Bois conduit l'énergie de l'Eau vers le Feu.
+      Si Yin stagnant, faire circuler par le Bois.
+    ko_pathologique: >
+      Bois trop fort ou Terre trop faible → attaque Terre.
+      Si Métal affaibli → pas de tempérance → destruction.
+    traitement_So_Ouen: >
+      Feu attaqué : débloquer 7C d, 1R d, 5P d.
+      Tonifier mère empereur Feu : 1F t.
+  liens_nouveaux:
+    - THEORIE/cinq_elements_pathologies_cycles.yaml
+    - THEORIE/cinq_elements_pathologies_bilan.yaml
+  source: PVII-t4-p17_91
+
+# --- ENRICHISSEMENT SÉMINAIRE PVI t3 (EEA Tsang/Fou tome 3) ---
+enrichissement_seminaire_t3:
+  general_des_armees:
+    citation_SW8: >
+      Le F a la charge de Général des Armées, il en sort "délibération et projet".
+    GAN_bouclier: >
+      Idéogramme : "chair" + "bouclier de cuir planté verticalement". Idée de défense.
+      Le F est un bouclier pour l'organisme. Force très mâle, très Yang, avec potentialité
+      de puissance agressive. F et C sont des viscères mâles, Rte P R sont femelles.
+    deliberation_projet: >
+      Quand la fonction est bien remplie, le F voit l'organisation de la défense,
+      pense, médite et délibère. Il prend une décision, tire des plans, se tourne
+      vers l'avenir.
+  circulation_ecoulement:
+    XIE: >
+      Faire circuler et s'écouler — même idéogramme que pour les diarrhées.
+      Les Souffles du F vont aller partout, à la manière d'un liquide qui ne stagne pas.
+      Terminologie postérieure au Nei Jing mais classique.
+    pathologie_blocage:
+      - oppression_cotes
+      - irregularite_regles
+      - cephalees
+      - oeil_rouge_troubles_oculaires
+      - hypertension
+      - ictere
+  quatre_cycles: >
+    Il y a quatre cycles et non pas deux : engendrement (Eau→Bois), équilibration/KE
+    (Métal→Bois), mépris (Terre→Bois, sens inverse), chevauchement (accentuation
+    pathologique du KE, Métal→Bois).
+  fort_faible_sang_energie:
+    principe: >
+      Le F a plus de sang que d'énergie. Quand il est fort, le Yin (sang) est plus
+      important : hémorragies et œdèmes. Quand il est faible, l'énergie prend le pas :
+      syndromes d'hypertension, œil rouge, Feu du F non maîtrisé par l'aspect Yin.
+    depassement: >
+      Souffles du F en dépassement : le Yin et Yang montent trop, agitation, colère.
+      Souffles en insuffisance : perd sa force mâle, craintif, peureux, timide —
+      Métal et Eau prennent le dessus.
+  thesaurisation_sang:
+    principe: >
+      Quand l'Homme est au repos, le sang fait retour au F (Su Wen). Si le F est
+      malade et perd sa fonction de thésauriser : rêves nombreux, mouvements nombreux,
+      insomnie, les Hun ne sont pas bien gardés à demeure.
+    sang_insuffisant: >
+      Œil non nourri, vue affaiblie, troubles vision nocturne. Sang ne nourrit pas
+      les muscles : crispations, impossibilité de se replier/étendre. Chez la femme :
+      diminution quantité sang, aménorrhées.
+    sang_deborde: >
+      Yang faible car Yin très fort : vasodilatations, crachats sanguinolents,
+      épistaxis, hémorragies. Le Yang du F se transforme en Feu du F (inflammations)
+      et vents s'agitent à l'interne.
+  muscles_ongles:
+    JIN: >
+      Idéogramme avec bambou (vitalité, souplesse, force) + chair + force (image d'un
+      tendon, attache muscle-os). Les tendons sont compris dans cette fonction.
+      JIN = même idéogramme que "tendino-musculaire".
+    distinction_ROU: >
+      La Rte commande la masse de la chair (ROU, bloc de chair avec fibrilles, ligaments)
+      qui donne la forme au corps. Le F commande la force qui anime les muscles.
+    ongles: >
+      Extrême pointe des muscles, extrême pointe de l'action du F. HUA = bel aspect
+      extérieur, comme la fleur de la plante bien soignée. Ongles cassants = mauvaise
+      trophicité du F.
+    vieillissement: >
+      L'Homme de 7x8 ans (56 ans) a les Souffles du F qui décroissent, ses muscles
+      ne peuvent plus assurer les mouvements. Gestes lents, sans adresse ni souplesse.
+  oeil:
+    principe: >
+      L'œil a reçu du sang et l'on peut voir. L'œil est l'orifice du F, lieu de
+      passage des énergies. "Système de l'œil" = tout l'ensemble de l'œil interne
+      ET la liaison avec le cerveau (pas seulement l'appareil sensoriel externe).
+    citation_LS17: >
+      Si le F est en harmonie, l'œil peut distinguer les 5 couleurs. En observant
+      la force et la forme de la vision, on peut connaître le vide et le plein du F.
+    pathologie: >
+      Sang F insuffisant : sécheresses, vision confuse/trouble, héméralopie.
+      Feu F monte : yeux rouges, enflés, douloureux. Yang F monte trop : vertiges,
+      troubles vue. Glaucome : traité par F et VB avec bons résultats.
+  F_Ciel_Anterieur_femme: >
+    Le F est le Ciel Antérieur de la femme. Les règles emploient le même terme
+    que les normes célestes (JING). La matérialité des règles est du côté de la Terre,
+    leur régularité en est l'aspect céleste.
+  relations_inter_organes:
+    F_C: >
+      Quand sang du C abondant, F a ce qu'il entretient. Yin du F en plénitude
+      modère le Yang du F. Si C et F ensemble en vide de sang : palpitations,
+      C troublé, visage sans couleur, tête tourne, ongles mauvais état.
+    F_R: >
+      F thésaurise sang, R thésaurise Jing — les deux se prêtent assistance.
+      Vide Yin F et R : tête tourne, maux de tête, vision double, bourdonnements,
+      spermatorrhées. Le Yang monte → spasmes.
+    F_Rte: >
+      Sang du F aide Rte, transports de Rte aident F. Transports Rte faibles :
+      insuffisance sang F, manque d'appétit. Souffles F obstrués : ballonnements,
+      nausées, vomissements, diarrhées (cycle de mépris).
+  liens_nouveaux:
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    - ZANG_FU/vesicule_biliaire.yaml
+    - CLINIQUE/pathologies_hypertension.yaml
+  source: PVI-t3-p47_63
+
+# ─── Enrichissement EEA t1 (séminaire CLM déc. 1981) ──────
+
+enrichissement_EEA_t1:
+  hun_et_foie: >
+    Les HUN sont liés au Foie, au mouvement initial de la vie,
+    au printemps, à l'Est, au Bois. Ce sont les « Esprits célestes
+    incarnés », lot d'images fondamentales : schèmes, archétypes,
+    codes avec lesquels l'individu se développe. Préfigurations
+    d'actes. Imagination, mouvement de l'avant, instances
+    intellectuelles, rêves, imaginaire originel.
+  hun_embryologie: >
+    « Les Souffles essentiels du père forment les Hun » (Zong,
+    10è siècle). Au 7ème mois : « ses Hun voyagent et çà peut
+    bouger la main droite ». Les Hun suivent le plus près
+    le mouvement des Shen — ils sont les plus proches du Ciel
+    parmi les Esprits incarnés.
+  hun_exces: >
+    Excès de Hun = projection excessive, on démarre trop vite,
+    on va trop loin, on est tourné vers l'avoir. Au niveau du
+    Foie : colère, raptus, montée des énergies. Analyse
+    caractérielle permet de choisir des points.
+  hun_apres_la_mort: >
+    Les Hun montent au Ciel où ils redeviennent des Shen,
+    des mannes, des Esprits des Ancêtres.
+  solides_vers_foie: >
+    Circuit Su Wen chap. 21 : les aliments solides partent
+    d'Estomac/Rate vers le Foie, puis vers les muscles et
+    le Cœur (muscle privilégié). Le Foie est le premier
+    destinataire de la voie des solides.
+  source: PVI-EEA-t1-p59_62
+
+# ─── Enrichissement EEA t2 (séminaires CLM mai 1982 + juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_troisieme_charge: >
+    Le Foie est en 3ème position (Su Wen ch.8). 3 = nombre des
+    Souffles manifestant un élan vital. Charge de « Général en chef »
+    = à lui appartient la charge de toutes les armées. Ce qui
+    résulte : l'analyse de la conjoncture et la conception des plans.
+    Le Général doit rester CALME, ne pas se mettre en colère.
+    C'est le but de tout adversaire que de faire perdre son calme
+    au Général ennemi.
+  foie_hun_intelligence: >
+    En rapport avec les HUN : âme rattachée à l'intelligence,
+    la conception, l'imagination, l'image projetée dans les rêves,
+    le monde des constructions mentales. Par opposition aux Po
+    (partie instinctive). Le F doit avoir la force de raisonnement
+    pour percer les situations à jour, regarder la conjoncture
+    et en dresser des plans.
+  foie_pas_decision: >
+    On ne parle PAS ici de la prise de décision. Décider = charge
+    spécifique de la VB (côté Yang du Foie). Le Foie conçoit les
+    plans, la VB tranche et décide. D'où les rapports du Foie
+    avec la colère et l'hypertension (sous-entendu, non expliqué
+    dans le ch.8).
+  foie_regulation_glycemique: >
+    Le Foie est le lieu où se fait la régulation glycémique qui
+    est la régulation de l'énergétique corporelle (Dr Schatz).
+    Circuit Su Wen ch.21 : E/Rte → Foie → muscles. Le Bois est
+    la mère du Feu, le F évolue vers le C.
+  constipation_et_foie: >
+    Dans la constipation due aux Souffles : état soucieux/oppressé
+    → le Foie-Bois perd sa fonction d'impetus printanier.
+    Cycle pervers Terre → Bois (mépris). Les Souffles sont bloqués,
+    les aliments ne circulent plus → constipation totale.
+  source: PVI-EEA-t2-p41_44
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  tsiue_yin_axe: >
+    L'axe Tsiué Yin = F (bas du corps) + MC (haut du corps).
+    Gère le passage de l'énergie Yin du bas vers le haut.
+    Si plénitude → 18JM d (point nœud du Tsiué Yin,
+    liaison haut/bas, CENTRE DES ÉMOTIONS). En dispersant
+    le Yin du bas → conduit énergie vers haut → mutation
+    Yin vers Yang via 3F d.
+  blocage_3F_7F: >
+    Dès que le F subit une contrainte (à TOUS les niveaux
+    de l'individu), les points 3F et 7F se BLOQUENT.
+    Il faut les disperser. Après: vérifier pouls du F.
+    S'il remonte → c'était un blocage méridien seulement.
+    S'il ne remonte PAS → cycle Raé → traitement 5E
+    (dispersion points fils).
+  3F_point_majeur: >
+    3F d = point majeur pour faire ABAISSER la quantité de
+    sang, fait passer le Yin dans le Yang pour mutation,
+    passage au diaphragme. Tout le Yin passe dans le Yang
+    (foyer supérieur = Ciel).
+  7F_deblocage: >
+    7F d = point de déblocage du F méridien ET organe ET
+    du sang (Yin) veineux. Le sang veineux peut ainsi
+    remonter jusqu'au cœur après filtrage par le foie.
+    Le Yin rejoint le Yang.
+  zones_blocage_foie:
+    1_cheville: "4F"
+    2_genou: "7F"
+    3_bassin: "12F"
+    4_torse: "14F"
+  reves_et_foie: "Rêves fréquents = Foie (cauchemars = VB)"
+  cervicales_inferieures: "Les cervicales inférieures dépendent du Foie (supérieures = VB)"
+  chaleur_reflux_vb: >
+    Quand VB ne se draine pas → chaleur reflue vers F →
+    envahit le sang (acide urique). Le F filtre toute la
+    chimie — après traitements hormonaux ou médicaments
+    lourds, le F souffre.
+  mauvaises_odeurs: "Transpiration qui sent mauvais = F ou C"
+  source: PIV_YY_tomes4-5_CP_I
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 1 (PV-3F-t1)
+# =============================================================================
+
+enrichissement_3F_t1:
+  polarite_FI: >
+    Le Foie est le Yang dans le Yin (= Yang/Yin, élément Bois).
+    Dans le FI, le Rein est le Yin dans le Yin (= Yin/Yin, Eau).
+  source: PV-3F-t1
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  energies_impures_evacuation: >
+    Les énergies impures filtrées par le Foie sont envoyées aux Poumons
+    et aux narines pour évacuation. Les éternuements et le mucus
+    bronchique au réveil matinal correspondent à cette évacuation.
+    Les crises matinales de patients s'expliquent par ce mécanisme.
+  mouvement_respiration: >
+    À l'inspiration (Yin, énergie descend), le Foie reçoit l'énergie
+    en premier (Yang du FI, +/-), puis les Reins. Le Foie est le
+    premier organe touché par le mouvement descendant inspiratoire.
+  muscles_blancs_vs_rouges: >
+    Le Foie ne gère que les muscles striés rouges du système locomoteur.
+    L'Estomac est un muscle blanc lisse — il ne dépend pas du Foie.
+    Distinction importante en clinique digestive.
+  diarrhee_foie: >
+    Diarrhée sitôt après le repas = pathologie du foie.
+    Aliments non digérés dans les selles = pathologie du foie.
+    Ces signes indiquent un dysfonctionnement hépatique de la
+    filtration et de la réception des solides purs.
+  source: PV-3F-t2

@@ -1,0 +1,845 @@
+# ══════════════════════════════════════════════════════════════
+# TROIS FOYERS — PHYSIOLOGIE TOME 2
+# Source : PV – Les 3 Foyers, tome 2 (Bollet, 26/08/2019, 48p)
+# ══════════════════════════════════════════════════════════════
+
+meta:
+  titre: "Les Trois Foyers — tome 2"
+  source: PV-3F-t2
+  auteur: Thierry Bollet
+  date: 2019-08-26
+  pages: 48
+  sujets_principaux:
+    - Tchrong Mo (Chong Mai)
+    - 8 Merveilleux Vaisseaux
+    - Hérédités (céleste, terrestre, parentale)
+    - Détail de chaque énergie (Yuan à Tcheung)
+    - Sang rouge et blanc
+    - Liquides organiques (Ching Ié)
+    - Nutrition des Tsang et chaudrons alchimiques
+    - Interdépendance des fonctions
+    - Mouvement des énergies et respiration
+    - Vertus de l'alimentation
+    - Assimilation détaillée (1er et 2ème tri)
+    - Éliminations (urines, selles)
+    - Trajets complets des liquides, solides et énergies
+
+# ══════════════════════════════════════════════════════════════
+# 1. TCHRONG MO — CHONG MAI
+# ══════════════════════════════════════════════════════════════
+
+tchrong_mo:
+  definition: >
+    Premier Merveilleux Vaisseau à se développer dans l'embryon.
+    Expansion de Yuan Tchi à partir de Ming Menn. Matrice énergétique
+    pour l'ensemble du système des méridiens. Vaisseau interne principal
+    pour les connexions entre foyers, tsang et fou.
+
+  huit_merveilleux_vaisseaux:
+    origine: "8 MV = 8 trigrammes = 8 directions cardinales"
+    systeme_embryonnaire: >
+      Les 8 MV se développent dans les 8 premiers mois de grossesse.
+      Au 9ème terme (nombre 9 = aboutissement), le système embryonnaire
+      est complet, prêt à vivre dans la dimension extérieure.
+    fonction: >
+      Donner naissance au système des méridiens. Les MV sont la matrice
+      énergétique dont les méridiens sont l'expression fonctionnelle.
+
+  maturite_energetique:
+    femme:
+      cycle: 7
+      maturite: "21 ans (3×7)"
+      explication: "Cycle de 7 ans, maturité énergétique complète à 21 ans"
+    homme:
+      cycle: 8
+      maturite: "24 ans (3×8)"
+      explication: "Cycle de 8 ans, maturité énergétique complète à 24 ans"
+
+  systeme_meridiens:
+    points_su_5E: >
+      60 points (5 points Su × 12 méridiens) correspondant aux 60 climats
+      du cycle de 60 ans. Chaque point = 1 climat = 1 énergie spécifique.
+    total_points_acupuncture: >
+      360 points par hémicorps = 720 points au total. 360 = nombre de
+      degrés du cercle, nombre de jours de l'année ancienne.
+    energies_totales: >
+      1440 énergies sur 2 années consécutives = un cycle complet.
+      Extrême potentialité du système.
+    totalite: >
+      La totalité des énergies de l'univers est contenue dans le
+      patrimoine énergétique du corps.
+
+  racine_tchrong_mo:
+    circulation: >
+      Ming Menn → 4JM Koann Yuan (Barrière de Yuan Tchi) →
+      6JM Tan Tienn → 11R (début trajet superficiel).
+    fonction: "Distribuer l'énergie ancestrale au foyer inférieur"
+    points_commande:
+      - "4TM — Ming Menn (source)"
+      - "4JM — Koann Yuan (barrière Yuan Tchi)"
+      - "6JM — Tan Tienn (champ de cinabre inférieur)"
+    pathologie:
+      obstruction: "Blocage de la distribution Yuan Tchi"
+      pouls: "3R (pouls diagnostique)"
+      symptomes:
+        - "Douleurs lombaires brûlantes"
+        - "Douleurs abdominales"
+        - "Problèmes génitaux (fonctions génitales perturbées)"
+      traitement:
+        - "23V + 4TM chauffés"
+        - "11R + 30E"
+        - "3R + 4JM + 6JM chauffés"
+
+  trajets_superficiels:
+    local: "30E (point de départ local)"
+    inferieur: "3R → 4Rte"
+    anterieur: "11R → 21R → 17JM (Trann Tchong) → 27R → cerveau"
+    posterieur: "Utérus → 10V, branches D8/D9 vers les Fou"
+    note: >
+      Trajet ascendant de 11R à 21R, mais pas de circulation
+      unidirectionnelle : les énergies des 3 foyers s'y mêlent
+      et se mélangent pour produire Tcheung Tchi.
+
+  division_uterine:
+    principe: >
+      Dans l'utérus, le Tchrong Mo donne naissance au Tou Mo
+      (vaisseau gouverneur) et au Jen Mo (vaisseau conception).
+    division_esoterique:
+      branche: "Utérus → cœur = 'Couleur du Chen'"
+      conditions:
+        - "Union des corps, des cœurs et des esprits"
+        - "Calme des sentiments"
+        - "MC filtre (maître du cœur = filtre protecteur)"
+      note: "F + MC = Tsiué Yin (axe de l'intimité profonde)"
+
+  fonctions_tchrong_mo_resume:
+    distribution: "Distribue énergie ancestrale via 3 foyers"
+    connexion: "Connexions foyers ↔ tsang/fou ↔ méridiens"
+    production: "Lieu de mélange final → Tcheung Tchi"
+    nutrition: "→ voir energies_detaillees.tcheung_tchi.distribution"
+
+# ══════════════════════════════════════════════════════════════
+# 2. HÉRÉDITÉS
+# ══════════════════════════════════════════════════════════════
+
+heredites:
+  innee:
+    nom: "Yuan Tchi"
+    description: "Hérédité spécifique, étincelle de Vie individuelle"
+
+  celeste:
+    sources:
+      - "Étoiles"
+      - "Soleil"
+      - "Lune"
+      - "Planètes"
+    description: >
+      Influences cosmiques au moment de la conception et de la grossesse.
+      Programme inscrit dans le Chen cosmique.
+
+  terrestre:
+    sources:
+      - "Saisons (saison de naissance)"
+      - "Terroir (lieu géographique)"
+      - "Alimentation de la mère pendant grossesse"
+    description: >
+      Progression de potentialité liée aux 12 mois de grossesse
+      (12 mois solaires / 12 lunes). La nourriture de la mère
+      et le terroir déterminent une partie du patrimoine héréditaire.
+    memoire: >
+      Le patrimoine héréditaire terrestre constitue une mémoire
+      inscrite dans les tissus et les énergies du nouveau-né.
+
+  parentale:
+    mecanisme: >
+      Tsing du père + Tsing de la mère, porteurs chacun de leur
+      Chen, Roun et Pro. Fusion au moment de l'instant de conception.
+    composantes:
+      pere: "Tsing paternel + Chen + Roun + Pro du père"
+      mere: "Tsing maternel + Chen + Roun + Pro de la mère"
+
+# ══════════════════════════════════════════════════════════════
+# 3. CONCLUSION FONCTIONS DES 3 FOYERS
+# ══════════════════════════════════════════════════════════════
+
+conclusion_fonctions_foyers:
+  foyer_inferieur:
+    fonction: "Reproduction et vitalité"
+    elements_moteurs:
+      - "Rein Yang (moteur principal)"
+      - "Tchrong Mo (distribution énergie ancestrale)"
+  foyer_moyen:
+    fonction: "Assimilation et nutrition"
+    elements_moteurs:
+      - "Rate (transformations, maîtresse Yin)"
+      - "VB (chef d'orchestre, régulation bile)"
+  foyer_superieur:
+    fonction: "Régulation et rythme"
+    elements_moteurs:
+      - "Poumon (rythme, épuration)"
+      - "TR (régulateur général)"
+
+  pathologies_3_foyers:
+    source: "So Ouen chapitre 62"
+    types:
+      chaleur_interne: "Excès de Yang interne"
+      chaleur_externe: "Perversité Chaleur pénétrante"
+      froid_interne: "Excès de Yin interne"
+      froid_externe: "Perversité Froid pénétrante"
+    huit_regles_therapeutiques:
+      - nom: "Sudorification"
+        indication: "Chasser perversité externe par la sueur"
+      - nom: "Vomification"
+        indication: "Évacuer excès du foyer supérieur"
+      - nom: "Purgation"
+        indication: "Évacuer excès du foyer inférieur/intestins"
+      - nom: "Harmonisation"
+        indication: "Rétablir l'équilibre Yin/Yang"
+      - nom: "Calorification"
+        indication: "Réchauffer en cas de froid"
+      - nom: "Réfrigération"
+        indication: "Rafraîchir en cas de chaleur"
+      - nom: "Assèchement"
+        indication: "Éliminer humidité pathologique"
+      - nom: "Humidification"
+        indication: "Compenser sécheresse pathologique"
+
+# ══════════════════════════════════════════════════════════════
+# 4. ÉNERGIES DÉTAILLÉES
+# ══════════════════════════════════════════════════════════════
+
+energies_detaillees:
+
+  yuan_tchi:
+    nature: "Génome humain, étincelle de Vie"
+    qualite: "Lumière intérieure, luminescence originelle"
+    principe_vitriol: >
+      V.I.T.R.I.O.L. = Visita Interiora Terrae Rectificando
+      Invenies Occultum Lapidem. La quête intérieure mène à
+      la découverte de cette lumière originelle.
+    couleur_du_chen: >
+      Par une sexualité noble (union corps/cœurs/esprits), le
+      pratiquant accède à la couleur du Chen = manifestation
+      visible de Yuan Tchi via le Tchrong Mo (branche utérus→cœur).
+    regle_absolue: "Ne JAMAIS disperser Yuan Tchi"
+    patrimoine_hereditaire: >
+      Contient le patrimoine héréditaire dans son intégralité.
+      Capital initial de vie, non renouvelable.
+
+  tsing_tchi:
+    nature: "Caractères familiaux héréditaires"
+    manifestations:
+      - "Race, taille, couleur (caractères physiques)"
+      - "Caractère psychique et tempérament"
+    signe_vitalite: "Éclat des yeux et dureté des os"
+    cycle_saisonnier: >
+      Surplus de tsing des Tsang en automne → stocké dans les Reins.
+      Le tsing se conserve comme le tsing des saisons.
+
+  tsong_tchi:
+    nature: "Énergie essentielle, caractère physique et psychique"
+    qualite: "Vitalité, force d'expression"
+    enrichissement: >
+      S'enrichit du surplus de Tcheung Tchi. Plus la vitalité
+      est forte, plus Tsong Tchi est puissante.
+    formation: "Ku Tchi + Yeung Tchi + catalyse Yuan Tchi → Tsong Tchi"
+
+  ku_tchi:
+    nature: "Énergie des aliments déjà métabolisés"
+    particularite: >
+      Les végétaux et animaux ont déjà métabolisé les énergies
+      cosmiques et terrestres. Ku Tchi est donc une énergie
+      pré-transformée par le vivant.
+    eau_dynamisee: >
+      L'eau est un vecteur énergétique fondamental. L'eau
+      dynamisée (source, montagne) est supérieure à l'eau morte.
+    critique_moderne: >
+      L'alimentation moderne (industrielle, dévitalisée) appauvrit
+      considérablement Ku Tchi et donc toute la chaîne énergétique.
+    extraction:
+      premier_tri: "Estomac extrait Ku Tchi (énergie pure, limpide)"
+      deuxieme_tri: "IG extrait aussi Ku Tchi résiduelle"
+      destination: "Monte au thorax → poumons → combinée avec Yeung Tchi"
+
+  oe_tchi:
+    nature: "Énergie défensive, impure"
+    localisation: "Surface du corps, entre muscles et peau, et dans le tronc"
+    circulation: "En dehors des méridiens, librement"
+    proportionnalite: "Proportionnelle à la quantité de iong"
+    fonctions:
+      defense: "Lutte contre perversités externes (6 climats anormaux)"
+      adaptation:
+        - "Réchauffement de la peau"
+        - "Sudation pour rafraîchissement"
+        - "Humidification"
+      nutrition_superficielle:
+        - "Aponévroses"
+        - "Tendons et ligaments"
+        - "Capsules articulaires"
+      trophicite: "Peau et muscles superficiels"
+      pores: "Ouverture et fermeture des pores cutanés"
+    origine_GI: >
+      Le GI effectue un ultime travail de récupération d'énergie
+      résiduelle dans les déchets alimentaires. Cette énergie sans
+      nom propre deviendra Oé Tchi — la plus impure car issue de
+      l'impur. Circule en dehors du Yin qu'elle n'a pas le droit
+      de pénétrer.
+    correspondance_occidentale: >
+      Réabsorption par la muqueuse du GI de liquides contenus
+      dans les selles → foie par le canal chylifère.
+    regle: >
+      Iong et Oé ne se mélangent JAMAIS (pur et impur).
+      Si Oé se mélange à Iong → pollution du pur par l'impur
+      → blocages de circulation → œdèmes.
+
+  yeung_tchi:
+    nature: "Énergie cosmique + terrestre, contenue dans l'air respiré"
+    precision: "Ce n'est PAS l'oxygène de l'air"
+    combinaison: "Combinée au Poumon avec Ku Tchi via catalyse Yuan Tchi"
+
+  tcheung_tchi:
+    nature: "Énergie totale, énergie vitale"
+    contenu: >
+      Contient toutes les subtilités possibles des énergies à tous
+      les plans : physique et organique, sentimental, psychique.
+    formation: "Tsong Tchi métabolisée avec énergie ancestrale"
+    manifestations: >
+      Change de nom selon l'activité et le lieu de manifestation.
+      Iong et Oé en sont les manifestations directes.
+    distribution: "Distribuée par Tchrong Mo aux tsang, fou et 12 méridiens"
+    deux_energies_fondamentales:
+      iong: "Énergie nutritionnelle, polarité Yin (interne), prolongement de Ku Tchi"
+      oe: "Énergie défensive, polarité Yang (externe), prolongement récupération GI"
+
+  iong_tchi:
+    nature: "Énergie nutritionnelle du corps, issue de Tcheung Tchi"
+    circulation:
+      support: "Indissociable du sang"
+      controle: "Parfaitement délimitée par les méridiens"
+      rythme: "Lié à la position du soleil, jour et nuit"
+    fonctions:
+      - "Nourricière : chaque cellule la reçoit"
+      - "Régulatrice : contrôle quantité et qualité du sang"
+    proportions: >
+      Proportions variables de sang et iong selon l'appartenance
+      à un organe (tsang/fou), un méridien ou un axe énergétique.
+
+# ══════════════════════════════════════════════════════════════
+# 5. LE SANG
+# ══════════════════════════════════════════════════════════════
+
+sang:
+  sang_rouge:
+    fonctions:
+      - "Transporter substances nutritives et oxygène"
+      - "Rapporter déchets physiques et énergies usées"
+    organes_gouvernants:
+      coeur: "Gouverne le sang — rythme et amplitude pulsative initiale"
+      rate: "Commande le sang — fabrication, volume, distribution"
+      foie: "Conserve le sang — dans l'organe et les muscles, distribue selon besoins"
+      poumon: "Donne énergie au sang — pulsion cardiaque, chaleur, fluidité"
+    formation: >
+      Solides purs (venant du foie) + liquides purs (venant des poumons)
+      se mélangent dans le cœur pour former le sang.
+    diagnostic: >
+      Vide ou plénitude de sang en liaison avec ces 4 organes.
+      Déterminer la déficience pour connaître l'organe en cause.
+
+  sang_blanc:
+    nature: "Lymphe et circuit lymphatique (canaux + ganglions)"
+    fonction: >
+      Défense interne de l'organisme, complémentaire de la défense
+      externe (Oé Tchi).
+    mecanisme:
+      canaux: "Conduisent aux ganglions les perversités profondes, germes/virus (fong), cellules mortes ou anormales (cancers)"
+      ganglions: "Globules blancs y attendent pour attaquer et détruire"
+    barrieres:
+      amygdales: "Barrière contre pénétration des fong"
+      appendice: "Colon ascendant droit, même fonction (dont vers parasites)"
+    autorite: "Rate — autorité sur toute la défense interne"
+    citation_SO: "'Les énergies entrent et sortent par les 9 orifices'"
+    note: >
+      En médecine chinoise, 'sang' comprend sang rouge ET blanc
+      sans distinction. La rate commande les deux aspects.
+
+# ══════════════════════════════════════════════════════════════
+# 6. LIQUIDES DU CORPS
+# ══════════════════════════════════════════════════════════════
+
+liquides_du_corps:
+  cinq_liquides_organiques:
+    larmes: "Foie"
+    sueur: "Cœur"
+    salive: "Rate"
+    mucus_bronchique: "Poumon"
+    urine_serosites: "Rein"
+    formation: >
+      Issus de la transformation des aliments par le foyer moyen.
+      La rate identifie les liquides purs selon les 5 éléments
+      et les distribue directement aux 5 tsang.
+    stimuli: >
+      Les liquides purs sont mélangés avec les stimuli de
+      l'environnement (couleurs, odeurs, saveurs, sons, toucher)
+      classifiés selon les 5 éléments.
+
+  ching_ie:
+    definition: "Liquides organiques issus de la séparation pur/impur par l'IG"
+    circuit: >
+      IG sépare pur/impur → impur vers reins/vessie →
+      pur vers rate (depuis estomac ou récupération rénale) →
+      rate distribue aux tsang et aux poumons.
+
+    ie:
+      nature: "Liquides purs par excellence"
+      circulation: "Uniquement à l'interne du corps"
+      fonctions:
+        - "Liquide interstitiel (bain de toutes les cellules)"
+        - "Cytoplasme (liquide intracellulaire)"
+        - "Lubrifiants articulaires (synovie) et tendino-musculaires"
+        - "Moelle et cerveau (liquide céphalo-rachidien)"
+
+    ching:
+      nature: "Moins purs que les Ié"
+      circulation: "À l'externe du corps"
+      fonctions:
+        - "Humidité de la peau (tissu conjonctif, fibres collagènes)"
+        - "3 feuillets de la peau : hypoderme, derme, épiderme"
+        - "Sueur"
+
+  principe_general: >
+    Toutes les manifestations (Tchi, Iong, Oé, sang, Ching, Ié)
+    sont issues des transformations métaboliques du foyer moyen.
+    La déficience de l'une perturbe toutes les autres.
+
+  sang_formation: >
+    Les jus alimentaires participent à la formation permanente
+    du sang : composition (globules, plaquettes, ions), volume
+    (plasma = 70% du poids en eau), circulation (pouls, température).
+
+# ══════════════════════════════════════════════════════════════
+# 7. NUTRITION DES TSANG
+# ══════════════════════════════════════════════════════════════
+
+nutrition_tsang:
+  chaudrons_alchimiques:
+    description: >
+      Tchrong Mo est un vaste chaudron fournissant aux 3 étages
+      l'énergie ancestrale nécessaire à produire le feu dont chaque
+      foyer a besoin. 3 creusets alchimiques = Champs de Cinabre.
+
+    inferieur:
+      nom: "Tan Tienn (Cinabre rouge — Houang Tan primordial)"
+      point: "6JM"
+      correspondance: "Terre"
+      fonction: "Force innée de création de soi et de procréation"
+      essence: "Céleste — seul des trois à être d'essence céleste"
+      note: "Centre de gravité du corps humain"
+      foyer: "Foyer inférieur"
+      heredite: "Yuan Tchi spécifique"
+      alchimie: >
+        Le Tao émet en premier une Lumière Rouge = couleur du Tan Tienn.
+        Le point blanc dans la grosse virgule noire du Tao est coloré
+        de rouge vermillon. L'Eau devenue rouge, le Feu prend la
+        couleur de la pourpre.
+
+    moyen:
+      nom: "Houang Tan (Cinabre jaune)"
+      point: "17JM — Trann Tchong"
+      correspondance: "Homme"
+      fonction: "Force d'action et d'affirmation de soi dans la vie"
+      foyer: "Foyer supérieur (et non moyen — attention à l'erreur courante)"
+      Chen: "Propre de l'Homme et de ce qu'il fait de sa vie"
+
+    superieur:
+      nom: "Paï Tan (Cinabre blanc)"
+      point: "25TM — Inn Trang (3ème œil, entre les sourcils)"
+      correspondance: "Ciel"
+      fonction: "Élévation de soi vers les énergies spirituelles"
+      dependance: "Chen et cœur"
+      Chen: "Chen individuel en relation avec Chen cosmique"
+
+    erreur_courante: >
+      Certains croient qu'il y a un Champ de Cinabre pour chaque foyer.
+      C'est une erreur. Il n'y en a que 3, et le moyen correspond au
+      foyer supérieur, pas au foyer moyen.
+
+    alchimie_taoiste:
+      or_jaune: "Houang Kin — Soleil"
+      argent_blanc: "Paï Yin — Lune"
+      soufre: "Dragon vert — Bois — Est — Tsing originel"
+      mercure: "Tigre blanc — Métal — Ouest — Tchi universel"
+      harmonie: >
+        Chez le Taoïste, parfaite harmonie entre Tsing (énergie
+        originelle = Soufre) et Tchi (Souffles vitaux = Mercure).
+
+  circuit_nutrition:
+    principe: >
+      Les tsang reçoivent leur énergie par l'intermédiaire de leur
+      fou couplé. L'énergie qui circule est 'brute', contenant les
+      5 qualités — elle ne peut convenir individuellement à chaque tsang.
+    role_fou: >
+      Le fou effectue le tri pour extraire l'énergie propre du couple
+      tsang/fou selon leur élément commun (Bois, Feu, etc.). Il puise
+      dans iong ce qui convient, l'adapte et le transmet au tsang
+      SANS RIEN CONSERVER pour lui-même.
+    role_tsang: >
+      Le tsang thésaurise (fait le plein), puis donne à son fou couplé
+      l'énergie dont celui-ci a besoin pour sa propre fonction.
+    surplus: "Transmis à l'organe suivant dans le circuit"
+    reserve_finale:
+      point: "17JM — Trann Tchong"
+      importance: "Aussi capitale que Ming Menn"
+      contenu:
+        - "Iong, Oé et sang"
+        - "Énergie ancestrale, Tsing et Tsong Tchi"
+      destination: "Tous les circuits énergétiques de surface"
+
+# ══════════════════════════════════════════════════════════════
+# 8. INTERDÉPENDANCE DES FONCTIONS
+# ══════════════════════════════════════════════════════════════
+
+interdependance:
+  chen_gouverne: >
+    Toutes les activités sont contrôlées par l'activation supérieure
+    du Chen, 'l'esprit qui gouverne'. Tout dérèglement du Chen
+    affecte organes et foyers, et inversement.
+  cascade: >
+    Chaque foyer peut être perturbé par les dérèglements des autres.
+    Veiller à la bonne activité en évitant les dérèglements
+    alimentaires, digestifs, affectifs, psychiques, respiratoires.
+  recuperation: "Respecter les temps de récupération et de sommeil"
+  pratique: >
+    Le Sage préserve et renforce le Tan Tienn. Le Tai Chi Chuan
+    et les Chi Kong renforcent cette énergie.
+
+# ══════════════════════════════════════════════════════════════
+# 9. L'HOMME — BINÔME YIN/YANG
+# ══════════════════════════════════════════════════════════════
+
+homme_binome:
+  deux_corps:
+    yin: "Corps physique"
+    yang: "Corps énergétique"
+  deux_nourritures:
+    yin_materielle: "Air + aliments solides et liquides (denses)"
+    yang_energetique: "Sentimentale + intellectuelle (fluides)"
+  transformation: >
+    Yang limpide et Yin trouble → Yang (énergie) et Yin (sang).
+
+  progression_energetique:
+    description: "Du plus Yang (superficiel) vers le plus Yin (profond)"
+    niveaux:
+      1_yang: "6 axes énergétiques (fonctions) — le plus superficiel"
+      2: "Oé Tchi"
+      3: "12 méridiens"
+      4: "Iong Tchi"
+      5: "Foyers"
+      6: "Sang"
+      7_yin: "Tsang et Fou — le plus profond"
+
+  six_energies_du_corps:
+    - "Ancestrale"
+    - "Nourritures (Ku)"
+    - "Humeurs — Ching (conduites par Oé)"
+    - "Liquides organiques et interstitiels — Ié"
+    - "Iong"
+    - "Sang"
+
+  structure_et_energie: >
+    La structure reçoit son énergie de Tcheung Tchi, principalement
+    de Tsong Tchi dont le rôle est de régénérer l'énergie, les
+    organes et les tissus. Elle assimile les substances ingérées
+    en substance appropriée selon les 5 qualités.
+
+  trois_fonctions_cellulaires:
+    note: "→ voir conclusion_fonctions_foyers pour le détail"
+    angle: "Chaque cellule porte ces 3 fonctions (Régulation/Assimilation/Reproduction)"
+
+# ══════════════════════════════════════════════════════════════
+# 10. MOUVEMENT DES ÉNERGIES ET RESPIRATION
+# ══════════════════════════════════════════════════════════════
+
+mouvement_respiration:
+  principe: >
+    Le mouvement de l'énergie au sein du Tchrong Mo (3 foyers)
+    est dirigé par la respiration qui l'active.
+
+  inspiration:
+    polarite: "Yin"
+    direction: "Propulse l'énergie vers le bas"
+    trajet: "Foie → Reins (successivement)"
+
+  expiration:
+    polarite: "Yang"
+    direction: "Propulse l'énergie vers le haut"
+    trajet: "Poumons → Cœur (successivement)"
+
+  rate_centre:
+    position: "Place médiane"
+    moment: "Chaque pause respiratoire (temps d'apnée)"
+    fonction: "Mutation de l'énergie des liquides et solides selon les 5 éléments"
+
+  schema:
+    ordre_expiration: "Rate(3) → Poumon(4/Yin FS) → Cœur(5/Yang FS)"
+    ordre_inspiration: "Rate(3) → Foie(1/Yang FI) → Reins(2/Yin FI)"
+
+  importance_respiratoire:
+    - "Qualité de la combustion des déchets"
+    - "Épuration des énergies viciées"
+    - "Puissance de Tsong Tchi"
+    - "Propulsion de l'énergie et du sang"
+
+# ══════════════════════════════════════════════════════════════
+# 11. VERTUS DE L'ALIMENTATION
+# ══════════════════════════════════════════════════════════════
+
+alimentation:
+  principe: >
+    Tout dans l'alimentation joue un rôle énergétique.
+    Le plus important : la saveur (pas le goût).
+
+  parametres_energetiques:
+    forme: "Ronde (Yin) / anguleuse (Yang) — surtout légumes et fruits"
+    aspect: "Mat (Yin) / brillant (Yang)"
+    toucher: "Lisse (Yin) / rugueux (Yang)"
+    couleur: "Selon les 5 éléments"
+    odeur: "Selon les 5 éléments"
+    gout: "Critère distinct de la saveur"
+    texture: "Croquant/croustillant (Yang) / moelleux (Yin)"
+    densite: "Dense (Yin) / léger (Yang)"
+
+  saveur_vs_gout:
+    distinction: >
+      La saveur n'est PAS le goût. Le goût est perçu par la langue.
+      La saveur (arôme) est souvent imperceptible, perçue par le
+      fond de la langue, le palais, et surtout l'arrière-nez
+      (cellules nerveuses différentes de celles du goût).
+    extraction: >
+      L'arôme se dégage grâce à la mastication (écrasement →
+      essence subtile) et le mélange avec la salive (Rate).
+
+  manger_conscient: >
+    Choisir ses aliments avec les 5 sens. Voir, sentir, mastiquer
+    en goûtant. Ceci concourt à l'extraction du tsing, à
+    l'élaboration des souffles et à la sécrétion appropriée par
+    l'estomac de substances de dégradation.
+
+  mutation_rate: >
+    Les caractéristiques physiques = tsing de l'aliment.
+    La rate les mute en souffle approprié à l'un des 5 Éléments
+    → tsing propre de l'un des 5 organes. Ces souffles se mélangent
+    à l'essence des liquides et se mêlent au sang.
+
+  conseil: "Ne pas fumer après les repas — permet aux poumons de purifier Ku Tchi"
+
+# ══════════════════════════════════════════════════════════════
+# 12. ASSIMILATION DE L'ALIMENTATION
+# ══════════════════════════════════════════════════════════════
+
+assimilation:
+  premier_tri:
+    lieu: "Estomac (foyer moyen)"
+
+    salive:
+      nature: "Liquide pur de la rate, maîtresse de toutes les muqueuses"
+      role: >
+        Mélange énergie de l'Homme avec énergies de la Terre.
+        Reconnaissance dans la bouche des substances mastiquées.
+      diagnostic: >
+        Saveur prononcée de la salive = excès de l'organe de
+        l'élément correspondant (amertume=Feu, acidité=Bois, etc.)
+
+    mastication:
+      molaires: "Écrasent les aliments, extraient sucs et arôme"
+      incisives: "Coupent — pas de travail préliminaire"
+      canines: "Déchirent — facilitation quand couper insuffisant"
+      organisation: >
+        Des plus antérieures (Yang) aux postérieures (Yin) —
+        forme et fonction suivent la même polarité.
+
+    muqueuse_buccale:
+      absorption: "Perlinguale (principe homéopathie)"
+      transmission: "Information immédiate à la rate"
+      consequence: >
+        La rate identifie l'aliment → sécrétion immédiate d'un
+        suc gastrique spécifique → aliment parfaitement digéré
+        à son arrivée à l'estomac. La rate COMMANDE la fonction
+        de l'estomac. Tous les sucs gastriques sont des liquides
+        de la rate émis par la muqueuse stomacale.
+
+    estomac:
+      nature: "Muscle blanc lisse (foie ne gère que muscles striés rouges)"
+      action: "Malaxage mécanique + mélange essences digestives (hormones)"
+      fin_appetit: "Déclenchée par message de la VB"
+      temporalite: "20min après cessation → 2h de va-et-vient estomac-duodénum"
+      orifices:
+        cardia: "Sphincter supérieur (œsophage-estomac) — 16JM"
+        pylore: "Sphincter inférieur (estomac-duodénum) — 21R / 22E"
+        fermeture: "Hermétique pendant malaxage (sauf pathologie)"
+      stenose_pylore:
+        description: "Maladie grave du nourrisson — vomissement en fusée du lait"
+        realite: "Simple spasme du pylore"
+        traitement: "Dispersion (massage) du 21R à droite, avant chaque tétée"
+        resultat: "Disparition en 2-3 jours"
+      separations:
+        - "Énergie pure (Ku Tchi, limpide) ↑ Rate → Poumons"
+        - "Énergie impure (trouble) → IG"
+        - "Liquides purs (Ié) → Rate (5 liquides purs aux 5 tsang)"
+        - "Liquides troubles → IG"
+        - "Solides purs → Foie"
+        - "Solides impurs → IG"
+        - "Jus purs des aliments → Rate"
+      degradation: "Dégrade sans destruction l'épais en plus fin"
+
+    vesicule_biliaire:
+      mecanisme: >
+        Pendant le va-et-vient estomac-duodénum, la VB se vide
+        d'un peu de bile à chaque passage dans le duodénum.
+        Reflux dans l'estomac pour mélange. Cycle durant 2 heures.
+      bile_fonctions:
+        - "Feu purificateur"
+        - "Brûle l'impur"
+        - "Dégrade les graisses"
+        - "Fractionne finement les constituants"
+        - "Stimulant puissant du péristaltisme intestinal"
+      pathologie_bile:
+        insuffisance: "Cause fréquente de constipation"
+        exces: "Ramollit les selles, peut donner diarrhées"
+
+    intestin_grele_initial:
+      duodenum: "~60 cm"
+      jejunum: "~1 m — partie principale, assimilation substances nutritives dans le sang"
+
+  deuxieme_tri:
+    lieu: "Intestin grêle"
+    separation: "Définitive entre pur/impur et fin/épais"
+    energies:
+      pure: "Ku Tchi résiduelle → monte au thorax → rejoint Tsong Tchi"
+      impure: "Reste avec aliments impurs"
+    liquides:
+      purs: "Transmis aux reins pour filtration"
+      impurs: "Accompagnent bol alimentaire vers GI"
+    solides:
+      purs: "Transmis au foie (absorption par villosités intestinales)"
+      impurs: "Dirigés vers GI pour évacuation"
+    note: "Muqueuse IG ne laisse passer que les substances les plus fines"
+
+# ══════════════════════════════════════════════════════════════
+# 13. ÉLIMINATIONS
+# ══════════════════════════════════════════════════════════════
+
+eliminations:
+  principe: >
+    Tout impur drainé vers le FI pour élimination par GI et vessie.
+    Ces deux fou sont commandés par les reins, maîtres du FI.
+
+  urines:
+    composition: "Plus de liquides que de solides (solides donnent couleur)"
+    diagnostic:
+      claires: >
+        Froid aux reins ou FI (excès rein Yin / vide rein Yang /
+        attaque froid). Généralement fréquentes et abondantes.
+      foncees: >
+        Chaleur aux reins ou FI (excès rein Yang / vide rein Yin).
+        Généralement rares, peu abondantes et odorantes.
+      sang_dans_urines: >
+        Signe de Feu dont l'origine est l'IG (pas reins/vessie
+        en général). Même si feu des reins → chercher cause à l'IG
+        par cycle Ko du Feu sur l'Eau.
+    regulation_thermique: >
+      La vessie contrôle l'équilibre thermique par les urines.
+      Chaleur = énergie, le liquide urinaire sert de support.
+      Température élevée → urines chaudes pour évacuer chaleur.
+    hormones: >
+      Les Chinois connaissaient les hormones dans les urines.
+      Urines de femmes enceintes séchées → poudre thérapeutique.
+    metallurgie: >
+      Fabrication de métaux Yin (urines femmes = souplesse) ou
+      Yang (urines hommes). Alliages extraordinaires découverts
+      dans des tombes — techniques perdues.
+
+  selles:
+    composition: "Plus de solides que de liquides (proportion = densité)"
+    signe_sante: "Bien moulées (bon tonus GI), couleur marron (bonne purification)"
+    fermentation:
+      principe: "Digestion → fermentation (surtout sucres) → gaz"
+      aerophagie: "Gonflement au-dessus du nombril + éructations (estomac)"
+      aerocolie: "Gonflement sous le nombril + vents (intestins)"
+      regle: >
+        Ne JAMAIS se retenir ! La rétention bloque tout le Yang Ming
+        et le foyer concerné (E ou GI).
+      digestion: >
+        Ne pas croiser les jambes pendant la digestion : bloque
+        la circulation du méridien de l'estomac (29, 30, 31E).
+    proverbe: "'300 pas sitôt le repas et la pharmacie reste fermée.'"
+    diagnostic:
+      decolorees_molles: "Excès de bile = chaleur"
+      noirâtres: "Stagnation dans tube digestif = froid (→ chaleur si prolongé)"
+      odorantes: "Chaleur — l'odeur signe l'élément déréglé (idem sueur)"
+      fines: "Pathologie de la rate"
+      aliments_non_digeres: "Pathologie du foie"
+      diarrhee_matinale: "Au lever = vide des reins"
+      diarrhee_post_prandiale: "Sitôt après repas = pathologie du foie"
+      diarrhee_chronique: "Ancienne = angoisse liée à pathologie de la rate"
+
+# ══════════════════════════════════════════════════════════════
+# 14. TRAJETS COMPLETS
+# ══════════════════════════════════════════════════════════════
+
+trajets_complets:
+  liquides:
+    purs_1er_tri: "Estomac → Rate → Poumons → Cœur"
+    impurs_1er_tri: "Estomac → IG (2ème tri)"
+    purs_2eme_tri: "IG → Reins (filtration) → récupération → Rate → circuit"
+    impurs_2eme_tri: "IG → GI → évacuation, et Reins → Vessie → évacuation"
+    filtre_renal:
+      intelligence: >
+        Le rein distingue les 'vieux liquides' (usagés, retour sanguin)
+        des 'liquides neufs' (alimentation). Idem pour éléments solides
+        contenus. Conserve le neuf, élimine le vieux.
+      filtration: "Plasma sanguin (pas globules) + ions, sels, cristaux"
+
+  solides:
+    purs_1er_tri: "Estomac → Foie (solides purs)"
+    purs_2eme_tri: "IG → Foie (villosités → absorption substances les plus fines)"
+    impurs: "IG → GI → évacuation"
+    foie_coeur: >
+      Foie = dernier organe du circuit sanguin de retour (sang veineux).
+      Solides purs → Foie → Cœur par la voie du sang veineux.
+      Foie filtre le sang des énergies et solides impurs.
+    bile_recyclage: >
+      Avec les impuretés/toxines, le foie fabrique la bile.
+      Excellent système de récupération et recyclage des déchets.
+    energies_impures_foie: >
+      Envoyées aux poumons et narines pour évacuation.
+      Éternuements et mucus bronchique au réveil matinal =
+      cette évacuation. Crises matinales de patients = ce mécanisme.
+    solides_impurs_foie: "Envoyés vers GI pour évacuation"
+
+  energies:
+    ku_tchi_1er_tri: "Estomac → (via Rate) → Poumons (thorax)"
+    ku_tchi_2eme_tri: "IG → Poumons (thorax)"
+    voir_formation_detaillee: "→ energies_detaillees.tsong_tchi et tcheung_tchi"
+    iong: "Prolongement Ku Tchi, polarité Yin, circule avec sang dans méridiens"
+    oe: "Issue récupération GI → Foie → polarité Yang, hors méridiens"
+
+  citation_so_ouen_ch21:
+    description: "Circuit complet en 12 étapes (So Ouen ch. 21)"
+    etapes:
+      1: "Aliments pénètrent dans l'estomac"
+      2: "Substance alimentaire va dans le foie et les muscles"
+      3: "Énergie pure va dans le cœur"
+      4: "Iong pénètre dans les vaisseaux"
+      5: "Énergie des vaisseaux s'introduit dans les méridiens"
+      6: "Poumon reçoit en audience le matin toutes les énergies des pouls → essence dans l'épiderme"
+      7: "Vaisseaux de l'épiderme → essence du Tchi → 17JM Trann Tchong → distillation → viscères"
+      8: "TR répartit le Tchi pour la juste mesure au pouls radial (mensurateur)"
+      9: "Liquides entrent dans l'estomac, essence dans la rate"
+      10: "Rate produit Tchi qui rejoint le poumon"
+      11: "Reste prend voie des liquides → vessie"
+      12: "Tchi des liquides imbibe tout le corps, déborde dans méridiens selon saisons"
+
+  citation_so_ouen_ch11: >
+    "Les émanations des saveurs proviennent de l'estomac,
+    passent au poumon et alimentent tous les organes dont
+    les émanations se manifestent au pouls radial."

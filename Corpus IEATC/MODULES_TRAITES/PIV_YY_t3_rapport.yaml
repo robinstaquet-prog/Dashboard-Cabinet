@@ -1,0 +1,100 @@
+# RAPPORT D'INTÉGRATION — PIV YIN/YANG TOME 3
+# Date : 2026-04-06
+
+meta:
+  polycopie: PIV_Yin_Yang_t3.pdf
+  titre: Polycopié IV — YIN / YANG — tome 3
+  sous_titre: >
+    Yin/Yang du Ciel (6 énergies, Kan/Che, cycle 60, 6 pas célestes/terrestres,
+    climatologie So Ouen, pouls des 6 énergies) — Yin/Yang de l'Homme (matrice
+    énergétique, maturité des points, 2 systèmes de méridiens) — Points
+    d'acupuncture (spirale, géographie sacrée) — Axes énergétiques (6 couches,
+    progression avant/arrière, profond/superficie, fonctions d'équilibre) —
+    Systèmes énergétiques (3 systèmes × 8h, cycle circadien) — Numérologie
+    (réplication des Nombres, Siéou, zodiaque chinois antique).
+  auteur: Thierry_Bollet
+  date_compilation: 01/10/2019
+  pages: 51
+  module: IV_Yin_Yang_tome_3
+  niveau: fondateur
+  prerequis: >
+    PIV YY t1 (Yin/Yang, Taé I) et PIV YY t2 (fondements, sectorisation humaine).
+    Ce tome 3 complète le trilogy Yin/Yang en ajoutant la cosmologie céleste
+    (6 énergies du Ciel) et son expression dans le corps humain (axes énergétiques,
+    systèmes énergétiques). Il prépare directement l'étude des 5 Éléments (tome 4+).
+  note_format: >
+    Polycopié théorique pur avec nombreux tableaux et figures. Très riche en
+    numérologie, astronomie et cosmologie chinoise. Le glossaire (pp. 47-51)
+    est particulièrement dense. Pas de points d'acupuncture ni protocoles de
+    traitement — sauf la table des correspondances organiques (tableau 5).
+
+fichiers_crees:
+  - chemin: THEORIE/yin_yang_t3.yaml
+    contenu: >
+      Intégralité du contenu du polycopié structurée en 8 sections :
+      (1) Yin/Yang du Ciel — Taé I, 6 énergies (3 Yin/3 Yang avec pouls normaux
+      et fonctions d'axe), pouls pathologiques, années impaires/paires.
+      (2) Numérologie et cosmologie — réplication des Nombres (9→81, 8→64, 7→49,
+      6→36, 5→25), cercle astronomique 360°/365j, Kan et Che (listes complètes),
+      systèmes décimal/duodécimal, cycle 60 (depuis −2697), âge lunaire,
+      physique quantique et temps relatif, Pa Fong et 5 Palais, Siéou (28 logis).
+      (3) Les 6 pas — pas célestes (mobiles, polaires), pas terrestres (fixes,
+      zodiacaux), ordre différent (inversion Chao Yang/Taé Yin), rapport au
+      zodiaque, Tienn Tou, climatologie (tableaux So Ouen).
+      (4) Yin/Yang de l'Homme — microcosme/macrocosme, 12 méridiens Ciel / 10
+      organes Terre, matrice énergétique précède corps physique, 2 systèmes de
+      méridiens (Yin+Yang par élément dès 3ème mois / Yin/Yin ou Yang/Yang dès
+      naissance), points d'acupuncture (spirale, géographie sacrée).
+      (5) Les axes énergétiques — 6 couches, couplages Tchéou/Tsou × 6 axes
+      (tableau 5 complet), progression avant→arrière + profond→superficie,
+      exception Yang Ming (face au Sud/synthèse lumière), fonctions d'équilibre.
+      (6) Les systèmes énergétiques — 3 systèmes × 8h, circulation circadienne
+      (50×/jour, toutes les ½h), axes 4h (2h Tchéou + 2h Tsou), tableau horaire.
+      (7) Zodiaque chinois antique — 12 animaux (11ème s. av. J.C.), 3 fonctions
+      successives, Tchi et Hou, Grande/Petite Ourse, Schlegel (17.000 av. J.C.).
+      (8) Suite curriculum — annonce des 5 éléments, signification multi-niveaux
+      du mot "Terre", philosophie finale (Ciel et Terre = premiers médecins).
+
+fichiers_enrichis:
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    nouvelles_entrees:
+      - Tienn_Tou (coïncidence pas céleste = pas terrestre = renforcement)
+      - Tcheou_meridien (méridien de la main = axe supérieur)
+      - Tsou_meridien (méridien du pied = axe inférieur)
+      - Sieou (28 logis lunaires, étoile KIO, astrologie de la conception)
+      - Pa_Fong (8 trigrammes, 5 Palais, fondement Yi King et acupuncture)
+      - Maturite_energetique (5 ans Terre / 6 ans Ciel / 60 ans être humain)
+      - Geographie_sacree (correspondance étoiles/points, corps = macrocosme)
+      - Systemes_energetiques_3 (3 couples Yang+Yin × 8h, tableaux horaires)
+      - Pas_energetique (60j 21h, céleste vs terrestre, inversion ordre)
+    entrees_enrichies:
+      - GM (enrichi avec Tchéou/Tsou, 3 systèmes horaires, niveaux anatomiques)
+      - Maitre_annee (ajout infos YY t3 sur les 6 mois Yang)
+      - Serviteur_du_Ciel (ajout infos YY t3 sur les 6 mois Yin)
+
+concepts_cles:
+  cosmologie:
+    - "6 énergies du Ciel ≠ 5 éléments : Ciel = base 6, Terre = base 5"
+    - "Cycle 60 = 10 Kan × 12 Che (depuis −2697) — pilier de la société chinoise"
+    - "Tienn Tou = renforcement par coïncidence céleste/terrestre"
+    - "Années impaires = Yang = excès ; années paires = Yin = insuffisance"
+  embryologie:
+    - "Matrice énergétique PRÉCÈDE le corps physique"
+    - "3ème mois de grossesse : méridiens Yin+Yang par élément"
+    - "Naissance : axes Yin/Yin et Yang/Yang reçoivent les infos du Ciel"
+    - "Maturité des points : 5 ans (Terre) et 6 ans (Ciel)"
+    - "Maturité de l'être : 60 ans (36+25)"
+  axes_energetiques:
+    - "Ordre dans l'Homme ≠ ordre céleste (inversion Yang Ming / Chao Yang)"
+    - "Yang Ming exception : côté Yin car face au Sud pour synthèse lumière"
+    - "Deux catégorisations : avant→arrière (surface) et profond→superficie"
+    - "Tchéou = main / Tsou = pied → axe complet = Tchéou + Tsou"
+  systemes:
+    - "3 systèmes énergétiques × 8h = les 'trois 8'"
+    - "50 circulations Iong par jour dans chaque méridien (toutes les ½h)"
+    - "Axes énergétiques ≠ circuit : activés par soleil, pas de transmission entre systèmes"
+
+prochains_modules:
+  - PIV_YY_t4_t5 (5 éléments Yin/Yang de la Terre + cas pratiques)
+  - Meridiens_1 (systémique méridiens, en attente)
+  - Pouls_2 (deuxième module pouls, en attente)

@@ -1,0 +1,203 @@
+# TSANG / FOU — PHYSIOLOGIE GÉNÉRALITÉS
+# Source : Polycopié VI, Série Physiologie tome 1
+# Auteur : Thierry Bollet — IEATC — 04/07/2015
+# 51 pages — Module de 2ème année
+
+meta:
+  fichier: tsang_fou_physiologie_t1.yaml
+  source: PVI_Physio_t1
+  module: VI_Physiologie_tome_1
+  auteur: Thierry_Bollet
+  date_document: 04/07/2015
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_fondements.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/hierarchie_sang_energie.yaml
+  lacunes:
+    - physiologie individuelle de chaque tsang/fou → PVI t2 et suivants
+    - entrailles curieuses → module suivant
+    - énergie Yuan Tchi et Tsong Tchi → module FI (Foyer Inférieur)
+
+identite_tsang_fou:
+  definition_tsang:
+    traduction: le_Trésor_ou_celui_qui_thésaurise
+    nature: Yin_interne
+    relation_fou: interne_et_ou_avers_par_rapport_aux_fou
+    physiologie_cle: inactifs_quand_pleins_actifs_quand_vides
+    source: PVI-t1-p49
+  definition_fou:
+    traduction_centripete: Atelier
+    traduction_centrifuge: Ouvrier
+    nature: Yang_externe
+    relation_tsang: externe_et_ou_avers_par_rapport_aux_tsang
+    physiologie_cle: actifs_quand_pleins_repos_quand_vides
+    source: PVI-t1-p46_47
+
+structure_5_tsang_6_fou:
+  5_tsang:
+    justification: 5_Nombre_de_la_Terre_Yin
+    liste: [rate, foie, rein, poumon, coeur]
+    plus_MC: fonction_Maitre_Coeur_ajoutée_tardivement
+  6_fou:
+    justification: 6_Nombre_du_Ciel_Yang
+    liste: [estomac, vesicule_biliaire, vessie, gros_intestin, intestin_grele, triple_rechauffeur]
+  historique:
+    variante_ancienne: 5_tsang_5_fou
+    variante_standard: 5_tsang_6_fou
+    variante_3F: 12_avec_6_tsang_et_6_fou
+    passage_11_a_12_meridiens: ajout_MC_pour_coupler_TR
+    TR_MC_sans_meridiens_au_debut: true
+    voies_lo_TR_MC: décrites_de_manière_floue_encore_aujourd_hui
+    source: PVI-t1-p43
+
+trilogie_identite_tsang:
+  principe: >
+    Chaque tsang est une entité indivisible à 3 plans,
+    tous expressions de son énergie tsing propre.
+  trois_plans:
+    physique: activité_fonctionnelle_organique
+    sentimental: émotion_spécifique_à_cet_organe
+    psychique: entité_et_activité_psychique_spécifique
+  citation_CLM: >
+    Un tsang est une "entité", un "tout", capable d'une
+    sentimentalité et doué d'une activité psychique
+    spécifique, propre, particulière et totalement indépendante.
+  individuel: racine_de_indivisible
+  pathologie: >
+    L'indépendance devient pathologique quand le tsang agit
+    sans tenir compte des 3 foyers.
+    Analogie directe avec le cancer (cellules individualistes).
+  source: PVI-t1-p7
+
+cancer_et_Chao_Yang:
+  analogie_fonctionnelle: >
+    Les cellules cancéreuses = individualisme absolu.
+    Sortie de la loi fonctionnelle nécessaire à l'ensemble.
+    Elles étouffent les autres cellules par leur masse excessive.
+    Ce n'est pas le cancer qui tue directement mais l'étouffement
+    des autres fonctions vitales.
+  role_Chao_Yang_prevention: >
+    TR + VB (Chao Yang) = rôle énergétique essentiel
+    dans la prévention du cancer en socialisant les organes.
+  source: PVI-t1-p8
+
+regle_niveaux_points_traitement:
+  REGLE_ABSOLUE: >
+    Chaque organe a une fonction DIFFÉRENTE selon le niveau
+    considéré. Une pathologie d'un niveau ne pourra JAMAIS
+    être traitée par les points d'un autre niveau.
+  niveaux:
+    fonctionnel_propre:
+      description: fonction spécifique de l'organe
+      exemple: coeur_bat_rein_filtre_estomac_malaxe
+      points: mo_iu_dos_yuan
+    trois_foyers:
+      description: interrelations dans la gestion des 3F
+      exemple: foie_metabolise_les_solides_purs
+      points: maitres_des_foyers
+    cinq_elements:
+      description: énergie saisonnière_engendrement_tissus_sentiment_psychisme
+      exemple: foie_genere_muscles_gere_fong
+      points: antiques_ting_iong_iu_king_ro
+    quatre_energies:
+      correspondances: [rate=iong, poumon=oé, foie=sang, rein=ancestrale]
+    yin_yang_6_couches:
+      exemples:
+        Chao_Yin: rein_coeur_puissance_evolution_être
+        Chao_Yang: TR_VB_moteur_carburant_protection
+        Tae_Yin: rate_poumon_distribution_energie_sang
+      points: lo_yuan
+  exemple_foie_multi_niveaux:
+    niveau_3F: réception et métabolisation des solides purs
+    niveau_5el: génère muscles gère fong Roun
+    niveau_individuel: filtre sang veineux source sexualité
+    niveau_axe: sentimentalité MC dans Tsiue Yin
+    note: peut être pathologique à un niveau sans l'être aux autres
+  source: PVI-t1-p41_42
+
+axes_energetiques_amont_aval:
+  loi_generale: >
+    Dans tout axe énergétique :
+    AMONT (3 Yin du bas + 3 Yang du haut) = ÉMETTEUR :
+    fournit l'intelligence et l'énergie de la fonction.
+    AVAL (3 Yin du haut + 3 Yang du bas) = EFFECTEUR :
+    réalise l'action commandée par l'amont.
+  exemple_yang_ming_tae_yin:
+    sens_centripete:
+      GI_1: réception et adaptation énergies externes (Ciel)
+      E_2: absorption et transmission au Yin (Terre)
+      Rte_3: réception et synthétisation (Terre)
+      P_4: thésaurisation (Ciel)
+    sens_centrifuge:
+      ordre_de_depart: Rte_P_GI_E
+  total_symbolique_couple: toujours_5
+  implication: >
+    La paresse d'un foie, fatigue des reins, insuffisance du poumon
+    peuvent provenir d'un vide d'énergie du FOU couplé.
+  source: PVI-t1-p44_45_48
+
+relations_peripheriques_diagnostic:
+  IMPORTANT: >
+    Pathologies dans ces zones → orienter IMMÉDIATEMENT
+    la recherche vers l'organe en relation.
+  rein: pied_et_mollet
+  rate: genou_et_cuisse
+  foie: hanche_et_flanc
+  poumon_et_coeur: coude_et_avant_bras
+  source: PVI-t1-p51
+
+classification_Yin_Yang_des_tsang:
+  Coeur: Yang_dans_le_Yang
+  Poumon: Yin_dans_le_Yang
+  Foie: Yang_dans_le_Yin
+  Rein: Yin_dans_le_Yin
+  Rate: centre_specifique_de_Homme_Yin_extreme
+  source: PVI-t1-p28
+
+sang_et_tsang_roles:
+  Foie:
+    filtre: sang_en_entier
+    regule: globules_rouges_blancs_plaquettes
+  Rein:
+    filtre: sang
+    regule: plasma_eau_sels_mineraux
+  Rate:
+    recoit: sang
+    controle: vie_globules_rouges_et_volume_plasma
+  Poumon:
+    epure: sang
+    enrichit_de: tchi_et_oxygene
+  Coeur:
+    pulse: sang_dans_circuit_arteriel
+  MC:
+    dirige: circulation_sanguine
+  source: PVI-t1-p49
+
+revolution_5_elements_tsing:
+  ALERTE: MECANISME_CONFIRME_PAR_PRATICIEN
+  affirmation_Bollet: >
+    Ce qui circule dans le cycle des 5 éléments (cycle Tcheng)
+    est le TSING des tsang, CONTENU DANS l'Iong.
+  mecanisme_complet_confirme: >
+    1. L'Iong circule partout et contient les Tsing de TOUS les Tsang
+    2. La RATE trie et étiquette chaque Tsing pour son Tsang destinataire
+    3. Les FOU COUPLÉS captent dans l'Iong la Tsing étiquetée
+       pour leur Tsang et la lui transmettent
+    Il n'y a pas contradiction avec la tradition (Iong circule)
+    mais PRECISION : l'Iong est le véhicule, la Tsing est le contenu.
+  argument_1: >
+    So Ouen : "Les tsang se transmettent jalousement leur énergie
+    sans jamais la laisser s'écouler au-dehors."
+    → Cette phrase décrit la circulation des 5 éléments.
+  argument_2: >
+    Loi des 5 éléments : "Un élément est nourri par l'énergie de
+    sa mère et EXCLUSIVEMENT par celle-ci. Toute autre énergie
+    lui serait toxique."
+    → Si c'était Iong (énergie neutre), cette loi serait caduque.
+    → Seul Tsing des tsang correspond à une énergie propre à chaque élément.
+  implication_therapeutique: >
+    MAJEURE — affecte la conception même du traitement par les 5 éléments.
+  conflit_reference: C004_RESOLU
+  statut: confirme_par_praticien_2026-04-05
+  source: PVI-t1-p51

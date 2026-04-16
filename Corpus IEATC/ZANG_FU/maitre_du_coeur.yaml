@@ -1,0 +1,256 @@
+# MAITRE DU COEUR — PHYSIOLOGIE INDIVIDUELLE
+# Source : PVI Physiologie tome 2, pp. 19-22
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: maitre_du_coeur.yaml
+  source: PVI_Physio_t2_p19_22
+  statut: complet
+  liens:
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/role_general_tsang.yaml
+    - THEORIE/hierarchie_sang_energie.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+
+identite:
+  titre: eminence_grise_du_coeur_conseiller_secretaire_intime
+  polarite: Yang_de_Yang_secondaire_comme_C
+  element: Feu_Ministre
+  foyer: FS_siege_poitrine_17JM
+  axe: partie_avale_du_Tsiue_Yin
+  couple_Yang: TR
+  nature_sang_energie: sanguin
+  pas_de_rang_ministeriel: >
+    Pas de titre dans l'Empire. N'a pas rang de Ministre.
+    Fonction, pas de structure anatomique.
+  centre_action: Tran_Tchong_17JM_meridien_s_enroule_autour
+  lien_Rte: >
+    Le méridien de la Rate (21Rte Ta Pao) envoie une expansion
+    au 17JM reliant soucis et extériorisation des sentiments
+    profonds avec la grande fonction sentimentale du MC.
+
+fonctions_energetiques:
+  dichotomie_C_MC:
+    coeur_dirige: pensees_et_morale_elevees
+    MC_dirige: sentiments
+    bonne_entente: sous_autorite_du_coeur
+    quand_coeur_faible: >
+      MC se substitue et commande. Le sujet est soumis
+      à ses passions. L'avoir et le pouvoir dominent l'être.
+      Image du "Vizir is no good" qui complote pour détrôner le Calife.
+  protection_coeur:
+    sens_centripete: >
+      MC se comporte en bouclier et filtre de toutes les
+      informations/sentiments qui pourraient nuire au coeur.
+    reservoir_emotions: >
+      Reçoit les émotions de l'Empire, les traite
+      (comme les Fou vis-à-vis de leur Tsang couplé),
+      puis les transmet au coeur.
+      Le coeur se nourrit des sentiments.
+    supporte_affections: >
+      C'est lui qui supporte toutes les affections qui
+      pourraient gagner le coeur.
+  sens_centrifuge: >
+    Obéit au coeur et transmet ses ordres en s'assurant
+    de leur bonne exécution.
+  dirige_circulation_sang_et_sexualite: >
+    La sexualité a sa racine dans le Feu.
+    Si MC obéit au C, l'élan vers l'autre sexe vient du Chen.
+  impact_emotions_sur_organes:
+    exemples:
+      - peur_provoque_diarrhee
+      - emotion_acceleration_ou_spasme_cardiaque
+      - souci_ulceration_estomac
+      - situation_bloque_parole
+    note: >
+      C'est ce qui a conduit certains auteurs à le rattacher
+      au système sympathique.
+  So_Ouen: >
+    "Lorsque l'autorité impériale est puissante, le MC obéit
+    au coeur et l'Empire est en paix."
+  formule_IEATC: >
+    L'idée est à la pensée (coeur/Chen) ce que l'émotion
+    est au sentiment (MC). D'où l'impact des émotions
+    et le rôle de MC dans les 3F.
+  source: PVI-t2-p19_21
+
+physiologie_occidentale:
+  pericarde: restrictif_ne_correspond_pas_a_son_etendue
+  systeme_sympathique: idem_trop_restrictif
+  coronaires: >
+    4 artères coronaires apportent le sang au coeur
+    pour l'irriguer → comprendre le rôle de MC envers le coeur.
+  source: PVI-t2-p19
+
+periodes_activite:
+  cycle_iong: 19h_a_21h
+  lune: 2eme_periode_Feu_ET_1ere_periode_Bois
+  particularite: >
+    MC appartient au Tsiue Yin (énergie du Bois) donc
+    correspond AUSSI à la 1ère période lunaire, au printemps,
+    à Jupiter et au Tsiue Yin. Double Feu.
+  saison: ete_saison_Terre
+  planete: Mars_quand_avance
+  etoiles: Chao_Yin_ET_Tsiue_Yin
+  source: PVI-t2-p21
+
+physiologie_5_elements:
+  mouvement: expansion_developpement_epanouissement
+  application: >
+    Développement et manifestations harmonieux de la
+    personnalité et adaptation de soi au monde.
+    Fonder famille, gravir les échelons, développer
+    facultés artistiques (fondées sur Chen du C et fonction MC).
+  deux_Feux_hierarchie:
+    Feu_Empereur: au_dessus
+    Feu_Ministre: en_dessous
+    visualisation: >
+      Dédoubler l'élément Feu verticalement :
+      Feu Empereur (C/IG) au-dessus du Feu Ministre (TR/MC).
+  source: PVI-t2-p21_22
+
+enrichissement_5_elements:
+  element: Feu_Ministre
+  dans_5E: activite_mentale_vs_Chen_Esprit_du_C
+  Tann_Tienn_moyen: >
+    Région poitrine / 17 JM (Trann Tchrong).
+    Focalisation de toutes les émotions.
+    Le MC gère toute la vie affective et les émotions.
+  double_sens_dans_5E:
+    sens_1: rempart_protecteur_filtre_emotions
+    sens_2: transmetteur_ordres_du_coeur_a_organisme
+  source: PVII-t1-p40
+
+enrichissement_5E_t2:
+  dans_cycle_Tcheng: >
+    Le MC partage le Feu avec le Coeur. Dans les 5E,
+    le double Feu (Empereur C/IG + Ministre TR/MC)
+    est confondu en un seul élément.
+  correspondances_partagees_avec_Coeur:
+    MC_specifique: >
+      MC = sentiments et émotions → transforme en
+      mots de la parole. Interface entre le Chen
+      (Coeur) et l'expression verbale/émotionnelle.
+  source: PVII-t2-p20
+
+enrichissement_5E_t3:
+  so_ouen_chap5_MC: >
+    Le MC = Feu Ministre (Chao Yang) partage les correspondances du Feu.
+    CHEUN associé via Cœur = CHEUN conscient (partagé avec Cœur).
+    Son rôle spécifique = activité mentale et protection émotionnelle du Chen.
+  points_su_MC:
+    Ting_Bois: 9MC
+    Iong_Feu: 8MC
+    Iu_Terre: 7MC
+    King_Metal: 5MC
+    Ro_Eau: 3MC
+  axes_5E_t3:
+    groupe_meridiens: 3_Yang_du_haut_Yang_du_Yang_partage_avec_Coeur
+    Chao_Yang_specifique: >
+      Plus énergétique — stagne en haut si dysfonctionnel (migraines).
+      Interdépendant de Tsiué Yin pour ses mouvements.
+  liens_nouveaux:
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+    - THEORIE/cinq_elements_points_su.yaml
+  source: PVII-t3-p10_44
+
+enrichissement_5E_t4:
+  pathologie_5E:
+    role_sentiments: >
+      Les sentiments/émotions sont stockés en réserve
+      dans la poitrine (17JM) sous gestion du MC.
+      Le coeur se nourrit des sentiments, le MC les filtre.
+    point_penn: 7MC_iu_Terre
+    Yin_Yang_et_penn: >
+      MC partage le Feu avec le Coeur. 8MC = penn Feu.
+      7MC peut débloquer la zone Feu abdominale.
+    palpation_abdominale:
+      zone: sous_sternum_14JM_partage_avec_C
+      deblocage: 7MC_d_alternatif_a_7C_d
+    traitement_sentiments: >
+      So Ouen : ne jamais disperser un sentiment en excès.
+      Renforcer par le point penn l'élément dominateur
+      (cycle ko de tempérance).
+    douleur_coeur_par_foie: >
+      Douleur comme un coup de poignard → 6MC t.
+      Efficacité totale, immédiate et définitive.
+  liens_nouveaux:
+    - THEORIE/cinq_elements_pathologies_synthese.yaml
+    - THEORIE/cinq_elements_pathologies_bilan.yaml
+  source: PVII-t4-p56_72
+
+# ─── Enrichissement EEA t1 (séminaire CLM déc. 1981) ──────
+
+enrichissement_EEA_t1:
+  petit_coeur_et_MC: >
+    Dans l'embryon, le Petit Cœur se différencie dans le magma
+    du réchauffeur initial. Il est la matrice du Maître du Cœur.
+    Pendant que le réchauffeur initial éclate en 3 Réchauffeurs,
+    le Petit Cœur s'étend, enrobe le Cœur anatomique et forme
+    sa barrière protectrice = le Maître du Cœur.
+  embryologie_retournement: >
+    Le cœur anatomique naît de l'accolement de deux tubes
+    cardiaques. L'intestin tournant fait sa grande spire (avec
+    l'IG) et le cœur fait un retournement en sens inverse.
+    À ce moment, les Réchauffeurs montent et le Petit Cœur
+    qui était à l'intérieur entoure le Cœur et forme le MC.
+  MC_et_jing_jin: >
+    Certains muscles des méridiens liés au MC peuvent entraîner
+    des troubles au niveau cardiaque. Il peut y avoir une
+    pathologie cardiaque liée aux méridiens musculaires (Jing Jin).
+    Les tendino-musculaires ont une pathologie très importante.
+  source: PVI-EEA-t1-p67_68
+
+# ─── Enrichissement EEA t2 (séminaires CLM juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_cinquieme_charge: >
+    En 5ème position du Su Wen ch.8, on ne trouve ni Rte ni R
+    mais TAN ZHONG (17VC, milieu de la poitrine). C'est la mer
+    des Souffles du haut, où se forme l'énergie ancestrale (Zong Qi).
+    Centre de commandement où les Souffles condensent et réunissent
+    les effets les plus subtils de la respiration et de l'alimentation.
+    De là, ils vont dans tout le corps (nutrition ou défense).
+  xin_zhu: >
+    Tan Zhong vient comme un « Ministre du Cœur », en lieu et place
+    de cette instance au service du Cœur (ERDLV). C'est l'activité
+    du milieu de la poitrine qui répand dans tout l'être les Souffles.
+    XIN ZHU (Cœur-Maître) = le 2ème versant du Cœur, celui qui
+    est tourné vers l'activité et la maîtrise. On ne peut jamais
+    le dissocier du Cœur (ERDLV, Su Wen ch.8).
+  valeur_du_cinq: >
+    5ème position = développement (Père Larre). 4 = occupation
+    du terrain par les Souffles selon les 4 orients. 5 = ces mêmes
+    Souffles qui s'organisent et constituent une vie. Tan Zhong =
+    terrasse où viennent toutes les influences du Ciel (Père Larre).
+  feu_suzerain_et_ministre: >
+    Quand le Cœur se dissocie dans ses 2 versants : Feu Suzerain
+    (Feu de la vie suprême, Souverain immobile, non-agir) et
+    Feu Ministre (actif dans la maîtrise, effectuation des choses
+    attribuées au XIN ZHU). Ce n'est pas un autre organe mais
+    le 2ème versant du même.
+  source: PVI-EEA-t2-p44_45
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  6MC_triple_fonction: >
+    6MC (Nei Koann) = Yin psychique + Maître de la barrière.
+    Triple fonction clinique:
+    1) Yin psychique: harmonise l'état émotionnel
+    2) Maître du foyer moyen: commande le Yin digestif
+    3) Barrière haut/bas: en dispersion, ouvre la descente
+       du Yang→Yin ET la remontée du Yin→Yang.
+    La barrière s'ouvre dans les 2 SENS.
+  tsiue_yin_avec_foie: >
+    L'axe Tsiué Yin = F (bas) + MC (haut). Si F en plénitude
+    → l'énergie Yin remonte et s'accumule dans MC → MC en
+    plénitude → disperser (6MC d). Le 18JM d régularise
+    l'axe Tsiué Yin (point nœud = liaison haut/bas).
+  urgence_cardiaque: >
+    En urgence, le 6MC d traite IMMÉDIATEMENT les troubles
+    touchant le cœur ou le péricarde ("coup de poignard à
+    la poitrine" — cas Martine).
+  8MC_point_feu: >
+    8MC t = point Feu du MC. Utilisé en 2ème séance pour
+    traiter le vide de Rein Yang (avec 2R t point Feu du R).
+  source: PIV_YY_tomes4-5_CP_I

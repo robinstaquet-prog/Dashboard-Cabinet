@@ -1,0 +1,34 @@
+# ── Données patients (jamais sur git) ─────────────────────────────────────
+pipeline/data/normal/
+pipeline/data/anonymized/
+pipeline/data/json/
+pipeline/data/archive/
+pipeline/data/mapping.enc
+pipeline/null
+
+# ── Secrets ────────────────────────────────────────────────────────────────
+pipeline/config.env
+cabinet-acupuncture/data/
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# ── Node / Vite ────────────────────────────────────────────────────────────
+node_modules/
+cabinet-acupuncture/dist/
+
+# ── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Éditeurs ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp

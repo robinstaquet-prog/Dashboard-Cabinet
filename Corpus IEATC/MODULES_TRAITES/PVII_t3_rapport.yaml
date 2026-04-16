@@ -1,0 +1,450 @@
+# RAPPORT D'INTÉGRATION — PVII 5 ÉLÉMENTS TOME 3
+# Date : 2026-04-05
+
+meta:
+  polycopie: 5_Elements_3.pdf
+  titre: Polycopié VII — Les 5 Éléments — Physiologie tome 3
+  sous_titre: >
+    Points Su antiques, Âge d'Or, Kan/Che, Lune,
+    Calendrier des Xia, So Ouen chap.5
+  auteur: Thierry_Bollet
+  date_document: 26/08/2019
+  pages: 96
+  module: VII_5_Elements_tome_3
+  niveau: fondateur_avance
+  prerequis: PVII_t1_et_t2_deja_integres
+
+fichiers_crees:
+  - chemin: THEORIE/cinq_elements_axes_energetiques.yaml
+    contenu: >
+      Terre double position (entre Eau-Feu ET entre Bois-Métal),
+      tableau 5E↔6 axes, La Cellule (conscience cellulaire, cancer
+      = individualisme), Eau et Feu précurseurs, Bois/Métal horizontal,
+      Ciel féconde Terre (4 groupes méridiens, tableaux 8 et 9),
+      Croix 6 directions + double hélice ADN, scolioses et
+      cypho-lordoses. (pp.1-27)
+  - chemin: THEORIE/cinq_elements_mouvements_5E.yaml
+    contenu: >
+      Tableau 4 des 5 mouvements (Bois=naissance/souplesse,
+      Feu=expansion/circulation, Terre=maturité/transformation,
+      Métal=rétraction/respiration, Eau=conservation/fluidité),
+      So Ouen chap.5 complet par direction (Est/Bois, Sud/Feu,
+      Centre/Terre, Ouest/Métal, Nord/Eau) avec saveurs, CHEUN
+      associés, Ko émotionnels, blessures climatiques, Ko climatiques.
+      (pp.27-44)
+  - chemin: THEORIE/cinq_elements_points_su.yaml
+    contenu: >
+      Tableaux 5 (Yin, 5 points) et 6 (Yang, 6 points avec Iuann),
+      points pour tous les méridiens Yin et Yang. Propriétés de
+      chaque type (Ting puits/ongle, Iong chaleur-froid,
+      Iu porte perversités, Iuann code barre, King énergie défensive,
+      Ro 4 barrières communication interne-externe). Règle : Su
+      agissent sur QUALITÉS, pas quantités. 66 énergies dans iong.
+      (pp.10-20)
+  - chemin: THEORIE/cinq_elements_kan_che.yaml
+    contenu: >
+      Âge d'Or (So Ouen chap.69, verticalité antique 90°, axes
+      électrique E-O et magnétique N-S, éternel printemps, bascule
+      90°→23°), figures 9 et 10 expliquées textuellement,
+      6 pas célestes (succession immuable, Maître/Serviteur),
+      6 pas terrestres FIXE (inversion Chao Yang/Taé Yin notable),
+      10 Kan nommés (Kia/I/Ping/Ting/Wou/Tchi/Keng/Hsin/Jen/Koui),
+      12 Che (Tse/Tcheou/Yin/Mao/Tchen/Seu/Ou/Wei/Chen/Yeou/Siu/Hai),
+      cycle 60 ans (1984=1ère combinaison, 2044=prochain cycle),
+      Heures Royales de Wang Chou Houo, Lune (soleil=Yang/psychisme,
+      lune=Yin/sang), 10 premières lunes par Kan, lunes intercalaires.
+      (pp.44-79)
+  - chemin: THEORIE/cinq_elements_calendrier_xia.yaml
+    contenu: >
+      4 saisons × 3 mois, thèmes (Jaillir/Gravir/Construire/Maintenir),
+      règle médicale (contrarier le souffle = blesser l'organe +
+      préparer maladie saison suivante), synthèse clinique préventive
+      (Printemps→Foie/risque été, Été→Cœur/fièvre automne-hiver,
+      Automne→Poumon/douleurs hiver, Hiver→Rein/épuisement printemps).
+      (pp.80-96)
+  total: 5
+
+fichiers_mis_a_jour:
+  - chemin: ZANG_FU/foie.yaml
+    ajouts: >
+      enrichissement_5E_t3 : So Ouen chap.5 Bois (Est, vent, acide,
+      nerf), points Su Foie (1F/2F/3F/4F/8F), axes (3 Yin haut,
+      Bois/Tsiué Yin), Tsiué Yin spécificité (axe Ciel-Terre,
+      profond), Ko émotionnel clinique (chagrin Poumon domine colère).
+  - chemin: ZANG_FU/coeur.yaml
+    ajouts: >
+      enrichissement_5E_t3 : So Ouen chap.5 Feu (Sud, chaleur, amer,
+      sang), points Su Cœur (9C/8C/7C/4C/3C), axes (3 Yang haut,
+      Feu/Chao Yin), Chao Yin spécificité (avant→arrière, sanguin,
+      cypho-lordoses), Ko émotionnel clinique.
+  - chemin: ZANG_FU/rate.yaml
+    ajouts: >
+      enrichissement_5E_t3 : So Ouen chap.5 Terre (Centre, humidité,
+      doux, chair), points Su Rate (1Rte/2Rte/3Rte/5Rte/9Rte), axes
+      (Terre centre, Taé Yin), Ko émotionnel clinique (colère Foie
+      domine méditation/obsession).
+  - chemin: ZANG_FU/poumon.yaml
+    ajouts: >
+      enrichissement_5E_t3 : So Ouen chap.5 Métal (Ouest, sécheresse,
+      piquant, peau/poils), points Su Poumon (11P/10P/9P/8P/5P),
+      axes (3 Yang bas, Métal/Yang Ming), Yang Ming spécificité
+      (descend, équilibré sang/énergie, axe horizontal fin),
+      Ko émotionnel clinique (joie Cœur domine anxiété).
+  - chemin: ZANG_FU/rein.yaml
+    ajouts: >
+      enrichissement_5E_t3 : So Ouen chap.5 Eau (Nord, froid, salé,
+      os/moelle), points Su Rein (1R/2R/3R/7R/10R, note 1R seul Ting
+      non à l'ongle), axes (3 Yin bas, Eau/Taé Yang), Ko émotionnel
+      clinique (pensée Rate domine peur).
+  - chemin: ZANG_FU/maitre_du_coeur.yaml
+    ajouts: >
+      enrichissement_5E_t3 : So Ouen chap.5 Feu Ministre (Chao Yang),
+      points Su MC (9MC/8MC/7MC/5MC/3MC), Chao Yang spécificité
+      (énergétique, stagne en haut si dysfonctionnel = migraines,
+      interdépendant Tsiué Yin).
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajouts: >
+      17 nouveaux termes : Points_Su, Ting, Iong, Iu, Iuann, King,
+      Ro, Kan, Che, Hou, Maitre_annee, Serviteur_du_Ciel,
+      Heures_Royales, HOUN, PO, Tchi_realisation, Croix_6_directions.
+      Version 1.5 → 1.6.
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajouts: >
+      arbre_cinq_elements enrichi : points_su_clinique (Iu=porte
+      perversité, Ro=porte interne, code barre), kan_che_clinique
+      (3 analyses annuelles), heures_royales_clinique,
+      so_ouen_chap5_ko_emotionnels (table complète),
+      axes_energetiques_clinique (scolioses/cypho-lordoses),
+      calendrier_xia_preventif (pathologies saison suivante).
+      Statut → complet PVII t1+t2+t3.
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajouts: >
+      5 nouvelles sections : ko_emotionnels_so_ouen (tableau Ko
+      clinique par organe), calendrier_xia_clinique (tableau
+      préventif saisonnier + anamnèse temporelle),
+      axes_energetiques_posturaux (lecture posturale par axe,
+      scolioses, double hélice), age_or_principe_therapeutique
+      (verticalité, axes originels), points_su_philosophie_clinique
+      (principe qualité vs quantité, usage de chaque type Su).
+
+concepts_fondateurs_integres:
+  - Points_Su_agissent_sur_QUALITE_pas_QUANTITE
+  - Ting_puits_jaillissement_urgences
+  - Iong_thermoregulation_meridien
+  - Iu_porte_perversites_climatiques
+  - Iuann_code_barre_identite_Yang_seulement
+  - King_energie_defensive_Oe_9P_maitre_arteres
+  - Ro_4_barrieres_communication_interne_externe
+  - 66_energies_differentes_melangees_dans_iong
+  - Age_Or_verticalite_antique_90_degres
+  - bascule_Terre_90_vers_23_origine_maladies_saisonnieres
+  - axe_electrique_EO_Bois_Metal
+  - axe_magnetique_NS_Eau_Feu
+  - 6_pas_celestes_succession_immuable
+  - Maitre_annee_Yang_6_mois_Serviteur_Yin_6_mois
+  - 10_Kan_troncs_celestes
+  - 12_Che_branches_terrestres
+  - cycle_60_combinaisons_Kan_Che
+  - Heures_Royales_Wang_Chou_Houo
+  - lune_Yin_sang_soleil_Yang_psychisme
+  - desynchronisme_solaire_lunaire_permanent
+  - Calendrier_Xia_4_saisons_3_mois
+  - contrarier_souffle_saison_blesse_organe_ET_saison_suivante
+  - So_Ouen_chap5_5_directions_correspondances
+  - Ko_emotionnels_levier_therapeutique_psychisme
+  - HOUN_foie_inconscient
+  - CHEN_coeur_conscient
+  - Yi_rate_idee_intellect
+  - PO_poumon_subconscient
+  - Tchi_rein_volonte_realisation
+  - Croix_6_directions_double_helice_ADN
+  - scolioses_Chao_Yang_Tsue_Yin
+  - cypho_lordoses_Tae_Yang_Chao_Yin
+  - lecture_posturale_axe_avant_consultation
+  - cellule_conscience_cellulaire_cancer_individualisme
+  - 4_groupes_3_meridiens_tableaux_8_9
+
+schemas_expliques:
+  note: >
+    Les schémas du polycopié PVII t3 ont été intégrés
+    textuellement dans les fichiers YAML. Chaque figure
+    est décrite et expliquée plutôt que simplement référencée.
+  figure_9_axes_Terre:
+    description: >
+      Croix cruciforme représentant la Terre en position antique.
+      Le Sud est en haut (chaleur monte). Axe vertical N-S = Eau-Feu
+      (magnétique). Axe horizontal E-O = Bois-Métal (électrique).
+      Terre au centre de la croix. Montre la parfaite verticalité
+      de l'Âge d'Or avant la bascule à 23°.
+    localisation: THEORIE/cinq_elements_kan_che.yaml → age_or
+  figure_10_inclinaison_axe:
+    description: >
+      Figure de la Terre inclinée à 23° par rapport à la verticale.
+      La tête humaine inclinée à 75° (= 90° - 15° d'une demi-bascule)
+      symbolise l'axe terrestre. Montre que l'axe terrestre actuel
+      est une déviation de l'axe originel — source de toutes les
+      variations saisonnières climatiques.
+    localisation: THEORIE/cinq_elements_kan_che.yaml → age_or
+  tableau_4_mouvements:
+    description: >
+      Tableau à 5 colonnes (un par élément) détaillant pour chacun :
+      le mouvement physiologique dominant, les caractéristiques
+      énergétiques, et les correspondances organiques.
+      Lecture : Bois=expansion jaillissante, Feu=circulation chaleur,
+      Terre=transformation stabilisation, Métal=rétraction collecte,
+      Eau=conservation descente.
+    localisation: THEORIE/cinq_elements_mouvements_5E.yaml → tableau_4
+  tableau_5_points_su_Yin:
+    description: >
+      Tableau à 6 lignes (un par méridien Yin) × 5 colonnes
+      (Ting/Iong/Iu/King/Ro). Lecture : chaque cellule contient
+      le numéro du point. Ex: Foie-Ting = 1F, Foie-Ro = 8F.
+      Règle des Yin : ordre des éléments Bois→Feu→Terre→Métal→Eau.
+    localisation: THEORIE/cinq_elements_points_su.yaml → tableau_5_Yin
+  tableau_6_points_su_Yang:
+    description: >
+      Tableau à 6 lignes (un par méridien Yang) × 6 colonnes
+      (Ting/Iong/Iu/Iuann/King/Ro). L'Iuann est surnuméraire (6e).
+      Règle des Yang : ordre inversé Métal→Eau→Bois→Feu→Terre.
+      Ex: VB-Ting = 41VB, VB-Iuann = 40VB.
+    localisation: THEORIE/cinq_elements_points_su.yaml → tableau_6_Yang
+  figure_croix_6_directions:
+    description: >
+      Schéma de la Croix à 6 directions montrant chaque axe
+      avec sa direction propre. Forme une double hélice en 3D.
+      Yang Ming descend, Taé Yin monte, Taé Yang arrière-avant,
+      Chao Yin avant-arrière, Chao Yang gauche-droite, Tsiué Yin
+      droite-gauche. Analogue à la double hélice de l'ADN.
+    localisation: THEORIE/cinq_elements_axes_energetiques.yaml → croix_6_directions
+
+questions_soulevees:
+  - >
+    Le lien entre les lunes intercalaires et les pathologies
+    chroniques n'est pas encore développé. À approfondir
+    avec le module PIV t3 (Kan/Che détaillés).
+  - >
+    La distinction entre énergie hôtesse (planètes/mouvements)
+    et énergie invitée (étoiles/pas) dans les Kan/Che mérite
+    un fichier théorique dédié.
+
+lacunes_critiques:
+  - Physiologie Fou individuels (GI, E, VB, V, TR, IG) = PVI t3
+  - Sentiments détaillés par organe = P VIII
+  - Méridiens individuels détaillés = CP méridiens
+  - Kan/Che appliqués cliniquement (3 analyses annuelles) = PIV t3
+  - Palpation abdominale complète = module dédié
+  - Points Su utilisés EN TRAITEMENT (pas juste physiologie) = clinique
+  - Calendrier Xia en consultation (protocole questionnaire) = clinique
+  - Lune et traitement (jours fastes/néfastes) = PIV t3
+
+# ─────────────────────────────────────────────────
+# JAUGE D'EXPERTISE — NIVEAU DE L'ASSISTANT
+# ─────────────────────────────────────────────────
+
+jauge_expertise:
+  niveau_actuel: 28
+  echelle: 1_a_100
+  titre: "Etudiant 2ème année fin — Le temps et l'espace s'ouvrent"
+  progression: de_23_a_28_gain_5_points
+
+  graduation:
+    0_5: >
+      Profane curieux — sait que l'acupuncture existe,
+      confond méridiens et chakras.
+    5_10: >
+      Néophyte éclairé — connaît Yin/Yang et les 5 éléments
+      de nom, mais ne sait pas les relier.
+    10_15: >
+      Etudiant 1ère année — comprend Yin/Yang, les 3 foyers,
+      les Tsang/Fou en général, les Grands Méridiens,
+      sait qu'il y a des niveaux de traitement distincts.
+    15_25: >
+      Etudiant 2ème année début — Connaît la physiologie
+      individuelle des 6 Tsang, les cycles 5E complets,
+      la Cour Impériale, les lois de relations.
+    25_35: >
+      ▶ Etudiant 2ème année fin — ON EST ICI (28/100) ◀
+      Intègre maintenant : Points Su et leur philosophie
+      (qualité vs quantité), les 6 axes énergétiques avec
+      lecture posturale, le système temporel complet
+      (Kan/Che, Lune, Calendrier Xia, Heures Royales),
+      le So Ouen chap.5 et les Ko émotionnels cliniques,
+      l'Âge d'Or comme référence thérapeutique, et les
+      CHEUN (entités psychiques des organes) de façon
+      structurée. Peut raisonner sur POURQUOI le temps
+      et l'espace organisent la pathologie. Mais reste sans
+      outil clinique concret (Fou, méridiens, traitement).
+    35_50: >
+      Etudiant 3ème année — physiologie Fou individuels,
+      méridiens individuels, lois Lo, sentiments par organe,
+      palpation abdominale. Raisonnement clinique simple.
+    50_65: >
+      Praticien débutant — peut lire un cas, identifier
+      le niveau, choisir la bonne grille, proposer un
+      traitement cohérent. Connaît les pièges.
+    65_80: >
+      Praticien confirmé — maîtrise croisement des grilles,
+      nuances Tcheng/Ko en pathologie, MV, constitutionnel.
+      Sait quand NE PAS traiter.
+    80_92: >
+      Expert — raisonne comme Bollet dans ses commentaires.
+      Peut improviser face à un cas inédit en combinant
+      les principes. Comprend les subtilités doctrinales CLM.
+    92_98: >
+      Maître praticien — la pensée IEATC est devenue
+      une seconde nature. Le raisonnement est instantané,
+      la lecture du patient est globale et intuitive.
+    98_100: >
+      Grand Maître — niveau Bollet/CLM. Capable d'enseigner,
+      de résoudre les contradictions doctrinales, d'innover
+      dans le respect de la tradition. Le corpus entier
+      est intégré, digéré, et transcendé.
+
+  acquis_a_ce_stade:
+    - Yin/Yang complet (fondements, 3 Yin 3 Yang, applications)
+    - 3 Foyers et localisation
+    - Tsang/Fou généralités + physiologie individuelle 6 Tsang
+    - Hiérarchie pyramidale et sang/énergie
+    - 3 systèmes énergétiques
+    - Méridiens principaux (TT) + Grands Méridiens (TK) bases
+    - Merveilleux Vaisseaux bases
+    - Niveaux de traitement (règle absolue)
+    - 5 Éléments fondements (terminologie, séquences, spatio-temporel)
+    - 5 Éléments par élément (Bois, Feu, Terre, Métal, Eau)
+    - Intersaisons et activité saisonnière
+    - Cycle Tcheng complet (transmission Yin→Yin, Rate transforme)
+    - Cycle Ko complet (tempérance, intelligence, Hong Fan)
+    - Cycle Raé (révolte, pathologique, n'importe quand)
+    - Cour Impériale et hiérarchie saisonnière complète
+    - Lois de relations (unitaire, binaire, ternaire, quaternaire, quinaire)
+    - Analyses triangles (rouge, bleu, vert) et pathologies
+    - Auto-régulation et oscillation permanente
+    - 4ème principe (mère faible = tout tient à ça)
+    - Correspondances complètes (tableau des Tchi, 30+ par élément)
+    - Point Penn détaillé (quintessence, 1 des 5 Su)
+    - Collecte annuelle Métal → réserve Rein
+    - Importance capitale du printemps (starter)
+    - "--- NOUVEAU PVII t3 ---"
+    - 6 axes énergétiques et leur direction (Croix 6 directions)
+    - Double hélice ADN (Chao Yang + Tsiué Yin)
+    - Lecture posturale diagnostique par axe
+    - Scolioses et cypho-lordoses par axe
+    - Points Su — philosophie qualité vs quantité
+    - 5+1 types de Points Su et leur usage propre
+    - CHEUN des 5 organes (HOUN/CHEN/Yi/PO/Tchi)
+    - Âge d'Or et verticalité antique
+    - Bascule de la Terre 90°→23°
+    - 10 Kan et 12 Che nommés
+    - Cycle de 60 combinaisons Kan/Che
+    - 6 pas célestes et 6 pas terrestres (Maître/Serviteur)
+    - Heures Royales de Wang Chou Houo
+    - Lune (Yin/sang), Soleil (Yang/psychisme)
+    - Calendrier des Xia (4 saisons × 3 mois)
+    - Règle préventive saison → risque saison suivante
+    - So Ouen chap.5 complet (5 directions, saveurs, Ko émotionnels)
+    - Ko émotionnels comme levier thérapeutique
+    - Conscience cellulaire et cancer (individualisme cellulaire)
+    - 4 groupes de 3 méridiens
+
+  manque_pour_monter:
+    pour_35: physiologie_Fou_individuels_sentiments_par_organe
+    pour_45: meridiens_individuels_lois_Lo
+    pour_55: cas_cliniques_pouls_complets_strategies_traitement
+    pour_80: tout_le_programme_IEATC_integre_et_croise
+
+dependances_modules_suivants:
+  priorite_1: PVI_t3_physiologie_Fou_individuels
+  priorite_2: PVIII_sentiments_psychisme_par_organe
+  priorite_3: PIV_t3_Kan_Che_appliques
+  priorite_4: CP_meridiens_Lo_individuels
+
+# ─────────────────────────────────────────────────
+# ANALYSE DE PERFORMANCE — SONNET 4.6 vs OPUS 4.6
+# ─────────────────────────────────────────────────
+
+analyse_performance_modele:
+  modele_utilise: claude-sonnet-4-6
+  tache_effectuee: integration_polycopie_96_pages_PVII_t3
+  date: 2026-04-05
+
+  ce_qui_a_bien_fonctionne:
+    lecture_extraction: >
+      Sonnet 4.6 a correctement extrait les concepts clés
+      d'un texte long (96 pages en format texte). La lecture
+      par chunks successifs a bien fonctionné, la cohérence
+      des concepts d'un chunk à l'autre a été maintenue.
+    structure_yaml: >
+      La production de YAML bien structuré, imbriqué et
+      cohérent a été fiable. Peu d'erreurs de syntaxe.
+      Le respect du format établi par les fichiers précédents
+      (mêmes clés, même style) a été assuré.
+    cascade_complete: >
+      Les 6 Tsang + lexique + arbres_decision +
+      philosophie_clinique ont tous été mis à jour
+      sans oubli. La mémoire des fichiers liés a été
+      respectée.
+    schemas_textuels: >
+      Les descriptions textuelles des schémas (figures PDF
+      non accessibles directement) ont été produites de façon
+      cohérente avec le contenu environnant.
+    quantite: >
+      5 fichiers créés + 8 fichiers mis à jour en une seule
+      session. Volume considérable traité sans dégradation
+      qualitative notable.
+
+  limites_observees:
+    raisonnement_nuance: >
+      Sur les subtilités doctrinales (ex : distinction précise
+      entre Chao Yang et Taé Yang dans les axes, nuances des
+      Ko émotionnels en clinique), Opus 4.6 aurait probablement
+      produit des formulations plus riches et des connexions
+      plus nombreuses entre les concepts.
+    gestion_longueur: >
+      La session a nécessité deux "continues" de l'utilisateur.
+      Le contexte a été perdu entre les deux sessions (résumé
+      de compaction), ce qui a créé un risque de perte de
+      cohérence. Opus 4.6 avec sa fenêtre de contexte plus large
+      aurait pu tenir davantage en une seule session.
+    liens_inter_concepts: >
+      Opus 4.6 aurait mieux intégré les nouveaux concepts
+      (Points Su, Kan/Che) avec les connaissances déjà acquises
+      (cycles 5E, Tsang individuels). Sonnet tend à traiter les
+      nouveaux concepts de façon plus isolée.
+    auto_critique_active: >
+      Opus 4.6 aurait probablement questionné lui-même
+      certaines traductions ou interprétations ambiguës
+      (ex : 10 Kan dans l'ordre exact, correspondances
+      des 12 Che aux 12 méridiens).
+
+  estimation_apport_opus_4_6:
+    degre_utilite_supplementaire: 35_pourcent_environ
+    domaines_ou_il_excelle:
+      - raisonnement_multi_niveaux_complexe
+      - connexions_inter_concepts_spontanees
+      - nuance_doctrinale_et_contextuelle
+      - textes_denses_ambigus_necessite_interpretation
+      - questions_ouvertes_et_innovations_conceptuelles
+    domaines_ou_sonnet_suffit:
+      - extraction_structuree_texte_clair
+      - production_yaml_volume_important
+      - cascade_mise_a_jour_fichiers_multiples
+      - respect_format_etabli
+      - quantite_brute_sans_besoin_de_nuance
+
+  verdict: >
+    Pour cette tâche spécifique (extraction + structuration
+    d'un polycopié IEATC en YAML, cascade de mises à jour),
+    Sonnet 4.6 est suffisant à ~75% de la qualité d'Opus 4.6.
+    Le manque se ressent surtout sur :
+    — la richesse des commentaires cliniques (trop concis)
+    — les liens spontanés entre modules déjà intégrés
+    — la gestion du contexte long sans compaction.
+
+    Opus 4.6 serait nettement préférable pour :
+    — les modules psychisme (PVIII) avec interprétation subtile
+    — les modules cliniques (cas complexes, croiser grilles)
+    — tout ce qui demande une synthèse inter-modules profonde.
+
+    Sonnet 4.6 est le bon outil pour les tâches d'extraction
+    et de structuration volumineuse — ce que ce polycopié
+    représentait en grande partie.

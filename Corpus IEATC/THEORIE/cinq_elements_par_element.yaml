@@ -1,0 +1,319 @@
+# CINQ ÉLÉMENTS — ÉTUDE PAR ÉLÉMENT
+# Source : PVII Les 5 Éléments — Physiologie tome 1, pp. 38-47
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_par_element.yaml
+  source: PVII_5Elem_t1_p38_47
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_fondements.yaml
+    - THEORIE/cinq_elements_saisons.yaml
+    - THEORIE/cinq_elements_correspondances.yaml
+    - THEORIE/cinq_elements_cycles.yaml
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/coeur.yaml
+    - ZANG_FU/maitre_du_coeur.yaml
+    - ZANG_FU/rate.yaml
+    - ZANG_FU/poumon.yaml
+    - ZANG_FU/rein.yaml
+
+# ─────────────────────────────────────────────────
+# LE BOIS — MOU / MU
+# ─────────────────────────────────────────────────
+
+Bois:
+  caractere: arbre_ou_plante_tronc_racines_branches
+  oppose: Metal
+  Ming_Tang: cases_3_et_8
+  nature: se_tordre_et_se_redresser
+  orient: Est
+  saison: Printemps
+  lune: 1er_quartier
+  moment: soleil_levant_naissance
+
+  symbolisme: >
+    Naissance et poussée du jeune végétal, des tiges
+    et des feuilles. Le Yang s'extrait du Yin.
+    Jusqu'à l'équinoxe de printemps (21 mars) le Yin domine,
+    puis le Yang commence à dominer.
+    L'énergie porte le masculin vers le féminin — période
+    des amours. La nature porte les êtres à la joie.
+
+  etoile: KIO_dans_Epi_de_la_Vierge_corne_du_Dragon
+  signe_printemps: premier_coup_de_tonnerre_fin_janvier_mi_fevrier
+
+  vent_fong:
+    role: >
+      Dynamise et stimule la vigueur et la croissance.
+      Messager des ordres du Ciel transmis sur Terre
+      (comme Hermès dans la mythologie grecque).
+      Annonce le début du printemps.
+    appellation: starter_de_la_nature
+    ideogramme: contient_image_insecte_piqueur_ou_vers_rongeur
+    pathologie: affection_brutale_et_rapide_comme_le_vent
+
+  organe: Foie
+  Kan: bouclier_protecteur_de_l_organisme
+  couleur: vert_couleur_du_regne_vegetal
+  source: PVII-t1-p38_39
+
+# ─────────────────────────────────────────────────
+# LE FEU — HOUO / HUO
+# ─────────────────────────────────────────────────
+
+Feu:
+  caractere: flammes_qui_s_elevent
+  oppose: Eau
+  Ming_Tang: cases_2_et_7
+  nature: bruler_en_montant
+  orient: Sud
+  saison: Ete
+  lune: pleine_lune
+  moment: midi_culmination_Yang
+
+  symbolisme: >
+    Culmination du Yang en pleine maturité, chaleur maximum.
+    Solstice d'été (21 juin) = jour le plus long.
+    La fleur exprime la pleine maturité.
+    Extériorisation par excellence, rivalité.
+    Barrière de flammes qui sépare ou détruit.
+
+  nombre_2: >
+    Idée de séparation, division. Le trait plein du Yang
+    atteint son maximum et se rompt en deux = trait cassé
+    du Yin. Mais aussi la réunion, le mariage.
+    Ambiguïté et unisson. Division de la conscience
+    qui observe mental/esprit et sentimentalité.
+
+  double_Feu:
+    Feu_Empereur: Coeur_et_Chen_Esprit
+    Feu_Ministre: Maitre_du_Coeur_activite_mentale
+    image: Empereur_et_1er_Ministre
+    MC_sens_1: rempart_protecteur_du_coeur_filtre_emotions
+    MC_sens_2: transmetteur_des_ordres_du_coeur
+    dans_5_elements:
+      Feu_Empereur: le_Chen_l_Esprit
+      Feu_Ministre: l_activite_mentale
+
+  tann_tienn:
+    superieur: >
+      Profondeur de l'espace entre les deux yeux.
+      3ème oeil en Inde. Vision séparée (D-G, Yin/Yang)
+      réunifiée en vision verticale unique et synthétique.
+      Le Chen dépend du méridien du Coeur.
+    moyen: >
+      Région de la poitrine, 17 JM (Trann Tchrong).
+      Focalisation de toutes les émotions.
+      Troubles fonctionnels du coeur-organe = MC.
+      Le MC gère toute la vie affective et les émotions.
+
+  autres_Feux_Ministres:
+    Ming_Menn: concentration_energie_ancestrale
+    Rein_Yang: facteur_dynamisateur_fonction_cardiaque_adrenaline
+    a_etudier_avec: trois_foyers
+
+  qualite_Sud: esprit_de_rite_rituel_conformite
+  rite: >
+    L'accomplissement du rituel résout toutes les divergences
+    et accorde le monde visible et l'invisible.
+
+  chaleur:
+    role: >
+      Produit la chaleur bénéfique qui fait naître et croître.
+      Permet régénération. Le sang conduit le Chen à circuler.
+      Le sang dépend du coeur donc de cet élément.
+    Feu_purificateur: >
+      Certains disent Feu purificateur. Position IEATC :
+      NON. Le Feu purificateur = bile et vésicule biliaire
+      car il doit "brûler" pour purifier.
+
+  couleur: rouge
+  rouge_signification: >
+    Par analogie avec feu, soleil, sang.
+    Couleur du mariage, de l'union, de la rivalité
+    effacée devant l'amitié. La mariée porte du rouge.
+  source: PVII-t1-p39_41
+
+# ─────────────────────────────────────────────────
+# LA TERRE — TOU / TU
+# ─────────────────────────────────────────────────
+
+Terre:
+  caractere: terre_sol_terrain_humus_nourriere_dynamisante
+  Ming_Tang: cases_5_et_10
+  nature: recevoir_les_semences_produire_les_recoltes
+  orient: Centre
+  saison: fin_d_ete_plus_intersaisons
+  moment: repas
+
+  symbolisme: >
+    Centre du monde, intermédiaire entre Ciel et Terre.
+    Union sexuelle du Yin et du Yang.
+    Stabilité, fiabilité, sincérité, authenticité.
+    L'Homme qui tient sa parole.
+
+  4_saisons_necessaires:
+    hiver: enfouissement_graine
+    printemps: germination_plante
+    ete: expansion_plante
+    5eme_saison: maturite_fruit
+    automne: recolte_fruit_graine
+  tire_vitalite_des_4_autres: >
+    Les plantes la régénèrent en transmettant les énergies
+    du Ciel captées par le feuillage, via la sève élaborée,
+    par leurs racines.
+
+  copulation_cosmique: >
+    Les Chinois voient l'image d'un coït entre Ciel et Terre.
+    Doit se faire au Nord, dans la tranquillité, le silence,
+    l'obscurité et la concentration. De cette relation
+    apparaît la pluie bienfaisante qui irrigue la terre.
+    Expression : "la Tige de Jade fait vibrer les cordes du luth."
+
+  deplacement_et_centre:
+    regle_50km: >
+      Tout déplacement > 50 km agit sur le centre.
+      Le centre est un cercle de 100 km de diamètre.
+      Au-delà, le corps doit s'adapter aux références
+      du nouveau lieu. 5 jours pour la Rate.
+    meme_fuseau: n_affecte_que_Terre_Rate
+    changement_hemisphere: >
+      Affecte tout l'organisme (références Yin/Yang
+      et saison inversés). Soleil se lève à droite.
+    changement_fuseau: affecte_Terre_Rate_ET_Eau_Rein
+
+  double_activite:
+    activite_propre: >
+      Activité organique indépendante des autres éléments,
+      dans le cadre des Trois Foyers.
+      Période : fin d'été, 30 jours complets (juillet).
+    activite_transmission: >
+      Activité dépendante des autres éléments, dans le
+      cadre de la transmission énergétique saisonnière.
+      4 × 18 jours d'intersaison.
+
+  organe: Rate_Pancreas
+  couleur: jaune
+  jaune_signification: >
+    Couleur des récoltes à maturité, de la terre riche (löss),
+    du fleuve Jaune et son limon. Identité soleil/terre.
+    Couleur de l'Empereur (centre de toute chose).
+  source: PVII-t1-p42_44
+
+# ─────────────────────────────────────────────────
+# LE MÉTAL — TCHING / CHIN
+# ─────────────────────────────────────────────────
+
+Metal:
+  caractere: or_precieux_metal_chapeau_couverture_cache_minerai
+  Ming_Tang: cases_4_et_9
+  nature: malleable_et_se_modifie_sous_action_chaleur
+  orient: Ouest
+  saison: Automne
+  lune: 3eme_quartier
+  moment: soleil_couchant_vieillesse_graine_tombe
+
+  symbolisme: >
+    Dureté, rigueur, sécheresse. Les armes sont en fer.
+    L'automne = période des guerres et des exécutions.
+    Justice cosmique rendue avec extrême rigueur.
+    Toute action de l'année reçoit sa sanction ou sa récompense.
+    La hache coupe l'arbre et détruit le travail du printemps.
+
+  declin: >
+    Le Yang devient moins fort après l'équinoxe (21 sept).
+    Yin et Yang se séparent, la tristesse envahit les êtres.
+    Époque des deuils et des séparations, des châtiments.
+
+  organe: Poumon
+  poumon_et_metal: >
+    Rôle complémentaire de la Rate : engranger par
+    la respiration. L'air et le Métal = ions métalliques
+    ou métalloïdiques. Coïncidence ?
+
+  couleur: blanc
+  blanc_signification: >
+    Par analogie avec la couleur de l'or (blanc) et
+    du métal en fusion. Couleur du deuil en raison
+    de la mort provoquée par les armes en métal.
+  source: PVII-t1-p44_45
+
+# ─────────────────────────────────────────────────
+# L'EAU — CHOEI / SHUI
+# ─────────────────────────────────────────────────
+
+Eau:
+  Ming_Tang: cases_1_et_6
+  nature: descendre_et_humidifier
+  orient: Nord
+  saison: Hiver
+  lune: nouvelle_lune
+  moment: minuit_soleil_au_plus_bas
+
+  symbolisme: >
+    Neige et glace. Yin maximum, nuit la plus longue
+    au solstice d'hiver (21 décembre).
+    Période des devenirs en gestation.
+    La plante est une graine enfouie préparant sa germination.
+    Ciel et Terre se réunissent, donnant naissance à l'Eau.
+    L'Eau irrigue la Terre pour faire pousser le Bois.
+
+  eaux_primordiales: >
+    Contiennent tous les germes des possibilités de la vie.
+    Les Chinois pensent le germe des germes.
+    L'enfant sort du ventre après avoir baigné
+    dans les eaux utérines. Le sang = liquide = Eau.
+
+  sagesse: >
+    L'Eau pénètre tout, se faufile partout, explore tout
+    dans le recueillement, la concentration, l'humilité.
+    Retournement sur soi au sein de l'hiver et de la nuit.
+    L'eau annonce toujours le futur, le renouveau.
+    La ride annonce la vague à venir.
+    L'hiver = période des mariages, propice aux
+    accouplements du printemps.
+
+  organe: Rein
+  rein_et_eau: >
+    Gère les liquides et les eaux du corps, le squelette
+    (sels minéraux). L'Eau contient le Feu primordial
+    (magma terrestre, hormones de procréation),
+    puissant principe Yang sans lequel la vie n'est pas.
+
+  couleurs:
+    noir: par_analogie_nuit_eaux_profondes_cavernes_uterus
+    rouge_vermillon: >
+      En alchimie taoïste, un têtard rouge. Tous les potentiels
+      de vie contenus dans l'Eau. Principe Yang de l'hérédité,
+      de l'inné, du Ciel antérieur. Couleur de Ming Menn,
+      du Rein Yang. Origine dans Tae I.
+    pourpre: >
+      Le rouge du Feu devient pourpre dans ce contexte.
+      Comme la couleur des cardinaux = symbole de
+      spiritualité et d'initiation.
+  source: PVII-t1-p45_46
+
+# ─────────────────────────────────────────────────
+# CORRESPONDANCES ET POINT PENN
+# ─────────────────────────────────────────────────
+
+correspondances:
+  principe: >
+    Par analogie et observation, les Chinois ont classifié
+    toutes les parties de l'organisme parmi les 5 éléments.
+  exemple_So_Ouen: >
+    L'énergie de l'Est produit le Foie qui nourrit les muscles
+    et les tendons, s'épanouit dans les ongles, engendre les
+    yeux et la vue et sécrète les larmes.
+  activite_saisonniere_vs_physiologique: >
+    L'activité saisonnière (maximum pendant la saison
+    de l'élément) est DIFFÉRENTE de l'activité physiologique
+    des trois foyers (permanente toute l'année).
+  point_Penn:
+    definition: >
+      Point qui répond le plus spécifiquement à la fois
+      à l'énergie de la saison et à l'organe correspondant.
+      Agit le plus sur son organe et son élément.
+    lacune: correspondances_completes_dans_PVII_t2
+  source: PVII-t1-p47

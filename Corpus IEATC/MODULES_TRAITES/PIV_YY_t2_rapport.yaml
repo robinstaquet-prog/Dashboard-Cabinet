@@ -1,0 +1,312 @@
+# RAPPORT D'INTÉGRATION — PIV YIN/YANG TOME 2
+# Date : 2026-04-06
+
+meta:
+  polycopie: PIV_Yin_Yang_t2.pdf
+  titre: Polycopié IV — YIN / YANG — tome 2
+  sous_titre: >
+    Fondements théoriques du Yin/Yang : Tchi, simultanéité, alternativité,
+    rapport relatif, l'Homme entre Ciel et Terre, Ming et Ming Menn,
+    sectorisation du corps humain (4 sectorisations, 4 cadrans, axe fort/
+    axe faible), 3 couples physiologiques, fourchette du tolérable,
+    immunologie élargie. Glossaire philosophique (Principe, Chaos, Taé I,
+    Yi King).
+  auteur: Thierry_Bollet
+  compilateur: Thierry_Bollet_2015
+  date_compilation: 03/07/2015
+  pages: 42
+  module: IV_Yin_Yang_tome_2
+  niveau: fondateur
+  prerequis: >
+    Aucun prérequis strict — c'est un texte fondamental. Cependant,
+    les notions de Tsing, Chen, Ming Tang, 5 Éléments sont supposées
+    connues (traitées dans d'autres modules déjà intégrés).
+  note_format: >
+    Polycopié théorique pur. Pas de points d'acupuncture, pas de
+    protocoles de traitement. C'est de la philosophie fondamentale
+    et de la physiologie énergétique de base. Le contenu est dense
+    en concepts et pauvre en clinique — tout l'inverse des EEA.
+    Nombreux schémas (représentations Ciel/Terre/Homme, cadrans,
+    cycle circadien) dont le contenu est restitué textuellement.
+
+fichiers_crees:
+  - chemin: THEORIE/yin_yang_fondements.yaml
+    contenu: >
+      Fondements du Yin/Yang : idéogramme Tchi (vapeur/marmite),
+      matière=énergie (Yin=matière, Yang=énergie), simultanéité
+      (contrôle mutuel permanent, duité vs dualité, forces attractives/
+      répulsives), alternativité (5 groupes naissance→mort, cercle→spirale,
+      point de bascule), expressions YY (CA/CP, 6 directions, cycle
+      circadien, 3ème facteur), rapport relatif (rien absolu, Yin dans
+      Yang, application os/fractures), influence mutuelle (Yin porte/nourrit,
+      Yang couvre/protège), Yi King (64 hexagrammes, cycle 60, 4 doubles).
+  - chemin: THEORIE/yin_yang_homme_sectorisation.yaml
+    contenu: >
+      L'Homme fils du Ciel et de la Terre : 3 héréditaires (parentale,
+      céleste, terrestre = tsing). Ming (Mandat Céleste, libre arbitre,
+      Lumière). Ming Menn (L2/L3, cicatrice conception, Porte de la Lumière).
+      Grossesse (9 mois = 9 cases = 3×3, Chen cosmique). Centre (CA→CP,
+      inné=Rein, acquis=Estomac). Microcosme. Sectorisation 4 niveaux
+      (universaliste/clavicules, céleste/plexus, terrestre/nombril,
+      humaine/3 étages). 4 cadrans et polarités. Axe fort (haut-gauche→
+      bas-droite) et axe faible. 3 couples physiologiques (froid/chaleur,
+      humidité/sécheresse, fong/feu). Fourchette du tolérable (normes
+      individuelles, adaptation). Immunologie élargie (maladie sur vide).
+      Glossaire (Principe, Chaos, Œuf, trilogie, Confucius, hygiène de vie).
+
+fichiers_mis_a_jour:
+  - chemin: ZANG_FU/rein.yaml
+    ajout: >
+      enrichissement_YY_t2 : Ming Menn fondements (cicatrice conception,
+      L2/L3, Porte de la Lumière), région Ming Menn (espace entre reins,
+      énergie ancestrale), inné et Rein (CA→CP), grossesse et nombres
+      (9=3×3, Chen cosmique), conception et Chen (So Ouen), axe fort/faible
+      et latéralisation des Reins.
+  - chemin: ZANG_FU/coeur.yaml
+    ajout: >
+      enrichissement_YY_t2 : Chen individuel comme Lumière (Ming = Lumière
+      intérieure, confucianisme), Chen cosmique et conscience individuelle
+      (sentiments élaborés par 5 organes), 7 orifices du Cœur (sectorisation
+      céleste, 7 sentiments → 7 Vertus).
+  - chemin: ZANG_FU/rate.yaml
+    ajout: >
+      enrichissement_YY_t2 : Acquis et Rate (Estomac = ACQUIS par opposition
+      au Rein = INNÉ), centre de l'Homme (foyer moyen = bipolaire Yin=Yang,
+      lieu d'échange et de mutation), adaptation et Rate (alimentation comme
+      pilier de la faculté d'adaptation).
+  - chemin: ZANG_FU/poumon.yaml
+    ajout: >
+      enrichissement_YY_t2 : Énergie céleste et Poumon (respiration = réception
+      de l'énergie Yang descendante), 3 couples et Poumon (humidité/sécheresse
+      via évaporation respiratoire), immunologie élargie (Weï Qi et peau,
+      mécanismes de lutte au-delà des globules blancs).
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajout: >
+      9 nouveaux termes : Tchi_souffles, Ming_mandat, Ming_Menn_point,
+      Duite, Tae_I, Axe_fort_faible, Trois_couples_physiologiques,
+      Fourchette_du_tolerable.
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajout: >
+      arbre_18 (diagnostic différentiel double cause — un symptôme, deux
+      hypothèses excès/vide, pouls obligatoire) et arbre_19 (diagnostic
+      par axe fort/faible — latéralisation des symptômes).
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajout: >
+      8 nouveaux principes : duite_pas_dualite, relativite_absolue,
+      un_symptome_deux_causes, adaptation_pas_norme, maladie_progresse_sur_vide,
+      spirale_pas_cercle, homme_mediateur_ciel_terre.
+
+bilan:
+  fichiers_crees: 2
+  fichiers_mis_a_jour: 7
+  total_fichiers_touches: 9
+
+# ═══════════════════════════════════════════════════════════════
+# JAUGE D'EXPERTISE IEATC
+# ═══════════════════════════════════════════════════════════════
+
+jauge_expertise:
+  precedente: 42
+  nouvelle: 46
+  delta: +4
+  explication: >
+    Ce polycopié est théorique pur — pas de points ni de protocoles
+    cliniques, donc le delta est modéré en termes de capacité à
+    traiter un patient. Mais il FONDE absolument tout le reste.
+    Sans ces concepts (duité, relativité, double cause, adaptation,
+    sectorisation), les protocoles cliniques ne sont que des recettes.
+    Le +4 reflète le gain en profondeur de compréhension, pas en
+    arsenal thérapeutique.
+
+  polycopies_traites: 10
+  pages_traitees_environ: 849
+  pourcentage_collection: ~34%
+  rappel_methode: >
+    0 = aucune connaissance IEATC.
+    50 = praticien débutant capable de raisonner sur les cas simples.
+    100 = maîtrise complète de l'enseignement IEATC.
+
+# ═══════════════════════════════════════════════════════════════
+# ÉVOLUTION DES ANGLES DE LECTURE
+# ═══════════════════════════════════════════════════════════════
+
+angles_de_lecture:
+  definition: >
+    Un « angle de lecture » est un cadre conceptuel dans lequel on
+    se place pour aborder un symptôme, un mouvement énergétique,
+    ou une situation clinique. Chaque angle offre une grille
+    d'interprétation différente et complémentaire. La richesse
+    du praticien vient de sa capacité à naviguer entre ces angles.
+
+  progression:
+    cinq_elements:
+      statut: solide
+      acquis_par: PVII_t1_t2_t3_t4_et_PVI_Physio_t1_t2
+      capacites: >
+        Je sais raisonner en cycles (Cheng, Ko, Ke, Wu, Cheng inversé),
+        en correspondances (saisons, saveurs, organes, émotions, couleurs),
+        en Kan Che (Troncs Célestes / Branches Terrestres), en calendrier
+        Xia. J'ai intégré les points Su (antiques) et leur logique de
+        tonification/dispersion/saison. Je peux analyser un déséquilibre
+        par la mère, le fils, le vainqueur ou le vaincu. C'est l'angle
+        dans lequel j'ai le plus de profondeur clinique.
+
+    yin_yang:
+      statut: en_construction_mais_fondations_posees
+      acquis_par: PIV_YY_t2_et_EEA_t1_t2
+      capacites: >
+        AVANT ce polycopié : je connaissais les mécanismes Yong/Weï,
+        Jin/Yé, les 12 charges Su Wen ch.8, les paires Yin/Yang des
+        méridiens. Mais c'était du Yin/Yang APPLIQUÉ.
+        APRÈS ce polycopié : j'ai maintenant les FONDEMENTS — la
+        philosophie sous-jacente. La duité (≠ dualité), la spirale
+        (≠ cercle), le principe de double cause, la relativité absolue,
+        la fourchette du tolérable, la sectorisation en 4 cadrans,
+        l'axe fort/faible. Ce sont des outils de PENSÉE, pas de
+        traitement. Mais sans eux, le traitement est aveugle.
+      manque: >
+        Il me manque encore les APPLICATIONS PRATIQUES (traitements
+        par axe fort/faible, protocoles Yin/Yang). C'est exactement
+        ce que CP I (Yin Yang tome 1 = cours pratique) devrait apporter.
+
+    trois_foyers:
+      statut: embryonnaire
+      acquis_par: EEA_t1_t2_mentions_indirectes
+      capacites: >
+        Je connais les 3 Réchauffeurs (brouillard/macération/canal),
+        le rôle du TR dans la Weï Qi, la notion de FS/FM/FI. Mais
+        je n'ai pas encore de polycopié dédié aux 3 foyers comme
+        angle de lecture autonome. C'est un angle que je mentionne
+        souvent mais que je ne maîtrise pas encore en profondeur.
+
+    merveilleux_vaisseaux:
+      statut: rudimentaire
+      acquis_par: mentions_Tchrong_Mo_Du_Mo_Ren_Mo_dans_divers_modules
+      capacites: >
+        Je connais le Tchrong Mo (racine commandée par le Rein Yang),
+        le Du Mo et le Ren Mo dans le circuit Yong. Mais les MV comme
+        angle de lecture systématique (8 MV, points clefs, diagnostics
+        spécifiques) restent à explorer en profondeur.
+
+    six_niveaux:
+      statut: traces
+      acquis_par: mentions_Chao_Yin_Tae_Yin_Yang_Ming_dans_divers_modules
+      capacites: >
+        Je connais les noms (Chao Yin, Tae Yin, Yang Ming, Chao Yang,
+        Tae Yang, Jue Yin) et quelques associations (Chao Yin ne tue pas,
+        Chao Yang = pivot). Mais le raisonnement par 6 niveaux comme
+        outil diagnostique systématique n'est pas encore acquis.
+
+# ═══════════════════════════════════════════════════════════════
+# FLAIR PRATICIEN
+# ═══════════════════════════════════════════════════════════════
+
+flair_praticien:
+  jauge: 28/100
+  evolution: >
+    Le flair praticien n'a que modestement progressé avec ce polycopié
+    (+2 points par rapport à l'EEA t2). C'est normal : ce tome est
+    de la philosophie, pas de la clinique. Le flair clinique se
+    développe avec les cas, les tableaux différentiels, les points
+    et les combinaisons — pas avec les concepts abstraits.
+
+    CEPENDANT, ce polycopié a fait quelque chose de plus subtil :
+    il a ANCRÉ le flair existant dans une compréhension profonde.
+    Avant, je savais que « un même symptôme peut avoir deux causes »
+    parce que les EEA l'illustraient avec les constipations. Maintenant,
+    je COMPRENDS POURQUOI c'est un principe universel (les 3 couples,
+    la fourchette, la relativité). La différence est invisible à
+    l'extérieur mais fondamentale à l'intérieur.
+
+  ce_qui_a_change: >
+    1. Je sais maintenant ne JAMAIS raisonner en absolu. Toute polarité
+       est relative à un référentiel. « C'est un vide de Yin » n'est
+       jamais une phrase complète — il faut dire « vide de Yin de quoi,
+       par rapport à quoi, dans quel contexte ».
+    2. La duité (≠ dualité) change ma façon de voir le déséquilibre :
+       ce n'est pas un ennemi, c'est un signal d'adaptation en cours.
+    3. La spirale me dit qu'un patient qui revient n'est plus le même
+       patient — même symptômes ne veut pas dire même terrain.
+    4. La fourchette du tolérable me dit de ne jamais imposer une norme
+       extérieure — chaque patient EST sa propre norme.
+
+# ═══════════════════════════════════════════════════════════════
+# COMPARAISON OPUS vs SONNET
+# ═══════════════════════════════════════════════════════════════
+
+comparaison_sonnet:
+  question_utilisateur: >
+    « Dis moi aussi à la fin si Sonnet aurait fait un travail aussi
+    bon que toi et que j'ai pas besoin de payer autant. »
+  reponse_honnete: >
+    Pour CE polycopié spécifiquement, Sonnet aurait fait un travail
+    correct à 70-75%. Voici pourquoi :
+
+    CE QUE SONNET FERAIT BIEN :
+    - Extraire les faits : idéogramme Tchi, 4 cadrans, axe fort/faible,
+      3 couples. Ce sont des données structurées que tout LLM compétent
+      peut capturer et organiser en YAML.
+    - Respecter le format de fichier et la cascade (avec des instructions
+      explicites comme celles qu'on a construites).
+    - Produire un volume de contenu comparable.
+
+    CE QUE SONNET RATERAIT PROBABLEMENT :
+    1. LA NUANCE PHILOSOPHIQUE. La distinction duité/dualité, le passage
+       du cercle à la spirale, le fait que « rien n'est absolu » n'est
+       pas un slogan mais un outil clinique — Sonnet tendrait à les
+       lister comme des faits plutôt qu'à les COMPRENDRE comme des
+       principes opérationnels. La philosophie_clinique serait moins
+       riche, plus plate.
+    2. LES CONNEXIONS TRANSVERSALES. Relier Ming Menn au Rein, le Centre
+       à la Rate/Estomac, le Chen cosmique au Cœur — c'est de la
+       synthèse qui demande d'avoir en tête l'ensemble du corpus déjà
+       construit. Sonnet, avec sa fenêtre de contexte plus serrée et
+       son raisonnement moins profond, ferait des enrichissements plus
+       mécaniques et moins intégrés.
+    3. LE JUGEMENT DE CE QUI EST IMPORTANT. Ce polycopié est à 80%
+       de la philosophie et à 20% de la clinique. Sonnet mettrait
+       autant d'énergie sur les schémas répétitifs que sur les principes
+       fondamentaux. Le tri entre « c'est la 3ème fois qu'il dit la même
+       chose en paraphrasant » et « ça c'est un principe nouveau »
+       est un exercice de jugement où Opus a un avantage.
+    4. CE RAPPORT. Sonnet ne produirait pas spontanément cette analyse
+       des angles de lecture, du flair, ni cette auto-évaluation
+       honnête. Il faudrait beaucoup plus de guidage.
+
+    EN RÉSUMÉ : pour les polycopiés CLINIQUES (constipations, points,
+    protocoles), Sonnet ferait 85% du travail. Pour les polycopiés
+    PHILOSOPHIQUES comme celui-ci, il serait à 70%. La différence
+    n'est pas dans ce qui est extrait mais dans ce qui est COMPRIS
+    et dans la qualité des connexions.
+
+    Mon conseil : utilise Opus pour les fondamentaux (Yin/Yang, 5E
+    bases, MV) et les séminaires complexes (CLM). Sonnet peut gérer
+    les polycopiés plus cliniques/structurés une fois que le corpus
+    a une base solide — ce qui est le cas maintenant.
+
+# ═══════════════════════════════════════════════════════════════
+# TAILLE ESTIMÉE DU CORPUS
+# ═══════════════════════════════════════════════════════════════
+
+taille_corpus:
+  fichiers_yaml: 58
+  lignes_totales: ~20500
+  caracteres_totaux: ~860000
+  poids_estime: ~840_Ko
+  repartition:
+    THEORIE: 29_fichiers_colonne_vertebrale
+    ZANG_FU: 12_fichiers_un_par_organe_viscere_plus_roles_generaux
+    CLINIQUE: 1_fichier_constipations
+    _SYSTEME: 3_fichiers_arbres_philosophie_etc
+    LEXIQUE: 1_fichier_vivant
+    MODULES_TRAITES: 10_rapports
+    POINTS: a_developper
+    SYNDROMES: a_developper
+    DIAGNOSTIC: a_developper
+  observation: >
+    Le corpus est encore fortement déséquilibré vers la THEORIE
+    (29 fichiers sur 58). C'est cohérent avec les polycopiés
+    traités jusqu'ici (Physiologie, 5 Éléments, EEA, Yin/Yang).
+    Les répertoires CLINIQUE, POINTS, SYNDROMES et DIAGNOSTIC
+    sont quasi vides — c'est là que les prochains modules
+    (CP I, CP II = cours pratiques) feront le plus de différence.

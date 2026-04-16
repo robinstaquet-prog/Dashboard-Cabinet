@@ -1,0 +1,658 @@
+# ══════════════════════════════════════════════════════════════
+# YIN / YANG — TOME 3 : CIEL, HOMME, AXES ET SYSTÈMES ÉNERGÉTIQUES
+# Source : Polycopié IV — YIN/YANG tome 3 (Bollet, 01/10/2019, 51p)
+# ══════════════════════════════════════════════════════════════
+
+meta:
+  fichier: yin_yang_t3.yaml
+  source: PIV_YY_t3
+  auteur: Thierry_Bollet
+  date: 2019-10-01
+  pages: 51
+  niveau: fondateur
+  statut: complet
+  sujets_principaux:
+    - Yin/Yang du Ciel (Tien) — 6 énergies, Kan et Che, cycle 60, pas célestes et terrestres
+    - Yin/Yang de l'Homme (Jen) — matrice énergétique, maturité, méridiens
+    - Points d'acupuncture — spirale d'énergie, géographie sacrée
+    - Axes énergétiques — 6 couches, progression corps, fonctions d'équilibre
+    - Systèmes énergétiques — 3 systèmes × 8h, circulation circadienne
+    - Numérologie — réplication des Nombres, Kan/Che, Siéou, zodiaque chinois
+  liens:
+    - THEORIE/yin_yang_fondements.yaml
+    - THEORIE/yin_yang_homme_sectorisation.yaml
+    - THEORIE/embryologie_constitution.yaml
+    - THEORIE/cinq_elements_fondements.yaml
+    - THEORIE/cinq_elements_kan_che.yaml
+    - LEXIQUE/lexique_termes_ieatc.yaml
+
+# ══════════════════════════════════════════════════════════════
+# 1. YIN/YANG DU CIEL (TIEN) — FONDEMENTS COSMOLOGIQUES
+# ══════════════════════════════════════════════════════════════
+
+yin_yang_ciel:
+
+  point_zero_tae_i:
+    chaos_initial: >
+      Point 0 = état du chaos originel (toutes les potentialités condensées,
+      indifférenciées). Du chaos naît le Tao — principe organisateur du mouvement
+      et de l'ordre. Le chaos n'est pas l'absence d'ordre mais le contenant de
+      tous les ordres possibles.
+    tae_i: >
+      Taé I = le Grand Un, représenté par l'Œuf cosmique (9 = 3×3). Il est
+      le premier acte de différenciation : Ciel (Yang) et Terre (Yin) se séparent.
+      L'Œuf contient déjà le potentiel de toutes les différenciations futures.
+    chen_universal: >
+      Le Chen universel (ordre, loi du Ciel) organise la lumière galactique
+      via les 8 trigrammes et les 5 Palais (1 central + 4 latéraux).
+    estomac_rate: >
+      L'Estomac assure la MUTATION (Yang), la Rate assure la TRANSFORMATION (Yin).
+      Mutation = passage brusque d'un état à un autre ; transformation = changement
+      progressif. Le cancer est lié à une carence Rate/Estomac dans cette fonction
+      de discrimination du bon et du mauvais.
+    source: PIV-YY-t3-p7_8
+
+  six_energies_ciel:
+    principe: >
+      Il y a 6 énergies du Ciel, pas 5. Contrairement aux 5 éléments (Terre),
+      le Ciel organise son énergie en 6 divisions. Ces 6 énergies sont les grands
+      courants climatiques qui influencent tout être vivant.
+    nombre_6: >
+      6 est le Nombre du Ciel : 6 énergies, 6 viscères (Fu), 6 axes énergétiques,
+      6 pas célestes, 6 pas terrestres, 6×60°=360°. 36 (6×6) = nombre complet
+      du Ciel.
+    trois_yin:
+      Tsiue_Yin:
+        rang: petit_Yin_naissant
+        intensite: >
+          Le plus faible des Yin — Yin ponctuel, naissant. Tsiué = Yin encore
+          plus faible que Chao, car il est à l'état naissant. Ne pas confondre
+          l'intensité de l'énergie (petite) avec son rang hiérarchique.
+        pouls_normal: profond_court_ferme
+        fonction_axe: fong (vent)
+      Chao_Yin:
+        rang: Yin_moyen
+        intensite: petit (mais position centrale des Yin)
+        pouls_normal: serre_tenu_faible
+        fonction_axe: rechauffement
+      Tae_Yin:
+        rang: grand_Yin
+        intensite: maximum
+        pouls_normal: serre_grand_long
+        fonction_axe: humidification
+    trois_yang:
+      Chao_Yang:
+        rang: Yang_faible
+        intensite: petit (force du commencement, concentrée, non étalée)
+        pouls_normal: variable
+        fonction_axe: feu
+      Yang_Ming:
+        rang: Yang_moyen
+        intensite: lumiere_clarte
+        explication: >
+          Yang Ming = Lumière et Clarté. Il permet la synthétisation de la
+          lumière solaire et sa transformation en énergie. Cette transformation
+          de lumière en énergie biologique est "l'invisible" — indispensable
+          à la transformation de l'alimentation et de l'air en énergies
+          nutritionnelle et défensive.
+        pouls_normal: superficiel_grand_court
+        fonction_axe: assechement
+      Tae_Yang:
+        rang: grand_Yang
+        intensite: maximum
+        pouls_normal: ample_grand_long_superficiel
+        fonction_axe: refroidissement
+    source: PIV-YY-t3-p9_17
+
+  pouls_pathologiques_6_energies:
+    principe: >
+      Le pouls normal de chaque énergie devient pathologique quand il s'exagère,
+      se déforme, ou se retrouve à la mauvaise saison. Les tableaux So Ouen
+      listent les correspondances pathologiques des 6 périodes et de leurs
+      influences possibles.
+    annees_impaires_yang: >
+      Années impaires = Yang = excès = avance sur les saisons (max 15 jours d'avance).
+      L'énergie arrive avant son temps attendu.
+    annees_paires_yin: >
+      Années paires = Yin = insuffisance = retard sur les saisons (max 15 jours de retard).
+      L'énergie n'est pas au rendez-vous.
+    source: PIV-YY-t3-p30_31
+
+# ══════════════════════════════════════════════════════════════
+# 2. NUMEROLOGIE ET COSMOLOGIE — KAN, CHE, CYCLE 60
+# ══════════════════════════════════════════════════════════════
+
+numerologie_cosmologie:
+
+  nombres_fondamentaux:
+    neuf_9: >
+      9×9 = 81 chapitres dans tous les King (Su Wen, Ling Shu…).
+      9 = nombre des neufs orifices de l'Homme, de la perfection du Saint Homme,
+      de la perfection universelle.
+    huit_8: >
+      8×8 = 64 hexagrammes du Yi King. 8 = nombre des activités psychiques et
+      morales, des 8 Merveilleux Vaisseaux, de l'homme (masculin) accompli,
+      de la perfection du Sage, des 8 trigrammes (Pa Fong).
+    sept_7: >
+      7×7 = 49 baguettes d'achillée pour la divination par le Yi King.
+      7 = perfection de la femme, des 7 orifices du Cœur, des sentiments humains.
+    six_6: >
+      6×6 = 36 (×10) degrés du cercle complet. 36 = nombre complet du Ciel.
+      6 = nombre des énergies du Ciel, des viscères (Fu). 720 énergies en 30 ans,
+      1440 en 60 ans (cycle complet).
+    cinq_5: >
+      5×5 = 25 points antiques. 5 = nombre des climates possibles d'une année,
+      des 5 éléments, 5 énergies, 5 mouvements, 5 substances corporelles,
+      5 organes Tsang, 5 sens, 5 organes des sens.
+    source: PIV-YY-t3-p47_glossaire
+
+  cercle_astronomique:
+    principe: >
+      360° du cercle = 365 jours ¼ de l'année. Les astronomes chinois pragmatiques
+      ont ajusté la valeur du degré : soit en passant le degré à 0,9856°,
+      soit en faisant entrer les 360° dans les 365 jours (degré = 1,01458°).
+      Les ruraux ont "oublié" les 5 jours ¼ après le solstice d'hiver (les "5 jours
+      d'Isis" en Égypte, accordés aux femmes).
+    six_periodes: >
+      360° ÷ 6 = 60° par énergie. Chaque énergie règne 60 jours et 21 heures
+      (une énergie = un pas = 60 jours). 6 pas × 60 jours = une année.
+    source: PIV-YY-t3-p9_glossaire
+
+  kan_che:
+    kan_troncs_celestes:
+      base: 10 (système décimal = Terre)
+      paradoxe: >
+        Les Kan (troncs) sont célestes mais en base 10 (terrestre). La Terre
+        sert à compter ce qui est céleste dans ce cas particulier — illustration
+        de l'interpénétration Ciel/Terre.
+      liste:
+        - Kia (1 - Yang Bois)
+        - I (2 - Yin Bois)
+        - Ping (3 - Yang Feu)
+        - Ting (4 - Yin Feu)
+        - Wou (5 - Yang Terre)
+        - Tchi (6 - Yin Terre)
+        - Keng (7 - Yang Métal)
+        - Hsin (8 - Yin Métal)
+        - Jen (9 - Yang Eau)
+        - Koui (10 - Yin Eau)
+    che_branches_terrestres:
+      base: 12 (système duodécimal = Ciel)
+      paradoxe: >
+        Les Che (branches) sont terrestres mais en base 12 (céleste). Ciel
+        et Terre s'imbriquent dans leur système de comptage.
+      liste:
+        - Tse (Rat)
+        - Tcheou (Bœuf)
+        - Yin (Tigre)
+        - Mao (Lièvre)
+        - Tchen (Dragon)
+        - Seu (Serpent)
+        - Ou (Cheval)
+        - Wei (Chèvre)
+        - Chen (Singe)
+        - Yeou (Coq)
+        - Siu (Chien)
+        - Hai (Sanglier)
+    systemes_comptage: >
+      Le système décimal (base 10) sert à compter ce qui est de l'ordre terrestre ;
+      le système duodécimal (base 12) sert ce qui est de l'ordre céleste.
+      En Chine, LE TEMPS était un mélange de deux temps : celui du Ciel (12) et
+      celui de la Terre (10). L'Homme réunit les deux : ses 12 méridiens (Ciel/Yang)
+      et ses 10 organes (Terre/Yin).
+    source: PIV-YY-t3-p10_12_glossaire
+
+  cycle_soixante:
+    principe: >
+      10 Kan × 12 Che = 120 combinaisons théoriques, mais seulement 60 utilisées
+      car Kan et Che doivent être de même parité (Yang avec Yang, Yin avec Yin).
+    debut: >
+      Cycle débuté en −2697 avant J.C. Le 79ème cycle a débuté en 1984.
+      Le cycle de 1999 = 16ème année du cycle (point de basculement intermédiaire).
+    signification: >
+      60 ans = maturité complète d'un être : 36 (Ciel, 6 ans × 6 énergies)
+      + 25 (Terre, 5 ans × 5 éléments) ≈ 60. C'est le pilier de la société chinoise.
+    age_lunaire: >
+      Chaque Chinois avait un âge solaire (courant) et un âge lunaire.
+      Calcul : âge civil × 11 jours + âge civil = âge lunaire (l'année lunaire
+      fait 354 jours, soit 11 jours de moins que l'année solaire).
+    source: PIV-YY-t3-p11_34_glossaire
+
+  physique_quantique:
+    temps_relatif: >
+      Einstein : le temps est relatif. Un astronaute parti 10 ans dans l'espace
+      reviendrait trouver une Terre vieillie de 70 ans. Les Chinois avaient intuité
+      la relativité du temps en distinguant temps universel, temps terrestre et
+      temps physiologique.
+    temps_homme: >
+      L'Homme vit en lui deux rythmes : le temps et rythme du Ciel par ses 12
+      méridiens (Yang/Ciel), et le temps et rythme de la Terre par ses organes
+      et son Sang (Yin/Terre).
+    quantum: >
+      Quantum minimum d'énergie = la plus petite quantité d'énergie existant
+      sans pouvoir être divisée davantage. Chaque organe est une planète avec
+      sa propre vitesse, révolution, densité, attraction.
+    source: PIV-YY-t3-p11_12
+
+  pa_fong_trigrammes:
+    principe: >
+      8 trigrammes = Pa Fong = organisateurs de la lumière galactique.
+      Ils organisent l'espace en 5 Palais : 1 Palais central + 4 Palais latéraux.
+      Les 8 forces (Pa Fong = 8 vents) structurent les directions.
+    couleurs: >
+      3 couleurs primaires contenues dans la lumière blanche.
+      Les 8 trigrammes décomposent cette lumière selon les polarités
+      Yin/Yang combinées par 3 (2³ = 8).
+    source: PIV-YY-t3-p14_15
+
+  sieou:
+    definition: >
+      Un Siéou est un espace ayant la forme d'une tranche de melon, compris
+      entre deux méridiens partant de l'étoile polaire jusqu'à l'horizon
+      terrestre. Les degrés d'arc varient de 3° à près de 45° selon le Siéou.
+    structure: >
+      7 Siéou par saison = environ 90°. 4 saisons × 7 Siéou = 28 Siéou = 360°.
+      Le cercle astronomique des étoiles est complet.
+    rapport_zodiaque: >
+      Les signes du zodiaque occidental sont contenus dans les Siéou comme
+      une bande horizontale perpendiculaire. L'antiquité chinoise accordait
+      de l'importance à tout l'espace du Siéou (de l'horizon au cercle polaire).
+    etoile_kio: >
+      KIO = étoile du premier jour du printemps. Lorsque la lune est montante
+      (croissant) et que KIO apparaît dans ce croissant, c'est le 1er jour
+      du printemps (fête du Tết). C'est l'étoile dans le croissant de lune
+      des drapeaux musulmans.
+    astrologie_conception: >
+      L'influence des étoiles se comptait du JOUR DE LA CONCEPTION et non
+      de la naissance. L'étoile unique présidant au sud à l'instant de la
+      conception est "son étoile". Les 12 animaux du zodiaque sont venus
+      après (11ème siècle av. J.C.) pour marquer le JOUR DE LA NAISSANCE.
+    source: PIV-YY-t3-p16_21_glossaire
+
+# ══════════════════════════════════════════════════════════════
+# 3. LES 6 PAS — ROUE MOBILE ET ROUE FIXE
+# ══════════════════════════════════════════════════════════════
+
+six_pas:
+
+  pas_celestes:
+    nature: mobiles (tournent autour du pôle Nord)
+    base: polaire
+    ordre:
+      - Tsiue_Yin (60° Yang 1)
+      - Chao_Yin (60° Yang 2)
+      - Tae_Yin (60° Yang 3)
+      - Chao_Yang (60° Yin 1)
+      - Yang_Ming (60° Yin 2)
+      - Tae_Yang (60° Yin 3)
+    rythme: >
+      Un pas céleste = une énergie qui règne 60 jours et 21 heures.
+      6 pas = une année. La roue céleste est en mouvement constant
+      et glisse progressivement pour revenir à son point de départ
+      en 60 ans.
+
+  pas_terrestres:
+    nature: fixes (attachés au zodiaque terrestre)
+    base: zodiacale
+    ordre_different: >
+      L'ordre des pas terrestres est DIFFÉRENT des pas célestes :
+      inversion de Chao Yang et Taé Yin. Cet ordre différent est
+      le propre de la Terre qui organise les énergies célestes
+      selon sa propre logique.
+    ordre:
+      - Tsiue_Yin (1er pas)
+      - Chao_Yin (2ème pas)
+      - Chao_Yang (3ème pas) ← inversé vs céleste
+      - Tae_Yin (4ème pas) ← inversé vs céleste
+      - Yang_Ming (5ème pas)
+      - Tae_Yang (6ème pas)
+
+  rapport_zodiaque:
+    principe: >
+      Un pas (céleste ou terrestre) = 60° = 2 signes zodiacaux.
+      Un signe = 30°. Deux signes contigus sont complémentaires
+      en termes Yin/Yang : le 1er est l'aspect Yang, le 2ème l'aspect Yin.
+    maitre_serviteur: >
+      Les signes astrologiques sont en opposition diamétrale selon la
+      loi "Maître/Serviteur" : l'année a son Maître (6 mois Yang,
+      printemps-été, côté Sud) et son Serviteur (6 mois Yin,
+      automne-hiver, côté Nord).
+    source: PIV-YY-t3-p19_22_glossaire
+
+  tienn_tou:
+    definition: >
+      Tienn Tou = coïncidence entre un pas céleste et un pas terrestre de
+      même énergie. Quand le pas céleste qui règne est le même que le
+      pas terrestre du moment, il y a renforcement : les deux énergies
+      se cumulent, avec un effet climatique, physiologique et pathologique
+      amplifié.
+    source: PIV-YY-t3-p27
+
+  climatologie:
+    principe: >
+      Les tableaux du So Ouen (chapitre 66 +) décrivent 36 × 10 combinaisons
+      climatiques possibles (36 variations de pas célestes × 6 influences
+      possibles sur 6 périodes terrestres = 360 variétés de climates théoriques).
+      En pratique, le climat apparent (observable) et le climat inapparent
+      (énergétique, non encore visible) doivent être distingués.
+    application: >
+      Chaque combinaison pas céleste / pas terrestre génère un climat intérieur
+      et extérieur particulier. Le thérapeute doit en tenir compte dans son
+      bilan pour comprendre les influences extérieures sur le patient.
+    source: PIV-YY-t3-p24_28
+
+# ══════════════════════════════════════════════════════════════
+# 4. YIN/YANG DE L'HOMME (JEN)
+# ══════════════════════════════════════════════════════════════
+
+yin_yang_homme:
+
+  microcosme_macrocosme:
+    principe: >
+      L'Homme est un microcosme dans le macrocosme. Peau = Yang (Ciel,
+      surface), organes = Yin (Terre, profond). L'Homme reçoit du Ciel
+      ses 12 méridiens (base 12, système duodécimal) et de la Terre ses
+      10 organes (base 10, système décimal).
+    kan_che_cle: >
+      10 Kan (organes, Terre) / 12 Che (méridiens, Ciel) = la clé de la
+      structure de l'être humain. Le corps humain est une expression vivante
+      du rapport Ciel/Terre.
+    source: PIV-YY-t3-p33
+
+  matrice_energetique:
+    principe: >
+      La matrice énergétique précède le corps physique. L'énergie se met
+      en place avant les structures anatomiques. Les malformations congénitales
+      résultent d'une matrice énergétique incomplète ou perturbée lors de
+      la gestation.
+    embryologie: >
+      Les méridiens Yin+Yang couplés par élément existent dès le 3ème mois
+      de grossesse, en correspondance avec la vie organique. Ce sont les
+      premiers à se mettre en place.
+    maturite_progressive: >
+      À la naissance : les axes Yin/Yin et Yang/Yang (couplages par axe
+      céleste) commencent à recevoir les informations du Ciel. L'enfant
+      naissant entre en résonance avec les 6 énergies célestes.
+    source: PIV-YY-t3-p34_37
+
+  maturite_energetique:
+    points_acupuncture: >
+      Le nourrisson ne possède pas le système fini des 360 points. L'ensemble
+      des points acquiert sa maturité à l'âge de 5 ans pour les énergies
+      de la Terre et à 6 ans pour celles du Ciel.
+    corps_complet: >
+      Maturité énergétique = 60 ans. Calcul : 6 ans × 6 énergies du Ciel = 36 ;
+      5 ans × 5 éléments de la Terre = 25 ; 36 + 25 ≈ 60 ans. À 60 ans,
+      l'être a traversé un cycle complet de toutes les énergies.
+    source: PIV-YY-t3-p34_36
+
+  points_acupuncture:
+    spirale: >
+      Les points sont des sortes de puits s'enfonçant depuis la surface de la
+      peau pour rejoindre en profondeur le flot d'énergie des méridiens.
+      L'énergie externe y pénètre selon un courant spiralé descendant.
+    energie_externe: >
+      Les énergies externes (Ciel et Terre) circulent sur la peau et produisent
+      l'apparition des points d'acupuncture. Les points deviennent la résonance
+      de ces énergies. Certains points répondent spécifiquement de la Terre,
+      d'autres du Ciel.
+    noms_antiques: >
+      Plusieurs points portent encore leur nom antique : celui d'étoiles.
+      Avec l'Empereur Tsin Che Houang Ti, ces anciens noms se sont perdus.
+      Les pentacles et passages des livres anciens montrent la correspondance
+      des étoiles du Ciel avec les points d'acupuncture.
+    fonction: >
+      Les points sont des boutons de commande par lesquels le Ciel et la Terre
+      agissent sur l'organisme. L'énergie biologique y "reçoit ses ordres"
+      et les transmet à l'organisme. Les points commandent certaines énergies
+      et fonctions organiques ou biologiques par l'intermédiaire des énergies
+      externes.
+    geographie_sacree: >
+      L'acupuncture est le témoignage vivant d'une "géographie sacrée" sur
+      le corps humain — comme existait en Grèce antique une géographie sacrée
+      où des villes étaient reliées selon la projection de constellations,
+      ou comme en France avec les lieux de culte de la Vierge (Notre Dame,
+      Puy) alignés sur la constellation de la Vierge.
+    source: PIV-YY-t3-p35_36_51
+
+  deux_systemes_meridiens:
+    systeme_1_elements:
+      couplage: Yin + Yang de même élément (Foie + Vésicule Biliaire, Rein + Vessie…)
+      moment: depuis_le_3eme_mois_de_grossesse
+      fonction: >
+        Équilibre proportionnel du sang et de l'énergie dans l'organe et
+        son méridien. Détermine des quantités proportionnelles de sang
+        et d'énergie.
+      appellation: méridiens (circuit organique ininterrompu, ordre wagon de train)
+    systeme_2_axes:
+      couplage: Yin/Yin ou Yang/Yang (Chao Yin C+R, Taé Yang IG+V…)
+      moment: depuis_la_naissance
+      fonction: >
+        Reçoit les informations du Ciel. Conditionne la vie organique par
+        les influences célestes. Détermine de grands courants montée/descente,
+        entrée/sortie, distribution du sang et de l'énergie dans le corps.
+        Équilibre le climat intérieur avec le climat extérieur des saisons.
+      appellation: axes_energetiques ou grands_méridiens
+    source: PIV-YY-t3-p37_38
+
+# ══════════════════════════════════════════════════════════════
+# 5. LES AXES ÉNERGÉTIQUES
+# ══════════════════════════════════════════════════════════════
+
+axes_energetiques:
+
+  structure:
+    nombre: 6 (un par énergie du Ciel)
+    repartition:
+      yang_externe_piao: [Yang_Ming, Chao_Yang, Tae_Yang]
+      yin_interne_li: [Chao_Yin, Tsiue_Yin, Tae_Yin]
+    inversion_ordre_corps: >
+      Dans l'être humain, l'ordre des axes diffère de l'ordre céleste.
+      Inversion entre Yang Ming et Chao Yang (et entre Tsiué Yin et Chao Yin).
+      Cette inversion est propre à la physiologie humaine — pas une erreur
+      mais le reflet de l'organisation spécifique du corps.
+    definition_couche: >
+      "Couche énergétique" = terme pour décrire le niveau de localisation
+      de l'activité d'un axe énergétique. Chaque axe utilise un tissu
+      corporel particulier pour s'épanouir. Les 6 axes s'emboîtent comme
+      des poupées russes.
+
+  couplages_meridiens:
+    Tae_Yang:
+      meridien_haut: Tchéou Taé Yang = Intestin Grêle (main)
+      meridien_bas: Tsou Taé Yang = Vessie (pied)
+      nature: Yang
+    Chao_Yang:
+      meridien_haut: Tchéou Chao Yang = Triple Réchauffeur (main)
+      meridien_bas: Tsou Chao Yang = Vésicule Biliaire (pied)
+      nature: Yang
+    Yang_Ming:
+      meridien_haut: Tchéou Yang Ming = Gros Intestin (main)
+      meridien_bas: Tsou Yang Ming = Estomac (pied)
+      nature: Yang
+    Tae_Yin:
+      meridien_haut: Tchéou Taé Yin = Poumon (main)
+      meridien_bas: Tsou Taé Yin = Rate (pied)
+      nature: Yin
+    Chao_Yin:
+      meridien_haut: Tchéou Chao Yin = Cœur (main)
+      meridien_bas: Tsou Chao Yin = Rein (pied)
+      nature: Yin
+    Tsiue_Yin:
+      meridien_haut: Tchéou Tsiué Yin = Maître du Cœur (main)
+      meridien_bas: Tsou Tsiué Yin = Foie (pied)
+      nature: Yin
+    note_terminologie: >
+      Tchéou (TCHEOU) = méridien de la main/pouce. Tsou (TSOU) = méridien
+      du pied/coude. Ces deux termes sont équivalents selon les auteurs.
+      Haut = dessus du diaphragme ; bas = dessous du diaphragme.
+    source: PIV-YY-t3-p41
+
+  progression_dans_corps:
+
+    categorisation_surface:
+      principe: >
+        1ère catégorisation : avant → arrière (surface uniquement).
+        Du plus Yin (ligne médiane antérieure) au plus Yang (ligne médiane
+        postérieure). Les zones antérieures = Yin (fragiles, à protéger) ;
+        les zones latérales et postérieures = Yang (fortes, grandes chaînes
+        musculaires).
+      ordre_avant_arriere:
+        - Chao_Yin (avant = médiane, plus profond Yin)
+        - Yang_Ming (exception — voir ci-dessous)
+        - Tsiue_Yin
+        - Tae_Yin
+        - Chao_Yang
+        - Tae_Yang (arrière = médiane, plus grand Yang)
+      yang_ming_exception: >
+        Yang Ming est Yang mais se situe dans les zones Yin (antérieures),
+        entre Chao Yin et Tsiué Yin. Raison : principe humain par lequel
+        l'Homme se place face au Sud pour recevoir la lumière solaire.
+        Yang Ming (associé au Chao Yin, en opposition diamétrale sur la
+        roue mobile) permet la synthétisation de cette lumière. Cette
+        fonction lumière-énergie est "l'invisible" sous-entendu dans les
+        textes — capitale pour la transformation alimentation+air en
+        énergies nutritionnelle et défensive.
+
+    categorisation_profondeur:
+      principe: >
+        2ème catégorisation : profond → superficie (en miroir de la surface).
+        Du plus profond Yin (squelette) au plus grand Yang (peau).
+      ordre_profond_superficiel:
+        - Chao_Yin: os_squelette (petit Yin = plus profond)
+        - Tsiue_Yin: sang (grand Yin)
+        - Tae_Yin: organes_tsang (grand Yin)
+        - Yang_Ming: visceres_fou (externe)
+        - Chao_Yang: muscles (petit Yang)
+        - Tae_Yang: peau (grand Yang = plus superficiel)
+      resume: >
+        petit Yin (os) → grand Yin (organes et sang) → petit Yang (muscles)
+        → grand Yang (peau)
+
+    pas_de_verticalite: >
+      Il n'y a pas de catégorisation des 6 axes par le bas vers le haut.
+      Dans sa verticalité, l'être humain est divisé en 3 niveaux :
+      Ciel (tête) - Homme (thorax/milieu) - Terre (abdomen/membres inférieurs).
+    pas_de_lateralite: >
+      Il n'y a pas de catégorisation des 6 axes en latéralité.
+      L'être humain est divisé en 2 parties : gauche et droite.
+    source: PIV-YY-t3-p39_40
+
+  fonctions_equilibre:
+    principe: >
+      Chaque axe assume un ensemble de fonctions énergétiques, notamment
+      sa participation à l'équilibre du climat intérieur par rapport aux
+      variations climatiques extérieures.
+    correspondances_fonctionnelles:
+      Tae_Yang: refroidissement
+      Tae_Yin: humidification
+      Chao_Yang: feu
+      Tsiue_Yin: fong (vent)
+      Yang_Ming: assechement
+      Chao_Yin: rechauffement
+    correspondances_couples:
+      Yang_Tae_Yang_Yin_Chao_Yin: refroidissement_↔_rechauffement
+      Yang_Chao_Yang_Yin_Tsiue_Yin: feu_↔_fong
+      Yang_Yang_Ming_Yin_Tae_Yin: assechement_↔_humidification
+    correspondances_niveaux:
+      Tae_Yang_Tae_Yin: surface_peau
+      Chao_Yang_Tsiue_Yin: moyenne_muscles
+      Yang_Ming_Chao_Yin: profondeur_os
+    source: PIV-YY-t3-p40
+
+# ══════════════════════════════════════════════════════════════
+# 6. LES SYSTÈMES ÉNERGÉTIQUES
+# ══════════════════════════════════════════════════════════════
+
+systemes_energetiques:
+
+  principe:
+    definition: >
+      Un système énergétique = un couple d'axes énergétiques (un Yang + un Yin)
+      qui s'équilibrent mutuellement. Leurs activités sont interrelationnelles :
+      ils interfèrent et s'influencent en permanence pour compenser tout
+      changement du climat intérieur par rapport à l'extérieur.
+    nombre: 3 (6 axes ÷ 2 = 3 systèmes)
+    duree_activite: 8 heures chacun (les "trois 8")
+    non_circuit: >
+      Les systèmes énergétiques NE circulent PAS d'un système à l'autre.
+      Quand la période d'un système se termine, le suivant s'active mais
+      n'reçoit pas l'énergie du précédent. Ce n'est pas un circuit de
+      circulation mais des fenêtres d'activation séquentielles.
+
+  circulation_circadienne:
+    principe: >
+      12 méridiens pour 24 heures = cycle circadien. Chaque méridien reçoit
+      50 fois par jour son lot d'énergie nutritionnelle (Iong) et a une
+      activité particulière d'environ 2 minutes 30, 50 fois par jour
+      (toutes les ½ heures environ). Circuit ininterrompu.
+    axes_vs_meridiens: >
+      Les méridiens (circuit nutritionnel) circulent sur 24h.
+      Les axes énergétiques (circuit fonctionnel) ont une activité
+      de 4 heures chacun, activés par la position solaire et les
+      énergies célestes. 4h/axe = 2h Tchéou (main) + 2h Tsou (pied).
+      Système = 2 axes × 4h = 8h d'activité particulière.
+
+  tableau_horaire:
+    systeme_Yang_Ming_Tae_Yin:
+      activation: 5h (Yang Ming Tchéou = Gros Intestin) → 11h (Tsou Yang Ming = Estomac)
+      meridien_haut_debut: 7h (Yang Ming Tchéou)
+      meridien_bas_debut: 9h (Tsou Yang Ming)
+      energie: sécheresse_humidité
+    systeme_Tae_Yang_Chao_Yin:
+      activation: 13h (Taé Yang Tchéou = Intestin Grêle) → 19h (Tsou Chao Yin = Rein)
+      meridien_haut_debut: 15h (Taé Yang Tchéou) / 11h (Chao Yin Tchéou = Cœur)
+      meridien_bas_debut: 1h (Tsou Taé Yang = Vessie) / 17h (Tsou Taé Yin = Rate)
+      energie: froid_chaleur
+    systeme_Chao_Yang_Tsiue_Yin:
+      activation: 21h (Chao Yang Tchéou = TR) → 3h (Tsou Tsiué Yin = Foie)
+      meridien_haut_debut: 23h (Chao Yang Tchéou) / 19h (Tsiué Yin Tchéou = MC)
+      meridien_bas_debut: 3h (Tsou Tsiué Yin = Foie) / 1h (Tsou Chao Yang = VB)
+      energie: feu_fong
+    source: PIV-YY-t3-p42_43
+
+# ══════════════════════════════════════════════════════════════
+# 7. ZODIAQUE CHINOIS ANTIQUE
+# ══════════════════════════════════════════════════════════════
+
+zodiaque_chinois:
+  historique: >
+    Les 12 animaux intégrés au 11ème siècle av. J.C. Ce ne sont pas
+    des groupes d'étoiles (comme en astrologie occidentale née il y a
+    ~2000 ans) mais des divisions du cercle de 30° chacune.
+  fonctions_successives:
+    1: décrire_les_12_mois_solaires_et_periodes_Tchi_Hou
+    2: représenter_une_année_(cheval_lapin_buffle_rat_chat...)
+    3: marquer_les_orientations_spatiales_dentrée_des_énergies_du_Ciel
+  tchi_hou: >
+    Un Tchi = 15 jours (demi-mois). Un Hou = 5 jours.
+    Un mois = 2 Tchi = 6 Hou. À compter du solstice d'hiver (Su Wen chap. 2).
+  etoiles_antiques: >
+    Grande et Petite Ourse = constellations centrales de la cosmologie
+    chinoise antique (raisons polaires). Schlegel fait remonter l'histoire
+    des constellations chinoises à plus de 17.000 ans av. J.C.
+    La bande zodiacale servait surtout à connaître la position annuelle
+    de la Terre pour déterminer les dates des saisons.
+  source: PIV-YY-t3-p49_50
+
+# ══════════════════════════════════════════════════════════════
+# 8. SUITE DU CURRICULUM
+# ══════════════════════════════════════════════════════════════
+
+suite_curriculum:
+  annonce: >
+    Le Yin/Yang du Ciel et de l'Homme étant terminé, le cours continue
+    avec les 5 Éléments — le 2ème grand pilier de la médecine chinoise.
+    Avec les 5 éléments, sera étudié le Yin/Yang de la Terre en tant
+    que planète.
+  signification_terre_multiple:
+    galactique: galaxies et systèmes solaires (sens cosmologique)
+    solaire: notre système solaire et ses planètes, précisément Saturne
+    planetaire: notre planète Terre (masse Yin rocheuse + humus donnant la vie)
+  philosophie_finale: >
+    Le Ciel et la Terre sont nos premiers médecins — nos parents.
+    C'est pour cela que la Chine leur attribue notre hérédité : Tsing
+    du Ciel (le père) et de la Terre (la mère).
+    L'important est de considérer le corps avec humilité indispensable
+    et le souci du meilleur acte thérapeutique dans l'intérêt du patient.
+  source: PIV-YY-t3-p43_51

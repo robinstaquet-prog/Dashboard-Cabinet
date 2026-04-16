@@ -1,0 +1,221 @@
+# VESSIE — FOU DE L'ÉLÉMENT EAU
+# Source : Polycopié VI, Série EEA tome 3 — Séminaire 8 avril 1983
+# Auteurs : Dr Schatz, Elisabeth Rochas de la Vallée
+
+meta:
+  fichier: vessie.yaml
+  source: PVI_EEA_t3
+  element: Eau
+  couplage_tsang: Rein
+  relation: Biao_Li
+  statut: complet
+  liens:
+    - ZANG_FU/rein.yaml
+    - ZANG_FU/role_general_fou.yaml
+    - THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    - CLINIQUE/pathologies_oreille.yaml
+
+# =============================================================================
+# IDENTITÉ
+# =============================================================================
+
+identite:
+  nature: viscere_creux_indispensable_a_la_vie
+  meridien: >
+    Méridien très grand, le plus grand nombre de points. Double le trajet du Du Mo.
+    Concerne particulièrement le cerveau, les R et le système nerveux. S'étend
+    jusqu'au membre inférieur. Fait partie du Tai Yang, au Biao du corps,
+    offert aux influences extérieures.
+  surnoms:
+    - Fu_des_liquides
+    - Fu_des_liquides_et_du_Jing
+    - Fu_des_Jin_Ye
+  source: PVI-t3-p76
+
+# =============================================================================
+# FONCTIONS
+# =============================================================================
+
+fonctions:
+  charge_SW8: >
+    La V c'est la charge des divisions territoriales, les Jin Yé s'y cachent,
+    les Souffles sont transformés et alors il peut y avoir sortie.
+
+  divisions_territoriales:
+    explication: >
+      L'idée d'îlots de terre entourés d'eau et de centre d'organisation, de capitale
+      régionale. Organisation d'un territoire en l'administrant, en le divisant bien,
+      par la maîtrise des eaux. Ces territoires sont comme des îlots isolés mais
+      liés par des espaces liquidiens. La V a la charge d'administration des
+      territoires du corps par l'intermédiaire de sa charge sur les liquides.
+    source: PVI-t3-p78
+
+  amasser_et_excreter:
+    principe: >
+      Fonction essentiellement d'amasser et d'excréter les urines. Après que les liquides
+      soient passés par la séparation par tamisage du clair et du trouble aux R, les
+      excédents et déchets s'écoulent et entrent à la V qui les amasse.
+    eaux_claires: Les eaux de la V seules sont claires.
+    bouche_superieure: >
+      La V a une bouche inférieure mais n'a pas de bouche supérieure. La frontière
+      supérieure est au niveau de VC9 (Shuifen, séparation des eaux). Les entrées
+      et sorties se font suivant les transformations des Souffles — les liquides passent
+      par osmose à travers la paroi.
+
+  qi_hua:
+    definition: >
+      Transformation des Souffles — nom générique de la fonction conjointe R et V.
+      Les Jin Yé y sont thésaurisés, les Souffles y sont transformés et ce qui
+      doit sortir peut sortir. Qi Hua au Réchauffeur Inférieur : tri entre éléments
+      utilisables (remontent comme Jin Yé clairs) et éléments troubles (excrétés par V).
+    dependance_R: >
+      La transformation des Souffles propre à la V est en étroite relation avec la
+      capacité d'ouverture et de fermeture des Souffles des R. Quand la fonction
+      d'ouverture des R perd sa régularité, alors troubles au niveau de la V.
+
+  re_tri_final:
+    principe: >
+      Les liquides qui arrivent au Réchauffeur Inférieur ne sont plus vraiment des
+      Jin Yé purs — ayant traversé tous les espaces du corps, ils se sont chargés
+      de déchets. Le travail de R/V (Qi Hua) : élever le clair (réabsorption, Yang du R)
+      et abaisser le trouble (excrétion, Yin du R). Le clair réabsorbé remonte vers le P.
+    source: PVI-t3-p67_77
+
+# =============================================================================
+# UNION R ET V
+# =============================================================================
+
+union_rein_vessie:
+  principe: >
+    La V n'est pas seulement la V mais tout ce qui existe du R à la V. De même que
+    la VB est à l'intérieur du F, de même la V est à l'intérieur du R. Le R est une
+    modalité de cette fonction et peut-être dans une cellule unique y a-t-il une
+    fonction V. La V chinoise n'est pas la V organique occidentale.
+  filtration: >
+    Le travail de R/V se fait non seulement à partir du circuit sanguin mais à travers
+    tous les espaces du corps. Les Réchauffeurs sont comme un canal, un guide pour
+    l'élimination des eaux. Il y a des sérosités dans l'espace mésenchymateux, des
+    capillaires ouverts, les liquides repris dans des capillaires qui rejoignent le
+    glomérule pour la filtration.
+  source: PVI-t3-p77
+
+# =============================================================================
+# PATHOLOGIE
+# =============================================================================
+
+pathologie:
+  troubles_mictionnels: >
+    Petit besoin qui ne fonctionne pas bien, anurie ou dysurie, envies pressantes,
+    mictions douloureuses, incontinence. L'origine de toutes ces maladies a beaucoup
+    à voir avec les maladies des R.
+
+  plenitude_R_V:
+    condition: Souffles_des_R_montent_en_puissance_surabondance_du_Zhi
+    symptomes:
+      - ventre_gonflé
+      - diarrhee_claire_aux_repas
+      - corps_enfle
+      - haletement_et_toux
+      - sueur_sort_craint_le_vent
+      - visage_et_oeil_noir
+      - petit_besoin_jaune
+    mecanisme: >
+      Contre-courant : remontée des Souffles qui perturbent les étages supérieurs.
+      Fonctionnement de la Rte perturbé (diarrhées), fonctionnement du P perturbé
+      (halètement, toux). La sueur sort sous la pression qui expulse les liquides.
+      Le Yang se transmet de l'Eau au Bois (F), l'excès de F fait sortir la sueur.
+    source: PVI-t3-p78
+
+  vide_R_V:
+    condition: Souffles_des_R_en_insuffisance_flechissement_JUE
+    symptomes:
+      - region_lombaire_et_dos_froids
+      - douleur_au_thorax
+      - bourdonnements_oreille
+      - penible_surdite
+    mecanisme: >
+      JUE (fléchissement) : quelque chose qui arrive à son extrémité. En pathologie,
+      c'est un vide et les énergies perverses investissent le territoire de ces vides.
+      Plus assez de Yang des R, de Feu et d'activité. Douleur au thorax aussi sur
+      le trajet du méridien des R.
+    source: PVI-t3-p79
+
+# ─── Enrichissement EEA t2 (séminaires CLM juin 1984) ──────
+
+enrichissement_EEA_t2:
+  su_wen_chap8_douzieme_charge: >
+    La Vessie est en dernière position (12ème, Su Wen ch.8).
+    Charge des « territoires et des provinces » = organisation
+    des Terres séparées des eaux dont les communications se font
+    à travers tous les cours d'eau. La V THÉSAURISE les Tin Ié
+    (liquides interstitiels) — terme identique à Zang (thésauriser).
+    La V n'est donc pas seulement un Fu d'éviction mais aussi
+    un organe de thésaurisation des liquides.
+  qi_hua: >
+    De la charge de la V résulte QI HUA = transformation des
+    Souffles. Les liquides descendus sous la pression du P arrivent
+    à la V où une opération d'épuration s'opère : liquides épurés
+    remis en circulation, eaux de rinçage formant l'urine. Ni
+    assèchement ni crue. QI HUA = dialectique permanente des
+    Souffles et des essences = la vie même de tout l'Univers.
+  fermoir_cyclique: >
+    Père Larre : le Texte est cyclique. La position 12 (V) est
+    un côté du fermoir, la position 1 (C) est l'autre. Le Shen Ming
+    du Cœur et la transformation des Souffles de la Vessie ferment
+    le cercle. Shen et Qi = les deux termes repris du début du
+    Neï King.
+  source: PVI-EEA-t2-p48_49
+
+# ─── Enrichissement CP I (PIV YY tomes 4-5) ───
+enrichissement_CP_I:
+  62V_yang_tsiao_mo: >
+    62V (Chen Mo) = commande le Yang Tsiao Mo = mise en
+    mouvement de l'énergie Yang. Grand point colonne
+    vertébrale inférieure + chaîne musculaire postérieure
+    (talon→nuque). Grande indication: système musculaire,
+    marche, station debout. Commande le fait d'avancer
+    dans TOUS les domaines de la vie.
+  tendinites_alerte: >
+    ALERTE CLINIQUE: les tendinites, bien que manifestant de
+    nombreux signes d'inflammation, sont PRESQUE TOUJOURS du Yin.
+    Les cystites aussi, malgré les signes d'inflammation.
+  67V_accouchement: >
+    67V t avec 62V t = aide retournement et expulsion de
+    l'enfant à l'accouchement (contractions trop faibles).
+  25V_prime_spasfon: >
+    25V' (branche externe, en face de 25V, hauteur L4/L5) =
+    point 'Spasfon'. Antispasmodique extraordinairement
+    efficace pour TOUS les spasmes douloureux de l'abdomen.
+    Dilate les canaux, relâche le spasme. ARRÊT INSTANTANÉ
+    des douleurs de colique hépatique et néphrétique.
+  v_et_reins: >
+    La Vessie dépense beaucoup d'énergie par la chaleur
+    des urines et peut ÉPUISER les Reins. Le 6R dirige
+    l'équilibre énergie entre R et V.
+  tae_yang: >
+    Le Tae Yang (V+IG) se perçoit au pouls gauche superficiel.
+    Énergie céleste = froid. Fonction de rafraîchissement.
+    Si Tae Yang insuffisant → le Feu Ministre (Chao Yang)
+    devient excessif.
+  source: PIV_YY_tomes4-5_CP_I
+
+# =============================================================================
+# ENRICHISSEMENT 3 FOYERS TOME 2 (PV-3F-t2)
+# =============================================================================
+
+enrichissement_3F_t2:
+  regulation_thermique: >
+    Les urines sont un des plus importants phénomènes de régulation
+    thermique. La Vessie contrôle cet équilibre : chaleur = énergie,
+    le liquide urinaire sert de support. Température trop élevée →
+    urines chaudes pour évacuer la chaleur, et inversement.
+  urines_diagnostic_3F: >
+    Urines claires = froid reins/FI (excès R Yin ou vide R Yang ou
+    attaque de froid au ventre/dos), fréquentes et abondantes.
+    Urines foncées = chaleur reins/FI (excès R Yang ou vide R Yin),
+    rares, peu abondantes, odorantes.
+  commandee_par_reins: >
+    La Vessie et le GI sont les deux Fou d'élimination commandés par
+    les Reins, maîtres du foyer inférieur. Les Reins gèrent les
+    proportions entre liquides et solides dans les éliminations.
+  source: PV-3F-t2

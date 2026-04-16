@@ -1,0 +1,713 @@
+# BILAN ÉNERGÉTIQUE YIN/YANG — MÉTHODE COMPLÈTE
+# Source: PIV YY tome 4 (CP I Partie 1) — pp.6-52
+# Le socle absolu du diagnostic traditionnel IEATC
+# Tout praticien commence TOUJOURS par ce bilan
+
+meta:
+  fichier: bilan_yin_yang.yaml
+  source_principale: PIV_YY_tome4_CP_I_partie1
+  importance: >
+    FONDATION ABSOLUE. Le bilan YY est le PREMIER acte
+    du praticien traditionnel. Sans lui, tout traitement
+    est aveugle. "Le praticien ignore ce qu'il fait s'il
+    ne connaît pas la nature YY du déséquilibre."
+  structure_pedagogique: >
+    Ce fichier suit l'ordre pédagogique exact du polycopié:
+    8 règles → tableaux → bilan → pouls → traitements →
+    méthodes (I Sou Jen + Siao Tse) → sectorisation → points.
+
+# ═══════════════════════════════════════════════════
+# LES 8 RÈGLES DIAGNOSTIQUES
+# ═══════════════════════════════════════════════════
+
+huit_regles_diagnostiques:
+  axiome: >
+    "Toutes les maladies se manifestent selon 8 causes
+    principales." Tout symptôme trouve sa place parmi
+    l'une des 8 rubriques traditionnelles.
+  les_8_regles:
+    - Yin
+    - Yang
+    - froid
+    - chaleur
+    - vide
+    - plenitude
+    - interne (revers, profondeur)
+    - externe (avers, superficie)
+  organisation: >
+    4 qualités Yin (Yin, froid, vide, interne) et
+    4 qualités Yang (Yang, chaleur, plénitude, externe).
+    Les 8 règles diagnostiques débouchent sur les
+    8 règles thérapeutiques — chacune a un traitement
+    spécifique et simple.
+  recoupements: >
+    De nombreux signes se recoupent entre les tableaux.
+    Trop de Yang s'accompagne souvent de chaleur, d'excès
+    d'énergie et se situe en surface. Trop de Yin s'accompagne
+    de froid, de vide et se situe à l'interne. Des variantes
+    existent quand une atteinte a progressé d'externe vers
+    interne ou l'inverse (froids externes, chaleurs internes).
+
+# ═══════════════════════════════════════════════════
+# TABLEAU 1 — SIGNES GÉNÉRAUX YY / FROID-CHALEUR
+# ═══════════════════════════════════════════════════
+
+signes_generaux_yin_yang:
+  explication: >
+    Ce tableau classe les signes généraux de l'individu
+    selon les 4 temps du diagnostic (inspection, interrogatoire,
+    palpation). Il sert à déterminer la polarité GÉNÉRALE.
+    Un sujet déséquilibré présente au moins 2/3 des signes
+    d'une polarité. En deçà, il est considéré équilibré.
+    JAMAIS de catégorisation définitive — valable uniquement
+    au moment précis de l'examen.
+
+  inspection:
+    yang_chaleur:
+      - mediterraneen, cheveux noirs, chauve precoce
+      - peau foncee, yeux noirs, velu
+      - teint clair rouge, yeux rouges
+      - langue rouge/pourpre, enduit sec collant jaune
+      - sujet sec mince, gestes vifs, colereux
+      - fermete, enthousiasme, independant
+      - parle facilement beaucoup et fort, convainquant
+      - diurne, gai
+      - odeur acide
+      - gestes amples, souplesse musculaire
+      - regard vif et direct, yeux tres mobiles
+    yin_froid:
+      - nordique, cheveux blonds, chevelure persistante
+      - peau claire, yeux bleus, poils rares
+      - teint pale bleme terne verdatre
+      - langue pale terne verdatre, enduit humide visqueux blanc
+      - sujet gras, calme, doux
+      - apathie, nonchalance, soumis
+      - timidite silencieux reserve, parle peu et bas
+      - nocturne, triste
+      - odeur fade
+      - gestes etriques, raideur et ankylose musculaire
+      - regard terne et fuyant, yeux fixes
+
+  interrogatoire:
+    yang_chaleur:
+      - dort peu, sommeil superficiel, gene par bruit/lumiere
+      - reves frequents, cauchemars
+      - eveille, curieux, creatif
+      - psychisme en hyperactivite, raisonneur intellectuel
+      - actif agite stresse nerveux
+      - confiant, sur de soi, dominateur, futuriste
+      - besoin de calme et silence
+      - entreprenant dynamique, sportif
+      - itinerant, aime le contact
+      - besoin de rester chez soi, bricoleur
+      - endurant
+      - bouche seche, soif intense, peu de salive
+      - mange peu, besoin nourriture froide, boissons fraiches
+      - digere vite, estomac tendu serre
+      - besoin de sucre, aime le sel, aime l'onctueux
+      - recherche le frais, se couvre peu, corps chaud
+      - toux rauque, crachats jaunes/rouges/marrons
+      - constipation selles seches, chaleur intestins, brulure anus
+      - urines rares peu abondantes foncees odorantes mousseuses
+      - cycle long, regles courtes sang rare rouge clair brillant
+      - absence sudation, saigne facilement du nez
+      - cicatrise rapidement, cicatrice cheloide
+      - sensible chaleur et secheresse
+      - maladies haut du corps et en surface (locomoteur)
+      - yeux injectes
+    yin_froid:
+      - dort beaucoup, sommeil profond lourd
+      - trou sans fond, somnolent, sans interet
+      - tete vide, sensible artiste
+      - passif calme placide amorphe
+      - anxieux craintif doute influencable, passeiste
+      - besoin de bruit et animation, mou suiveur
+      - sedentaire, aime l'isolement
+      - besoin de sortir, lecteur
+      - fatigable
+      - jamais soif, salive beaucoup
+      - mange beaucoup, besoin nourriture chaude, boissons chaudes
+      - digestion lente, aerophagie, gonflement
+      - besoin de sel, aime le doux, aime le croquant
+      - besoin de chaleur, s'habille beaucoup, corps froid
+      - toux claire, crachats liquides en eau
+      - selles liquides, gonflement intestins, froid anus
+      - urines frequentes abondantes claires
+      - cycle court, regles longues sang abondant terne fonce
+      - sueur abondante, varicosites membre inferieur
+      - cicatrisation lente, cicatrice large et blanche
+      - sensible au froid et humidite
+      - maladies bas du corps et en profondeur (organes)
+      - ptoses d'organes
+
+  palpation:
+    yang_chaleur:
+      - tissus et membres chauds
+      - corps raide tendu dur
+      - peau seche epaisse calleuse rugueuse
+      - corps plein rempli
+      - ventre chaud besoin de froid
+      - pouls rapide fort superficiel dur
+      - ongles fins
+    yin_froid:
+      - tissus et membres frais ou froids
+      - corps relache laxe flasque mou
+      - peau humide fine douce molle
+      - corps vide decharne
+      - ventre froid besoin de chaud
+      - pouls lent faible profond mou
+      - ongles epais
+
+  regle_couleur_inversee: >
+    Lorsque dans une colonne on rencontre la couleur de
+    l'autre polarité, cela signifie que l'individu COMPENSE
+    son dérèglement par la recherche de l'élément contraire.
+
+# ═══════════════════════════════════════════════════
+# TABLEAU 2 — SIGNES LOCAUX YY / FROID-CHALEUR
+# ═══════════════════════════════════════════════════
+
+signes_locaux_yin_yang:
+  explication: >
+    Complète le bilan général. Local = atteinte située
+    sur une zone précise d'une partie du corps, ne
+    concernant pas l'état général (ex: entorse, sciatique).
+    Si le YY général est déséquilibré, son traitement doit
+    être effectué EN PREMIER — il suffit souvent à rétablir
+    les troubles locaux. Même règle: au moins 2/3 des signes
+    d'une polarité. En deçà → vide/plénitude ou externe/interne.
+
+  yang_chaleur:
+    - douleur aigue superficielle recente
+    - douleur erratique (change de place)
+    - douleur diurne, aggravee le jour, calmee la nuit
+    - aggravee au mouvement, amelioree au repos
+    - aggravee a la pression et au massage
+    - aggravee par la chaleur, amelioree par le froid
+    - amelioree la nuit, l'hiver
+    - elancements
+    - chaleur des tissus
+    - spasmes, contractures
+    - rougeur, secheresse
+    - capillaires rouges
+    - ulceration
+
+  yin_froid:
+    - douleur sourde profonde ancienne
+    - douleur fixe (toujours au meme endroit)
+    - douleur nocturne, aggravee la nuit, calmee le jour
+    - aggravee au repos, amelioree au mouvement
+    - amelioree a la pression et au massage
+    - aggravee par le froid, amelioree par la chaleur
+    - amelioree le jour, l'ete
+    - lancinante
+    - froid des tissus
+    - paralysie, atonie
+    - paleur, suintement
+    - capillaires bleus, varicosites
+    - oedeme
+
+# ═══════════════════════════════════════════════════
+# TABLEAU 3 — VIDE / PLÉNITUDE DE L'ÉNERGIE
+# ═══════════════════════════════════════════════════
+
+vide_plenitude:
+  definition: >
+    Vide et plénitude sous-entendent "de l'énergie"
+    circulant dans les méridiens et organes en leur
+    apportant les éléments nutritifs = énergie nutritionnelle
+    et sang.
+
+  signes_plenitude:
+    inspection:
+      - hyperemotivite
+      - corps ferme tendu fort actif resistant
+      - teint rouge yeux rouges
+      - respiration forte ample, poitrine congestionnee
+      - muscles volumineux et fermes
+      - corps sec meme pendant fievres
+      - langue foncee enduit epais collant
+    auscultation:
+      - parle vite voix elevee forte, parle beaucoup
+      - bruits clairs (percussion)
+    interrogatoire:
+      - toujours actif, besoin de toujours agir
+      - recherche solitude et obscurite
+      - sensation chaleur ou plenitude
+      - aggrave par le massage
+      - prefere douche fraiche
+      - hypersensibilite, irritation cutanee brulures
+      - irritabilite agressivite latente
+      - toujours faim, digestion rapide
+      - constipation ou debacle intestinale
+      - selles jaune brillant
+      - sensation chaleur/brulure intestins
+      - urine peu rarement, corps sec
+      - regles pales peu abondantes
+      - douleur abdominale apres 1er jour des regles
+      - crampes contractures
+
+  signes_vide:
+    inspection:
+      - hypoemotivite
+      - corps mou faible peu resistant
+      - teint sombre terne grisatre
+      - petite respiration haletement
+      - muscles minces atoniques
+      - sueurs intenses
+      - langue pale humide pas d'enduit ou mince non collant
+    auscultation:
+      - parle lentement voix basse faible
+      - essoufflement, parle peu
+      - bruits caverneux (percussion)
+    interrogatoire:
+      - fatigue, corps las
+      - recherche le monde et la lumiere
+      - sensation de froid dans le corps
+      - ameliore par le massage et bains chauds
+      - diminution sensibilite, demangeaisons
+      - indifference
+      - manque appetit, digestion lente difficile
+      - diarrhees, aliments non digeres dans selles
+      - intestins sans force, gonflement
+      - urine beaucoup souvent, transpiration intense
+      - regles sang epais et fonce
+      - douleur abdominale avant les regles amelioree avec le sang
+      - atonie faiblesse musculaires
+
+# ═══════════════════════════════════════════════════
+# TABLEAU 4 — EXTERNE / INTERNE
+# ═══════════════════════════════════════════════════
+
+externe_interne:
+  definition: >
+    Indiquent le NIVEAU où se situent les pathologies.
+    Le principe du traitement et les points varient selon
+    le niveau. Externe/interne = superficie/profondeur =
+    avers/revers.
+
+  externe_yang:
+    description: >
+      Surface du corps: peau, muscles superficiels, fascias,
+      partie extérieure articulations/ligaments/capsules,
+      organes des sens, système locomoteur.
+    zones:
+      - haut du corps (tete, haut dos, poitrine, MS)
+      - arriere (talons jusqu'a la tete)
+      - gauche (tout le cote gauche)
+    niveaux_atteinte:
+      - externe, peau
+      - meridiens superficiels
+      - muscles superficiels
+      - haut du corps, 4 membres
+      - visceres
+
+  interne_yin:
+    description: >
+      Profondeur du corps: organes et viscères, systèmes
+      sanguin/lymphatique/nerveux, toutes les moelles,
+      cerveau/cervelet/moelle épinière, glandes hormonales,
+      parties internes articulations (cartilage, synovie).
+    zones:
+      - bas du corps (MI, bassin, abdomen, bas dos)
+      - avant (pieds jusqu'a la gorge)
+      - droite (tout le cote droit)
+    niveaux_atteinte:
+      - visceres + organes
+      - meridiens internes
+      - muscles profonds
+      - bas du corps, tronc
+      - organes
+
+  avers_revers: >
+    Notion complémentaire. Avers = face extérieure d'un
+    tissu (vers superficie). Revers = face intérieure (vers
+    profondeur). Organes (tsang) = revers, viscères (fou) =
+    avers. Chaque tissu a un côté avers et revers, même en
+    profondeur.
+
+# ═══════════════════════════════════════════════════
+# BILAN — LES 4 COMBINAISONS POSSIBLES
+# ═══════════════════════════════════════════════════
+
+bilan_4_combinaisons:
+  regle_formulation: >
+    Toujours formuler local en premier, général en second.
+    Ex: "Yang de Yang" = Yang local sur Yang général.
+
+  yang_de_yang:
+    local: Yang
+    general: Yang
+    exemple: "coup de soleil sur la peau"
+    explication: "chaleur (Yang local) sur la peau (Yang = surface)"
+
+  yang_de_yin:
+    local: Yang
+    general: Yin
+    exemple: "ulcère d'estomac"
+    explication: "ulcère = chaleur (Yang local) dans l'estomac (Yin = interne)"
+
+  yin_de_yang:
+    local: Yin
+    general: Yang
+    exemple: "frilosité"
+    explication: "froid (Yin local) sur la peau (Yang = surface)"
+
+  yin_de_yin:
+    local: Yin
+    general: Yin
+    exemple: "œdème des membres inférieurs"
+    explication: "œdème = froid (Yin local) en bas du corps (Yin)"
+
+  nature_et_siege: >
+    Le but thérapeutique = traiter une énergie déréglée
+    dans un endroit donné. On cherche:
+    1) NATURE de l'énergie pathologique (Yin/Yang, froid/chaleur)
+    2) SIÈGE du dérèglement (haut/bas, gauche/droite,
+       externe/interne, méridiens/organes)
+
+# ═══════════════════════════════════════════════════
+# LES 4 DÉSÉQUILIBRES POSSIBLES
+# ═══════════════════════════════════════════════════
+
+quatre_desequilibres:
+  cas_1:
+    description: Yang normal, Yin en excès → Yin domine
+    symptomatologie: identique au cas 3 (Yin l'emporte)
+  cas_2:
+    description: Yin normal, Yang en excès → Yang domine
+    symptomatologie: identique au cas 4 (Yang l'emporte)
+  cas_3:
+    description: Yang faible, Yin normal mais dominant
+    nom: Yin apparent
+    explication: >
+      Le patient présente des troubles d'apparence Yin en excès
+      alors que le Yin est normal — c'est la déficience du Yang
+      qui provoque l'apparition des troubles.
+  cas_4:
+    description: Yin faible, Yang normal mais dominant
+    nom: Yang apparent
+    explication: >
+      Troubles d'apparence Yang (brûlures estomac, spasmes)
+      alors que le Yang est normal — c'est le vide de Yin qui
+      laisse le Yang non tempéré. Ex: tension basse + brûlures.
+
+  distinction_par_pouls: >
+    Les tableaux seuls ne permettent PAS de distinguer
+    cas 1/3 ou cas 2/4. Seuls les pouls le permettent.
+    C'est pourquoi la prise de pouls est INDISPENSABLE.
+
+  fourchette_du_tolerable: >
+    La normalité du pouls correspond à l'espace de la
+    fourchette du supportable. Cette normalité est
+    indéfinissable sauf par l'expérience, et différente
+    pour chaque individu.
+
+# ═══════════════════════════════════════════════════
+# PRINCIPES DU TRAITEMENT
+# ═══════════════════════════════════════════════════
+
+principes_traitement:
+  premiere_loi: >
+    "Le YY doit toujours faire l'objet du 1er traitement."
+    "Traiter le YY, c'est enrayer les causes des déséquilibres."
+    Souvent suffisant à tout rétablir.
+    → 1ère séance: toujours YY
+    → Début de chaque séance: toujours YY
+  deuxieme_loi: >
+    "Dans les insuffisances Yin et Yang, toujours traiter
+    le Yin en premier. PRIORITÉ AU YIN."
+    Car le Yin est préexistant au Yang et le génère.
+    Toute déficience du Yang est due à une insuffisance du Yin.
+  troisieme_loi_derivee: >
+    Si le Yin est normal et le Yang faible = pas de mutation
+    du Yin en Yang → chercher le blocage Yin + fortifier Yang.
+    Si le Yang est vide et le Yin faible → traiter le Yin.
+
+  regles_action:
+    - priorite au Yin faible
+    - priorite au vide
+    - tonifier ce qui est en vide
+    - disperser ce qui est en exces
+    - soit simultanement soit alternativement selon seances
+
+  regle_complementaire: >
+    Quand on tonifie le Yin → toujours ajouter 1 point Yang
+    (le Yang accélère la réaction du Yin, toujours lent).
+    Quand on tonifie le Yang → toujours ajouter 1 point Yin
+    (le Yin nourrit le Yang sollicité).
+    Préférer tonifier le Yang car le Yin est long et lent
+    à mobiliser, le Yang est rapide.
+
+  so_ouenn_cite: >
+    "Le sang et l'énergie adorent la chaleur et ont horreur
+    du froid." La médecine chinoise rejette l'application
+    de froid sur le corps.
+
+# ═══════════════════════════════════════════════════
+# MÉTHODE I SOU JEN
+# ═══════════════════════════════════════════════════
+
+methode_i_sou_jen:
+  principe: >
+    Classement selon les 4 combinaisons local/général
+    puis traitement spécifique. Permet de traiter en une
+    fois le déséquilibre général ET local.
+
+  classification:
+    yang_yang:
+      description: excès de Yang de tout l'organisme, il en produit trop
+      traitement: "disperser: 20TM d, 14TM d, 12JM d"
+    yang_yin:
+      description: >
+        vide de Yang en général; le peu qu'il a s'est bloqué
+        dans une région (locale)
+      traitement: >
+        tonifier le Yang partout sauf en local:
+        4GI t, 12JM t, 36E t + disperser Yang local
+    yin_yang:
+      description: >
+        vide de Yin en général; le peu de Yin est bloqué
+        dans une région locale
+      traitement: >
+        tonifier le Yin partout sauf en local:
+        6Rte t, 6JM t, 6MC t + disperser Yin local
+    yin_yin:
+      description: excès de Yin de tout l'organisme, ne transforme pas Yin en Yang
+      traitement: "disperser: 6Rte d, 6JM d, 6MC d"
+
+  regle_equivalence: >
+    Il y a équivalence à disperser le Yin ou tonifier le Yang.
+    Dans les cas Yin/Yang et Yin/Yin, préférer tonifier le Yang:
+    4GI t, 12JM t, 36E t (plus rapide et efficace).
+
+# ═══════════════════════════════════════════════════
+# MÉTHODE SIAO TSE
+# ═══════════════════════════════════════════════════
+
+methode_siao_tse:
+  principe: >
+    Synthèse de classement YY des différents secteurs à partir
+    de la dialectique surface/profondeur et froid/chaleur.
+    Apporte les points Su antiques correspondants.
+
+  classement_niveaux_anatomiques:
+    yang_yang: "peau et chairs (externe Yang)"
+    yin_yang: "os et muscles superficiels = méridiens (externe Yin)"
+    yang_yin: "viscères (interne Yang)"
+    yin_yin: "organes (interne Yin)"
+
+  classement_nature:
+    yang: chaleur
+    yin: froid
+
+  predilection_niveau_atteinte: >
+    La chaleur (comme le feu) monte et sort → atteintes en
+    haut du corps ou en surface. Le froid (comme l'eau)
+    descend et entre → atteintes en bas ou en profondeur.
+
+  compilation_4_cas:
+    yang_de_yang:
+      description: chaleur externe = attaque par chaleur en superficie
+      points_su: "Ting + Réunion dispersés"
+      action: dispersent les attaques superficielles
+      exemples: "coup de chaleur, insolation, zona, urticaire, inflammation organes des sens"
+      saison: été
+    yin_de_yang:
+      description: froid externe = attaque par froid en superficie
+      points_su: "King des méridiens Yin tonifiés"
+      action: appellent l'énergie défensive qui réchauffe les tissus
+      exemples: "perte sensibilité cutanée, faiblesse musculaire, crampes de froid, périarthrite"
+      saison: automne
+    yin_de_yin:
+      description: froid interne = attaque organes par le froid
+      points_su: "Iong et Iu des méridiens Yin tonifiés"
+      action: nourrissent réchauffent accélèrent fonctions organiques
+      exemples: "fonctions organiques ralenties/vides, foie/rein/rate faibles, insuffisance coeur/poumon"
+      saison: hiver
+    yang_de_yin:
+      description: chaleur interne = attaque viscères par la chaleur
+      points_su: "Ro des méridiens Yang tonifiés ou dispersés"
+      action: ouvrent portes de sortie superficie/profondeur pour extraire chaleur
+      exemples: "constipations, diarrhées, cystites, gastrite, ulcères, calculs"
+      saison: printemps
+
+  tableau_synthese:
+    chaleur_externe:
+      classification: Yang/Yang
+      points_isj: "20TM d, 14TM d, 12JM d"
+      points_su: "Ting et réunion d"
+      saison: ETE
+    froid_interne:
+      classification: Yin/Yin
+      points_isj: "4GI t, 12JM t, 36E t"
+      points_su: "iong et iu des Yin t"
+      saison: HIVER
+    froid_externe:
+      classification: Yin/Yang
+      points_isj: "6MC t, 6JM t, 6Rte t + 1 Yang"
+      points_su: "king des Yin t"
+      saison: AUTOMNE
+    chaleur_interne:
+      classification: Yang/Yin
+      points_isj: "4GI t, 12JM d, 36E t + 1 Yin"
+      points_su: "ro des Yang t ou d"
+      saison: PRINTEMPS
+
+# ═══════════════════════════════════════════════════
+# SECTORISATION — LES 4 CADRANS
+# ═══════════════════════════════════════════════════
+
+sectorisation_4_cadrans:
+  principe: >
+    Le corps humain est divisé en 4 secteurs. Toute pathologie
+    locale s'intègre dans un secteur avec ses points
+    correspondants. L'analogie fait correspondre la nature
+    des atteintes avec des secteurs précis.
+
+  cadrans:
+    haut_gauche:
+      polarite: Yang/Yang
+      so_ouenn: >
+        "Le Ciel est fort en haut, le Yang est à la tête;
+        le côté gauche est le plus Yang."
+      pathologies_typiques: >
+        Atteinte cardiaque, inflammation organes des sens
+        à gauche, arthrite MS gauche.
+    haut_droite:
+      polarite: Yin/Yang
+      so_ouenn: >
+        "Si le Yang s'affaiblit, l'Homme souffrira d'un
+        affaissement des organes des sens à droite."
+      pathologies_typiques: >
+        Sinusite, rhinite, bronchite, grippe, dorsalgie,
+        otite, épaule gelée + inflammations ailleurs (Yang apparent).
+    bas_gauche:
+      polarite: Yang/Yin
+      pathologies_typiques: >
+        Colite gauche, phlébite, crise de goutte.
+    bas_droite:
+      polarite: Yin/Yin
+      so_ouenn: >
+        "La Terre est forte en bas à droite. Si le Yin
+        s'affaiblit, l'insuffisance apparaît sur le MI gauche."
+      pathologies_typiques: >
+        Kyste ovarien fonctionnel, varices, œdème MI,
+        hyperlaxité ligamentaire.
+
+  milieu_horizontal:
+    ventre: niveau du nombril
+    dos: niveau 10ème dorsale
+
+# ═══════════════════════════════════════════════════
+# PROTOCOLE THÉRAPEUTIQUE EN 4 TEMPS
+# ═══════════════════════════════════════════════════
+
+protocole_therapeutique:
+  principe: >
+    Chaque étape doit être suivie dans l'ordre, soit au
+    cours de chaque séance, soit d'une séance à l'autre.
+    L'implantation des aiguilles se fait en traitant les
+    points correspondant à chaque rubrique dans l'ordre.
+  etapes:
+    1: "Yin/Yang"
+    2: "5 Éléments"
+    3: "Vide/Plénitude"
+    4: "Froid/Chaleur"
+  source: PIV_YY_tome5_p32
+
+# ═══════════════════════════════════════════════════
+# 5 TEMPS DU BILAN COMPLET (CURSUS)
+# ═══════════════════════════════════════════════════
+
+cinq_temps_bilan:
+  premier_temps:
+    contenu: bilan Yin/Yang
+    cursus: "1ère partie de 1ère année"
+  deuxieme_temps:
+    contenu: bilan des 5 éléments
+    cursus: "2ème partie de 1ère année"
+  troisieme_temps:
+    contenu: "bilan des 3 foyers + bilan des 4 énergies"
+    cursus: "1ère partie de 2ème année"
+  quatrieme_temps:
+    contenu: bilan des organes viscères
+    cursus: "2ème partie de 2ème année"
+  cinquieme_temps:
+    contenu: bilan des méridiens
+    cursus: "3ème année"
+  regle_raccourci: >
+    Le praticien ne passe PAS en revue tous les temps.
+    Dès le YY, il détermine si l'affection concerne les
+    méridiens (surface) ou le système organique (profondeur)
+    et se dirige aussitôt vers le temps d'examen adéquat.
+
+# ═══════════════════════════════════════════════════
+# LES 3 PLANS DE L'HUMAIN
+# ═══════════════════════════════════════════════════
+
+trois_plans:
+  psychique: >
+    Inclut psychique et sentimentalité pour l'instant
+    (points polyvalents). Points: 20TM (Yang), 6MC (Yin).
+  physique: >
+    Tout le corporel hors organique = locomoteur, 4 membres.
+    Points: 14TM (Yang), 6Rte (Yin).
+  organique: >
+    Organes, viscères, fonctions, métabolismes, glandes
+    hormonales, SNC. Points: 12JM (Yang), 6JM (Yin).
+
+# ═══════════════════════════════════════════════════
+# BLOCAGE YIN/YANG
+# ═══════════════════════════════════════════════════
+
+blocage_yin_yang:
+  diagnostic: >
+    Quand le bilan montre une opposition flagrante entre
+    le questionnaire/observation et les pouls → blocage YY.
+    Le praticien doit y penser EN PREMIER.
+  traitement_immediat:
+    yang: "27TM d"
+    yin: "24JM d"
+    technique: >
+      Disperser ces 2 points simultanément. Très sensibles
+      à l'aiguille — massage ponctiforme avec sphère arrondie
+      (~5mm) très efficace. Reprendre les pouls ensuite —
+      modification en 1 à 2 minutes.
+  points_deblocage_complementaires:
+    - "37E t — débloque excès Yang haut du corps"
+    - "39E d — traite vides Yang haut du corps"
+    - "3TM d — traite vides Yang bas du corps"
+    - "4TM t — traite vides Yang aux lombes"
+    - "4JM d — débloque excès Yin abdomen"
+    - "6Rte d — débloque excès Yin bas du corps et organiques"
+    - "15GI d et 39V d — débloquent excès Yang aux membres"
+  cas_pierre_andre: >
+    Exemple clinique: Pierre-André, pas de réaction malgré
+    traitement adapté (12JM t, 4GI t, 36E t) → indique blocage
+    inapparent. 27TM d + 24JM d → pouls évoluent enfin.
+    "L'absence de réactions alors que le traitement est
+    parfaitement adapté indique que l'organisme ne peut céder;
+    cela met le praticien sur la piste d'un blocage."
+
+# ═══════════════════════════════════════════════════
+# ÉTHIQUE DU THÉRAPEUTE
+# ═══════════════════════════════════════════════════
+
+ethique_therapeute:
+  citation_fondamentale: >
+    "Le patient apporte l'intelligence de sa maladie au
+    praticien qui apporte l'intelligence de son art de soigner.
+    L'un est aussi important que l'autre."
+  duité_praticien_patient: >
+    Praticien et patient forment une duité, une dynamique
+    enclenchant un processus de régénération par de nouvelles
+    mutations. L'Acte devient Art et peut toucher au Sacré.
+  connaitre_homme_connaitre_univers: >
+    "Connaître l'homme, c'est connaître l'univers."
+    La maladie = état d'un être sorti de la Voie, de son Tao.
+  mise_en_garde: >
+    La pratique symptomatique compile de multiples méthodes
+    → multiplication inutile des points, sans explication
+    énergétique ni indication des pouls. Le praticien navigue
+    au hasard. Résultats médiocres, séances multipliées.

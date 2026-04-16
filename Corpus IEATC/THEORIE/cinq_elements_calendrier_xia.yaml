@@ -1,0 +1,246 @@
+# CINQ ÉLÉMENTS — PETIT CALENDRIER DES XIA (PRESCRIPTIONS MENSUELLES)
+# Source : PVII Les 5 Éléments — Physiologie tome 3, pp. 88-96
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_calendrier_xia.yaml
+  source: PVII_5Elem_t3_p88_96
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_saisons.yaml
+    - THEORIE/cinq_elements_par_element.yaml
+    - THEORIE/cinq_elements_kan_che.yaml
+
+# ─────────────────────────────────────────────────
+# INTRODUCTION
+# ─────────────────────────────────────────────────
+
+introduction:
+  definition: >
+    Texte très classique en vigueur pendant plus de deux millénaires.
+    Guide des activités saisonnières depuis l'Empereur (Fils du Ciel)
+    jusqu'au paysan (Enfant de la Terre). Texte non médical mais rural.
+    Utile en complément du chapitre 2 du So Ouen (version médicale détaillée).
+  maxime_fondatrice: >
+    « Ce qui est en haut donne. Le Ciel ordonne.
+    Ce qui est en bas reçoit. La Terre et l'Être Humain se conforment. »
+  structure: 4_saisons_x_3_mois_chacune_total_12_mois
+  format: poemes_rythmiques_chinois
+  source: PVII_t3_p88
+
+# ─────────────────────────────────────────────────
+# LE PRINTEMPS
+# ─────────────────────────────────────────────────
+
+Printemps:
+  theme: "Jaillir et développer"
+  principe_medical: >
+    Le Souffle du Printemps fait croître et évolue. Favoriser la vie.
+    Contrarier ce principe = le foie serait fourbu, reportant en été
+    un risque malvenu — par défaut de croissance simplement maintenu.
+  conduites: couche_tard_leve_tot_vetements_denoues_cheveux_libres_promenade
+  interdits: tuer_punir_prendre
+
+  mois_1:
+    nom: Premier_mois_de_Printemps
+    signes_naturels: >
+      Début du printemps. Hibernants se réveillent. Faisan crie.
+      Oies du nord remontent. Poisson frémit sous la glace.
+      Rat des champs sort. Loutre offre des poissons. Autour
+      devient ramier. Poussin pépie. Saule bourgeonne. Pêcher fleurit.
+    activites: labourer_terroir_poireaux_poussent
+    interdits_precis: abattage_arbres_destruction_petits_animaux_aucune_arme
+
+  mois_2:
+    nom: Deuxième_mois_de_Printemps
+    signes_naturels: >
+      Milieu du Printemps. Tonnerre, pluie. Brebis avec agneau.
+      Insecte sort du cocon. Loriot chante. Rue fleurit. Hirondelles
+      retrouvent leur nid.
+    activites: >
+      Herser, niveler, aplanir. Rectifier poids et mesures.
+      Mariage collectif des garçons et filles. Cérémonies musicales.
+      L'Empereur voit la cérémonie entouré des Dignitaires et Ministres.
+    interdits_precis: aucun_animal_ne_peut_etre_occis
+
+  mois_3:
+    nom: Troisième_mois_de_Printemps
+    signes_naturels: >
+      Yang en plénitude. Germe se redresse. Bourgeon s'épanouit.
+      Rat se change en caille. Taureaux et chevaux s'accouplent.
+    activites: >
+      Routes élargies. Vers à soie triés pour l'Impératrice. Artistes
+      réunis selon les saisons. Surplus des réserves réparti aux
+      nécessiteux. Lettrés pressentis pour conseiller les princes.
+    interdits_precis: filets_pieges_appats_chasse_interdits
+
+# ─────────────────────────────────────────────────
+# L'ÉTÉ
+# ─────────────────────────────────────────────────
+
+Ete:
+  theme: "Gravir et contempler"
+  principe_medical: >
+    Activité libre, joie rayonnante. Le Souffle de l'été conduit
+    à la joie. Y aller à l'encontre = le cœur en pâtira, fièvre en
+    automne, mal reprend en hiver.
+  conduites: lever_tot_repos_ombre_liberte_joie
+
+  mois_1:
+    nom: Premier_mois_de_l_Ete
+    signes_naturels: >
+      Début de l'été. Grenouille coasse. Ver de terre paraît.
+      Animaux débusqués aux champs. Cent plantes de santé cueillis.
+    activites: >
+      Fils du Ciel à gauche du Ming Tang, vêtu de rouge, rubis.
+      Nourrit de volaille et bœuf sur le grill. Faubourgs du Sud.
+      Vin rituel, soie partagée. Concert dans la nuit du solstice.
+    interdits_precis: grands_terrassements_arbre_en_foret_interdits
+
+  mois_2:
+    nom: Deuxième_mois_de_l_Ete
+    signes_naturels: >
+      Mante retrouve la vie. Pie grièche crie. Cerf perd ses bois.
+      Cigale fait sa scie. Lézard s'enhardit. Éphémères dansent.
+      Hibiscus flamboie. Jour plus long que la nuit.
+    conduites_specifiques: >
+      Le Yin et Yang se heurtent — sage reste au repos, tempère désirs,
+      restreint appétit, apaise son cœur (Qi), méditation. Pas trop de
+      condiments, manger des prunes et haricots pour apaiser le chaud.
+      Si vent au Sud : se méfier du feu, gravir la montagne pour fraîcheur.
+
+  mois_3:
+    nom: Troisième_mois_de_l_Ete_fin_d_ete
+    signes_naturels: >
+      Vent tiédi. Grillon creuse dans le mur. Ver luisant surgit.
+      Épervier vole. Tortues et caïmans sortent. Poissons procréent.
+    activites: >
+      Foin réparti. Roseau coupé pour palis. Terre arrosée de pluie
+      chaude = fumure. À la fin du mois : élément Terre agit. Saveur
+      sucrée pacifie le feu. Rate bénéficie. Mets à l'étouffée.
+    interdits_precis: >
+      Couper les arbres (bois pourri). Grande levée de terre interdite.
+      Aucune troupe levée. Éviter agitation du Qi.
+
+# ─────────────────────────────────────────────────
+# L'AUTOMNE
+# ─────────────────────────────────────────────────
+
+Automne:
+  theme: "Construire et égaliser"
+  principe_medical: >
+    L'énergie du Ciel oppresse la Terre. Le Métal se manifeste.
+    Pacifier l'esprit, amasser le souffle pour maintenir la vitalité.
+    Le Souffle du Poumon = fraîcheur et clarté.
+    Y aller à l'encontre = Poumon blessé, douleurs et diarrhées en hiver.
+  conduites: lever_tot_coucher_tot_fier_comme_un_coq_cacher_ses_pensees
+
+  mois_1:
+    nom: Premier_mois_d_Automne
+    signes_naturels: >
+      Rosée blanchit à l'aube. Renard chasse la poule. Cigale se lasse.
+      Eau déborde. Laiteron et roseau jaillissent.
+    activites: >
+      Digues et levées construites. Grand Scribe avertit 3 jours avant.
+      Métal et blanc choisis. Fils du Ciel en char de guerre aux faubourgs
+      de l'Ouest. Récompenses aux braves. Justice rendue. Comptes exigés.
+
+  mois_2:
+    nom: Deuxième_mois_d_Automne
+    signes_naturels: >
+      Hirondelles fuient. Grue vient du Sud. Oie niche au Nord.
+      Étourneau picore. Vent plus froid portant la pluie.
+    activites: >
+      On nourrit le vieillard (hospices ouverts). Officier impérial
+      contrôle les habits. Vêtements de dessus et dessous. Mesures de
+      longueur et poids définis. Foires, marchés, trocs.
+
+  mois_3:
+    nom: Troisième_mois_d_Automne
+    signes_naturels: >
+      Loup sacrifie un cerf. Lapin gibier de plaine. Hibernant obstrue
+      son trou. Mouettes plongent en mer. Fleur de chrysanthème.
+      Feuilles tombent. Charbon produit du bois mort.
+    activites: >
+      Greniers remplis des 5 grains. Grand Scribe affiche l'avis de froid.
+      Armure du Fils du Ciel. Chasse permise si gibier abonde, sans abus.
+      Bâton planté au Nord : annonce l'hiver, automne se termine.
+
+# ─────────────────────────────────────────────────
+# L'HIVER
+# ─────────────────────────────────────────────────
+
+Hiver:
+  theme: "Maintenir et conserver"
+  principe_medical: >
+    Protéger et maintenir l'énergie. S'occuper de soi. Rester couvert.
+    Y aller à l'encontre = les reins seront meurtris. Au printemps venu,
+    on perdra l'appétit, on sera épuisé.
+  conduites: lever_tard_coucher_tard_couvrir_recueillement_interieur
+
+  mois_1:
+    nom: Premier_mois_de_l_Hiver
+    signes_naturels: >
+      Glace emprisonne le puits. Terre durcie. Arc-en-ciel ne paraît plus.
+      Cormoran plonge dans l'huître. Loutre avec ses petits sur la neige.
+    activites: >
+      Taxe sur la pêche en étang. Fils du Ciel aux faubourgs du Nord.
+      Habits noirs, pierres de geai. Char sombre attelé de gris.
+      Le Grand Scribe annonce l'hiver. Yang monte, Qi concentré en bas.
+      Ciel et Terre séparés. Pension aux proches des morts pour la Patrie.
+      Millet et porc. Sel et saumure. Trigrammes tirés dans l'encens.
+
+  mois_2:
+    nom: Deuxième_mois_de_l_Hiver
+    signes_naturels: >
+      Glace s'affermit. Terre se fissure. Faisan muet. Tigres s'accouplent.
+      Grésil sur ardoises. Source gémit sous la glace.
+    activites: >
+      Ne pas creuser la terre ni ouvrir les pertuis. Tout ce qui est
+      couvert conservé. Repos prescrit. Sage pacifie son Cœur, acère
+      son ouïe, renforce ses reins pour longue vie. Préparation du vin
+      (alchimie : millet, riz, souche, ferment, eau de source, argile).
+    interdits_precis: >
+      Ne rien dégarni de couvert. Travail restreint. Sage ne regarde pas
+      (néglige le regard = intérieure concentration).
+
+  mois_3:
+    nom: Troisième_mois_de_l_Hiver
+    signes_naturels: >
+      Pie haut dans les arbres. Milan cruel poursuit l'oiseau.
+      Poule dort. Faisan pépie. Glace abonde et est recueillie.
+      Pêche sur l'étang.
+    activites: >
+      Fils du Ciel recense les terres et richesses. Cinq semences
+      sorties des jarres. Charrue réparée pour les labours. Prendre des
+      forces, trouver compagnie. Grand bœuf de terre noire englouti
+      dans l'eau = emporte l'énergie de l'hiver vers la mer. Concert
+      bruyant. Banquets et libations aux Esprits. Torches dispersent la nuit.
+      Le cycle du soleil se finit. Calendrier soumis à l'Empereur.
+      Les Prescriptions Mensuelles sont définies.
+    conclusion: >
+      « Afin que Ciel et Terre dans l'Homme communient. »
+
+# ─────────────────────────────────────────────────
+# SYNTHÈSE MÉDICALE DU CALENDRIER DES XIA
+# ─────────────────────────────────────────────────
+
+synthese_medicale:
+  regle_generale: >
+    Contrarier le souffle de sa saison = blesser l'organe correspondant
+    ET déclencher des pathologies lors de la saison SUIVANTE.
+  tableau_pathologies:
+    Printemps_contrarié: foie_fourbu_risque_maladie_en_ete
+    Ete_contrarié: coeur_patit_fievre_en_automne_et_hiver
+    Automne_contrarié: poumon_blesse_douleurs_diarrhees_en_hiver
+    Hiver_contrarié: reins_meurtris_perte_appetit_epuisement_au_printemps
+  conducteurs_saisonniers:
+    Printemps: favoriser_croissance_ne_pas_tuer
+    Ete: joie_liberte_activite
+    Automne: rigueur_justice_pacification
+    Hiver: conservation_recueillement_interieur
+  application_clinique: >
+    Chaque rupture de la Voie saisonnière fragilise l'organe de la
+    saison concernée ET prépare la pathologie de la saison suivante
+    selon l'ordre du cycle Tcheng. Vision préventive : le traitement
+    de l'organe de la saison courante empêche la maladie de la prochaine.

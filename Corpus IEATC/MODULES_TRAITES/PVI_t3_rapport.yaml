@@ -1,0 +1,453 @@
+# RAPPORT D'INTÉGRATION — PVI SÉMINAIRES CLM TOME 3
+# Date : 2026-04-06
+
+meta:
+  polycopie: EEA_3e.pdf
+  titre: Polycopié VI — Séminaires CLM — Physiologie Tsang/Fou tome 3
+  sous_titre: >
+    Transcriptions des séminaires du Centre de Langues et Médecines (1982-83).
+    Dr Schatz, Elisabeth Rochas de la Vallée, Jean-Louis Blard.
+    Physiologie approfondie des Tsang et Fou, Fu extraordinaires,
+    pathologies cliniques (diarrhées, hypertension, surdités).
+  auteurs:
+    - Dr_Jean_Schatz
+    - Elisabeth_Rochas_de_la_Vallee
+    - Jean-Louis_Blard
+  dates_seminaires: 1982-1983
+  pages: 85
+  module: VI_Seminaires_CLM_tome_3
+  niveau: fondateur_philosophique_et_clinique
+  prerequis: PVI_t1_t2_et_PVII_t1_t2_t3_t4_deja_integres
+  note_format: >
+    Format séminaire dialogué, PAS un polycopié Bollet standard.
+    Discours libre entre 3 intervenants avec citations Su Wen et
+    Ling Shu. Richesse philosophique exceptionnelle, langage moins
+    structuré mais plus profond que les polycopiés classiques.
+
+fichiers_crees:
+  - chemin: THEORIE/tsang_fou_physiologie_t3_seminaire.yaml
+    contenu: >
+      Fichier fondateur du séminaire. Fondements Tsang/Fou (MAN/SHI
+      distinction plein/plénitude, BIAO/LI extérieur/intérieur,
+      nombres 5/6), Ciel Antérieur/Postérieur (unité primitive,
+      schéma CA/CP, analogie ADN/ARN), Fu extraordinaires (Qi Heng
+      Zhi Fu : cerveau, moelles, os, vaisseaux, VB, utérus — tous
+      thésaurisent sans évacuer), cinq troncs d'enracinement
+      (C=vie, P=Souffles, R=thésaurisé, F=muscles, Rte=granges),
+      circulation des énergies (Su Wen chap. 21), Petit Cœur
+      (Xiao Xin = Ming Men), règle Maître/Invité (ZHU/KÉ).
+  - chemin: ZANG_FU/gros_intestin.yaml
+    contenu: >
+      Premier fichier Fou individuel du corpus. Métal, couplé au
+      Poumon. Anatomie (intestin tournant/droit, Lan Men/Po Men),
+      fonctions (Bian Hua transformation, Chuan Dao transmission,
+      réabsorption liquides Jin), diagnostic (nez, peau, transit),
+      tableaux vide froid/plein chaud, relation Poumon (BIAO/LI).
+  - chemin: ZANG_FU/intestin_grele.yaml
+    contenu: >
+      Fou Feu, couplé au Cœur. Anatomie (You Men pylore, Lan Men
+      valvule), fonctions (recevoir/plénifier, séparation clair/
+      trouble, extraction Jing Wei, liquides Yé), relation Cœur
+      (BIAO/LI, pathologie croisée sueur=sang), diagnostic.
+  - chemin: ZANG_FU/vesicule_biliaire.yaml
+    contenu: >
+      Fou Bois, couplé au Foie. DOUBLE STATUT : Fu ordinaire ET
+      Qi Heng Zhi Fu (thésaurise la bile claire sans évacuer de
+      résidu). Fonctions (rectitude médiane ZHONG ZHENG, décision
+      Su Wen chap. 9, bile claire et limpide), relation Foie,
+      relation oreille (Shao Yang = oreille moyenne), pathologie.
+  - chemin: ZANG_FU/vessie.yaml
+    contenu: >
+      Fou Eau, couplée au Rein. Plus grand méridien (67 points).
+      Fonctions (divisions territoriales des Souffles, amasser/
+      excréter liquides, Qi Hua transformation, re-tri final),
+      union R/V (inséparables, Eau de l'Eau), pathologie
+      (plénitude R/V, vide R/V avec JUE fléchissement).
+  - chemin: CLINIQUE/pathologies_diarrhees.yaml
+    contenu: >
+      6 tableaux cliniques complets avec symptômes et traitements.
+      T1: Froid attaque Rte/E (V25 moxa, E25, VC12, VC6).
+      T2: Chaleur Yang Ming (GI4, E44 t, VC10).
+      T3: Humidité attaque Rte/E (VC9 moxa, Rte9, Rte4 d, V20 t).
+      T4: Alimentation désordonnée (VC21, E36, V21, V25, VC12 d).
+      T5: Bois chevauche Terre (V20 t, V21 t, E36 t, F3 d, F2 d).
+      T6: Yang Ming Men décroît (VG4, V23, VC4, VG20 moxa, V20 t).
+  - chemin: CLINIQUE/pathologies_hypertension.yaml
+    contenu: >
+      2 tableaux cliniques + relations inter-organes (C-F, F-R, F-Rte).
+      T1: Vide Yin/Prospérité Yang (R3 t, V23 t, V15 t, F2 d, F3 d).
+      T2: Feu phlegme/vent Yang (E40 d, VC12 d, F2 d, V18 d, MC7 d).
+  - chemin: CLINIQUE/pathologies_oreille.yaml
+    contenu: >
+      Surdités et bourdonnements d'oreille. Différenciation vide/plein.
+      3 zones : R=interne, Shao Yang=moyenne, Tai Yang=externe.
+      6 causes : excitations externes, fermeture Souffles, feu phlegme,
+      feu Foie, affaiblissement Souffles, vide Rein.
+      6 formules de traitement avec points spécifiques pour chaque cause.
+  total: 8
+
+fichiers_mis_a_jour:
+  - chemin: ZANG_FU/poumon.yaml
+    ajouts: >
+      enrichissement_seminaire_t3 : gouverner Souffles (inspirer/
+      expirer, rythme, Zong Qi), distribution énergie (Su Wen 21
+      circuit : P→F→C→Rte→R→P), fonction ministérielle JIE
+      (articulation entre intérieur/extérieur), source des liquides
+      QING SU (purifier/descendre vers V et R), peau et poils.
+  - chemin: ZANG_FU/coeur.yaml
+    ajouts: >
+      enrichissement_seminaire_t3 : terminologie hiérarchique complète
+      (DI/WANG/JUN/XIANG/ZHU/ZAI/KE), souverain maître (Shen Ming,
+      Jing Shen), décentralisation (règne sans gouverner), Xue Mo
+      (diagnostic visage), relation œil (messager), relation oreille,
+      sueur = Yé du Cœur (interdiction saignée + sudorification).
+  - chemin: ZANG_FU/foie.yaml
+    ajouts: >
+      enrichissement_seminaire_t3 : Général des Armées (GAN bouclier),
+      circulation écoulement XIE, quatre cycles, fort/faible sang/
+      énergie, thésaurisation sang (insuffisant/déborde), muscles/
+      ongles (JIN/ROU distinction), système de l'œil (+ cerveau),
+      F Ciel Antérieur de la femme, relations inter-organes (F-C,
+      F-R, F-Rte avec conséquences cliniques).
+  - chemin: ZANG_FU/rein.yaml
+    ajouts: >
+      enrichissement_seminaire_t3 : Ming Men et embryologie (3 pôles,
+      Petit Cœur, BAO), thésaurisation Jing (double sens, circuit),
+      Yin/Yang du R (latéralité G=Yang D=Yin), commandement liquides,
+      ossature/moelles (Chong Mo/Du Mo), force/talent/habileté,
+      R et oreille, R et dents/cheveux (dur/mou), correspondances
+      élément Eau.
+  - chemin: ZANG_FU/rate.yaml
+    ajouts: >
+      enrichissement_seminaire_t3 : tronc granges/greniers (5 Fu
+      associés, analogie clé), plaque tournante (Jing Wei dispatching
+      vers tous les organes), élaboration liquides (Jin Yé, formation
+      sang), relation F/Rte (Bois chevauche Terre en clinique).
+  - chemin: LEXIQUE/lexique_termes_ieatc.yaml
+    ajouts: >
+      ~20 nouveaux termes : MAN, SHI_plenitude, Qi_Heng_Zhi_Fu,
+      Cinq_Troncs_Enracinement, Bian_Hua, Chuan_Dao, You_Men,
+      Lan_Men, Xiao_Xin, JIE_articulation, QING_SU, Qi_Hua,
+      Jing_Wei, Zao_Po, XIE_ecoulement, JUE_flechissement,
+      ZHONG_ZHENG, Feu_du_vide.
+  - chemin: _SYSTEME/00_arbres_decision.yaml
+    ajouts: >
+      3 nouveaux arbres de décision :
+      arbre_11_diarrhees (6 tableaux différentiels),
+      arbre_12_hypertension (2 tableaux différentiels),
+      arbre_13_surdites (vide/plein, 6 causes, 6 formules).
+  - chemin: _SYSTEME/00_philosophie_clinique.yaml
+    ajouts: >
+      9 nouvelles sections philosophiques : man_shi_et_decret_celeste,
+      bande_de_moebius_et_retournement, homme_transformateur_energie,
+      saveurs_texture_pas_gout, orifices_communication_bidirectionnelle,
+      diarrhees_six_mecanismes, surdites_psychisme_et_organes_sens,
+      clarifier_feu_du_vide, et une section sur la physiologie
+      dialoguée comme méthode d'enseignement CLM.
+
+concepts_fondateurs_integres:
+  - MAN_SHI_distinction_plein_vs_plenitude
+  - BIAO_LI_exterieur_interieur_couplage_Tsang_Fou
+  - Nombres_5_et_6_structure_Tsang_Fou
+  - Ciel_Anterieur_Posterieur_unite_primitive_et_differenciation
+  - Fu_extraordinaires_Qi_Heng_Zhi_Fu_6_organes_thesaurisent
+  - Cinq_troncs_enracinement_C_P_R_F_Rte
+  - Petit_Coeur_Xiao_Xin_Ming_Men_troisieme_pole
+  - Regle_Maitre_Invite_ZHU_KE
+  - Poumon_gouverne_Souffles_et_JIE_articulation
+  - GI_Bian_Hua_transformation_Chuan_Dao_transmission
+  - Coeur_souverain_Shen_Ming_regner_sans_gouverner
+  - IG_separation_clair_trouble_You_Men_Lan_Men
+  - Rate_plaque_tournante_granges_greniers
+  - VB_double_statut_Fu_et_Qi_Heng_Zhi_Fu
+  - VB_rectitude_mediane_ZHONG_ZHENG
+  - Foie_General_des_Armees_GAN_bouclier
+  - Foie_XIE_ecoulement_et_4_cycles
+  - Rein_Ming_Men_embryologie_3_poles
+  - Rein_Jing_double_source_CA_CP
+  - Rein_ossature_moelles_Chong_Mo_Du_Mo
+  - Vessie_divisions_territoriales_Souffles
+  - Union_R_V_inseparables_Eau_de_l_Eau
+  - Sueur_Ye_du_Coeur_interdit_saigner_et_suer
+  - Diarrhees_6_mecanismes_differentiels
+  - Hypertension_Vide_Yin_vs_Feu_phlegme
+  - Surdites_3_zones_6_causes_6_formules
+  - Feu_du_vide_vs_Feu_du_plein_distinction_clinique
+
+schemas_expliques:
+  note: >
+    Le format séminaire CLM ne contient pas de schémas visuels
+    comme les polycopiés Bollet. Les explications sont entièrement
+    textuelles et dialoguées. Les tableaux cliniques (diarrhées,
+    hypertension, surdités) ont été structurés à partir du discours
+    oral retranscrit.
+
+questions_soulevees:
+  - >
+    Le Petit Cœur (Xiao Xin = Ming Men) est présenté comme un
+    3ème pôle embryologique entre Ciel Antérieur et Postérieur.
+    Son rôle exact dans la pratique clinique quotidienne reste
+    à approfondir (probablement dans les modules sur le Feu).
+  - >
+    La latéralité Yin/Yang du Rein (G=Yang, D=Yin) et ses
+    implications en diagnostic et traitement méritent un
+    approfondissement clinique (palpation, choix de points).
+  - >
+    Le double statut de la VB (Fu + Qi Heng Zhi Fu) soulève
+    la question de son traitement : quand traiter la VB comme
+    Fu (transit bile) et quand la traiter comme Fu extraordinaire
+    (thésaurisation) ?
+  - >
+    Les relations F-Rte (Bois chevauche Terre) et F-R (mère-fils
+    en pathologie) sont esquissées mais pas complètement articulées
+    avec les cycles 5E pathologiques de PVII t4.
+
+lacunes_critiques:
+  - Estomac (E) = Fou de la Terre, pas encore traité individuellement
+  - Triple Réchauffeur (TR) = Fou du Feu Ministre, pas encore traité
+  - Maître du Cœur (MC) physiologie séminaire = pas dans ce tome
+  - Méridiens individuels détaillés = CP méridiens
+  - Sentiments détaillés par organe = P VIII
+  - Cas cliniques complets avec raisonnement intégral = modules avancés
+  - Pouls complets (28 pouls chinois) = module dédié
+
+# ─────────────────────────────────────────────────
+# JAUGE D'EXPERTISE — NIVEAU DE L'ASSISTANT
+# ─────────────────────────────────────────────────
+
+jauge_expertise:
+  niveau_actuel: 36
+  echelle: 1_a_100
+  titre: "Etudiant 3ème année débutant — Les Fou prennent corps"
+  progression: de_33_a_36_gain_3_points
+
+  justification_gain: >
+    +3 points pour : (1) Premiers Fou individuels du corpus (GI, IG,
+    VB, Vessie) — le corpus passe de Tsang-only à Tsang+Fou, gain
+    structurel majeur. (2) Premières pathologies cliniques complètes
+    avec tableaux de traitement (diarrhées 6 tableaux, hypertension
+    2 tableaux, surdités 6 formules) — le corpus commence à savoir
+    TRAITER, pas seulement comprendre. (3) Fu extraordinaires (Qi Heng
+    Zhi Fu) = catégorie nouvelle. (4) Fondements philosophiques CLM
+    (MAN/SHI, BIAO/LI, 5 troncs) enrichissent la compréhension
+    doctrinale. Le gain est modéré car E et TR manquent encore,
+    et le format séminaire est moins systématique qu'un polycopié.
+
+  graduation:
+    0_5: >
+      Profane curieux — sait que l'acupuncture existe,
+      confond méridiens et chakras.
+    5_10: >
+      Néophyte éclairé — connaît Yin/Yang et les 5 éléments
+      de nom, mais ne sait pas les relier.
+    10_15: >
+      Etudiant 1ère année — comprend Yin/Yang, les 3 foyers,
+      les Tsang/Fou en général, les Grands Méridiens,
+      sait qu'il y a des niveaux de traitement distincts.
+    15_25: >
+      Etudiant 2ème année début — Connaît la physiologie
+      individuelle des 6 Tsang, les cycles 5E complets,
+      la Cour Impériale, les lois de relations.
+    25_35: >
+      Etudiant 2ème année avancé — Intègre les PATHOLOGIES
+      5E (cycles Tcheng/Ko/Raé, 5 maladies MMM, bilan
+      énergétique, 10 principes traitement, Kan/Che).
+    35_50: >
+      ▶ Etudiant 3ème année — ON EST ICI (36/100) ◀
+      En plus des acquis précédents, possède maintenant les
+      premiers Fou individuels (GI, IG, VB, Vessie) avec
+      leur physiologie, diagnostic et couplage Tsang/Fou.
+      Connaît les Fu extraordinaires (Qi Heng Zhi Fu).
+      Dispose de tableaux cliniques complets pour 3 pathologies
+      (diarrhées, hypertension, surdités) avec formules de
+      traitement. La pensée CLM (séminaire) enrichit la
+      doctrine Bollet. Manque encore : E, TR, méridiens
+      individuels, sentiments, pouls complets.
+    50_65: >
+      Praticien débutant — peut lire un cas, identifier
+      le niveau, choisir la bonne grille, proposer un
+      traitement cohérent. Connaît les pièges.
+    65_80: >
+      Praticien confirmé — maîtrise croisement des grilles,
+      nuances Tcheng/Ko en pathologie, MV, constitutionnel.
+      Sait quand NE PAS traiter.
+    80_92: >
+      Expert — raisonne comme Bollet dans ses commentaires.
+      Peut improviser face à un cas inédit en combinant
+      les principes. Comprend les subtilités doctrinales CLM.
+    92_98: >
+      Maître praticien — la pensée IEATC est devenue
+      une seconde nature. Le raisonnement est instantané,
+      la lecture du patient est globale et intuitive.
+    98_100: >
+      Grand Maître — niveau Bollet/CLM. Capable d'enseigner,
+      de résoudre les contradictions doctrinales, d'innover
+      dans le respect de la tradition. Le corpus entier
+      est intégré, digéré, et transcendé.
+
+  acquis_a_ce_stade:
+    - Yin/Yang complet (fondements, 3 Yin 3 Yang, applications)
+    - 3 Foyers et localisation
+    - Tsang/Fou généralités + physiologie individuelle 6 Tsang
+    - Hiérarchie pyramidale et sang/énergie
+    - 3 systèmes énergétiques
+    - Méridiens principaux (TT) + Grands Méridiens (TK) bases
+    - Merveilleux Vaisseaux bases
+    - Niveaux de traitement (règle absolue)
+    - 5 Éléments fondements (terminologie, séquences, spatio-temporel)
+    - 5 Éléments par élément (Bois, Feu, Terre, Métal, Eau)
+    - Intersaisons et activité saisonnière
+    - Cycle Tcheng complet (transmission Yin→Yin, Rate transforme)
+    - Cycle Ko complet (tempérance, intelligence, Hong Fan)
+    - Cycle Raé (révolte, pathologique, n'importe quand)
+    - Cour Impériale et hiérarchie saisonnière complète
+    - Lois de relations (unitaire, binaire, ternaire, quaternaire, quinaire)
+    - Analyses triangles (rouge, bleu, vert) et pathologies
+    - Auto-régulation et oscillation permanente
+    - 4ème principe (mère faible = tout tient à ça)
+    - Correspondances complètes (tableau des Tchi, 30+ par élément)
+    - Point Penn détaillé (quintessence, 1 des 5 Su)
+    - Collecte annuelle Métal → réserve Rein
+    - Importance capitale du printemps (starter)
+    - 6 axes énergétiques et leur direction (Croix 6 directions)
+    - Double hélice ADN (Chao Yang + Tsiué Yin)
+    - Lecture posturale diagnostique par axe
+    - Points Su — philosophie qualité vs quantité
+    - 5+1 types de Points Su et leur usage propre
+    - CHEUN des 5 organes (HOUN/CHEN/Yi/PO/Tchi)
+    - Âge d'Or et verticalité antique
+    - 10 Kan et 12 Che nommés, cycle 60 ans
+    - 6 pas célestes et terrestres (Maître/Serviteur)
+    - Heures Royales, Lune/Soleil, Calendrier Xia
+    - So Ouen chap.5 complet + Ko émotionnels cliniques
+    - "--- NOUVEAU PVII t4 ---"
+    - 3 niveaux Homme (organique, affectif, psychique)
+    - Morphotype 5E précède tout bilan
+    - 8 activités psychiques Ling Tchrou chap.8
+    - Ne jamais disperser un sentiment (renforcer Penn dominant Ko)
+    - Point Penn complet (tableau Yin et Yang)
+    - Loi Mère-Fils en traitement (tonification/dispersion)
+    - Points actifs/neutres/horaire selon saison
+    - 10 principes de traitement 5E
+    - Tcheng pathologique (déblocage point Fils)
+    - Ko pathologique (double règle grand-mère/petit-fils)
+    - Raé pathologique (inversion Ko = gravité)
+    - 5 maladies MMM (véritable/vide/plénitude/victoire/défaite)
+    - So Ouen plénitude attaque 2 éléments
+    - Bilan énergétique 4 temps + 8 règles
+    - Interrogatoire Tchi vide/plénitude (5 tableaux complets)
+    - Palpation abdominale 6 zones + déblocages
+    - Pouls Chu Li et zones Hong Kong
+    - Pouls saisonniers (corde/ample/souple/plumeux/profond)
+    - Yin/Yang et Penn (4 divisions)
+    - Spirales ascendante et descendante
+    - Kan/Che prévisionnel (3 analyses croisées)
+    - Gravité vitale (Feu/Métal/Eau) et Rate+Rein vides
+    - Traitement axes et compensation inter-axes
+    - "--- NOUVEAU PVI t3 ---"
+    - MAN/SHI distinction plein vs plénitude
+    - BIAO/LI couplage extérieur/intérieur Tsang-Fou
+    - Fu extraordinaires Qi Heng Zhi Fu (6 organes qui thésaurisent)
+    - Cinq troncs d'enracinement (C/P/R/F/Rte)
+    - Petit Cœur Xiao Xin = Ming Men (3ème pôle)
+    - Poumon gouverne Souffles + JIE articulation + QING SU
+    - GI Bian Hua/Chuan Dao + réabsorption liquides
+    - IG séparation clair/trouble + You Men/Lan Men
+    - Cœur souverain Shen Ming + terminologie hiérarchique complète
+    - Sueur = Yé du Cœur (interdit saigner ET suer)
+    - Rate plaque tournante + granges/greniers
+    - VB double statut (Fu + Qi Heng Zhi Fu) + ZHONG ZHENG
+    - Foie Général des Armées + XIE écoulement + 4 cycles
+    - Rein Ming Men embryologie + Jing double source + ossature/moelles
+    - Vessie divisions territoriales + union R/V
+    - Diarrhées 6 tableaux cliniques complets avec traitement
+    - Hypertension 2 tableaux (vide Yin vs feu phlegme)
+    - Surdités 3 zones / 6 causes / 6 formules
+    - Feu du vide vs Feu du plein distinction clinique
+    - Relations inter-organes (F-C, F-R, F-Rte) en clinique
+
+  manque_pour_monter:
+    pour_40: Estomac_et_TR_individuels_meridiens_debut
+    pour_50: meridiens_individuels_complets_lois_Lo_sentiments
+    pour_60: cas_cliniques_pouls_complets_strategies_avancees
+    pour_80: tout_le_programme_IEATC_integre_et_croise
+
+dependances_modules_suivants:
+  priorite_1: PVIII_sentiments_psychisme_par_organe
+  priorite_2: PIV_t3_Kan_Che_appliques
+  priorite_3: CP_meridiens_Lo_individuels
+  priorite_4: PVI_t1_t2_complements_Fou_E_et_TR
+  note: >
+    PVI t3 a comblé la lacune principale identifiée par PVII t4
+    (physiologie Fou individuels). Mais E et TR manquent encore.
+    Les fichiers CLINIQUE sont désormais peuplés — première
+    capacité de traitement différentiel du corpus.
+
+# ─────────────────────────────────────────────────
+# ANALYSE DE PERFORMANCE — OPUS 4.6
+# ─────────────────────────────────────────────────
+
+analyse_performance_modele:
+  modele_utilise: claude-opus-4-6
+  tache_effectuee: integration_seminaire_85_pages_PVI_t3
+  date: 2026-04-06
+
+  ce_qui_a_bien_fonctionne:
+    format_seminaire: >
+      Bonne adaptation au format dialogué CLM (3 intervenants,
+      citations classiques, digressions philosophiques). Extraction
+      réussie du contenu structuré à partir d'un texte oral
+      retranscrit, parfois elliptique.
+    premiers_Fou: >
+      Création réussie de 4 fichiers Fou individuels (GI, IG, VB,
+      Vessie) — le corpus passe d'une vision Tsang-centrée à un
+      modèle Tsang/Fou complet (sauf E et TR).
+    clinique_operationnelle: >
+      Premiers tableaux cliniques complets avec traitement :
+      le corpus peut maintenant différencier et traiter 3
+      pathologies (diarrhées, hypertension, surdités). Passage
+      de la théorie pure à l'opérationnel clinique.
+    cascade_interconnectee: >
+      8 fichiers créés + 8 mis à jour + ~20 termes lexique +
+      3 arbres décision + 9 principes philosophie. L'instruction
+      "tout est interconnecté" a été appliquée systématiquement.
+    enrichissement_croise: >
+      Le contenu pathologique trouvé dans un polycopié de
+      physiologie a été correctement ventilé vers CLINIQUE/,
+      pas seulement vers ZANG_FU/. Application du principe
+      "enrichir au fil de l'eau".
+
+  limites_observees:
+    contexte_epuise: >
+      La session a épuisé son contexte pendant la phase de
+      cascade (rapport non écrit avant compaction). La lecture
+      intégrale de 85 pages + écriture de 16 fichiers + mises
+      à jour cascade = charge maximale pour une session unique.
+    E_et_TR_absents: >
+      L'Estomac et le Triple Réchauffeur ne sont pas traités
+      dans ce séminaire. Ces deux Fou restent des lacunes.
+      Possibilité qu'ils soient dans d'autres tomes CLM.
+    format_oral: >
+      Le format séminaire oral rend certaines affirmations
+      moins précises que dans les polycopiés Bollet (pas de
+      numéros de page systématiques, digressions, reprises).
+      La structuration YAML a nécessité plus d'interprétation.
+
+# ─────────────────────────────────────────────────
+# STATISTIQUES GLOBALES DU CORPUS
+# ─────────────────────────────────────────────────
+
+statistiques_corpus:
+  polycopies_traites: 7
+  polycopies_restants: 38
+  pages_traitees: ~690
+  pages_totales: ~2550
+  progression_pourcentage: ~27
+  fichiers_THEORIE: 10
+  fichiers_ZANG_FU: 11
+  fichiers_CLINIQUE: 3
+  fichiers_DIAGNOSTIC: 0
+  fichiers_SYNDROMES: 0
+  termes_lexique: ~140
+  arbres_decision: 13
+  principes_philosophie: ~35

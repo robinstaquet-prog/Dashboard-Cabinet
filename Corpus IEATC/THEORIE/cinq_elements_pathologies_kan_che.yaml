@@ -1,0 +1,272 @@
+# KAN ET CHE PATHOLOGIQUES — AXES ET SYSTEMES ENERGETIQUES
+# Source : PVII 5 Éléments tome 4, pp. 82-91
+# Auteur : Thierry Bollet — IEATC
+
+meta:
+  fichier: cinq_elements_pathologies_kan_che.yaml
+  source: PVII_5E_t4_p82_91
+  statut: complet
+  liens:
+    - THEORIE/cinq_elements_kan_che.yaml
+    - THEORIE/cinq_elements_axes_energetiques.yaml
+    - THEORIE/cinq_elements_pathologies_cycles.yaml
+    - THEORIE/cinq_elements_pathologies_traitement.yaml
+
+# =======================================================
+# PREVISIONS DES PATHOLOGIES PAR KAN ET CHE
+# =======================================================
+previsions_pathologies:
+  titre: Les saisons et les prévisions des pathologies
+  annees_par_exces:
+    cycle: impaires_dans_cycle_60_ans
+    principe: >
+      Toutes les énergies arrivent en avance et sont
+      en excès. Anticiper dispersion des organes déjà
+      en plénitude. Profiter pour tonifier (penn) les
+      organes faibles au moment du passage de l'énergie
+      correspondante.
+  annees_par_insuffisance:
+    cycle: paires_dans_cycle_60_ans
+    principe: >
+      Toutes les énergies arrivent en retard.
+      Les insuffisances habituelles sont aggravées.
+  source: PVII-t4-p82
+
+# =======================================================
+# PERIODES DEFAVORABLES
+# =======================================================
+periodes_defavorables:
+  titre: Périodes défavorables pour les patients
+  definition: >
+    Les énergies (pas) ou mouvements en place à une
+    période viennent aggraver un patient dont la pathologie
+    est de la même nature que l'énergie circulante.
+  medecine_preventive: >
+    Effectuer le traitement approprié AVANT la période
+    d'aggravation, surveiller étroitement pendant, donner
+    les conseils conformément au tableau des composants
+    de l'élément dangereux.
+  exemple_1_exces:
+    patient: dereglement_Feu_en_exces_cardio_vasculaire
+    periodes_dangereuses:
+      - 6_premiers_mois_si_Maitre_est_Feu
+      - 6_derniers_mois_si_Serviteur_est_Feu
+      - pas_ou_circule_Chao_Yin_ou_Chao_Yang
+      - en_ete
+      - en_hiver_car_Eau_deja_faible_cycle_rae_Feu_sur_Eau
+  exemple_2_insuffisance:
+    patient: meme_patient_Feu_en_exces
+    aggravation: >
+      Quand l'énergie de l'année est Eau en insuffisance
+      (Taé Yang Maître en insuffisance, année paire).
+  exemple_3_mouvement_exces: meme_mecanisme_que_exemple_1
+  exemple_4_mouvement_insuffisance: meme_mecanisme_que_exemple_2
+  source: PVII-t4-p82_83
+
+# =======================================================
+# PERIODES FAVORABLES
+# =======================================================
+periodes_favorables:
+  titre: Périodes favorables pour les patients
+  definition: >
+    Énergies circulantes d'une nature qui combat les
+    énergies pathologiques ou améliore les insuffisances.
+  exemple_1_exces:
+    patient: dereglement_Feu_en_exces
+    periodes_favorables:
+      - 6_premiers_mois_si_Maitre_est_Tae_Yang_froid
+      - pas_ou_circule_Tae_Yang
+      - en_ete_car_Feu_tempere_ne_peut_se_charger
+      - en_hiver_car_Eau_renforcee_retablit_ko
+  exemple_2_insuffisance:
+    amelioration: >
+      Quand l'énergie de l'année est Feu en insuffisance
+      (Chao Yin/Chao Yang Maître en insuffisance).
+  source: PVII-t4-p84
+
+# =======================================================
+# LES 3 RELATIONS (ANALYSES)
+# =======================================================
+trois_relations:
+  titre: Les 3 relations Étoiles-Planètes-Terre
+  principe: >
+    La Terre reçoit, et l'Homme subit, les influences
+    des 3 niveaux : étoiles (pas célestes), planètes
+    (mouvements célestes), Terre (saisons).
+  hierarchie_conforme: >
+    Le Ciel domine ce qui est en dessous (la Terre).
+    L'énergie des étoiles doit dominer celle des planètes.
+    Celle des planètes doit dominer celle de la Terre.
+
+  premiere_analyse:
+    titre: Étoiles sur Planètes (énergie sur mouvement)
+    cinq_situations:
+      1_meme_amplitude:
+        condition: energie_et_mouvement_meme_element
+        exemple: Tae_Yin_Terre_et_mouvement_Terre
+        resultat: >
+          Renforcement de l'énergie finale. Influence
+          conjuguée forte. Aggrave les sujets dont le
+          même élément est déjà fort, améliore ceux
+          chez qui il est faible.
+        gravite: pathologies_pas_graves
+      2_etoiles_engendrent_mouvement:
+        condition: energie_engendre_mouvement_par_tcheng
+        exemple: Chao_Feu_engendre_mouvement_Terre
+        resultat: >
+          Ordre universel respecté. L'énergie renforce
+          le mouvement qui est puissant.
+        gravite: pathologies_jamais_graves
+      3_etoiles_dominent_mouvement:
+        condition: energie_domine_mouvement_par_ko
+        exemple: Chao_Feu_domine_mouvement_Metal
+        resultat: >
+          Ordre universel respecté. Le cycle ko peut
+          déclencher pathologie chez sujet prédisposé
+          ou si excès démesuré.
+        gravite: pathologies_jamais_graves
+      4_mouvement_bloque_energie:
+        condition: tcheng_inverse_planetes_vers_etoiles
+        exemple: Yang_Ming_Metal_bloque_par_mouvement_Terre
+        resultat: >
+          Inversion = rébellion. Graves conflits
+          énergétiques. Le mouvement prédomine sur
+          la Terre. Énergie des étoiles bloquée.
+        gravite: pathologies_toujours_graves
+      5_mouvement_domine_energie:
+        condition: ko_inverse_planetes_vers_etoiles
+        exemple: Yang_Ming_Metal_domine_par_mouvement_Feu
+        resultat: >
+          Cycle raé. So Ouen dit que c'est impossible
+          au niveau astronomique = graves conflits.
+          L'énergie ne peut plus s'écouler du haut
+          vers le bas. Dans l'Homme, blocage en haut.
+        gravite: pathologies_toujours_graves
+    loi_rebellion: >
+      Quand mouvement combat énergie, le mouvement de
+      l'année prédomine. Le praticien en tient compte
+      en même temps que du blocage de l'énergie (étoiles).
+      Anarchie complète dans les 5 éléments : tcheng et
+      ko ne fonctionnent plus.
+
+  deuxieme_analyse:
+    titre: Planètes sur Terre (mouvement sur saisons)
+    exces_annee_impaire:
+      surveiller:
+        - element_correspondant_si_deja_fort_a_sa_saison
+        - ennemi_risque_ko
+        - conseiller_deja_faible_risque_rae
+    insuffisance_annee_paire:
+      loi_So_Ouen: >
+        "Lorsque le mouvement de l'année est en insuffisance,
+        c'est l'énergie de celui qui le domine dans le cycle ko
+        qui circule toute l'année à sa place."
+      surveiller:
+        - element_faible_aggrave
+        - conseiller_dont_energie_domine_annee
+    annulation_possible: >
+      L'excès est annulé si l'énergie tempère le mouvement.
+      L'insuffisance est annulée si l'énergie assiste le mouvement.
+
+  troisieme_analyse:
+    titre: Étoiles sur Terre (énergie sur saisons)
+    exces_annee_impaire:
+      surveiller:
+        - axe_energetique_correspondant_si_deja_fort
+        - axe_complementaire_deja_faible
+        - tous_axes_en_relation_compensatoire_systeme
+    insuffisance_annee_paire:
+      surveiller:
+        - meme_axe_aggrave
+        - axe_complementaire_aggravant
+    deux_periodes_a_surveiller:
+      Maitre: toujours_en_ete
+      Serviteur: toujours_en_hiver
+    annulation_possible: >
+      L'excès est annulé si le mouvement tempère l'énergie.
+      L'insuffisance est annulée si le mouvement assiste l'énergie.
+  source: PVII-t4-p84_89
+
+# =======================================================
+# COMPENSATIONS ENERGETIQUES — SYSTEMES
+# =======================================================
+compensations_energetiques:
+  titre: Représentation des compensations énergétiques
+  systemes:
+    systeme_1:
+      axe_1: Tae_Yang_froid
+      axe_2: Tae_Yin_humidite
+    systeme_2:
+      axe_1: Chao_Yang_feu
+      axe_2: Tsiue_Yin_fong
+    systeme_3:
+      axe_1: Yang_Ming_sec
+      axe_2: Chao_Yin_chaleur
+  source: PVII-t4-p89
+
+# =======================================================
+# TRAITEMENT AXES ENERGETIQUES
+# =======================================================
+traitement_axes:
+  titre: Traitement des déséquilibres des axes énergétiques
+  principe_general: >
+    Les énergies des axes se traitent exactement comme
+    celles des éléments. Ce sont les mêmes points Su,
+    de la même manière. La seule différence réside dans
+    les associations compensatrices.
+  compensation_dans_axe:
+    principe: >
+      Un axe est constitué de deux méridiens dont l'énergie
+      correspond à un élément différent et opposé.
+      Les deux sont en relation d'opposition/compensation.
+    exemple_Tae_Yang:
+      observation: >
+        Sujet qui a toujours trop chaud. Le Taé Yang
+        (surface) = IG (Feu) + Vessie (Eau). Normalement
+        le froid (Vessie) domine, IG tempère.
+      diagnostic: >
+        Excès de chaleur = IG en excès OU Vessie en vide.
+      traitement:
+        - 66V_t_tonifier_Eau_froid_sur_V
+        - 5IG_d_disperser_Feu_chaleur_sur_IG
+        - 2IG_t_tonifier_Eau_froid_sur_IG
+        - combiner_66V_t_plus_5IG_d
+    regle: >
+      S'il y a excès, disperser sur le méridien correspondant
+      et/ou tonifier son contraire. S'il y a insuffisance,
+      même raisonnement inversé.
+  source: PVII-t4-p89_90
+
+# =======================================================
+# TRAITEMENT SYSTEMES ENERGETIQUES
+# =======================================================
+traitement_systemes:
+  titre: Compensations dans un système énergétique
+  principe: >
+    Un système = deux axes dont la moyenne énergétique
+    est en opposition/compensation. L'idée de l'analyse
+    et du traitement reste la même.
+  exemple_systeme_Tae_Yang_Chao_Yin:
+    observation: >
+      Même sujet (trop chaud). Taé Yang (froid) et
+      Chao Yin (chaleur) forment le système froid/chaleur.
+    diagnostic: >
+      Taé Yang en insuffisance de froid (Vessie vide)
+      OU Chao Yin en excès de chaleur (Coeur en excès).
+      Déséquilibre Vessie(froid/vide) vs Coeur(chaleur/excès).
+    traitement:
+      - 3C_t_tonifier_Eau_froid_sur_Coeur
+      - 8C_d_disperser_Feu_chaleur_sur_Coeur
+      - 66V_t_tonifier_Eau_froid_sur_V
+      - combiner_8C_d_plus_66V_t
+  principe_transfert: >
+    Disperser un point d'un axe en tonifiant son contraire
+    sur l'axe complémentaire = ouvrir le passage de l'un
+    vers l'autre et effectuer le transfert de la qualité
+    nécessaire.
+  vide_axe: >
+    Même démarche : attirer l'énergie depuis l'autre axe
+    en dispersant celui qui donne et tonifiant celui qui reçoit.
+  attention: >
+    "Mais attention à ne pas se tromper de qualité d'énergie."
+  source: PVII-t4-p90_91

@@ -1,0 +1,286 @@
+# SYSTÉMIQUE DES MÉRIDIENS — SÉMINAIRE CLM DÉCEMBRE 1981
+# Source : EEA 1er.pdf (PVI EEA t1), Dr Schatz + E. Rochas de la Vallée
+# Intégré : 2026-04-06
+
+# ─────────────────────────────────────────────────
+# PRINCIPES FONDAMENTAUX
+# ─────────────────────────────────────────────────
+
+principes:
+  mo_mai: >
+    MO ou MAI = trajets d'énergie. Tout est trajet d'énergie dans
+    le corps. Un vaisseau, un muscle existent ; en eux se trouve
+    une directivité de l'énergie. « Le trajet est l'acte d'aller
+    d'un endroit à un autre, d'une façon vectorisée. » (Schatz)
+    Meilleure expression française : « trajet d'énergie ».
+  mecanisme: >
+    Chaque terminologie ne désigne qu'un mécanisme. Tout est
+    mécanisme, tout est énergie. Chaque mécanisme a des paramètres
+    spécifiques qui le distinguent de tout autre. On ne peut PAS
+    empiéter le champ d'un mécanisme sur un autre.
+  jing: >
+    Le mot JING apparaît dans 4 formations et indique une
+    systématique relativement AUTONOME : Jing Mo (méridien principal),
+    Jing Bié (séparé du principal), Jing Jin (muscles des méridiens),
+    et dans Qi Jing Pa Mo (8 Merveilleux Vaisseaux).
+
+# ─────────────────────────────────────────────────
+# HIÉRARCHIE EMBRYOLOGIQUE DES FORMATIONS
+# ─────────────────────────────────────────────────
+
+hierarchie_embryologique:
+  principe: >
+    Les formations méridiques apparaissent à des moments DIFFÉRENTS
+    de l'évolution de l'individu. Elles sont relativement indépendantes
+    les unes des autres en fonction de ce développement embryologique.
+  ordre_apparition:
+    1_Qi_Mo:
+      nom: 8 Merveilleux Vaisseaux (Qi Jing Pa Mo)
+      moment: vie_embryonnaire
+      nature: >
+        Mécanismes les plus archaïques dans l'évolution de l'être.
+        Se laissent découper pour former ultérieurement les méridiens
+        principaux. Sont des schèmes qui servent à l'expression d'autres
+        mécanismes, comme l'ADN sert à l'ARN (processus de duplication
+        vitale, pas de doublage mécanique).
+      fonctions: >
+        Deux fonctions : suppléance (quand les méridiens principaux
+        sont débordés) et recours à une structure antérieure d'origine
+        à haute potentialité (redressement thérapeutique).
+      muscle_des_ancetres: >
+        Noyau fibreux du périnée, région de mécanismes de haut devenir.
+        C'est à partir de là que se diffusent Chong Mo, Ren Mo, Du Mo.
+        Noyau de l'extension de toute la carapace musculaire.
+    2_Jing_Jin:
+      nom: Méridiens tendino-musculaires
+      moment: vie_embryonnaire (avec Qi Mo)
+      nature: >
+        Fuseaux musculaires formant la carapace d'enveloppement de
+        l'être humain. Pas des inventions modernes — dans les Textes
+        originels. Ce n'est pas la chair mais la FORCE incluse dans
+        le muscle.
+      carapace_musculaire: >
+        Terme emprunté à W. Reich (métaphore). Réceptacle de tous les
+        stress et affects. Muscles abdominaux, thoraciques, oreille.
+        Pathologie très importante : certains muscles (MC par ex.)
+        peuvent entraîner des troubles cardiaques.
+      embryologie: >
+        Se mettent en place avec le muscle des ancêtres avant
+        la naissance, formant l'enveloppement qui permet à l'Homme
+        de se dresser debout.
+    3_Jing_Mo:
+      nom: Méridiens principaux (12 TT)
+      moment: adulte (naissance et après)
+      nature: >
+        Solénoïdes des 12 méridiens principaux qui capitalisent toute
+        la vie de l'individu et expriment son rapport avec ses origines
+        cosmo-génétiques et héréditaires. Système de commande chez
+        l'adulte.
+      diagnostic: >
+        Au niveau du POULS, on détecte la situation du système des
+        méridiens principaux. On ne peut PAS voir au pouls les MV
+        ni les tendino-musculaires.
+      prise_en_charge: >
+        À la naissance, l'enfant prend son autonomie par rapport à
+        l'environnement extérieur (plus de sustentation maternelle).
+        Les méridiens principaux prennent en charge complète.
+    4_Lo_Mo:
+      nom: Méridiens secondaires (Lo)
+      moment: se_structure_a_la_naissance
+      nature: >
+        Topographiquement plus superficiels que les méridiens
+        principaux. Comme un treillis qui enveloppe tout le corps.
+      embryologie: >
+        NE sont PAS des poussées/ramifications du méridien principal.
+        C'est une mise en organisation de toute la plage du corps par
+        une systématique secondaire, complémentaire. Décentralisée
+        dans l'embryon, se structure à la naissance.
+    5_Jing_Bie:
+      nom: Méridiens Distincts (Jing Bié = « séparés »)
+      moment: intermediaire (entre MV et naissance)
+      nature: >
+        Plus PROFONDS que les méridiens principaux. Comme des
+        cheminées allant du fond du corps vers l'encéphale, par
+        couple, depuis les extrémités des membres. Passent par
+        les « Fenêtres du Ciel ».
+      role: >
+        Organisent la vitalité en passant par l'encéphale.
+        Assurent l'axe central de l'organisation du corps.
+
+# ─────────────────────────────────────────────────
+# ÉCHELLE DE PROFONDEUR
+# ─────────────────────────────────────────────────
+
+echelle_profondeur:
+  ordre_surface_profondeur:
+    - Jing_Jin (tendino-musculaires) — le plus superficiel
+    - Lo_Mo (méridiens secondaires) — superficiel
+    - Jing_Mo (méridiens principaux) — profond
+    - Jing_Bie (méridiens distincts) — le plus profond
+    - Qi_Mo (8 MV) — en sous-impression derrière tout
+  note: >
+    Les 8 MV parcourent toute cette systématique en sous-impression
+    puisqu'ils sont apparus AVANT et qu'ils continuent à donner
+    la puissance de leur virtualité aux formations ultérieures.
+
+# ─────────────────────────────────────────────────
+# NOTIONS COMPLÉMENTAIRES
+# ─────────────────────────────────────────────────
+
+solenoides:
+  definition: >
+    Métaphore de Schatz pour les cycles (saisonniers, journaliers,
+    5 éléments). Ce n'est PAS un éternel retour (cercle fermé)
+    mais une SPIRALE qui ne repasse jamais au même endroit, avec
+    une ouverture sur l'irrationnel, l'indicible, le Dao.
+  application: >
+    Les 12 méridiens principaux forment un grand solénoïde
+    (spirale) par où passent les circuits d'énergie. Mais les
+    circuits sont des mécanismes RELATIONNELS entre les fonctions.
+    C'est la connaissance des fonctions qui guide l'acte
+    thérapeutique, pas les points seuls.
+
+fong:
+  etymologie: >
+    Fong = pénétrer, compénétrer, communiquer. Terme fondamental
+    dans le Taoïsme et en Médecine. La vie se développe
+    harmonieusement PAR la communication.
+  douleur: >
+    Douleur = même idéogramme avec modification = non-communication,
+    arrêt d'une communication. « L'essentiel de l'expression de la
+    vie, c'est la circulation, la pénétration. » (Rochas de la Vallée)
+  embryologie: >
+    Dès la conception, il faut des communications. Pas de
+    développement isolé mais relation, interpénétration entre
+    tout ce qui constitue le futur individu. Le cheminement
+    finit par faire le chemin.
+
+nei_wai_et_biao_li:
+  nei_wai:
+    definition: >
+      Intérieur / Extérieur. Comme deux pays voisins avec
+      relations internationales. Dépend toujours du contexte
+      (peau, organes/chairs, etc.).
+    etymologie:
+      nei: >
+        Enceinte ouverte sur un côté avec quelque chose qui
+        rentre et s'enracine = spatial, l'interne.
+      wai: >
+        Croissant de lune (nuit) + divination écaille de tortue
+        (validité temporelle) = qui a outrepassé la limite
+        TEMPORELLE, l'au-delà. Mariage lieux/moments.
+    usage_medical: >
+      Deux sources de maladie : pervers de l'extérieur (vent,
+      froid, chaleur) ou dérèglement de l'intérieur (alimentation,
+      7 sentiments).
+  biao_li:
+    definition: >
+      Avers / Doublure (d'un vêtement). Pas deux pays mais la
+      région du PASSAGE, du transit, où tout passe et transite.
+    etymologie:
+      biao: >
+        Poil de fourrure tourné vers l'extérieur = avers, endroit.
+      li: >
+        Doublure précieuse tournée vers l'intérieur + village (li)
+        = organisation par l'intérieur, zones vitales.
+    usage_medical: >
+      Couplage méridiens : ex. GI (Yang Ming) = Biao, P (Tae Yin)
+      = Li. L'essentiel dans la relation Biao/Li, ce sont les
+      échanges et transits de l'animation vitale.
+  distinction_NEI_WAI_vs_BIAO_LI:
+    nei_wai: >
+      Phénomènes cosmogénétiques, macro (extérieur/intérieur
+      du corps par rapport au monde).
+    biao_li: >
+      Relation d'intimité du corps, micro (endroit/doublure),
+      influence des énergies héréditaires entre systèmes.
+    inversion: >
+      Même croisement que Ciel/Terre vs Yin/Yang :
+      Interne = Li (revers), Externe = Biao (avers).
+
+# ─────────────────────────────────────────────────
+# DAO ET TAÉ I
+# ─────────────────────────────────────────────────
+
+dao_et_tae_i:
+  dao:
+    ideogramme: >
+      Mouvement de la marche + tête avec chevelure dénouée
+      (liberté). Aussi bien le Chemin que le cheminement, la
+      conduite, une région (découpée par les routes).
+    nature: >
+      Surnom donné à la réalité innommable. La spontanéité
+      naturelle, le mouvement naturel lui-même. « Le Dao dont
+      on parle n'est pas celui qui existe. »
+    usage: >
+      Le Dao de l'Homme = suivre le Dao du Ciel. Comme le Ciel
+      n'est pas visible, prendre le Dao de la Terre (saisons,
+      arbres) pour s'y adapter. Premiers chapitres du Su Wen.
+  tae_i:
+    definition: >
+      Grande Unité (Taé I) = ce qui est AVANT le Yin et le Yang,
+      ou bien le Taé Qi (faîte suprême). Réalité suprême où nous
+      nous retrouvons tous, racine commune de tous les êtres.
+    image: >
+      Poutre faîtière : toute la charpente descend d'elle, toute
+      vie est suspendue à cette réalité. Inexplicable, commence
+      à s'exprimer avec le Yin et le Yang.
+
+# ─────────────────────────────────────────────────
+# MING MEN — PORTE DE LA DESTINÉE (APPROFONDI)
+# ─────────────────────────────────────────────────
+
+ming_men_approfondi:
+  ideogramme:
+    men: >
+      Grande porte solennelle à deux battants. Porte d'entrée
+      par où le nouvel être rentre dans la vie.
+    ming: >
+      Mandat du Ciel = nature propre de chacun telle que le Ciel
+      l'a formé. Deux choses se réunissent (partie supérieure) +
+      sceptre de l'autorité (partie inférieure) = mandat donné.
+  citations_texte_moderne:
+    essentiel: >
+      « Un des organes les plus essentiels de la vie de l'Homme.
+      En étroite relation avec les activités fonctionnelles des
+      Zang et des Fu. Lieu où résident tous les Shen Jing, là
+      où s'attachent les Souffles Yuan. »
+    fonctions: >
+      « Source des Souffles de la vie, tronc des 5 Zang et 6 Fu,
+      racine des 12 Jing Mo, porte de l'inspiration et de
+      l'expiration, source des 3 Réchauffeurs. »
+    mort: >
+      « Si Ming Men décroît et s'épuise, alors la vie prend fin. »
+  petit_coeur: >
+    Ming Men est aussi appelé le « Petit Cœur ». Le Cœur obtient
+    l'aide de Ming Men pour commander les Shen Ming et faire la
+    splendeur des Jing Shen. Ming Men est source du Feu Ministre.
+  embryologie_ming_men:
+    noeud_de_Hensen: >
+      Rapprochement avec le nœud de Hensen en embryologie
+      occidentale (début 1er mois, formation 3è feuillet).
+    rechauffeur_initial: >
+      Le réchauffeur initial du C.A. se forme autour de Ming Men.
+      Puis se différencie le Petit Cœur (matrice du MC). Le
+      réchauffeur initial éclate en 3 Réchauffeurs pendant que
+      le Petit Cœur s'étend, enrobe le Cœur et forme le MC
+      (barrière protectrice).
+    retournement_coeur: >
+      Le cœur anatomique naît de l'accolement de deux tubes
+      cardiaques. L'intestin tournant fait sa grande spire avec
+      l'IG, et le cœur fait un retournement en sens inverse.
+    mesenchyme: >
+      Le 3è feuillet mésenchymateux (mésoderme) semble être le
+      lieu de prédilection des fonctions des 3 Réchauffeurs.
+      D'où les liquides interstitiels dans le mésenchyme.
+  sheng_hua:
+    definition: >
+      Naissance-transformation (Sheng Hua). « Les naissances et
+      transformations de la Rate (Terre du C.P.) s'appuient sur
+      la chaleur nourricière du Feu de Ming Men du C.A. Cependant,
+      le Yang authentique du C.A. a besoin de la contribution
+      continuelle du C.P. »
+    implication: >
+      Ming Men = C.A., Rate = C.P. Deux grandes sources. Il y a
+      un 3ème pôle : la Rate, tronc du C.P. Rate et Ming Men
+      sont interdépendants (C.A. nourrit C.P. et inversement).

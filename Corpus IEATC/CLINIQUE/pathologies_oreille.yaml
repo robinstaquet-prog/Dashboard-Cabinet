@@ -1,0 +1,220 @@
+# PATHOLOGIES — SURDITÉS ET BOURDONNEMENTS D'OREILLE
+# Source : Polycopié VI, Série EEA tome 3 — Séminaire 8 avril 1983
+# Auteurs : Dr Schatz, Elisabeth Rochas de la Vallée, Jean-Louis Blard
+# Synthèse complète : causes, différentiation vide/plein, traitements
+
+meta:
+  fichier: pathologies_oreille.yaml
+  source: PVI_EEA_t3
+  auteurs: [Schatz, Rochas_de_la_Vallee, Blard]
+  statut: complet
+  liens:
+    - ZANG_FU/rein.yaml
+    - ZANG_FU/foie.yaml
+    - ZANG_FU/vesicule_biliaire.yaml
+    - ZANG_FU/vessie.yaml
+
+# =============================================================================
+# GÉNÉRALITÉS
+# =============================================================================
+
+generalites:
+  principe: >
+    Les bourdonnements sont une forme atténuée de la surdité (Su Wen chap. 62).
+    Autres noms : fermeture de l'oreille, être dur de l'oreille. Des sensations
+    subjectives ou observations objectives montrent un obstacle rendant le degré
+    de force de l'audition inégal.
+  trois_categories:
+    - innee_Ciel_Anterieur: ne_se_traite_pas
+    - excitations_externes: WAI_GAN
+    - atteintes_internes: NEI_SHANG
+  zones_oreille:
+    oreille_interne: Rein
+    oreille_moyenne: Shao_Yang_TR_VB
+    oreille_externe: Tai_Yang
+  relation_R: >
+    L'oreille est l'orifice extérieur des R. Les méridiens du TR et de la VB se
+    rassemblent au milieu de l'oreille.
+  source: PVI-t3-p79_80
+
+# =============================================================================
+# DIFFÉRENTIATION VIDE / PLEIN
+# =============================================================================
+
+differentiation:
+  principe: >
+    Les brusques surdités dépendent pour beaucoup du plein.
+    Les longues surdités, celles qui évoluent lentement, dépendent du vide.
+
+  bourdonnements_vide:
+    cause: deterioration_Yin_des_R
+    mecanisme: >
+      La chaleur qui provient d'un manque de Yin des R monte faire des inflammations.
+      C'est le "Feu du vide" — inflammations provenant de la déficience du Yin du R.
+    caractere_son: bruit_de_cigale_bruits_de_flute_continuels_mais_tenus
+    symptomes:
+      - bourdonnements_intermittents
+      - s_accroissent_quand_on_est_fatigue
+      - etourdissements
+      - vertiges
+      - lombalgies
+    aggravation: fatigue
+    source: PVI-t3-p81_82
+
+  bourdonnements_plein:
+    cause: brusques_coleres_attaquent_F_Yang_du_F_en_surabondance
+    mecanisme: >
+      Le feu de la VB monte à contre-courant (par rapport au trajet du méridien qui
+      descend). Le Yin étant faible, le Yang prend sa place. Plus d'équilibre entre
+      les formations des liquides (Yin) et celles énergétiques de la chaleur — inflammation.
+    caractere_son: croassements_grenouille_flux_reflux_mer_bruits_violents
+    symptomes:
+      - bourdonnements_continus_qui_ne_diminuent_pas
+      - brusques_et_soudaines_surdites
+      - tete_gonflee_et_lourde
+      - nez_bouche
+      - bouche_amere
+      - cotes_douloureuses
+    source: PVI-t3-p81
+
+  symptomes_communs_aggravation:
+    - etourdissements
+    - troubles_oculaires
+    - region_lombaire_et_epine_dorsale_endolories
+  source: PVI-t3-p82
+
+# =============================================================================
+# CAUSES DES PATHOLOGIES D'OREILLE
+# =============================================================================
+
+causes:
+  excitations_externes:
+    mecanisme: >
+      Influences cosmogénétiques, atmosphériques. Surtout les pervers du vent qui vont
+      être responsables des bourdonnements et surdités. Le vent attaque l'oreille où
+      il fait des obstructions des Souffles.
+    symptomes_accompagnement:
+      - douleurs_tete
+      - nez_bouche
+      - gorge_seche
+      - pharynx_douloureux
+    source: PVI-t3-p83
+
+  fermeture_souffles:
+    mecanisme: >
+      Très souvent dû à des causes psychologiques : violentes colères, chagrin qui
+      obsède, peur soudaine. Les sentiments se répercutent sur le fonctionnement
+      du Zang et créent une perturbation dans l'harmonieuse répartition des Souffles.
+      Les Souffles du Zang atteint sont saisis d'un contre-courant — "fermeture des
+      Souffles". Arrêt des Souffles de l'oreille — cessation de l'audition, assez
+      brusque puisque consécutive aux sentiments.
+    source: PVI-t3-p83
+
+  feu_du_phlegme:
+    mecanisme: >
+      Perversion des liquides interstitiels sous l'effet de la chaleur, au niveau de
+      E/Rte/P où se forment ces liquides. Alimentation trop riche, trop grasse, de
+      manière répétée — chaleur et humidité constantes au Réchauffeur Moyen. Formation
+      de phlegme porteur d'inflammations. Le P est bloqué, cela monte à la face et
+      fait des obstructions dans les mécanismes de l'oreille.
+    source: PVI-t3-p83
+
+  feu_du_foie:
+    mecanisme: >
+      Insuffisance du Yin des R, insuffisance du sang thésaurisé dans le F — déséquilibre
+      du Yang du F, inflammations par le méridien de VB (connexe avec la fonction Yang du F).
+      Ce feu monte à la face et amène des inflammations à l'oreille.
+    symptomes_accompagnement:
+      - vertiges
+      - eblouissements
+      - tendance_colere
+      - palpitations_de_peur
+    source: PVI-t3-p83
+
+  affaiblissement_souffles:
+    mecanisme: >
+      Mauvaise alimentation, grande fatigue qui se porte sur E/Rte. E/Rte perdent la
+      fonction de transporter et transformer. Les liquides interstitiels ne s'élèvent
+      plus, il y a immobilisation. Fatigue générale, visage terne, faiblesses au
+      niveau des organes des sens et notamment de l'oreille.
+    source: PVI-t3-p84
+
+  vide_des_reins:
+    mecanisme: >
+      Relation des R avec l'oreille (leur orifice) et leur fonction de thésauriser le Jing.
+      Quand il n'y a plus assez de force pour envoyer le Jing à l'oreille, l'appareil
+      auditif n'est plus vitalisé.
+    symptomes_accompagnement:
+      - bourdonnements_tres_menus_jusqu_a_surdite
+      - cerveau_touche_confusion_hebetude
+      - douleurs_lombaires
+      - spermatorrhee_pertes_chez_femme
+    source: PVI-t3-p84
+
+# =============================================================================
+# TRAITEMENTS
+# =============================================================================
+
+traitements:
+  plein:
+    principe: ouvrir_fermetures_des_Souffles_puncture_en_dispersion
+    traitement_yang_F_VB:
+      points: [3F_dispersion, 41VB_dispersion, TR16_dispersion]
+      explication: >
+        3F et 41VB sur le Shao Yang pour faire s'abaisser les Souffles du F et
+        de la VB. TR16 point régional.
+
+  vide:
+    principe: tonifier_F_et_R_utiliser_moxas
+    traitement_tonifier_R_et_Yin_F:
+      points: [23VB_tonification, 4VG_tonification, 3R_tonification, 6Rte_tonification, 2F_tonification]
+      explication: >
+        23VB, 4VG et 3R pour tonifier le Souffle des R. 6Rte et 2F pour augmenter
+        le Yin du F et des R et clarifier le Feu du vide (2F surtout).
+    clarifier_feu_du_vide: >
+      Le Yin, les liquides des R sont en insuffisance et il y a montée du Feu, du Yang
+      des R et du Yang du F — c'est le Feu du vide. On agit sur le "fils" (F) pour soigner
+      la cause et on tonifie le Yin du F pour rétablir l'équilibre, "clarifier" ce Feu
+      c'est-à-dire le refroidir.
+
+  exemples_formules:
+    formule_vent_pervers:
+      points: [TR5_dispersion, P7_dispersion, GI4_dispersion, VB20_dispersion, TR17_dispersion]
+      explication: >
+        TR5 et VB20 sur le Shao Yang pour chasser les vents pervers et en délivrer le Biao.
+        P7 et GI4 pour faire circuler les Souffles du P, les énergies défensives vont
+        aller jusqu'à la peau et chasser les pervers du vent. TR17 point local et du vent.
+
+    formule_fermeture_souffles:
+      points: [VB2_dispersion, IG12_dispersion, TR17_dispersion, TR3_dispersion, TR21_dispersion]
+      explication: >
+        Surtout des points locaux qui concernent cette région. Faire circuler les
+        Souffles qui étaient bloqués.
+
+    formule_feu_phlegme:
+      points: [E40_dispersion, GI4_dispersion, MC7_dispersion, MC6_dispersion, TR3_dispersion, VB2_dispersion]
+      explication: >
+        E40 : point fondamental traitement du phlegme, très utilisé pour rétablir
+        normalité des liquides interstitiels, réduire chaleur (+ souvent VC12).
+        MC7 et MC6 : agir sur le feu région cardiaque et diaphragmatique.
+        TR3 : régulariser le Shao Yang dans cette région.
+
+    formule_feu_F:
+      points: [F2_dispersion, F3_dispersion, VB43_dispersion, VB2_dispersion, R3_tonification]
+      explication: >
+        F2 et F3 : dispersion du Yang du F et rétablir équilibre Yin/Yang.
+        VB43 et VB2 : même action de dispersion pour le feu de la VB par le Shao Yang de pied.
+        R3 : on tonifie le R, plutôt à droite pour tonifier le Yin.
+
+    formule_affaiblissement_souffles:
+      points: [VG20_tonification, E36_tonification, VC6_tonification]
+      explication: >
+        VG20 fait s'élever les Souffles dans l'organisme.
+        VC6 et E36 pour tonifier E/Rte et rétablir bon fonctionnement du Réchauffeur Moyen.
+        VC6 pour renforcer énergétique du corps et relancer Souffles bloqués.
+
+    formule_vide_R:
+      points: [V23_tonification, VC4_tonification, R3_tonification]
+      explication: Tonifier pour agir sur la relance de l'énergétique liée aux R.
+
+  source: PVI-t3-p82_85
