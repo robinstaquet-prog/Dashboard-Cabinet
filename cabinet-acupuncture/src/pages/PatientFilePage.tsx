@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, CartesianGrid } from 'recharts'
 import { useAppStore } from '../store/AppContext'
@@ -9,6 +9,7 @@ import { pipelineClient } from '../api/pipelineClient'
 export default function PatientFilePage() {
   const { id } = useParams<{ id: string }>()
   const { data, deletePatient, updatePatient, addAnamnesisNote } = useAppStore()
+
   const navigate = useNavigate()
 
   const [noteText, setNoteText] = useState('')
@@ -17,18 +18,43 @@ export default function PatientFilePage() {
   const [editPrenom, setEditPrenom] = useState('')
   const [editNom, setEditNom] = useState('')
 
-  // Pipeline — ouverture ODT
+  // Pipeline — code et ouverture ODT
+  const [pipelineCode, setPipelineCode] = useState<string | null>(null)
   const [odtStatus, setOdtStatus] = useState<null | 'loading' | 'error'>(null)
   const [odtError, setOdtError] = useState('')
 
   const patient = data.patients.find((p) => p.id === id)
 
+  // Récupère le code pipeline : d'abord depuis le dossier, sinon par recherche par nom
+  useEffect(() => {
+    if (!patient) return
+    if (patient.pipelineCode) {
+      setPipelineCode(patient.pipelineCode)
+      return
+    }
+    const dashboardName = `${patient.prenom} ${patient.nom}`.toLowerCase()
+    pipelineClient.listPatients().then((list) => {
+      const match = list.find(
+        (p) => p.prenom_nom.replace(/_\d+$/, '').toLowerCase() === dashboardName,
+      )
+      if (match) {
+        setPipelineCode(match.code)
+        // Mémorise le code dans le dossier pour les prochaines fois
+        updatePatient(patient.id, { pipelineCode: match.code })
+      }
+    }).catch(() => {})
+  }, [patient?.id, patient?.pipelineCode]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const effectiveCode = patient?.pipelineCode ?? pipelineCode
+
   async function handleOpenOdt() {
-    if (!patient?.pipelineCode) return
+    if (!effectiveCode || !patient) return
     setOdtStatus('loading')
     setOdtError('')
     try {
-      await pipelineClient.openOdt(patient.pipelineCode)
+      // Régénère d'abord pour s'assurer que l'ODT est à jour
+      await pipelineClient.regenerateFromDashboard(effectiveCode, patient)
+      await pipelineClient.openOdt(effectiveCode)
       setOdtStatus(null)
     } catch (e) {
       setOdtStatus('error')
@@ -150,7 +176,7 @@ export default function PatientFilePage() {
             >
               Modifier
             </Link>
-            {patient.pipelineCode && (
+            {effectiveCode && (
               <button
                 onClick={handleOpenOdt}
                 disabled={odtStatus === 'loading'}
